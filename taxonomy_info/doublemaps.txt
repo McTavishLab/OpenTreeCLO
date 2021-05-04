@@ -1,0 +1,38 @@
+Ptilinopus cinctus, Ptilinopus alligator; are mapped to same taxon Ptilinopus cinctus, ott3596574
+Ducula bicolor, Ducula subflavescens, Ducula spilorrhoa; are mapped to same taxon Ducula bicolor, ott449659
+Systellura longirostris roraimae, Systellura longirostris atripunctata, Systellura longirostris longirostris, Systellura longirostris mochaensis; are mapped to same taxon Caprimulgus longirostris, ott275133
+Antrostomus cubanensis, Antrostomus cubanensis ekmani; are mapped to same taxon Caprimulgus cubanensis, ott3597061
+Trochilus polytmus, Trochilus polytmus polytmus; are mapped to same taxon Trochilus polytmus, ott27874
+Zapornia pusilla, Zapornia pusilla pusilla; are mapped to same taxon Porzana pusilla, ott32330
+Rissa tridactyla, Rissa tridactyla tridactyla, Rissa tridactyla pollicaris; are mapped to same taxon Rissa tridactyla, ott585161
+Gelochelidon nilotica, Gelochelidon nilotica macrotarsa; are mapped to same taxon Gelochelidon nilotica, ott1021956
+Diomedea epomophora, Diomedea epomophora epomophora; are mapped to same taxon Diomedea epomophora, ott904499
+Oceanodroma castro, Oceanodroma castro castro; are mapped to same taxon Hydrobates castro, ott496011
+Microcarbo africanus, Microcarbo coronatus; are mapped to same taxon Phalacrocorax africanus, ott3600675
+Bubulcus ibis, Bubulcus ibis ibis; are mapped to same taxon Bubulcus ibis, ott729476
+Nyctanassa violacea, Nyctanassa violacea pauper; are mapped to same taxon Nyctanassa violacea, ott244700
+Geranoaetus polyosoma, Geranoaetus polyosoma polyosoma, Geranoaetus polyosoma exsul; are mapped to same taxon Buteo polyosoma, ott458097
+Pseudastur albicollis, Pseudastur albicollis ghiesbreghti, Pseudastur albicollis costaricensis, Pseudastur albicollis williaminae, Pseudastur albicollis albicollis; are mapped to same taxon Leucopternis albicollis, ott624768
+Epinecrophylla ornata hoffmannsi, Rhegmatorhina hoffmannsi; are mapped to same taxon Rhegmatorhina hoffmannsi, ott1092626
+Clibanornis rubiginosus, Clibanornis rubiginosus cinnamomeigula, Clibanornis rubiginosus watkinsi; are mapped to same taxon Automolus rubiginosus, ott713365
+Mionectes olivaceus, Oncostoma olivaceum; are mapped to same taxon Mionectes olivaceus, ott581548
+Poecilotriccus calopterus, Mecocerculus calopterus; are mapped to same taxon Mecocerculus calopterus, ott1008948
+Tolmomyias sulphurescens cinereiceps, Phyllomyias cinereiceps; are mapped to same taxon Phyllomyias cinereiceps, ott3599241
+Ornithion brunneicapillus, Contopus latirostris brunneicapillus; are mapped to same taxon Ornithion brunneicapillus, ott187660
+Tunchiornis ochraceiceps, Tunchiornis ochraceiceps luteifrons; are mapped to same taxon Hylophilus ochraceiceps, ott669572
+Sphecotheres viridis, Sphecotheres vieilloti; are mapped to same taxon Sphecotheres vieilloti, ott319134
+Heteromyias albispecularis, Heteromyias cinereifrons; are mapped to same taxon Poecilodryas albispecularis, ott664
+Zosterops virens, Zosterops virens virens; are mapped to same taxon Zosterops virens, ott235458
+Ianthocincla chinensis, Ianthocincla chinensis monachus; are mapped to same taxon Garrulax chinensis, ott673521
+Actinodura nipalensis, Actinodura waldeni; are mapped to same taxon Actinodura waldeni, ott695502
+Catharus fuscater hellmayri, Turdus fuscater; are mapped to same taxon Turdus fuscater, ott1008495
+Ficedula erithacus, Ficedula hodgsoni; are mapped to same taxon Ficedula hodgsoni, ott7660859
+Ploceus capensis, Euplectes capensis phoenicomerus, Euplectes capensis xanthomelas; are mapped to same taxon Ploceus capensis, ott606515
+Motacilla capensis, Macronyx capensis; are mapped to same taxon Motacilla capensis, ott483327
+Hemignathus wilsoni, Chlorodrepanis virens wilsoni; are mapped to same taxon Hemignathus wilsoni, ott324561
+Rhodopechys sanguineus, Rhodopechys sanguineus sanguineus; are mapped to same taxon Rhodopechys sanguineus, ott1031938
+Geothlypis aequinoctialis, Geothlypis aequinoctialis aequinoctialis; are mapped to same taxon Geothlypis aequinoctialis, ott669575
+Ramphocelus flammigerus, Ramphocelus flammigerus flammigerus; are mapped to same taxon Ramphocelus flammigerus, ott916570
+Dacnis lineata, Dacnis lineata lineata; are mapped to same taxon Dacnis lineata, ott1050032
+Poospiza whitii, Poospiza nigrorufa; are mapped to same taxon Poospiza whitii, ott553173
+Sicalis olivascens, Embernagra platensis olivascens; are mapped to same taxon Sicalis olivascens, ott922660
