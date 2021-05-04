@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu5[&otu=otu5,^ot:ottId=266067,^ot:ottTaxonName=Trachyphonus erythrocephalus,^ot:originalLabel=Trachyphonus_erythrocephalus,^clo:ClementsTaxonName2019=Trachyphonus erythrocephalus,^clo:speciescode2019=raybar1],otu6[&otu=otu6,^ot:ottId=214989,^ot:ottTaxonName=Tricholaema hirsuta,^ot:originalLabel=Tricholaema_hirsuta,^clo:ClementsTaxonName2019=Tricholaema hirsuta,^clo:speciescode2019=habbar1])node10,(otu4[&otu=otu4,^ot:ottId=738739,^ot:ottTaxonName=Megalaima haemacephala,^ot:originalLabel=Megalaima_haemacephala,^clo:ClementsTaxonName2019=Psilopogon haemacephalus,^clo:speciescode2019=copbar1],((otu7[&otu=otu7,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu8[&otu=otu8,^ot:ottId=291641,^ot:ottTaxonName=Psilopogon pyrolophus,^ot:originalLabel=Psilopogon_pyrolophus,^clo:ClementsTaxonName2019=Psilopogon pyrolophus,^clo:speciescode2019=fitbar1])node13,(((otu1[&otu=otu1,^ot:ottId=384573,^ot:ottTaxonName=Megalaima asiatica,^ot:originalLabel=Megalaima_asiatica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=738735,^ot:ottTaxonName=Megalaima oorti,^ot:originalLabel=Megalaima_oorti,^clo:ClementsTaxonName2019=Psilopogon oorti,^clo:speciescode2019=blbbar5])node1,otu2[&otu=otu2,^ot:ottId=909900,^ot:ottTaxonName=Megalaima chrysopogon,^ot:originalLabel=Megalaima_chrysopogon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node3,otu3[&otu=otu3,^ot:ottId=738749,^ot:ottTaxonName=Megalaima franklinii,^ot:originalLabel=Megalaima_franklinii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node5)node7)node8)'tree1_ROOT';
+END;
+

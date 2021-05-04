@@ -1,0 +1,27 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu18	Aethia pusilla	leaauk	Aethia_pusilla	855484	Aethia pusilla
+otu19	Aethia cristatella	creauk	Aethia_cristatella	855480	Aethia cristatella
+otu20	not_a_bird	not_a_bird	Aethia_psittacula	None	None
+otu21	Aethia pygmaea	whiauk	Aethia_pygmaea	855482	Aethia pygmaea
+otu22	Ptychoramphus aleuticus	casauk	Ptychoramphus_aleuticus	979353	Ptychoramphus aleuticus
+otu23	Fratercula arctica	atlpuf	Fratercula_arctica	864865	Fratercula arctica
+otu24	Fratercula corniculata	horpuf	Fratercula_corniculata	1078400	Fratercula corniculata
+otu25	Fratercula cirrhata	tufpuf	Fratercula_cirrhata	385981	Fratercula cirrhata
+otu26	Cerorhinca monocerata	rhiauk	Cerorhinca_monocerata	989958	Cerorhinca monocerata
+otu4	no_match	no_match	Alle_alle_alle	571570	Alle alle alle
+otu5	no_match	no_match	Alle_alle_polaris	147723	Alle alle polaris
+otu3	Uria lomvia	thbmur	Uria_lomvia	551817	Uria lomvia
+otu1	no_match	no_match	Uria_aalge_aalge	1097995	Uria aalge aalge
+otu2	no_match	no_match	Uria_aalge_inornata	1097994	Uria aalge inornata
+otu7	not_a_bird	not_a_bird	Pinguinus_impennis	None	None
+otu6	Alca torda	razorb	Alca_torda	855485	Alca torda
+otu8	Synthliboramphus antiquus	ancmur	Synthliboramphus_antiquus	1078411	Synthliboramphus antiquus
+otu9	Synthliboramphus wumizusume	japmur1	Synthliboramphus_wumizusume	551819	Synthliboramphus wumizusume
+otu11	Synthliboramphus hypoleucus	xanmur1	Synthliboramphus_hypoleucus	1078413	Synthliboramphus hypoleucus
+otu10	Synthliboramphus craveri	cramur	Synthliboramphus_craveri	454492	Synthliboramphus craveri
+otu14	Cepphus grylle	blkgui	Cepphus_grylle	280901	Cepphus grylle
+otu13	Cepphus columba	piggui	Cepphus_columba	280900	Cepphus columba
+otu12	Cepphus carbo	spegui1	Cepphus_carbo	536766	Cepphus carbo
+otu15	Brachyramphus brevirostris	kitmur	Brachyramphus_brevirostris	280897	Brachyramphus brevirostris
+otu16	Brachyramphus marmoratus	marmur	Brachyramphus_marmoratus	280902	Brachyramphus marmoratus
+otu17	Brachyramphus perdix	lobmur	Brachyramphus_perdix	1097991	Brachyramphus perdix

@@ -1,0 +1,20 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Aptenodytes forsteri	emppen1	Aptenodytes_forsteri	494370	Aptenodytes forsteri
+otu2	Aptenodytes patagonicus	kinpen1	Aptenodytes_patagonicus	494361	Aptenodytes patagonicus
+otu5	Pygoscelis adeliae	adepen1	Pygoscelis_adeliae	494357	Pygoscelis adeliae
+otu4	Pygoscelis papua	genpen1	Pygoscelis_papua	1028837	Pygoscelis papua
+otu3	Pygoscelis antarcticus	chipen2	Pygoscelis_antarctica	134466	Pygoscelis antarcticus
+otu6	Megadyptes antipodes	yeepen1	Megadyptes_antipodes	429618	Megadyptes antipodes
+otu14	Eudyptes sclateri	bicpen1	Eudyptes_sclateri	60413	Eudyptes sclateri
+otu13	Eudyptes robustus	snapen1	Eudyptes_robustus	219197	Eudyptes robustus
+otu12	Eudyptes pachyrhynchus	fiopen1	Eudyptes_pachyrhynchus	976561	Eudyptes pachyrhynchus
+otu11	Eudyptes schlegeli	roypen1	Eudyptes_schlegeli	605139	Eudyptes schlegeli
+otu10	Eudyptes chrysolophus	macpen1	Eudyptes_chrysolophus	82219	Eudyptes chrysolophus
+otu9	no_match	no_match	Eudyptes_moseleyi	3600098	Eudyptes chrysocome moseleyi
+otu8	Eudyptes chrysocome filholi	rocpen3	Eudyptes_filholi	3600097	Eudyptes filholi
+otu7	Eudyptes chrysocome	rocpen1	Eudyptes_chrysocome	82220	Eudyptes chrysocome
+otu15	Eudyptula minor	litpen1	Eudyptula_minor	613299	Eudyptula minor
+otu18	Spheniscus humboldti	humpen1	Spheniscus_humboldti	810741	Spheniscus humboldti
+otu19	Spheniscus mendiculus	galpen1	Spheniscus_mendiculus	399791	Spheniscus mendiculus
+otu16	Spheniscus demersus	jacpen1	Spheniscus_demersus	60417	Spheniscus demersus
+otu17	Spheniscus magellanicus	magpen1	Spheniscus_magellanicus	429622	Spheniscus magellanicus

@@ -1,0 +1,21 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu14	Branta hutchinsii minima	cacgoo2	Branta_canadensis_minima	746546	Branta hutchinsii minima
+otu15	not_a_bird	not_a_bird	Branta_canadensis_hutchinsii	None	None
+otu16	Branta hutchinsii taverneri	tacgoo1	Branta_canadensis_taverneri	1095437	Branta hutchinsii taverneri
+otu17	Branta leucopsis	bargoo	Branta_leucopsis	799124	Branta leucopsis
+otu13	no_match	no_match	Branta_canadensis_maxima	75874	Branta canadensis maxima
+otu12	no_match	no_match	Branta_canadensis_occidentalis	1052012	Branta canadensis occidentalis
+otu11	not_a_bird	not_a_bird	Giant_Hawaii_Goose	None	None
+otu10	no_match	no_match	Branta_hylobadistes	799129	Branta hylobadistes
+otu7	Branta sandvicensis	hawgoo	Branta_sandvicensis_Maui	767835	Branta sandvicensis
+otu8	Branta sandvicensis	hawgoo	Branta_sandvicensis_Hawaii	767835	Branta sandvicensis
+otu9	Branta sandvicensis	hawgoo	Branta_sandvicensis	767835	Branta sandvicensis
+otu18	Branta bernicla hrota	atlbra1	Branta_bernicla_hrota	799134	Branta bernicla hrota
+otu19	Branta bernicla nigricans	blkbra1	Branta_bernicla_nigricans	799107	Branta bernicla nigricans
+otu20	Branta ruficollis	rebgoo1	Branta_ruficollis	799106	Branta ruficollis
+otu5	Anser canagicus	empgoo	Anser_canagicus	166688	Anser canagica
+otu4	Anser cygnoides	swagoo1	Anser_cygnoides	190892	Anser cygnoides
+otu3	Anser erythropus	lwfgoo	Anser_erythropus	691333	Anser erythropus
+otu1	no_match	no_match	Anser_albifrons_frontalis	455335	Anser albifrons frontalis
+otu2	Anser albifrons flavirostris	gwfgoo1	Anser_albifrons_flavirostris	444177	Anser albifrons flavirostris
+otu6	Anser rossii	rosgoo	Anser_rosii	767830	Anser rossii

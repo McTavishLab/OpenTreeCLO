@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+        otu310015
+        otu310016
+        otu310017
+        otu310028
+        otu310025
+        otu310021
+        otu310027
+        otu310026
+        otu310018
+        otu310019
+        otu310023
+        otu310020
+        otu310024
+        otu310022
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((otu310015[&otu=otu310015,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=Casuarius_casuarius,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1],otu310021[&otu=otu310021,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node787794,((otu310016[&otu=otu310016,^ot:ottId=520559,^ot:ottTaxonName=Ortalis cinereiceps,^ot:originalLabel=Ortalis_cinereiceps,^clo:ClementsTaxonName2019=Ortalis cinereiceps,^clo:speciescode2019=grhcha1],otu310020[&otu=otu310020,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1])node787798,(otu310028[&otu=otu310028,^ot:ottId=650221,^ot:ottTaxonName=Musophaga violacea,^ot:originalLabel=Musophaga_violacea,^clo:ClementsTaxonName2019=Musophaga violacea,^clo:speciescode2019=viotur1],otu310026[&otu=otu310026,^ot:ottId=316995,^ot:ottTaxonName=Coragyps atratus,^ot:originalLabel=Coragyps_atratus,^clo:ClementsTaxonName2019=Coragyps atratus,^clo:speciescode2019=blkvul])node787801)node787797)node787793,((otu310022[&otu=otu310022,^ot:ottId=335590,^ot:ottTaxonName=Alligator mississippiensis,^ot:originalLabel=Alligator_mississippiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu310025[&otu=otu310025,^ot:ottId=828655,^ot:ottTaxonName=Paleosuchus palpebrosus,^ot:originalLabel=Paleosuchus_palpebrosus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu310023[&otu=otu310023,^ot:ottId=953147,^ot:ottTaxonName=Melanosuchus niger,^ot:originalLabel=Melanosuchus_niger,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu310027[&otu=otu310027,^ot:ottId=788419,^ot:ottTaxonName=Caiman yacare,^ot:originalLabel=Caiman_yacare,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node787788)node787787)node787786,((otu310017[&otu=otu310017,^ot:ottId=1035823,^ot:ottTaxonName=Tomistoma schlegelii,^ot:originalLabel=Tomistoma_schlegelii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu310018[&otu=otu310018,^ot:ottId=881015,^ot:ottTaxonName=Gavialis gangeticus,^ot:originalLabel=Gavialis_gangeticus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node787783,(otu310024[&otu=otu310024,^ot:ottId=1035828,^ot:ottTaxonName=Osteolaemus tetraspis,^ot:originalLabel=Osteolaemus_tetraspis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu310019[&otu=otu310019,^ot:ottId=180825,^ot:ottTaxonName=Mecistops cataphractus,^ot:originalLabel=Crocodylus_cataphractus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node787780)node787779)node787778)node787777;
+END;
+

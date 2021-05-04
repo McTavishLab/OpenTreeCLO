@@ -1,0 +1,3 @@
+https://tree.opentreeoflife.org/curator/study/view/ot_1002
+Hosner, Peter A. Brant C. Faircloth, Travis C. Glenn, Edward L. Braun, Rebecca T. Kimball. 2015. Avoiding missing data biases in phylogenomic inference: an empirical study in the landfowl (Aves: Galliformes). Molecular Biology and Evolution 33 (4): 1110-1125
+http://dx.doi.org/10.1093/molbev/msv347

@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+        otu8
+        Xiphorhynchus_chunchotambo
+        Xiphorhynchus_flavigaster
+        Xiphorhynchus_susurrans
+        Xiphorhynchus_obsoletus
+        Xiphorhynchus_triangularis
+        Campylorhamphus_trochilirostris
+        Lepidocolaptes_angustirostris
+        Sittasomus_griseicapillus
+        otu14
+        otu10
+        otu11
+        otu12
+        Xiphorhynchus_elegans
+  ;
+END;
+
+BEGIN TREES;
+    TREE cabanne_etal_2008_tree_2 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu14[&otu=otu14,^ot:ottId=359053,^ot:ottTaxonName=Xiphorhynchus fuscus,^ot:originalLabel=Xiphorhynchus_fuscus,^clo:ClementsTaxonName2019=Xiphorhynchus fuscus,^clo:speciescode2019=leswoo2],(otu12[&otu=otu12,^ot:ottId=407272,^ot:ottTaxonName=Xiphorhynchus spixii,^ot:originalLabel=Xiphorhynchus_spixii,^clo:ClementsTaxonName2019=Xiphorhynchus spixii,^clo:speciescode2019=spiwoo1],(otu11[&otu=otu11,^ot:ottId=227514,^ot:ottTaxonName=Xiphorhynchus ocellatus,^ot:originalLabel=Xiphorhynchus_ocellatus,^clo:ClementsTaxonName2019=Xiphorhynchus ocellatus,^clo:speciescode2019=ocewoo1],otu10[&otu=otu10,^ot:ottId=12263,^ot:ottTaxonName=Xiphorhynchus pardalotus,^ot:originalLabel=Xiphorhynchus_pardalotus,^clo:ClementsTaxonName2019=Xiphorhynchus pardalotus,^clo:speciescode2019=chrwoo1])node33)node31)node30,otu8[&otu=otu8,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=Xiphorhynchus_guttatus,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node28;
+END;
+

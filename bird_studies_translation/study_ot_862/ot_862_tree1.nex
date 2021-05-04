@@ -1,0 +1,36 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu24
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=]((((((otu5[&otu=otu5,^ot:ottId=729476,^ot:ottTaxonName=Bubulcus ibis,^ot:originalLabel=Ardea_ibis,^clo:ClementsTaxonName2019=Bubulcus ibis ibis,^clo:speciescode2019=categr1],((otu4[&otu=otu4,^ot:ottId=3596748,^ot:ottTaxonName=Ardea modesta,^ot:originalLabel=Ardea_modesta,^clo:ClementsTaxonName2019=Ardea alba modesta,^clo:speciescode2019=greegr3],otu3[&otu=otu3,^ot:ottId=868637,^ot:ottTaxonName=Ardea intermedia,^ot:originalLabel=Ardea_intermedia,^clo:ClementsTaxonName2019=Ardea intermedia,^clo:speciescode2019=integr])node11,(otu1[&otu=otu1,^ot:ottId=119222,^ot:ottTaxonName=Ardea cinerea,^ot:originalLabel=Ardea_cinerea,^clo:ClementsTaxonName2019=Ardea cinerea,^clo:speciescode2019=graher1],otu2[&otu=otu2,^ot:ottId=273431,^ot:ottTaxonName=Ardea purpurea,^ot:originalLabel=Ardea_purpurea,^clo:ClementsTaxonName2019=Ardea purpurea,^clo:speciescode2019=purher1])node8)node7)node6,(otu7[&otu=otu7,^ot:ottId=618202,^ot:ottTaxonName=Butorides striata,^ot:originalLabel=Butorides_striatus,^clo:ClementsTaxonName2019=Butorides striata,^clo:speciescode2019=strher],otu6[&otu=otu6,^ot:ottId=273439,^ot:ottTaxonName=Ardeola bacchus,^ot:originalLabel=Ardeola_bacchus,^clo:ClementsTaxonName2019=Ardeola bacchus,^clo:speciescode2019=chpher1])node15)node5,(((otu10[&otu=otu10,^ot:ottId=273425,^ot:ottTaxonName=Egretta garzetta,^ot:originalLabel=Egretta_garzetta,^clo:ClementsTaxonName2019=Egretta garzetta,^clo:speciescode2019=litegr],(otu9[&otu=otu9,^ot:ottId=55044,^ot:ottTaxonName=Egretta sacra,^ot:originalLabel=Egretta_sacra,^clo:ClementsTaxonName2019=Egretta sacra,^clo:speciescode2019=pacreh1],otu8[&otu=otu8,^ot:ottId=981451,^ot:ottTaxonName=Egretta eulophotes,^ot:originalLabel=Egretta_eulophotes,^clo:ClementsTaxonName2019=Egretta eulophotes,^clo:speciescode2019=chiegr])node21)node20,otu11[&otu=otu11,^ot:ottId=1032052,^ot:ottTaxonName=Ardea novaehollandiae,^ot:originalLabel=Egretta_novaehollandiae,^clo:ClementsTaxonName2019=Egretta novaehollandiae,^clo:speciescode2019=whfher1])node19,otu12[&otu=otu12,^ot:ottId=628056,^ot:ottTaxonName=Gorsachius magnificus,^ot:originalLabel=Gorsachius_magnificus,^clo:ClementsTaxonName2019=Gorsachius magnificus,^clo:speciescode2019=wenher1])node18)node4,(otu15[&otu=otu15,^ot:ottId=313126,^ot:ottTaxonName=Nycticorax nycticorax,^ot:originalLabel=Nycticorax_nycticorax,^clo:ClementsTaxonName2019=Nycticorax nycticorax,^clo:speciescode2019=bcnher],(otu14[&otu=otu14,^ot:ottId=3596771,^ot:ottTaxonName=Gorsachius melanolophus,^ot:originalLabel=Gorsachius_melanolophus,^clo:ClementsTaxonName2019=Gorsachius melanolophus,^clo:speciescode2019=manher1],otu13[&otu=otu13,^ot:ottId=3596773,^ot:ottTaxonName=Gorsachius goisagi,^ot:originalLabel=Gorsachius_goisagi,^clo:ClementsTaxonName2019=Gorsachius goisagi,^clo:speciescode2019=janher1])node28)node27)node3,(otu20[&otu=otu20,^ot:ottId=273438,^ot:ottTaxonName=Botaurus stellaris,^ot:originalLabel=Botaurus_stellaris,^clo:ClementsTaxonName2019=Botaurus stellaris,^clo:speciescode2019=grebit1],(otu19[&otu=otu19,^ot:ottId=105531,^ot:ottTaxonName=Ixobrychus sinensis,^ot:originalLabel=Ixobrychus_sinensis,^clo:ClementsTaxonName2019=Ixobrychus sinensis,^clo:speciescode2019=yelbit],((otu16[&otu=otu16,^ot:ottId=208441,^ot:ottTaxonName=Ixobrychus eurhythmus,^ot:originalLabel=Ixobrychus_eurhythmus,^clo:ClementsTaxonName2019=Ixobrychus eurhythmus,^clo:speciescode2019=schbit1],otu17[&otu=otu17,^ot:ottId=105533,^ot:ottTaxonName=Ixobrychus cinnamomeus,^ot:originalLabel=Ixobrychus_cinnamomeus,^clo:ClementsTaxonName2019=Ixobrychus cinnamomeus,^clo:speciescode2019=cinbit1])node35,otu18[&otu=otu18,^ot:ottId=928976,^ot:ottTaxonName=Dupetor flavicollis,^ot:originalLabel=Ixobrychus_flavicollis,^clo:ClementsTaxonName2019=Ixobrychus flavicollis,^clo:speciescode2019=blabit1])node34)node33)node32)node2,(otu24[&otu=otu24,^ot:ottId=946418,^ot:ottTaxonName=Nipponia nippon,^ot:originalLabel=Nipponia_nippon,^clo:ClementsTaxonName2019=Nipponia nippon,^clo:speciescode2019=creibi1],(otu23[&otu=otu23,^ot:ottId=413795,^ot:ottTaxonName=Threskiornis aethiopicus,^ot:originalLabel=Threskiornis_aethiopicus,^clo:ClementsTaxonName2019=Threskiornis aethiopicus,^clo:speciescode2019=sacibi2],(otu22[&otu=otu22,^ot:ottId=738327,^ot:ottTaxonName=Platalea minor,^ot:originalLabel=Platalea_minor,^clo:ClementsTaxonName2019=Platalea minor,^clo:speciescode2019=blfspo1],otu21[&otu=otu21,^ot:ottId=317305,^ot:ottTaxonName=Platalea leucorodia,^ot:originalLabel=Platalea_leucorodia,^clo:ClementsTaxonName2019=Platalea leucorodia,^clo:speciescode2019=eurspo1])node43)node42)node41)node1;
+END;
+

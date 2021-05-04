@@ -1,0 +1,53 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+Tl3311476	Setophaga ruticilla	amered	Setophaga_ruticilla	285200	Setophaga ruticilla
+Tl3311472	not_a_bird	not_a_bird	Parula_americana	None	None
+Tl3311511	Granatellus sallaei	grtcha1	Granatellus_sallaei	972938	Granatellus sallaei
+Tl3311510	Granatellus venustus	rebcha1	Granatellus_venustus	972935	Granatellus venustus
+Tl3311480	Granatellus pelzelni	robcha1	Granatellus_pelzelni	335232	Granatellus pelzelni
+Tl3311494	Cyanocompsa parellina	blubun	Cyanocompsa_parellina	772205	Cyanocompsa parellina
+Tl3311489	Passerina cyanea	indbun	Passerina_cyanea	939942	Passerina cyanea
+Tl3311471	Passerina amoena	lazbun	Passerina_amoena	119888	Passerina amoena
+Tl3311513	Passerina caerulea	blugrb1	Passerina_caerulea	486840	Passerina caerulea
+Tl3311493	Passerina rositae	robbun1	Passerina_rositae	724916	Passerina rositae
+Tl3311502	Passerina ciris	paibun	Passerina_ciris	887250	Passerina ciris
+Tl3311508	Passerina versicolor	varbun	Passerina_versicolor	887258	Passerina versicolor
+Tl3311515	Passerina leclancherii	orbbun1	Passerina_leclancherii	887253	Passerina leclancherii
+Tl3311497	Cyanoloxia glaucocaerulea	glbgro1	Cyanoloxia_glaucocaerulea	75499	Cyanoloxia glaucocaerulea
+Tl3311516	no_match	no_match	Cyanocompsa_brissonii	486836	Cyanocompsa brissonii
+Tl3311482	not_a_bird	not_a_bird	Cyanocompsa_cyanoides	None	None
+Tl3311473	Amaurospiza concolor	blusee1	Amaurospiza_concolor	596726	Amaurospiza concolor
+Tl3311477	Spiza americana	dickci	Spiza_americana	364334	Spiza americana
+Tl3311481	Piranga leucoptera	whwtan1	Piranga_leucoptera	1041104	Piranga leucoptera
+Tl3311501	Piranga rubriceps	rehtan2	Piranga_rubriceps	565247	Piranga rubriceps
+Tl3311499	Piranga erythrocephala	rehtan1	Piranga_erythrocephala	69804	Piranga erythrocephala
+Tl3311475	Piranga roseogularis	rottan1	Piranga_roseogularis	565242	Piranga roseogularis
+Tl3311474	Piranga rubra	sumtan	Piranga_rubra	1075670	Piranga rubra
+Tl3311487	Piranga bidentata	flctan	Piranga_bidentata	1041108	Piranga bidentata
+Tl3311504	Piranga ludoviciana	westan	Piranga_ludoviciana	565244	Piranga ludoviciana
+Tl3311496	Piranga olivacea	scatan	Piranga_olivacea	69808	Piranga olivacea
+Tl3311491	Piranga flava	heptan	Piranga_flava	1041102	Piranga flava
+Tl3311507	Caryothraustes poliogaster	blfgro1	Caryothraustes_poliogaster	23957	Caryothraustes poliogaster
+Tl3311495	Caryothraustes canadensis	yeggro1	Caryothraustes_canadensis	596729	Caryothraustes canadensis
+Tl3311505	Rhodothraupis celaeno	crcgro	Rhodothraupis_celaeno	545035	Rhodothraupis celaeno
+Tl3311518	Periporphyrus erythromelas	rabgro1	Periporphyrus_erythromelas	545040	Periporphyrus erythromelas
+Tl3311512	Cardinalis cardinalis	norcar	Cardinalis_cardinalis	307364	Cardinalis cardinalis
+Tl3311485	Cardinalis sinuatus	pyrrhu	Cardinalis_sinuatus	425446	Cardinalis sinuatus
+Tl3311509	Cardinalis phoeniceus	vercar1	Cardinalis_phoeniceus	489152	Cardinalis phoeniceus
+Tl3311500	Chlorothraupis olivacea	lestan	Chlorothraupis_olivacea	596728	Chlorothraupis olivacea
+Tl3311479	Chlorothraupis carmioli	olitan1	Chlorothraupis_carmioli	819311	Chlorothraupis carmioli
+Tl3311483	Chlorothraupis stolzmanni	ocbtan1	Chlorothraupis_stolzmanni	23955	Chlorothraupis stolzmanni
+Tl3311506	Habia rubica	rcatan1	Habia_rubica	315827	Habia rubica
+Tl3311488	Habia atrimaxillaris	bcatan1	Habia_atrimaxillaris	3597338	Habia atrimaxillaris
+Tl3311478	Habia fuscicauda	rtatan1	Habia_fuscicauda	972936	Habia fuscicauda
+Tl3311503	Habia gutturalis	soatan1	Habia_gutturalis	972933	Habia gutturalis
+Tl3311470	Pheucticus aureoventris	blbgro2	Pheucticus_aureoventris	874353	Pheucticus aureoventris
+Tl3311519	Pheucticus chrysogaster	gobgro1	Pheucticus_chrysogaster	3597153	Pheucticus chrysogaster
+Tl3311520	Pheucticus tibialis	bltgro1	Pheucticus_tibialis	501889	Pheucticus tibialis
+Tl3311492	Pheucticus melanocephalus	bkhgro	Pheucticus_melanocephalus	425436	Pheucticus melanocephalus
+Tl3311486	Pheucticus ludovicianus	robgro	Pheucticus_ludovicianus	370813	Pheucticus ludovicianus
+Tl3311484	Ixothraupis punctata	spotan1	Tangara_punctata	430007	Tangara punctata
+Tl3311490	Stilpnia cayana	bubtan2	Tangara_cayana	238925	Tangara cayana
+Tl3311514	Fringilla teydea	blucha2	Fringilla_teydea	1031323	Fringilla teydea
+Tl3311517	Fringilla coelebs	comcha	Fringilla_coelebs	828694	Fringilla coelebs
+Tl3311469	Motacilla alba	whiwag	Motacilla_alba	695336	Motacilla alba
+Tl3311498	Motacilla cinerea	grywag	Motacilla_cinerea	489154	Motacilla cinerea

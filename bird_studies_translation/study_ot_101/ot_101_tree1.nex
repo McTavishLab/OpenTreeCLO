@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Simplified_topology = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu1[&otu=otu1,^ot:ottId=885165,^ot:ottTaxonName=Saltator atricollis,^ot:originalLabel=Saltator_atricollis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=838937,^ot:ottTaxonName=Saltatricula multicolor,^ot:originalLabel=Saltatricula_multicolor,^clo:ClementsTaxonName2019=Saltatricula multicolor,^clo:speciescode2019=mccfin1])node3,((((otu10[&otu=otu10,^ot:ottId=3597155,^ot:ottTaxonName=Saltator cinctus,^ot:originalLabel=Saltator_cinctus,^clo:ClementsTaxonName2019=Saltator cinctus,^clo:speciescode2019=massal1],((otu8[&otu=otu8,^ot:ottId=396689,^ot:ottTaxonName=Saltator aurantiirostris,^ot:originalLabel=Saltator_aurantiirostris,^clo:ClementsTaxonName2019=Saltator aurantiirostris,^clo:speciescode2019=gobsal1],otu9[&otu=otu9,^ot:ottId=3597157,^ot:ottTaxonName=Saltator maxillosus,^ot:originalLabel=Saltator_maxillosus,^clo:ClementsTaxonName2019=Saltator maxillosus,^clo:speciescode2019=thbsal1])node19,(otu6[&otu=otu6,^ot:ottId=3597156,^ot:ottTaxonName=Saltator fuliginosus,^ot:originalLabel=Saltator_fuliginosus,^clo:ClementsTaxonName2019=Saltator fuliginosus,^clo:speciescode2019=bltgro2],otu7[&otu=otu7,^ot:ottId=396685,^ot:ottTaxonName=Saltator grossus,^ot:originalLabel=Saltator_grossus,^clo:ClementsTaxonName2019=Saltator grossus,^clo:speciescode2019=slcgro1])node16)node15)node14,otu11[&otu=otu11,^ot:ottId=922658,^ot:ottTaxonName=Saltator nigriceps,^ot:originalLabel=Saltator_nigriceps,^clo:ClementsTaxonName2019=Saltator nigriceps,^clo:speciescode2019=blcsal1])node13,(otu16[&otu=otu16,^ot:ottId=3597158,^ot:ottTaxonName=Saltator orenocensis,^ot:originalLabel=Saltator_orenocensis,^clo:ClementsTaxonName2019=Saltator orenocensis,^clo:speciescode2019=orisal1],((otu14[&otu=otu14,^ot:ottId=817643,^ot:ottTaxonName=Saltator albicollis,^ot:originalLabel=Saltator_albicollis,^clo:ClementsTaxonName2019=Saltator albicollis,^clo:speciescode2019=leasal1],otu15[&otu=otu15,^ot:ottId=547309,^ot:ottTaxonName=Saltator similis,^ot:originalLabel=Saltator_similis,^clo:ClementsTaxonName2019=Saltator similis,^clo:speciescode2019=grwsal1])node29,(otu13[&otu=otu13,^ot:ottId=913675,^ot:ottTaxonName=Saltator striatipectus,^ot:originalLabel=Saltator_striatipectus,^clo:ClementsTaxonName2019=Saltator striatipectus,^clo:speciescode2019=strsal1],otu12[&otu=otu12,^ot:ottId=283670,^ot:ottTaxonName=Saltator coerulescens,^ot:originalLabel=Saltator_coerulescens,^clo:ClementsTaxonName2019=Saltator coerulescens,^clo:speciescode2019=grasal1])node26)node25)node24)node12,((otu4[&otu=otu4,^ot:ottId=396686,^ot:ottTaxonName=Saltator atriceps,^ot:originalLabel=Saltator_atriceps,^clo:ClementsTaxonName2019=Saltator atriceps,^clo:speciescode2019=blhsal1],otu5[&otu=otu5,^ot:ottId=396690,^ot:ottTaxonName=Saltator atripennis,^ot:originalLabel=Saltator_atripennis,^clo:ClementsTaxonName2019=Saltator atripennis,^clo:speciescode2019=blwsal1])node9,otu3[&otu=otu3,^ot:ottId=396683,^ot:ottTaxonName=Saltator maximus,^ot:originalLabel=Saltator_maximus,^clo:ClementsTaxonName2019=Saltator maximus,^clo:speciescode2019=butsal1])node7)node6)node2,((otu18[&otu=otu18,^ot:ottId=922659,^ot:ottTaxonName=Saltator rufiventris,^ot:originalLabel=Saltator_rufiventris,^clo:ClementsTaxonName2019=Pseudosaltator rufiventris,^clo:speciescode2019=rubsal1],otu19[&otu=otu19,^ot:ottId=589951,^ot:ottTaxonName=Geospiza fortis,^ot:originalLabel=Geospiza_fortis,^clo:ClementsTaxonName2019=Geospiza fortis,^clo:speciescode2019=megfin1])node35,otu17[&otu=otu17,^ot:ottId=265547,^ot:ottTaxonName=Zonotrichia albicollis,^ot:originalLabel=Zonotrichia_albicollis,^clo:ClementsTaxonName2019=Zonotrichia albicollis,^clo:speciescode2019=whtspa])node33)node1;
+END;
+

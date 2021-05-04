@@ -1,0 +1,71 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=59;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu58
+        otu8
+        otu59
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE alstrom_etal_2008_tree_3 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=44870,^ot:ottTaxonName=Passer montanus,^ot:originalLabel=Passer_montanus,^clo:ClementsTaxonName2019=Passer montanus,^clo:speciescode2019=eutspa],(((((otu53[&otu=otu53,^ot:ottId=989508,^ot:ottTaxonName=Spizella pusilla,^ot:originalLabel=Spizella_pusilla,^clo:ClementsTaxonName2019=Spizella pusilla,^clo:speciescode2019=fiespa],otu54[&otu=otu54,^ot:ottId=4131482,^ot:ottTaxonName=Ammodramus humeralis,^ot:originalLabel=Ammodramus_humeralis,^clo:ClementsTaxonName2019=Ammodramus humeralis,^clo:speciescode2019=graspa1])node287,((otu55[&otu=otu55,^ot:ottId=3597250,^ot:ottTaxonName=Kieneria aberti,^ot:originalLabel=Pipilo_aberti,^clo:ClementsTaxonName2019=Melozone aberti,^clo:speciescode2019=abetow],(otu57[&otu=otu57,^ot:ottId=989502,^ot:ottTaxonName=Junco hyemalis,^ot:originalLabel=Junco_hyemalis,^clo:ClementsTaxonName2019=Junco hyemalis,^clo:speciescode2019=daejun],otu56[&otu=otu56,^ot:ottId=265553,^ot:ottTaxonName=Zonotrichia leucophrys,^ot:originalLabel=Zonotrichia_leucophrys,^clo:ClementsTaxonName2019=Zonotrichia leucophrys,^clo:speciescode2019=whcspa])node293)node291,(otu59[&otu=otu59,^ot:ottId=453758,^ot:ottTaxonName=Passerculus sandwichensis,^ot:originalLabel=Passerculus_sandwichensis,^clo:ClementsTaxonName2019=Passerculus sandwichensis,^clo:speciescode2019=savspa],otu58[&otu=otu58,^ot:ottId=265545,^ot:ottTaxonName=Melospiza georgiana,^ot:originalLabel=Melospiza_georgiana,^clo:ClementsTaxonName2019=Melospiza georgiana,^clo:speciescode2019=swaspa])node296)node290)node286,((otu51[&otu=otu51,^ot:ottId=516964,^ot:ottTaxonName=Sturnella superciliaris,^ot:originalLabel=Sturnella_superciliaris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu52[&otu=otu52,^ot:ottId=1077595,^ot:ottTaxonName=Icterus galbula,^ot:originalLabel=Icterus_galbula,^clo:ClementsTaxonName2019=Icterus galbula,^clo:speciescode2019=balori])node283,((((otu16[&otu=otu16,^ot:ottId=516969,^ot:ottTaxonName=Schoeniclus siemsseni,^ot:originalLabel=Latoucheornis_siemsseni,^clo:ClementsTaxonName2019=Emberiza siemsseni,^clo:speciescode2019=slabun1],otu15[&otu=otu15,^ot:ottId=167343,^ot:ottTaxonName=Schoeniclus elegans,^ot:originalLabel=Emberiza_elegans,^clo:ClementsTaxonName2019=Emberiza elegans,^clo:speciescode2019=yetbun1])node238,(otu3[&otu=otu3,^ot:ottId=340338,^ot:ottTaxonName=Emberiza pusilla,^ot:originalLabel=Emberiza_pusilla,^clo:ClementsTaxonName2019=Emberiza pusilla,^clo:speciescode2019=litbun],otu11[&otu=otu11,^ot:ottId=613879,^ot:ottTaxonName=Schoeniclus spodocephala,^ot:originalLabel=Emberiza_spodocephala,^clo:ClementsTaxonName2019=Emberiza spodocephala,^clo:speciescode2019=blfbun1],otu5[&otu=otu5,^ot:ottId=1094118,^ot:ottTaxonName=Emberiza sulphurata,^ot:originalLabel=Emberiza_sulphurata,^clo:ClementsTaxonName2019=Emberiza sulphurata,^clo:speciescode2019=yelbun1],otu4[&otu=otu4,^ot:ottId=124457,^ot:ottTaxonName=Emberiza rutila,^ot:originalLabel=Emberiza_rutila,^clo:ClementsTaxonName2019=Emberiza rutila,^clo:speciescode2019=chebun1],otu10[&otu=otu10,^ot:ottId=45309,^ot:ottTaxonName=Schoeniclus aureolus,^ot:originalLabel=Emberiza_aureola,^clo:ClementsTaxonName2019=Emberiza aureola,^clo:speciescode2019=yebbun],otu6[&otu=otu6,^ot:ottId=28343,^ot:ottTaxonName=Schoeniclus rusticus,^ot:originalLabel=Emberiza_rustica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu7[&otu=otu7,^ot:ottId=846941,^ot:ottTaxonName=Emberiza chrysophrys,^ot:originalLabel=Emberiza_chrysophrys,^clo:ClementsTaxonName2019=Emberiza chrysophrys,^clo:speciescode2019=yebbun1],(otu8[&otu=otu8,^ot:ottId=441576,^ot:ottTaxonName=Emberiza tristrami,^ot:originalLabel=Emberiza_tristrami,^clo:ClementsTaxonName2019=Emberiza tristrami,^clo:speciescode2019=tribun1],otu9[&otu=otu9,^ot:ottId=28339,^ot:ottTaxonName=Emberiza variabilis,^ot:originalLabel=Emberiza_variabilis,^clo:ClementsTaxonName2019=Emberiza variabilis,^clo:speciescode2019=grybun])node230)node228)node221,(otu12[&otu=otu12,^ot:ottId=1094092,^ot:ottTaxonName=Schoeniclus yessoensis,^ot:originalLabel=Emberiza_yessoensis,^clo:ClementsTaxonName2019=Emberiza yessoensis,^clo:speciescode2019=ocrbun1],(otu14[&otu=otu14,^ot:ottId=1018614,^ot:ottTaxonName=Emberiza pallasi,^ot:originalLabel=Emberiza_pallasi,^clo:ClementsTaxonName2019=Emberiza pallasi,^clo:speciescode2019=palbun],otu13[&otu=otu13,^ot:ottId=711856,^ot:ottTaxonName=Emberiza schoeniclus,^ot:originalLabel=Emberiza_schoeniclus,^clo:ClementsTaxonName2019=Emberiza schoeniclus,^clo:speciescode2019=reebun])node235)node233)node220,(((otu20[&otu=otu20,^ot:ottId=972939,^ot:ottTaxonName=Emberiza calandra,^ot:originalLabel=Emberiza_calandra,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu21[&otu=otu21,^ot:ottId=802893,^ot:ottTaxonName=Emberiza fucata,^ot:originalLabel=Emberiza_fucata,^clo:ClementsTaxonName2019=Emberiza fucata,^clo:speciescode2019=chebun2])node269,((((otu27[&otu=otu27,^ot:ottId=145223,^ot:ottTaxonName=Emberiza hortulana,^ot:originalLabel=Emberiza_hortulana,^clo:ClementsTaxonName2019=Emberiza hortulana,^clo:speciescode2019=ortbun1],otu28[&otu=otu28,^ot:ottId=679086,^ot:ottTaxonName=Emberiza caesia,^ot:originalLabel=Emberiza_caesia,^clo:ClementsTaxonName2019=Emberiza caesia,^clo:speciescode2019=crebun2])node259,otu26[&otu=otu26,^ot:ottId=846937,^ot:ottTaxonName=Emberiza buchanani,^ot:originalLabel=Emberiza_buchanani,^clo:ClementsTaxonName2019=Emberiza buchanani,^clo:speciescode2019=gyhbun1])node257,(otu22[&otu=otu22,^ot:ottId=845178,^ot:ottTaxonName=Emberiza cirlus,^ot:originalLabel=Emberiza_cirlus,^clo:ClementsTaxonName2019=Emberiza cirlus,^clo:speciescode2019=cirbun1],((otu24[&otu=otu24,^ot:ottId=828708,^ot:ottTaxonName=Emberiza citrinella,^ot:originalLabel=Emberiza_citrinella,^clo:ClementsTaxonName2019=Emberiza citrinella,^clo:speciescode2019=yellow2],otu23[&otu=otu23,^ot:ottId=46691,^ot:ottTaxonName=Emberiza leucocephalos,^ot:originalLabel=Emberiza_leucocephalos,^clo:ClementsTaxonName2019=Emberiza leucocephalos,^clo:speciescode2019=pinbun])node254,otu25[&otu=otu25,^ot:ottId=972937,^ot:ottTaxonName=Emberiza stewarti,^ot:originalLabel=Emberiza_stewarti,^clo:ClementsTaxonName2019=Emberiza stewarti,^clo:speciescode2019=chbbun1])node252)node250)node249,(otu29[&otu=otu29,^ot:ottId=679102,^ot:ottTaxonName=Emberiza jankowskii,^ot:originalLabel=Emberiza_jankowskii,^clo:ClementsTaxonName2019=Emberiza jankowskii,^clo:speciescode2019=rubbun1],(otu30[&otu=otu30,^ot:ottId=367092,^ot:ottTaxonName=Emberiza cioides,^ot:originalLabel=Emberiza_cioides,^clo:ClementsTaxonName2019=Emberiza cioides,^clo:speciescode2019=meabun1],(otu31[&otu=otu31,^ot:ottId=846944,^ot:ottTaxonName=Emberiza cia,^ot:originalLabel=Emberiza_cia,^clo:ClementsTaxonName2019=Emberiza cia,^clo:speciescode2019=rocbun1],otu32[&otu=otu32,^ot:ottId=972940,^ot:ottTaxonName=Emberiza godlewskii,^ot:originalLabel=Emberiza_godlewskii,^clo:ClementsTaxonName2019=Emberiza godlewskii,^clo:speciescode2019=godbun1])node266)node264)node262)node248)node247,(otu17[&otu=otu17,^ot:ottId=922666,^ot:ottTaxonName=Melophus lathami,^ot:originalLabel=Melophus_lathami,^clo:ClementsTaxonName2019=Emberiza lathami,^clo:speciescode2019=crebun1],(otu18[&otu=otu18,^ot:ottId=178468,^ot:ottTaxonName=Emberiza melanocephala,^ot:originalLabel=Emberiza_melanocephala,^clo:ClementsTaxonName2019=Emberiza melanocephala,^clo:speciescode2019=blhbun1],otu19[&otu=otu19,^ot:ottId=178473,^ot:ottTaxonName=Emberiza bruniceps,^ot:originalLabel=Emberiza_bruniceps,^clo:ClementsTaxonName2019=Emberiza bruniceps,^clo:speciescode2019=rehbun1])node244)node242)node241)node219,((otu36[&otu=otu36,^ot:ottId=679088,^ot:ottTaxonName=Emberiza capensis,^ot:originalLabel=Emberiza_capensis,^clo:ClementsTaxonName2019=Emberiza capensis,^clo:speciescode2019=capbun1],(otu35[&otu=otu35,^ot:ottId=679099,^ot:ottTaxonName=Fringillaria impetuani,^ot:originalLabel=Emberiza_impetuani,^clo:ClementsTaxonName2019=Emberiza impetuani,^clo:speciescode2019=lalbun1],(otu37[&otu=otu37,^ot:ottId=516966,^ot:ottTaxonName=Emberiza striolata,^ot:originalLabel=Emberiza_striolata,^clo:ClementsTaxonName2019=Emberiza striolata,^clo:speciescode2019=houbun2],otu38[&otu=otu38,^ot:ottId=1094120,^ot:ottTaxonName=Fringillaria tahapisi,^ot:originalLabel=Emberiza_tahapisi,^clo:ClementsTaxonName2019=Emberiza tahapisi,^clo:speciescode2019=cibbun1])node277)node275)node273,(otu34[&otu=otu34,^ot:ottId=846938,^ot:ottTaxonName=Emberiza cabanisi,^ot:originalLabel=Emberiza_cabanisi,^clo:ClementsTaxonName2019=Emberiza cabanisi,^clo:speciescode2019=cabbun1],otu33[&otu=otu33,^ot:ottId=536142,^ot:ottTaxonName=Emberiza flaviventris,^ot:originalLabel=Emberiza_flaviventris,^clo:ClementsTaxonName2019=Emberiza flaviventris,^clo:speciescode2019=gobbun1])node280)node272)node218)node217)node216,((otu41[&otu=otu41,^ot:ottId=885148,^ot:ottTaxonName=Emberizoides herbicola,^ot:originalLabel=Emberizoides_herbicola,^clo:ClementsTaxonName2019=Emberizoides herbicola,^clo:speciescode2019=wtgfin1],otu39[&otu=otu39,^ot:ottId=419369,^ot:ottTaxonName=Coereba flaveola,^ot:originalLabel=Coereba_flaveola,^clo:ClementsTaxonName2019=Coereba flaveola,^clo:speciescode2019=banana],otu40[&otu=otu40,^ot:ottId=516965,^ot:ottTaxonName=Thraupis palmarum,^ot:originalLabel=Thraupis_palmarum,^clo:ClementsTaxonName2019=Thraupis palmarum,^clo:speciescode2019=paltan1])node305,((otu44[&otu=otu44,^ot:ottId=307364,^ot:ottTaxonName=Cardinalis cardinalis,^ot:originalLabel=Cardinalis_cardinalis,^clo:ClementsTaxonName2019=Cardinalis cardinalis,^clo:speciescode2019=norcar],otu43[&otu=otu43,^ot:ottId=565244,^ot:ottTaxonName=Piranga ludoviciana,^ot:originalLabel=Piranga_ludoviciana,^clo:ClementsTaxonName2019=Piranga ludoviciana,^clo:speciescode2019=westan])node302,otu42[&otu=otu42,^ot:ottId=370813,^ot:ottTaxonName=Pheucticus ludovicianus,^ot:originalLabel=Pheucticus_ludovicianus,^clo:ClementsTaxonName2019=Pheucticus ludovicianus,^clo:speciescode2019=robgro])node300)node299)node215,((otu50[&otu=otu50,^ot:ottId=420995,^ot:ottTaxonName=Calcarius lapponicus,^ot:originalLabel=Calcarius_lapponicus,^clo:ClementsTaxonName2019=Calcarius lapponicus,^clo:speciescode2019=laplon],otu49[&otu=otu49,^ot:ottId=453764,^ot:ottTaxonName=Plectrophenax nivalis,^ot:originalLabel=Plectrophenax_nivalis,^clo:ClementsTaxonName2019=Plectrophenax nivalis,^clo:speciescode2019=snobun])node317,((otu46[&otu=otu46,^ot:ottId=860003,^ot:ottTaxonName=Helmitheros vermivorum,^ot:originalLabel=Helmitheros_vermivorus,^clo:ClementsTaxonName2019=Helmitheros vermivorum,^clo:speciescode2019=woewar1],(otu47[&otu=otu47,^ot:ottId=3597195,^ot:ottTaxonName=Setophaga virens,^ot:originalLabel=Dendroica_virens,^clo:ClementsTaxonName2019=Setophaga virens,^clo:speciescode2019=btnwar],otu48[&otu=otu48,^ot:ottId=285200,^ot:ottTaxonName=Setophaga ruticilla,^ot:originalLabel=Setophaga_ruticilla,^clo:ClementsTaxonName2019=Setophaga ruticilla,^clo:speciescode2019=amered])node314)node312,otu45[&otu=otu45,^ot:ottId=4132022,^ot:ottTaxonName=Parkesia noveboracensis,^ot:originalLabel=Seiurus_noveboracensis,^clo:ClementsTaxonName2019=Parkesia noveboracensis,^clo:speciescode2019=norwat])node310)node309)node214,otu2[&otu=otu2,^ot:ottId=1083719,^ot:ottTaxonName=Carduelis carduelis,^ot:originalLabel=Carduelis_carduelis,^clo:ClementsTaxonName2019=Carduelis carduelis,^clo:speciescode2019=eurgol])node211;
+END;
+

@@ -1,0 +1,9 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Psophia crepitans	gywtru1	Psophia_crepitans	915643	Psophia crepitans
+otu2	not_a_bird	not_a_bird	Psophia_ochroptera	None	None
+otu3	not_a_bird	not_a_bird	Psophia_napensis	None	None
+otu8	Psophia leucoptera	pawtru2	Psophia_leucoptera	813276	Psophia leucoptera
+otu6	not_a_bird	not_a_bird	Psophia_obscura	None	None
+otu4	not_a_bird	not_a_bird	Psophia_dextralis	None	None
+otu5	not_a_bird	not_a_bird	Psophia_interjecta	None	None
+otu7	Psophia viridis	dawtru1	Psophia_viridis	242768	Psophia viridis

@@ -1,0 +1,35 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=539141,nearestTaxonMRCAName=Musophagidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu5[&otu=otu5,^ot:ottId=1013325,^ot:ottTaxonName=Criniferoides leucogaster,^ot:originalLabel=Criniferoides_leucogaster,^clo:ClementsTaxonName2019=Corythaixoides leucogaster,^clo:speciescode2019=wbgbir1],((otu1[&otu=otu1,^ot:ottId=198673,^ot:ottTaxonName=Corythaixoides personata,^ot:originalLabel=Corythaixoides_personata,^clo:ClementsTaxonName2019=Corythaixoides personatus,^clo:speciescode2019=bfgbir1],otu2[&otu=otu2,^ot:ottId=842342,^ot:ottTaxonName=Corythaixoides concolor,^ot:originalLabel=Corythaixoides_concolor,^clo:ClementsTaxonName2019=Corythaixoides concolor,^clo:speciescode2019=grygab1])node4,(otu4[&otu=otu4,^ot:ottId=198690,^ot:ottTaxonName=Crinifer zonurus,^ot:originalLabel=Crinifer_zonurus,^clo:ClementsTaxonName2019=Crinifer zonurus,^clo:speciescode2019=easple1],otu3[&otu=otu3,^ot:ottId=198692,^ot:ottTaxonName=Crinifer piscator,^ot:originalLabel=Crinifer_piscator,^clo:ClementsTaxonName2019=Crinifer piscator,^clo:speciescode2019=wesple1])node7)node3)node2,(otu23[&otu=otu23,^ot:ottId=842345,^ot:ottTaxonName=Corythaeola cristata,^ot:originalLabel=Corythaeola_cristata,^clo:ClementsTaxonName2019=Corythaeola cristata,^clo:speciescode2019=grbtur1],((otu6[&otu=otu6,^ot:ottId=772738,^ot:ottTaxonName=Gallirex porphyreolophus,^ot:originalLabel=Gallirex_porphyreolophus,^clo:ClementsTaxonName2019=Tauraco porphyreolophus,^clo:speciescode2019=puctur2],otu7[&otu=otu7,^ot:ottId=1013340,^ot:ottTaxonName=Ruwenzorornis johnstoni,^ot:originalLabel=Ruwenzorornis_johnstoni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node13,((((otu13[&otu=otu13,^ot:ottId=331533,^ot:ottTaxonName=Tauraco bannermani,^ot:originalLabel=Tauraco_bannermani,^clo:ClementsTaxonName2019=Tauraco bannermani,^clo:speciescode2019=bantur1],(otu12[&otu=otu12,^ot:ottId=772747,^ot:ottTaxonName=Tauraco leucolophus,^ot:originalLabel=Tauraco_leucolophus,^clo:ClementsTaxonName2019=Tauraco leucolophus,^clo:speciescode2019=whctur2],otu11[&otu=otu11,^ot:ottId=487306,^ot:ottTaxonName=Tauraco erythrolophus,^ot:originalLabel=Tauraco_erythrolophus,^clo:ClementsTaxonName2019=Tauraco erythrolophus,^clo:speciescode2019=rectur1])node25)node24,((((otu17[&otu=otu17,^ot:ottId=487313,^ot:ottTaxonName=Tauraco persa zenkeri,^ot:originalLabel=Tauraco_persa_zenkeri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu18[&otu=otu18,^ot:ottId=487311,^ot:ottTaxonName=Tauraco persa buffoni,^ot:originalLabel=Tauraco_persa_buffoni,^clo:ClementsTaxonName2019=Tauraco persa buffoni,^clo:speciescode2019=guitur2])node37,(otu20[&otu=otu20,^ot:ottId=3600772,^ot:ottTaxonName=Tauraco livingstoni,^ot:originalLabel=Tauraco_livingstoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu19[&otu=otu19,^ot:ottId=772745,^ot:ottTaxonName=Tauraco fischeri,^ot:originalLabel=Tauraco_fischeri,^clo:ClementsTaxonName2019=Tauraco fischeri,^clo:speciescode2019=fistur1])node40)node36,(otu16[&otu=otu16,^ot:ottId=487308,^ot:ottTaxonName=Tauraco schuetti,^ot:originalLabel=Tauraco_schuetti,^clo:ClementsTaxonName2019=Tauraco schuettii,^clo:speciescode2019=blbtur1],(otu14[&otu=otu14,^ot:ottId=539134,^ot:ottTaxonName=Tauraco hartlaubi,^ot:originalLabel=Tauraco_hartlaubi,^clo:ClementsTaxonName2019=Tauraco hartlaubi,^clo:speciescode2019=hartur1],otu15[&otu=otu15,^ot:ottId=772729,^ot:ottTaxonName=Tauraco schalowi,^ot:originalLabel=Tauraco_schalowi,^clo:ClementsTaxonName2019=Tauraco schalowi,^clo:speciescode2019=schtur1])node32)node31)node30,otu21[&otu=otu21,^ot:ottId=772743,^ot:ottTaxonName=Tauraco corythaix,^ot:originalLabel=Tauraco_corythaix,^clo:ClementsTaxonName2019=Tauraco corythaix,^clo:speciescode2019=knytur1])node29)node23,((otu8[&otu=otu8,^ot:ottId=772741,^ot:ottTaxonName=Musophaga rossae,^ot:originalLabel=Musophaga_rossae,^clo:ClementsTaxonName2019=Musophaga rossae,^clo:speciescode2019=rostur1],otu9[&otu=otu9,^ot:ottId=650221,^ot:ottTaxonName=Musophaga violacea,^ot:originalLabel=Musophaga_violacea,^clo:ClementsTaxonName2019=Musophaga violacea,^clo:speciescode2019=viotur1])node19,otu10[&otu=otu10,^ot:ottId=772727,^ot:ottTaxonName=Tauraco macrorhynchus,^ot:originalLabel=Tauraco_macrorhynchus,^clo:ClementsTaxonName2019=Tauraco macrorhynchus,^clo:speciescode2019=yebtur1])node18)node17,otu22[&otu=otu22,^ot:ottId=772749,^ot:ottTaxonName=Tauraco leucotis,^ot:originalLabel=Tauraco_leucotis,^clo:ClementsTaxonName2019=Tauraco leucotis,^clo:speciescode2019=whctur1])node16)node12)node11)node1;
+END;
+

@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=113980,^ot:ottTaxonName=Luscinia luscinia,^ot:originalLabel=Luscinia_luscinia,^clo:ClementsTaxonName2019=Luscinia luscinia,^clo:speciescode2019=thrnig1],otu2[&otu=otu2,^ot:ottId=961118,^ot:ottTaxonName=Luscinia megarhynchos,^ot:originalLabel=Luscinia_megarhynchos,^clo:ClementsTaxonName2019=Luscinia megarhynchos,^clo:speciescode2019=comnig1])node2,(((otu12[&otu=otu12,^ot:ottId=936539,^ot:ottTaxonName=Oenanthe picata,^ot:originalLabel=Oenanthe_picata,^clo:ClementsTaxonName2019=Oenanthe picata,^clo:speciescode2019=varwhe1],(otu11[&otu=otu11,^ot:ottId=410714,^ot:ottTaxonName=Oenanthe leucopyga,^ot:originalLabel=Oenanthe_leucopyga,^clo:ClementsTaxonName2019=Oenanthe leucopyga,^clo:speciescode2019=whtwhe1],(otu10[&otu=otu10,^ot:ottId=410709,^ot:ottTaxonName=Oenanthe albonigra,^ot:originalLabel=Oenanthe_alboniger,^clo:ClementsTaxonName2019=Oenanthe albonigra,^clo:speciescode2019=humwhe2],(otu9[&otu=otu9,^ot:ottId=410726,^ot:ottTaxonName=Oenanthe finschii,^ot:originalLabel=Oenanthe_finschii,^clo:ClementsTaxonName2019=Oenanthe finschii,^clo:speciescode2019=finwhe1],(otu7[&otu=otu7,^ot:ottId=936546,^ot:ottTaxonName=Oenanthe chrysopygia,^ot:originalLabel=Oenanthe_chrysopygia,^clo:ClementsTaxonName2019=Oenanthe chrysopygia,^clo:speciescode2019=retwhe2],otu8[&otu=otu8,^ot:ottId=410719,^ot:ottTaxonName=Oenanthe lugens,^ot:originalLabel=Oenanthe_lugens,^clo:ClementsTaxonName2019=Oenanthe lugens,^clo:speciescode2019=mouwhe2])node18)node17)node16)node15)node14,otu13[&otu=otu13,^ot:ottId=936538,^ot:ottTaxonName=Oenanthe moesta,^ot:originalLabel=Oenanthe_moesta,^clo:ClementsTaxonName2019=Oenanthe moesta,^clo:speciescode2019=rerwhe1])node13,((otu5[&otu=otu5,^ot:ottId=619182,^ot:ottTaxonName=Oenanthe deserti,^ot:originalLabel=Oenanthe_deserti,^clo:ClementsTaxonName2019=Oenanthe deserti,^clo:speciescode2019=deswhe1],otu6[&otu=otu6,^ot:ottId=936541,^ot:ottTaxonName=Oenanthe pleschanka,^ot:originalLabel=Oenanthe_pleschanka,^clo:ClementsTaxonName2019=Oenanthe pleschanka,^clo:speciescode2019=piewhe1])node10,(otu4[&otu=otu4,^ot:ottId=1092950,^ot:ottTaxonName=Oenanthe oenanthe,^ot:originalLabel=Oenanthe_oenanthe,^clo:ClementsTaxonName2019=Oenanthe oenanthe,^clo:speciescode2019=norwhe],otu3[&otu=otu3,^ot:ottId=33124,^ot:ottTaxonName=Oenanthe isabellina,^ot:originalLabel=Oenanthe_isabellina,^clo:ClementsTaxonName2019=Oenanthe isabellina,^clo:speciescode2019=isawhe1])node7)node6)node5)node1;
+END;
+

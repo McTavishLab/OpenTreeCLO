@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 (Bayesian chronogram)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=](((((otu18:51.007106[&otu=otu18,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=ACACH,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1],otu19:51.007106[&otu=otu19,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=TAEGU,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node38:16.466343,(otu20:34.356381[&otu=otu20,^ot:ottId=749203,^ot:ottTaxonName=Nestor notabilis,^ot:originalLabel=NESNO,^clo:ClementsTaxonName2019=Nestor notabilis,^clo:speciescode2019=kea1],otu21:34.356381[&otu=otu21,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=MELUN,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger])node41:33.117068)node37:3.985887,((otu22:61.440059[&otu=otu22,^ot:ottId=1028832,^ot:ottTaxonName=Fulmarus glacialis,^ot:originalLabel=FULGL,^clo:ClementsTaxonName2019=Fulmarus glacialis,^clo:speciescode2019=norful],otu23:61.440059[&otu=otu23,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=PYGAD,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1])node45:4.419079,otu24:65.859138[&otu=otu24,^ot:ottId=427900,^ot:ottTaxonName=Pelecanus crispus,^ot:originalLabel=PELCR,^clo:ClementsTaxonName2019=Pelecanus crispus,^clo:speciescode2019=dalpel1])node44:5.600198)node36:13.689033,((otu28:56.843059[&otu=otu28,^ot:ottId=570956,^ot:ottTaxonName=Alectura lathami,^ot:originalLabel=ALELA,^clo:ClementsTaxonName2019=Alectura lathami,^clo:speciescode2019=ausbrt1],otu27:56.843059[&otu=otu27,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=GALGA,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node53:12.258998,(otu25:58.585545[&otu=otu25,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=ANAPL,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3],otu26:58.585545[&otu=otu26,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=ANSSE,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1])node50:10.516512)node49:16.046311)node35:10.294393,((((((otu10:5.173282[&otu=otu10,^ot:ottId=816665,^ot:ottTaxonName=Anomalopteryx didiformis,^ot:originalLabel=ANODI,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9:5.173282[&otu=otu9,^ot:ottId=576651,^ot:ottTaxonName=Emeus crassus,^ot:originalLabel=EMECR,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node22:6.038547,otu11:11.211828[&otu=otu11,^ot:ottId=576657,^ot:ottTaxonName=Dinornis giganteus,^ot:originalLabel=DINGI,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node21:40.756199,(otu14:31.7268[&otu=otu14,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=EUDEL,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1],(otu13:25.133513[&otu=otu13,^ot:ottId=402450,^ot:ottTaxonName=Tinamus,^ot:originalLabel=TINAM,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12:25.133513[&otu=otu12,^ot:ottId=758347,^ot:ottTaxonName=Crypturellus tataupa,^ot:originalLabel=CRYTA,^clo:ClementsTaxonName2019=Crypturellus tataupa,^clo:speciescode2019=tattin1])node27:6.593287)node26:20.241227)node20:10.155023,((otu8:31.141344[&otu=otu8,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=DRONO,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],otu7:31.141344[&otu=otu7,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=CASCA,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1])node17:27.16827,(((otu4:3.313342[&otu=otu4,^ot:ottId=463546,^ot:ottTaxonName=Aepyornis,^ot:originalLabel=AEPMA,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5:3.313342[&otu=otu5,^ot:ottId=3600825,^ot:ottTaxonName=Aepyornis hildebrandti,^ot:originalLabel=AEPHI,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node13:24.264083,otu6:27.577425[&otu=otu6,^ot:ottId=84218,^ot:ottTaxonName=Mullerornis agilis,^ot:originalLabel=MULAG,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node12:26.585034,(otu3:13.432233[&otu=otu3,^ot:ottId=748998,^ot:ottTaxonName=Apteryx australis mantelli,^ot:originalLabel=APTMA,^clo:ClementsTaxonName2019=Apteryx mantelli,^clo:speciescode2019=nibkiw1],(otu1:4.147917[&otu=otu1,^ot:ottId=241844,^ot:ottTaxonName=Apteryx owenii,^ot:originalLabel=APTOW,^clo:ClementsTaxonName2019=Apteryx owenii,^clo:speciescode2019=liskiw1],otu2:4.147917[&otu=otu2,^ot:ottId=241836,^ot:ottTaxonName=Apteryx haastii,^ot:originalLabel=APTHA,^clo:ClementsTaxonName2019=Apteryx haastii,^clo:speciescode2019=grskiw1])node8:9.284315)node7:40.730226)node6:4.147155)node5:3.813436)node4:2.086225,(otu15:11.62526[&otu=otu15,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=PTEPE,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2],otu16:11.62526[&otu=otu16,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=RHEAM,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1])node31:52.584015)node3:5.008463,otu17:69.217738[&otu=otu17,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=STRCA,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node2:26.225023)node1;
+END;
+

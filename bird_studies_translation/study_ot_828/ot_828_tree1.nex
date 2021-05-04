@@ -1,0 +1,24 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+        otu12
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=746130,^ot:ottTaxonName=Periparus ater,^ot:originalLabel=Parus_ater,^clo:ClementsTaxonName2019=Periparus ater,^clo:speciescode2019=coatit2],otu2[&otu=otu2,^ot:ottId=1093905,^ot:ottTaxonName=Sylvia melanocephala,^ot:originalLabel=Sylvia_melanocephala,^clo:ClementsTaxonName2019=Sylvia melanocephala,^clo:speciescode2019=sarwar1],((otu3[&otu=otu3,^ot:ottId=82249,^ot:ottTaxonName=Sitta frontalis,^ot:originalLabel=Sitta_frontalis,^clo:ClementsTaxonName2019=Sitta frontalis,^clo:speciescode2019=vefnut1],(((otu5[&otu=otu5,^ot:ottId=603923,^ot:ottTaxonName=Sitta canadensis,^ot:originalLabel=Sitta_canadensis,^clo:ClementsTaxonName2019=Sitta canadensis,^clo:speciescode2019=rebnut],(otu6[&otu=otu6,^ot:ottId=82239,^ot:ottTaxonName=Sitta villosa,^ot:originalLabel=Sitta_villosa,^clo:ClementsTaxonName2019=Sitta villosa,^clo:speciescode2019=snbnut1],otu7[&otu=otu7,^ot:ottId=82233,^ot:ottTaxonName=Sitta whiteheadi,^ot:originalLabel=Sitta_whiteheadi,^clo:ClementsTaxonName2019=Sitta whiteheadi,^clo:speciescode2019=cornut1])node12)node10,(otu9[&otu=otu9,^ot:ottId=82236,^ot:ottTaxonName=Sitta ledanti,^ot:originalLabel=Sitta_ledanti,^clo:ClementsTaxonName2019=Sitta ledanti,^clo:speciescode2019=algnut1],otu8[&otu=otu8,^ot:ottId=82237,^ot:ottTaxonName=Sitta krueperi,^ot:originalLabel=Sitta_krueperi,^clo:ClementsTaxonName2019=Sitta krueperi,^clo:speciescode2019=krunut1])node15)node9,otu4[&otu=otu4,^ot:ottId=82240,^ot:ottTaxonName=Sitta pygmaea,^ot:originalLabel=Sitta_pygmaea,^clo:ClementsTaxonName2019=Sitta pygmaea,^clo:speciescode2019=pygnut])node7)node5,(otu10[&otu=otu10,^ot:ottId=82242,^ot:ottTaxonName=Sitta europaea,^ot:originalLabel=Sitta_europaea,^clo:ClementsTaxonName2019=Sitta europaea,^clo:speciescode2019=eurnut2],(otu12[&otu=otu12,^ot:ottId=82248,^ot:ottTaxonName=Sitta himalayensis,^ot:originalLabel=Sitta_himalayensis,^clo:ClementsTaxonName2019=Sitta himalayensis,^clo:speciescode2019=whtnut1],otu11[&otu=otu11,^ot:ottId=82247,^ot:ottTaxonName=Sitta carolinensis,^ot:originalLabel=Sitta_carolinensis,^clo:ClementsTaxonName2019=Sitta carolinensis,^clo:speciescode2019=whbnut])node20)node18)node4)node1;
+END;
+

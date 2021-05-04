@@ -1,0 +1,43 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=31;
+    TAXLABELS
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=108566,nearestTaxonMRCAName=Prioniturus,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((((((otu4[&otu=otu4,^ot:ottId=70127,^ot:ottTaxonName=Prioniturus discurus whiteheadi,^ot:originalLabel=Prioniturus_discurus_whiteheadi_FMNH344943,^clo:ClementsTaxonName2019=Prioniturus discurus whiteheadi,^clo:speciescode2019=bucrat1],otu7[&otu=otu7,^ot:ottId=70127,^ot:ottTaxonName=Prioniturus discurus whiteheadi,^ot:originalLabel=Prioniturus_discurus_whiteheadi_ZMUC22.12.1955.130,^clo:ClementsTaxonName2019=Prioniturus discurus whiteheadi,^clo:speciescode2019=bucrat1],otu5[&otu=otu5,^ot:ottId=70127,^ot:ottTaxonName=Prioniturus discurus whiteheadi,^ot:originalLabel=Prioniturus_discurus_whiteheadi_KU14237,^clo:ClementsTaxonName2019=Prioniturus discurus whiteheadi,^clo:speciescode2019=bucrat1],otu6[&otu=otu6,^ot:ottId=70127,^ot:ottTaxonName=Prioniturus discurus whiteheadi,^ot:originalLabel=Prioniturus_discurus_whiteheadi_BMNH1897.5.13.502,^clo:ClementsTaxonName2019=Prioniturus discurus whiteheadi,^clo:speciescode2019=bucrat1])node13,(otu11[&otu=otu11,^ot:ottId=70125,^ot:ottTaxonName=Prioniturus discurus discurus,^ot:originalLabel=Prioniturus_discurus_discurus_ZMUC136356,^clo:ClementsTaxonName2019=Prioniturus discurus discurus,^clo:speciescode2019=bucrat2],(otu10[&otu=otu10,^ot:ottId=70125,^ot:ottTaxonName=Prioniturus discurus discurus,^ot:originalLabel=Prioniturus_discurus_discurus_ZMUC136355,^clo:ClementsTaxonName2019=Prioniturus discurus discurus,^clo:speciescode2019=bucrat2],(otu9[&otu=otu9,^ot:ottId=70125,^ot:ottTaxonName=Prioniturus discurus discurus,^ot:originalLabel=Prioniturus_discurus_discurus_ZMUC136357,^clo:ClementsTaxonName2019=Prioniturus discurus discurus,^clo:speciescode2019=bucrat2],otu8[&otu=otu8,^ot:ottId=70125,^ot:ottTaxonName=Prioniturus discurus discurus,^ot:originalLabel=Prioniturus_discurus_discurus_ZMUC136358,^clo:ClementsTaxonName2019=Prioniturus discurus discurus,^clo:speciescode2019=bucrat2])node20)node19)node18)node12,otu12[&otu=otu12,^ot:ottId=771954,^ot:ottTaxonName=Prioniturus luconensis,^ot:originalLabel=Prioniturus_luconensis_NMBE1056247,^clo:ClementsTaxonName2019=Prioniturus luconensis,^clo:speciescode2019=grrtai1])node11,otu13[&otu=otu13,^ot:ottId=591214,^ot:ottTaxonName=Prioniturus flavicans,^ot:originalLabel=Prioniturus_flavicans_AMNH620995,^clo:ClementsTaxonName2019=Prioniturus flavicans,^clo:speciescode2019=yebrat1])node10,(otu3[&otu=otu3,^ot:ottId=18323,^ot:ottTaxonName=Prioniturus verticalis,^ot:originalLabel=Prioniturus_verticalis_ZMUC26.6.1976.28,^clo:ClementsTaxonName2019=Prioniturus verticalis,^clo:speciescode2019=bwrtai1],(otu1[&otu=otu1,^ot:ottId=18323,^ot:ottTaxonName=Prioniturus verticalis,^ot:originalLabel=Prioniturus_verticalis_AMNH620985,^clo:ClementsTaxonName2019=Prioniturus verticalis,^clo:speciescode2019=bwrtai1],otu2[&otu=otu2,^ot:ottId=18323,^ot:ottTaxonName=Prioniturus verticalis,^ot:originalLabel=Prioniturus_verticalis_ZMUC26.6.1976.27,^clo:ClementsTaxonName2019=Prioniturus verticalis,^clo:speciescode2019=bwrtai1])node6)node5)node4,(((otu14[&otu=otu14,^ot:ottId=18325,^ot:ottTaxonName=Prioniturus waterstradti,^ot:originalLabel=Prioniturus_waterstradti_FMNH357417,^clo:ClementsTaxonName2019=Prioniturus waterstradti,^clo:speciescode2019=mirtai1],otu15[&otu=otu15,^ot:ottId=18325,^ot:ottTaxonName=Prioniturus waterstradti,^ot:originalLabel=Prioniturus_waterstradti_ZMUC1.10.1953.1295,^clo:ClementsTaxonName2019=Prioniturus waterstradti,^clo:speciescode2019=mirtai1])node29,otu16[&otu=otu16,^ot:ottId=18325,^ot:ottTaxonName=Prioniturus waterstradti,^ot:originalLabel=Prioniturus_waterstradti_ZMUC1.10.1953.1297,^clo:ClementsTaxonName2019=Prioniturus waterstradti,^clo:speciescode2019=mirtai1],otu17[&otu=otu17,^ot:ottId=18325,^ot:ottTaxonName=Prioniturus waterstradti,^ot:originalLabel=Prioniturus_waterstradti_KU19120,^clo:ClementsTaxonName2019=Prioniturus waterstradti,^clo:speciescode2019=mirtai1])node28,(((otu18[&otu=otu18,^ot:ottId=591223,^ot:ottTaxonName=Prioniturus mindorensis,^ot:originalLabel=Prioniturus_discurus_mindorensis_AMNH620956,^clo:ClementsTaxonName2019=Prioniturus mindorensis,^clo:speciescode2019=minrat1],otu19[&otu=otu19,^ot:ottId=591223,^ot:ottTaxonName=Prioniturus mindorensis,^ot:originalLabel=Prioniturus_discurus_mindorensis_ZMUC22.12.1955.128,^clo:ClementsTaxonName2019=Prioniturus mindorensis,^clo:speciescode2019=minrat1])node36,otu20[&otu=otu20,^ot:ottId=1015530,^ot:ottTaxonName=Prioniturus platenae,^ot:originalLabel=Prioniturus_platenae_BMNH1911.11.16.112,^clo:ClementsTaxonName2019=Prioniturus platenae,^clo:speciescode2019=bhrtai1])node35,otu21[&otu=otu21,^ot:ottId=681045,^ot:ottTaxonName=Prioniturus montanus,^ot:originalLabel=Prioniturus_montanus_FMNH454964,^clo:ClementsTaxonName2019=Prioniturus montanus,^clo:speciescode2019=luzrat1])node34)node27)node3,(((otu25[&otu=otu25,^ot:ottId=18318,^ot:ottTaxonName=Prioniturus platurus platurus,^ot:originalLabel=Prioniturus_platurus_platurus_BMNH1926.12.3.1,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu24[&otu=otu24,^ot:ottId=18318,^ot:ottTaxonName=Prioniturus platurus platurus,^ot:originalLabel=Prioniturus_platurus_platurus_AMNH621028,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node46,(otu23[&otu=otu23,^ot:ottId=18320,^ot:ottTaxonName=Prioniturus platurus talautensis,^ot:originalLabel=Prioniturus_platurus_talautensis_AMNH621000,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu22[&otu=otu22,^ot:ottId=18320,^ot:ottTaxonName=Prioniturus platurus talautensis,^ot:originalLabel=Prioniturus_platurus_talautensis_ZMUC146427,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node43)node42,otu26[&otu=otu26,^ot:ottId=591212,^ot:ottTaxonName=Prioniturus mada,^ot:originalLabel=Prioniturus_mada_AMNH621031,^clo:ClementsTaxonName2019=Prioniturus mada,^clo:speciescode2019=burtai1])node41)node2,(otu31[&otu=otu31,^ot:ottId=375776,^ot:ottTaxonName=Eclectus roratus,^ot:originalLabel=Eclectus_roratus,^clo:ClementsTaxonName2019=Eclectus roratus,^clo:speciescode2019=eclpar],(otu30[&otu=otu30,^ot:ottId=717631,^ot:ottTaxonName=Geoffroyus heteroclitus,^ot:originalLabel=Geoffroyus_heteroclitus,^clo:ClementsTaxonName2019=Geoffroyus heteroclitus,^clo:speciescode2019=sinpar1],(otu29[&otu=otu29,^ot:ottId=528631,^ot:ottTaxonName=Psittinus cyanurus,^ot:originalLabel=Psittinus_cyanurus,^clo:ClementsTaxonName2019=Psittinus cyanurus,^clo:speciescode2019=blrpar1],(otu28[&otu=otu28,^ot:ottId=7116,^ot:ottTaxonName=Tanygnathus megalorynchos,^ot:originalLabel=Tanygnathus_megalorhynchus,^clo:ClementsTaxonName2019=Tanygnathus megalorynchos,^clo:speciescode2019=grbpar1],otu27[&otu=otu27,^ot:ottId=864236,^ot:ottTaxonName=Psittacula columboides,^ot:originalLabel=Psittacula_columboides,^clo:ClementsTaxonName2019=Psittacula columboides,^clo:speciescode2019=malpar1])node53)node52)node51)node50)node1;
+END;
+

@@ -1,0 +1,25 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu5	Bubulcus ibis ibis	categr1	Ardea_ibis	729476	Bubulcus ibis
+otu4	Ardea alba modesta	greegr3	Ardea_modesta	3596748	Ardea modesta
+otu3	Ardea intermedia	integr	Ardea_intermedia	868637	Ardea intermedia
+otu1	Ardea cinerea	graher1	Ardea_cinerea	119222	Ardea cinerea
+otu2	Ardea purpurea	purher1	Ardea_purpurea	273431	Ardea purpurea
+otu7	Butorides striata	strher	Butorides_striatus	618202	Butorides striata
+otu6	Ardeola bacchus	chpher1	Ardeola_bacchus	273439	Ardeola bacchus
+otu10	Egretta garzetta	litegr	Egretta_garzetta	273425	Egretta garzetta
+otu9	Egretta sacra	pacreh1	Egretta_sacra	55044	Egretta sacra
+otu8	Egretta eulophotes	chiegr	Egretta_eulophotes	981451	Egretta eulophotes
+otu11	Egretta novaehollandiae	whfher1	Egretta_novaehollandiae	1032052	Ardea novaehollandiae
+otu12	Gorsachius magnificus	wenher1	Gorsachius_magnificus	628056	Gorsachius magnificus
+otu15	Nycticorax nycticorax	bcnher	Nycticorax_nycticorax	313126	Nycticorax nycticorax
+otu14	Gorsachius melanolophus	manher1	Gorsachius_melanolophus	3596771	Gorsachius melanolophus
+otu13	Gorsachius goisagi	janher1	Gorsachius_goisagi	3596773	Gorsachius goisagi
+otu20	Botaurus stellaris	grebit1	Botaurus_stellaris	273438	Botaurus stellaris
+otu19	Ixobrychus sinensis	yelbit	Ixobrychus_sinensis	105531	Ixobrychus sinensis
+otu16	Ixobrychus eurhythmus	schbit1	Ixobrychus_eurhythmus	208441	Ixobrychus eurhythmus
+otu17	Ixobrychus cinnamomeus	cinbit1	Ixobrychus_cinnamomeus	105533	Ixobrychus cinnamomeus
+otu18	Ixobrychus flavicollis	blabit1	Ixobrychus_flavicollis	928976	Dupetor flavicollis
+otu24	Nipponia nippon	creibi1	Nipponia_nippon	946418	Nipponia nippon
+otu23	Threskiornis aethiopicus	sacibi2	Threskiornis_aethiopicus	413795	Threskiornis aethiopicus
+otu22	Platalea minor	blfspo1	Platalea_minor	738327	Platalea minor
+otu21	Platalea leucorodia	eurspo1	Platalea_leucorodia	317305	Platalea leucorodia

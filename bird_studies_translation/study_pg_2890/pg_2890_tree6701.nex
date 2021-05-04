@@ -1,0 +1,35 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+        otu428837
+        otu428849
+        otu428848
+        otu428845
+        otu428844
+        otu428847
+        otu428846
+        otu428841
+        otu428840
+        otu428843
+        otu428842
+        otu428852
+        otu428838
+        otu428839
+        otu428836
+        otu428830
+        otu428831
+        otu428832
+        otu428833
+        otu428834
+        otu428835
+        otu428850
+        otu428851
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1_ML = [&unrootedTree=False,curatedType=Maximum likelihood ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=,messages=](((((otu428831[&otu=otu428831,^ot:ottId=959335,^ot:ottTaxonName=Grallaricula flavirostris,^ot:originalLabel=Grallaricula_flavirostris,^clo:ClementsTaxonName2019=Grallaricula flavirostris,^clo:speciescode2019=ocbant1],otu428830[&otu=otu428830,^ot:ottId=514515,^ot:ottTaxonName=Grallaricula lineifrons,^ot:originalLabel=Grallaricula_lineifrons,^clo:ClementsTaxonName2019=Grallaricula lineifrons,^clo:speciescode2019=crfant1])node1166411,((otu428834[&otu=otu428834,^ot:ottId=514527,^ot:ottTaxonName=Hylopezus fulviventris,^ot:originalLabel=Hylopezus_fulviventris,^clo:ClementsTaxonName2019=Hylopezus fulviventris,^clo:speciescode2019=whlant2],otu428835[&otu=otu428835,^ot:ottId=412581,^ot:ottTaxonName=Hylopezus berlepschi,^ot:originalLabel=Hylopezus_berlepschi,^clo:ClementsTaxonName2019=Hylopezus berlepschi,^clo:speciescode2019=amaant1])node1166418,(otu428833[&otu=otu428833,^ot:ottId=433839,^ot:ottTaxonName=Myrmothera simplex,^ot:originalLabel=Myrmothera_simplex,^clo:ClementsTaxonName2019=Myrmothera simplex,^clo:speciescode2019=tepant1],otu428832[&otu=otu428832,^ot:ottId=736630,^ot:ottTaxonName=Myrmothera campanisona,^ot:originalLabel=Myrmothera_campanisona,^clo:ClementsTaxonName2019=Myrmothera campanisona,^clo:speciescode2019=thlant2])node1166415)node1166414)node1166410,((otu428836[&otu=otu428836,^ot:ottId=1091661,^ot:ottTaxonName=Grallaria squamigera,^ot:originalLabel=Grallaria_squamigera,^clo:ClementsTaxonName2019=Grallaria squamigera,^clo:speciescode2019=undant1],otu428837[&otu=otu428837,^ot:ottId=1091665,^ot:ottTaxonName=Grallaria varia,^ot:originalLabel=Grallaria_varia,^clo:ClementsTaxonName2019=Grallaria varia,^clo:speciescode2019=varant2])node1166422,(((otu428840[&otu=otu428840,^ot:ottId=464218,^ot:ottTaxonName=Grallaria ruficapilla,^ot:originalLabel=Grallaria_ruficapilla,^clo:ClementsTaxonName2019=Grallaria ruficapilla,^clo:speciescode2019=chcant2],otu428841[&otu=otu428841,^ot:ottId=1091678,^ot:ottTaxonName=Grallaria watkinsi,^ot:originalLabel=Grallaria_watkinsi,^clo:ClementsTaxonName2019=Grallaria watkinsi,^clo:speciescode2019=watant1])node1166430,(otu428843[&otu=otu428843,^ot:ottId=1041030,^ot:ottTaxonName=Grallaria dignissima,^ot:originalLabel=Grallaria_dignissima,^clo:ClementsTaxonName2019=Grallaria dignissima,^clo:speciescode2019=ocsant1],otu428842[&otu=otu428842,^ot:ottId=959333,^ot:ottTaxonName=Grallaria eludens,^ot:originalLabel=Grallaria_eludens,^clo:ClementsTaxonName2019=Grallaria eludens,^clo:speciescode2019=eluant1])node1166433)node1166429,(otu428839[&otu=otu428839,^ot:ottId=1041028,^ot:ottTaxonName=Grallaria blakei,^ot:originalLabel=Grallaria_blakei,^clo:ClementsTaxonName2019=Grallaria blakei,^clo:speciescode2019=cheant2],otu428838[&otu=otu428838,^ot:ottId=464216,^ot:ottTaxonName=Grallaria rufula,^ot:originalLabel=Grallaria_rufula,^clo:ClementsTaxonName2019=Grallaria rufula,^clo:speciescode2019=rufant1])node1166426)node1166425)node1166421)node1166409,((otu428848[&otu=otu428848,^ot:ottId=705964,^ot:ottTaxonName=Myrmornis torquata,^ot:originalLabel=Myrmornis_torquata,^clo:ClementsTaxonName2019=Myrmornis torquata,^clo:speciescode2019=wibant1],otu428849[&otu=otu428849,^ot:ottId=433855,^ot:ottTaxonName=Phlegopsis nigromaculata,^ot:originalLabel=Phlegopsis_nigromaculata,^clo:ClementsTaxonName2019=Phlegopsis nigromaculata,^clo:speciescode2019=bsbeye1])node1166444,((otu428845[&otu=otu428845,^ot:ottId=683051,^ot:ottTaxonName=Conopophaga peruviana,^ot:originalLabel=Conopophaga_peruviana,^clo:ClementsTaxonName2019=Conopophaga peruviana,^clo:speciescode2019=astgna1],otu428844[&otu=otu428844,^ot:ottId=45219,^ot:ottTaxonName=Conopophaga lineata,^ot:originalLabel=Conopophaga_lineata,^clo:ClementsTaxonName2019=Conopophaga lineata,^clo:speciescode2019=rufgna3])node1166438,(otu428846[&otu=otu428846,^ot:ottId=412590,^ot:ottTaxonName=Pittasoma rufopileatum,^ot:originalLabel=Pittasoma_rufopileatum,^clo:ClementsTaxonName2019=Pittasoma rufopileatum,^clo:speciescode2019=rucant3],otu428847[&otu=otu428847,^ot:ottId=412592,^ot:ottTaxonName=Pittasoma michleri,^ot:originalLabel=Pittasoma_michleri,^clo:ClementsTaxonName2019=Pittasoma michleri,^clo:speciescode2019=blcant1])node1166441)node1166437)node1166436)node1166408,((otu428850[&otu=otu428850,^ot:ottId=332218,^ot:ottTaxonName=Liosceles thoracicus,^ot:originalLabel=Liosceles_thoracicus,^clo:ClementsTaxonName2019=Liosceles thoracicus,^clo:speciescode2019=rubtap1],otu428851[&otu=otu428851,^ot:ottId=873515,^ot:ottTaxonName=Rhinocrypta lanceolata,^ot:originalLabel=Rhinocrypta_lanceolata,^clo:ClementsTaxonName2019=Rhinocrypta lanceolata,^clo:speciescode2019=cregal1])node1166448,otu428852[&otu=otu428852,^ot:ottId=959339,^ot:ottTaxonName=Chamaeza campanisona,^ot:originalLabel=Chamaeza_campanisona,^clo:ClementsTaxonName2019=Chamaeza campanisona,^clo:speciescode2019=shtant1])node1166447)node1166407;
+END;
+

@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=458094,^ot:ottTaxonName=Buteo albicaudatus,^ot:originalLabel=Buteo_albicaudatus,^clo:ClementsTaxonName2019=Geranoaetus albicaudatus,^clo:speciescode2019=whthaw],((otu2[&otu=otu2,^ot:ottId=1026126,^ot:ottTaxonName=Buteo swainsoni,^ot:originalLabel=Buteo_swainsoni,^clo:ClementsTaxonName2019=Buteo swainsoni,^clo:speciescode2019=swahaw],otu3[&otu=otu3,^ot:ottId=213673,^ot:ottTaxonName=Buteo galapagoensis,^ot:originalLabel=Buteo_galapagoensis,^clo:ClementsTaxonName2019=Buteo galapagoensis,^clo:speciescode2019=galhaw1])node4,((otu7[&otu=otu7,^ot:ottId=155919,^ot:ottTaxonName=Buteo regalis,^ot:originalLabel=Buteo_regalis,^clo:ClementsTaxonName2019=Buteo regalis,^clo:speciescode2019=ferhaw],otu6[&otu=otu6,^ot:ottId=188484,^ot:ottTaxonName=Buteo lagopus,^ot:originalLabel=Buteo_lagopus,^clo:ClementsTaxonName2019=Buteo lagopus,^clo:speciescode2019=rolhaw])node11,(otu4[&otu=otu4,^ot:ottId=781301,^ot:ottTaxonName=Buteo lineatus,^ot:originalLabel=Buteo_lineatus,^clo:ClementsTaxonName2019=Buteo lineatus,^clo:speciescode2019=reshaw],otu5[&otu=otu5,^ot:ottId=509839,^ot:ottTaxonName=Buteo jamaicensis,^ot:originalLabel=Buteo_jamaicensis,^clo:ClementsTaxonName2019=Buteo jamaicensis,^clo:speciescode2019=rethaw])node8)node7)node3)node1;
+END;
+

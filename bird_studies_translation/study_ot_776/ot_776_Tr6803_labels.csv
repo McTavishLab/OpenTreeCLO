@@ -1,0 +1,34 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+Tl272419	Anhinga anhinga	anhing	Anhinga_anhinga	170196	Anhinga anhinga
+Tl272421	Anhinga rufa	darter3	Anhinga_rufa	986356	Anhinga rufa
+Tl272420	Anhinga novaehollandiae	darter4	Anhinga_novaehollandiae	443639	Anhinga novaehollandiae
+Tl270889	not_a_bird	not_a_bird	Compsohalieus_neglectus	None	None
+Tl270912	Phalacrocorax capensis	capcor1	Leucocarbo_capensis	9836	Phalacrocorax capensis
+Tl269136	Phalacrocorax carbo	grecor	Phalacrocorax_carbo	969841	Phalacrocorax carbo
+Tl269145	Phalacrocorax capillatus	japcor1	Phalacrocorax_capillatus	9835	Phalacrocorax capillatus
+Tl270910	Phalacrocorax sulcirostris	libcor1	Hypoleucos_sulcirostris	443642	Phalacrocorax sulcirostris
+Tl270904	not_a_bird	not_a_bird	Compsohalieus_fuscescens	None	None
+Tl270903	Phalacrocorax varius	piecor1	Hypoleucos_varius	701202	Phalacrocorax varius
+Tl270911	Phalacrocorax punctatus	sposha1	Stictocarbo_punctatus	480891	Phalacrocorax punctatus
+Tl270887	Phalacrocorax featherstoni	piisha1	Stictocarbo_featherstoni	5857076	Stictocarbo featherstoni
+Tl270909	Phalacrocorax nigrogularis	soccor1	Leucocarbo_nigrogularis	780772	Phalacrocorax nigrogularis
+Tl270899	Phalacrocorax harrisi	flicor1	Compsohalieus_harrisi	409434	Nannopterum harrisi
+Tl270888	Phalacrocorax varius	piecor1	Hypoleucos_auritus	701202	Phalacrocorax varius
+Tl270902	not_a_bird	not_a_bird	Hypoleucos_brasilianus	None	None
+Tl270896	no_match	no_match	Microcarbo_pygmaeus	1080666	Microcarbo pygmeus
+Tl270905	Microcarbo melanoleucos	lipcor1	Microcarbo_melanoleucos	9838	Microcarbo melanoleucos
+Tl270891	Phalacrocorax gaimardi	relcor1	Stictocarbo_gaimardi	480885	Poikilocarbo gaimardi
+Tl270895	Phalacrocorax aristotelis	eursha1	Stictocarbo_aristotelis	1021952	Gulosus aristotelis
+Tl270907	Phalacrocorax bransfieldensis	antsha1	Notocarbo_bransfieldensis	401967	Leucocarbo bransfieldensis
+Tl270906	Phalacrocorax georgianus	sogsha1	Notocarbo_georgianus	221814	Leucocarbo georgianus
+Tl270913	Phalacrocorax bougainvillii	guacor1	Leucocarbo_bougainvillii	9834	Leucocarbo bougainvillii
+Tl270901	no_match	no_match	Notocarbo_albiventer	969843	Leucocarbo albiventer
+Tl270893	Phalacrocorax campbelli	caisha2	Nesocarbo_campbelli	9831	Leucocarbo campbelli
+Tl270900	Phalacrocorax colensoi	auisha1	Euleucocarbo_colensoi	31563	Leucocarbo colensoi
+Tl270885	Phalacrocorax chalconotus	brosha1	Euleucocarbo_chalconotus	480890	Leucocarbo chalconotus
+Tl270897	Phalacrocorax onslowi	chisha1	Euleucocarbo_onslowi	9837	Leucocarbo onslowi
+Tl270898	Phalacrocorax ranfurlyi	boisha1	Euleucocarbo_ranfurlyi	31566	Leucocarbo ranfurlyi
+Tl270908	Phalacrocorax magellanicus	magcor1	Stictocarbo_magellanicus	323108	Leucocarbo magellanicus
+Tl270890	Phalacrocorax penicillatus	bracor	Compsohalieus_penicillatus	9830	Urile penicillatus
+Tl270886	Phalacrocorax pelagicus	pelcor	Stictocarbo_pelagicus	744568	Urile pelagicus
+Tl270894	not_a_bird	not_a_bird	Stictocarbo_urile	None	None

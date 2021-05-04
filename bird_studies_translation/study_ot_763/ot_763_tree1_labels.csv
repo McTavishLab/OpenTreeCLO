@@ -1,0 +1,55 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu51	no_match	no_match	Thamnophilus	799167	Thamnophilus (genus in Deuterostomia)
+otu50	no_match	no_match	Elaenia	474278	Elaenia
+otu52	no_match	no_match	Philepitta	784742	Philepitta
+otu49	no_match	no_match	Menura	73933	Menura
+otu48	no_match	no_match	Malurus	901831	Malurus
+otu44	no_match	no_match	Gymnorhina	613403	Gymnorhina
+otu45	no_match	no_match	Batis	310378	Batis (genus in phylum Opisthokonta)
+otu41	no_match	no_match	Monarcha	176462	Monarcha (genus in Deuterostomia)
+otu36	Manucodia jobiensis	jobman1	Manucodia_jobiensis	544651	Manucodia jobiensis
+otu35	Manucodia ater	glmman2	Manucodia_ater	489932	Manucodia ater
+otu37	Manucodia chalybatus	crcman2	Manucodia_chalybatus	1015953	Manucodia chalybatus
+otu38	Manucodia comrii	cucman1	Manucodia_comrii	499634	Manucodia comrii
+otu39	Phonygammus keraudrenii	truman1	Phonygammus_keraudrenii	551825	Phonygammus keraudrenii
+otu40	Lycocorax pyrrhopterus	parcro1	Lycocorax_pyrrhopterus	544652	Lycocorax pyrrhopterus
+otu8	Cicinnurus magnificus	mbopar2	Diphyllodes_magnificus	551810	Diphyllodes magnificus
+otu9	Cicinnurus respublica	wbopar1	Diphyllodes_respublica	28327	Diphyllodes respublica
+otu10	Cicinnurus regius	kbopar1	Cicinnurus_regius	813780	Cicinnurus regius
+otu7	Paradisaea rudolphi	bbopar1	Paradisaea_rudolphi	499630	Paradisaea rudolphi
+otu5	Paradisaea rubra	rbopar2	Paradisaea_rubra	762087	Paradisaea rubra
+otu4	Paradisaea decora	gbopar1	Paradisaea_decora	544657	Paradisaea decora
+otu3	Paradisaea minor	lbopar1	Paradisaea_minor	762101	Paradisaea minor
+otu2	Paradisaea raggiana	rbopar1	Paradisaea_raggiana	499638	Paradisaea raggiana
+otu1	Paradisaea apoda	gbopar2	Paradisaea_apoda	544658	Paradisaea apoda
+otu6	Paradisaea guilielmi	ebopar1	Paradisaea_guilielmi	291932	Paradisaea guilielmi
+otu11	Astrapia mayeri	ritast1	Astrapia_mayeri	143296	Astrapia mayeri
+otu12	Astrapia stephaniae	prsast1	Astrapia_stephaniae	23691	Astrapia stephaniae
+otu13	Astrapia rothschildi	huoast1	Astrapia_rothschildi	143309	Astrapia rothschildi
+otu15	Astrapia splendidissima	splast1	Astrapia_splendidissima	23690	Astrapia splendidissima
+otu14	Astrapia nigra	arfast1	Astrapia_nigra	23692	Astrapia nigra
+otu16	Paradigalla brevicauda	shtpar1	Paradigalla_brevicauda	544653	Paradigalla brevicauda
+otu17	Paradigalla carunculata	lotpar1	Paradigalla_carunculata	544655	Paradigalla carunculata
+otu19	Epimachus meyeri	brosic1	Epimachus_meyeri	499632	Epimachus meyeri
+otu18	Epimachus fastosus	blasic1	Epimachus_fastuosus	551814	Epimachus fastuosus
+otu28	Seleucidis melanoleucus	twwbop1	Seleucidis_melanoleucus	813729	Seleucidis melanoleucus
+otu27	Drepanornis bruijnii	pabsic1	Drepanornis_bruijnii	544649	Drepanornis bruijnii
+otu26	Drepanornis albertisi	blbsic1	Drepanornis_albertisi	515147	Epimachus albertisi
+otu20	Ptiloris intercedens	magrif2	Ptiloris_intercedens	291937	Ptiloris intercedens
+otu21	Ptiloris magnificus	magrif3	Ptiloris_magnificus	635591	Ptiloris magnificus
+otu22	Lophorina superba	grsbop1	Lophorina_superba	187883	Lophorina superba
+otu24	Ptiloris victoriae	vicrif1	Ptiloris_victoriae	291940	Ptiloris victoriae
+otu23	Ptiloris paradiseus	parrif1	Ptiloris_paradiseus	30732	Ptiloris paradiseus
+otu25	Semioptera wallacii	walsta2	Semioptera_wallacii	866756	Semioptera wallacii
+otu34	Pteridophora alberti	kospar1	Pteridophora_alberti	291938	Pteridophora alberti
+otu33	Parotia carolae	carpar1	Parotia_carolae	291931	Parotia carolae
+otu29	no_match	no_match	Parotia_helenae	291934	Parotia helenae
+otu30	Parotia lawesii	lawpar1	Parotia_lawesii	762097	Parotia lawesii
+otu31	Parotia sefilata	wespar1	Parotia_sefilata	291933	Parotia sefilata
+otu32	Parotia wahnesi	wahpar1	Parotia_wahnesi	291936	Parotia wahnesi
+otu42	no_match	no_match	Corvus	952596	Corvus
+otu43	no_match	no_match	Dicrurus	72474	Dicrurus
+otu46	no_match	no_match	Passer	515158	Passer
+otu47	no_match	no_match	Parus	515141	Parus
+otu53	no_match	no_match	Acanthisitta	1085741	Acanthisitta
+otu54	no_match	no_match	Psittacidae	1020130	Psittacidae

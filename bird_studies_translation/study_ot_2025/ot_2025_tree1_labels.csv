@@ -1,0 +1,858 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu657	not_a_bird	not_a_bird	Cryptobranchus_alleganiensis	534288	Cryptobranchus alleganiensis
+otu660	not_a_bird	not_a_bird	Pseudobranchus_striatus	242679	Pseudobranchus striatus
+otu658	not_a_bird	not_a_bird	Siren_lacertina	242638	Siren lacertina
+otu659	not_a_bird	not_a_bird	Siren_intermedia	991553	Siren intermedia
+otu679	not_a_bird	not_a_bird	Rhyacotriton_olympicus	459007	Rhyacotriton olympicus
+otu681	not_a_bird	not_a_bird	Amphiuma_means	566026	Amphiuma means
+otu680	not_a_bird	not_a_bird	Amphiuma_tridactylum	566034	Amphiuma tridactylum
+otu694	not_a_bird	not_a_bird	Plethodon_glutinosus	534317	Plethodon glutinosus
+otu695	not_a_bird	not_a_bird	Plethodon_jordani	515340	Plethodon jordani
+otu693	not_a_bird	not_a_bird	Plethodon_dorsalis	841810	Plethodon dorsalis
+otu692	not_a_bird	not_a_bird	Plethodon_cinereus	923025	Plethodon cinereus
+otu691	not_a_bird	not_a_bird	Plethodon_neomexicanus	1088957	Plethodon neomexicanus
+otu683	not_a_bird	not_a_bird	Aneides_hardii	366563	Aneides hardii
+otu684	not_a_bird	not_a_bird	Aneides_lugubris	64142	Aneides lugubris
+otu685	not_a_bird	not_a_bird	Aneides_flavipunctatus	459362	Aneides flavipunctatus
+otu686	not_a_bird	not_a_bird	Aneides_ferreus	459361	Aneides ferreus
+otu687	not_a_bird	not_a_bird	Desmognathus_quadramaculatus	964115	Desmognathus quadramaculatus
+otu690	not_a_bird	not_a_bird	Desmognathus_ochrophaeus	964119	Desmognathus ochrophaeus
+otu689	not_a_bird	not_a_bird	Desmognathus_fuscus	964106	Desmognathus fuscus
+otu688	not_a_bird	not_a_bird	Desmognathus_monticola	964102	Desmognathus monticola
+otu682	not_a_bird	not_a_bird	Ensatina_eschscholtzii	637537	Ensatina eschscholtzii
+otu704	not_a_bird	not_a_bird	Batrachoseps_attenuatus	57755	Batrachoseps attenuatus
+otu705	not_a_bird	not_a_bird	Pseudoeurycea_cephalica	None	None
+otu706	not_a_bird	not_a_bird	Pseudoeurycea_bellii	None	None
+otu709	not_a_bird	not_a_bird	Pseudoeurycea_gadovii	914271	Pseudoeurycea gadovii
+otu710	not_a_bird	not_a_bird	Pseudoeurycea_cochranae	749324	Pseudoeurycea cochranae
+otu711	not_a_bird	not_a_bird	Pseudoeurycea_goebeli	516447	Pseudoeurycea goebeli
+otu708	not_a_bird	not_a_bird	Pseudoeurycea_rex	516456	Pseudoeurycea rex
+otu707	not_a_bird	not_a_bird	Pseudoeurycea_leprosa	749318	Pseudoeurycea leprosa
+otu713	not_a_bird	not_a_bird	Bolitoglossa_subpalmata	515346	Bolitoglossa subpalmata
+otu715	not_a_bird	not_a_bird	Bolitoglossa_morio	588276	Bolitoglossa morio
+otu714	not_a_bird	not_a_bird	Bolitoglossa_franklini	422050	Bolitoglossa franklini
+otu712	not_a_bird	not_a_bird	Bolitoglossa_occidentalis	999156	Bolitoglossa occidentalis
+otu696	not_a_bird	not_a_bird	Pseudotriton_ruber	1017693	Pseudotriton ruber
+otu697	not_a_bird	not_a_bird	Gyrinophilus_porphyriticus	1017696	Gyrinophilus porphyriticus
+otu698	not_a_bird	not_a_bird	Eurycea_multiplicata	839995	Eurycea multiplicata
+otu699	not_a_bird	not_a_bird	Eurycea_longicauda	534299	Eurycea longicauda
+otu700	not_a_bird	not_a_bird	Eurycea_bislineata	541564	Eurycea bislineata
+otu701	not_a_bird	not_a_bird	Eurycea_nana	839993	Eurycea nana
+otu702	not_a_bird	not_a_bird	Eurycea_neotenes	839991	Eurycea neotenes
+otu703	not_a_bird	not_a_bird	Eurycea_pterophila	839990	Eurycea pterophila
+otu678	not_a_bird	not_a_bird	Necturus_maculosus	963035	Necturus maculosus
+otu661	not_a_bird	not_a_bird	Dicamptodon_ensatus	60823	Dicamptodon ensatus
+otu662	not_a_bird	not_a_bird	Ambystoma_gracile	9245	Ambystoma gracile
+otu663	not_a_bird	not_a_bird	Ambystoma_opacum	938355	Ambystoma opacum
+otu664	not_a_bird	not_a_bird	Ambystoma_tigrinum	1092552	Ambystoma tigrinum
+otu665	not_a_bird	not_a_bird	Ambystoma_mexicanum	984726	Ambystoma mexicanum
+otu669	not_a_bird	not_a_bird	Ambystoma_jeffersonianum	411269	Ambystoma jeffersonianum
+otu668	not_a_bird	not_a_bird	Ambystoma_maculatum	1088156	Ambystoma maculatum
+otu666	not_a_bird	not_a_bird	Ambystoma_talpoideum	1092549	Ambystoma talpoideum
+otu667	not_a_bird	not_a_bird	Ambystoma_macrodactylum	938349	Ambystoma macrodactylum
+otu670	not_a_bird	not_a_bird	Salamandra_infraimmaculata	1024870	Salamandra infraimmaculata
+otu671	not_a_bird	not_a_bird	Salamandra_salamandra	689975	Salamandra salamandra
+otu676	not_a_bird	not_a_bird	Lissotriton_vulgaris	1041774	Lissotriton vulgaris
+otu677	not_a_bird	not_a_bird	Triturus_cristatus	1041796	Triturus cristatus
+otu674	not_a_bird	not_a_bird	Taricha_granulosa	1041788	Taricha granulosa
+otu675	not_a_bird	not_a_bird	Taricha_torosa	953897	Taricha torosa
+otu673	not_a_bird	not_a_bird	Taricha_rivularis	953919	Taricha rivularis
+otu672	not_a_bird	not_a_bird	Notophthalmus_viridescens	566015	Notophthalmus viridescens
+otu716	not_a_bird	not_a_bird	Discoglossus_pictus	465082	Discoglossus pictus
+otu717	not_a_bird	not_a_bird	Bombina_orientalis	991557	Bombina orientalis
+otu752	not_a_bird	not_a_bird	Crinia_signifera	918190	Crinia signifera
+otu753	not_a_bird	not_a_bird	Crinia_parinsignifera	799659	Crinia parinsignifera
+otu754	not_a_bird	not_a_bird	Eleutherodactylus_coqui	1085754	Eleutherodactylus coqui
+otu755	not_a_bird	not_a_bird	Eleutherodactylus_portoricensis	826314	Eleutherodactylus portoricensis
+otu776	not_a_bird	not_a_bird	Telmatobius_marmoratus	357726	Telmatobius marmoratus
+otu777	not_a_bird	not_a_bird	Telmatobius_culeus	617719	Telmatobius culeus
+otu775	not_a_bird	not_a_bird	Odontophrynus_americanus	609773	Odontophrynus americanus
+otu795	not_a_bird	not_a_bird	Bufo_viridis	None	None
+otu794	not_a_bird	not_a_bird	Bufo_bufo	889350	Bufo bufo
+otu793	not_a_bird	not_a_bird	Bufo_calamita	None	None
+otu785	not_a_bird	not_a_bird	Bufo_marinus	None	None
+otu787	not_a_bird	not_a_bird	Bufo_boreas	None	None
+otu790	not_a_bird	not_a_bird	Bufo_terrestris	None	None
+otu791	not_a_bird	not_a_bird	Bufo_woodhousii	None	None
+otu792	not_a_bird	not_a_bird	Bufo_americanus	None	None
+otu788	not_a_bird	not_a_bird	Bufo_cognatus	None	None
+otu789	not_a_bird	not_a_bird	Bufo_debilis	None	None
+otu786	not_a_bird	not_a_bird	Bufo_alvarius	None	None
+otu783	not_a_bird	not_a_bird	Hyloxalus_subpunctatus	863150	Hyloxalus subpunctatus
+otu784	not_a_bird	not_a_bird	Dendrobates_auratus	60803	Dendrobates auratus
+otu782	not_a_bird	not_a_bird	Colostethus_inguinalis	1033934	Colostethus inguinalis
+otu781	not_a_bird	not_a_bird	Silverstoneia_nubicola	638061	Silverstoneia nubicola
+otu780	not_a_bird	not_a_bird	Mannophryne_trinitatis	71665	Mannophryne trinitatis
+otu779	not_a_bird	not_a_bird	Leptodactylus_fuscus	863191	Leptodactylus fuscus
+otu778	not_a_bird	not_a_bird	Engystomops_pustulosus	262675	Engystomops pustulosus
+otu758	not_a_bird	not_a_bird	Cyclorana_platycephala	866785	Cyclorana platycephala
+otu757	not_a_bird	not_a_bird	Phyllomedusa_sauvagii	364555	Phyllomedusa sauvagii
+otu756	not_a_bird	not_a_bird	Agalychnis_callidryas	9483	Agalychnis callidryas
+otu761	not_a_bird	not_a_bird	Osteopilus_septentrionalis	528961	Osteopilus septentrionalis
+otu771	not_a_bird	not_a_bird	Hyla_gratiosa	None	None
+otu770	not_a_bird	not_a_bird	Hyla_cinerea	None	None
+otu769	not_a_bird	not_a_bird	Hyla_squirella	None	None
+otu773	not_a_bird	not_a_bird	Hyla_chrysoscelis	None	None
+otu772	not_a_bird	not_a_bird	Hyla_versicolor	None	None
+otu774	not_a_bird	not_a_bird	Hyla_arenicolor	None	None
+otu767	not_a_bird	not_a_bird	Smilisca_baudinii	665076	Smilisca baudinii
+otu768	not_a_bird	not_a_bird	Smilisca_fodiens	263736	Smilisca fodiens
+otu764	not_a_bird	not_a_bird	Pseudacris_crucifer	747287	Pseudacris crucifer
+otu765	not_a_bird	not_a_bird	Pseudacris_nigrita	80759	Pseudacris nigrita
+otu766	not_a_bird	not_a_bird	Pseudacris_triseriata	40328	Pseudacris triseriata
+otu763	not_a_bird	not_a_bird	Pseudacris_regilla	1038213	Pseudacris regilla
+otu762	not_a_bird	not_a_bird	Acris_crepitans	59141	Acris crepitans
+otu760	not_a_bird	not_a_bird	Hypsiboas_crepitans	539885	Hypsiboas crepitans
+otu759	not_a_bird	not_a_bird	Hypsiboas_boans	None	None
+otu731	not_a_bird	not_a_bird	Conraua_goliath	532111	Conraua goliath
+otu738	not_a_bird	not_a_bird	Rana_ridibunda	None	None
+otu737	not_a_bird	not_a_bird	Rana_esculenta	None	None
+otu748	not_a_bird	not_a_bird	Rana_clamitans	515378	Rana clamitans
+otu747	not_a_bird	not_a_bird	Rana_virgatipes	755774	Rana virgatipes
+otu746	not_a_bird	not_a_bird	Rana_catesbeiana	14688	Rana catesbeiana
+otu745	not_a_bird	not_a_bird	Rana_sylvatica	4133610	Rana sylvatica
+otu750	not_a_bird	not_a_bird	Rana_palustris	791085	Rana palustris
+otu749	not_a_bird	not_a_bird	Rana_pipiens	14703	Rana pipiens
+otu751	not_a_bird	not_a_bird	Rana_berlandieri	336757	Rana berlandieri
+otu742	not_a_bird	not_a_bird	Rana_muscosa	923354	Rana muscosa
+otu743	not_a_bird	not_a_bird	Rana_temporaria	14718	Rana temporaria
+otu744	not_a_bird	not_a_bird	Rana_arvalis	448372	Rana arvalis
+otu739	not_a_bird	not_a_bird	Rana_erythraea	None	None
+otu740	not_a_bird	not_a_bird	Rana_chalconota	None	None
+otu741	not_a_bird	not_a_bird	Hylarana_nicobariensis	None	None
+otu733	not_a_bird	not_a_bird	Occidozyga_martensii	1036652	Occidozyga martensii
+otu736	not_a_bird	not_a_bird	Limnonectes_blythii	646960	Limnonectes blythii
+otu735	not_a_bird	not_a_bird	Limnonectes_visayanus	564610	Limnonectes visayanus
+otu734	not_a_bird	not_a_bird	Fejervarya_cancrivora	787583	Fejervarya cancrivora
+otu732	not_a_bird	not_a_bird	Pyxicephalus_adspersus	911282	Pyxicephalus adspersus
+otu729	not_a_bird	not_a_bird	Gastrophryne_carolinensis	1062222	Gastrophryne carolinensis
+otu730	not_a_bird	not_a_bird	Kaloula_pulchra	43274	Kaloula pulchra
+otu727	not_a_bird	not_a_bird	Hyperolius_viridiflavus	652134	Hyperolius viridiflavus
+otu726	not_a_bird	not_a_bird	Hyperolius_marmoratus	441372	Hyperolius marmoratus
+otu728	not_a_bird	not_a_bird	Hyperolius_tuberilinguis	165054	Hyperolius tuberilinguis
+otu725	not_a_bird	not_a_bird	Kassina_senegalensis	535805	Kassina senegalensis
+otu724	not_a_bird	not_a_bird	Semnodactylus_wealii	369244	Semnodactylus wealii
+otu722	not_a_bird	not_a_bird	Spea_hammondii	565306	Spea hammondii
+otu723	not_a_bird	not_a_bird	Spea_bombifrons	1026954	Spea bombifrons
+otu720	not_a_bird	not_a_bird	Scaphiopus_couchii	77494	Scaphiopus couchii
+otu721	not_a_bird	not_a_bird	Scaphiopus_holbrookii	485823	Scaphiopus holbrookii
+otu719	not_a_bird	not_a_bird	Xenopus_laevis	465096	Xenopus laevis
+otu718	not_a_bird	not_a_bird	Xenopus_muelleri	429556	Xenopus muelleri
+otu655	not_a_bird	not_a_bird	Typhlonectes_natans	639644	Typhlonectes natans
+otu656	not_a_bird	not_a_bird	Geotrypetes_seraphini	283388	Geotrypetes seraphini
+otu654	not_a_bird	not_a_bird	Boulengerula_taitana	42297	Boulengerula taitana
+otu432	Callipepla gambelii	gamqua	Callipepla_gambelii	340887	Callipepla gambelii
+otu433	Bonasa umbellus	rufgro	Bonasa_umbellus	728082	Bonasa umbellus
+otu435	Coturnix pectoralis	stuqua1	Coturnix_pectoralis	602029	Coturnix pectoralis
+otu434	Coturnix coturnix	comqua1	Coturnix_coturnix	1098760	Coturnix coturnix
+otu489	Todus mexicanus	purtod1	Todus_mexicanus	741575	Todus mexicanus
+otu492	Bubo virginianus	grhowl	Bubo_virginianus	509853	Bubo virginianus
+otu491	Strix occidentalis	spoowl	Strix_occidentalis	273899	Strix occidentalis
+otu490	Megascops trichopsis	whsowl1	Megascops_trichopsis	621249	Megascops trichopsis
+otu493	Buteo lineatus	reshaw	Buteo_lineatus	781301	Buteo lineatus
+otu494	Pandion haliaetus	osprey	Pandion_haliaetus	509837	Pandion haliaetus
+otu488	Colius colius	whbmou1	Colius_colius	462548	Colius colius
+otu487	Colius striatus	spemou2	Colius_striatus	462544	Colius striatus
+otu437	Falco sparverius	amekes	Falco_sparverius	964519	Falco sparverius
+otu438	Myiarchus crinitus	grcfly	Myiarchus_crinitus	835027	Myiarchus crinitus
+otu439	Sayornis phoebe	easpho	Sayornis_phoebe	1065604	Sayornis phoebe
+otu440	Empidonax virescens	acafly	Empidonax_virescens	675007	Empidonax virescens
+otu441	Contopus virens	eawpew	Contopus_virens	1095258	Contopus virens
+otu442	Ceratopipra mentalis	recman1	Pipra_mentalis	128718	Pipra mentalis
+otu443	Manacus vitellinus	gocman1	Manacus_vitellinus	640833	Manacus vitellinus
+otu445	Lichmera indistincta	brohon1	Lichmera_indistincta	527600	Lichmera indistincta
+otu444	Melithreptus lunatus	whnhon2	Melithreptus_lunatus	598350	Melithreptus lunatus
+otu447	no_match	no_match	Phylidonyris_melanops	927347	Phylidonyris melanops
+otu446	not_a_bird	not_a_bird	Lichenostomus_virescens	None	None
+otu448	not_a_bird	not_a_bird	Pica_nuttalli	None	None
+otu449	Pica pica	eurmag1	Pica_pica	776471	Pica pica
+otu454	Sialia mexicana	wesblu	Sialia_mexicana	1044558	Sialia mexicana
+otu485	Amadina erythrocephala	rehfin1	Amadina_erythrocephala	393083	Amadina erythrocephala
+otu486	Lonchura fuscans	dusmun1	Lonchura_fuscans	3597698	Lonchura fuscans
+otu463	Coereba flaveola	banana	Coereba_flaveola	419369	Coereba flaveola
+otu462	Cardinalis cardinalis	norcar	Cardinalis_cardinalis	307364	Cardinalis cardinalis
+otu461	Cardinalis sinuatus	pyrrhu	Cardinalis_sinuatus	425446	Cardinalis sinuatus
+otu477	Protonotaria citrea	prowar	Protonotaria_citrea	285212	Protonotaria citrea
+otu478	Geothlypis trichas	comyel	Geothlypis_trichas	998127	Geothlypis trichas
+otu479	not_a_bird	not_a_bird	Seiurus_noveboracensis	None	None
+otu484	not_a_bird	not_a_bird	Wilsonia_citrina	None	None
+otu481	not_a_bird	not_a_bird	Dendroica_palmarum	None	None
+otu482	not_a_bird	not_a_bird	Dendroica_coronata	None	None
+otu483	not_a_bird	not_a_bird	Dendroica_dominica	None	None
+otu480	not_a_bird	not_a_bird	Parula_americana	None	None
+otu476	Seiurus aurocapilla	ovenbi1	Seiurus_aurocapilla	285207	Seiurus aurocapilla
+otu474	Icterus galbula	balori	Icterus_galbula	1077595	Icterus galbula
+otu475	Agelaius phoeniceus	rewbla	Agelaius_phoeniceus	226605	Agelaius phoeniceus
+otu473	Ammodramus savannarum	graspa	Ammodramus_savannarum	420998	Ammodramus savannarum
+otu464	Spizella passerina	chispa	Spizella_passerina	989504	Spizella passerina
+otu465	Amphispiza bilineata	bktspa	Amphispiza_bilineata	292646	Amphispiza bilineata
+otu468	Passerculus sandwichensis	savspa	Passerculus_sandwichensis	453758	Passerculus sandwichensis
+otu467	Melospiza melodia	sonspa	Melospiza_melodia	265548	Melospiza melodia
+otu466	Melospiza georgiana	swaspa	Melospiza_georgiana	265545	Melospiza georgiana
+otu469	Pooecetes gramineus	vesspa	Pooecetes_gramineus	765407	Pooecetes gramineus
+otu470	Zonotrichia leucophrys	whcspa	Zonotrichia_leucophrys	265553	Zonotrichia leucophrys
+otu471	Zonotrichia albicollis	whtspa	Zonotrichia_albicollis	265547	Zonotrichia albicollis
+otu472	Zonotrichia querula	harspa	Zonotrichia_querula	265552	Zonotrichia querula
+otu456	not_a_bird	not_a_bird	Carpodacus_mexicanus	None	None
+otu455	not_a_bird	not_a_bird	Carpodacus_cassinii	None	None
+otu458	Loxioides bailleui	palila	Loxioides_bailleui	221897	Loxioides bailleui
+otu457	Himatione sanguinea	apapan	Himatione_sanguinea	298780	Himatione sanguinea
+otu460	not_a_bird	not_a_bird	Carduelis_tristis	None	None
+otu459	not_a_bird	not_a_bird	Carduelis_pinus	None	None
+otu452	Psaltriparus minimus	bushti	Psaltriparus_minimus	1058772	Psaltriparus minimus
+otu453	Zosterops lateralis	silver3	Zosterops_lateralis	819155	Zosterops lateralis
+otu451	Mirafra erythrocephala	indbus3	Mirafra_erythrocephala	3597531	Mirafra erythrocephala
+otu450	not_a_bird	not_a_bird	Parus_atricapillus	None	None
+otu436	Larus argentatus	hergul	Larus_argentatus	791957	Larus argentatus
+otu507	Pterocles orientalis	blbsan1	Pterocles_orientalis	789254	Pterocles orientalis
+otu495	Columbina inca	incdov	Columbina_inca	846250	Columbina inca
+otu506	Columba leucomela	whhpig1	Columba_leucomela	3596508	Columba leucomela
+otu496	Leucosarcia melanoleuca	wonpig1	Leucosarcia_melanoleuca	358714	Leucosarcia melanoleuca
+otu500	Ocyphaps lophotes	crepig1	Ocyphaps_lophotes	392967	Ocyphaps lophotes
+otu501	Phaps chalcoptera	combro1	Phaps_chalcoptera	28965	Phaps chalcoptera
+otu502	Phaps elegans	brubro1	Phaps_elegans	3596603	Phaps elegans
+otu499	Geophaps plumifera	spipig2	Geophaps_plumifera	147369	Geophaps plumifera
+otu498	Geopelia cuneata	diadov1	Geopelia_cuneata	449654	Geopelia cuneata
+otu497	Geopelia placida	peadov1	Geopelia_placida	3596612	Geopelia placida
+otu505	Chalcophaps indica	emedov2	Chalcophaps_indica	1032049	Chalcophaps indica
+otu504	Ptilinopus superbus	sufdov1	Ptilinopus_superbus	455664	Ptilinopus superbus
+otu503	Ptilinopus melanospilus	bknfrd1	Ptilinopus_melanospilus	359313	Ptilinopus melanospilus
+otu511	Geococcyx californianus	greroa	Geococcyx_californianus	212182	Geococcyx californianus
+otu508	Spheniscus humboldti	humpen1	Spheniscus_humboldti	810741	Spheniscus humboldti
+otu509	Anhinga anhinga	anhing	Anhinga_anhinga	170196	Anhinga anhinga
+otu510	not_a_bird	not_a_bird	Phalacrocorax_auritus	None	None
+otu514	Chordeiles minor	comnig	Chordeiles_minor	870594	Chordeiles minor
+otu513	not_a_bird	not_a_bird	Sephanoides_sephaniodes	None	None
+otu512	Podargus strigoides	tawfro1	Podargus_strigoides	313120	Podargus strigoides
+otu515	not_a_bird	not_a_bird	Sphenodon_punctatus	35890	Sphenodon punctatus
+otu520	not_a_bird	not_a_bird	Ptyodactylus_hasselquistii	737464	Ptyodactylus hasselquistii
+otu521	not_a_bird	not_a_bird	Homonota_gaudichaudii	None	None
+otu522	not_a_bird	not_a_bird	Tarentola_mauritanica	190161	Tarentola mauritanica
+otu523	not_a_bird	not_a_bird	Gekko_gecko	953907	Gekko gecko
+otu526	not_a_bird	not_a_bird	Hemidactylus_frenatus	115217	Hemidactylus frenatus
+otu525	not_a_bird	not_a_bird	Hemidactylus_platyurus	598402	Hemidactylus platyurus
+otu524	not_a_bird	not_a_bird	Bunopus_tuberculatus	628454	Bunopus tuberculatus
+otu517	not_a_bird	not_a_bird	Gonatodes_antillensis	718098	Gonatodes antillensis
+otu519	not_a_bird	not_a_bird	Sphaerodactylus_macrolepis	696635	Sphaerodactylus macrolepis
+otu518	not_a_bird	not_a_bird	Sphaerodactylus_cinereus	122531	Sphaerodactylus cinereus
+otu516	not_a_bird	not_a_bird	Coleonyx_variegatus	677271	Coleonyx variegatus
+otu556	not_a_bird	not_a_bird	Zootoca_vivipara	87626	Zootoca vivipara
+otu558	not_a_bird	not_a_bird	Lacerta_agilis	862848	Lacerta agilis
+otu559	not_a_bird	not_a_bird	Lacerta_trilineata	46633	Lacerta trilineata
+otu557	not_a_bird	not_a_bird	Lacerta_viridis	220527	Lacerta viridis
+otu563	not_a_bird	not_a_bird	Podarcis_lilfordi	24280	Podarcis lilfordi
+otu562	not_a_bird	not_a_bird	Podarcis_hispanicus	968467	Podarcis hispanicus
+otu561	not_a_bird	not_a_bird	Podarcis_muralis	744397	Podarcis muralis
+otu560	not_a_bird	not_a_bird	Podarcis_siculus	588048	Podarcis siculus
+otu551	not_a_bird	not_a_bird	Acanthodactylus_scutellatus	628446	Acanthodactylus scutellatus
+otu552	not_a_bird	not_a_bird	Acanthodactylus_schmidti	963742	Acanthodactylus schmidti
+otu555	not_a_bird	not_a_bird	Acanthodactylus_boskianus	995811	Acanthodactylus boskianus
+otu554	not_a_bird	not_a_bird	Acanthodactylus_schreiberi	219896	Acanthodactylus schreiberi
+otu553	not_a_bird	not_a_bird	Acanthodactylus_opheodurus	418794	Acanthodactylus opheodurus
+otu550	not_a_bird	not_a_bird	Acanthodactylus_pardalis	563941	Acanthodactylus pardalis
+otu549	not_a_bird	not_a_bird	Acanthodactylus_erythrurus	418798	Acanthodactylus erythrurus
+otu548	not_a_bird	not_a_bird	Psammodromus_algirus	963735	Psammodromus algirus
+otu547	not_a_bird	not_a_bird	Diplometopon_zarudnyi	106926	Diplometopon zarudnyi
+otu546	not_a_bird	not_a_bird	Trogonophis_wiegmanni	938995	Trogonophis wiegmanni
+otu545	not_a_bird	not_a_bird	Blanus_cinereus	236037	Blanus cinereus
+otu544	not_a_bird	not_a_bird	Aspidoscelis_tigris	690595	Aspidoscelis tigris
+otu621	not_a_bird	not_a_bird	Acrochordus_arafurae	522482	Acrochordus arafurae
+otu625	not_a_bird	not_a_bird	Pelamis_platura	None	None
+otu624	not_a_bird	not_a_bird	Acanthophis_praelongus	59819	Acanthophis praelongus
+otu642	not_a_bird	not_a_bird	Sibynomorphus_mikanii	None	None
+otu643	not_a_bird	not_a_bird	Dipsas_albifrons	754310	Dipsas albifrons
+otu649	not_a_bird	not_a_bird	Philodryas_patagoniensis	823116	Philodryas patagoniensis
+otu648	not_a_bird	not_a_bird	Philodryas_olfersii	468233	Philodryas olfersii
+otu653	not_a_bird	not_a_bird	Oxyrhopus_trigeminus	525964	Oxyrhopus trigeminus
+otu652	not_a_bird	not_a_bird	Hydrodynastes_gigas	1087428	Hydrodynastes gigas
+otu651	not_a_bird	not_a_bird	Tropidodryas_serra	823120	Tropidodryas serra
+otu650	not_a_bird	not_a_bird	Thamnodynastes_strigatus	579155	Thamnodynastes strigatus
+otu644	not_a_bird	not_a_bird	Waglerophis_merremi	None	None
+otu645	not_a_bird	not_a_bird	Xenodon_neuwiedii	418328	Xenodon neuwiedii
+otu646	not_a_bird	not_a_bird	Xenodon_guentheri	943661	Xenodon guentheri
+otu647	not_a_bird	not_a_bird	Liophis_miliaris	None	None
+otu641	not_a_bird	not_a_bird	Diadophis_punctatus	324337	Diadophis punctatus
+otu640	not_a_bird	not_a_bird	Thamnophis_butleri	681053	Thamnophis butleri
+otu639	not_a_bird	not_a_bird	Thamnophis_proximus	631804	Thamnophis proximus
+otu638	not_a_bird	not_a_bird	Thamnophis_sirtalis	107027	Thamnophis sirtalis
+otu637	not_a_bird	not_a_bird	Nerodia_rhombifer	505612	Nerodia rhombifer
+otu636	not_a_bird	not_a_bird	Storeria_dekayi	505605	Storeria dekayi
+otu635	not_a_bird	not_a_bird	Natrix_natrix	1010557	Natrix natrix
+otu634	not_a_bird	not_a_bird	Natrix_maura	931749	Natrix maura
+otu627	not_a_bird	not_a_bird	Coluber_constrictor	405963	Coluber constrictor
+otu629	not_a_bird	not_a_bird	Mastigodryas_bifossatus	None	None
+otu628	not_a_bird	not_a_bird	Chironius_quadricarinatus	683327	Chironius quadricarinatus
+otu633	not_a_bird	not_a_bird	Lampropeltis_getula	547409	Lampropeltis getula
+otu632	not_a_bird	not_a_bird	Pantherophis_guttatus	456236	Pantherophis guttatus
+otu630	not_a_bird	not_a_bird	Pituophis_melanoleucus	405961	Pituophis melanoleucus
+otu631	not_a_bird	not_a_bird	Pituophis_catenifer	931717	Pituophis catenifer
+otu626	not_a_bird	not_a_bird	Spalerosophis_diadema	1053208	Spalerosophis diadema
+otu622	not_a_bird	not_a_bird	Vipera_berus	579239	Vipera berus
+otu623	not_a_bird	not_a_bird	Crotalus_viridis	600069	Crotalus viridis
+otu602	not_a_bird	not_a_bird	Lichanura_trivirgata	1072301	Lichanura trivirgata
+otu604	not_a_bird	not_a_bird	Gongylophis_colubrinus	None	None
+otu605	not_a_bird	not_a_bird	Boa_constrictor	764377	Boa constrictor
+otu608	not_a_bird	not_a_bird	Epicrates_cenchria	163264	Epicrates cenchria
+otu609	not_a_bird	not_a_bird	Eunectes_notaeus	1072291	Eunectes notaeus
+otu610	not_a_bird	not_a_bird	Eunectes_murinus	1072290	Eunectes murinus
+otu607	not_a_bird	not_a_bird	Corallus_caninus	546136	Corallus caninus
+otu606	not_a_bird	not_a_bird	Corallus_hortulanus	292207	Corallus hortulanus
+otu603	not_a_bird	not_a_bird	Candoia_carinata	1021981	Candoia carinata
+otu601	not_a_bird	not_a_bird	Acrantophis_dumerili	1021985	Acrantophis dumerili
+otu615	not_a_bird	not_a_bird	Aspidites_melanocephalus	194330	Aspidites melanocephalus
+otu617	not_a_bird	not_a_bird	Liasis_fuscus	68672	Liasis fuscus
+otu616	not_a_bird	not_a_bird	Liasis_olivaceus	732171	Liasis olivaceus
+otu619	not_a_bird	not_a_bird	Antaresia_childreni	194324	Antaresia childreni
+otu620	not_a_bird	not_a_bird	Antaresia_stimsoni	162759	Antaresia stimsoni
+otu618	not_a_bird	not_a_bird	Morelia_spilota	717660	Morelia spilota
+otu613	not_a_bird	not_a_bird	Python_curtus	657703	Python curtus
+otu614	not_a_bird	not_a_bird	Python_regius	737820	Python regius
+otu611	not_a_bird	not_a_bird	Python_molurus	737826	Python molurus
+otu612	not_a_bird	not_a_bird	Python_sebae	737816	Python sebae
+otu577	not_a_bird	not_a_bird	Uromastyx_aegyptia	913390	Uromastyx aegyptia
+otu580	not_a_bird	not_a_bird	Pogona_barbata	58621	Pogona barbata
+otu579	not_a_bird	not_a_bird	Ctenophorus_nuchalis	1090806	Ctenophorus nuchalis
+otu578	not_a_bird	not_a_bird	Physignathus_lesueurii	None	None
+otu586	not_a_bird	not_a_bird	Crotaphytus_collaris	244476	Crotaphytus collaris
+otu592	not_a_bird	not_a_bird	Sceloporus_variabilis	917789	Sceloporus variabilis
+otu595	not_a_bird	not_a_bird	Sceloporus_occidentalis	608985	Sceloporus occidentalis
+otu596	not_a_bird	not_a_bird	Sceloporus_undulatus	87621	Sceloporus undulatus
+otu594	not_a_bird	not_a_bird	Sceloporus_olivaceus	917784	Sceloporus olivaceus
+otu593	not_a_bird	not_a_bird	Sceloporus_graciosus	953312	Sceloporus graciosus
+otu591	not_a_bird	not_a_bird	Uta_stansburiana	867320	Uta stansburiana
+otu590	not_a_bird	not_a_bird	Petrosaurus_mearnsi	160827	Petrosaurus mearnsi
+otu587	not_a_bird	not_a_bird	Phrynosoma_cornutum	968168	Phrynosoma cornutum
+otu589	not_a_bird	not_a_bird	Phrynosoma_douglassii	None	None
+otu588	not_a_bird	not_a_bird	Phrynosoma_mcallii	652247	Phrynosoma mcallii
+otu597	not_a_bird	not_a_bird	Anolis_bonairensis	240144	Anolis bonairensis
+otu598	not_a_bird	not_a_bird	Anolis_carolinensis	705356	Anolis carolinensis
+otu599	not_a_bird	not_a_bird	Anolis_acutus	441760	Anolis acutus
+otu600	not_a_bird	not_a_bird	Anolis_limifrons	245842	Anolis limifrons
+otu585	not_a_bird	not_a_bird	Amblyrhynchus_cristatus	240153	Amblyrhynchus cristatus
+otu583	not_a_bird	not_a_bird	Sauromalus_ater	778653	Sauromalus ater
+otu584	not_a_bird	not_a_bird	Sauromalus_hispidus	778651	Sauromalus hispidus
+otu582	not_a_bird	not_a_bird	Iguana_iguana	608972	Iguana iguana
+otu581	not_a_bird	not_a_bird	Dipsosaurus_dorsalis	763599	Dipsosaurus dorsalis
+otu569	not_a_bird	not_a_bird	Varanus_bengalensis	747043	Varanus bengalensis
+otu573	not_a_bird	not_a_bird	Varanus_gouldii	172908	Varanus gouldii
+otu574	not_a_bird	not_a_bird	Varanus_panoptes	415501	Varanus panoptes
+otu572	not_a_bird	not_a_bird	Varanus_rosenbergi	1016682	Varanus rosenbergi
+otu571	not_a_bird	not_a_bird	Varanus_giganteus	1024033	Varanus giganteus
+otu570	not_a_bird	not_a_bird	Varanus_mertensi	1024042	Varanus mertensi
+otu576	not_a_bird	not_a_bird	Varanus_gilleni	415493	Varanus gilleni
+otu575	not_a_bird	not_a_bird	Varanus_varius	415538	Varanus varius
+otu568	not_a_bird	not_a_bird	Varanus_albigularis	713778	Varanus albigularis
+otu564	not_a_bird	not_a_bird	Anniella_pulchra	891128	Anniella pulchra
+otu565	not_a_bird	not_a_bird	Ophisaurus_ventralis	399758	Ophisaurus ventralis
+otu566	not_a_bird	not_a_bird	Anguis_fragilis	449663	Anguis fragilis
+otu567	not_a_bird	not_a_bird	Elgaria_multicarinata	490516	Elgaria multicarinata
+otu532	not_a_bird	not_a_bird	Acontias_meleagris	601058	Acontias meleagris
+otu542	not_a_bird	not_a_bird	Tiliqua_rugosa	87622	Tiliqua rugosa
+otu543	not_a_bird	not_a_bird	Tiliqua_scincoides	1016681	Tiliqua scincoides
+otu541	not_a_bird	not_a_bird	Ctenotus_labillardieri	807838	Ctenotus labillardieri
+otu540	not_a_bird	not_a_bird	Scincella_lateralis	741853	Scincella lateralis
+otu536	not_a_bird	not_a_bird	Scincus_mitranus	745921	Scincus mitranus
+otu539	not_a_bird	not_a_bird	Scelotes_gronovii	856184	Scelotes gronovii
+otu538	not_a_bird	not_a_bird	Chalcides_sepsoides	845231	Chalcides sepsoides
+otu537	not_a_bird	not_a_bird	Chalcides_ocellatus	570395	Chalcides ocellatus
+otu535	not_a_bird	not_a_bird	Plestiodon_fasciatus	979463	Plestiodon fasciatus
+otu534	not_a_bird	not_a_bird	Plestiodon_obsoletus	993927	Plestiodon obsoletus
+otu533	not_a_bird	not_a_bird	Plestiodon_inexpectatus	741773	Plestiodon inexpectatus
+otu531	not_a_bird	not_a_bird	Lepidophyma_smithii	139526	Lepidophyma smithii
+otu530	not_a_bird	not_a_bird	Lepidophyma_gaigeae	106929	Lepidophyma gaigeae
+otu528	not_a_bird	not_a_bird	Xantusia_riversiana	139522	Xantusia riversiana
+otu529	not_a_bird	not_a_bird	Xantusia_vigilis	139521	Xantusia vigilis
+otu527	not_a_bird	not_a_bird	Xantusia_henshawi	139519	Xantusia henshawi
+otu9	not_a_bird	not_a_bird	Bradypus_variegatus	273233	Bradypus variegatus
+otu8	not_a_bird	not_a_bird	Choloepus_hoffmanni	273247	Choloepus hoffmanni
+otu6	not_a_bird	not_a_bird	Tamandua_mexicana	273227	Tamandua mexicana
+otu7	not_a_bird	not_a_bird	Tamandua_tetradactyla	1014324	Tamandua tetradactyla
+otu5	not_a_bird	not_a_bird	Myrmecophaga_tridactyla	490538	Myrmecophaga tridactyla
+otu4	not_a_bird	not_a_bird	Cyclopes_didactylus	675099	Cyclopes didactylus
+otu18	not_a_bird	not_a_bird	Dasypus_novemcinctus	796672	Dasypus novemcinctus
+otu11	not_a_bird	not_a_bird	Tolypeutes_matacus	515354	Tolypeutes matacus
+otu12	not_a_bird	not_a_bird	Cabassous_centralis	4119200	Cabassous centralis
+otu10	not_a_bird	not_a_bird	Priodontes_maximus	476113	Priodontes maximus
+otu13	not_a_bird	not_a_bird	Euphractus_sexcinctus	292508	Euphractus sexcinctus
+otu14	not_a_bird	not_a_bird	Zaedyus_pichiy	1002419	Zaedyus pichiy
+otu15	not_a_bird	not_a_bird	Chaetophractus_vellerosus	627609	Chaetophractus vellerosus
+otu16	not_a_bird	not_a_bird	Chaetophractus_villosus	180375	Chaetophractus villosus
+otu17	not_a_bird	not_a_bird	Chaetophractus_nationi	4119189	Chaetophractus nationi
+otu26	not_a_bird	not_a_bird	Tenrec_ecaudatus	680963	Tenrec ecaudatus
+otu27	not_a_bird	not_a_bird	Setifer_setosus	542059	Setifer setosus
+otu25	not_a_bird	not_a_bird	Microgale_talazaci	211383	Microgale talazaci
+otu23	not_a_bird	not_a_bird	Microgale_cowani	544762	Microgale cowani
+otu24	not_a_bird	not_a_bird	Microgale_dobsoni	82081	Microgale dobsoni
+otu22	not_a_bird	not_a_bird	Geogale_aurita	922733	Geogale aurita
+otu28	not_a_bird	not_a_bird	Chrysochloris_asiatica	1094517	Chrysochloris asiatica
+otu33	not_a_bird	not_a_bird	Elephantulus_rozeti	None	None
+otu32	not_a_bird	not_a_bird	Elephantulus_rufescens	584365	Elephantulus rufescens
+otu31	not_a_bird	not_a_bird	Elephantulus_myurus	741345	Elephantulus myurus
+otu30	not_a_bird	not_a_bird	Elephantulus_brachyrhynchus	741348	Elephantulus brachyrhynchus
+otu34	not_a_bird	not_a_bird	Elephantulus_intufi	741343	Elephantulus intufi
+otu35	not_a_bird	not_a_bird	Elephantulus_edwardii	604025	Elephantulus edwardii
+otu29	not_a_bird	not_a_bird	Macroscelides_proboscideus	180378	Macroscelides proboscideus
+otu36	not_a_bird	not_a_bird	Petrodromus_tetradactylus	741350	Petrodromus tetradactylus
+otu21	not_a_bird	not_a_bird	Orycteropus_afer	561087	Orycteropus afer
+otu20	not_a_bird	not_a_bird	Heterohyrax_brucei	681079	Heterohyrax brucei
+otu19	not_a_bird	not_a_bird	Procavia_capensis	561114	Procavia capensis
+otu369	not_a_bird	not_a_bird	Eulemur_fulvus	394961	Eulemur fulvus
+otu368	not_a_bird	not_a_bird	Cheirogaleus_medius	863759	Cheirogaleus medius
+otu364	not_a_bird	not_a_bird	Galago_senegalensis	863751	Galago senegalensis
+otu365	not_a_bird	not_a_bird	Perodicticus_potto	339040	Perodicticus potto
+otu367	not_a_bird	not_a_bird	Nycticebus_coucang	339043	Nycticebus coucang
+otu366	not_a_bird	not_a_bird	Loris_tardigradus	152022	Loris tardigradus
+otu370	not_a_bird	not_a_bird	Saimiri_sciureus	842875	Saimiri sciureus
+otu371	not_a_bird	not_a_bird	Aotus_trivirgatus	791711	Aotus trivirgatus
+otu373	not_a_bird	not_a_bird	Cercopithecus_mitis	203191	Cercopithecus mitis
+otu374	not_a_bird	not_a_bird	Erythrocebus_patas	268326	Erythrocebus patas
+otu372	not_a_bird	not_a_bird	Colobus_guereza	565569	Colobus guereza
+otu375	not_a_bird	not_a_bird	Tarsius_syrichta	None	None
+otu363	not_a_bird	not_a_bird	Ptilocercus_lowii	81758	Ptilocercus lowii
+otu362	not_a_bird	not_a_bird	Tupaia_glis	574727	Tupaia glis
+otu182	not_a_bird	not_a_bird	Heterocephalus_glaber	1048195	Heterocephalus glaber
+otu183	not_a_bird	not_a_bird	Heliophobius_argenteocinereus	118526	Heliophobius argenteocinereus
+otu188	not_a_bird	not_a_bird	Fukomys_damarensis	895549	Fukomys damarensis
+otu189	not_a_bird	not_a_bird	Fukomys_mechowii	107104	Fukomys mechowii
+otu190	not_a_bird	not_a_bird	Fukomys_bocagei	257746	Fukomys bocagei
+otu184	not_a_bird	not_a_bird	Cryptomys_hottentotus	118550	Cryptomys hottentotus
+otu185	not_a_bird	not_a_bird	Georychus_capensis	118556	Georychus capensis
+otu187	not_a_bird	not_a_bird	Bathyergus_janetta	118538	Bathyergus janetta
+otu186	not_a_bird	not_a_bird	Bathyergus_suillus	118542	Bathyergus suillus
+otu191	not_a_bird	not_a_bird	Coendou_prehensilis	466149	Coendou prehensilis
+otu199	not_a_bird	not_a_bird	Cuniculus_paca	296191	Cuniculus paca
+otu194	not_a_bird	not_a_bird	Galea_musteloides	744014	Galea musteloides
+otu195	not_a_bird	not_a_bird	Cavia_porcellus	744000	Cavia porcellus
+otu192	not_a_bird	not_a_bird	Dolichotis_salinicola	484311	Dolichotis salinicola
+otu193	not_a_bird	not_a_bird	Kerodon_rupestris	1010509	Kerodon rupestris
+otu198	not_a_bird	not_a_bird	Myoprocta_acouchy	484313	Myoprocta acouchy
+otu197	not_a_bird	not_a_bird	Dasyprocta_azarae	3609680	Dasyprocta azarae
+otu196	not_a_bird	not_a_bird	Dasyprocta_leporina	462286	Dasyprocta leporina
+otu206	not_a_bird	not_a_bird	Tympanoctomys_barrerae	587859	Tympanoctomys barrerae
+otu207	not_a_bird	not_a_bird	Octomys_mimax	940752	Octomys mimax
+otu208	not_a_bird	not_a_bird	Octodontomys_gliroides	743021	Octodontomys gliroides
+otu209	not_a_bird	not_a_bird	Spalacopus_cyanus	198654	Spalacopus cyanus
+otu210	not_a_bird	not_a_bird	Aconaemys_fuscus	620800	Aconaemys fuscus
+otu211	not_a_bird	not_a_bird	Octodon_degus	692698	Octodon degus
+otu205	not_a_bird	not_a_bird	Ctenomys_peruanus	3609695	Ctenomys peruanus
+otu200	not_a_bird	not_a_bird	Ctenomys_opimus	53931	Ctenomys opimus
+otu201	not_a_bird	not_a_bird	Ctenomys_fulvus	270437	Ctenomys fulvus
+otu204	not_a_bird	not_a_bird	Ctenomys_australis	270436	Ctenomys australis
+otu203	not_a_bird	not_a_bird	Ctenomys_talarum	672624	Ctenomys talarum
+otu202	not_a_bird	not_a_bird	Ctenomys_maulinus	757314	Ctenomys maulinus
+otu214	not_a_bird	not_a_bird	Capromys_pilorides	848925	Capromys pilorides
+otu213	not_a_bird	not_a_bird	Proechimys_semispinosus	3609852	Proechimys semispinosus
+otu212	not_a_bird	not_a_bird	Thrichomys_apereoides	504982	Thrichomys apereoides
+otu216	not_a_bird	not_a_bird	Chinchilla_lanigera	173054	Chinchilla lanigera
+otu215	not_a_bird	not_a_bird	Lagostomus_maximus	169719	Lagostomus maximus
+otu181	not_a_bird	not_a_bird	Hystrix_africaeaustralis	220335	Hystrix africaeaustralis
+otu360	not_a_bird	not_a_bird	Thomomys_bottae	342237	Thomomys bottae
+otu359	not_a_bird	not_a_bird	Thomomys_umbrinus	734900	Thomomys umbrinus
+otu361	not_a_bird	not_a_bird	Thomomys_talpoides	791951	Thomomys talpoides
+otu358	not_a_bird	not_a_bird	Geomys_bursarius	451265	Geomys bursarius
+otu357	not_a_bird	not_a_bird	Geomys_pinetis	883161	Geomys pinetis
+otu353	not_a_bird	not_a_bird	Chaetodipus_intermedius	374303	Chaetodipus intermedius
+otu352	not_a_bird	not_a_bird	Chaetodipus_californicus	764439	Chaetodipus californicus
+otu351	not_a_bird	not_a_bird	Chaetodipus_fallax	190181	Chaetodipus fallax
+otu350	not_a_bird	not_a_bird	Chaetodipus_baileyi	764435	Chaetodipus baileyi
+otu354	not_a_bird	not_a_bird	Chaetodipus_hispidus	427276	Chaetodipus hispidus
+otu355	not_a_bird	not_a_bird	Perognathus_longimembris	427268	Perognathus longimembris
+otu356	not_a_bird	not_a_bird	Perognathus_flavus	1024543	Perognathus flavus
+otu349	not_a_bird	not_a_bird	Liomys_salvini	536702	Liomys salvini
+otu348	not_a_bird	not_a_bird	Heteromys_desmarestianus	270502	Heteromys desmarestianus
+otu347	not_a_bird	not_a_bird	Heteromys_anomalus	536724	Heteromys anomalus
+otu346	not_a_bird	not_a_bird	Liomys_irroratus	844941	Liomys irroratus
+otu345	not_a_bird	not_a_bird	Microdipodops_pallidus	844945	Microdipodops pallidus
+otu344	not_a_bird	not_a_bird	Microdipodops_megacephalus	241226	Microdipodops megacephalus
+otu338	not_a_bird	not_a_bird	Dipodomys_deserti	921967	Dipodomys deserti
+otu339	not_a_bird	not_a_bird	Dipodomys_merriami	37456	Dipodomys merriami
+otu340	not_a_bird	not_a_bird	Dipodomys_ordii	917328	Dipodomys ordii
+otu343	not_a_bird	not_a_bird	Dipodomys_agilis	734898	Dipodomys agilis
+otu342	not_a_bird	not_a_bird	Dipodomys_microps	37449	Dipodomys microps
+otu341	not_a_bird	not_a_bird	Dipodomys_panamintinus	342222	Dipodomys panamintinus
+otu217	not_a_bird	not_a_bird	Pedetes_capensis	5281	Pedetes capensis
+otu218	not_a_bird	not_a_bird	Napaeozapus_insignis	379305	Napaeozapus insignis
+otu219	not_a_bird	not_a_bird	Zapus_hudsonius	1090614	Zapus hudsonius
+otu221	not_a_bird	not_a_bird	Jaculus_orientalis	437594	Jaculus orientalis
+otu222	not_a_bird	not_a_bird	Jaculus_jaculus	886091	Jaculus jaculus
+otu220	not_a_bird	not_a_bird	Dipus_sagitta	475308	Dipus sagitta
+otu227	not_a_bird	not_a_bird	Mystromys_albicaudatus	91072	Mystromys albicaudatus
+otu228	not_a_bird	not_a_bird	Steatomys_pratensis	3608536	Steatomys pratensis
+otu229	not_a_bird	not_a_bird	Malacothrix_typica	600700	Malacothrix typica
+otu231	not_a_bird	not_a_bird	Cricetomys_gambianus	922511	Cricetomys gambianus
+otu230	not_a_bird	not_a_bird	Saccostomus_campestris	53782	Saccostomus campestris
+otu233	not_a_bird	not_a_bird	Mesocricetus_auratus	391631	Mesocricetus auratus
+otu232	not_a_bird	not_a_bird	Phodopus_sungorus	764831	Phodopus sungorus
+otu235	not_a_bird	not_a_bird	Cricetulus_migratorius	159169	Cricetulus migratorius
+otu234	not_a_bird	not_a_bird	Cricetus_cricetus	391625	Cricetus cricetus
+otu261	not_a_bird	not_a_bird	Myopus_schisticolor	490530	Myopus schisticolor
+otu262	not_a_bird	not_a_bird	Neofiber_alleni	404165	Neofiber alleni
+otu260	not_a_bird	not_a_bird	Dicrostonyx_groenlandicus	603158	Dicrostonyx groenlandicus
+otu237	not_a_bird	not_a_bird	Arborimus_longicaudus	663525	Arborimus longicaudus
+otu253	not_a_bird	not_a_bird	Arvicola_amphibius	684847	Arvicola amphibius
+otu239	not_a_bird	not_a_bird	Microtus_longicaudus	910200	Microtus longicaudus
+otu240	not_a_bird	not_a_bird	Microtus_agrestis	754333	Microtus agrestis
+otu248	not_a_bird	not_a_bird	Microtus_arvalis	449577	Microtus arvalis
+otu249	not_a_bird	not_a_bird	Microtus_guentheri	1049266	Microtus guentheri
+otu245	not_a_bird	not_a_bird	Microtus_pennsylvanicus	340973	Microtus pennsylvanicus
+otu246	not_a_bird	not_a_bird	Microtus_montanus	1035816	Microtus montanus
+otu247	not_a_bird	not_a_bird	Microtus_richardsoni	803869	Microtus richardsoni
+otu244	not_a_bird	not_a_bird	Microtus_californicus	742231	Microtus californicus
+otu250	not_a_bird	not_a_bird	Microtus_oeconomus	1051081	Microtus oeconomus
+otu243	not_a_bird	not_a_bird	Microtus_breweri	988006	Microtus breweri
+otu242	not_a_bird	not_a_bird	Microtus_ochrogaster	927240	Microtus ochrogaster
+otu241	not_a_bird	not_a_bird	Microtus_mexicanus	927229	Microtus mexicanus
+otu251	not_a_bird	not_a_bird	Microtus_pinetorum	269493	Microtus pinetorum
+otu252	not_a_bird	not_a_bird	Microtus_xanthognathus	241402	Microtus xanthognathus
+otu238	not_a_bird	not_a_bird	Lasiopodomys_brandtii	427965	Lasiopodomys brandtii
+otu255	not_a_bird	not_a_bird	Myodes_gapperi	627111	Myodes gapperi
+otu254	not_a_bird	not_a_bird	Myodes_californicus	179751	Myodes californicus
+otu259	not_a_bird	not_a_bird	Lemmus_sibiricus	1024554	Lemmus sibiricus
+otu258	not_a_bird	not_a_bird	Lemmus_lemmus	934731	Lemmus lemmus
+otu257	not_a_bird	not_a_bird	Phenacomys_intermedius	532489	Phenacomys intermedius
+otu256	not_a_bird	not_a_bird	Ondatra_zibethicus	816252	Ondatra zibethicus
+otu236	not_a_bird	not_a_bird	Lemmiscus_curtatus	380665	Lemmiscus curtatus
+otu265	not_a_bird	not_a_bird	Ochrotomys_nuttalli	612152	Ochrotomys nuttalli
+otu267	not_a_bird	not_a_bird	Scotinomys_xerampelinus	770856	Scotinomys xerampelinus
+otu268	not_a_bird	not_a_bird	Scotinomys_teguina	91079	Scotinomys teguina
+otu266	not_a_bird	not_a_bird	Baiomys_taylori	39171	Baiomys taylori
+otu280	not_a_bird	not_a_bird	Isthmomys_pirrensis	489149	Isthmomys pirrensis
+otu279	not_a_bird	not_a_bird	Reithrodontomys_megalotis	732037	Reithrodontomys megalotis
+otu270	not_a_bird	not_a_bird	Peromyscus_crinitus	693032	Peromyscus crinitus
+otu271	not_a_bird	not_a_bird	Megadontomys_thomasi	22152	Megadontomys thomasi
+otu275	not_a_bird	not_a_bird	Peromyscus_truei	770866	Peromyscus truei
+otu272	not_a_bird	not_a_bird	Peromyscus_leucopus	764828	Peromyscus leucopus
+otu274	not_a_bird	not_a_bird	Peromyscus_eremicus	576102	Peromyscus eremicus
+otu273	not_a_bird	not_a_bird	Peromyscus_californicus	24672	Peromyscus californicus
+otu278	not_a_bird	not_a_bird	Peromyscus_maniculatus	377525	Peromyscus maniculatus
+otu277	not_a_bird	not_a_bird	Peromyscus_oreas	None	None
+otu276	not_a_bird	not_a_bird	Peromyscus_gossypinus	576104	Peromyscus gossypinus
+otu269	not_a_bird	not_a_bird	Peromyscus_sitkensis	None	None
+otu264	not_a_bird	not_a_bird	Neotoma_lepida	39195	Neotoma lepida
+otu263	not_a_bird	not_a_bird	Neotoma_fuscipes	503776	Neotoma fuscipes
+otu283	not_a_bird	not_a_bird	Oligoryzomys_longicaudatus	264360	Oligoryzomys longicaudatus
+otu287	not_a_bird	not_a_bird	Abrothrix_longipilis	754326	Abrothrix longipilis
+otu286	not_a_bird	not_a_bird	Chelemys_macronyx	360758	Chelemys macronyx
+otu290	not_a_bird	not_a_bird	Phyllotis_darwini	91085	Phyllotis darwini
+otu292	not_a_bird	not_a_bird	Auliscomys_micropus	784312	Auliscomys micropus
+otu293	not_a_bird	not_a_bird	Phyllotis_xanthopygus	113710	Phyllotis xanthopygus
+otu291	not_a_bird	not_a_bird	Auliscomys_boliviensis	150621	Auliscomys boliviensis
+otu289	not_a_bird	not_a_bird	Graomys_griseoflavus	84870	Graomys griseoflavus
+otu288	not_a_bird	not_a_bird	Calomys_musculinus	39183	Calomys musculinus
+otu284	not_a_bird	not_a_bird	Akodon_azarae	754324	Akodon azarae
+otu285	not_a_bird	not_a_bird	Oxymycterus_roberti	None	None
+otu281	not_a_bird	not_a_bird	Sigmodon_hispidus	576095	Sigmodon hispidus
+otu282	not_a_bird	not_a_bird	Eligmodontia_typus	612164	Eligmodontia typus
+otu294	not_a_bird	not_a_bird	Myotomys_unisulcatus	647417	Myotomys unisulcatus
+otu295	not_a_bird	not_a_bird	Myotomys_sloggetti	433648	Myotomys sloggetti
+otu317	not_a_bird	not_a_bird	Thallomys_paedulcus	400681	Thallomys paedulcus
+otu316	not_a_bird	not_a_bird	Rattus_villosissimus	794932	Rattus villosissimus
+otu315	not_a_bird	not_a_bird	Rattus_lutreolus	690686	Rattus lutreolus
+otu314	not_a_bird	not_a_bird	Rattus_fuscipes	271553	Rattus fuscipes
+otu313	not_a_bird	not_a_bird	Micromys_minutus	211375	Micromys minutus
+otu296	not_a_bird	not_a_bird	Hydromys_chrysogaster	989544	Hydromys chrysogaster
+otu297	not_a_bird	not_a_bird	Notomys_alexis	136543	Notomys alexis
+otu298	not_a_bird	not_a_bird	Notomys_cervinus	66759	Notomys cervinus
+otu299	not_a_bird	not_a_bird	Pseudomys_gracilicaudatus	976065	Pseudomys gracilicaudatus
+otu300	not_a_bird	not_a_bird	Pseudomys_hermannsburgensis	936226	Pseudomys hermannsburgensis
+otu311	not_a_bird	not_a_bird	Otomys_irroratus	386295	Otomys irroratus
+otu312	not_a_bird	not_a_bird	Parotomys_brantsii	386285	Parotomys brantsii
+otu307	not_a_bird	not_a_bird	Lemniscomys_griselda	167551	Lemniscomys griselda
+otu308	not_a_bird	not_a_bird	Lemniscomys_rosalia	1071848	Lemniscomys rosalia
+otu309	not_a_bird	not_a_bird	Rhabdomys_pumilio	386299	Rhabdomys pumilio
+otu310	not_a_bird	not_a_bird	Micaelamys_namaquensis	742036	Micaelamys namaquensis
+otu304	not_a_bird	not_a_bird	Apodemus_sylvaticus	794922	Apodemus sylvaticus
+otu303	not_a_bird	not_a_bird	Apodemus_mystacinus	1085349	Apodemus mystacinus
+otu305	not_a_bird	not_a_bird	Apodemus_flavicollis	1088760	Apodemus flavicollis
+otu306	not_a_bird	not_a_bird	Apodemus_hermonensis	806809	Apodemus hermonensis
+otu302	not_a_bird	not_a_bird	Mus_minutoides	845966	Mus minutoides
+otu301	not_a_bird	not_a_bird	Mastomys_natalensis	271584	Mastomys natalensis
+otu318	not_a_bird	not_a_bird	Chroeomys_andinus	None	None
+otu319	not_a_bird	not_a_bird	Acomys_russatus	996662	Acomys russatus
+otu320	not_a_bird	not_a_bird	Acomys_cahirinus	816259	Acomys cahirinus
+otu323	not_a_bird	not_a_bird	Meriones_hurrianae	3608994	Meriones hurrianae
+otu322	not_a_bird	not_a_bird	Meriones_tristrami	438468	Meriones tristrami
+otu321	not_a_bird	not_a_bird	Meriones_unguiculatus	764841	Meriones unguiculatus
+otu327	not_a_bird	not_a_bird	Gerbillus_allenbyi	None	None
+otu329	not_a_bird	not_a_bird	Dipodillus_dasyurus	438464	Dipodillus dasyurus
+otu328	not_a_bird	not_a_bird	Gerbillus_gerbillus	404779	Gerbillus gerbillus
+otu324	not_a_bird	not_a_bird	Gerbillus_pusillus	3608950	Gerbillus pusillus
+otu325	not_a_bird	not_a_bird	Gerbillus_nanus	404777	Gerbillus nanus
+otu326	not_a_bird	not_a_bird	Gerbillus_pyramidum	404782	Gerbillus pyramidum
+otu330	not_a_bird	not_a_bird	Gerbilliscus_leucogaster	240724	Gerbilliscus leucogaster
+otu331	not_a_bird	not_a_bird	Gerbilliscus_afra	630494	Gerbilliscus afra
+otu335	not_a_bird	not_a_bird	Gerbillurus_setzeri	818709	Gerbillurus setzeri
+otu334	not_a_bird	not_a_bird	Gerbillurus_vallinus	756674	Gerbillurus vallinus
+otu333	not_a_bird	not_a_bird	Gerbillurus_tytonis	504758	Gerbillurus tytonis
+otu332	not_a_bird	not_a_bird	Gerbillurus_paeba	818708	Gerbillurus paeba
+otu336	not_a_bird	not_a_bird	Sekeetamys_calurus	404786	Sekeetamys calurus
+otu337	not_a_bird	not_a_bird	Desmodillus_auricularis	981029	Desmodillus auricularis
+otu225	not_a_bird	not_a_bird	Cannomys_badius	3610667	Cannomys badius
+otu226	not_a_bird	not_a_bird	Tachyoryctes_splendens	756782	Tachyoryctes splendens
+otu224	not_a_bird	not_a_bird	Nannospalax_leucodon	936600	Nannospalax leucodon
+otu223	not_a_bird	not_a_bird	Nannospalax_ehrenbergi	936616	Nannospalax ehrenbergi
+otu151	not_a_bird	not_a_bird	Muscardinus_avellanarius	664079	Muscardinus avellanarius
+otu152	not_a_bird	not_a_bird	Glis_glis	185345	Glis glis
+otu153	not_a_bird	not_a_bird	Aplodontia_rufa	159158	Aplodontia rufa
+otu176	not_a_bird	not_a_bird	Xerus_princeps	898086	Xerus princeps
+otu177	not_a_bird	not_a_bird	Xerus_inauris	373581	Xerus inauris
+otu154	not_a_bird	not_a_bird	Funisciurus_congicus	3609134	Funisciurus congicus
+otu156	not_a_bird	not_a_bird	Paraxerus_palliatus	3609123	Paraxerus palliatus
+otu155	not_a_bird	not_a_bird	Paraxerus_cepapi	474587	Paraxerus cepapi
+otu159	not_a_bird	not_a_bird	Tamias_amoenus	1030055	Tamias amoenus
+otu160	not_a_bird	not_a_bird	Tamias_striatus	1005035	Tamias striatus
+otu158	not_a_bird	not_a_bird	Tamias_merriami	956009	Tamias merriami
+otu157	not_a_bird	not_a_bird	Tamias_minimus	428107	Tamias minimus
+otu161	not_a_bird	not_a_bird	Ammospermophilus_leucurus	580339	Ammospermophilus leucurus
+otu172	not_a_bird	not_a_bird	Marmota_monax	630994	Marmota monax
+otu173	not_a_bird	not_a_bird	Marmota_flaviventris	63459	Marmota flaviventris
+otu162	not_a_bird	not_a_bird	Xerospermophilus_tereticaudus	833672	Xerospermophilus tereticaudus
+otu163	not_a_bird	not_a_bird	Xerospermophilus_spilosoma	121776	Xerospermophilus spilosoma
+otu164	not_a_bird	not_a_bird	Cynomys_ludovicianus	580345	Cynomys ludovicianus
+otu165	not_a_bird	not_a_bird	Urocitellus_townsendi	None	None
+otu168	not_a_bird	not_a_bird	Urocitellus_armatus	359110	Urocitellus armatus
+otu167	not_a_bird	not_a_bird	Urocitellus_beldingi	359107	Urocitellus beldingi
+otu170	not_a_bird	not_a_bird	Urocitellus_richardsonii	828701	Urocitellus richardsonii
+otu169	not_a_bird	not_a_bird	Urocitellus_parryii	289901	Urocitellus parryii
+otu166	not_a_bird	not_a_bird	Urocitellus_undulatus	595759	Urocitellus undulatus
+otu171	not_a_bird	not_a_bird	Spermophilus_citellus	454537	Spermophilus citellus
+otu174	not_a_bird	not_a_bird	Otospermophilus_beecheyi	798034	Otospermophilus beecheyi
+otu175	not_a_bird	not_a_bird	Callospermophilus_lateralis	604319	Callospermophilus lateralis
+otu180	not_a_bird	not_a_bird	Tamiasciurus_hudsonicus	866988	Tamiasciurus hudsonicus
+otu179	not_a_bird	not_a_bird	Sciurus_carolinensis	410925	Sciurus carolinensis
+otu178	not_a_bird	not_a_bird	Glaucomys_volans	659102	Glaucomys volans
+otu98	not_a_bird	not_a_bird	Paranyctimene_raptor	798258	Paranyctimene raptor
+otu91	not_a_bird	not_a_bird	Chalinolobus_gouldii	119979	Chalinolobus gouldii
+otu92	not_a_bird	not_a_bird	Eptesicus_fuscus	10737	Eptesicus fuscus
+otu93	not_a_bird	not_a_bird	Natalus_tumidirostris	190917	Natalus tumidirostris
+otu86	not_a_bird	not_a_bird	Tadarida_brasiliensis	238412	Tadarida brasiliensis
+otu88	not_a_bird	not_a_bird	Eumops_perotis	301606	Eumops perotis
+otu87	not_a_bird	not_a_bird	Molossus_molossus	301603	Molossus molossus
+otu90	not_a_bird	not_a_bird	Saccopteryx_bilineata	190912	Saccopteryx bilineata
+otu89	not_a_bird	not_a_bird	Peropteryx_macrotis	75163	Peropteryx macrotis
+otu94	not_a_bird	not_a_bird	Histiotus_velatus	3613722	Histiotus velatus
+otu62	not_a_bird	not_a_bird	Noctilio_leporinus	604404	Noctilio leporinus
+otu63	not_a_bird	not_a_bird	Noctilio_albiventris	604407	Noctilio albiventris
+otu58	not_a_bird	not_a_bird	Pteronotus_parnellii	867405	Pteronotus parnellii
+otu61	not_a_bird	not_a_bird	Pteronotus_davyi	759858	Pteronotus davyi
+otu60	not_a_bird	not_a_bird	Pteronotus_quadridens	554242	Pteronotus quadridens
+otu59	not_a_bird	not_a_bird	Pteronotus_personatus	554238	Pteronotus personatus
+otu84	not_a_bird	not_a_bird	Mormoops_blainvillei	554248	Mormoops blainvillei
+otu85	not_a_bird	not_a_bird	Mormoops_megalophylla	342713	Mormoops megalophylla
+otu71	not_a_bird	not_a_bird	Chrotopterus_auritus	1060474	Chrotopterus auritus
+otu72	not_a_bird	not_a_bird	Tonatia_bidens	761780	Tonatia bidens
+otu74	not_a_bird	not_a_bird	Phyllostomus_hastatus	761775	Phyllostomus hastatus
+otu73	not_a_bird	not_a_bird	Phyllostomus_discolor	459982	Phyllostomus discolor
+otu75	not_a_bird	not_a_bird	Erophylla_sezekorni	534168	Erophylla sezekorni
+otu76	not_a_bird	not_a_bird	Anoura_caudifer	351792	Anoura caudifer
+otu79	not_a_bird	not_a_bird	Glossophaga_soricina	876514	Glossophaga soricina
+otu78	not_a_bird	not_a_bird	Leptonycteris_curasoae	111030	Leptonycteris curasoae
+otu77	not_a_bird	not_a_bird	Monophyllus_redmani	658352	Monophyllus redmani
+otu68	not_a_bird	not_a_bird	Artibeus_lituratus	857633	Artibeus lituratus
+otu67	not_a_bird	not_a_bird	Artibeus_concolor	513416	Artibeus concolor
+otu69	not_a_bird	not_a_bird	Platyrrhinus_lineatus	780066	Platyrrhinus lineatus
+otu70	not_a_bird	not_a_bird	Uroderma_bilobatum	401290	Uroderma bilobatum
+otu66	not_a_bird	not_a_bird	Sturnira_lilium	401293	Sturnira lilium
+otu65	not_a_bird	not_a_bird	Carollia_perspicillata	1039980	Carollia perspicillata
+otu64	not_a_bird	not_a_bird	Rhinophylla_pumilio	546394	Rhinophylla pumilio
+otu80	not_a_bird	not_a_bird	Macrotus_californicus	289162	Macrotus californicus
+otu81	not_a_bird	not_a_bird	Diphylla_ecaudata	1060475	Diphylla ecaudata
+otu82	not_a_bird	not_a_bird	Desmodus_rotundus	238431	Desmodus rotundus
+otu83	not_a_bird	not_a_bird	Diaemus_youngi	1060472	Diaemus youngi
+otu57	not_a_bird	not_a_bird	Miniopterus_australis	1002681	Miniopterus australis
+otu56	not_a_bird	not_a_bird	Nyctophilus_geoffroyi	687566	Nyctophilus geoffroyi
+otu97	not_a_bird	not_a_bird	Macroderma_gigas	289141	Macroderma gigas
+otu95	not_a_bird	not_a_bird	Rhinonicteris_aurantia	798260	Rhinonicteris aurantia
+otu96	not_a_bird	not_a_bird	Hipposideros_galeritus	672834	Hipposideros galeritus
+otu52	not_a_bird	not_a_bird	Melonycteris_melanops	610865	Melonycteris melanops
+otu53	not_a_bird	not_a_bird	Nyctimene_albiventer	611443	Nyctimene albiventer
+otu54	not_a_bird	not_a_bird	Nyctimene_major	192010	Nyctimene major
+otu55	not_a_bird	not_a_bird	Nyctimene_cyclotis	3613464	Nyctimene cyclotis
+otu51	not_a_bird	not_a_bird	Pteropus_scapulatus	395328	Pteropus scapulatus
+otu50	not_a_bird	not_a_bird	Pteropus_giganteus	588290	Pteropus giganteus
+otu46	not_a_bird	not_a_bird	Pteropus_hypomelanus	813040	Pteropus hypomelanus
+otu45	not_a_bird	not_a_bird	Pteropus_poliocephalus	813025	Pteropus poliocephalus
+otu49	not_a_bird	not_a_bird	Pteropus_vampyrus	448935	Pteropus vampyrus
+otu48	not_a_bird	not_a_bird	Pteropus_rodricensis	610858	Pteropus rodricensis
+otu47	not_a_bird	not_a_bird	Pteropus_pumilus	251394	Pteropus pumilus
+otu44	not_a_bird	not_a_bird	Rousettus_amplexicaudatus	164530	Rousettus amplexicaudatus
+otu43	not_a_bird	not_a_bird	Eonycteris_spelaea	113372	Eonycteris spelaea
+otu40	not_a_bird	not_a_bird	Dobsonia_moluccensis	1032365	Dobsonia moluccensis
+otu41	not_a_bird	not_a_bird	Dobsonia_minor	48408	Dobsonia minor
+otu42	not_a_bird	not_a_bird	Dobsonia_praedatrix	48403	Dobsonia praedatrix
+otu39	not_a_bird	not_a_bird	Syconycteris_australis	164533	Syconycteris australis
+otu38	not_a_bird	not_a_bird	Macroglossus_minimus	10730	Macroglossus minimus
+otu37	not_a_bird	not_a_bird	Cynopterus_brachyotis	113380	Cynopterus brachyotis
+otu111	not_a_bird	not_a_bird	Spilogale_putorius	754609	Spilogale putorius
+otu119	not_a_bird	not_a_bird	Potos_flavus	532115	Potos flavus
+otu120	not_a_bird	not_a_bird	Procyon_lotor	348040	Procyon lotor
+otu121	not_a_bird	not_a_bird	Bassariscus_sumichrasti	794088	Bassariscus sumichrasti
+otu123	not_a_bird	not_a_bird	Nasua_nasua	348031	Nasua nasua
+otu122	not_a_bird	not_a_bird	Nasua_narica	736280	Nasua narica
+otu115	not_a_bird	not_a_bird	Martes_americana	923116	Martes americana
+otu114	not_a_bird	not_a_bird	Eira_barbara	381140	Eira barbara
+otu117	not_a_bird	not_a_bird	Mustela_frenata	685101	Mustela frenata
+otu118	not_a_bird	not_a_bird	Mustela_erminea	681184	Mustela erminea
+otu116	not_a_bird	not_a_bird	Lutra_lutra	348036	Lutra lutra
+otu113	not_a_bird	not_a_bird	Taxidea_taxus	754612	Taxidea taxus
+otu112	not_a_bird	not_a_bird	Ailurus_fulgens	872562	Ailurus fulgens
+otu110	not_a_bird	not_a_bird	Canis_mesomelas	666235	Canis mesomelas
+otu109	not_a_bird	not_a_bird	Canis_latrans	247331	Canis latrans
+otu106	not_a_bird	not_a_bird	Vulpes_vulpes	821964	Vulpes vulpes
+otu107	not_a_bird	not_a_bird	Vulpes_lagopus	775766	Vulpes lagopus
+otu108	not_a_bird	not_a_bird	Vulpes_zerda	315465	Vulpes zerda
+otu105	not_a_bird	not_a_bird	Vulpes_velox	297455	Vulpes velox
+otu104	not_a_bird	not_a_bird	Cerdocyon_thous	821960	Cerdocyon thous
+otu125	not_a_bird	not_a_bird	Arctictis_binturong	768502	Arctictis binturong
+otu126	not_a_bird	not_a_bird	Arctogalidia_trivirgata	768505	Arctogalidia trivirgata
+otu127	not_a_bird	not_a_bird	Paradoxurus_hermaphroditus	1088400	Paradoxurus hermaphroditus
+otu137	not_a_bird	not_a_bird	Suricata_suricatta	803645	Suricata suricatta
+otu138	not_a_bird	not_a_bird	Herpestes_javanicus	None	None
+otu139	not_a_bird	not_a_bird	Galerella_sanguinea	750158	Galerella sanguinea
+otu140	not_a_bird	not_a_bird	Fossa_fossana	342738	Fossa fossana
+otu136	not_a_bird	not_a_bird	Proteles_cristatus	None	None
+otu135	not_a_bird	not_a_bird	Panthera_tigris	42314	Panthera tigris
+otu134	not_a_bird	not_a_bird	Panthera_leo	563151	Panthera leo
+otu133	not_a_bird	not_a_bird	Leptailurus_serval	86170	Leptailurus serval
+otu129	not_a_bird	not_a_bird	Puma_concolor	42307	Puma concolor
+otu130	not_a_bird	not_a_bird	Herpailurus_yaguarondi	86162	Puma yagouaroundi
+otu128	not_a_bird	not_a_bird	Acinonyx_jubatus	752759	Acinonyx jubatus
+otu132	not_a_bird	not_a_bird	Leopardus_pardalis	752746	Leopardus pardalis
+otu131	not_a_bird	not_a_bird	Leopardus_wiedii	507553	Leopardus wiedii
+otu124	not_a_bird	not_a_bird	Nandinia_binotata	1088403	Nandinia binotata
+otu103	not_a_bird	not_a_bird	Manis_javanica	644245	Manis javanica
+otu101	not_a_bird	not_a_bird	Manis_crassicaudata	3613429	Manis crassicaudata
+otu102	not_a_bird	not_a_bird	Manis_tricuspis	1079387	Manis tricuspis
+otu99	not_a_bird	not_a_bird	Manis_pentadactyla	588292	Manis pentadactyla
+otu100	not_a_bird	not_a_bird	Manis_tetradactyla	849634	Manis tetradactyla
+otu150	not_a_bird	not_a_bird	Echinosorex_gymnura	1027567	Echinosorex gymnura
+otu149	not_a_bird	not_a_bird	Hylomys_suillus	17267	Hylomys suillus
+otu145	not_a_bird	not_a_bird	Hemiechinus_auritus	968064	Hemiechinus auritus
+otu144	not_a_bird	not_a_bird	Atelerix_albiventris	376305	Atelerix albiventris
+otu148	not_a_bird	not_a_bird	Paraechinus_aethiopicus	713042	Paraechinus aethiopicus
+otu147	not_a_bird	not_a_bird	Erinaceus_europaeus	796660	Erinaceus europaeus
+otu146	not_a_bird	not_a_bird	Erinaceus_concolor	782352	Erinaceus concolor
+otu142	not_a_bird	not_a_bird	Neurotrichus_gibbsii	799585	Neurotrichus gibbsii
+otu143	not_a_bird	not_a_bird	Scalopus_aquaticus	1088414	Scalopus aquaticus
+otu141	not_a_bird	not_a_bird	Condylura_cristata	292504	Condylura cristata
+otu376	not_a_bird	not_a_bird	Notoryctes_caurinus	257243	Notoryctes caurinus
+otu382	not_a_bird	not_a_bird	Isoodon_auratus	603694	Isoodon auratus
+otu381	not_a_bird	not_a_bird	Isoodon_obesulus	775066	Isoodon obesulus
+otu380	not_a_bird	not_a_bird	Isoodon_macrourus	306792	Isoodon macrourus
+otu383	not_a_bird	not_a_bird	Echymipera_kalubu	657605	Echymipera kalubu
+otu384	not_a_bird	not_a_bird	Echymipera_rufescens	775055	Echymipera rufescens
+otu379	not_a_bird	not_a_bird	Perameles_gunnii	631442	Perameles gunnii
+otu378	not_a_bird	not_a_bird	Perameles_nasuta	683258	Perameles nasuta
+otu377	not_a_bird	not_a_bird	Macrotis_lagotis	940704	Macrotis lagotis
+otu385	not_a_bird	not_a_bird	Myrmecobius_fasciatus	70811	Myrmecobius fasciatus
+otu386	not_a_bird	not_a_bird	Planigale_maculata	648432	Planigale maculata
+otu388	not_a_bird	not_a_bird	Planigale_gilesi	1029231	Planigale gilesi
+otu387	not_a_bird	not_a_bird	Planigale_tenuirostris	904309	Planigale tenuirostris
+otu392	not_a_bird	not_a_bird	Ningaui_yvonnae	904312	Ningaui yvonnae
+otu391	not_a_bird	not_a_bird	Sminthopsis_macroura	948483	Sminthopsis macroura
+otu390	not_a_bird	not_a_bird	Sminthopsis_crassicaudata	948481	Sminthopsis crassicaudata
+otu389	not_a_bird	not_a_bird	Sminthopsis_murina	329826	Sminthopsis murina
+otu394	not_a_bird	not_a_bird	Antechinus_swainsonii	74726	Antechinus swainsonii
+otu396	not_a_bird	not_a_bird	Antechinus_flavipes	831054	Antechinus flavipes
+otu395	not_a_bird	not_a_bird	Antechinus_stuartii	74733	Antechinus stuartii
+otu393	not_a_bird	not_a_bird	Phascogale_tapoatafa	648426	Phascogale tapoatafa
+otu399	not_a_bird	not_a_bird	Dasyurus_hallucatus	74731	Dasyurus hallucatus
+otu402	not_a_bird	not_a_bird	Dasyurus_geoffroii	820109	Dasyurus geoffroii
+otu401	not_a_bird	not_a_bird	Dasyurus_viverrinus	393372	Dasyurus viverrinus
+otu400	not_a_bird	not_a_bird	Dasyurus_maculatus	74729	Dasyurus maculatus
+otu398	not_a_bird	not_a_bird	Sarcophilus_harrisii	948469	Sarcophilus harrisii
+otu397	not_a_bird	not_a_bird	Pseudantechinus_macdonnellensis	648438	Pseudantechinus macdonnellensis
+otu404	not_a_bird	not_a_bird	Dasyuroides_byrnei	379189	Dasyuroides byrnei
+otu403	not_a_bird	not_a_bird	Dasycercus_cristicauda	379199	Dasycercus cristicauda
+otu421	not_a_bird	not_a_bird	Lasiorhinus_latifrons	461135	Lasiorhinus latifrons
+otu420	not_a_bird	not_a_bird	Phascolarctos_cinereus	327624	Phascolarctos cinereus
+otu405	not_a_bird	not_a_bird	Tarsipes_rostratus	901943	Tarsipes rostratus
+otu407	not_a_bird	not_a_bird	Pseudocheirus_peregrinus	836772	Pseudocheirus peregrinus
+otu408	not_a_bird	not_a_bird	Petauroides_volans	1057268	Petauroides volans
+otu406	not_a_bird	not_a_bird	Petaurus_breviceps	423936	Petaurus breviceps
+otu409	not_a_bird	not_a_bird	Acrobates_pygmaeus	432839	Acrobates pygmaeus
+otu412	not_a_bird	not_a_bird	Aepyprymnus_rufescens	34417	Aepyprymnus rufescens
+otu413	not_a_bird	not_a_bird	Potorous_tridactylus	42496	Potorous tridactylus
+otu410	not_a_bird	not_a_bird	Bettongia_penicillata	97768	Bettongia penicillata
+otu411	not_a_bird	not_a_bird	Bettongia_gaimardi	83196	Bettongia gaimardi
+otu414	not_a_bird	not_a_bird	Trichosurus_vulpecula	836760	Trichosurus vulpecula
+otu415	not_a_bird	not_a_bird	Spilocuscus_maculatus	836538	Spilocuscus maculatus
+otu417	not_a_bird	not_a_bird	Cercartetus_concinnus	810548	Cercartetus concinnus
+otu418	not_a_bird	not_a_bird	Cercartetus_nanus	810555	Cercartetus nanus
+otu419	not_a_bird	not_a_bird	Cercartetus_lepidus	810556	Cercartetus lepidus
+otu416	not_a_bird	not_a_bird	Burramys_parvus	277687	Burramys parvus
+otu424	not_a_bird	not_a_bird	Metachirus_nudicaudatus	502628	Metachirus nudicaudatus
+otu423	not_a_bird	not_a_bird	Monodelphis_domestica	122362	Monodelphis domestica
+otu422	not_a_bird	not_a_bird	Monodelphis_brevicaudata	553039	Monodelphis brevicaudata
+otu428	not_a_bird	not_a_bird	Lutreolina_crassicaudata	327618	Lutreolina crassicaudata
+otu429	not_a_bird	not_a_bird	Philander_opossum	170433	Philander opossum
+otu430	not_a_bird	not_a_bird	Chironectes_minimus	440151	Chironectes minimus
+otu425	not_a_bird	not_a_bird	Didelphis_virginiana	919171	Didelphis virginiana
+otu426	not_a_bird	not_a_bird	Didelphis_marsupialis	919176	Didelphis marsupialis
+otu427	not_a_bird	not_a_bird	Gracilinanus_microtarsus	608036	Gracilinanus microtarsus
+otu431	not_a_bird	not_a_bird	Caluromys_derbianus	307517	Caluromys derbianus
+otu1	not_a_bird	not_a_bird	Ornithorhynchus_anatinus	962377	Ornithorhynchus anatinus
+otu3	not_a_bird	not_a_bird	Zaglossus_bruijni	565578	Zaglossus bruijni
+otu2	not_a_bird	not_a_bird	Tachyglossus_aculeatus	16038	Tachyglossus aculeatus
+otu830	not_a_bird	not_a_bird	Esox_lucius	739941	Esox lucius
+otu831	not_a_bird	not_a_bird	Thymallus_arcticus_arcticus	5835207	Thymallus arcticus arcticus
+otu835	not_a_bird	not_a_bird	Salmo_salar	688328	Salmo salar
+otu836	not_a_bird	not_a_bird	Salmo_trutta_trutta	99089	Salmo trutta trutta
+otu834	not_a_bird	not_a_bird	Salmo_trutta_fario	883834	Salmo trutta fario
+otu839	not_a_bird	not_a_bird	Salvelinus_fontinalis	688339	Salvelinus fontinalis
+otu838	not_a_bird	not_a_bird	Salvelinus_alpinus_alpinus	331961	Salvelinus alpinus alpinus
+otu837	not_a_bird	not_a_bird	Salvelinus_namaycush	114152	Salvelinus namaycush
+otu833	not_a_bird	not_a_bird	Oncorhynchus_nerka	165375	Oncorhynchus nerka
+otu832	not_a_bird	not_a_bird	Oncorhynchus_mykiss	165368	Oncorhynchus mykiss (species in domain Eukaryota)
+otu840	not_a_bird	not_a_bird	Cyclothone_acclinidens	127375	Cyclothone acclinidens
+otu829	not_a_bird	not_a_bird	Melanogrammus_aeglefinus	635904	Melanogrammus aeglefinus
+otu828	not_a_bird	not_a_bird	Gadus_morhua	114170	Gadus morhua (species in domain Eukaryota)
+otu827	not_a_bird	not_a_bird	Callionymus_lyra	795408	Callionymus lyra
+otu826	not_a_bird	not_a_bird	Typhlogobius_californiensis	232409	Typhlogobius californiensis
+otu825	not_a_bird	not_a_bird	Gillichthys_mirabilis	308746	Gillichthys mirabilis
+otu824	not_a_bird	not_a_bird	Rhinogobiops_nicholsii	494025	Rhinogobiops nicholsii
+otu798	not_a_bird	not_a_bird	Micropterus_salmoides	230493	Micropterus salmoides
+otu799	not_a_bird	not_a_bird	Lepomis_macrochirus	836783	Lepomis macrochirus
+otu800	not_a_bird	not_a_bird	Lepomis_gibbosus	670266	Lepomis gibbosus
+otu801	not_a_bird	not_a_bird	Balistes_capriscus	135140	Balistes capriscus
+otu802	not_a_bird	not_a_bird	Chaenocephalus_aceratus	708977	Chaenocephalus aceratus
+otu803	not_a_bird	not_a_bird	Sander_lucioperca	557682	Sander lucioperca
+otu805	not_a_bird	not_a_bird	Sebastolobus_altivelis	811927	Sebastolobus altivelis
+otu806	not_a_bird	not_a_bird	Sebastes_diploproa	1057059	Sebastes diploproa
+otu807	not_a_bird	not_a_bird	Scorpaena_porcus	223715	Scorpaena porcus
+otu804	not_a_bird	not_a_bird	Ophiodon_elongatus	849032	Ophiodon elongatus
+otu823	not_a_bird	not_a_bird	Channa_punctata	1008460	Channa punctata
+otu819	not_a_bird	not_a_bird	Pleuronectes_platessa	408337	Pleuronectes platessa
+otu820	not_a_bird	not_a_bird	Pseudopleuronectes_americanus	261419	Pseudopleuronectes americanus
+otu821	not_a_bird	not_a_bird	Platichthys_flesus	408331	Platichthys flesus
+otu822	not_a_bird	not_a_bird	Platichthys_stellatus	296735	Platichthys stellatus
+otu818	not_a_bird	not_a_bird	Limanda_limanda	804463	Limanda limanda
+otu817	not_a_bird	not_a_bird	Hippoglossoides_platessoides	223665	Hippoglossoides platessoides
+otu816	not_a_bird	not_a_bird	Microstomus_kitt	888005	Microstomus kitt
+otu815	not_a_bird	not_a_bird	Seriola_quinqueradiata	186469	Seriola quinqueradiata
+otu814	not_a_bird	not_a_bird	Mugil_curema	418643	Mugil curema
+otu813	not_a_bird	not_a_bird	Lipophrys_pholis	292719	Lipophrys pholis
+otu812	not_a_bird	not_a_bird	Gambusia_affinis	617445	Gambusia affinis
+otu811	not_a_bird	not_a_bird	Tilapia_zillii	None	None
+otu808	not_a_bird	not_a_bird	Sarotherodon_galilaeus_galilaeus	None	None
+otu809	not_a_bird	not_a_bird	Oreochromis_aureus	814693	Oreochromis aureus
+otu810	not_a_bird	not_a_bird	Oreochromis_niloticus_baringoensis	429826	Oreochromis niloticus baringoensis
+otu845	not_a_bird	not_a_bird	Mystus_cavasius	394571	Mystus cavasius
+otu843	not_a_bird	not_a_bird	Ameiurus_nebulosus	804481	Ameiurus nebulosus
+otu844	not_a_bird	not_a_bird	Ictalurus_punctatus	701523	Ictalurus punctatus
+otu841	not_a_bird	not_a_bird	Clarias_batrachus	107857	Clarias batrachus
+otu842	not_a_bird	not_a_bird	Heteropneustes_fossilis	700872	Heteropneustes fossilis
+otu847	not_a_bird	not_a_bird	Leporinus_fasciatus	546980	Leporinus fasciatus
+otu846	not_a_bird	not_a_bird	Exodon_paradoxus	335632	Exodon paradoxus
+otu849	not_a_bird	not_a_bird	Leuciscus_idus	41137	Leuciscus idus
+otu848	not_a_bird	not_a_bird	Orthodon_microlepidotus	319966	Orthodon microlepidotus
+otu851	not_a_bird	not_a_bird	Labeo_rohita	160616	Labeo rohita
+otu852	not_a_bird	not_a_bird	Cirrhinus_cirrhosus	400438	Cirrhinus cirrhosus
+otu850	not_a_bird	not_a_bird	Cyprinus_carpio_carpio	943997	Cyprinus carpio carpio
+otu853	not_a_bird	not_a_bird	Catostomus_commersonii	955101	Catostomus commersonii
+otu855	not_a_bird	not_a_bird	Anguilla_anguilla	854201	Anguilla anguilla
+otu856	not_a_bird	not_a_bird	Anguilla_rostrata	854212	Anguilla rostrata
+otu857	not_a_bird	not_a_bird	Anguilla_australis_australis	730869	Anguilla australis australis
+otu854	not_a_bird	not_a_bird	Anguilla_japonica	854198	Anguilla japonica
+otu797	not_a_bird	not_a_bird	Arapaima_gigas	335725	Arapaima gigas
+otu796	not_a_bird	not_a_bird	Acipenser_transmontanus	378925	Acipenser transmontanus

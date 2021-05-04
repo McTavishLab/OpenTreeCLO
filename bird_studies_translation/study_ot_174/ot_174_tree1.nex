@@ -1,0 +1,49 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (Bayesian)' = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=21006,nearestTaxonMRCAName=Rhipidura (genus in family Dicruridae),outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu36[&otu=otu36,^ot:ottId=965227,^ot:ottTaxonName=Dicrurus hottentottus,^ot:originalLabel=Dicrurus_hottentottus,^clo:ClementsTaxonName2019=Dicrurus hottentottus,^clo:speciescode2019=hacdro1],(otu35[&otu=otu35,^ot:ottId=310386,^ot:ottTaxonName=Chaetorhynchus papuensis,^ot:originalLabel=Chaetorhynchus_papuensis,^clo:ClementsTaxonName2019=Chaetorhynchus papuensis,^clo:speciescode2019=papdro1],(((((otu32[&otu=otu32,^ot:ottId=768640,^ot:ottTaxonName=Rhipidura threnothorax,^ot:originalLabel=Rhipidura_threnothorax,^clo:ClementsTaxonName2019=Rhipidura threnothorax,^clo:speciescode2019=sotfan1],otu31[&otu=otu31,^ot:ottId=121365,^ot:ottTaxonName=Rhipidura leucothorax,^ot:originalLabel=Rhipidura_leucothorax,^clo:ClementsTaxonName2019=Rhipidura leucothorax,^clo:speciescode2019=wbtfan1])node66,otu33[&otu=otu33,^ot:ottId=871289,^ot:ottTaxonName=Rhipidura diluta,^ot:originalLabel=Rhipidura_diluta,^clo:ClementsTaxonName2019=Rhipidura diluta,^clo:speciescode2019=brcfan1])node65,(((otu28[&otu=otu28,^ot:ottId=871302,^ot:ottTaxonName=Rhipidura aureola,^ot:originalLabel=Rhipidura_aureola,^clo:ClementsTaxonName2019=Rhipidura aureola,^clo:speciescode2019=whbfan2],(otu27[&otu=otu27,^ot:ottId=20989,^ot:ottTaxonName=Rhipidura albicollis,^ot:originalLabel=Rhipidura_albicollis_2,^clo:ClementsTaxonName2019=Rhipidura albicollis,^clo:speciescode2019=whtfan1],otu26[&otu=otu26,^ot:ottId=20989,^ot:ottTaxonName=Rhipidura albicollis,^ot:originalLabel=Rhipidura_albicollis_1,^clo:ClementsTaxonName2019=Rhipidura albicollis,^clo:speciescode2019=whtfan1])node59)node58,otu29[&otu=otu29,^ot:ottId=467529,^ot:ottTaxonName=Rhipidura javanica,^ot:originalLabel=Rhipidura_javanica,^clo:ClementsTaxonName2019=Rhipidura javanica,^clo:speciescode2019=piefan1])node57,otu30[&otu=otu30,^ot:ottId=467517,^ot:ottTaxonName=Rhipidura leucophrys,^ot:originalLabel=Rhipidura_leucophrys,^clo:ClementsTaxonName2019=Rhipidura leucophrys,^clo:speciescode2019=wilwag1])node56)node55,(((((otu21[&otu=otu21,^ot:ottId=768649,^ot:ottTaxonName=Rhipidura rufiventris,^ot:originalLabel=Rhipidura_rufiventris_1,^clo:ClementsTaxonName2019=Rhipidura rufiventris,^clo:speciescode2019=norfan1],otu22[&otu=otu22,^ot:ottId=768649,^ot:ottTaxonName=Rhipidura rufiventris,^ot:originalLabel=Rhipidura_rufiventris_2,^clo:ClementsTaxonName2019=Rhipidura rufiventris,^clo:speciescode2019=norfan1])node49,otu23[&otu=otu23,^ot:ottId=346155,^ot:ottTaxonName=Rhipidura cockerelli,^ot:originalLabel=Rhipidura_cockerelli,^clo:ClementsTaxonName2019=Rhipidura cockerelli,^clo:speciescode2019=whwfan1])node48,otu24[&otu=otu24,^ot:ottId=695490,^ot:ottTaxonName=Rhipidura fuscorufa,^ot:originalLabel=Rhipidura_fuscorufa,^clo:ClementsTaxonName2019=Rhipidura fuscorufa,^clo:speciescode2019=citfan1])node47,otu25[&otu=otu25,^ot:ottId=631582,^ot:ottTaxonName=Rhipidura perlata,^ot:originalLabel=Rhipidura_perlata,^clo:ClementsTaxonName2019=Rhipidura perlata,^clo:speciescode2019=spofan1])node46,(((otu18[&otu=otu18,^ot:ottId=121363,^ot:ottTaxonName=Rhipidura nigrocinnamomea,^ot:originalLabel=Rhipidura_nigrocinnammomea_2,^clo:ClementsTaxonName2019=Rhipidura nigrocinnamomea,^clo:speciescode2019=bacfan1],otu17[&otu=otu17,^ot:ottId=121363,^ot:ottTaxonName=Rhipidura nigrocinnamomea,^ot:originalLabel=Rhipidura_nigrocinnammomea_1,^clo:ClementsTaxonName2019=Rhipidura nigrocinnamomea,^clo:speciescode2019=bacfan1])node40,(otu20[&otu=otu20,^ot:ottId=542039,^ot:ottTaxonName=Rhipidura cyaniceps,^ot:originalLabel=Rhipidura_cyaniceps,^clo:ClementsTaxonName2019=Rhipidura cyaniceps,^clo:speciescode2019=blhfan1],otu19[&otu=otu19,^ot:ottId=121366,^ot:ottTaxonName=Rhipidura superciliaris,^ot:originalLabel=Rhipidura_superciliaris,^clo:ClementsTaxonName2019=Rhipidura superciliaris,^clo:speciescode2019=blufan1])node43)node39,(((otu8[&otu=otu8,^ot:ottId=871310,^ot:ottTaxonName=Rhipidura albolimbata,^ot:originalLabel=Rhipidura_albolimbata,^clo:ClementsTaxonName2019=Rhipidura albolimbata,^clo:speciescode2019=frifan1],otu9[&otu=otu9,^ot:ottId=768645,^ot:ottTaxonName=Rhipidura hyperythra,^ot:originalLabel=Rhipidura_hyperythra,^clo:ClementsTaxonName2019=Rhipidura hyperythra,^clo:speciescode2019=chbfan1])node23,(((((otu3[&otu=otu3,^ot:ottId=121367,^ot:ottTaxonName=Rhipidura phasiana,^ot:originalLabel=Rhipidura_phasiana,^clo:ClementsTaxonName2019=Rhipidura phasiana,^clo:speciescode2019=manfan1],(otu2[&otu=otu2,^ot:ottId=200834,^ot:ottTaxonName=Rhipidura albiscapa,^ot:originalLabel=Rhipidura_albiscapa_1,^clo:ClementsTaxonName2019=Rhipidura albiscapa,^clo:speciescode2019=gryfan1],otu1[&otu=otu1,^ot:ottId=346153,^ot:ottTaxonName=Rhipidura fuliginosa,^ot:originalLabel=Rhipidura_fuliginosa,^clo:ClementsTaxonName2019=Rhipidura fuliginosa,^clo:speciescode2019=nezfan1])node15)node14,otu4[&otu=otu4,^ot:ottId=200834,^ot:ottTaxonName=Rhipidura albiscapa,^ot:originalLabel=Rhipidura_albiscapa_2,^clo:ClementsTaxonName2019=Rhipidura albiscapa,^clo:speciescode2019=gryfan1])node13,otu5[&otu=otu5,^ot:ottId=212288,^ot:ottTaxonName=Rhipidura rennelliana,^ot:originalLabel=Rhipidura_rennelliana,^clo:ClementsTaxonName2019=Rhipidura rennelliana,^clo:speciescode2019=renfan1])node12,otu6[&otu=otu6,^ot:ottId=121360,^ot:ottTaxonName=Rhipidura tenebrosa,^ot:originalLabel=Rhipidura_tenebrosa,^clo:ClementsTaxonName2019=Rhipidura tenebrosa,^clo:speciescode2019=dusfan1])node11,otu7[&otu=otu7,^ot:ottId=121362,^ot:ottTaxonName=Rhipidura verreauxi,^ot:originalLabel=Rhipidura_verreauxi,^clo:ClementsTaxonName2019=Rhipidura verreauxi,^clo:speciescode2019=strfan1])node10)node9,(otu16[&otu=otu16,^ot:ottId=768648,^ot:ottTaxonName=Rhipidura rufidorsa,^ot:originalLabel=Rhipidura_rufidorsa,^clo:ClementsTaxonName2019=Rhipidura rufidorsa,^clo:speciescode2019=rubfan1],(otu15[&otu=otu15,^ot:ottId=695491,^ot:ottTaxonName=Rhipidura brachyrhyncha,^ot:originalLabel=Rhipidura_brachyrhyncha,^clo:ClementsTaxonName2019=Rhipidura brachyrhyncha,^clo:speciescode2019=dimfan1],(((otu10[&otu=otu10,^ot:ottId=26185,^ot:ottTaxonName=Rhipidura rufifrons,^ot:originalLabel=Rhipidura_rufifrons,^clo:ClementsTaxonName2019=Rhipidura rufifrons,^clo:speciescode2019=ruffan1],otu11[&otu=otu11,^ot:ottId=695489,^ot:ottTaxonName=Rhipidura dryas,^ot:originalLabel=Rhipidura_dryas,^clo:ClementsTaxonName2019=Rhipidura dryas,^clo:speciescode2019=arafan1])node30,otu12[&otu=otu12,^ot:ottId=121359,^ot:ottTaxonName=Rhipidura teysmanni,^ot:originalLabel=Rhipidura_teysmanni,^clo:ClementsTaxonName2019=Rhipidura teysmanni,^clo:speciescode2019=rubfan2])node29,(otu13[&otu=otu13,^ot:ottId=871288,^ot:ottTaxonName=Rhipidura dahli,^ot:originalLabel=Rhipidura_dahli_1,^clo:ClementsTaxonName2019=Rhipidura dahli,^clo:speciescode2019=bisfan1],otu14[&otu=otu14,^ot:ottId=871288,^ot:ottTaxonName=Rhipidura dahli,^ot:originalLabel=Rhipidura_dahli_2,^clo:ClementsTaxonName2019=Rhipidura dahli,^clo:speciescode2019=bisfan1])node34)node28)node27)node26)node8)node7)node6)node5,otu34[&otu=otu34,^ot:ottId=871297,^ot:ottTaxonName=Rhipidura atra,^ot:originalLabel=Rhipidura_atra,^clo:ClementsTaxonName2019=Rhipidura atra,^clo:speciescode2019=blafan1])node4)node3)node2,otu37[&otu=otu37,^ot:ottId=355988,^ot:ottTaxonName=Monarcha castaneiventris,^ot:originalLabel=Monarcha_castaneiventris,^clo:ClementsTaxonName2019=Monarcha castaneiventris,^clo:speciescode2019=chbmon1])node1;
+END;
+

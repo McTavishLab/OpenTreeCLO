@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=85277,nearestTaxonMRCAName=Diomedeidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu18[&otu=otu18,^ot:ottId=320284,^ot:ottTaxonName=Phoebastria albatrus,^ot:originalLabel=Phoebastria_albatrus,^clo:ClementsTaxonName2019=Phoebastria albatrus,^clo:speciescode2019=shtalb],otu19[&otu=otu19,^ot:ottId=320282,^ot:ottTaxonName=Phoebastria irrorata,^ot:originalLabel=Phoebastria_irrorata,^clo:ClementsTaxonName2019=Phoebastria irrorata,^clo:speciescode2019=wavalb])node37,(otu21[&otu=otu21,^ot:ottId=320288,^ot:ottTaxonName=Phoebastria nigripes,^ot:originalLabel=Phoebastria_nigripes,^clo:ClementsTaxonName2019=Phoebastria nigripes,^clo:speciescode2019=bkfalb],otu20[&otu=otu20,^ot:ottId=320286,^ot:ottTaxonName=Phoebastria immutabilis,^ot:originalLabel=Phoebastria_immutabilis,^clo:ClementsTaxonName2019=Phoebastria immutabilis,^clo:speciescode2019=layalb])node40)node36,((otu28[&otu=otu28,^ot:ottId=3595652,^ot:ottTaxonName=Diomedea sanfordi,^ot:originalLabel=Diomedea_sanfordi,^clo:ClementsTaxonName2019=Diomedea epomophora sanfordi,^clo:speciescode2019=royalb3],otu27[&otu=otu27,^ot:ottId=904499,^ot:ottTaxonName=Diomedea epomophora,^ot:originalLabel=Diomedea_epomophora,^clo:ClementsTaxonName2019=Diomedea epomophora epomophora,^clo:speciescode2019=royalb2])node53,(((otu23[&otu=otu23,^ot:ottId=71459,^ot:ottTaxonName=Diomedea exulans,^ot:originalLabel=Diomedea_exulans,^clo:ClementsTaxonName2019=Diomedea exulans,^clo:speciescode2019=wanalb],otu22[&otu=otu22,^ot:ottId=71463,^ot:ottTaxonName=Diomedea amsterdamensis,^ot:originalLabel=Diomedea_amsterdamensis,^clo:ClementsTaxonName2019=Diomedea exulans amsterdamensis,^clo:speciescode2019=wanalb5])node46,(otu24[&otu=otu24,^ot:ottId=82214,^ot:ottTaxonName=Diomedea antipodensis,^ot:originalLabel=Diomedea_antipodensis,^clo:ClementsTaxonName2019=Diomedea exulans antipodensis,^clo:speciescode2019=wanalb2],otu25[&otu=otu25,^ot:ottId=488690,^ot:ottTaxonName=Diomedea gibsoni,^ot:originalLabel=Diomedea_gibsoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node49)node45,otu26[&otu=otu26,^ot:ottId=300867,^ot:ottTaxonName=Diomedea dabbenena,^ot:originalLabel=Diomedea_dabbenena,^clo:ClementsTaxonName2019=Diomedea exulans dabbenena,^clo:speciescode2019=wanalb3])node44)node43)node35,(((otu16[&otu=otu16,^ot:ottId=134478,^ot:ottTaxonName=Thalassarche carteri,^ot:originalLabel=Thalassarche_carteri,^clo:ClementsTaxonName2019=Thalassarche chlororhynchos carteri,^clo:speciescode2019=yenalb3],otu17[&otu=otu17,^ot:ottId=663145,^ot:ottTaxonName=Thalassarche chlororhynchos,^ot:originalLabel=Thalassarche_chlororhynchos,^clo:ClementsTaxonName2019=Thalassarche chlororhynchos,^clo:speciescode2019=yenalb])node32,((otu15[&otu=otu15,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Thalassarche_chrysostoma,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu14[&otu=otu14,^ot:ottId=320271,^ot:ottTaxonName=Thalassarche melanophrys,^ot:originalLabel=Thalassarche_melanophris,^clo:ClementsTaxonName2019=Thalassarche melanophris,^clo:speciescode2019=bkbalb],otu13[&otu=otu13,^ot:ottId=514681,^ot:ottTaxonName=Thalassarche impavida,^ot:originalLabel=Thalassarche_impavida,^clo:ClementsTaxonName2019=Thalassarche melanophris impavida,^clo:speciescode2019=bkbalb2])node28)node27,((otu12[&otu=otu12,^ot:ottId=1016643,^ot:ottTaxonName=Thalassarche bulleri platei,^ot:originalLabel=Thalassarche_bulleri_platei,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu11[&otu=otu11,^ot:ottId=592670,^ot:ottTaxonName=Thalassarche bulleri bulleri,^ot:originalLabel=Thalassarche_bulleri_bulleri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node24,((otu10[&otu=otu10,^ot:ottId=250508,^ot:ottTaxonName=Thalassarche steadi,^ot:originalLabel=Thalassarche_steadi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=320278,^ot:ottTaxonName=Thalassarche cauta,^ot:originalLabel=Thalassarche_cauta,^clo:ClementsTaxonName2019=Thalassarche cauta,^clo:speciescode2019=whcalb1])node21,(otu7[&otu=otu7,^ot:ottId=134477,^ot:ottTaxonName=Thalassarche eremita,^ot:originalLabel=Thalassarche_eremita,^clo:ClementsTaxonName2019=Thalassarche eremita,^clo:speciescode2019=shyalb2],otu8[&otu=otu8,^ot:ottId=514671,^ot:ottTaxonName=Thalassarche salvini,^ot:originalLabel=Thalassarche_salvini,^clo:ClementsTaxonName2019=Thalassarche salvini,^clo:speciescode2019=salalb1])node18)node17)node16)node15)node14,(otu6[&otu=otu6,^ot:ottId=592674,^ot:ottTaxonName=Phoebetria palpebrata,^ot:originalLabel=Phoebetria_palpebrata,^clo:ClementsTaxonName2019=Phoebetria palpebrata,^clo:speciescode2019=limalb1],otu5[&otu=otu5,^ot:ottId=592673,^ot:ottTaxonName=Phoebetria fusca,^ot:originalLabel=Phoebetria_fusca,^clo:ClementsTaxonName2019=Phoebetria fusca,^clo:speciescode2019=sooalb1])node11)node10)node9,((otu1[&otu=otu1,^ot:ottId=854608,^ot:ottTaxonName=Macronectes giganteus,^ot:originalLabel=Macronectes_giganteus_U48941,^clo:ClementsTaxonName2019=Macronectes giganteus,^clo:speciescode2019=angpet1],otu2[&otu=otu2,^ot:ottId=854608,^ot:ottTaxonName=Macronectes giganteus,^ot:originalLabel=Macronectes_giganteus_AF076060,^clo:ClementsTaxonName2019=Macronectes giganteus,^clo:speciescode2019=angpet1])node3,(otu3[&otu=otu3,^ot:ottId=592656,^ot:ottTaxonName=Procellaria cinerea,^ot:originalLabel=Procellaria_cinerea_U48940,^clo:ClementsTaxonName2019=Procellaria cinerea,^clo:speciescode2019=grapet],otu4[&otu=otu4,^ot:ottId=592656,^ot:ottTaxonName=Procellaria cinerea,^ot:originalLabel=Procellaria_cinerea_AP009191,^clo:ClementsTaxonName2019=Procellaria cinerea,^clo:speciescode2019=grapet])node6)node2)node1;
+END;
+

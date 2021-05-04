@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu425639
+        otu425638
+        otu425650
+        otu425651
+        otu425633
+        otu425635
+        otu425634
+        otu425637
+        otu425636
+        otu425648
+        otu425649
+        otu425652
+        otu425644
+        otu425645
+        otu425646
+        otu425647
+        otu425640
+        otu425641
+        otu425642
+        otu425643
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 Bayesian (topology)' = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](otu425652[&otu=otu425652,^ot:ottId=1036186,^ot:ottTaxonName=Sagittarius serpentarius,^ot:originalLabel=Sagittarius_serpentarius,^clo:ClementsTaxonName2019=Sagittarius serpentarius,^clo:speciescode2019=secret2],(((((otu425645[&otu=otu425645,^ot:ottId=3596185,^ot:ottTaxonName=Torgos tracheliotos,^ot:originalLabel=Torgos_tracheliotos,^clo:ClementsTaxonName2019=Torgos tracheliotos,^clo:speciescode2019=lafvul1],otu425646[&otu=otu425646,^ot:ottId=837582,^ot:ottTaxonName=Trigonoceps occipitalis,^ot:originalLabel=Trigonoceps_occipitalis,^clo:ClementsTaxonName2019=Trigonoceps occipitalis,^clo:speciescode2019=whhvul1])node1157003,otu425647[&otu=otu425647,^ot:ottId=786449,^ot:ottTaxonName=Aegypius monachus,^ot:originalLabel=Aegypius_monachus,^clo:ClementsTaxonName2019=Aegypius monachus,^clo:speciescode2019=cinvul1])node1157002,otu425648[&otu=otu425648,^ot:ottId=985504,^ot:ottTaxonName=Sarcogyps calvus,^ot:originalLabel=Sarcogyps_calvus,^clo:ClementsTaxonName2019=Sarcogyps calvus,^clo:speciescode2019=rehvul1])node1157001,(otu425644[&otu=otu425644,^ot:ottId=707369,^ot:ottTaxonName=Necrosyrtes monachus,^ot:originalLabel=Necrosyrtes_monachus,^clo:ClementsTaxonName2019=Necrosyrtes monachus,^clo:speciescode2019=hoovul1],((otu425641[&otu=otu425641,^ot:ottId=549509,^ot:ottTaxonName=Gyps himalayensis,^ot:originalLabel=Gyps_himalayensis,^clo:ClementsTaxonName2019=Gyps himalayensis,^clo:speciescode2019=himgri1],((((otu425635[&otu=otu425635,^ot:ottId=263132,^ot:ottTaxonName=Gyps rueppellii,^ot:originalLabel=Gyps_rueppellii_captive,^clo:ClementsTaxonName2019=Gyps rueppelli,^clo:speciescode2019=ruegri1],otu425636[&otu=otu425636,^ot:ottId=263132,^ot:ottTaxonName=Gyps rueppellii,^ot:originalLabel=Gyps_rueppellii_Africa,^clo:ClementsTaxonName2019=Gyps rueppelli,^clo:speciescode2019=ruegri1])node1156987,(otu425634[&otu=otu425634,^ot:ottId=549517,^ot:ottTaxonName=Gyps fulvus,^ot:originalLabel=Gyps_fulvus_Israel,^clo:ClementsTaxonName2019=Gyps fulvus,^clo:speciescode2019=eurgri1],otu425633[&otu=otu425633,^ot:ottId=549517,^ot:ottTaxonName=Gyps fulvus,^ot:originalLabel=Gyps_fulvus_Spain,^clo:ClementsTaxonName2019=Gyps fulvus,^clo:speciescode2019=eurgri1])node1156984)node1156983,(otu425637[&otu=otu425637,^ot:ottId=263136,^ot:ottTaxonName=Gyps coprotheres,^ot:originalLabel=Gyps_coprotheres,^clo:ClementsTaxonName2019=Gyps coprotheres,^clo:speciescode2019=capgri1],otu425638[&otu=otu425638,^ot:ottId=796905,^ot:ottTaxonName=Gyps indicus,^ot:originalLabel=Gyps_indicus,^clo:ClementsTaxonName2019=Gyps indicus,^clo:speciescode2019=indvul1])node1156990)node1156982,(otu425640[&otu=otu425640,^ot:ottId=315690,^ot:ottTaxonName=Gyps africanus,^ot:originalLabel=Gyps_africanus_Namibia2,^clo:ClementsTaxonName2019=Gyps africanus,^clo:speciescode2019=whbvul1],otu425639[&otu=otu425639,^ot:ottId=315690,^ot:ottTaxonName=Gyps africanus,^ot:originalLabel=Gyps_africanus_Namibia1,^clo:ClementsTaxonName2019=Gyps africanus,^clo:speciescode2019=whbvul1])node1156993)node1156981)node1156980,(otu425643[&otu=otu425643,^ot:ottId=315688,^ot:ottTaxonName=Gyps bengalensis,^ot:originalLabel=Gyps_bengalensis_Pakistan2,^clo:ClementsTaxonName2019=Gyps bengalensis,^clo:speciescode2019=whrvul1],otu425642[&otu=otu425642,^ot:ottId=315688,^ot:ottTaxonName=Gyps bengalensis,^ot:originalLabel=Gyps_bengalensis_Pakistan1,^clo:ClementsTaxonName2019=Gyps bengalensis,^clo:speciescode2019=whrvul1])node1156997)node1156979)node1156978)node1156977,((otu425650[&otu=otu425650,^ot:ottId=891414,^ot:ottTaxonName=Neophron percnopterus,^ot:originalLabel=Neophron_percnopterus,^clo:ClementsTaxonName2019=Neophron percnopterus,^clo:speciescode2019=egyvul1],otu425649[&otu=otu425649,^ot:ottId=317001,^ot:ottTaxonName=Gypaetus barbatus,^ot:originalLabel=Gypaetus_barbatus,^clo:ClementsTaxonName2019=Gypaetus barbatus,^clo:speciescode2019=lammer1])node1157009,otu425651[&otu=otu425651,^ot:ottId=677101,^ot:ottTaxonName=Gypohierax angolensis,^ot:originalLabel=Gypohierax_angolensis,^clo:ClementsTaxonName2019=Gypohierax angolensis,^clo:speciescode2019=panvul1])node1157008)node1156976)node1156975;
+END;
+

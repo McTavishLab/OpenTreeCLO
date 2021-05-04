@@ -1,0 +1,188 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=176;
+    TAXLABELS
+        'Anas strepera PWRC-9185'
+        'Anas penelope UWBM-44651'
+        'Anas falcata IBSS-B-20'
+        'Anas americana USWS-4634579'
+        'Anas americana USWS-092201'
+        otu353524
+        otu353527
+        'Anas falcata IBSS-WF-73'
+        'Anas sibilatrix UAM-20502'
+        'Anas americana JLP-006'
+        Anas_falcata
+        otu353487
+        Anas_crecca
+        Anas_strepera
+        Anas_americana
+        otu353483
+        otu353480
+        Anas_penelope
+        'Anas strepera USWS-3631981b'
+        otu353649
+        Anas_sibilatrix
+        'Anas americana UAM-KGM-574'
+        'Anas strepera UWBM-75904b'
+        'Anas penelope PWRC-26184a'
+        'Anas falcata UWBM-71803a'
+        'Anas penelope PWRC-81082'
+        'Anas penelope AJG-1'
+        'Anas penelope UWBM-59450'
+        'Anas strepera PWRC-110186'
+        'Anas strepera UWBM-GKD-173'
+        'Anas falcata IBSS-B-12'
+        'Anas penelope PWRC-26184'
+        'Anas strepera USWS-3634760'
+        'Anas americana CWS-137000172'
+        'Anas strepera UWBM-60090'
+        'Anas strepera PWRC-161285b'
+        'Anas penelope PWRC-4805885b'
+        'Anas strepera USWS-4537821b'
+        'Anas americana USWS-206707a'
+        'Anas falcata IBSS-B-11a'
+        otu353628
+        'Anas penelope PWRC-4825990b'
+        'Anas penelope PWRC-908693b'
+        'Anas sibilatrix UAM-17542b'
+        'Anas strepera IBSS-WP-137a'
+        'Anas falcata IBSS-03-202b'
+        'Anas strepera USWS-1583889'
+        Anas_sibilatrix_AY112943
+        'Anas penelope PWRC-251082'
+        'Anas sibilatrix UAM-20503'
+        'Anas strepera WWT-91101'
+        'Anas americana USWS-1577778'
+        Anas_strepera_AY112944
+        'Anas americana UAM-20028'
+        'Anas penelope PWRC-5982'
+        Anas_platyrhyncos
+        'Anas strepera USWS-1746935'
+        'Anas strepera USWS-3631981a'
+        'Anas strepera USWS-3634760a'
+        'Anas strepera PWRC-161285a'
+        'Anas sibilatrix WWT-231201b'
+        'Anas penelope UWBM-44651a'
+        'Anas americana CWS-137000180b'
+        'Anas falcata IBSS-03-202a'
+        'Anas sibilatrix LACM-104838a'
+        'Anas penelope PWRC-1181a'
+        'Anas sibilatrix UAM-17540b'
+        'Anas penelope PWRC-4805887b'
+        'Anas falcata UWBM-71803b'
+        'Anas falcata IBSS-B-20b'
+        'Anas strepera USWS-4537821a'
+        'Anas penelope PWRC-908693a'
+        'Anas falcata IBSS-WP-138'
+        'Anas strepera USWS-3631981'
+        'Anas sibilatrix UAM-19725'
+        otu353511
+        'Anas sibilatrix WWT-231201'
+        'Anas americana CWS-137000180'
+        'Anas strepera UWBM-56676'
+        'Anas sibilatrix UAM-17541'
+        'Anas strepera PWRC-161285'
+        'Anas penelope PWRC-1181'
+        'Anas americana USWS-1122011a'
+        'Anas americana CWS-137000180a'
+        'Anas sibilatrix UAM-17542a'
+        'Anas americana UAM-20028a'
+        'Anas strepera PWRC-9185b'
+        otu353610
+        'Anas sibilatrix UAM-17540a'
+        'Anas falcata IBSS-B-11b'
+        'Anas strepera PWRC-9185a'
+        'Anas strepera PWRC-20186a'
+        'Anas penelope PWRC-251082b'
+        'Anas falcata IBSS-B-20a'
+        'Anas sibilatrix UAM-17539b'
+        'Anas sibilatrix UAM-20502b'
+        'Anas penelope PWRC-4825990a'
+        'Anas penelope PWRC-26184b'
+        'Anas strepera USWS-3634760b'
+        'Anas strepera UWBM-56676b'
+        'Anas strepera PWRC-20186b'
+        'Anas falcata IBSS-B-12a'
+        'Anas americana USWS-1122011'
+        otu353568
+        'Anas sibilatrix LACM-104838'
+        'Anas strepera USWS-3625319'
+        'Anas strepera USWS-3504369'
+        otu353566
+        Anas_crecca_crecca
+        'Anas sibilatrix UAM-17542'
+        'Anas penelope PWRC-4805885'
+        'Anas sibilatrix UAM-17538'
+        'Anas strepera UWBM-56676a'
+        'Anas penelope PWRC-251082a'
+        'Anas penelope PWRC-1181b'
+        'Anas penelope PWRC-4805885a'
+        'Anas strepera WWT-91101b'
+        'Anas falcata IBSS-B-12b'
+        'Anas americana UAM-20028b'
+        'Anas strepera UWBM-68930b'
+        'Anas sibilatrix UAM-17539a'
+        otu353601
+        'Anas strepera WWT-91101a'
+        'Anas penelope UWBM-44651b'
+        'Anas americana USWS-206707b'
+        'Anas sibilatrix WWT-231201a'
+        otu353645
+        'Anas strepera UWBM-75904a'
+        'Anas sibilatrix LACM-104838b'
+        'Anas americana USWS-1122011b'
+        'Anas penelope PWRC-4805887a'
+        'Anas strepera UWBM-68930a'
+        'Anas strepera IBSS-WP-137b'
+        'Anas strepera PWRC-20186'
+        'Anas strepera UWBM-75904'
+        'Anas sibilatrix UAM-19687'
+        'Anas penelope USWS-4820657'
+        'Anas strepera UWBM-68930'
+        otu353571
+        otu353479
+        otu353543
+        'Anas penelope PWRC-LL81'
+        'Anas sibilatrix UAM-17539'
+        'Anas penelope PWRC-069974'
+        'Anas strepera IBSS-WP-137'
+        'Anas sibilatrix UAM-20501'
+        'Anas falcata IBSS-B-11'
+        'Anas strepera USWS-174635'
+        'Anas americana USWS-158880'
+        'Anas sibilatrix UAM-19894'
+        'Anas sibilatrix UAM-20502a'
+        'Anas americana USWS-164679'
+        'Anas strepera USWS-4537821'
+        'Anas strepera UWBM-70833'
+        'Anas penelope PWRC-4825990'
+        'Anas penelope PWRC-PCS'
+        'Anas americana USWS-206707'
+        'Anas sibilatrix UAM-18009'
+        otu353553
+        'Anas falcata IBSS-WP-72'
+        otu353559
+        otu353653
+        otu353652
+        'Anas penelope PWRC-4805887'
+        'Anas penelope PWRC-908693'
+        'Anas falcata IBSS-03-202'
+        'Anas strepera USWS-101501'
+        'Anas penelope PWRC-4615448'
+        'Anas falcata WWT-11201'
+        'Anas sibilatrix UAM-17540'
+        otu353492
+        otu353654
+        otu353499
+        'Anas strepera PWRC-28186'
+        otu353651
+        otu353650
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4b = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu353479[&otu=otu353479,^ot:ottId=765195,^ot:ottTaxonName=Aix sponsa,^ot:originalLabel=Aix_sponsa,^clo:ClementsTaxonName2019=Aix sponsa,^clo:speciescode2019=wooduc],((otu353652[&otu=otu353652,^ot:ottId=656780,^ot:ottTaxonName=Anas carolinensis,^ot:originalLabel=Anas_crecca_carolinensis,^clo:ClementsTaxonName2019=Anas crecca carolinensis,^clo:speciescode2019=agwtea1],otu353480[&otu=otu353480,^ot:ottId=855474,^ot:ottTaxonName=Anas acuta,^ot:originalLabel=Anas_acuta,^clo:ClementsTaxonName2019=Anas acuta,^clo:speciescode2019=norpin],((otu353566[&otu=otu353566,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-066997,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],((otu353645[&otu=otu353645,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-59450b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353610[&otu=otu353610,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4820657b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353628[&otu=otu353628,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4820657a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911552,otu353553[&otu=otu353553,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-131085,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911551,otu353601[&otu=otu353601,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-59450a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911550,(otu353568[&otu=otu353568,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_CWS-137000489,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],((otu353559[&otu=otu353559,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_JLP-1001,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353524[&otu=otu353524,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UWBM-70822,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig])node911543,((otu353492[&otu=otu353492,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-121008,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353650[&otu=otu353650,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-44651a-b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911540,(otu353511[&otu=otu353511,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-18008,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353651[&otu=otu353651,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17540a-b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1])node911537)node911536)node911535,(otu353527[&otu=otu353527,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UWBM-70834,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353654[&otu=otu353654,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-09220,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig])node911546)node911534)node911533,((otu353571[&otu=otu353571,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-56499,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353649[&otu=otu353649,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-9185a-b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353653[&otu=otu353653,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-20186a-b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal])node911562,otu353499[&otu=otu353499,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_UWBM-46872,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353543[&otu=otu353543,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_UWBM-71803,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc])node911561)node911532,(otu353487[&otu=otu353487,^ot:ottId=82415,^ot:ottTaxonName=Anas discors,^ot:originalLabel=Anas_discors,^clo:ClementsTaxonName2019=Spatula discors,^clo:speciescode2019=buwtea],otu353483[&otu=otu353483,^ot:ottId=656794,^ot:ottTaxonName=Anas clypeata,^ot:originalLabel=Anas_clypeata,^clo:ClementsTaxonName2019=Spatula clypeata,^clo:speciescode2019=norsho])node911568)node911531)node911529;
+END;
+

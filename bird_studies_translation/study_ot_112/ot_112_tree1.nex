@@ -1,0 +1,41 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=29;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=609796,nearestTaxonMRCAName=Apodidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu18[&otu=otu18,^ot:ottId=795151,^ot:ottTaxonName=Tachymarptis melba,^ot:originalLabel=Tachymarptis_melba,^clo:ClementsTaxonName2019=Apus melba,^clo:speciescode2019=alpswi1],otu19[&otu=otu19,^ot:ottId=71182,^ot:ottTaxonName=Tachymarptis aequatorialis,^ot:originalLabel=Tachymarptis_aequatorialis,^clo:ClementsTaxonName2019=Apus aequatorialis,^clo:speciescode2019=motswi2])node38,((((otu13[&otu=otu13,^ot:ottId=1031972,^ot:ottTaxonName=Apus caffer,^ot:originalLabel=Apus_caffer,^clo:ClementsTaxonName2019=Apus caffer,^clo:speciescode2019=whrswi1],otu14[&otu=otu14,^ot:ottId=323630,^ot:ottTaxonName=Apus batesi,^ot:originalLabel=Apus_batesi,^clo:ClementsTaxonName2019=Apus batesi,^clo:speciescode2019=batswi1])node30,(otu12[&otu=otu12,^ot:ottId=273716,^ot:ottTaxonName=Apus horus,^ot:originalLabel=Apus_horus,^clo:ClementsTaxonName2019=Apus horus,^clo:speciescode2019=horswi1],(otu11[&otu=otu11,^ot:ottId=586262,^ot:ottTaxonName=Apus nipalensis,^ot:originalLabel=Apus_nipalensis,^clo:ClementsTaxonName2019=Apus nipalensis,^clo:speciescode2019=houswi1],otu10[&otu=otu10,^ot:ottId=484897,^ot:ottTaxonName=Apus affinis,^ot:originalLabel=Apus_affinis,^clo:ClementsTaxonName2019=Apus affinis,^clo:speciescode2019=litswi1])node26)node25)node24,(otu9[&otu=otu9,^ot:ottId=797144,^ot:ottTaxonName=Apus niansae,^ot:originalLabel=Apus_niansae,^clo:ClementsTaxonName2019=Apus niansae,^clo:speciescode2019=nyaswi1],(((((otu1[&otu=otu1,^ot:ottId=609788,^ot:ottTaxonName=Apus apus,^ot:originalLabel=Apus_apus,^clo:ClementsTaxonName2019=Apus apus,^clo:speciescode2019=comswi],otu2[&otu=otu2,^ot:ottId=323626,^ot:ottTaxonName=Apus pallidus,^ot:originalLabel=Apus_pallidus,^clo:ClementsTaxonName2019=Apus pallidus,^clo:speciescode2019=palswi3])node12,otu3[&otu=otu3,^ot:ottId=323632,^ot:ottTaxonName=Apus unicolor,^ot:originalLabel=Apus_unicolor,^clo:ClementsTaxonName2019=Apus unicolor,^clo:speciescode2019=plaswi1])node11,otu4[&otu=otu4,^ot:ottId=273719,^ot:ottTaxonName=Apus berliozi,^ot:originalLabel=Apus_berliozi,^clo:ClementsTaxonName2019=Apus berliozi,^clo:speciescode2019=fowswi1])node10,otu5[&otu=otu5,^ot:ottId=378822,^ot:ottTaxonName=Apus alexandri,^ot:originalLabel=Apus_alexandri,^clo:ClementsTaxonName2019=Apus alexandri,^clo:speciescode2019=aleswi1])node9,((otu6[&otu=otu6,^ot:ottId=529887,^ot:ottTaxonName=Apus barbatus,^ot:originalLabel=Apus_barbatus_barbatus,^clo:ClementsTaxonName2019=Apus barbatus,^clo:speciescode2019=afrswi1],otu7[&otu=otu7,^ot:ottId=529889,^ot:ottTaxonName=Apus bradfieldi,^ot:originalLabel=Apus_bradfieldi,^clo:ClementsTaxonName2019=Apus bradfieldi,^clo:speciescode2019=braswi1])node19,otu8[&otu=otu8,^ot:ottId=529892,^ot:ottTaxonName=Apus balstoni,^ot:originalLabel=Apus_barbatus_balstoni,^clo:ClementsTaxonName2019=Apus balstoni,^clo:speciescode2019=madswi1])node18)node8)node7)node6,(otu17[&otu=otu17,^ot:ottId=759417,^ot:ottTaxonName=Apus pacificus,^ot:originalLabel=Apus_pacificus_pacificus,^clo:ClementsTaxonName2019=Apus pacificus,^clo:speciescode2019=fotswi],(otu15[&otu=otu15,^ot:ottId=797146,^ot:ottTaxonName=Apus acuticauda,^ot:originalLabel=Apus_acuticauda,^clo:ClementsTaxonName2019=Apus acuticauda,^clo:speciescode2019=darswi1],otu16[&otu=otu16,^ot:ottId=3595853,^ot:ottTaxonName=Apus cooki,^ot:originalLabel=Apus_pacificus_cooki,^clo:ClementsTaxonName2019=Apus cooki,^clo:speciescode2019=cooswi1])node34)node33)node5)node4,(otu20[&otu=otu20,^ot:ottId=586272,^ot:ottTaxonName=Cypsiurus balasiensis,^ot:originalLabel=Cypsiurus_balasiensis,^clo:ClementsTaxonName2019=Cypsiurus balasiensis,^clo:speciescode2019=aspswi1],otu21[&otu=otu21,^ot:ottId=500660,^ot:ottTaxonName=Cypsiurus parvus,^ot:originalLabel=Cypsiurus_parvus,^clo:ClementsTaxonName2019=Cypsiurus parvus,^clo:speciescode2019=afpswi1])node41)node3,((otu22[&otu=otu22,^ot:ottId=586257,^ot:ottTaxonName=Collocalia esculenta,^ot:originalLabel=Collocalia_esculenta,^clo:ClementsTaxonName2019=Collocalia esculenta,^clo:speciescode2019=gloswi1],otu23[&otu=otu23,^ot:ottId=586267,^ot:ottTaxonName=Collocalia linchi,^ot:originalLabel=Collocalia_linchi,^clo:ClementsTaxonName2019=Collocalia linchi,^clo:speciescode2019=cavswi2])node45,((otu24[&otu=otu24,^ot:ottId=65399,^ot:ottTaxonName=Aerodramus maximus,^ot:originalLabel=Aerodramus_maximus,^clo:ClementsTaxonName2019=Aerodramus maximus,^clo:speciescode2019=blnswi1],otu25[&otu=otu25,^ot:ottId=946976,^ot:ottTaxonName=Aerodramus vulcanorum,^ot:originalLabel=Aerodramus_vulcanorum,^clo:ClementsTaxonName2019=Aerodramus vulcanorum,^clo:speciescode2019=volswi1])node49,(otu26[&otu=otu26,^ot:ottId=65387,^ot:ottTaxonName=Aerodramus salangana,^ot:originalLabel=Aerodramus_salanganus,^clo:ClementsTaxonName2019=Aerodramus salangana,^clo:speciescode2019=monswi2],otu27[&otu=otu27,^ot:ottId=534806,^ot:ottTaxonName=Aerodramus fuciphagus,^ot:originalLabel=Aerodramus_fuciphagus,^clo:ClementsTaxonName2019=Aerodramus fuciphagus,^clo:speciescode2019=ednswi1])node52)node48)node44)node2,(otu29[&otu=otu29,^ot:ottId=609785,^ot:ottTaxonName=Chaetura pelagica,^ot:originalLabel=Chaetura_pelagica,^clo:ClementsTaxonName2019=Chaetura pelagica,^clo:speciescode2019=chiswi],otu28[&otu=otu28,^ot:ottId=3595879,^ot:ottTaxonName=Rhaphidura leucopygialis,^ot:originalLabel=Rhaphidura_leucopygialis,^clo:ClementsTaxonName2019=Rhaphidura leucopygialis,^clo:speciescode2019=sirnee1])node55)node1;
+END;
+

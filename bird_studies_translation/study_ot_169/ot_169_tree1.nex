@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 (multilocus)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=]((((((otu10[&otu=otu10,^ot:ottId=3597356,^ot:ottTaxonName=Amaurospiza carrizalensis,^ot:originalLabel=Amaurospiza_carrizalensis,^clo:ClementsTaxonName2019=Amaurospiza carrizalensis,^clo:speciescode2019=carsee1],otu11[&otu=otu11,^ot:ottId=1044598,^ot:ottTaxonName=Amaurospiza moesta,^ot:originalLabel=Amaurospiza_moesta,^clo:ClementsTaxonName2019=Amaurospiza moesta,^clo:speciescode2019=blbsee3])node23,otu12[&otu=otu12,^ot:ottId=596726,^ot:ottTaxonName=Amaurospiza concolor,^ot:originalLabel=Amaurospiza_concolor_B,^clo:ClementsTaxonName2019=Amaurospiza concolor,^clo:speciescode2019=blusee1])node22,otu13[&otu=otu13,^ot:ottId=596726,^ot:ottTaxonName=Amaurospiza concolor,^ot:originalLabel=Amaurospiza_concolor_A,^clo:ClementsTaxonName2019=Amaurospiza concolor,^clo:speciescode2019=blusee1])node21,((((otu4[&otu=otu4,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_D,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1],otu5[&otu=otu5,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_F,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1])node12,otu6[&otu=otu6,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_E,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1])node11,(otu3[&otu=otu3,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_B,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1],(otu2[&otu=otu2,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_C,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1],otu1[&otu=otu1,^ot:ottId=486842,^ot:ottTaxonName=Cyanocompsa cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides_A,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1])node7)node6)node5,(otu9[&otu=otu9,^ot:ottId=75499,^ot:ottTaxonName=Cyanoloxia glaucocaerulea,^ot:originalLabel=Cyanoloxia_glaucocaerulea,^clo:ClementsTaxonName2019=Cyanoloxia glaucocaerulea,^clo:speciescode2019=glbgro1],(otu8[&otu=otu8,^ot:ottId=486836,^ot:ottTaxonName=Cyanocompsa brissonii,^ot:originalLabel=Cyanocompsa_brissonii_B,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=486836,^ot:ottTaxonName=Cyanocompsa brissonii,^ot:originalLabel=Cyanocompsa_brissonii_A,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node17)node16)node4)node3,(((otu23[&otu=otu23,^ot:ottId=772205,^ot:ottTaxonName=Cyanocompsa parellina,^ot:originalLabel=Cyanocompsa_parellina_B,^clo:ClementsTaxonName2019=Cyanocompsa parellina,^clo:speciescode2019=blubun],otu24[&otu=otu24,^ot:ottId=772205,^ot:ottTaxonName=Cyanocompsa parellina,^ot:originalLabel=Cyanocompsa_parellina_C,^clo:ClementsTaxonName2019=Cyanocompsa parellina,^clo:speciescode2019=blubun])node47,otu25[&otu=otu25,^ot:ottId=772205,^ot:ottTaxonName=Cyanocompsa parellina,^ot:originalLabel=Cyanocompsa_parellina_A,^clo:ClementsTaxonName2019=Cyanocompsa parellina,^clo:speciescode2019=blubun])node46,(((otu18[&otu=otu18,^ot:ottId=887253,^ot:ottTaxonName=Passerina leclancherii,^ot:originalLabel=Passerina_leclancherii,^clo:ClementsTaxonName2019=Passerina leclancherii,^clo:speciescode2019=orbbun1],(otu17[&otu=otu17,^ot:ottId=887250,^ot:ottTaxonName=Passerina ciris,^ot:originalLabel=Passerina_ciris,^clo:ClementsTaxonName2019=Passerina ciris,^clo:speciescode2019=paibun],(otu16[&otu=otu16,^ot:ottId=887258,^ot:ottTaxonName=Passerina versicolor,^ot:originalLabel=Passerina_versicolor_A,^clo:ClementsTaxonName2019=Passerina versicolor,^clo:speciescode2019=varbun],(otu14[&otu=otu14,^ot:ottId=887258,^ot:ottTaxonName=Passerina versicolor,^ot:originalLabel=Passerina_versicolor_C,^clo:ClementsTaxonName2019=Passerina versicolor,^clo:speciescode2019=varbun],otu15[&otu=otu15,^ot:ottId=887258,^ot:ottTaxonName=Passerina versicolor,^ot:originalLabel=Passerina_versicolor_B,^clo:ClementsTaxonName2019=Passerina versicolor,^clo:speciescode2019=varbun])node34)node33)node32)node31,otu19[&otu=otu19,^ot:ottId=724916,^ot:ottTaxonName=Passerina rositae,^ot:originalLabel=Passerina_rositae,^clo:ClementsTaxonName2019=Passerina rositae,^clo:speciescode2019=robbun1])node30,(otu22[&otu=otu22,^ot:ottId=939942,^ot:ottTaxonName=Passerina cyanea,^ot:originalLabel=Passerina_cyanea,^clo:ClementsTaxonName2019=Passerina cyanea,^clo:speciescode2019=indbun],(otu21[&otu=otu21,^ot:ottId=486840,^ot:ottTaxonName=Passerina caerulea,^ot:originalLabel=Passerina_caerulea,^clo:ClementsTaxonName2019=Passerina caerulea,^clo:speciescode2019=blugrb1],otu20[&otu=otu20,^ot:ottId=119888,^ot:ottTaxonName=Passerina amoena,^ot:originalLabel=Passerina_amoena,^clo:ClementsTaxonName2019=Passerina amoena,^clo:speciescode2019=lazbun])node42)node41)node29)node28)node2,otu26[&otu=otu26,^ot:ottId=364334,^ot:ottTaxonName=Spiza americana,^ot:originalLabel=Spiza_americana,^clo:ClementsTaxonName2019=Spiza americana,^clo:speciescode2019=dickci])node1;
+END;
+

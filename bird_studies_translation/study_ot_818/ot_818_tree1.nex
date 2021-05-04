@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (ML)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu18[&otu=otu18,^ot:ottId=465096,^ot:ottTaxonName=Xenopus laevis,^ot:originalLabel=Xenopus_laevis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((otu9[&otu=otu9,^ot:ottId=587300,^ot:ottTaxonName=Chrysemys picta,^ot:originalLabel=Chrysemys_picta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((otu7[&otu=otu7,^ot:ottId=622887,^ot:ottTaxonName=Vidua chalybeata,^ot:originalLabel=Vidua_chalybeata,^clo:ClementsTaxonName2019=Vidua chalybeata,^clo:speciescode2019=vilind],((otu5[&otu=otu5,^ot:ottId=786435,^ot:ottTaxonName=Falco peregrinus,^ot:originalLabel=Falco_peregrinus,^clo:ClementsTaxonName2019=Falco peregrinus,^clo:speciescode2019=perfal],otu6[&otu=otu6,^ot:ottId=50165,^ot:ottTaxonName=Smithornis sharpei,^ot:originalLabel=Smithornis_sharpei,^clo:ClementsTaxonName2019=Smithornis sharpei,^clo:speciescode2019=gyhbro1])node14,((otu4[&otu=otu4,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2],otu3[&otu=otu3,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1])node11,(otu1[&otu=otu1,^ot:ottId=693332,^ot:ottTaxonName=Aythya americana,^ot:originalLabel=Aythya_americana,^clo:ClementsTaxonName2019=Aythya americana,^clo:speciescode2019=redhea],otu2[&otu=otu2,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node8)node7)node6)node5,otu8[&otu=otu8,^ot:ottId=335590,^ot:ottTaxonName=Alligator mississippiensis,^ot:originalLabel=Alligator_mississippiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node4)node3,(((otu15[&otu=otu15,^ot:ottId=919171,^ot:ottTaxonName=Didelphis virginiana,^ot:originalLabel=Didlphis_virginiana,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu16[&otu=otu16,^ot:ottId=372367,^ot:ottTaxonName=Macropus robustus,^ot:originalLabel=Macropus_robustus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node31,otu17[&otu=otu17,^ot:ottId=962377,^ot:ottTaxonName=Ornithorhynchus anatinus,^ot:originalLabel=Ornithorhynchus_anatinus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node30,((((otu11[&otu=otu11,^ot:ottId=1087496,^ot:ottTaxonName=Rhinoceros unicornis,^ot:originalLabel=Rhinoceros_unicornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu10[&otu=otu10,^ot:ottId=563166,^ot:ottTaxonName=Felis catus,^ot:originalLabel=Felis_catus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node24,otu12[&otu=otu12,^ot:ottId=226190,^ot:ottTaxonName=Balaenoptera musculus,^ot:originalLabel=Balaenoptera_musculus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node23,otu13[&otu=otu13,^ot:ottId=770315,^ot:ottTaxonName=Homo sapiens,^ot:originalLabel=Homo_sapiens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node22,otu14[&otu=otu14,^ot:ottId=542509,^ot:ottTaxonName=Mus musculus,^ot:originalLabel=Mus_musculus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node21)node20)node2)node1;
+END;
+

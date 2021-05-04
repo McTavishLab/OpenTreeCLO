@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE guillaumet_etal_2008_tree_1 = [&unrootedTree=False,curatedType=Neighbor-joining ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=156647,^ot:ottTaxonName=Spizocorys sclateri,^ot:originalLabel=Spizocorys_sclateri,^clo:ClementsTaxonName2019=Spizocorys sclateri,^clo:speciescode2019=scllar1],(otu2[&otu=otu2,^ot:ottId=156649,^ot:ottTaxonName=Galerida magnirostris,^ot:originalLabel=Galerida_magnirostris,^clo:ClementsTaxonName2019=Galerida magnirostris,^clo:speciescode2019=lablar1],(otu3[&otu=otu3,^ot:ottId=1089983,^ot:ottTaxonName=Galerida theklae,^ot:originalLabel=Galerida_theklae,^clo:ClementsTaxonName2019=Galerida theklae,^clo:speciescode2019=thelar1],(otu5[&otu=otu5,^ot:ottId=207745,^ot:ottTaxonName=Galerida cristata,^ot:originalLabel=Galerida_cristata,^clo:ClementsTaxonName2019=Galerida cristata,^clo:speciescode2019=crelar2],otu4[&otu=otu4,^ot:ottId=839851,^ot:ottTaxonName=Galerida malabarica,^ot:originalLabel=Galerida_malabarica,^clo:ClementsTaxonName2019=Galerida malabarica,^clo:speciescode2019=mallar1])node7)node5)node3)node1;
+END;
+

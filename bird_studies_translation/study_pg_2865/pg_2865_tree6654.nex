@@ -1,0 +1,33 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+        otu426670
+        otu426671
+        otu426658
+        otu426659
+        otu426674
+        otu426675
+        otu426669
+        otu426668
+        otu426667
+        otu426666
+        otu426665
+        otu426664
+        otu426663
+        otu426662
+        otu426661
+        otu426660
+        otu426678
+        otu426673
+        otu426677
+        otu426672
+        otu426676
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=]((otu426678[&otu=otu426678,^ot:ottId=84790,^ot:ottTaxonName=Phaethornis longirostris mexicanus,^ot:originalLabel=Phaethornis_mexicanus,^clo:ClementsTaxonName2019=Phaethornis mexicanus,^clo:speciescode2019=mexher1],otu426677[&otu=otu426677,^ot:ottId=84792,^ot:ottTaxonName=Amazilia beryllina,^ot:originalLabel=Amazilia_berylina,^clo:ClementsTaxonName2019=Amazilia beryllina,^clo:speciescode2019=berhum])node1160908,(((((otu426665[&otu=otu426665,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_ZAC1,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],(otu426660[&otu=otu426660,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_DF,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],otu426661[&otu=otu426661,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_QRO1,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],otu426663[&otu=otu426663,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_ZAC2,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],otu426662[&otu=otu426662,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_QRO2,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],(otu426658[&otu=otu426658,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_MICH1,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum],otu426659[&otu=otu426659,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_MICH2,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum])node1160885)node1160884,otu426664[&otu=otu426664,^ot:ottId=84795,^ot:ottTaxonName=Cynanthus latirostris,^ot:originalLabel=Cynanthus_latirostris_GTO,^clo:ClementsTaxonName2019=Cynanthus latirostris,^clo:speciescode2019=brbhum])node1160883,((otu426667[&otu=otu426667,^ot:ottId=84793,^ot:ottTaxonName=Cynanthus doubledayi,^ot:originalLabel=Cynanthus_doubledayi_GRO2,^clo:ClementsTaxonName2019=Cynanthus latirostris doubledayi,^clo:speciescode2019=brbhum2],otu426666[&otu=otu426666,^ot:ottId=84793,^ot:ottTaxonName=Cynanthus doubledayi,^ot:originalLabel=Cynanthus_doubledayi_GRO1,^clo:ClementsTaxonName2019=Cynanthus latirostris doubledayi,^clo:speciescode2019=brbhum2],otu426669[&otu=otu426669,^ot:ottId=84793,^ot:ottTaxonName=Cynanthus doubledayi,^ot:originalLabel=Cynanthus_doubledayi_GRO4,^clo:ClementsTaxonName2019=Cynanthus latirostris doubledayi,^clo:speciescode2019=brbhum2],otu426668[&otu=otu426668,^ot:ottId=84793,^ot:ottTaxonName=Cynanthus doubledayi,^ot:originalLabel=Cynanthus_doubledayi_GRO3,^clo:ClementsTaxonName2019=Cynanthus latirostris doubledayi,^clo:speciescode2019=brbhum2])node1160895,otu426670[&otu=otu426670,^ot:ottId=84793,^ot:ottTaxonName=Cynanthus doubledayi,^ot:originalLabel=Cynanthus_doubledayi_GRO5,^clo:ClementsTaxonName2019=Cynanthus latirostris doubledayi,^clo:speciescode2019=brbhum2])node1160894)node1160882,(otu426672[&otu=otu426672,^ot:ottId=606420,^ot:ottTaxonName=Cynanthus sordidus,^ot:originalLabel=Cynanthus_sordidus_PUE,^clo:ClementsTaxonName2019=Cynanthus sordidus,^clo:speciescode2019=dushum1],otu426671[&otu=otu426671,^ot:ottId=606420,^ot:ottTaxonName=Cynanthus sordidus,^ot:originalLabel=Cynanthus_sordidus_OAX1,^clo:ClementsTaxonName2019=Cynanthus sordidus,^clo:speciescode2019=dushum1],otu426674[&otu=otu426674,^ot:ottId=606420,^ot:ottTaxonName=Cynanthus sordidus,^ot:originalLabel=Cynanthus_sordidus_GRO,^clo:ClementsTaxonName2019=Cynanthus sordidus,^clo:speciescode2019=dushum1],otu426673[&otu=otu426673,^ot:ottId=606420,^ot:ottTaxonName=Cynanthus sordidus,^ot:originalLabel=Cynanthus_sordidus_OAX2,^clo:ClementsTaxonName2019=Cynanthus sordidus,^clo:speciescode2019=dushum1])node1160901)node1160881,otu426675[&otu=otu426675,^ot:ottId=381837,^ot:ottTaxonName=Cyanophaia bicolor,^ot:originalLabel=Cyanophaia_bicolor,^clo:ClementsTaxonName2019=Cyanophaia bicolor,^clo:speciescode2019=blhhum1])node1160880,otu426676[&otu=otu426676,^ot:ottId=699784,^ot:ottTaxonName=Hylocharis leucotis,^ot:originalLabel=Hylocharis_leucotis,^clo:ClementsTaxonName2019=Hylocharis leucotis,^clo:speciescode2019=whehum])node1160879)node1160878;
+END;
+

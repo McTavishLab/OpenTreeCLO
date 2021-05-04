@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu7
+        otu8
+        otu9
+        otu6
+        otu3
+        otu4
+        otu5
+        otu2
+        otu20
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=489463,nearestTaxonMRCAName=Ramphastidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu18[&otu=otu18,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_vitellinus_ariel,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2],(((otu14[&otu=otu14,^ot:ottId=288964,^ot:ottTaxonName=Aulacorhynchus atrogularis,^ot:originalLabel=Aulacorhynchus_prasinus_atrogularis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15[&otu=otu15,^ot:ottId=564506,^ot:ottTaxonName=Aulacorhynchus caeruleogularis,^ot:originalLabel=Aulacorhynchus_prasinus_caeruleogularis,^clo:ClementsTaxonName2019=Aulacorhynchus prasinus caeruleogularis,^clo:speciescode2019=emetou4])node30,((otu13[&otu=otu13,^ot:ottId=3600272,^ot:ottTaxonName=Selenidera piperivora,^ot:originalLabel=Selenidera_piperivora,^clo:ClementsTaxonName2019=Selenidera piperivora,^clo:speciescode2019=guitou1],(((otu9[&otu=otu9,^ot:ottId=640532,^ot:ottTaxonName=Selenidera maculirostris,^ot:originalLabel=Selenidera_maculirostris,^clo:ClementsTaxonName2019=Selenidera maculirostris,^clo:speciescode2019=spbtou1],(otu8[&otu=otu8,^ot:ottId=1068267,^ot:ottTaxonName=Selenidera gouldii,^ot:originalLabel=Selenidera_gouldii_2,^clo:ClementsTaxonName2019=Selenidera gouldii,^clo:speciescode2019=goutou1],otu7[&otu=otu7,^ot:ottId=1068267,^ot:ottTaxonName=Selenidera gouldii,^ot:originalLabel=Selenidera_gouldii_1,^clo:ClementsTaxonName2019=Selenidera gouldii,^clo:speciescode2019=goutou1])node21)node20,(otu11[&otu=otu11,^ot:ottId=5223330,^ot:ottTaxonName=Selenidera reinwardtii reinwardtii,^ot:originalLabel=Selenidera_reinwardtii_reinwardtii,^clo:ClementsTaxonName2019=Selenidera reinwardtii reinwardtii,^clo:speciescode2019=goctou2],otu10[&otu=otu10,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Selenidera_reinwardtii_langsdorffii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node25)node19,otu12[&otu=otu12,^ot:ottId=3600271,^ot:ottTaxonName=Selenidera nattereri,^ot:originalLabel=Selenidera_nattereri,^clo:ClementsTaxonName2019=Selenidera nattereri,^clo:speciescode2019=tattou1])node18)node17,((otu5[&otu=otu5,^ot:ottId=848382,^ot:ottTaxonName=Andigena laminirostris,^ot:originalLabel=Andigena_laminirostris,^clo:ClementsTaxonName2019=Andigena laminirostris,^clo:speciescode2019=pbmtou1],((otu3[&otu=otu3,^ot:ottId=485268,^ot:ottTaxonName=Andigena cucullata,^ot:originalLabel=Andigena_cucullata,^clo:ClementsTaxonName2019=Andigena cucullata,^clo:speciescode2019=homtou1],(otu1[&otu=otu1,^ot:ottId=5223328,^ot:ottTaxonName=Andigena hypoglauca hypoglauca,^ot:originalLabel=Andigena_hypoglauca_hypoglauca,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=5223327,^ot:ottTaxonName=Andigena hypoglauca lateralis,^ot:originalLabel=Andigena_hypoglauca_lateralis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node10)node9,otu4[&otu=otu4,^ot:ottId=5223329,^ot:ottTaxonName=Andigena nigrirostris spilorhynchus,^ot:originalLabel=Andigena_nigrirostris_spilorhynchus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node8)node7,otu6[&otu=otu6,^ot:ottId=542001,^ot:ottTaxonName=Selenidera spectabilis,^ot:originalLabel=Selenidera_spectabilis,^clo:ClementsTaxonName2019=Selenidera spectabilis,^clo:speciescode2019=yeetou1])node6)node5)node4,(otu17[&otu=otu17,^ot:ottId=541992,^ot:ottTaxonName=Pteroglossus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus,^clo:speciescode2019=letara1],otu16[&otu=otu16,^ot:ottId=130076,^ot:ottTaxonName=Pteroglossus bailloni,^ot:originalLabel=Pteroglossus_bailloni,^clo:ClementsTaxonName2019=Pteroglossus bailloni,^clo:speciescode2019=saftou2])node33)node3)node2,(otu19[&otu=otu19,^ot:ottId=542000,^ot:ottTaxonName=Semnornis frantzii,^ot:originalLabel=Semnornis_frantzii,^clo:ClementsTaxonName2019=Semnornis frantzii,^clo:speciescode2019=prbbar1],otu20[&otu=otu20,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1])node37)node1;
+END;
+

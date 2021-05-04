@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu427026
+        otu427027
+        otu427024
+        otu427025
+        otu427031
+        otu427023
+        otu427033
+        otu427032
+        otu427038
+        otu427040
+        otu427039
+        otu427037
+        otu427028
+        otu427029
+        otu427041
+        otu427036
+        otu427034
+        otu427035
+        otu427042
+        otu427030
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3_species_tree = [&unrootedTree=False,curatedType=Species tree inference,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=]((((otu427040:0.1614414837304[&otu=otu427040,^ot:ottId=438655,^ot:ottTaxonName=Herpetotheres cachinnans,^ot:originalLabel=Herpetotheres_cachinnans,^clo:ClementsTaxonName2019=Herpetotheres cachinnans,^clo:speciescode2019=laufal1],(otu427039:0.09731368196625[&otu=otu427039,^ot:ottId=273700,^ot:ottTaxonName=Micrastur ruficollis,^ot:originalLabel=Micrastur_ruficollis,^clo:ClementsTaxonName2019=Micrastur ruficollis,^clo:speciescode2019=baffal1],otu427038:0.09731368196625[&otu=otu427038,^ot:ottId=1015189,^ot:ottTaxonName=Micrastur semitorquatus,^ot:originalLabel=Micrastur_semitorquatus,^clo:ClementsTaxonName2019=Micrastur semitorquatus,^clo:speciescode2019=coffal1])node1161924:0.06412780176412)node1161923:0.1712716066262,((((otu427028:0.0859467555751[&otu=otu427028,^ot:ottId=438659,^ot:ottTaxonName=Daptrius americanus,^ot:originalLabel=Ibycter_americanus,^clo:ClementsTaxonName2019=Ibycter americanus,^clo:speciescode2019=retcar2],((otu427035:0.0177774793735[&otu=otu427035,^ot:ottId=438664,^ot:ottTaxonName=Daptrius ater,^ot:originalLabel=Daptrius_ater,^clo:ClementsTaxonName2019=Daptrius ater,^clo:speciescode2019=blacar1],otu427034:0.0177774793735[&otu=otu427034,^ot:ottId=1015193,^ot:ottTaxonName=Milvago chimachima,^ot:originalLabel=Milvago_chimachima,^clo:ClementsTaxonName2019=Milvago chimachima,^clo:speciescode2019=yehcar1])node1161917:0.01094496713118,(otu427029:0.02720016901312[&otu=otu427029,^ot:ottId=474152,^ot:ottTaxonName=Milvago chimango,^ot:originalLabel=Milvago_chimango,^clo:ClementsTaxonName2019=Milvago chimango,^clo:speciescode2019=chicar1],(((otu427033:0.0003767498901942[&otu=otu427033,^ot:ottId=728383,^ot:ottTaxonName=Phalcoboenus megalopterus,^ot:originalLabel=Phalcoboenus_megalopterus,^clo:ClementsTaxonName2019=Phalcoboenus megalopterus,^clo:speciescode2019=moucar1],otu427032:0.0003767498901942[&otu=otu427032,^ot:ottId=943734,^ot:ottTaxonName=Phalcoboenus albogularis,^ot:originalLabel=Phalcoboenus_albogularis,^clo:ClementsTaxonName2019=Phalcoboenus albogularis,^clo:speciescode2019=whtcar1])node1161914:0.005285434931652,otu427031:0.005662184821846[&otu=otu427031,^ot:ottId=943736,^ot:ottTaxonName=Phalcoboenus carunculatus,^ot:originalLabel=Phalcoboenus_carunculatus,^clo:ClementsTaxonName2019=Phalcoboenus carunculatus,^clo:speciescode2019=carcar1])node1161912:0.001868660897224,otu427030:0.00753084571907[&otu=otu427030,^ot:ottId=438657,^ot:ottTaxonName=Phalcoboenus australis,^ot:originalLabel=Phalcoboenus_australis,^clo:ClementsTaxonName2019=Phalcoboenus australis,^clo:speciescode2019=strcar1])node1161910:0.01966932329405)node1161908:0.001522277491562)node1161907:0.05722430907041)node1161905:0.02836564218499,(otu427037:0.004758536730699[&otu=otu427037,^ot:ottId=1005432,^ot:ottTaxonName=Caracara cheriway,^ot:originalLabel=Caracara_cheriway,^clo:ClementsTaxonName2019=Caracara cheriway,^clo:speciescode2019=crecar1],otu427036:0.004758536730699[&otu=otu427036,^ot:ottId=786444,^ot:ottTaxonName=Caracara plancus,^ot:originalLabel=Caracara_plancus,^clo:ClementsTaxonName2019=Caracara plancus,^clo:speciescode2019=soucar1])node1161920:0.1095538610294)node1161904:0.09398235116939,otu427027:0.2082947489295[&otu=otu427027,^ot:ottId=1015196,^ot:ottTaxonName=Spiziapteryx circumcincta,^ot:originalLabel=Spiziapteryx_circumcincta,^clo:ClementsTaxonName2019=Spiziapteryx circumcincta,^clo:speciescode2019=spwfal2])node1161902:0.0860484156599,((otu427025:0.05137252852523[&otu=otu427025,^ot:ottId=786435,^ot:ottTaxonName=Falco peregrinus,^ot:originalLabel=Falco_peregrinus,^clo:ClementsTaxonName2019=Falco peregrinus,^clo:speciescode2019=perfal],otu427026:0.05137252852523[&otu=otu427026,^ot:ottId=786443,^ot:ottTaxonName=Falco columbarius,^ot:originalLabel=Falco_columbarius,^clo:ClementsTaxonName2019=Falco columbarius,^clo:speciescode2019=merlin])node1161899:0.1876873449205,(otu427024:0.1600067790016[&otu=otu427024,^ot:ottId=1015204,^ot:ottTaxonName=Polihierax semitorquatus,^ot:originalLabel=Polihierax_semitorquatus,^clo:ClementsTaxonName2019=Polihierax semitorquatus,^clo:speciescode2019=pygfal1],otu427023:0.1600067790016[&otu=otu427023,^ot:ottId=301634,^ot:ottTaxonName=Microhierax caerulescens,^ot:originalLabel=Microhierax_caerulescens,^clo:ClementsTaxonName2019=Microhierax caerulescens,^clo:speciescode2019=colfal1])node1161896:0.07905309444417)node1161895:0.05528329114365)node1161894:0.03836992576715)node1161893:0.1429548136174,otu427041:0.4756679039739[&otu=otu427041,^ot:ottId=509839,^ot:ottTaxonName=Buteo jamaicensis,^ot:originalLabel=Buteo_jamaicensis,^clo:ClementsTaxonName2019=Buteo jamaicensis,^clo:speciescode2019=rethaw])node1161892:0.1080633193748,otu427042:0.5837312233487[&otu=otu427042,^ot:ottId=140425,^ot:ottTaxonName=Corvus corax,^ot:originalLabel=Corvus_corax,^clo:ClementsTaxonName2019=Corvus corax,^clo:speciescode2019=comrav])node1161891;
+END;
+

@@ -1,0 +1,39 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+        Tl242291
+        Tl242290
+        Tl242293
+        Tl242292
+        Tl242295
+        Tl242294
+        Tl242297
+        Tl242296
+        Diogenornis_sp.
+        Tl242298
+        Tl242300
+        Tl242288
+        Tl242289
+        Tl242286
+        Tl242287
+        Tl242284
+        Tl242285
+        Lithornithidae
+        Tl242283
+        Tl242280
+        Tl242281
+        Tl242279
+        Tl242278
+        Tl242277
+        Tl242276
+        Tl242275
+        Paleotis_sp.
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((((Tl242290[&otu=Tl242290,^ot:ottId=570956,^ot:ottTaxonName=Alectura lathami,^ot:originalLabel=Alectura_lathami,^clo:ClementsTaxonName2019=Alectura lathami,^clo:speciescode2019=ausbrt1],Tl242294[&otu=Tl242294,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])Tn506299,(Tl242287[&otu=Tl242287,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1],Tl242288[&otu=Tl242288,^ot:ottId=693334,^ot:ottTaxonName=Aythya,^ot:originalLabel=Aythya_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506263)Tn506305,((Tl242286[&otu=Tl242286,^ot:ottId=821753,^ot:ottTaxonName=Arenaria interpres,^ot:originalLabel=Arenaria_interpres,^clo:ClementsTaxonName2019=Arenaria interpres,^clo:speciescode2019=rudtur],Tl242285[&otu=Tl242285,^ot:ottId=193407,^ot:ottTaxonName=Haematopus,^ot:originalLabel=Haematopus_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506269,(Tl242281[&otu=Tl242281,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1],Tl242279[&otu=Tl242279,^ot:ottId=803675,^ot:ottTaxonName=Gavia,^ot:originalLabel=Gavia_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506262)Tn506282)Tn506270,(((((Tl242283[&otu=Tl242283,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1],(Tl242295[&otu=Tl242295,^ot:ottId=870604,^ot:ottTaxonName=Crypturellus,^ot:originalLabel=Crypturellus_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl242289[&otu=Tl242289,^ot:ottId=402450,^ot:ottTaxonName=Tinamus,^ot:originalLabel=Tinamus_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506284)Tn506290,((Tl242280[&otu=Tl242280,^ot:ottId=816665,^ot:ottTaxonName=Anomalopteryx didiformis,^ot:originalLabel=Anomalopteryx_didiformis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl242276[&otu=Tl242276,^ot:ottId=576651,^ot:ottTaxonName=Emeus crassus,^ot:originalLabel=Emeus_crassus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506265,Tl242293[&otu=Tl242293,^ot:ottId=816655,^ot:ottTaxonName=Dinornis,^ot:originalLabel=Dinornis_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn506283)Tn506295,(((Tl242291[&otu=Tl242291,^ot:ottId=241844,^ot:ottTaxonName=Apteryx owenii,^ot:originalLabel=Apteryx_owenii,^clo:ClementsTaxonName2019=Apteryx owenii,^clo:speciescode2019=liskiw1],Tl242292[&otu=Tl242292,^ot:ottId=241836,^ot:ottTaxonName=Apteryx haastii,^ot:originalLabel=Apteryx_haastii,^clo:ClementsTaxonName2019=Apteryx haastii,^clo:speciescode2019=grskiw1])Tn506276,Tl242298[&otu=Tl242298,^ot:ottId=241834,^ot:ottTaxonName=Apteryx australis,^ot:originalLabel=Apteryx_australis,^clo:ClementsTaxonName2019=Apteryx australis,^clo:speciescode2019=sobkiw1])Tn506279,(Tl242300[&otu=Tl242300,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],Tl242277[&otu=Tl242277,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=Casuarius_casuarius,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1])Tn506287)Tn506301)Tn506293,(Tl242278[&otu=Tl242278,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],Tl242296[&otu=Tl242296,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2])Tn506275)Tn506286,Tl242284[&otu=Tl242284,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])Tn506296)Tn506264,(Tl242297[&otu=Tl242297,^ot:ottId=912130,^ot:ottTaxonName=Caiman crocodilus,^ot:originalLabel=Caiman_crocodilus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl242275[&otu=Tl242275,^ot:ottId=335590,^ot:ottTaxonName=Alligator mississippiensis,^ot:originalLabel=Alligator_mississippiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn506266)Tn506271;
+END;
+

@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        Tl633549
+        Tl633548
+        Tl633529
+        Tl633528
+        Tl633527
+        Tl633526
+        Tl633525
+        Tl633524
+        Tl633523
+        Tl633544
+        Tl633547
+        Tl633546
+        Tl633541
+        Tl633540
+        Tl633543
+        Tl633545
+        Tl633542
+        Tl633538
+        Tl633539
+        Tl633534
+        Tl633535
+        Tl633536
+        Tl633537
+        Tl633530
+        Tl633531
+        Tl633532
+        Tl633533
+        Tl633554
+        Tl633555
+        Tl633552
+        Tl633553
+        Tl633550
+        Tl633551
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 7 (parsimony consensus)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:changesCount,messages=]((Tl633533:0.131464[&otu=Tl633533,^ot:ottId=291639,^ot:ottTaxonName=Pogoniulus bilineatus,^ot:originalLabel=Pogoniulus_bilineatus,^clo:ClementsTaxonName2019=Pogoniulus bilineatus,^clo:speciescode2019=yertin1],(((Tl633537:0.07067[&otu=Tl633537,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1],Tl633535:0.041206[&otu=Tl633535,^ot:ottId=542000,^ot:ottTaxonName=Semnornis frantzii,^ot:originalLabel=Semnornis_frantzii,^clo:ClementsTaxonName2019=Semnornis frantzii,^clo:speciescode2019=prbbar1])Tn8173216:0.063506,(((Tl633529:0.065364[&otu=Tl633529,^ot:ottId=450962,^ot:ottTaxonName=Ramphastos culminatus,^ot:originalLabel=Ramphastos_vitellinus_culminatus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl633531:0.05059[&otu=Tl633531,^ot:ottId=1068262,^ot:ottTaxonName=Ramphastos cuvieri,^ot:originalLabel=Ramphastos_tucanus_cuvieri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8173229:0.064353,(Tl633524:0.090757[&otu=Tl633524,^ot:ottId=764291,^ot:ottTaxonName=Aulacorhynchus derbianus,^ot:originalLabel=Aulacorhynchus_derbianus,^clo:ClementsTaxonName2019=Aulacorhynchus derbianus,^clo:speciescode2019=chttou3],(((Tl633555:0.027966[&otu=Tl633555,^ot:ottId=815703,^ot:ottTaxonName=Andigena hypoglauca,^ot:originalLabel=Andigena_hypoglauca,^clo:ClementsTaxonName2019=Andigena hypoglauca,^clo:speciescode2019=gybmot1],Tl633551:0.020291[&otu=Tl633551,^ot:ottId=848382,^ot:ottTaxonName=Andigena laminirostris,^ot:originalLabel=Andigena_laminirostris,^clo:ClementsTaxonName2019=Andigena laminirostris,^clo:speciescode2019=pbmtou1])Tn8173228:0.030458,(Tl633527:0.051883[&otu=Tl633527,^ot:ottId=542001,^ot:ottTaxonName=Selenidera spectabilis,^ot:originalLabel=Selenidera_spectabilis,^clo:ClementsTaxonName2019=Selenidera spectabilis,^clo:speciescode2019=yeetou1],Tl633554:0.060108[&otu=Tl633554,^ot:ottId=1068267,^ot:ottTaxonName=Selenidera gouldii,^ot:originalLabel=Selenidera_gouldii,^clo:ClementsTaxonName2019=Selenidera gouldii,^clo:speciescode2019=goutou1])Tn8173189:0.00961)Tn8173203:0.022482,((Tl633523:0.026755[&otu=Tl633523,^ot:ottId=815700,^ot:ottTaxonName=Baillonius bailloni,^ot:originalLabel=Baillonius_bailloni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl633526:0.037413[&otu=Tl633526,^ot:ottId=291643,^ot:ottTaxonName=Pteroglossus castanotis,^ot:originalLabel=Pteroglossus_castanotis,^clo:ClementsTaxonName2019=Pteroglossus castanotis,^clo:speciescode2019=cheara1])Tn8173202:0.005964,Tl633528:0.048679[&otu=Tl633528,^ot:ottId=541992,^ot:ottTaxonName=Pteroglossus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus,^clo:speciescode2019=letara1])Tn8173247:0.052884)Tn8173207:0.008555)Tn8173233:0.013799)Tn8173208:0.014244,((Tl633550:0.081552[&otu=Tl633550,^ot:ottId=1068254,^ot:ottTaxonName=Capito niger,^ot:originalLabel=Capito_niger,^clo:ClementsTaxonName2019=Capito niger,^clo:speciescode2019=blsbar1],(Tl633532:0[&otu=Tl633532,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi_1,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1],Tl633543:0[&otu=Tl633543,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi_2,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1])Tn8173185:0.08838)Tn8173221:0.083768,(Tl633542:0.05595[&otu=Tl633542,^ot:ottId=541994,^ot:ottTaxonName=Eubucco richardsoni,^ot:originalLabel=Eubucco_richardsoni,^clo:ClementsTaxonName2019=Eubucco richardsoni,^clo:speciescode2019=letbar1],Tl633545:0.051263[&otu=Tl633545,^ot:ottId=541995,^ot:ottTaxonName=Eubucco bourcierii tucinkae,^ot:originalLabel=Eubucco_bourcierii_tucinkae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8173209:0.074302)Tn8173200:0.022927)Tn8173223:0.010146)Tn8173195:0.03553,Tl633540:0.126521[&otu=Tl633540,^ot:ottId=1068258,^ot:ottTaxonName=Trachyphonus darnaudii,^ot:originalLabel=Trachyphonus_darnaudii,^clo:ClementsTaxonName2019=Trachyphonus darnaudii,^clo:speciescode2019=darbar1])Tn8173187:0.027554,(Tl633534:0.126489[&otu=Tl633534,^ot:ottId=291636,^ot:ottTaxonName=Lybius bidentatus,^ot:originalLabel=Lybius_bidentatus,^clo:ClementsTaxonName2019=Lybius bidentatus,^clo:speciescode2019=dotbar1],(Tl633530:0.059088[&otu=Tl633530,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl633549:0.128167[&otu=Tl633549,^ot:ottId=291641,^ot:ottTaxonName=Psilopogon pyrolophus,^ot:originalLabel=Psilopogon_pyrolophus,^clo:ClementsTaxonName2019=Psilopogon pyrolophus,^clo:speciescode2019=fitbar1])Tn8173197:0.080352)Tn8173196:0.031344)Tn8173194:0.0332995,(((Tl633553:0.020018[&otu=Tl633553,^ot:ottId=744570,^ot:ottTaxonName=Sphyrapicus varius,^ot:originalLabel=Sphyrapicus_varius_2,^clo:ClementsTaxonName2019=Sphyrapicus varius,^clo:speciescode2019=yebsap],Tl633548:0.005874[&otu=Tl633548,^ot:ottId=744570,^ot:ottTaxonName=Sphyrapicus varius,^ot:originalLabel=Sphyrapicus_varius_1,^clo:ClementsTaxonName2019=Sphyrapicus varius,^clo:speciescode2019=yebsap])Tn8173238:0.103439,((Tl633547:0.093934[&otu=Tl633547,^ot:ottId=733984,^ot:ottTaxonName=Dryocopus pileatus,^ot:originalLabel=Dryocopus_pileatus,^clo:ClementsTaxonName2019=Dryocopus pileatus,^clo:speciescode2019=pilwoo],((Tl633538:0.04154[&otu=Tl633538,^ot:ottId=210496,^ot:ottTaxonName=Piculus rubiginosus,^ot:originalLabel=Piculus_rubiginosus,^clo:ClementsTaxonName2019=Colaptes rubiginosus,^clo:speciescode2019=goowoo1],Tl633536:0.042368[&otu=Tl633536,^ot:ottId=1020134,^ot:ottTaxonName=Colaptes rupicola,^ot:originalLabel=Colaptes_rupicola,^clo:ClementsTaxonName2019=Colaptes rupicola,^clo:speciescode2019=andfli1])Tn8173245:0.013759,Tl633541:0.04819[&otu=Tl633541,^ot:ottId=733990,^ot:ottTaxonName=Colaptes auratus,^ot:originalLabel=Colaptes_auratus,^clo:ClementsTaxonName2019=Colaptes auratus,^clo:speciescode2019=norfli])Tn8173210:0.031966)Tn8173237:0.014958,(Tl633539:0.101435[&otu=Tl633539,^ot:ottId=706428,^ot:ottTaxonName=Campephilus haematogaster,^ot:originalLabel=Campephilus_haematogaster,^clo:ClementsTaxonName2019=Campephilus haematogaster,^clo:speciescode2019=crbwoo1],(Tl633546:0.054202[&otu=Tl633546,^ot:ottId=733988,^ot:ottTaxonName=Picoides villosus,^ot:originalLabel=Picoides_villosus,^clo:ClementsTaxonName2019=Dryobates villosus,^clo:speciescode2019=haiwoo],(Tl633525:0.019047[&otu=Tl633525,^ot:ottId=65431,^ot:ottTaxonName=Veniliornis callonotus,^ot:originalLabel=Veniliornis_callonotus,^clo:ClementsTaxonName2019=Dryobates callonotus,^clo:speciescode2019=scbwoo3],Tl633544:0.024195[&otu=Tl633544,^ot:ottId=65433,^ot:ottTaxonName=Veniliornis nigriceps,^ot:originalLabel=Veniliornis_nigriceps,^clo:ClementsTaxonName2019=Dryobates nigriceps,^clo:speciescode2019=babwoo2])Tn8173235:0.039495)Tn8173190:0.037876)Tn8173220:0)Tn8173192:0.008008)Tn8173230:0.017092,Tl633552:0.18826[&otu=Tl633552,^ot:ottId=706454,^ot:ottTaxonName=Picumnus aurifrons,^ot:originalLabel=Picumnus_aurifrons,^clo:ClementsTaxonName2019=Picumnus aurifrons,^clo:speciescode2019=babpic1])Tn8173184:0.0332995)Tn8173205;
+END;
+

@@ -1,0 +1,29 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu18	Phoebastria albatrus	shtalb	Phoebastria_albatrus	320284	Phoebastria albatrus
+otu19	Phoebastria irrorata	wavalb	Phoebastria_irrorata	320282	Phoebastria irrorata
+otu21	Phoebastria nigripes	bkfalb	Phoebastria_nigripes	320288	Phoebastria nigripes
+otu20	Phoebastria immutabilis	layalb	Phoebastria_immutabilis	320286	Phoebastria immutabilis
+otu28	Diomedea epomophora sanfordi	royalb3	Diomedea_sanfordi	3595652	Diomedea sanfordi
+otu27	Diomedea epomophora epomophora	royalb2	Diomedea_epomophora	904499	Diomedea epomophora
+otu23	Diomedea exulans	wanalb	Diomedea_exulans	71459	Diomedea exulans
+otu22	Diomedea exulans amsterdamensis	wanalb5	Diomedea_amsterdamensis	71463	Diomedea amsterdamensis
+otu24	Diomedea exulans antipodensis	wanalb2	Diomedea_antipodensis	82214	Diomedea antipodensis
+otu25	no_match	no_match	Diomedea_gibsoni	488690	Diomedea gibsoni
+otu26	Diomedea exulans dabbenena	wanalb3	Diomedea_dabbenena	300867	Diomedea dabbenena
+otu16	Thalassarche chlororhynchos carteri	yenalb3	Thalassarche_carteri	134478	Thalassarche carteri
+otu17	Thalassarche chlororhynchos	yenalb	Thalassarche_chlororhynchos	663145	Thalassarche chlororhynchos
+otu15	not_a_bird	not_a_bird	Thalassarche_chrysostoma	None	None
+otu14	Thalassarche melanophris	bkbalb	Thalassarche_melanophris	320271	Thalassarche melanophrys
+otu13	Thalassarche melanophris impavida	bkbalb2	Thalassarche_impavida	514681	Thalassarche impavida
+otu12	no_match	no_match	Thalassarche_bulleri_platei	1016643	Thalassarche bulleri platei
+otu11	no_match	no_match	Thalassarche_bulleri_bulleri	592670	Thalassarche bulleri bulleri
+otu10	no_match	no_match	Thalassarche_steadi	250508	Thalassarche steadi
+otu9	Thalassarche cauta	whcalb1	Thalassarche_cauta	320278	Thalassarche cauta
+otu7	Thalassarche eremita	shyalb2	Thalassarche_eremita	134477	Thalassarche eremita
+otu8	Thalassarche salvini	salalb1	Thalassarche_salvini	514671	Thalassarche salvini
+otu6	Phoebetria palpebrata	limalb1	Phoebetria_palpebrata	592674	Phoebetria palpebrata
+otu5	Phoebetria fusca	sooalb1	Phoebetria_fusca	592673	Phoebetria fusca
+otu1	Macronectes giganteus	angpet1	Macronectes_giganteus_U48941	854608	Macronectes giganteus
+otu2	Macronectes giganteus	angpet1	Macronectes_giganteus_AF076060	854608	Macronectes giganteus
+otu3	Procellaria cinerea	grapet	Procellaria_cinerea_U48940	592656	Procellaria cinerea
+otu4	Procellaria cinerea	grapet	Procellaria_cinerea_AP009191	592656	Procellaria cinerea

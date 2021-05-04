@@ -1,0 +1,28 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=16;
+    TAXLABELS
+        otu426605
+        otu426604
+        otu426607
+        otu426606
+        otu426601
+        otu426600
+        otu426603
+        otu426602
+        otu426611
+        otu426610
+        otu426609
+        otu426608
+        otu426615
+        otu426614
+        otu426612
+        otu426613
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={ingroup added;},messages=](((otu426612[&otu=otu426612,^ot:ottId=946418,^ot:ottTaxonName=Nipponia nippon,^ot:originalLabel=Nipponia_nippon,^clo:ClementsTaxonName2019=Nipponia nippon,^clo:speciescode2019=creibi1],((((otu426608[&otu=otu426608,^ot:ottId=453063,^ot:ottTaxonName=Platalea flavipes,^ot:originalLabel=Platalea_flavipes_1,^clo:ClementsTaxonName2019=Platalea flavipes,^clo:speciescode2019=yebspo1],otu426609[&otu=otu426609,^ot:ottId=453063,^ot:ottTaxonName=Platalea flavipes,^ot:originalLabel=Platalea_flavipes_2,^clo:ClementsTaxonName2019=Platalea flavipes,^clo:speciescode2019=yebspo1])node1160803,otu426610[&otu=otu426610,^ot:ottId=951123,^ot:ottTaxonName=Platalea ajaja,^ot:originalLabel=Platalea_ajaja,^clo:ClementsTaxonName2019=Platalea ajaja,^clo:speciescode2019=rosspo1])node1160802,(otu426607[&otu=otu426607,^ot:ottId=1057477,^ot:ottTaxonName=Platalea alba,^ot:originalLabel=Platalea_alba,^clo:ClementsTaxonName2019=Platalea alba,^clo:speciescode2019=afrspo1],((otu426601[&otu=otu426601,^ot:ottId=317305,^ot:ottTaxonName=Platalea leucorodia,^ot:originalLabel=Platalea_leucorodia_leucorodia_2,^clo:ClementsTaxonName2019=Platalea leucorodia,^clo:speciescode2019=eurspo1],otu426602[&otu=otu426602,^ot:ottId=1029468,^ot:ottTaxonName=Platalea leucorodia archeri,^ot:originalLabel=Platalea_leucorodia_archeri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu426600[&otu=otu426600,^ot:ottId=317305,^ot:ottTaxonName=Platalea leucorodia,^ot:originalLabel=Platalea_leucorodia_leucorodia_1,^clo:ClementsTaxonName2019=Platalea leucorodia,^clo:speciescode2019=eurspo1])node1160790,((otu426606[&otu=otu426606,^ot:ottId=453066,^ot:ottTaxonName=Platalea regia,^ot:originalLabel=Platalea_regia_2,^clo:ClementsTaxonName2019=Platalea regia,^clo:speciescode2019=royspo1],otu426605[&otu=otu426605,^ot:ottId=453066,^ot:ottTaxonName=Platalea regia,^ot:originalLabel=Platalea_regia_1,^clo:ClementsTaxonName2019=Platalea regia,^clo:speciescode2019=royspo1])node1160798,(otu426603[&otu=otu426603,^ot:ottId=738327,^ot:ottTaxonName=Platalea minor,^ot:originalLabel=Platalea_minor_1,^clo:ClementsTaxonName2019=Platalea minor,^clo:speciescode2019=blfspo1],otu426604[&otu=otu426604,^ot:ottId=738327,^ot:ottTaxonName=Platalea minor,^ot:originalLabel=Platalea_minor_2,^clo:ClementsTaxonName2019=Platalea minor,^clo:speciescode2019=blfspo1])node1160795)node1160794)node1160789)node1160788)node1160787,otu426611[&otu=otu426611,^ot:ottId=413795,^ot:ottTaxonName=Threskiornis aethiopicus,^ot:originalLabel=Threskiornis_aethiopicus,^clo:ClementsTaxonName2019=Threskiornis aethiopicus,^clo:speciescode2019=sacibi2])node1160786)node1160785,otu426613[&otu=otu426613,^ot:ottId=689773,^ot:ottTaxonName=Eudocimus ruber,^ot:originalLabel=Eudocimus_ruber,^clo:ClementsTaxonName2019=Eudocimus ruber,^clo:speciescode2019=scaibi])node1160784,(otu426614[&otu=otu426614,^ot:ottId=625779,^ot:ottTaxonName=Ardea alba,^ot:originalLabel=Ardea_alba,^clo:ClementsTaxonName2019=Ardea alba,^clo:speciescode2019=greegr],otu426615[&otu=otu426615,^ot:ottId=313126,^ot:ottTaxonName=Nycticorax nycticorax,^ot:originalLabel=Nycticorax_nycticorax,^clo:ClementsTaxonName2019=Nycticorax nycticorax,^clo:speciescode2019=bcnher])node1160810)node1160783;
+END;
+

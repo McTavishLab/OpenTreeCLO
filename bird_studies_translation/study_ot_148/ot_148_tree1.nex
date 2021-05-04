@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2b = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=815968,nearestTaxonMRCAName=Meropidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu1[&otu=otu1,^ot:ottId=571609,^ot:ottTaxonName=Actenoides concretus,^ot:originalLabel=Actenoides_concretus,^clo:ClementsTaxonName2019=Actenoides concretus,^clo:speciescode2019=ruckin1],otu2[&otu=otu2,^ot:ottId=986892,^ot:ottTaxonName=Todus angustirostris,^ot:originalLabel=Todus_angustirostris,^clo:ClementsTaxonName2019=Todus angustirostris,^clo:speciescode2019=nabtod1])node3,otu3[&otu=otu3,^ot:ottId=989081,^ot:ottTaxonName=Momotus momota,^ot:originalLabel=Momotus_momota,^clo:ClementsTaxonName2019=Momotus momota,^clo:speciescode2019=bucmot4])node2,(otu33[&otu=otu33,^ot:ottId=524018,^ot:ottTaxonName=Nyctyornis amictus,^ot:originalLabel=Nyctyornis_amictus,^clo:ClementsTaxonName2019=Nyctyornis amictus,^clo:speciescode2019=rbbeat1],(((otu28[&otu=otu28,^ot:ottId=724987,^ot:ottTaxonName=Merops breweri,^ot:originalLabel=Merops_breweri,^clo:ClementsTaxonName2019=Merops breweri,^clo:speciescode2019=bhbeat1],(((((otu8[&otu=otu8,^ot:ottId=948862,^ot:ottTaxonName=Merops oreobates,^ot:originalLabel=Merops_oreobates,^clo:ClementsTaxonName2019=Merops oreobates,^clo:speciescode2019=ccbeat1],otu7[&otu=otu7,^ot:ottId=150514,^ot:ottTaxonName=Merops hirundineus,^ot:originalLabel=Merops_hirundineus,^clo:ClementsTaxonName2019=Merops hirundineus,^clo:speciescode2019=stbeat1])node20,(otu6[&otu=otu6,^ot:ottId=948874,^ot:ottTaxonName=Merops variegatus loringi,^ot:originalLabel=Merops_variegatus_loringi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu4[&otu=otu4,^ot:ottId=948869,^ot:ottTaxonName=Merops pusillus pusillus,^ot:originalLabel=Merops_pusillus_pusillus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=948865,^ot:ottTaxonName=Merops pusillus meridionalis,^ot:originalLabel=Merops_pusillus_meridionalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node16)node15)node14,((otu10[&otu=otu10,^ot:ottId=150515,^ot:ottTaxonName=Merops gularis gularis,^ot:originalLabel=Merops_gularis_gularis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=150516,^ot:ottTaxonName=Merops gularis australis,^ot:originalLabel=Merops_gularis_australis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node24,(otu12[&otu=otu12,^ot:ottId=150518,^ot:ottTaxonName=Merops muelleri muelleri,^ot:originalLabel=Merops_muelleri_muelleri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu11[&otu=otu11,^ot:ottId=724983,^ot:ottTaxonName=Merops muelleri mentalis,^ot:originalLabel=Merops_muelleri_mentalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node27)node23)node13,otu13[&otu=otu13,^ot:ottId=423285,^ot:ottTaxonName=Merops boehmi,^ot:originalLabel=Merops_boehmi,^clo:ClementsTaxonName2019=Merops boehmi,^clo:speciescode2019=bobeat1])node12,(otu27[&otu=otu27,^ot:ottId=423284,^ot:ottTaxonName=Merops albicollis,^ot:originalLabel=Merops_albicollis,^clo:ClementsTaxonName2019=Merops albicollis,^clo:speciescode2019=wtbeat1],(otu26[&otu=otu26,^ot:ottId=1050190,^ot:ottTaxonName=Merops malimbicus,^ot:originalLabel=Merops_malimbicus,^clo:ClementsTaxonName2019=Merops malimbicus,^clo:speciescode2019=robeat1],(otu25[&otu=otu25,^ot:ottId=989087,^ot:ottTaxonName=Merops nubicus,^ot:originalLabel=Merops_nubicus,^clo:ClementsTaxonName2019=Merops nubicus,^clo:speciescode2019=ncbeat1],((((otu14[&otu=otu14,^ot:ottId=755107,^ot:ottTaxonName=Merops apiaster,^ot:originalLabel=Merops_apiaster_1,^clo:ClementsTaxonName2019=Merops apiaster,^clo:speciescode2019=eubeat1],otu15[&otu=otu15,^ot:ottId=755107,^ot:ottTaxonName=Merops apiaster,^ot:originalLabel=Merops_apiaster_2,^clo:ClementsTaxonName2019=Merops apiaster,^clo:speciescode2019=eubeat1])node37,otu16[&otu=otu16,^ot:ottId=614658,^ot:ottTaxonName=Merops ornatus,^ot:originalLabel=Merops_ornatus,^clo:ClementsTaxonName2019=Merops ornatus,^clo:speciescode2019=rabeat1])node36,(otu19[&otu=otu19,^ot:ottId=372777,^ot:ottTaxonName=Merops philippinus,^ot:originalLabel=Merops_philippinus,^clo:ClementsTaxonName2019=Merops philippinus,^clo:speciescode2019=btbeat1],(otu18[&otu=otu18,^ot:ottId=898073,^ot:ottTaxonName=Merops superciliosus,^ot:originalLabel=Merops_superciliosus,^clo:ClementsTaxonName2019=Merops superciliosus,^clo:speciescode2019=mabeat1],otu17[&otu=otu17,^ot:ottId=898071,^ot:ottTaxonName=Merops persicus,^ot:originalLabel=Merops_persicus,^clo:ClementsTaxonName2019=Merops persicus,^clo:speciescode2019=bcbeat1])node42)node41)node35,(((otu21[&otu=otu21,^ot:ottId=372774,^ot:ottTaxonName=Merops viridis americanus,^ot:originalLabel=Merops_viridis_americanus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu20[&otu=otu20,^ot:ottId=372775,^ot:ottTaxonName=Merops viridis viridis,^ot:originalLabel=Merops_viridis_viridis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node48,(otu23[&otu=otu23,^ot:ottId=372778,^ot:ottTaxonName=Merops leschenaulti,^ot:originalLabel=Merops_leschenaulti_286,^clo:ClementsTaxonName2019=Merops leschenaulti,^clo:speciescode2019=chbeat1],otu22[&otu=otu22,^ot:ottId=372778,^ot:ottTaxonName=Merops leschenaulti,^ot:originalLabel=Merops_leschenaulti_115,^clo:ClementsTaxonName2019=Merops leschenaulti,^clo:speciescode2019=chbeat1])node51)node47,otu24[&otu=otu24,^ot:ottId=423282,^ot:ottTaxonName=Merops orientalis,^ot:originalLabel=Merops_orientalis,^clo:ClementsTaxonName2019=Merops orientalis,^clo:speciescode2019=grbeat1])node46)node34)node33)node32)node31)node11)node10,(otu30[&otu=otu30,^ot:ottId=423281,^ot:ottTaxonName=Merops bullockoides,^ot:originalLabel=Merops_bullockoides,^clo:ClementsTaxonName2019=Merops bullockoides,^clo:speciescode2019=wfbeat1],otu29[&otu=otu29,^ot:ottId=704136,^ot:ottTaxonName=Merops bulocki,^ot:originalLabel=Merops_bulocki,^clo:ClementsTaxonName2019=Merops bulocki,^clo:speciescode2019=rtbeat1])node59)node9,(otu32[&otu=otu32,^ot:ottId=1050191,^ot:ottTaxonName=Meropogon forsteni,^ot:originalLabel=Meropogon_forsteni_316,^clo:ClementsTaxonName2019=Meropogon forsteni,^clo:speciescode2019=pbbeat1],otu31[&otu=otu31,^ot:ottId=1050191,^ot:ottTaxonName=Meropogon forsteni,^ot:originalLabel=Meropogon_forsteni_315,^clo:ClementsTaxonName2019=Meropogon forsteni,^clo:speciescode2019=pbbeat1])node62)node8)node7)node1;
+END;
+

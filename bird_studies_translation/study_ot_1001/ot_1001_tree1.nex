@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu30
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 1 (Bayesian chronogram)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((((otu14:18.77852[&otu=otu14,^ot:ottId=50388,^ot:ottTaxonName=Geotrygon violacea,^ot:originalLabel=Geotrygonviolacea,^clo:ClementsTaxonName2019=Geotrygon violacea,^clo:speciescode2019=viqdov1],(otu13:17.796571[&otu=otu13,^ot:ottId=244144,^ot:ottTaxonName=Leptotila verreauxi,^ot:originalLabel=Leptotilaverreauxi,^clo:ClementsTaxonName2019=Leptotila verreauxi,^clo:speciescode2019=whtdov],(otu12:5.165758[&otu=otu12,^ot:ottId=183576,^ot:ottTaxonName=Zenaida macroura,^ot:originalLabel=Zenaidamacroura,^clo:ClementsTaxonName2019=Zenaida macroura,^clo:speciescode2019=moudov],otu11:5.165758[&otu=otu11,^ot:ottId=873990,^ot:ottTaxonName=Zenaida auriculata,^ot:originalLabel=Zenaidaauriculata,^clo:ClementsTaxonName2019=Zenaida auriculata,^clo:speciescode2019=eardov1])node26:12.630814)node25:0.981948)node24:3.622949,(((otu10:0.11182[&otu=otu10,^ot:ottId=148378,^ot:ottTaxonName=Patagioenas fasciata,^ot:originalLabel=PatagioenasfasciataAMNHDOT1402,^clo:ClementsTaxonName2019=Patagioenas fasciata,^clo:speciescode2019=batpig1],otu9:0.11182[&otu=otu9,^ot:ottId=148378,^ot:ottTaxonName=Patagioenas fasciata,^ot:originalLabel=PatagioenasfasciataBTP2013,^clo:ClementsTaxonName2019=Patagioenas fasciata,^clo:speciescode2019=batpig1])node21:12.299402,(otu7:0.112462[&otu=otu7,^ot:ottId=506098,^ot:ottTaxonName=Ectopistes migratorius,^ot:originalLabel=EctopistesmigratoriusFMNH47395,^clo:ClementsTaxonName2019=Ectopistes migratorius,^clo:speciescode2019=paspig],otu8:0.112462[&otu=otu8,^ot:ottId=506098,^ot:ottTaxonName=Ectopistes migratorius,^ot:originalLabel=EctopistesmigratoriusFMNH47397,^clo:ClementsTaxonName2019=Ectopistes migratorius,^clo:speciescode2019=paspig])node18:12.298761)node17:3.763398,(((otu4:0.517052[&otu=otu4,^ot:ottId=87904,^ot:ottTaxonName=Columba janthina,^ot:originalLabel=Columbajanthina,^clo:ClementsTaxonName2019=Columba janthina,^clo:speciescode2019=jawpig1],otu5:0.517052[&otu=otu5,^ot:ottId=3596499,^ot:ottTaxonName=Columba jouyi,^ot:originalLabel=Columbajouyi,^clo:ClementsTaxonName2019=Columba jouyi,^clo:speciescode2019=ryupig1])node13:10.220012,((otu1:0.243946[&otu=otu1,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=ColumbaliviaNC013978,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig],otu2:0.243946[&otu=otu2,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=ColumbaliviaKJ722068,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig])node9:0.989958,otu3:1.233904[&otu=otu3,^ot:ottId=320359,^ot:ottTaxonName=Columba rupestris,^ot:originalLabel=Columbarupestris,^clo:ClementsTaxonName2019=Columba rupestris,^clo:speciescode2019=hilpig1])node8:9.50316)node7:2.024038,otu6:12.761102[&otu=otu6,^ot:ottId=329078,^ot:ottTaxonName=Streptopelia chinensis,^ot:originalLabel=Streptopeliachinensis,^clo:ClementsTaxonName2019=Streptopelia chinensis,^clo:speciescode2019=spodov])node6:3.413519)node5:6.226848)node4:2.326339,((otu27:13.934882[&otu=otu27,^ot:ottId=1032049,^ot:ottTaxonName=Chalcophaps indica,^ot:originalLabel=ChalcophapsindicaHM746789,^clo:ClementsTaxonName2019=Chalcophaps indica,^clo:speciescode2019=emedov2],otu26:13.934882[&otu=otu26,^ot:ottId=150851,^ot:ottTaxonName=Turtur tympanistria,^ot:originalLabel=TurturtympanistriaHM746793,^clo:ClementsTaxonName2019=Turtur tympanistria,^clo:speciescode2019=tamdov1])node53:9.677352,(((otu23:14.929431[&otu=otu23,^ot:ottId=956251,^ot:ottTaxonName=Geopelia striata,^ot:originalLabel=GeopeliastriataHM746791,^clo:ClementsTaxonName2019=Geopelia striata,^clo:speciescode2019=zebdov],otu24:14.929431[&otu=otu24,^ot:ottId=3596519,^ot:ottTaxonName=Gallicolumba salamonis,^ot:originalLabel=Gallicolumbasalamonis,^clo:ClementsTaxonName2019=Alopecoenas salamonis,^clo:speciescode2019=tbgdov1])node49:4.685886,otu25:19.615317[&otu=otu25,^ot:ottId=981610,^ot:ottTaxonName=Gallicolumba luzonica,^ot:originalLabel=Gallicolumbaluzonica,^clo:ClementsTaxonName2019=Gallicolumba luzonica,^clo:speciescode2019=lubhea1])node48:3.370245,((otu21:20.678558[&otu=otu21,^ot:ottId=392964,^ot:ottTaxonName=Otidiphaps,^ot:originalLabel=Otidiphaps,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu22:20.678558[&otu=otu22,^ot:ottId=438081,^ot:ottTaxonName=Hemiphaga novaeseelandiae,^ot:originalLabel=Hemiphaganovaeseelandiae,^clo:ClementsTaxonName2019=Hemiphaga novaeseelandiae,^clo:speciescode2019=nezpig2])node45:1.767542,((((otu15:8.605878[&otu=otu15,^ot:ottId=3596529,^ot:ottTaxonName=Caloenas maculata,^ot:originalLabel=Caloenas_maculata,^clo:ClementsTaxonName2019=Caloenas maculata,^clo:speciescode2019=spgpig1],otu16:8.605878[&otu=otu16,^ot:ottId=1032058,^ot:ottTaxonName=Caloenas nicobarica,^ot:originalLabel=Caloenasnicobarica,^clo:ClementsTaxonName2019=Caloenas nicobarica,^clo:speciescode2019=nicpig1])node37:9.501282,(otu18:13.058084[&otu=otu18,^ot:ottId=455684,^ot:ottTaxonName=Pezophaps,^ot:originalLabel=Pezophaps,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu17:13.058084[&otu=otu17,^ot:ottId=455687,^ot:ottTaxonName=Raphus cucullatus,^ot:originalLabel=Raphuscucullatus,^clo:ClementsTaxonName2019=Raphus cucullatus,^clo:speciescode2019=dodo1])node40:5.049076)node36:2.999643,otu19:21.106803[&otu=otu19,^ot:ottId=1026076,^ot:ottTaxonName=Goura cristata,^ot:originalLabel=Gouracristata,^clo:ClementsTaxonName2019=Goura cristata,^clo:speciescode2019=wecpig1])node35:0.353563,otu20:21.460366[&otu=otu20,^ot:ottId=506109,^ot:ottTaxonName=Didunculus strigirostris,^ot:originalLabel=Didunculusstrigirostris,^clo:ClementsTaxonName2019=Didunculus strigirostris,^clo:speciescode2019=tobpig1])node34:0.985734)node33:0.539461)node32:0.626673)node31:1.115573)node3:26.783123,(otu28:24.47241[&otu=otu28,^ot:ottId=57819,^ot:ottTaxonName=Pterocles gutturalis,^ot:originalLabel=Pteroclesgutturalis,^clo:ClementsTaxonName2019=Pterocles gutturalis,^clo:speciescode2019=yetsan1],otu29:24.47241[&otu=otu29,^ot:ottId=322445,^ot:ottTaxonName=Pterocles namaqua,^ot:originalLabel=Pteroclesnamaqua,^clo:ClementsTaxonName2019=Pterocles namaqua,^clo:speciescode2019=namsan1])node56:27.038521)node2:16.454218,otu30:67.965149[&otu=otu30,^ot:ottId=153562,^ot:ottTaxonName=Gallus,^ot:originalLabel=Gallus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1;
+END;
+

@@ -1,0 +1,15 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Certhia brachydactyla	shttre1	Certhia_brachydactyla	1007172	Certhia brachydactyla
+otu2	no_match	no_match	Certhia_brachydactyla_mauritanica	785711	Certhia brachydactyla mauritanica
+otu3	Certhia americana	brncre	Certhia_americana	697024	Certhia americana
+otu6	no_match	no_match	Certhia_hodgsoni_hodgsoni	5861453	Certhia hodgsoni hodgsoni
+otu4	no_match	no_match	Certhia_hodgsoni_khamensis	785707	Certhia hodgsoni khamensis
+otu5	no_match	no_match	Certhia_hodgsoni_mandellii	157232	Certhia hodgsoni mandellii
+otu7	no_match	no_match	Certhia_familiaris_bianchii	391157	Certhia familiaris bianchii
+otu8	no_match	no_match	Certhia_familiaris_daurica	659655	Certhia familiaris daurica
+otu9	no_match	no_match	Certhia_himalayana_himalayana	785713	Certhia himalayana himalayana
+otu10	no_match	no_match	Certhia_himalayana_yunnanensis	785709	Certhia himalayana yunnanensis
+otu12	Certhia manipurensis	bnttre2	Certhia_manipurensis	856515	Certhia manipurensis
+otu11	Certhia discolor	bnttre1	Certhia_discolor	856514	Certhia discolor
+otu14	Certhia tianquanensis	sictre1	Certhia_tianquanensis	856513	Certhia tianquanensis
+otu13	Certhia nipalensis	ruftre4	Certhia_nipalensis	737469	Certhia nipalensis

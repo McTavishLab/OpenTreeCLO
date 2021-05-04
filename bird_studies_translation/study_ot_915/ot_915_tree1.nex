@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=521339,^ot:ottTaxonName=Argusianus argus,^ot:originalLabel=Argusianus_argus,^clo:ClementsTaxonName2019=Argusianus argus,^clo:speciescode2019=grearg1],otu2[&otu=otu2,^ot:ottId=102708,^ot:ottTaxonName=Pavo muticus,^ot:originalLabel=Pavo_muticus,^clo:ClementsTaxonName2019=Pavo muticus,^clo:speciescode2019=grepea1])node2,(otu3[&otu=otu3,^ot:ottId=352746,^ot:ottTaxonName=Polyplectron napoleonis,^ot:originalLabel=Polyplectron_emphanum,^clo:ClementsTaxonName2019=Polyplectron napoleonis,^clo:speciescode2019=palpep1],(otu5[&otu=otu5,^ot:ottId=658122,^ot:ottTaxonName=Polyplectron inopinatum,^ot:originalLabel=Polyplectron_inopinatum,^clo:ClementsTaxonName2019=Polyplectron inopinatum,^clo:speciescode2019=mopphe1],otu4[&otu=otu4,^ot:ottId=102705,^ot:ottTaxonName=Polyplectron bicalcaratum,^ot:originalLabel=Polyplectron_bicalcaratum,^clo:ClementsTaxonName2019=Polyplectron bicalcaratum,^clo:speciescode2019=grypep2])node7)node5)node1;
+END;
+

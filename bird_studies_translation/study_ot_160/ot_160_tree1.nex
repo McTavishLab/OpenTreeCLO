@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=512919,nearestTaxonMRCAName=Cacatuidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu13[&otu=otu13,^ot:ottId=817586,^ot:ottTaxonName=Calyptorhynchus funereus,^ot:originalLabel=Calyptorhynchus_funereus,^clo:ClementsTaxonName2019=Calyptorhynchus funereus,^clo:speciescode2019=ytbcoc1],(otu12[&otu=otu12,^ot:ottId=716374,^ot:ottTaxonName=Calyptorhynchus baudinii,^ot:originalLabel=Calyptorhynchus_baudinii,^clo:ClementsTaxonName2019=Calyptorhynchus baudinii,^clo:speciescode2019=whtblc1],otu11[&otu=otu11,^ot:ottId=119421,^ot:ottTaxonName=Calyptorhynchus latirostris,^ot:originalLabel=Calyptorhynchus_latirostris,^clo:ClementsTaxonName2019=Calyptorhynchus latirostris,^clo:speciescode2019=slbblc1])node25)node24,(otu14[&otu=otu14,^ot:ottId=1089846,^ot:ottTaxonName=Calyptorhynchus banksii,^ot:originalLabel=Calyptorhynchus_banksii,^clo:ClementsTaxonName2019=Calyptorhynchus banksii,^clo:speciescode2019=rtbcoc1],otu15[&otu=otu15,^ot:ottId=716372,^ot:ottTaxonName=Calyptorhynchus lathami,^ot:originalLabel=Calyptorhynchus_lathami,^clo:ClementsTaxonName2019=Calyptorhynchus lathami,^clo:speciescode2019=glbcoc1])node29)node23,(otu10[&otu=otu10,^ot:ottId=645854,^ot:ottTaxonName=Probosciger aterrimus,^ot:originalLabel=Probosciger_aterrimus,^clo:ClementsTaxonName2019=Probosciger aterrimus,^clo:speciescode2019=palcoc1],((otu8[&otu=otu8,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Callocephalon_fimbriatum,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu9[&otu=otu9,^ot:ottId=900913,^ot:ottTaxonName=Eolophus roseicapillus,^ot:originalLabel=Eolophus_roseicapillus,^clo:ClementsTaxonName2019=Eolophus roseicapilla,^clo:speciescode2019=galah])node19,(otu7[&otu=otu7,^ot:ottId=209184,^ot:ottTaxonName=Cacatua leadbeateri,^ot:originalLabel=Lophochroa_leadbeateri,^clo:ClementsTaxonName2019=Lophochroa leadbeateri,^clo:speciescode2019=pincoc1],(((otu4[&otu=otu4,^ot:ottId=290349,^ot:ottTaxonName=Cacatua galerita,^ot:originalLabel=Cacatua_galerita,^clo:ClementsTaxonName2019=Cacatua galerita,^clo:speciescode2019=succoc],otu5[&otu=otu5,^ot:ottId=290348,^ot:ottTaxonName=Cacatua sulphurea,^ot:originalLabel=Cacatua_sulphurea,^clo:ClementsTaxonName2019=Cacatua sulphurea,^clo:speciescode2019=yeccoc1])node14,otu6[&otu=otu6,^ot:ottId=579824,^ot:ottTaxonName=Cacatua alba,^ot:originalLabel=Cacatua_alba,^clo:ClementsTaxonName2019=Cacatua alba,^clo:speciescode2019=whicoc1])node13,((otu1[&otu=otu1,^ot:ottId=995013,^ot:ottTaxonName=Cacatua sanguinea,^ot:originalLabel=Cacatua_sanguinea,^clo:ClementsTaxonName2019=Cacatua sanguinea,^clo:speciescode2019=litcor2],otu2[&otu=otu2,^ot:ottId=716377,^ot:ottTaxonName=Cacatua pastinator,^ot:originalLabel=Cacatua_pastinator,^clo:ClementsTaxonName2019=Cacatua pastinator,^clo:speciescode2019=wescor1])node9,otu3[&otu=otu3,^ot:ottId=619331,^ot:ottTaxonName=Cacatua goffini,^ot:originalLabel=Cacatua_goffini,^clo:ClementsTaxonName2019=Cacatua goffiniana,^clo:speciescode2019=tancoc1])node8)node7)node6)node5)node4)node3,otu16[&otu=otu16,^ot:ottId=630645,^ot:ottTaxonName=Nymphicus hollandicus,^ot:originalLabel=Nymphicus_hollandicus,^clo:ClementsTaxonName2019=Nymphicus hollandicus,^clo:speciescode2019=cockat])node2,otu17[&otu=otu17,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger])node1;
+END;
+

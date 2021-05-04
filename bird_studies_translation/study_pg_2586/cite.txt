@@ -1,0 +1,3 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2586
+Lemmon, A.R., E. Lemmon, and S. Emme. 2012. Anchored hybrid enrichment for massively high-throughput phylogenomics. Systematic Biology 61 (5): 727-744.
+http://dx.doi.org/10.1093/sysbio/sys049

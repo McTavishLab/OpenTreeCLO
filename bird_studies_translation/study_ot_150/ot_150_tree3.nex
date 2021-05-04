@@ -1,0 +1,63 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=51;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu3
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._5 = [&unrootedTree=False,curatedType=,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=]((((otu16[&otu=otu16,^ot:ottId=3600159,^ot:ottTaxonName=Megalaima eximia,^ot:originalLabel=Megalaima_eximia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu15[&otu=otu15,^ot:ottId=3600167,^ot:ottTaxonName=Megalaima australis,^ot:originalLabel=Megalaima_australis_australis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu14[&otu=otu14,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_australis_duvaucelli_Borneo,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu13[&otu=otu13,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_australis_duvaucelli_Sumatra,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node26)node25)node24,(((((otu21[&otu=otu21,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos_Sumatra,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu20[&otu=otu20,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos_Borneo,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node40,otu22[&otu=otu22,^ot:ottId=3600152,^ot:ottTaxonName=Megalaima javensis,^ot:originalLabel=Megalaima_javensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node39,(otu24[&otu=otu24,^ot:ottId=3600166,^ot:ottTaxonName=Megalaima rafflesii,^ot:originalLabel=Megalaima_rafflesii_Sumatra,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu23[&otu=otu23,^ot:ottId=3600166,^ot:ottTaxonName=Megalaima rafflesii,^ot:originalLabel=Megalaima_rafflesii_Belitung,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node44)node38,((otu30[&otu=otu30,^ot:ottId=3600160,^ot:ottTaxonName=Megalaima pulcherrima,^ot:originalLabel=Megalaima_pulcherrima,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu29[&otu=otu29,^ot:ottId=3600154,^ot:ottTaxonName=Megalaima henricii,^ot:originalLabel=Megalaima_henricii_henricii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu28[&otu=otu28,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_henricii_brachyrhyncha,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node55,(otu27[&otu=otu27,^ot:ottId=3600162,^ot:ottTaxonName=Megalaima armillaris,^ot:originalLabel=Megalaima_armillaris_armillaris_West_Java,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu26[&otu=otu26,^ot:ottId=3600162,^ot:ottTaxonName=Megalaima armillaris,^ot:originalLabel=Megalaima_armillaris_armillaris_East_Java,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25[&otu=otu25,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_armillaris_baliensis_Bali,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node51)node50)node49)node48,(otu53[&otu=otu53,^ot:ottId=3600161,^ot:ottTaxonName=Megalaima faiostricta,^ot:originalLabel=Megalaima_faiostricta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu52[&otu=otu52,^ot:ottId=738737,^ot:ottTaxonName=Megalaima lineata,^ot:originalLabel=Megalaima_lineata_lineata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu51[&otu=otu51,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_lineata_hodgsoni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node100,(otu50[&otu=otu50,^ot:ottId=3600165,^ot:ottTaxonName=Megalaima zeylanica,^ot:originalLabel=Megalaima_zeylanica_zeylanica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu48[&otu=otu48,^ot:ottId=876386,^ot:ottTaxonName=Megalaima viridis,^ot:originalLabel=Megalaima_viridis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu49[&otu=otu49,^ot:ottId=3600156,^ot:ottTaxonName=Megalaima flavifrons,^ot:originalLabel=Megalaima_flavifrons,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node96)node95)node94,(((otu45[&otu=otu45,^ot:ottId=351693,^ot:ottTaxonName=Megalaima franklinii franklinii,^ot:originalLabel=Megalaima_franklinii_franklinii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu46[&otu=otu46,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_franklinii_ramsayi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node90,otu47[&otu=otu47,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_franklinii_auricularis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node89,((((otu42[&otu=otu42,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_chrysopogon_chrysopsis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu41[&otu=otu41,^ot:ottId=909900,^ot:ottTaxonName=Megalaima chrysopogon,^ot:originalLabel=Megalaima_chrysopogon_chrysopogon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node84,otu43[&otu=otu43,^ot:ottId=3600153,^ot:ottTaxonName=Megalaima corvina,^ot:originalLabel=Megalaima_corvina,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node83,otu44[&otu=otu44,^ot:ottId=738742,^ot:ottTaxonName=Megalaima monticola,^ot:originalLabel=Megalaima_monticola,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node82,((otu40[&otu=otu40,^ot:ottId=3600155,^ot:ottTaxonName=Megalaima incognita,^ot:originalLabel=Megalaima_incognita,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu39[&otu=otu39,^ot:ottId=3600163,^ot:ottTaxonName=Megalaima nuchalis,^ot:originalLabel=Megalaima_nuchalis,^clo:ClementsTaxonName2019=Psilopogon nuchalis,^clo:speciescode2019=taibar2],(otu38[&otu=otu38,^ot:ottId=3600157,^ot:ottTaxonName=Megalaima faber,^ot:originalLabel=Megalaima_faber_faber,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu37[&otu=otu37,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_faber_sini,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node77)node76)node75,((otu35[&otu=otu35,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megalaima_asiatica_chersonesus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu36[&otu=otu36,^ot:ottId=738735,^ot:ottTaxonName=Megalaima oorti,^ot:originalLabel=Megalaima_oorti,^clo:ClementsTaxonName2019=Psilopogon oorti,^clo:speciescode2019=blbbar5])node72,(otu34[&otu=otu34,^ot:ottId=960892,^ot:ottTaxonName=Megalaima asiatica davisoni,^ot:originalLabel=Megalaima_asiatica_davisoni_2,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu31[&otu=otu31,^ot:ottId=960892,^ot:ottTaxonName=Megalaima asiatica davisoni,^ot:originalLabel=Megalaima_asiatica_davisoni_1,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu32[&otu=otu32,^ot:ottId=960894,^ot:ottTaxonName=Megalaima asiatica asiatica,^ot:originalLabel=Megalaima_asiatica_asiatica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node67,otu33[&otu=otu33,^ot:ottId=3600158,^ot:ottTaxonName=Megalaima annamensis,^ot:originalLabel=Megalaima_annamensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node66)node65)node64)node63)node62)node61)node60)node59)node47)node37,(otu19[&otu=otu19,^ot:ottId=291641,^ot:ottTaxonName=Psilopogon pyrolophus,^ot:originalLabel=Psilopogon_pyrolophus,^clo:ClementsTaxonName2019=Psilopogon pyrolophus,^clo:speciescode2019=fitbar1],(otu18[&otu=otu18,^ot:ottId=3600164,^ot:ottTaxonName=Megalaima lagrandieri,^ot:originalLabel=Megalaima_lagrandieri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu17[&otu=otu17,^ot:ottId=1019972,^ot:ottTaxonName=Megalaima virens,^ot:originalLabel=Megalaima_virens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node33)node32)node31)node23,((otu10[&otu=otu10,^ot:ottId=1059115,^ot:ottTaxonName=Megalaima haemacephala indica,^ot:originalLabel=Megalaima_haemacephala_indica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu6[&otu=otu6,^ot:ottId=856985,^ot:ottTaxonName=Megalaima haemacephala intermedia,^ot:originalLabel=Megalaima_haemacephala_intermedia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=857009,^ot:ottTaxonName=Megalaima haemacephala celestinoi,^ot:originalLabel=Megalaima_haemacephala_celestinoi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node13,(otu8[&otu=otu8,^ot:ottId=856999,^ot:ottTaxonName=Megalaima haemacephala rosea,^ot:originalLabel=Megalaima_haemacephala_rosea,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=857004,^ot:ottTaxonName=Megalaima haemacephala delica,^ot:originalLabel=Megalaima_haemacephala_delica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node16)node12)node11,(otu12[&otu=otu12,^ot:ottId=6154906,^ot:ottTaxonName=Psilopogon malabaricus,^ot:originalLabel=Megalaima_malabarica,^clo:ClementsTaxonName2019=Psilopogon malabaricus,^clo:speciescode2019=crfbar1],otu11[&otu=otu11,^ot:ottId=876388,^ot:ottTaxonName=Megalaima rubricapillus,^ot:originalLabel=Megalaima_rubricapillus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node20)node10)node9,((otu3[&otu=otu3,^ot:ottId=738747,^ot:ottTaxonName=Calorhamphus fuliginosus,^ot:originalLabel=Calorhamphus_fuliginosus_fuliginosus,^clo:ClementsTaxonName2019=Caloramphus fuliginosus,^clo:speciescode2019=brnbar2],otu4[&otu=otu4,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Calorhamphus_fuliginosus_tertius,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node5,otu5[&otu=otu5,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Calorhamphus_fuliginosus_hayii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node4)node3;
+END;
+

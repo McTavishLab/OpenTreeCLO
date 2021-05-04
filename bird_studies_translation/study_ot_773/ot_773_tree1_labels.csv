@@ -1,0 +1,65 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Athene noctua	litowl1	gi|24743482|emb|AJ003947.1|_Athene_noctua	427150	Athene noctua
+otu2	Athene cunicularia	burowl	gi|22795458|emb|AJ003944.1|_Speotyto_cunicularia	944695	Athene cunicularia
+otu3	Glaucidium bolivianum	yupowl1	gi|22795696|emb|AJ003975.1|_Glaucidium_bolivianum	226995	Glaucidium bolivianum
+otu4	Glaucidium jardinii	anpowl1	gi|22796183|emb|AJ003998.1|_Glaucidium_jardinii_jardinii	332039	Glaucidium jardinii
+otu5	Glaucidium hardyi	amapyo1	gi|24743845|emb|AJ003996.1|_Glaucidium_hardyi	381785	Glaucidium hardyi
+otu9	Glaucidium griseiceps	capowl1	gi|24743840|emb|AJ003995.1|_Glaucidium_griseiceps	533374	Glaucidium griseiceps
+otu8	Glaucidium peruanum	pepowl1	gi|24743875|emb|AJ004005.1|_Glaucidium_peruanum	381775	Glaucidium peruanum
+otu7	no_match	no_match	gi|22796173|emb|AJ003988.1|_Glaucidium_tucumanum	768376	Glaucidium tucumanum
+otu6	Glaucidium brasilianum	fepowl	gi|22795698|emb|AJ003976.1|_Glaucidium_brasilianum	933120	Glaucidium brasilianum
+otu10	no_match	no_match	gi|24743860|emb|AJ003999.1|_Glaucidium_nanum	332037	Glaucidium nanum
+otu12	no_match	no_match	gi|22795722|emb|AJ003993.1|_Glaucidium_californicum	332071	Glaucidium californicum
+otu11	Glaucidium gnoma	nopowl	gi|24743835|emb|AJ003994.1|_Glaucidium_gnoma	178693	Glaucidium gnoma
+otu13	Glaucidium passerinum	eupowl1	gi|22796185|emb|AJ004000.1|_Glaucidium_passerinum	1072145	Glaucidium passerinum
+otu14	Glaucidium tephronotum	recowl1	gi|22796195|emb|AJ004006.1|_Glaucidium_tephronotum	546089	Glaucidium tephronotum
+otu15	Surnia ulula	nohowl	gi|22797318|emb|AJ004067.1|_Surnia_ulula	440408	Surnia ulula
+otu18	Aegolius funereus	borowl	gi|9971044|emb|AJ004349.1|_Aegolius_funereus	735586	Aegolius funereus
+otu16	Aegolius acadicus acadicus	nswowl1	gi|9967710|emb|Y15686.1|_Aegolius_acadicus_acadicus	951078	Aegolius acadicus acadicus
+otu17	Aegolius harrisii	bufowl1	gi|22795456|emb|AJ003940.1|_Aegolius_harrisii	546098	Aegolius harrisii
+otu47	Pulsatrix perspicillata	speowl1	gi|22797272|emb|AJ004043.1|_Pulsatrix_perspicillata	116528	Pulsatrix perspicillata
+otu51	Strix uralensis	uraowl1	gi|22797308|emb|AJ004062.1|_Strix_uralensis	427903	Strix uralensis
+otu50	Strix aluco	tawowl1	gi|24744882|emb|AJ004045.1|_Strix_aluco	116522	Strix aluco
+otu52	Strix nebulosa	grgowl	gi|22797300|emb|AJ004058.1|_Strix_nebulosa	395196	Strix nebulosa
+otu49	Strix woodfordii	afwowl1	gi|22797312|emb|AJ004064.1|_Strix_woodfordii	752976	Strix woodfordii
+otu48	Strix rufipes	rulowl1	gi|22797304|emb|AJ004060.1|_Strix_rufipes	1021960	Strix rufipes
+otu62	Bubo lacteus	veeowl1	gi|22795686|emb|AJ003970.1|_Bubo_lacteus	971551	Bubo lacteus
+otu61	Bubo nipalensis	sbeowl1	gi|22795690|emb|AJ003972.1|_Bubo_nipalensis	546095	Bubo nipalensis
+otu55	Bubo ascalaphus	pheowl1	gi|24743591|emb|AJ003953.1|_Bubo_ascalaphus	971547	Bubo ascalaphus
+otu56	no_match	no_match	gi|24743596|emb|AJ003955.1|_Bubo_bubo_interpositus	526156	Bubo bubo interpositus
+otu57	Bubo bubo	eueowl1	gi|24743600|emb|AJ003956.1|_Bubo_bubo	402453	Bubo bubo
+otu54	Bubo bengalensis	roeowl1	gi|22795684|emb|AJ003954.1|_Bubo_bengalensis	971545	Bubo bengalensis
+otu53	Bubo africanus	speowl2	gi|22795678|emb|AJ003950.1|_Bubo_africanus	971543	Bubo africanus
+otu60	Bubo scandiacus	snoowl1	gi|22796992|emb|AJ004009.1|_Nyctea_scandiaca	514178	Bubo scandiacus
+otu58	Bubo virginianus magellanicus	grhowl2	gi|22795688|emb|AJ003971.1|_Bubo_magellanicus	381747	Bubo magellanicus
+otu59	no_match	no_match	gi|22795692|emb|AJ003973.1|_Bubo_virginianus_lagophonus	91515	Bubo virginianus lagophonus
+otu36	Psiloscops flammeolus	flaowl	gi|22797016|emb|AJ004022.1|_Otus_flammeolus	178676	Otus flammeolus
+otu46	Megascops choliba	trsowl	gi|22797014|emb|AJ004021.1|_Otus_choliba	4802	Megascops choliba
+otu45	Megascops albogularis	whtsco1	gi|22796998|emb|AJ004012.1|_Otus_albogularis	424112	Megascops albogularis
+otu44	Megascops petersoni	cinsco1	gi|22797040|emb|AJ004034.1|_Otus_petersoni	921082	Otus petersoni
+otu38	Megascops guatemalae	vesowl	gi|22797018|emb|AJ004023.1|_Otus_guatemalae	921071	Megascops guatemalae
+otu40	Megascops atricapilla	bkcsco1	gi|24744635|emb|AJ004013.1|_Otus_atricapillus	4792	Megascops atricapilla
+otu41	no_match	no_match	gi|22797050|emb|AJ004039.1|_Otus_usta	921084	Otus usta
+otu42	no_match	no_match	gi|22797000|emb|AJ004014.1|_Otus_asio_hasbroukii	652701	Megascops asio hasbroucki
+otu39	Megascops sanctaecatarinae	lotsco1	gi|22797044|emb|AJ004036.1|_Otus_sanctaecatarinae	1021962	Otus sanctaecatarinae
+otu43	Megascops roboratus	persco1	gi|22797042|emb|AJ004035.1|_Otus_roboratus	1021964	Otus roboratus
+otu37	Megascops hoyi	mofsco1	gi|22797020|emb|AJ004024.1|_Otus_hoyi62	4806	Megascops hoyi
+otu35	Ptilopsis leucotis	nwfowl1	gi|22797028|emb|AJ004028.1|_Otus_leucotis	1052340	Ptilopsis leucotis
+otu34	Asio otus	loeowl	gi|22795666|emb|AJ003941.1|_Asio_otus	1060752	Asio otus
+otu33	Otus megalotis	phsowl1	gi|22797036|emb|AJ004032.1|_Otus_megalotis	1086556	Otus megalotis
+otu32	Otus lempiji	susowl2	gi|22797024|emb|AJ004026.1|_Otus_lempiji	1021966	Otus lempiji
+otu31	Otus bakkamoena	insowl1	gi|22797008|emb|AJ004018.1|_Otus_bakkamoena	546103	Otus bakkamoena
+otu30	Otus scops	eursco1	gi|22797046|emb|AJ004037.1|_Otus_scops	921080	Otus scops
+otu29	Otus longicornis	lusowl1	gi|22797034|emb|AJ004031.1|_Otus_longicornis	1086559	Otus longicornis
+otu28	Ninox japonica	norboo1	gi|511622160|gb|JX506430.1|_Ninox_japonica	3595710	Ninox japonica
+otu26	Ninox scutulata	brnhao1	gi|22796990|emb|AJ004008.1|_1_Ninox_scutulata	546091	Ninox scutulata
+otu27	Ninox scutulata	brnhao1	gi|22796990|emb|AJ004008.1|_2_Ninox_scutulata	546091	Ninox scutulata
+otu19	Ninox rufa	rufowl2	gi|170787113|gb|EU348983.1|_Ninox_rufa	970646	Ninox rufa
+otu20	Ninox strenua	powowl1	gi|170787115|gb|EU348984.1|_Ninox_strenua	525625	Ninox strenua
+otu21	Ninox rudolfi	sumboo1	gi|170787111|gb|EU348982.1|_Ninox_rudolfi	475892	Ninox rudolfi
+otu22	no_match	no_match	gi|170787109|gb|EU348981.1|_Ninox_connivens_connivens	669205	Ninox connivens connivens
+otu23	Ninox novaeseelandiae	morepo2	gi|22796988|emb|AJ004007.1|_1_Ninox_novaeseelandiae	285637	Ninox novaeseelandiae
+otu24	Ninox novaeseelandiae	morepo2	gi|22796988|emb|AJ004007.1|_2_Ninox_novaeseelandiae	285637	Ninox novaeseelandiae
+otu25	no_match	no_match	LaughingOwl_ACAD16279_75pc_4r_Sceloglaux	3595767	Sceloglaux
+otu63	Phodilus badius	orbowl1	gi|22797054|emb|AJ004041.1|_Phodilus_badius	842854	Phodilus badius
+otu64	no_match	no_match	gi|22797681|emb|AJ004073.1|_Tyto_alba_pratincola	768378	Tyto alba pratincola

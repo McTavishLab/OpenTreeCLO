@@ -1,0 +1,29 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu18	Acanthisitta chloris	riflem1	ACACH	1085740	Acanthisitta chloris
+otu19	Taeniopygia guttata	zebfin2	TAEGU	708327	Taeniopygia guttata
+otu20	Nestor notabilis	kea1	NESNO	749203	Nestor notabilis
+otu21	Melopsittacus undulatus	budger	MELUN	734818	Melopsittacus undulatus
+otu22	Fulmarus glacialis	norful	FULGL	1028832	Fulmarus glacialis
+otu23	Pygoscelis adeliae	adepen1	PYGAD	494357	Pygoscelis adeliae
+otu24	Pelecanus crispus	dalpel1	PELCR	427900	Pelecanus crispus
+otu28	Alectura lathami	ausbrt1	ALELA	570956	Alectura lathami
+otu27	Gallus gallus	redjun	GALGA	153563	Gallus gallus
+otu25	Anas platyrhynchos	mallar3	ANAPL	765167	Anas platyrhynchos
+otu26	Anseranas semipalmata	maggoo1	ANSSE	714464	Anseranas semipalmata
+otu10	no_match	no_match	ANODI	816665	Anomalopteryx didiformis
+otu9	no_match	no_match	EMECR	576651	Emeus crassus
+otu11	no_match	no_match	DINGI	576657	Dinornis giganteus
+otu14	Eudromia elegans	elctin1	EUDEL	292461	Eudromia elegans
+otu13	no_match	no_match	TINAM	402450	Tinamus
+otu12	Crypturellus tataupa	tattin1	CRYTA	758347	Crypturellus tataupa
+otu8	Dromaius novaehollandiae	emu1	DRONO	829513	Dromaius novaehollandiae
+otu7	Casuarius casuarius	soucas1	CASCA	589152	Casuarius casuarius
+otu4	no_match	no_match	AEPMA	463546	Aepyornis
+otu5	no_match	no_match	AEPHI	3600825	Aepyornis hildebrandti
+otu6	no_match	no_match	MULAG	84218	Mullerornis agilis
+otu3	Apteryx mantelli	nibkiw1	APTMA	748998	Apteryx australis mantelli
+otu1	Apteryx owenii	liskiw1	APTOW	241844	Apteryx owenii
+otu2	Apteryx haastii	grskiw1	APTHA	241836	Apteryx haastii
+otu15	Rhea pennata	lesrhe2	PTEPE	857860	Pterocnemia pennata
+otu16	Rhea americana	grerhe1	RHEAM	857864	Rhea americana
+otu17	Struthio camelus	ostric2	STRCA	647692	Struthio camelus

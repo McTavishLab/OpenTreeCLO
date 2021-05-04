@@ -1,0 +1,71 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=59;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        Accipiter_toussenellii
+        otu34
+        otu35
+        Accipiter_haplochorous
+        otu33
+        otu30
+        otu31
+        otu97
+        A_fasciatus
+        otu74
+        M_migrans
+        otu93
+        otu72
+        otu8
+        otu73
+        otu6
+        Accipiter_superciliosus
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu71
+        otu67
+        otu66
+        otu47
+        Circus_assimilis_DA96
+        otu75
+        otu29
+        Circus_spilonotus_spilothorax
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        Circus_pygargus
+        Circus_assimilis_DA97
+        otu86
+        otu85
+        otu76
+        otu113
+        otu82
+        otu9
+        otu14
+        otu15
+        Circus_cyaneus_cyaneus
+        Circus_cinereus
+        otu10
+        otu11
+        otu12
+        otu13
+        otu52
+        otu18
+        Circus_maurus
+  ;
+END;
+
+BEGIN TREES;
+    TREE Figure_1_MrBayes = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=]((otu2:0.188326[&otu=otu2,^ot:ottId=509837,^ot:ottTaxonName=Pandion haliaetus,^ot:originalLabel=Pandion_haliaetus,^clo:ClementsTaxonName2019=Pandion haliaetus,^clo:speciescode2019=osprey],(otu4:0.063584[&otu=otu4,^ot:ottId=1018783,^ot:ottTaxonName=Accipiter trivirgatus,^ot:originalLabel=Accipiter_trivirgatus,^clo:ClementsTaxonName2019=Accipiter trivirgatus,^clo:speciescode2019=cregos1],(otu3:0.081488[&otu=otu3,^ot:ottId=283160,^ot:ottTaxonName=Hieraaetus fasciatus,^ot:originalLabel=Aquila_fasciatus,^clo:ClementsTaxonName2019=Aquila fasciata,^clo:speciescode2019=boneag2],((otu93:0.083739[&otu=otu93,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Accipiter_supercilliosus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu47:0.091525[&otu=otu47,^ot:ottId=919193,^ot:ottTaxonName=Micronisus gabar,^ot:originalLabel=Melierax_gabar,^clo:ClementsTaxonName2019=Micronisus gabar,^clo:speciescode2019=gabgos2])node90:0.014782,(((otu39:0.03631[&otu=otu39,^ot:ottId=61111,^ot:ottTaxonName=Accipiter castanilius,^ot:originalLabel=Accipiter_castanilius,^clo:ClementsTaxonName2019=Accipiter castanilius,^clo:speciescode2019=chfspa1],(otu38:0.02847[&otu=otu38,^ot:ottId=818183,^ot:ottTaxonName=Accipiter tachiro,^ot:originalLabel=Accipiter_tachiro,^clo:ClementsTaxonName2019=Accipiter tachiro,^clo:speciescode2019=afrgos1],otu97:0.015838[&otu=otu97,^ot:ottId=818185,^ot:ottTaxonName=Accipiter toussenelii,^ot:originalLabel=Accipiter_toussenelli,^clo:ClementsTaxonName2019=Accipiter toussenelii,^clo:speciescode2019=recgos1])node97:0.014598)node95:0.047547,(((otu52:0.010991[&otu=otu52,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Accipiter_haplochorus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu31:0.011647[&otu=otu31,^ot:ottId=3596210,^ot:ottTaxonName=Accipiter poliocephalus,^ot:originalLabel=Accipiter_poliocephalus,^clo:ClementsTaxonName2019=Accipiter poliocephalus,^clo:speciescode2019=gyhgos1])node103:0.039586,otu33:0.054032[&otu=otu33,^ot:ottId=193714,^ot:ottTaxonName=Accipiter badius,^ot:originalLabel=Accipiter_badius,^clo:ClementsTaxonName2019=Accipiter badius,^clo:speciescode2019=shikra1])node101:0.015749,((otu36:0.032479[&otu=otu36,^ot:ottId=767919,^ot:ottTaxonName=Accipiter erythropus,^ot:originalLabel=Accipiter_erythropus,^clo:ClementsTaxonName2019=Accipiter erythropus,^clo:speciescode2019=retspa1],otu35:0.016229[&otu=otu35,^ot:ottId=1082979,^ot:ottTaxonName=Accipiter minullus,^ot:originalLabel=Accipiter_minullus,^clo:ClementsTaxonName2019=Accipiter minullus,^clo:speciescode2019=litspa1])node108:0.055593,otu34:0.057154[&otu=otu34,^ot:ottId=243413,^ot:ottTaxonName=Accipiter virgatus,^ot:originalLabel=Accipiter_virgatus,^clo:ClementsTaxonName2019=Accipiter virgatus,^clo:speciescode2019=besra1])node106:0.012241)node100:0.010225)node94:0.034708,(((otu10:0.00102[&otu=otu10,^ot:ottId=1015194,^ot:ottTaxonName=Accipiter striatus,^ot:originalLabel=Accipiter_striatus,^clo:ClementsTaxonName2019=Accipiter striatus,^clo:speciescode2019=shshaw],otu11:0.002163[&otu=otu11,^ot:ottId=3596221,^ot:ottTaxonName=Accipiter chionogaster,^ot:originalLabel=Accipiter_chionogaster,^clo:ClementsTaxonName2019=Accipiter striatus chionogaster,^clo:speciescode2019=shshaw3])node113:0.015295,(otu9:0.000572[&otu=otu9,^ot:ottId=153276,^ot:ottTaxonName=Accipiter rufiventris,^ot:originalLabel=Accipiter_rufiventris,^clo:ClementsTaxonName2019=Accipiter rufiventris,^clo:speciescode2019=rucspa2],otu8:0.001284[&otu=otu8,^ot:ottId=238460,^ot:ottTaxonName=Accipiter nisus,^ot:originalLabel=Accipiter_nisus,^clo:ClementsTaxonName2019=Accipiter nisus,^clo:speciescode2019=eurspa1])node116:0.015602)node112:0.094823,((otu12:0.059[&otu=otu12,^ot:ottId=901450,^ot:ottTaxonName=Accipiter bicolor,^ot:originalLabel=Accipiter_bicolor,^clo:ClementsTaxonName2019=Accipiter bicolor,^clo:speciescode2019=bichaw1],(otu14:0.011185[&otu=otu14,^ot:ottId=786433,^ot:ottTaxonName=Accipiter gentilis,^ot:originalLabel=Accipiter_gentilis,^clo:ClementsTaxonName2019=Accipiter gentilis,^clo:speciescode2019=norgos],otu13:0.009265[&otu=otu13,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Accipiter_melanoleucos,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node122:0.024243)node120:0.048466,(((((otu66:0.001177[&otu=otu66,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_cyaneus_cyaneus_DB38,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu67:0.001188[&otu=otu67,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_cyaneus_cyaneus_NRM966543,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node133:0.007862,(otu113:0.00997[&otu=otu113,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_cinereous,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu18:0.003833[&otu=otu18,^ot:ottId=766812,^ot:ottTaxonName=Circus cyaneus hudsonius,^ot:originalLabel=Circus_cyaneus_hudsonius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node130:0.003231)node129:0.024953,(((otu71:0.001087[&otu=otu71,^ot:ottId=3596194,^ot:ottTaxonName=Circus maurus,^ot:originalLabel=Circus_maurus_DB03,^clo:ClementsTaxonName2019=Circus maurus,^clo:speciescode2019=blahar1],otu72:0.000589[&otu=otu72,^ot:ottId=3596194,^ot:ottTaxonName=Circus maurus,^ot:originalLabel=Circus_maurus_DB36,^clo:ClementsTaxonName2019=Circus maurus,^clo:speciescode2019=blahar1])node140:0.007074,otu20:0.017576[&otu=otu20,^ot:ottId=766813,^ot:ottTaxonName=Circus macrourus,^ot:originalLabel=Circus_macrourus,^clo:ClementsTaxonName2019=Circus macrourus,^clo:speciescode2019=palhar1])node138:0.028815,otu15:0.037349[&otu=otu15,^ot:ottId=766823,^ot:ottTaxonName=Circus assimilis,^ot:originalLabel=Circus_assimilis,^clo:ClementsTaxonName2019=Circus assimilis,^clo:speciescode2019=spohar1])node136:0.005719)node128:0.013802,(((otu76:0.000516[&otu=otu76,^ot:ottId=766811,^ot:ottTaxonName=Circus pygargus,^ot:originalLabel=Circus_pygargus_NRM2002623,^clo:ClementsTaxonName2019=Circus pygargus,^clo:speciescode2019=monhar1],otu75:0.00121[&otu=otu75,^ot:ottId=766811,^ot:ottTaxonName=Circus pygargus,^ot:originalLabel=Circus_pygargus_MSEC201306,^clo:ClementsTaxonName2019=Circus pygargus,^clo:speciescode2019=monhar1])node147:0.00178,otu74:0.001791[&otu=otu74,^ot:ottId=766811,^ot:ottTaxonName=Circus pygargus,^ot:originalLabel=Circus_pygargus_DB86,^clo:ClementsTaxonName2019=Circus pygargus,^clo:speciescode2019=monhar1],otu73:0.000932[&otu=otu73,^ot:ottId=766811,^ot:ottTaxonName=Circus pygargus,^ot:originalLabel=Circus_pygargus_DB26,^clo:ClementsTaxonName2019=Circus pygargus,^clo:speciescode2019=monhar1])node144:0.02724,((((otu27:0.000516[&otu=otu27,^ot:ottId=766820,^ot:ottTaxonName=Circus approximans,^ot:originalLabel=Circus_approximans,^clo:ClementsTaxonName2019=Circus approximans,^clo:speciescode2019=swahar1],otu86:0.001281[&otu=otu86,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_spilonotus_spilothorax_DC78,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu85:0.001256[&otu=otu85,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_spilonotus_spilothorax_DC77,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node162:0.001259,otu26:0.00202[&otu=otu26,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_maillardi_maillardi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu82:0.001266[&otu=otu82,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_spilonotus_spilonotus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu29:0.000522[&otu=otu29,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_maillardi_macrosceles,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node158:0.006414,(otu23:0.003635[&otu=otu23,^ot:ottId=3596191,^ot:ottTaxonName=Circus ranivorus,^ot:originalLabel=Circus_ranivorus,^clo:ClementsTaxonName2019=Circus ranivorus,^clo:speciescode2019=afmhar1],(otu24:0.001217[&otu=otu24,^ot:ottId=5560963,^ot:ottTaxonName=Circus aeruginosus aeruginosus,^ot:originalLabel=Circus_aeruginosus_aeruginosus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25:0.000503[&otu=otu25,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Circus_aeruginosus_harterti,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node155:0.004166)node153:0.00345)node152:0.006375,otu30:0.016601[&otu=otu30,^ot:ottId=3596192,^ot:ottTaxonName=Circus melanoleucos,^ot:originalLabel=Circus_melanoleucos,^clo:ClementsTaxonName2019=Circus melanoleucos,^clo:speciescode2019=piehar1])node150:0.015895)node143:0.006686)node127:0.006605,otu21:0.033374[&otu=otu21,^ot:ottId=766824,^ot:ottTaxonName=Circus buffoni,^ot:originalLabel=Circus_buffoni,^clo:ClementsTaxonName2019=Circus buffoni,^clo:speciescode2019=lowhar1])node125:0.037423)node119:0.010116)node111:0.018695)node93:0.012415,(otu5:0.067355[&otu=otu5,^ot:ottId=548448,^ot:ottTaxonName=Milvus migrans,^ot:originalLabel=Milvus_migrans,^clo:ClementsTaxonName2019=Milvus migrans,^clo:speciescode2019=blakit1],otu6:0.065644[&otu=otu6,^ot:ottId=509839,^ot:ottTaxonName=Buteo jamaicensis,^ot:originalLabel=Buteo_jamaicensis,^clo:ClementsTaxonName2019=Buteo jamaicensis,^clo:speciescode2019=rethaw])node87:0.017373)node86:0.017105)node84:0.015616)node82:0.047074)node80:0.08012,otu1:0.08012[&otu=otu1,^ot:ottId=1036186,^ot:ottTaxonName=Sagittarius serpentarius,^ot:originalLabel=Sagittarius_serpentarius,^clo:ClementsTaxonName2019=Sagittarius serpentarius,^clo:speciescode2019=secret2])node78;
+END;
+

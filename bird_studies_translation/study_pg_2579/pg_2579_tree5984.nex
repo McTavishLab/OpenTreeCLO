@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu379812
+        otu379808
+        otu379809
+        otu379806
+        otu379807
+        otu379804
+        otu379805
+        Otolemur_garnettii
+        Mus_musculus
+        Macaca_mulatta
+        Callithrix_jacchus
+        otu379810
+        Pan_troglodytes
+        Gorilla_gorilla
+        Pongo_abelii
+        Homo_sapiens
+        otu379813
+        Nomascus_leucogenys
+        Papio_hamadryas
+        otu379811
+  ;
+END;
+
+BEGIN TREES;
+    TREE tree5984 = [&curatedType=50% maj-rule BI,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](otu379813:0.0523295[&otu=otu379813,^ot:ottId=705356,^ot:ottTaxonName=Anolis carolinensis,^ot:originalLabel=Anolis_carolinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((otu379812:0.008537[&otu=otu379812,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2],(otu379811:0.006108[&otu=otu379811,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novahollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],otu379810:0.015589[&otu=otu379810,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1])node1016166:0.001447)node1016165:0.003334,((otu379808:0.007618[&otu=otu379808,^ot:ottId=691333,^ot:ottTaxonName=Anser erythropus,^ot:originalLabel=Anser_erythropus,^clo:ClementsTaxonName2019=Anser erythropus,^clo:speciescode2019=lwfgoo],otu379809:0.012711[&otu=otu379809,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1016162:0.002677,(otu379807:0.007659[&otu=otu379807,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalocrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor],((otu379805:0.021407[&otu=otu379805,^ot:ottId=1019972,^ot:ottTaxonName=Megalaima virens,^ot:originalLabel=Megalaima_virens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu379806:0.014289[&otu=otu379806,^ot:ottId=1094061,^ot:ottTaxonName=Urocolius indicus,^ot:originalLabel=Urocolius_indicus,^clo:ClementsTaxonName2019=Urocolius indicus,^clo:speciescode2019=refmou1])node1016158:0.000682,otu379804:0.018805[&otu=otu379804,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pitta_guajana,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1016156:0.000621)node1016155:0.002343)node1016154:0.002551)node1016153:0.0523295)node1016152;
+END;
+

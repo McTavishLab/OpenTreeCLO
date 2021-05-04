@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+  ;
+END;
+
+BEGIN TREES;
+    TREE Parsimony_bootstrap = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=]((((otu1[&otu=otu1,^ot:ottId=742640,^ot:ottTaxonName=Stercorarius parasiticus,^ot:originalLabel=Stercorarius_parasiticus,^clo:ClementsTaxonName2019=Stercorarius parasiticus,^clo:speciescode2019=parjae],otu2[&otu=otu2,^ot:ottId=742641,^ot:ottTaxonName=Stercorarius longicaudus,^ot:originalLabel=Stercorarius_longicaudus,^clo:ClementsTaxonName2019=Stercorarius longicaudus,^clo:speciescode2019=lotjae])node4,((otu9[&otu=otu9,^ot:ottId=742637,^ot:ottTaxonName=Stercorarius antarcticus hamiltoni,^ot:originalLabel=Catharacta_skua_hamiltoni,^clo:ClementsTaxonName2019=Stercorarius antarcticus hamiltoni,^clo:speciescode2019=brnsku2],(((otu5[&otu=otu5,^ot:ottId=742636,^ot:ottTaxonName=Stercorarius lonnbergi,^ot:originalLabel=Catharacta_skua_lonngbergi,^clo:ClementsTaxonName2019=Stercorarius antarcticus lonnbergi,^clo:speciescode2019=brnsku1],otu6[&otu=otu6,^ot:ottId=5560028,^ot:ottTaxonName=Stercorarius antarcticus,^ot:originalLabel=Catharacta_skua_antarctica,^clo:ClementsTaxonName2019=Stercorarius antarcticus,^clo:speciescode2019=brnsku3])node14,otu7[&otu=otu7,^ot:ottId=3597019,^ot:ottTaxonName=Stercorarius chilensis,^ot:originalLabel=Catharacta_chilensis,^clo:ClementsTaxonName2019=Stercorarius chilensis,^clo:speciescode2019=chisku1])node13,otu8[&otu=otu8,^ot:ottId=494176,^ot:ottTaxonName=Stercorarius maccormicki,^ot:originalLabel=Catharacta_maccormicki,^clo:ClementsTaxonName2019=Stercorarius maccormicki,^clo:speciescode2019=sopsku1])node12)node11,(otu3[&otu=otu3,^ot:ottId=219032,^ot:ottTaxonName=Stercorarius pomarinus,^ot:originalLabel=Stercorarius_pomarinus,^clo:ClementsTaxonName2019=Stercorarius pomarinus,^clo:speciescode2019=pomjae],otu4[&otu=otu4,^ot:ottId=742633,^ot:ottTaxonName=Stercorarius skua,^ot:originalLabel=Catharacta_skua_skua,^clo:ClementsTaxonName2019=Stercorarius skua,^clo:speciescode2019=gresku1])node8)node7)node3,otu10[&otu=otu10,^ot:ottId=855472,^ot:ottTaxonName=Larus canus,^ot:originalLabel=Larus_canus,^clo:ClementsTaxonName2019=Larus canus,^clo:speciescode2019=mewgul])node2,otu11[&otu=otu11,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1;
+END;
+

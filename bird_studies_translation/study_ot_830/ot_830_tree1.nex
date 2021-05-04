@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu30
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],((otu25[&otu=otu25,^ot:ottId=1039522,^ot:ottTaxonName=Chloroceryle americana,^ot:originalLabel=Chloroceryle_americana,^clo:ClementsTaxonName2019=Chloroceryle americana,^clo:speciescode2019=grnkin],otu24[&otu=otu24,^ot:ottId=986901,^ot:ottTaxonName=Chloroceryle aenea,^ot:originalLabel=Chloroceryle_aenea,^clo:ClementsTaxonName2019=Chloroceryle aenea,^clo:speciescode2019=ampkin1])node46,(otu2[&otu=otu2,^ot:ottId=733984,^ot:ottTaxonName=Dryocopus pileatus,^ot:originalLabel=Dryocopus_pileatus,^clo:ClementsTaxonName2019=Dryocopus pileatus,^clo:speciescode2019=pilwoo],(otu3[&otu=otu3,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1],((((((otu14[&otu=otu14,^ot:ottId=246960,^ot:ottTaxonName=Pteroglossus sanguineus,^ot:originalLabel=Pteroglossus_sanguineus,^clo:ClementsTaxonName2019=Pteroglossus torquatus sanguineus,^clo:speciescode2019=colara4],otu13[&otu=otu13,^ot:ottId=769988,^ot:ottTaxonName=Pteroglossus erythropygius,^ot:originalLabel=Pteroglossus_erythropygius,^clo:ClementsTaxonName2019=Pteroglossus torquatus erythropygius,^clo:speciescode2019=colara5])node28,otu12[&otu=otu12,^ot:ottId=355169,^ot:ottTaxonName=Pteroglossus frantzii,^ot:originalLabel=Pteroglossus_frantzii,^clo:ClementsTaxonName2019=Pteroglossus frantzii,^clo:speciescode2019=fibara1])node26,otu11[&otu=otu11,^ot:ottId=450968,^ot:ottTaxonName=Pteroglossus torquatus,^ot:originalLabel=Pteroglossus_torquatus,^clo:ClementsTaxonName2019=Pteroglossus torquatus,^clo:speciescode2019=colara1])node24,((otu8[&otu=otu8,^ot:ottId=61523,^ot:ottTaxonName=Pteroglossus aracari,^ot:originalLabel=Pteroglossus_aracari,^clo:ClementsTaxonName2019=Pteroglossus aracari,^clo:speciescode2019=blnara1],(otu10[&otu=otu10,^ot:ottId=769998,^ot:ottTaxonName=Pteroglossus pluricinctus,^ot:originalLabel=Pteroglossus_pluricinctus,^clo:ClementsTaxonName2019=Pteroglossus pluricinctus,^clo:speciescode2019=mabara1],otu9[&otu=otu9,^ot:ottId=291643,^ot:ottTaxonName=Pteroglossus castanotis,^ot:originalLabel=Pteroglossus_castanotis,^clo:ClementsTaxonName2019=Pteroglossus castanotis,^clo:speciescode2019=cheara1])node21)node19,((otu4[&otu=otu4,^ot:ottId=640525,^ot:ottTaxonName=Pteroglossus beauharnaesii,^ot:originalLabel=Pteroglossus_beauharnaesii,^clo:ClementsTaxonName2019=Pteroglossus beauharnaesii,^clo:speciescode2019=cucara1],otu5[&otu=otu5,^ot:ottId=450966,^ot:ottTaxonName=Pteroglossus bitorquatus,^ot:originalLabel=Pteroglossus_bitorquatus,^clo:ClementsTaxonName2019=Pteroglossus bitorquatus,^clo:speciescode2019=renara1])node13,(otu6[&otu=otu6,^ot:ottId=355345,^ot:ottTaxonName=Pteroglossus azara,^ot:originalLabel=Pteroglossus_azara,^clo:ClementsTaxonName2019=Pteroglossus azara,^clo:speciescode2019=ivbara1],otu7[&otu=otu7,^ot:ottId=770000,^ot:ottTaxonName=Pteroglossus mariae,^ot:originalLabel=Pteroglossus_mariae,^clo:ClementsTaxonName2019=Pteroglossus azara mariae,^clo:speciescode2019=ivbara3])node16)node12)node11)node10,(otu15[&otu=otu15,^ot:ottId=815700,^ot:ottTaxonName=Baillonius bailloni,^ot:originalLabel=Baillonius_bailloni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu17[&otu=otu17,^ot:ottId=541992,^ot:ottTaxonName=Pteroglossus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus,^clo:speciescode2019=letara1],otu16[&otu=otu16,^ot:ottId=246963,^ot:ottTaxonName=Pteroglossus viridis,^ot:originalLabel=Pteroglossus_viridis,^clo:ClementsTaxonName2019=Pteroglossus viridis,^clo:speciescode2019=greara1])node33)node31)node9,(otu18[&otu=otu18,^ot:ottId=3600272,^ot:ottTaxonName=Selenidera piperivora,^ot:originalLabel=Selenidera_culik,^clo:ClementsTaxonName2019=Selenidera piperivora,^clo:speciescode2019=guitou1],(otu19[&otu=otu19,^ot:ottId=848382,^ot:ottTaxonName=Andigena laminirostris,^ot:originalLabel=Andigena_laminirostris,^clo:ClementsTaxonName2019=Andigena laminirostris,^clo:speciescode2019=pbmtou1],otu20[&otu=otu20,^ot:ottId=485268,^ot:ottTaxonName=Andigena cucullata,^ot:originalLabel=Andigena_cucullata,^clo:ClementsTaxonName2019=Andigena cucullata,^clo:speciescode2019=homtou1])node38)node36)node8)node6)node4,(otu21[&otu=otu21,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=Acanthisitta_chloris,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1],(otu23[&otu=otu23,^ot:ottId=531206,^ot:ottTaxonName=Menura novaehollandiae,^ot:originalLabel=Menura_novaehollandiae,^clo:ClementsTaxonName2019=Menura novaehollandiae,^clo:speciescode2019=suplyr1],otu22[&otu=otu22,^ot:ottId=219955,^ot:ottTaxonName=Corvus frugilegus,^ot:originalLabel=Corvus_frugilegus,^clo:ClementsTaxonName2019=Corvus frugilegus,^clo:speciescode2019=rook1])node43)node41)node3,(otu26[&otu=otu26,^ot:ottId=767829,^ot:ottTaxonName=Anhima cornuta,^ot:originalLabel=Anhima_cornuta,^clo:ClementsTaxonName2019=Anhima cornuta,^clo:speciescode2019=horscr1],(((otu30[&otu=otu30,^ot:ottId=654723,^ot:ottTaxonName=Crax daubentoni,^ot:originalLabel=Crax_daubentoni,^clo:ClementsTaxonName2019=Crax daubentoni,^clo:speciescode2019=yekcur1],otu29[&otu=otu29,^ot:ottId=488156,^ot:ottTaxonName=Crax blumenbachii,^ot:originalLabel=Crax_blumenbachii,^clo:ClementsTaxonName2019=Crax blumenbachii,^clo:speciescode2019=rebcur1])node55,otu28[&otu=otu28,^ot:ottId=132829,^ot:ottTaxonName=Crax rubra,^ot:originalLabel=Crax_rubra,^clo:ClementsTaxonName2019=Crax rubra,^clo:speciescode2019=grecur1])node53,otu27[&otu=otu27,^ot:ottId=1014136,^ot:ottTaxonName=Penelope obscura,^ot:originalLabel=Penelope_obscura,^clo:ClementsTaxonName2019=Penelope obscura,^clo:speciescode2019=dulgua1])node51)node49)node1;
+END;
+

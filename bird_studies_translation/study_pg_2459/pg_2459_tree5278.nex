@@ -1,0 +1,188 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=176;
+    TAXLABELS
+        'Anas strepera PWRC-9185'
+        'Anas penelope UWBM-44651'
+        'Anas falcata IBSS-B-20'
+        'Anas americana USWS-4634579'
+        otu353525
+        otu353524
+        otu353527
+        otu353526
+        'Anas sibilatrix UAM-20502'
+        otu353528
+        Anas_falcata
+        Anas_discors
+        Anas_crecca
+        Anas_strepera
+        Anas_americana
+        Anas_clypeata
+        Anas_acuta
+        Anas_penelope
+        otu353648
+        'Anas strepera PWRC-9185a-b'
+        Anas_sibilatrix
+        otu353489
+        otu353620
+        otu353621
+        otu353630
+        otu353532
+        otu353533
+        'Anas penelope UWBM-59450'
+        otu353531
+        otu353536
+        'Anas falcata IBSS-B-12'
+        'Anas penelope PWRC-26184'
+        'Anas strepera USWS-3634760'
+        otu353538
+        otu353539
+        otu353635
+        otu353634
+        otu353637
+        otu353636
+        otu353631
+        otu353628
+        otu353633
+        otu353632
+        otu353629
+        otu353639
+        otu353638
+        otu353507
+        Anas_sibilatrix_AY112943
+        'Anas penelope PWRC-251082'
+        otu353504
+        'Anas strepera WWT-91101'
+        otu353502
+        Anas_strepera_AY112944
+        'Anas americana UAM-20028'
+        otu353509
+        Anas_platyrhyncos
+        otu353626
+        otu353627
+        otu353624
+        otu353625
+        otu353622
+        otu353623
+        otu353589
+        otu353588
+        otu353587
+        otu353586
+        otu353585
+        otu353584
+        otu353583
+        otu353582
+        otu353581
+        otu353580
+        otu353518
+        'Anas strepera USWS-3631981'
+        otu353510
+        otu353511
+        'Anas sibilatrix WWT-231201'
+        'Anas americana CWS-137000180'
+        'Anas strepera UWBM-56676'
+        otu353515
+        'Anas strepera PWRC-161285'
+        'Anas penelope PWRC-1181'
+        otu353619
+        otu353618
+        otu353613
+        otu353612
+        otu353611
+        otu353610
+        otu353617
+        otu353616
+        otu353615
+        otu353614
+        otu353590
+        otu353591
+        otu353592
+        otu353593
+        otu353594
+        otu353595
+        otu353596
+        otu353597
+        otu353598
+        otu353599
+        'Anas americana USWS-1122011'
+        otu353568
+        'Anas sibilatrix LACM-104838'
+        otu353564
+        otu353567
+        otu353566
+        Anas_crecca_crecca
+        'Anas sibilatrix UAM-17542'
+        'Anas penelope PWRC-4805885'
+        otu353562
+        otu353640
+        otu353608
+        otu353609
+        otu353641
+        otu353604
+        otu353605
+        otu353606
+        otu353607
+        otu353600
+        otu353601
+        otu353602
+        otu353603
+        otu353643
+        otu353644
+        otu353645
+        otu353646
+        otu353647
+        otu353578
+        otu353579
+        otu353576
+        otu353577
+        'Anas strepera PWRC-20186'
+        'Anas strepera UWBM-75904'
+        otu353572
+        'Anas penelope USWS-4820657'
+        'Anas strepera UWBM-68930'
+        otu353571
+        Aix_sponsa
+        'Anas falcata UWBM-71803'
+        otu353542
+        'Anas sibilatrix UAM-17539'
+        otu353540
+        'Anas strepera IBSS-WP-137'
+        otu353546
+        'Anas falcata IBSS-B-11'
+        'Anas strepera USWS-174635'
+        otu353549
+        otu353548
+        otu353642
+        otu353554
+        'Anas strepera USWS-4537821'
+        otu353556
+        'Anas penelope PWRC-4825990'
+        otu353550
+        'Anas americana USWS-206707'
+        otu353552
+        otu353553
+        otu353558
+        otu353559
+        'Anas strepera PWRC-20186a-b'
+        Anas_crecca_carolinensis
+        'Anas penelope PWRC-4805887'
+        'Anas penelope PWRC-908693'
+        'Anas falcata IBSS-03-202'
+        otu353496
+        otu353491
+        otu353490
+        'Anas sibilatrix UAM-17540'
+        otu353492
+        'Anas americana USWS-09220'
+        otu353499
+        'Anas strepera PWRC-28186'
+        'Anas sibilatrix UAM-17540a-b'
+        'Anas penelope UWBM-44651a-b'
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree5278)' = [&unrootedTree=True,curatedType=Fig. 3 MP network,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu353538[&otu=otu353538,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_CWS-137000172,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],(otu353634[&otu=otu353634,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4805885b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353643[&otu=otu353643,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-206707b,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353489[&otu=otu353489,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UAM-KGM-574,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353606[&otu=otu353606,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UAM-20028b,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353618[&otu=otu353618,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_CWS-137000180a,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],(otu353502[&otu=otu353502,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-1577778,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353578[&otu=otu353578,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-1122011b,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353589[&otu=otu353589,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_CWS-137000180b,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],(otu353524[&otu=otu353524,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UWBM-70822,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353528[&otu=otu353528,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_JLP-006,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig])node911359,otu353554[&otu=otu353554,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-164679,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353612[&otu=otu353612,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UAM-20028a,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353559[&otu=otu353559,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_JLP-1001,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig])node911357,(otu353580[&otu=otu353580,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-908693a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353509[&otu=otu353509,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-5982,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353579[&otu=otu353579,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4805887a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353608[&otu=otu353608,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-251082a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353492[&otu=otu353492,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-121008,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353609[&otu=otu353609,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-1181b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353540[&otu=otu353540,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-069974,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],(otu353566[&otu=otu353566,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-066997,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353586[&otu=otu353586,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-1181a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353633[&otu=otu353633,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4825990b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911447,(otu353629[&otu=otu353629,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17542b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353546[&otu=otu353546,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-20501,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353548[&otu=otu353548,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-19894,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353617[&otu=otu353617,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17540a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353585[&otu=otu353585,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17540b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353600[&otu=otu353600,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17539a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353592[&otu=otu353592,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17539b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353647[&otu=otu353647,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_LACM-104838b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353562[&otu=otu353562,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17538,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353642[&otu=otu353642,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-20502a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353587[&otu=otu353587,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_LACM-104838a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353504[&otu=otu353504,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-20503,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],(otu353572[&otu=otu353572,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-19687,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353515[&otu=otu353515,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17541,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353552[&otu=otu353552,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-18009,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353511[&otu=otu353511,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-18008,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1])node911470,otu353613[&otu=otu353613,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-17542a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353593[&otu=otu353593,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-20502b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353644[&otu=otu353644,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_WWT-231201a,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353510[&otu=otu353510,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_UAM-19725,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1],otu353622[&otu=otu353622,^ot:ottId=604188,^ot:ottTaxonName=Anas sibilatrix,^ot:originalLabel=Anas_sibilatrix_WWT-231201b,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1])node911462,otu353645[&otu=otu353645,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-59450b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353623[&otu=otu353623,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-44651a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353632[&otu=otu353632,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-908693b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353603[&otu=otu353603,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-44651b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],((otu353518[&otu=otu353518,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-WP-138,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353582[&otu=otu353582,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-20b,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353591[&otu=otu353591,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-20a,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353631[&otu=otu353631,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-11a,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353583[&otu=otu353583,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_UWBM-71803b,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353630[&otu=otu353630,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_UWBM-71803a,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc])node911383,otu353638[&otu=otu353638,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-03-202b,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],(otu353526[&otu=otu353526,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-WF-73,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353616[&otu=otu353616,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-11b,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353588[&otu=otu353588,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-03-202a,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc])node911378,otu353490[&otu=otu353490,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_WWT-11201,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],(otu353598[&otu=otu353598,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-20186b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353496[&otu=otu353496,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-101501,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353614[&otu=otu353614,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-20186a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],(otu353507[&otu=otu353507,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-1583889,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353626[&otu=otu353626,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-1746935,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353604[&otu=otu353604,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_WWT-91101b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353564[&otu=otu353564,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3625319,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353625[&otu=otu353625,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-161285a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353635[&otu=otu353635,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-161285b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353615[&otu=otu353615,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-9185a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353611[&otu=otu353611,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-9185b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353627[&otu=otu353627,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3631981a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353648[&otu=otu353648,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3631981b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353531[&otu=otu353531,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_PWRC-110186,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353536[&otu=otu353536,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-GKD-173,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353620[&otu=otu353620,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-75904b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353640[&otu=otu353640,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-56676a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353637[&otu=otu353637,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-4537821b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353581[&otu=otu353581,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-4537821a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353624[&otu=otu353624,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3634760a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353556[&otu=otu353556,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-70833,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353607[&otu=otu353607,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-68930b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353576[&otu=otu353576,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-68930a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353597[&otu=otu353597,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-56676b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353567[&otu=otu353567,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3504369,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal])node911398,otu353646[&otu=otu353646,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-75904a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353596[&otu=otu353596,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_USWS-3634760b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353571[&otu=otu353571,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-56499,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353539[&otu=otu353539,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_UWBM-60090,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353639[&otu=otu353639,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_IBSS-WP-137a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353577[&otu=otu353577,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_IBSS-WP-137b,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu353602[&otu=otu353602,^ot:ottId=30856,^ot:ottTaxonName=Anas strepera,^ot:originalLabel=Anas_strepera_WWT-91101a,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal])node911395,otu353599[&otu=otu353599,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-12a,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353605[&otu=otu353605,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-B-12b,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353558[&otu=otu353558,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_IBSS-WP-72,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc],otu353499[&otu=otu353499,^ot:ottId=82420,^ot:ottTaxonName=Anas falcata,^ot:originalLabel=Anas_falcata_UWBM-46872,^clo:ClementsTaxonName2019=Mareca falcata,^clo:speciescode2019=falduc])node911377,(otu353553[&otu=otu353553,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-131085,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353533[&otu=otu353533,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_AJG-1,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],(otu353628[&otu=otu353628,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4820657a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353610[&otu=otu353610,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4820657b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353532[&otu=otu353532,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-81082,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353542[&otu=otu353542,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-LL81,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353550[&otu=otu353550,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-PCS,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353590[&otu=otu353590,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-251082b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],(otu353601[&otu=otu353601,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_UWBM-59450a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353594[&otu=otu353594,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4825990a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353595[&otu=otu353595,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-26184b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911435,otu353621[&otu=otu353621,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-26184a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353641[&otu=otu353641,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4805885a,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911432,otu353491[&otu=otu353491,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4615448,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig],otu353584[&otu=otu353584,^ot:ottId=765180,^ot:ottTaxonName=Anas penelope,^ot:originalLabel=Anas_penelope_PWRC-4805887b,^clo:ClementsTaxonName2019=Mareca penelope,^clo:speciescode2019=eurwig])node911429)node911376,otu353568[&otu=otu353568,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_CWS-137000489,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353527[&otu=otu353527,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_UWBM-70834,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353549[&otu=otu353549,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-158880,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353636[&otu=otu353636,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-206707a,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353525[&otu=otu353525,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-092201,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig],otu353619[&otu=otu353619,^ot:ottId=656788,^ot:ottTaxonName=Anas americana,^ot:originalLabel=Anas_americana_USWS-1122011a,^clo:ClementsTaxonName2019=Mareca americana,^clo:speciescode2019=amewig])node911355)node911353;
+END;
+

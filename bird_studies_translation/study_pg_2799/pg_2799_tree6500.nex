@@ -1,0 +1,55 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+        otu414588
+        otu414598
+        otu414558
+        otu414559
+        otu414589
+        otu414556
+        otu414557
+        otu414572
+        otu414573
+        otu414570
+        otu414571
+        otu414576
+        otu414577
+        otu414574
+        otu414575
+        otu414594
+        otu414595
+        otu414578
+        otu414579
+        otu414590
+        otu414591
+        otu414592
+        otu414593
+        otu414583
+        otu414582
+        otu414596
+        otu414597
+        otu414561
+        otu414560
+        otu414563
+        otu414562
+        otu414565
+        otu414564
+        otu414567
+        otu414566
+        otu414569
+        otu414568
+        otu414581
+        otu414580
+        otu414587
+        otu414586
+        otu414585
+        otu414584
+  ;
+END;
+
+BEGIN TREES;
+    TREE ML_tree = [&unrootedTree=False,curatedType=Maximum likelihood ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu414598:0.070139[&otu=otu414598,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2],((((otu414594:0.087142[&otu=otu414594,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1],otu414595:0.092192[&otu=otu414595,^ot:ottId=402446,^ot:ottTaxonName=Nothoprocta perdicaria,^ot:originalLabel=Nothoprocta_perdicaria,^clo:ClementsTaxonName2019=Nothoprocta perdicaria,^clo:speciescode2019=chitin1])node1122096:0.007717,otu414596:0.069917[&otu=otu414596,^ot:ottId=306216,^ot:ottTaxonName=Tinamus guttatus,^ot:originalLabel=Tinamus_guttatus,^clo:ClementsTaxonName2019=Tinamus guttatus,^clo:speciescode2019=whttin1])node1122095:0.107661,otu414593:0.059069[&otu=otu414593,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1])node1122093:0.013247,otu414597:0.094641[&otu=otu414597,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1])node1122092:0.012365)node1122091:0.0924255,(((((otu414589:0.073252[&otu=otu414589,^ot:ottId=1098760,^ot:ottTaxonName=Coturnix coturnix,^ot:originalLabel=Coturnix_coturnix,^clo:ClementsTaxonName2019=Coturnix coturnix,^clo:speciescode2019=comqua1],otu414590:0.049044[&otu=otu414590,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1122086:0.033743,otu414591:0.065081[&otu=otu414591,^ot:ottId=684046,^ot:ottTaxonName=Numida meleagris,^ot:originalLabel=Numida_meleagris,^clo:ClementsTaxonName2019=Numida meleagris,^clo:speciescode2019=helgui])node1122085:0.066103,otu414592:0.106971[&otu=otu414592,^ot:ottId=654722,^ot:ottTaxonName=Crax alector,^ot:originalLabel=Crax_alector,^clo:ClementsTaxonName2019=Crax alector,^clo:speciescode2019=blacur1])node1122084:0.031855,(otu414587:0.026813[&otu=otu414587,^ot:ottId=691333,^ot:ottTaxonName=Anser erythropus,^ot:originalLabel=Anser_erythropus,^clo:ClementsTaxonName2019=Anser erythropus,^clo:speciescode2019=lwfgoo],otu414588:0.055693[&otu=otu414588,^ot:ottId=693332,^ot:ottTaxonName=Aythya americana,^ot:originalLabel=Aythya_americana,^clo:ClementsTaxonName2019=Aythya americana,^clo:speciescode2019=redhea])node1122081:0.075046)node1122080:0.052755,((((otu414578:0.088459[&otu=otu414578,^ot:ottId=487306,^ot:ottTaxonName=Tauraco erythrolophus,^ot:originalLabel=Tauraco_erythrolophus,^clo:ClementsTaxonName2019=Tauraco erythrolophus,^clo:speciescode2019=rectur1],(((otu414586:0.057769[&otu=otu414586,^ot:ottId=170196,^ot:ottTaxonName=Anhinga anhinga,^ot:originalLabel=Anhinga_anhinga,^clo:ClementsTaxonName2019=Anhinga anhinga,^clo:speciescode2019=anhing],otu414585:0.080398[&otu=otu414585,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor])node1122077:0.025138,otu414584:0.043447[&otu=otu414584,^ot:ottId=330000,^ot:ottTaxonName=Fregata magnificens,^ot:originalLabel=Fregata_magnificens,^clo:ClementsTaxonName2019=Fregata magnificens,^clo:speciescode2019=magfri])node1122075:0.004846,((otu414579:0.043595[&otu=otu414579,^ot:ottId=363031,^ot:ottTaxonName=Ciconia ciconia,^ot:originalLabel=Ciconia_ciconia,^clo:ClementsTaxonName2019=Ciconia ciconia,^clo:speciescode2019=whisto1],otu414580:0.045154[&otu=otu414580,^ot:ottId=960220,^ot:ottTaxonName=Phoenicopterus chilensis,^ot:originalLabel=Phoenicopterus_chilensis,^clo:ClementsTaxonName2019=Phoenicopterus chilensis,^clo:speciescode2019=chifla1])node1122067:0.00135,(otu414581:0.103829[&otu=otu414581,^ot:ottId=966316,^ot:ottTaxonName=Mesitornis unicolor,^ot:originalLabel=Mesitornis_unicolor,^clo:ClementsTaxonName2019=Mesitornis unicolor,^clo:speciescode2019=bromes1],(otu414583:0.152225[&otu=otu414583,^ot:ottId=502780,^ot:ottTaxonName=Rallus limicola,^ot:originalLabel=Rallus_limicola,^clo:ClementsTaxonName2019=Rallus limicola,^clo:speciescode2019=virrai],otu414582:0.078381[&otu=otu414582,^ot:ottId=915643,^ot:ottTaxonName=Psophia crepitans,^ot:originalLabel=Psophia_crepitans,^clo:ClementsTaxonName2019=Psophia crepitans,^clo:speciescode2019=gywtru1])node1122072:0.017137)node1122070:0.002286)node1122066:0.001936)node1122065:0.004107)node1122063:0.002623,(otu414577:0.040002[&otu=otu414577,^ot:ottId=329083,^ot:ottTaxonName=Treron vernans,^ot:originalLabel=Treron_vernans,^clo:ClementsTaxonName2019=Treron vernans,^clo:speciescode2019=pinpig3],otu414576:0.067008[&otu=otu414576,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=Columba_livia,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig])node1122060:0.087021)node1122059:0.001236,otu414575:0.157857[&otu=otu414575,^ot:ottId=891425,^ot:ottTaxonName=Coccyzus americanus,^ot:originalLabel=Coccyzus_americanus,^clo:ClementsTaxonName2019=Coccyzus americanus,^clo:speciescode2019=yebcuc])node1122057:0.003269,((((((otu414564:0.086485[&otu=otu414564,^ot:ottId=275133,^ot:ottTaxonName=Caprimulgus longirostris,^ot:originalLabel=Caprimulgus_longirostris,^clo:ClementsTaxonName2019=Systellura longirostris mochaensis,^clo:speciescode2019=bawnig4],((otu414565:0.149596[&otu=otu414565,^ot:ottId=804120,^ot:ottTaxonName=Colibri coruscans,^ot:originalLabel=Colibri_coruscans,^clo:ClementsTaxonName2019=Colibri coruscans,^clo:speciescode2019=spvear1],otu414566:0.10122[&otu=otu414566,^ot:ottId=697414,^ot:ottTaxonName=Streptoprocne zonaris,^ot:originalLabel=Streptoprocne_zonaris,^clo:ClementsTaxonName2019=Streptoprocne zonaris,^clo:speciescode2019=whcswi])node1122043:0.03128,otu414567:0.079484[&otu=otu414567,^ot:ottId=313120,^ot:ottTaxonName=Podargus strigoides,^ot:originalLabel=Podargus_strigoides,^clo:ClementsTaxonName2019=Podargus strigoides,^clo:speciescode2019=tawfro1])node1122042:0.000605)node1122040:0.003675,((otu414568:0.053041[&otu=otu414568,^ot:ottId=711844,^ot:ottTaxonName=Corvus corone,^ot:originalLabel=Corvus_corone,^clo:ClementsTaxonName2019=Corvus corone,^clo:speciescode2019=carcro1],otu414569:0.060213[&otu=otu414569,^ot:ottId=622887,^ot:ottTaxonName=Vidua chalybeata,^ot:originalLabel=Vidua_chalybeata,^clo:ClementsTaxonName2019=Vidua chalybeata,^clo:speciescode2019=vilind])node1122048:0.076589,otu414570:0.105829[&otu=otu414570,^ot:ottId=592204,^ot:ottTaxonName=Smithornis rufolateralis,^ot:originalLabel=Smithornis_rufolateralis,^clo:ClementsTaxonName2019=Smithornis rufolateralis,^clo:speciescode2019=rusbro1])node1122047:0.068593)node1122039,(otu414571:0.149525[&otu=otu414571,^ot:ottId=462548,^ot:ottTaxonName=Colius colius,^ot:originalLabel=Colius_colius,^clo:ClementsTaxonName2019=Colius colius,^clo:speciescode2019=whbmou1],otu414572:0.178477[&otu=otu414572,^ot:ottId=733984,^ot:ottTaxonName=Dryocopus pileatus,^ot:originalLabel=Dryocopus_pileatus,^clo:ClementsTaxonName2019=Dryocopus pileatus,^clo:speciescode2019=pilwoo])node1122052:0.005086)node1122038:0.00229,(((otu414561:0.055966[&otu=otu414561,^ot:ottId=86672,^ot:ottTaxonName=Rhynochetos jubatus,^ot:originalLabel=Rhynochetos_jubatus,^clo:ClementsTaxonName2019=Rhynochetos jubatus,^clo:speciescode2019=kagu1],otu414560:0.053458[&otu=otu414560,^ot:ottId=86680,^ot:ottTaxonName=Eurypyga helias,^ot:originalLabel=Eurypyga_helias,^clo:ClementsTaxonName2019=Eurypyga helias,^clo:speciescode2019=sunbit1])node1122033:0.053619,otu414562:0.099988[&otu=otu414562,^ot:ottId=183625,^ot:ottTaxonName=Falco mexicanus,^ot:originalLabel=Falco_mexicanus,^clo:ClementsTaxonName2019=Falco mexicanus,^clo:speciescode2019=prafal])node1122032:0.006575,otu414563:0.090491[&otu=otu414563,^ot:ottId=944695,^ot:ottTaxonName=Athene cunicularia,^ot:originalLabel=Speotyto_cunicularia,^clo:ClementsTaxonName2019=Athene cunicularia,^clo:speciescode2019=burowl],(otu414559:0.054754[&otu=otu414559,^ot:ottId=509837,^ot:ottTaxonName=Pandion haliaetus,^ot:originalLabel=Pandion_haliaetus,^clo:ClementsTaxonName2019=Pandion haliaetus,^clo:speciescode2019=osprey],otu414558:0.033821[&otu=otu414558,^ot:ottId=509839,^ot:ottTaxonName=Buteo jamaicensis,^ot:originalLabel=Buteo_jamaicensis,^clo:ClementsTaxonName2019=Buteo jamaicensis,^clo:speciescode2019=rethaw])node1122029:0.02413)node1122028:0.002063)node1122027:0.002371,(otu414557:0.053724[&otu=otu414557,^ot:ottId=225423,^ot:ottTaxonName=Haematopus ostralegus,^ot:originalLabel=Haematopus_ostralegus,^clo:ClementsTaxonName2019=Haematopus ostralegus,^clo:speciescode2019=euroys1],otu414556:0.078774[&otu=otu414556,^ot:ottId=821753,^ot:ottTaxonName=Arenaria interpres,^ot:originalLabel=Arenaria_interpres,^clo:ClementsTaxonName2019=Arenaria interpres,^clo:speciescode2019=rudtur])node1122024:0.016906)node1122023:0.002726,otu414573:0.049492[&otu=otu414573,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1],otu414574:0.12348[&otu=otu414574,^ot:ottId=284302,^ot:ottTaxonName=Trogon personatus,^ot:originalLabel=Trogon_personatus,^clo:ClementsTaxonName2019=Trogon personatus,^clo:speciescode2019=mastro1])node1122022:0.009265)node1122021:0.049057)node1122020:0.0545035)node1122019;
+END;
+

@@ -1,0 +1,22 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=10;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        Pterodroma_mollis
+        otu10
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](((((otu5[&otu=otu5,^ot:ottId=950182,^ot:ottTaxonName=Pterodroma feae,^ot:originalLabel=Pterodroma_feae,^clo:ClementsTaxonName2019=Pterodroma feae,^clo:speciescode2019=feapet1],otu4[&otu=otu4,^ot:ottId=713614,^ot:ottTaxonName=Pterodroma madeira,^ot:originalLabel=Pterodroma_madeira,^clo:ClementsTaxonName2019=Pterodroma madeira,^clo:speciescode2019=madpet])node25,otu3[&otu=otu3,^ot:ottId=845408,^ot:ottTaxonName=Pterodroma cahow,^ot:originalLabel=Pterodroma_cahow,^clo:ClementsTaxonName2019=Pterodroma cahow,^clo:speciescode2019=berpet])node23,otu2[&otu=otu2,^ot:ottId=271036,^ot:ottTaxonName=Pterodroma hasitata,^ot:originalLabel=Pterodroma_hasitata,^clo:ClementsTaxonName2019=Pterodroma hasitata,^clo:speciescode2019=bkcpet])node21,((otu7[&otu=otu7,^ot:ottId=271033,^ot:ottTaxonName=Pterodroma incerta,^ot:originalLabel=Pterodroma_incerta,^clo:ClementsTaxonName2019=Pterodroma incerta,^clo:speciescode2019=atlpet1],(otu8[&otu=otu8,^ot:ottId=271032,^ot:ottTaxonName=Pterodroma macroptera,^ot:originalLabel=Pterodroma_macroptera,^clo:ClementsTaxonName2019=Pterodroma macroptera,^clo:speciescode2019=grwpet3],otu9[&otu=otu9,^ot:ottId=271034,^ot:ottTaxonName=Pterodroma lessonii,^ot:originalLabel=Pterodroma_lessonii,^clo:ClementsTaxonName2019=Pterodroma lessonii,^clo:speciescode2019=whhpet1])node32)node30,otu6[&otu=otu6,^ot:ottId=271029,^ot:ottTaxonName=Pterodroma magentae,^ot:originalLabel=Pterodroma_magentae,^clo:ClementsTaxonName2019=Pterodroma magentae,^clo:speciescode2019=magpet1])node28)node20,otu10[&otu=otu10,^ot:ottId=271030,^ot:ottTaxonName=Pterodroma mollis,^ot:originalLabel=Pterodroma_mollis_molllis,^clo:ClementsTaxonName2019=Pterodroma mollis,^clo:speciescode2019=soppet1])node18;
+END;
+

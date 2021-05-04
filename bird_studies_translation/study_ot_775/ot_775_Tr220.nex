@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+        Tl145916
+        Tl145922
+        Tl145914
+        Tl145926
+        Tl145925
+        Tl145924
+        Tl145921
+        Tl145919
+        Tl59141
+        Tl59142
+        Tl59143
+        Tl59144
+        Tl7619
+        Tl7615
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 1b (transversion weighted parsimony)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((Tl145925[&otu=Tl145925,^ot:ottId=329999,^ot:ottTaxonName=Pelecanus occidentalis,^ot:originalLabel=Pelecanus_occidentalis,^clo:ClementsTaxonName2019=Pelecanus occidentalis,^clo:speciescode2019=brnpel],((Tl7615[&otu=Tl7615,^ot:ottId=904499,^ot:ottTaxonName=Diomedea epomophora,^ot:originalLabel=Diomedea_epomophora,^clo:ClementsTaxonName2019=Diomedea epomophora epomophora,^clo:speciescode2019=royalb2],((Tl145922[&otu=Tl145922,^ot:ottId=855119,^ot:ottTaxonName=Phaethon lepturus,^ot:originalLabel=Phaethon_lepturus,^clo:ClementsTaxonName2019=Phaethon lepturus,^clo:speciescode2019=whttro],Tl145926[&otu=Tl145926,^ot:ottId=509057,^ot:ottTaxonName=Phaethon rubricauda,^ot:originalLabel=Phaethon_rubricauda,^clo:ClementsTaxonName2019=Phaethon rubricauda,^clo:speciescode2019=rettro])Tn2769,Tl59143[&otu=Tl59143,^ot:ottId=330009,^ot:ottTaxonName=Phaethon aethereus,^ot:originalLabel=Phaethon_aethereus,^clo:ClementsTaxonName2019=Phaethon aethereus,^clo:speciescode2019=rebtro])Tn2777)Tn2768,((Tl145916[&otu=Tl145916,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Phalacrocorax_varius,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1],(Tl145919[&otu=Tl145919,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1],Tl145921[&otu=Tl145921,^ot:ottId=443639,^ot:ottTaxonName=Anhinga novaehollandiae,^ot:originalLabel=Anhinga_novaehollandiae,^clo:ClementsTaxonName2019=Anhinga novaehollandiae,^clo:speciescode2019=darter4])Tn2793)Tn2787,(((Tl145914[&otu=Tl145914,^ot:ottId=285638,^ot:ottTaxonName=Fregata minor,^ot:originalLabel=Fregata_minor,^clo:ClementsTaxonName2019=Fregata minor,^clo:speciescode2019=grefri],Tl59142[&otu=Tl59142,^ot:ottId=906500,^ot:ottTaxonName=Fregata andrewsi,^ot:originalLabel=Fregata_andrewsi,^clo:ClementsTaxonName2019=Fregata andrewsi,^clo:speciescode2019=chifri1])Tn2780,(Tl59144[&otu=Tl59144,^ot:ottId=906502,^ot:ottTaxonName=Fregata aquila,^ot:originalLabel=Fregata_aquila,^clo:ClementsTaxonName2019=Fregata aquila,^clo:speciescode2019=asifri1],Tl145924[&otu=Tl145924,^ot:ottId=330000,^ot:ottTaxonName=Fregata magnificens,^ot:originalLabel=Fregata_magnificens,^clo:ClementsTaxonName2019=Fregata magnificens,^clo:speciescode2019=magfri])Tn2774)Tn2781,Tl59141[&otu=Tl59141,^ot:ottId=906504,^ot:ottTaxonName=Fregata ariel,^ot:originalLabel=Fregata_ariel,^clo:ClementsTaxonName2019=Fregata ariel,^clo:speciescode2019=lesfri])Tn2778)Tn2773)Tn2784)Tn2783,Tl7619[&otu=Tl7619,^ot:ottId=429618,^ot:ottTaxonName=Megadyptes antipodes,^ot:originalLabel=Megadyptes_antipodes,^clo:ClementsTaxonName2019=Megadyptes antipodes,^clo:speciescode2019=yeepen1])Tn2785;
+END;
+

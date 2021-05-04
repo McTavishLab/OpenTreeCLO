@@ -1,0 +1,28 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=16;
+    TAXLABELS
+        otu433232
+        otu433217
+        otu433229
+        otu433228
+        otu433220
+        otu433225
+        otu433218
+        otu433227
+        otu433226
+        otu433221
+        otu433219
+        otu433223
+        otu433222
+        otu433230
+        otu433224
+        otu433231
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4_STAR = [&unrootedTree=False,curatedType=STAR,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](((otu433229[&otu=otu433229,^ot:ottId=355999,^ot:ottTaxonName=Certhiaxis mustelinus,^ot:originalLabel=Certhiaxis_mustelinus,^clo:ClementsTaxonName2019=Certhiaxis mustelinus,^clo:speciescode2019=rawspi2],otu433230[&otu=otu433230,^ot:ottId=443378,^ot:ottTaxonName=Certhiaxis cinnamomeus,^ot:originalLabel=Certhiaxis_cinnamomeus,^clo:ClementsTaxonName2019=Certhiaxis cinnamomeus,^clo:speciescode2019=yecspi2])node1176945,(otu433231[&otu=otu433231,^ot:ottId=885458,^ot:ottTaxonName=Synallaxis propinqua,^ot:originalLabel=Synallaxis_propinqua,^clo:ClementsTaxonName2019=Mazaria propinqua,^clo:speciescode2019=whbspi1],otu433232[&otu=otu433232,^ot:ottId=745716,^ot:ottTaxonName=Schoeniophylax phryganophilus,^ot:originalLabel=Schoeniophylax_phryganophilus,^clo:ClementsTaxonName2019=Schoeniophylax phryganophilus,^clo:speciescode2019=chospi2])node1176948)node1176944,(((otu433219[&otu=otu433219,^ot:ottId=173117,^ot:ottTaxonName=Synallaxis tithys,^ot:originalLabel=Synallaxis_tithys,^clo:ClementsTaxonName2019=Synallaxis tithys,^clo:speciescode2019=blhspi1],(otu433218[&otu=otu433218,^ot:ottId=457464,^ot:ottTaxonName=Synallaxis rutilans,^ot:originalLabel=Synallaxis_rutilans,^clo:ClementsTaxonName2019=Synallaxis rutilans,^clo:speciescode2019=rudspi1],otu433217[&otu=otu433217,^ot:ottId=173806,^ot:ottTaxonName=Synallaxis candei,^ot:originalLabel=Synallaxis_candei,^clo:ClementsTaxonName2019=Synallaxis candei,^clo:speciescode2019=whwspi1])node1176924)node1176923,(otu433220[&otu=otu433220,^ot:ottId=213253,^ot:ottTaxonName=Siptornopsis hypochondriaca,^ot:originalLabel=Synallaxis_hypochondriaca,^clo:ClementsTaxonName2019=Synallaxis hypochondriaca,^clo:speciescode2019=grespi2],otu433221[&otu=otu433221,^ot:ottId=551161,^ot:ottTaxonName=Synallaxis stictothorax,^ot:originalLabel=Synallaxis_stictothorax,^clo:ClementsTaxonName2019=Synallaxis stictothorax,^clo:speciescode2019=necspi1])node1176928)node1176922,((otu433227[&otu=otu433227,^ot:ottId=745714,^ot:ottTaxonName=Synallaxis scutata,^ot:originalLabel=Synallaxis_scutata,^clo:ClementsTaxonName2019=Synallaxis scutata,^clo:speciescode2019=occspi1],otu433228[&otu=otu433228,^ot:ottId=762048,^ot:ottTaxonName=Synallaxis gujanensis,^ot:originalLabel=Synallaxis_gujanensis,^clo:ClementsTaxonName2019=Synallaxis gujanensis,^clo:speciescode2019=plcspi1])node1176941,(otu433226[&otu=otu433226,^ot:ottId=910731,^ot:ottTaxonName=Gyalophylax hellmayri,^ot:originalLabel=Synallaxis_hellmayri,^clo:ClementsTaxonName2019=Synallaxis hellmayri,^clo:speciescode2019=resspi2],(((otu433223[&otu=otu433223,^ot:ottId=860403,^ot:ottTaxonName=Synallaxis albescens,^ot:originalLabel=Synallaxis_albescens,^clo:ClementsTaxonName2019=Synallaxis albescens,^clo:speciescode2019=pabspi1],otu433222[&otu=otu433222,^ot:ottId=929232,^ot:ottTaxonName=Synallaxis spixi,^ot:originalLabel=Synallaxis_spixi,^clo:ClementsTaxonName2019=Synallaxis spixi,^clo:speciescode2019=spispi1])node1176935,otu433224[&otu=otu433224,^ot:ottId=521793,^ot:ottTaxonName=Synallaxis ruficapilla,^ot:originalLabel=Synallaxis_ruficapilla,^clo:ClementsTaxonName2019=Synallaxis ruficapilla,^clo:speciescode2019=rucspi1])node1176934,otu433225[&otu=otu433225,^ot:ottId=177246,^ot:ottTaxonName=Synallaxis brachyura,^ot:originalLabel=Synallaxis_brachyura,^clo:ClementsTaxonName2019=Synallaxis brachyura,^clo:speciescode2019=slaspi1])node1176933)node1176932)node1176931)node1176921)node1176920;
+END;
+

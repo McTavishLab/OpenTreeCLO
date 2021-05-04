@@ -1,0 +1,61 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu343075	not_a_bird	not_a_bird	Xiphinema_rivesi	966917	Xiphinema rivesi
+otu343081	not_a_bird	not_a_bird	Milnesium_sp	1085413	Milnesium
+otu343076	not_a_bird	not_a_bird	Lottia_digitalis	182835	Lottia digitalis
+otu343074	not_a_bird	not_a_bird	Heteroteuthis_hawaiiensis	754418	Heteroteuthis hawaiiensis
+otu343029	not_a_bird	not_a_bird	Hydra	767784	Hydra
+otu343066	not_a_bird	not_a_bird	Hydractinia_symbiolongicarpus	35793	Hydractinia symbiolongicarpus
+otu343020	not_a_bird	not_a_bird	Cyanea	152136	Cyanea
+otu343078	not_a_bird	not_a_bird	Montastraea_franksi	955289	Montastraea franksi
+otu343032	not_a_bird	not_a_bird	Nematostella_vectensis	938118	Nematostella vectensis
+otu343017	not_a_bird	not_a_bird	Suberites_domuncula	127353	Suberites domuncula
+otu343006	not_a_bird	not_a_bird	Plakinidae	196338	Plakinidae
+otu343019	not_a_bird	not_a_bird	Chalinidae	588764	Chalinidae
+otu343034	not_a_bird	not_a_bird	Proterospongia	715814	Proterospongia
+otu343008	not_a_bird	not_a_bird	Monosiga_brevicollis	281703	Monosiga brevicollis
+otu343028	not_a_bird	not_a_bird	Monosiga_ovata	309875	Monosiga ovata
+otu343009	not_a_bird	not_a_bird	Sphaeroforma_arctica	380182	Sphaeroforma arctica
+otu343005	not_a_bird	not_a_bird	Amoebidium_parasiticum	463509	Amoebidium parasiticum
+otu343021	not_a_bird	not_a_bird	Capsaspora_owczarzaki	1053060	Capsaspora owczarzaki
+otu343036	not_a_bird	not_a_bird	Spizellomyces_punctatus	708156	Spizellomyces punctatus
+otu343039	not_a_bird	not_a_bird	Batrachochytrium_dendrobatidis	858873	Batrachochytrium dendrobatidis
+otu343030	not_a_bird	not_a_bird	Glomus	622625	Glomus
+otu343025	not_a_bird	not_a_bird	Blastocladiella_emersonii	263372	Blastocladiella emersonii
+otu343033	not_a_bird	not_a_bird	Rhizopus	363301	Rhizopus
+otu343068	not_a_bird	not_a_bird	Ustilago_tritici	514513	Ustilago tritici
+otu343010	not_a_bird	not_a_bird	Cryptococcus	4107132	Cryptococcus
+otu343023	not_a_bird	not_a_bird	Buddenbrockia_plumatellae	918957	Buddenbrockia plumatellae
+otu343080	not_a_bird	not_a_bird	Molgula_manhattensis	714797	Molgula manhattensis
+otu343041	not_a_bird	not_a_bird	Ciona_intestinalis	744224	Ciona intestinalis
+otu343015	not_a_bird	not_a_bird	Ciona_savignyi	677382	Ciona savignyi
+otu343035	not_a_bird	not_a_bird	Xenopus	465090	Xenopus
+otu343077	not_a_bird	not_a_bird	Homo_sapiens	770315	Homo sapiens
+otu343004	Gallus gallus	redjun	Gallus_gallus	153563	Gallus gallus
+otu343026	not_a_bird	not_a_bird	Danio_rerio	1005914	Danio rerio
+otu343013	not_a_bird	not_a_bird	Petromyzon_marinus	227494	Petromyzon marinus
+otu343063	not_a_bird	not_a_bird	Eptatretus_stouti	852671	Eptatretus stoutii
+otu343062	not_a_bird	not_a_bird	Crassostrea_gigas	987409	Crassostrea gigas
+otu343064	not_a_bird	not_a_bird	Argopecten_irradians	887220	Argopecten irradians
+otu343079	not_a_bird	not_a_bird	Nereis_vexillosa	689784	Nereis vexillosa
+otu343065	not_a_bird	not_a_bird	Biomphalaria_glabrata	673791	Biomphalaria glabrata
+otu343024	not_a_bird	not_a_bird	Lumbricidae	316446	Lumbricidae
+otu343071	not_a_bird	not_a_bird	Helobdella_stagnalis	621686	Helobdella stagnalis
+otu343022	not_a_bird	not_a_bird	Capitella	966426	Capitella
+otu343073	not_a_bird	not_a_bird	Dugesia_ryukyuensis	573805	Dugesia ryukyuensis
+otu343037	not_a_bird	not_a_bird	Schmidtea_mediterranea	None	None
+otu343016	not_a_bird	not_a_bird	Echinococcus	1021829	Echinococcus
+otu343002	not_a_bird	not_a_bird	Fasciola_hepatica	194953	Fasciola hepatica
+otu343012	not_a_bird	not_a_bird	Schistosoma_japonicum	191484	Schistosoma japonicum
+otu343031	not_a_bird	not_a_bird	Schistosoma_mansoni	191483	Schistosoma mansoni
+otu343067	not_a_bird	not_a_bird	Penaeus_semisulcatus	163892	Penaeus semisulcatus
+otu343018	not_a_bird	not_a_bird	Astacidea	601427	Astacidea
+otu343007	not_a_bird	not_a_bird	Daphnia	59084	Daphnia
+otu343072	not_a_bird	not_a_bird	Locusta_migratoria	178934	Locusta migratoria
+otu343003	not_a_bird	not_a_bird	Tribolium_castaneum	148904	Tribolium castaneum
+otu343069	not_a_bird	not_a_bird	Helicoverpa_assulta	831214	Helicoverpa assulta
+otu343027	not_a_bird	not_a_bird	Bombyx_mori	440274	Bombyx mori
+otu343014	not_a_bird	not_a_bird	Chalcidoidea	1073707	Chalcidoidea
+otu343038	not_a_bird	not_a_bird	Apis_mellifera	461645	Apis mellifera
+otu343040	not_a_bird	not_a_bird	Ixodes	435915	Ixodes
+otu343011	not_a_bird	not_a_bird	Rhipicephalus	543037	Rhipicephalus
+otu343070	not_a_bird	not_a_bird	Acanthoscurria_sp	960210	Acanthoscurria

@@ -1,0 +1,49 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+        otu427189
+        otu427188
+        otu427185
+        otu427184
+        otu427187
+        otu427186
+        otu427181
+        otu427180
+        otu427183
+        otu427182
+        otu427169
+        otu427168
+        otu427167
+        otu427166
+        otu427165
+        otu427164
+        otu427163
+        otu427162
+        otu427161
+        otu427160
+        otu427196
+        otu427194
+        otu427195
+        otu427192
+        otu427193
+        otu427190
+        otu427191
+        otu427170
+        otu427171
+        otu427172
+        otu427173
+        otu427174
+        otu427175
+        otu427176
+        otu427177
+        otu427178
+        otu427179
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 Bayesian (topology)' = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=]((((otu427191[&otu=otu427191,^ot:ottId=749722,^ot:ottTaxonName=Pitohui dichrous,^ot:originalLabel=Pitohui_dichrous,^clo:ClementsTaxonName2019=Pitohui dichrous,^clo:speciescode2019=hoopit1],otu427192[&otu=otu427192,^ot:ottId=95988,^ot:ottTaxonName=Pitohui kirhocephalus,^ot:originalLabel=Pitohui_kirhocephalus,^clo:ClementsTaxonName2019=Pitohui kirhocephalus,^clo:speciescode2019=varpit2])node1162266,otu427193[&otu=otu427193,^ot:ottId=319134,^ot:ottTaxonName=Sphecotheres vieilloti,^ot:originalLabel=Sphecotheres_vielloti,^clo:ClementsTaxonName2019=Sphecotheres vieilloti,^clo:speciescode2019=ausfig1])node1162265,(((((otu427187[&otu=otu427187,^ot:ottId=63086,^ot:ottTaxonName=Oriolus bouroensis,^ot:originalLabel=Oriolus_bouroensis,^clo:ClementsTaxonName2019=Oriolus bouroensis,^clo:speciescode2019=burori2],otu427188[&otu=otu427188,^ot:ottId=636488,^ot:ottTaxonName=Oriolus forsteni,^ot:originalLabel=Oriolus_forsteni,^clo:ClementsTaxonName2019=Oriolus forsteni,^clo:speciescode2019=serori1])node1162260,otu427189[&otu=otu427189,^ot:ottId=667452,^ot:ottTaxonName=Oriolus phaeochromus,^ot:originalLabel=Oriolus_phaeochromus,^clo:ClementsTaxonName2019=Oriolus phaeochromus,^clo:speciescode2019=halori1])node1162259,otu427190[&otu=otu427190,^ot:ottId=293726,^ot:ottTaxonName=Oriolus sagittatus,^ot:originalLabel=Oriolus_sagittatus,^clo:ClementsTaxonName2019=Oriolus sagittatus,^clo:speciescode2019=olbori1])node1162258,((otu427184[&otu=otu427184,^ot:ottId=55849,^ot:ottTaxonName=Oriolus flavocinctus,^ot:originalLabel=Oriolus_flavocinctus,^clo:ClementsTaxonName2019=Oriolus flavocinctus,^clo:speciescode2019=greori1],otu427185[&otu=otu427185,^ot:ottId=144737,^ot:ottTaxonName=Oriolus melanotis,^ot:originalLabel=Oriolus_melanotis,^clo:ClementsTaxonName2019=Oriolus melanotis,^clo:speciescode2019=timori1])node1162254,otu427186[&otu=otu427186,^ot:ottId=667442,^ot:ottTaxonName=Oriolus szalayi,^ot:originalLabel=Oriolus_szalayi,^clo:ClementsTaxonName2019=Oriolus szalayi,^clo:speciescode2019=broori1])node1162253)node1162252,(((((otu427163[&otu=otu427163,^ot:ottId=144733,^ot:ottTaxonName=Oriolus monacha,^ot:originalLabel=Oriolus_monacha,^clo:ClementsTaxonName2019=Oriolus monacha,^clo:speciescode2019=dahori1],(otu427162[&otu=otu427162,^ot:ottId=433927,^ot:ottTaxonName=Oriolus larvatus,^ot:originalLabel=Oriolus_larvatus,^clo:ClementsTaxonName2019=Oriolus larvatus,^clo:speciescode2019=abhori1],(otu427161[&otu=otu427161,^ot:ottId=667450,^ot:ottTaxonName=Oriolus nigripennis,^ot:originalLabel=Oriolus_nigripennis,^clo:ClementsTaxonName2019=Oriolus nigripennis,^clo:speciescode2019=blwori1],otu427160[&otu=otu427160,^ot:ottId=667454,^ot:ottTaxonName=Oriolus percivali,^ot:originalLabel=Oriolus_percivali,^clo:ClementsTaxonName2019=Oriolus percivali,^clo:speciescode2019=bltori1])node1162211)node1162210)node1162209,((((otu427167[&otu=otu427167,^ot:ottId=114674,^ot:ottTaxonName=Oriolus kundoo,^ot:originalLabel=Oriolus_kundoo,^clo:ClementsTaxonName2019=Oriolus kundoo,^clo:speciescode2019=ingori1],otu427168[&otu=otu427168,^ot:ottId=299687,^ot:ottTaxonName=Oriolus oriolus,^ot:originalLabel=Oriolus_oriolus,^clo:ClementsTaxonName2019=Oriolus oriolus,^clo:speciescode2019=eugori2])node1162224,(otu427169[&otu=otu427169,^ot:ottId=524117,^ot:ottTaxonName=Oriolus chinensis chinensis,^ot:originalLabel=Oriolus_chinensis_chinensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu427170[&otu=otu427170,^ot:ottId=636495,^ot:ottTaxonName=Oriolus chinensis melanisticus,^ot:originalLabel=Oriolus_chinensis_melanisticus,^clo:ClementsTaxonName2019=Oriolus chinensis melanisticus,^clo:speciescode2019=bknori6])node1162227)node1162223,(otu427166[&otu=otu427166,^ot:ottId=636501,^ot:ottTaxonName=Oriolus chinensis diffusus,^ot:originalLabel=Oriolus_chinensis_diffusus_Korea,^clo:ClementsTaxonName2019=Oriolus chinensis diffusus,^clo:speciescode2019=bknori1],(otu427164[&otu=otu427164,^ot:ottId=636501,^ot:ottTaxonName=Oriolus chinensis diffusus,^ot:originalLabel=Oriolus_chinensis_diffusus_China,^clo:ClementsTaxonName2019=Oriolus chinensis diffusus,^clo:speciescode2019=bknori1],otu427165[&otu=otu427165,^ot:ottId=636501,^ot:ottTaxonName=Oriolus chinensis diffusus,^ot:originalLabel=Oriolus_chinensis_diffusus_Vietnam,^clo:ClementsTaxonName2019=Oriolus chinensis diffusus,^clo:speciescode2019=bknori1])node1162219)node1162218)node1162217,otu427171[&otu=otu427171,^ot:ottId=1013348,^ot:ottTaxonName=Oriolus auratus,^ot:originalLabel=Oriolus_auratus,^clo:ClementsTaxonName2019=Oriolus auratus,^clo:speciescode2019=afgori2])node1162216)node1162208,((otu427172[&otu=otu427172,^ot:ottId=675806,^ot:ottTaxonName=Oriolus brachyrhynchus,^ot:originalLabel=Oriolus_brachyrhynchus,^clo:ClementsTaxonName2019=Oriolus brachyrynchus,^clo:speciescode2019=wbhori1],otu427173[&otu=otu427173,^ot:ottId=636499,^ot:ottTaxonName=Oriolus chlorocephalus,^ot:originalLabel=Oriolus_chlorocephalus,^clo:ClementsTaxonName2019=Oriolus chlorocephalus,^clo:speciescode2019=grhori1])node1162232,otu427174[&otu=otu427174,^ot:ottId=583087,^ot:ottTaxonName=Oriolus xanthornus,^ot:originalLabel=Oriolus_xanthornus,^clo:ClementsTaxonName2019=Oriolus xanthornus,^clo:speciescode2019=blhori1])node1162231)node1162207,((otu427176[&otu=otu427176,^ot:ottId=639778,^ot:ottTaxonName=Oriolus cruentus,^ot:originalLabel=Oriolus_cruentus,^clo:ClementsTaxonName2019=Oriolus cruentus,^clo:speciescode2019=bacori1],otu427175[&otu=otu427175,^ot:ottId=636490,^ot:ottTaxonName=Oriolus hosii,^ot:originalLabel=Oriolus_hosii,^clo:ClementsTaxonName2019=Oriolus hosii,^clo:speciescode2019=blaori1])node1162237,(otu427178[&otu=otu427178,^ot:ottId=144735,^ot:ottTaxonName=Oriolus mellianus,^ot:originalLabel=Oriolus_mellianus,^clo:ClementsTaxonName2019=Oriolus mellianus,^clo:speciescode2019=silori1],otu427177[&otu=otu427177,^ot:ottId=667447,^ot:ottTaxonName=Oriolus traillii,^ot:originalLabel=Oriolus_trailli,^clo:ClementsTaxonName2019=Oriolus traillii,^clo:speciescode2019=marori2])node1162240)node1162236)node1162206,(otu427183[&otu=otu427183,^ot:ottId=353511,^ot:ottTaxonName=Oriolus xanthonotus,^ot:originalLabel=Oriolus_xanthonotus,^clo:ClementsTaxonName2019=Oriolus xanthonotus,^clo:speciescode2019=datori1],(otu427182[&otu=otu427182,^ot:ottId=667444,^ot:ottTaxonName=Oriolus steerii,^ot:originalLabel=Oriolus_steerei_Mindago,^clo:ClementsTaxonName2019=Oriolus steerii,^clo:speciescode2019=phiori1],((otu427179[&otu=otu427179,^ot:ottId=114668,^ot:ottTaxonName=Oriolus isabellae,^ot:originalLabel=Oriolus_isabellae,^clo:ClementsTaxonName2019=Oriolus isabellae,^clo:speciescode2019=isaori1],otu427180[&otu=otu427180,^ot:ottId=63088,^ot:ottTaxonName=Oriolus albiloris,^ot:originalLabel=Oriolus_albiloris,^clo:ClementsTaxonName2019=Oriolus albiloris,^clo:speciescode2019=whlori1])node1162246,otu427181[&otu=otu427181,^ot:ottId=667444,^ot:ottTaxonName=Oriolus steerii,^ot:originalLabel=Oriolus_steerei_Negros,^clo:ClementsTaxonName2019=Oriolus steerii,^clo:speciescode2019=phiori1])node1162245)node1162244)node1162243)node1162205)node1162204)node1162203,(otu427196[&otu=otu427196,^ot:ottId=621721,^ot:ottTaxonName=Cyclarhis gujanensis,^ot:originalLabel=Cyclarhis_gujanensis,^clo:ClementsTaxonName2019=Cyclarhis gujanensis,^clo:speciescode2019=rubpep1],(otu427195[&otu=otu427195,^ot:ottId=604019,^ot:ottTaxonName=Vireo olivaceus,^ot:originalLabel=Vireo_olivaceus,^clo:ClementsTaxonName2019=Vireo olivaceus,^clo:speciescode2019=reevir1],otu427194[&otu=otu427194,^ot:ottId=669572,^ot:ottTaxonName=Hylophilus ochraceiceps,^ot:originalLabel=Hylophilus_ochraceiceps,^clo:ClementsTaxonName2019=Tunchiornis ochraceiceps luteifrons,^clo:speciescode2019=tacgre5])node1162271)node1162270)node1162202;
+END;
+

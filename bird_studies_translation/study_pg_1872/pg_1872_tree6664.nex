@@ -1,0 +1,51 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=39;
+    TAXLABELS
+        otu286264
+        Grus_nigricollis
+        otu286257
+        Psophia_viridis
+        otu286254
+        otu286230
+        otu286231
+        otu286232
+        otu286233
+        otu286234
+        otu286235
+        otu286236
+        Grus_americana
+        Gallirallus_philippensis
+        otu286239
+        otu286258
+        Grus_rubicunda
+        otu286229
+        otu286251
+        otu286228
+        Podica_senegalensis
+        Bubulcus_ibis
+        Anthropoides_virgo
+        otu286261
+        Heliopais_personata
+        Balearica_regulorum
+        Gallinula_chloropus
+        Grus_leucogeranus
+        otu286245
+        otu286244
+        Grus_antigone
+        Grus_vipio
+        otu286241
+        Grus_japonensis
+        otu286243
+        Grus_grus
+        otu286259
+        otu286249
+        Grus_monacha
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3a = [&unrootedTree=False,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=241846,nearestTaxonMRCAName=Neognathae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](((((otu286233[&otu=otu286233,^ot:ottId=915643,^ot:ottTaxonName=Psophia crepitans,^ot:originalLabel=Psophia_crepitans,^clo:ClementsTaxonName2019=Psophia crepitans,^clo:speciescode2019=gywtru1],(otu286234[&otu=otu286234,^ot:ottId=1095362,^ot:ottTaxonName=Aramus guarauna,^ot:originalLabel=Aramus_guarauna,^clo:ClementsTaxonName2019=Aramus guarauna,^clo:speciescode2019=limpki],(otu286243[&otu=otu286243,^ot:ottId=928354,^ot:ottTaxonName=Balearica pavonina,^ot:originalLabel=Balearica_pavonina,^clo:ClementsTaxonName2019=Balearica pavonina,^clo:speciescode2019=blccra1],((otu286254[&otu=otu286254,^ot:ottId=414343,^ot:ottTaxonName=Grus carunculatus,^ot:originalLabel=Bugeranus_carunculatus,^clo:ClementsTaxonName2019=Bugeranus carunculatus,^clo:speciescode2019=watcra2],otu286259[&otu=otu286259,^ot:ottId=510573,^ot:ottTaxonName=Anthropoides paradiseus,^ot:originalLabel=Anthropoides_paradisea,^clo:ClementsTaxonName2019=Anthropoides paradiseus,^clo:speciescode2019=blucra2])node1161938,otu286232[&otu=otu286232,^ot:ottId=257929,^ot:ottTaxonName=Grus canadensis,^ot:originalLabel=Grus_canadensis,^clo:ClementsTaxonName2019=Antigone canadensis,^clo:speciescode2019=sancra])node1161937)node1161936)node1161935)node1161934,(otu286230[&otu=otu286230,^ot:ottId=440618,^ot:ottTaxonName=Heliornis fulica,^ot:originalLabel=Heliornis_fulica,^clo:ClementsTaxonName2019=Heliornis fulica,^clo:speciescode2019=sungre1],((otu286245[&otu=otu286245,^ot:ottId=148209,^ot:ottTaxonName=Porphyrio porphyrio,^ot:originalLabel=Porphyrio_porphyrio,^clo:ClementsTaxonName2019=Porphyrio porphyrio,^clo:speciescode2019=purswa1],otu286249[&otu=otu286249,^ot:ottId=440613,^ot:ottTaxonName=Laterallus melanophaius,^ot:originalLabel=Laterallus_melanophaius,^clo:ClementsTaxonName2019=Laterallus melanophaius,^clo:speciescode2019=ruscra1])node1161952,((otu286261[&otu=otu286261,^ot:ottId=885182,^ot:ottTaxonName=Porzana carolina,^ot:originalLabel=Porzana_carolina,^clo:ClementsTaxonName2019=Porzana carolina,^clo:speciescode2019=sora],otu286244[&otu=otu286244,^ot:ottId=570965,^ot:ottTaxonName=Fulica americana,^ot:originalLabel=Fulica_americana,^clo:ClementsTaxonName2019=Fulica americana,^clo:speciescode2019=y00475])node1161948,otu286251[&otu=otu286251,^ot:ottId=440610,^ot:ottTaxonName=Rallus longirostris,^ot:originalLabel=Rallus_longirostris,^clo:ClementsTaxonName2019=Rallus longirostris,^clo:speciescode2019=manrai1])node1161947)node1161946)node1161945)node1161933,(otu286264[&otu=otu286264,^ot:ottId=729491,^ot:ottTaxonName=Botaurus lentiginosus,^ot:originalLabel=Botaurus_lentiginosus,^clo:ClementsTaxonName2019=Botaurus lentiginosus,^clo:speciescode2019=amebit],(otu286258[&otu=otu286258,^ot:ottId=324161,^ot:ottTaxonName=Ciconia maguari,^ot:originalLabel=Ciconia_maguari,^clo:ClementsTaxonName2019=Ciconia maguari,^clo:speciescode2019=magsto1],otu286239[&otu=otu286239,^ot:ottId=464695,^ot:ottTaxonName=Mycteria americana,^ot:originalLabel=Mycteria_americana,^clo:ClementsTaxonName2019=Mycteria americana,^clo:speciescode2019=woosto])node1161957)node1161956)node1161932,((otu286236[&otu=otu286236,^ot:ottId=427710,^ot:ottTaxonName=Recurvirostra americana,^ot:originalLabel=Recurvirostra_americana,^clo:ClementsTaxonName2019=Recurvirostra americana,^clo:speciescode2019=ameavo],otu286231[&otu=otu286231,^ot:ottId=661811,^ot:ottTaxonName=Charadrius vociferus,^ot:originalLabel=Charadrius_vociferus,^clo:ClementsTaxonName2019=Charadrius vociferus,^clo:speciescode2019=killde])node1161962,(otu286241[&otu=otu286241,^ot:ottId=526708,^ot:ottTaxonName=Jacana spinosa,^ot:originalLabel=Jacana_spinosa,^clo:ClementsTaxonName2019=Jacana spinosa,^clo:speciescode2019=norjac],(otu286235[&otu=otu286235,^ot:ottId=436747,^ot:ottTaxonName=Larus atricilla,^ot:originalLabel=Larus_atricilla,^clo:ClementsTaxonName2019=Leucophaeus atricilla,^clo:speciescode2019=laugul],otu286257[&otu=otu286257,^ot:ottId=820016,^ot:ottTaxonName=Uria aalge,^ot:originalLabel=Uria_aalge,^clo:ClementsTaxonName2019=Uria aalge,^clo:speciescode2019=commur])node1161966)node1161965)node1161961)node1161931,(otu286228[&otu=otu286228,^ot:ottId=340887,^ot:ottTaxonName=Callipepla gambelii,^ot:originalLabel=Callipepla_gambelii,^clo:ClementsTaxonName2019=Callipepla gambelii,^clo:speciescode2019=gamqua],otu286229[&otu=otu286229,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1])node1161970)node1161930;
+END;
+

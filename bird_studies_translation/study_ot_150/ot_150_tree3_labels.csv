@@ -1,0 +1,52 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu16	no_match	no_match	Megalaima_eximia	3600159	Megalaima eximia
+otu15	no_match	no_match	Megalaima_australis_australis	3600167	Megalaima australis
+otu14	not_a_bird	not_a_bird	Megalaima_australis_duvaucelli_Borneo	None	None
+otu13	not_a_bird	not_a_bird	Megalaima_australis_duvaucelli_Sumatra	None	None
+otu21	no_match	no_match	Megalaima_mystacophanos_Sumatra	291637	Megalaima mystacophanos
+otu20	no_match	no_match	Megalaima_mystacophanos_Borneo	291637	Megalaima mystacophanos
+otu22	no_match	no_match	Megalaima_javensis	3600152	Megalaima javensis
+otu24	no_match	no_match	Megalaima_rafflesii_Sumatra	3600166	Megalaima rafflesii
+otu23	no_match	no_match	Megalaima_rafflesii_Belitung	3600166	Megalaima rafflesii
+otu30	no_match	no_match	Megalaima_pulcherrima	3600160	Megalaima pulcherrima
+otu29	no_match	no_match	Megalaima_henricii_henricii	3600154	Megalaima henricii
+otu28	not_a_bird	not_a_bird	Megalaima_henricii_brachyrhyncha	None	None
+otu27	no_match	no_match	Megalaima_armillaris_armillaris_West_Java	3600162	Megalaima armillaris
+otu26	no_match	no_match	Megalaima_armillaris_armillaris_East_Java	3600162	Megalaima armillaris
+otu25	not_a_bird	not_a_bird	Megalaima_armillaris_baliensis_Bali	None	None
+otu53	no_match	no_match	Megalaima_faiostricta	3600161	Megalaima faiostricta
+otu52	no_match	no_match	Megalaima_lineata_lineata	738737	Megalaima lineata
+otu51	not_a_bird	not_a_bird	Megalaima_lineata_hodgsoni	None	None
+otu50	no_match	no_match	Megalaima_zeylanica_zeylanica	3600165	Megalaima zeylanica
+otu48	no_match	no_match	Megalaima_viridis	876386	Megalaima viridis
+otu49	no_match	no_match	Megalaima_flavifrons	3600156	Megalaima flavifrons
+otu45	no_match	no_match	Megalaima_franklinii_franklinii	351693	Megalaima franklinii franklinii
+otu46	not_a_bird	not_a_bird	Megalaima_franklinii_ramsayi	None	None
+otu47	not_a_bird	not_a_bird	Megalaima_franklinii_auricularis	None	None
+otu42	not_a_bird	not_a_bird	Megalaima_chrysopogon_chrysopsis	None	None
+otu41	no_match	no_match	Megalaima_chrysopogon_chrysopogon	909900	Megalaima chrysopogon
+otu43	no_match	no_match	Megalaima_corvina	3600153	Megalaima corvina
+otu44	no_match	no_match	Megalaima_monticola	738742	Megalaima monticola
+otu40	no_match	no_match	Megalaima_incognita	3600155	Megalaima incognita
+otu39	Psilopogon nuchalis	taibar2	Megalaima_nuchalis	3600163	Megalaima nuchalis
+otu38	not_a_bird	not_a_bird	Megalaima_faber_faber	3600157	Megalaima faber
+otu37	not_a_bird	not_a_bird	Megalaima_faber_sini	None	None
+otu35	not_a_bird	not_a_bird	Megalaima_asiatica_chersonesus	None	None
+otu36	Psilopogon oorti	blbbar5	Megalaima_oorti	738735	Megalaima oorti
+otu34	no_match	no_match	Megalaima_asiatica_davisoni_2	960892	Megalaima asiatica davisoni
+otu31	no_match	no_match	Megalaima_asiatica_davisoni_1	960892	Megalaima asiatica davisoni
+otu32	no_match	no_match	Megalaima_asiatica_asiatica	960894	Megalaima asiatica asiatica
+otu33	not_a_bird	not_a_bird	Megalaima_annamensis	3600158	Megalaima annamensis
+otu19	Psilopogon pyrolophus	fitbar1	Psilopogon_pyrolophus	291641	Psilopogon pyrolophus
+otu18	no_match	no_match	Megalaima_lagrandieri	3600164	Megalaima lagrandieri
+otu17	no_match	no_match	Megalaima_virens	1019972	Megalaima virens
+otu10	no_match	no_match	Megalaima_haemacephala_indica	1059115	Megalaima haemacephala indica
+otu6	no_match	no_match	Megalaima_haemacephala_intermedia	856985	Megalaima haemacephala intermedia
+otu7	no_match	no_match	Megalaima_haemacephala_celestinoi	857009	Megalaima haemacephala celestinoi
+otu8	no_match	no_match	Megalaima_haemacephala_rosea	856999	Megalaima haemacephala rosea
+otu9	no_match	no_match	Megalaima_haemacephala_delica	857004	Megalaima haemacephala delica
+otu12	Psilopogon malabaricus	crfbar1	Megalaima_malabarica	6154906	Psilopogon malabaricus
+otu11	no_match	no_match	Megalaima_rubricapillus	876388	Megalaima rubricapillus
+otu3	Caloramphus fuliginosus	brnbar2	Calorhamphus_fuliginosus_fuliginosus	738747	Calorhamphus fuliginosus
+otu4	not_a_bird	not_a_bird	Calorhamphus_fuliginosus_tertius	None	None
+otu5	not_a_bird	not_a_bird	Calorhamphus_fuliginosus_hayii	None	None

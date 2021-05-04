@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Galapagos_cormorant = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](otu1:49.4332[&otu=otu1,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Ggallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],((otu2:20.28853[&otu=otu2,^ot:ottId=946418,^ot:ottTaxonName=Nipponia nippon,^ot:originalLabel=Nnippon,^clo:ClementsTaxonName2019=Nipponia nippon,^clo:speciescode2019=creibi1],((otu7:2.936606[&otu=otu7,^ot:ottId=744568,^ot:ottTaxonName=Urile pelagicus,^ot:originalLabel=Ppelagicus,^clo:ClementsTaxonName2019=Phalacrocorax pelagicus,^clo:speciescode2019=pelcor],otu5:2.936606[&otu=otu5,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Pcarbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor])node11:0.844704,(otu6:2.372842[&otu=otu6,^ot:ottId=409434,^ot:ottTaxonName=Nannopterum harrisi,^ot:originalLabel=Pharrisi,^clo:ClementsTaxonName2019=Phalacrocorax harrisi,^clo:speciescode2019=flicor1],(otu4:1.334535[&otu=otu4,^ot:ottId=109023,^ot:ottTaxonName=Nannopterum brasilianus,^ot:originalLabel=Pbrasilianus,^clo:ClementsTaxonName2019=Phalacrocorax brasilianus,^clo:speciescode2019=neocor],otu3:1.334535[&otu=otu3,^ot:ottId=170200,^ot:ottTaxonName=Nannopterum auritus,^ot:originalLabel=Pauritus,^clo:ClementsTaxonName2019=Phalacrocorax auritus,^clo:speciescode2019=doccor])node7:1.038308)node6:1.408467)node5:16.50722)node3:29.14467)node1)'tree1_ROOT';
+END;
+

@@ -1,0 +1,56 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=44;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=969838,nearestTaxonMRCAName=Phalacrocoracidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu41[&otu=otu41,^ot:ottId=170196,^ot:ottTaxonName=Anhinga anhinga,^ot:originalLabel=Anhinga_anhinga_leucogaster,^clo:ClementsTaxonName2019=Anhinga anhinga,^clo:speciescode2019=anhing],((otu40[&otu=otu40,^ot:ottId=3600659,^ot:ottTaxonName=Phalacrocorax pygmaeus,^ot:originalLabel=Microcarbo_pygmaeus,^clo:ClementsTaxonName2019=Microcarbo pygmaeus,^clo:speciescode2019=pygcor2],otu39[&otu=otu39,^ot:ottId=9838,^ot:ottTaxonName=Phalacrocorax melanoleucos,^ot:originalLabel=Microcarbo_melanoleucos,^clo:ClementsTaxonName2019=Microcarbo melanoleucos,^clo:speciescode2019=lipcor1])node80,(otu38[&otu=otu38,^ot:ottId=480885,^ot:ottTaxonName=Phalacrocorax gaimardi,^ot:originalLabel=Poikilocarbo_gaimardi,^clo:ClementsTaxonName2019=Phalacrocorax gaimardi,^clo:speciescode2019=relcor1],((((((((((otu23[&otu=otu23,^ot:ottId=3600650,^ot:ottTaxonName=Phalacrocorax nivalis,^ot:originalLabel=Leucocarbo_nivalis,^clo:ClementsTaxonName2019=Phalacrocorax nivalis,^clo:speciescode2019=heisha1],otu24[&otu=otu24,^ot:ottId=9839,^ot:ottTaxonName=Phalacrocorax purpurascens,^ot:originalLabel=Leucocarbo_purpurascens,^clo:ClementsTaxonName2019=Phalacrocorax purpurascens,^clo:speciescode2019=macsha1])node56,otu25[&otu=otu25,^ot:ottId=3600687,^ot:ottTaxonName=Leucocarbo verrucosus,^ot:originalLabel=Leucocarbo_verrucosus,^clo:ClementsTaxonName2019=Phalacrocorax verrucosus,^clo:speciescode2019=kersha1])node55,(otu22[&otu=otu22,^ot:ottId=3600651,^ot:ottTaxonName=Phalacrocorax melanogenis,^ot:originalLabel=Leucocarbo_melanogenis,^clo:ClementsTaxonName2019=Phalacrocorax melanogenis,^clo:speciescode2019=crosha1],(otu21[&otu=otu21,^ot:ottId=401967,^ot:ottTaxonName=Phalacrocorax bransfieldensis,^ot:originalLabel=Leucocarbo_bransfieldensis_2,^clo:ClementsTaxonName2019=Phalacrocorax bransfieldensis,^clo:speciescode2019=antsha1],otu20[&otu=otu20,^ot:ottId=401967,^ot:ottTaxonName=Phalacrocorax bransfieldensis,^ot:originalLabel=Leucocarbo_bransfieldensis_1,^clo:ClementsTaxonName2019=Phalacrocorax bransfieldensis,^clo:speciescode2019=antsha1])node51)node50)node49,(otu28[&otu=otu28,^ot:ottId=969843,^ot:ottTaxonName=Phalacrocorax albiventer,^ot:originalLabel=Leucocarbo_albiventer,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu27[&otu=otu27,^ot:ottId=446659,^ot:ottTaxonName=Phalacrocorax atriceps,^ot:originalLabel=Leucocarbo_atriceps,^clo:ClementsTaxonName2019=Phalacrocorax atriceps,^clo:speciescode2019=impcor1],otu26[&otu=otu26,^ot:ottId=221814,^ot:ottTaxonName=Phalacrocorax georgianus,^ot:originalLabel=Leucocarbo_georgianus,^clo:ClementsTaxonName2019=Phalacrocorax georgianus,^clo:speciescode2019=sogsha1])node61)node60)node48,((((otu30[&otu=otu30,^ot:ottId=9831,^ot:ottTaxonName=Phalacrocorax campbelli,^ot:originalLabel=Leucocarbo_campbelli,^clo:ClementsTaxonName2019=Phalacrocorax campbelli,^clo:speciescode2019=caisha2],otu29[&otu=otu29,^ot:ottId=31563,^ot:ottTaxonName=Phalacrocorax colensoi,^ot:originalLabel=Leucocarbo_colensoi,^clo:ClementsTaxonName2019=Phalacrocorax colensoi,^clo:speciescode2019=auisha1])node68,(otu31[&otu=otu31,^ot:ottId=9837,^ot:ottTaxonName=Phalacrocorax onslowi,^ot:originalLabel=Leucocarbo_onslowi,^clo:ClementsTaxonName2019=Phalacrocorax onslowi,^clo:speciescode2019=chisha1],otu32[&otu=otu32,^ot:ottId=480890,^ot:ottTaxonName=Phalacrocorax chalconotus,^ot:originalLabel=Leucocarbo_chalconotus,^clo:ClementsTaxonName2019=Phalacrocorax chalconotus,^clo:speciescode2019=brosha1])node71)node67,otu33[&otu=otu33,^ot:ottId=3600684,^ot:ottTaxonName=Leucocarbo carunculatus,^ot:originalLabel=Leucocarbo_carunculatus,^clo:ClementsTaxonName2019=Phalacrocorax carunculatus,^clo:speciescode2019=rofsha1])node66,otu34[&otu=otu34,^ot:ottId=31566,^ot:ottTaxonName=Phalacrocorax ranfurlyi,^ot:originalLabel=Leucocarbo_ranfurlyi,^clo:ClementsTaxonName2019=Phalacrocorax ranfurlyi,^clo:speciescode2019=boisha1])node65)node47,otu35[&otu=otu35,^ot:ottId=9834,^ot:ottTaxonName=Phalacrocorax bougainvillii,^ot:originalLabel=Leucocarbo_bougainvillii,^clo:ClementsTaxonName2019=Phalacrocorax bougainvillii,^clo:speciescode2019=guacor1])node46,otu36[&otu=otu36,^ot:ottId=323108,^ot:ottTaxonName=Phalacrocorax magellanicus,^ot:originalLabel=Leucocarbo_magellanicus,^clo:ClementsTaxonName2019=Phalacrocorax magellanicus,^clo:speciescode2019=magcor1])node45,((otu17[&otu=otu17,^ot:ottId=170200,^ot:ottTaxonName=Phalacrocorax auritus,^ot:originalLabel=Nannopterum_auritus,^clo:ClementsTaxonName2019=Phalacrocorax auritus,^clo:speciescode2019=doccor],otu18[&otu=otu18,^ot:ottId=109023,^ot:ottTaxonName=Phalacrocorax brasilianus,^ot:originalLabel=Nannopterum_brasilianus,^clo:ClementsTaxonName2019=Phalacrocorax brasilianus,^clo:speciescode2019=neocor])node41,otu19[&otu=otu19,^ot:ottId=409434,^ot:ottTaxonName=Phalacrocorax harrisi,^ot:originalLabel=Nannopterum_harrisi,^clo:ClementsTaxonName2019=Phalacrocorax harrisi,^clo:speciescode2019=flicor1])node40)node39,otu37[&otu=otu37,^ot:ottId=1021952,^ot:ottTaxonName=Phalacrocorax aristotelis,^ot:originalLabel=Gulosus_aristotelis,^clo:ClementsTaxonName2019=Phalacrocorax aristotelis,^clo:speciescode2019=eursha1])node38,((otu16[&otu=otu16,^ot:ottId=9830,^ot:ottTaxonName=Phalacrocorax penicillatus,^ot:originalLabel=Urile_penicillatus,^clo:ClementsTaxonName2019=Phalacrocorax penicillatus,^clo:speciescode2019=bracor],(otu14[&otu=otu14,^ot:ottId=744568,^ot:ottTaxonName=Phalacrocorax pelagicus,^ot:originalLabel=Urile_pelagicus,^clo:ClementsTaxonName2019=Phalacrocorax pelagicus,^clo:speciescode2019=pelcor],otu15[&otu=otu15,^ot:ottId=744567,^ot:ottTaxonName=Phalacrocorax urile,^ot:originalLabel=Urile_urile,^clo:ClementsTaxonName2019=Phalacrocorax urile,^clo:speciescode2019=refcor])node34)node33,((((((otu1[&otu=otu1,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor],otu2[&otu=otu2,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Phalacrocorax_carbo_novaehollandiae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node13,otu3[&otu=otu3,^ot:ottId=9835,^ot:ottTaxonName=Phalacrocorax capillatus,^ot:originalLabel=Phalacrocorax_capillatus,^clo:ClementsTaxonName2019=Phalacrocorax capillatus,^clo:speciescode2019=japcor1])node12,(otu5[&otu=otu5,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Phalacrocorax_carbo_sinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu4[&otu=otu4,^ot:ottId=3600657,^ot:ottTaxonName=Phalacrocorax lucidus,^ot:originalLabel=Phalacrocorax_carbo_lucidus,^clo:ClementsTaxonName2019=Phalacrocorax carbo lucidus,^clo:speciescode2019=grecor4])node17)node11,otu6[&otu=otu6,^ot:ottId=9836,^ot:ottTaxonName=Phalacrocorax capensis,^ot:originalLabel=Phalacrocorax_capensis,^clo:ClementsTaxonName2019=Phalacrocorax capensis,^clo:speciescode2019=capcor1])node10,((((otu8[&otu=otu8,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Phalacrocorax_varius,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1],otu7[&otu=otu7,^ot:ottId=939761,^ot:ottTaxonName=Phalacrocorax fuscescens,^ot:originalLabel=Phalacrocorax_fuscescens,^clo:ClementsTaxonName2019=Phalacrocorax fuscescens,^clo:speciescode2019=blfcor1])node24,otu9[&otu=otu9,^ot:ottId=443642,^ot:ottTaxonName=Phalacrocorax sulcirostris,^ot:originalLabel=Phalacrocorax_sulcirostris,^clo:ClementsTaxonName2019=Phalacrocorax sulcirostris,^clo:speciescode2019=libcor1])node23,(otu11[&otu=otu11,^ot:ottId=480891,^ot:ottTaxonName=Phalacrocorax punctatus,^ot:originalLabel=Phalacrocorax_punctatus,^clo:ClementsTaxonName2019=Phalacrocorax punctatus,^clo:speciescode2019=sposha1],otu10[&otu=otu10,^ot:ottId=480886,^ot:ottTaxonName=Phalacrocorax featherstoni,^ot:originalLabel=Phalacrocorax_featherstoni,^clo:ClementsTaxonName2019=Phalacrocorax featherstoni,^clo:speciescode2019=piisha1])node28)node22,otu12[&otu=otu12,^ot:ottId=780772,^ot:ottTaxonName=Phalacrocorax nigrogularis,^ot:originalLabel=Phalacrocorax_nigrogularis,^clo:ClementsTaxonName2019=Phalacrocorax nigrogularis,^clo:speciescode2019=soccor1])node21)node9,otu13[&otu=otu13,^ot:ottId=31575,^ot:ottTaxonName=Phalacrocorax neglectus,^ot:originalLabel=Phalacrocorax_neglectus,^clo:ClementsTaxonName2019=Phalacrocorax neglectus,^clo:speciescode2019=bancor1])node8)node7)node6)node5)node4)node3,(otu43[&otu=otu43,^ot:ottId=1030314,^ot:ottTaxonName=Sula sula,^ot:originalLabel=Sula_sula,^clo:ClementsTaxonName2019=Sula sula,^clo:speciescode2019=refboo],otu42[&otu=otu42,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1])node84)node2,otu44[&otu=otu44,^ot:ottId=901992,^ot:ottTaxonName=Pelecanus occidentalis carolinensis,^ot:originalLabel=Pelecanus_occidentalis_carolinensis,^clo:ClementsTaxonName2019=Pelecanus occidentalis carolinensis,^clo:speciescode2019=brnpel2])node1;
+END;
+

@@ -1,0 +1,112 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Colius striatus	spemou2	Colius_striatus	462544	Colius striatus
+otu33	Aegolius acadicus	nswowl	Aegolius_acadicus	509850	Aegolius acadicus
+otu32	Aegolius harrisii	bufowl1	Aegolius_harrisii	546098	Aegolius harrisii
+otu31	Aegolius funereus	borowl	Aegolius_funereus	735586	Aegolius funereus
+otu13	Athene noctua	litowl1	Athene_noctua	427150	Athene noctua
+otu14	Athene brama	spoowl1	Athene_brama	98069	Athene brama
+otu12	Athene cunicularia	burowl	Athene_cunicularia	944695	Athene cunicularia
+otu30	Surnia ulula	nohowl	Surnia_ulula	440408	Surnia ulula
+otu29	Glaucidium cuculoides	asbowl1	Glaucidium_cuculoides	277290	Glaucidium cuculoides
+otu28	Glaucidium capense	afbowl1	Glaucidium_capense	971549	Glaucidium capense
+otu15	Glaucidium tephronotum	recowl1	Glaucidium_tephronotum	546089	Glaucidium tephronotum
+otu16	Glaucidium passerinum	eupowl1	Glaucidium_passerinum	1072145	Glaucidium passerinum
+otu17	Glaucidium perlatum	pesowl1	Glaucidium_perlatum	1016849	Glaucidium perlatum
+otu21	Glaucidium jardinii	anpowl1	Glaucidium_jardinii	332039	Glaucidium jardinii
+otu22	Glaucidium bolivianum	yupowl1	Glaucidium_bolivianum	226995	Glaucidium bolivianum
+otu23	Glaucidium hardyi	amapyo1	Glaucidium_hardyi	381785	Glaucidium hardyi
+otu24	Glaucidium peruanum	pepowl1	Glaucidium_peruanum	381775	Glaucidium peruanum
+otu25	no_match	no_match	Glaucidium_nana	332037	Glaucidium nanum
+otu26	Glaucidium griseiceps	capowl1	Glaucidium_griseiceps	533374	Glaucidium griseiceps
+otu27	Glaucidium brasilianum	fepowl	Glaucidium_brasilianum	933120	Glaucidium brasilianum
+otu18	Glaucidium minutissimum	leapyo1	Glaucidium_minutissimum	462552	Glaucidium minutissimum
+otu20	Glaucidium gnoma	nopowl	Glaucidium_gnoma	178693	Glaucidium gnoma
+otu19	no_match	no_match	Glaucidium_californicum	332071	Glaucidium californicum
+otu11	Micrathene whitneyi	elfowl	Micrathene_whitneyi	254541	Micrathene whitneyi
+otu63	Pulsatrix perspicillata	speowl1	Pulsatrix_perspicillata	116528	Pulsatrix perspicillata
+otu62	Pulsatrix koeniswaldiana	tabowl1	Pulsatrix_koeniswaldiana	395192	Pulsatrix koeniswaldiana
+otu65	Strix woodfordii	afwowl1	Strix_woodfordii	752976	Strix woodfordii
+otu67	Strix uralensis	uraowl1	Strix_uralensis	427903	Strix uralensis
+otu68	Strix davidi	pedowl1	Strix_davidi	749477	Strix davidi
+otu66	Strix aluco	tawowl1	Strix_aluco	116522	Strix aluco
+otu71	Strix leptogrammica	brwowl1	Strix_leptogrammica	395194	Strix leptogrammica
+otu70	Strix nebulosa	grgowl	Strix_nebulosa	395196	Strix nebulosa
+otu69	Strix butleri	omaowl1	Strix_butleri	116538	Strix butleri
+otu72	Strix occidentalis	spoowl	Strix_occidentalis	273899	Strix occidentalis
+otu74	not_a_bird	not_a_bird	Strix_virgata	None	None
+otu75	Strix rufipes	rulowl1	Strix_rufipes	1021960	Strix rufipes
+otu73	Strix varia	brdowl	Strix_varia	509065	Strix varia
+otu64	Lophostrix cristata	creowl1	Lophostrix_cristata	178674	Lophostrix cristata
+otu76	Bubo lacteus	veeowl1	Bubo_lacteus	971551	Bubo lacteus
+otu77	Bubo nipalensis	sbeowl1	Bubo_nipalensis	546095	Bubo nipalensis
+otu79	Ketupa zeylonensis	brfowl1	Ketupa_zeylonensis	445326	Ketupa zeylonensis
+otu78	Ketupa ketupu	bufowl2	Ketupa_ketupu	3595669	Ketupa ketupu
+otu80	Bubo scandiacus	snoowl1	Bubo_scandiacus	514178	Bubo scandiacus
+otu81	Bubo virginianus	grhowl	Bubo_virginianus	509853	Bubo virginianus
+otu82	Bubo virginianus magellanicus	grhowl2	Bubo_magellanicus	381747	Bubo magellanicus
+otu83	Bubo capensis	caeowl1	Bubo_capensis	4801	Bubo capensis
+otu85	Bubo bubo	eueowl1	Bubo_bubo	402453	Bubo bubo
+otu84	Bubo ascalaphus	pheowl1	Bubo_ascalaphus	971547	Bubo ascalaphus
+otu86	Bubo africanus	speowl2	Bubo_africanus	971543	Bubo africanus
+otu87	Bubo bengalensis	roeowl1	Bubo_bengalensis	971545	Bubo bengalensis
+otu88	not_a_bird	not_a_bird	Megascops_flammeolus	4131247	Megascops flammeolus
+otu95	not_a_bird	not_a_bird	Megascops_roboratus	None	None
+otu96	Megascops watsonii	tabsco1	Megascops_watsonii	1027761	Megascops watsonii
+otu97	Megascops atricapilla	bkcsco1	Megascops_atricapilla	4792	Megascops atricapilla
+otu100	not_a_bird	not_a_bird	Megascops_sanctaecatarinae	None	None
+otu101	Megascops guatemalae	vesowl	Megascops_guatemalae	921071	Megascops guatemalae
+otu102	no_match	no_match	Megascops_napensis	475894	Megascops napensis
+otu98	Megascops kennicottii	wesowl1	Megascops_kennicottii	178680	Megascops kennicottii
+otu99	Megascops asio	easowl1	Megascops_asio	570960	Megascops asio
+otu94	Megascops hoyi	mofsco1	Megascops_hoyi	4806	Megascops hoyi
+otu93	not_a_bird	not_a_bird	Megascops_petersoni	None	None
+otu92	Megascops choliba	trsowl	Megascops_choliba	4802	Megascops choliba
+otu91	Megascops koepckeae	koesco1	Megascops_koepckeae	851808	Megascops koepckeae
+otu90	Megascops albogularis	whtsco1	Megascops_albogularis	424112	Megascops albogularis
+otu89	Megascops trichopsis	whsowl1	Megascops_trichopsis	621249	Megascops trichopsis
+otu56	Ptilopsis granti	swfowl1	Ptilopsis_granti	1052339	Ptilopsis granti
+otu57	Ptilopsis leucotis	nwfowl1	Ptilopsis_leucotis	1052340	Ptilopsis leucotis
+otu58	Asio otus	loeowl	Asio_otus	1060752	Asio otus
+otu59	Asio clamator	strowl1	Pseudoscops_clamator	1023137	Pseudoscops clamator
+otu61	Asio flammeus	sheowl	Asio_flammeus	509846	Asio flammeus
+otu60	Asio capensis	marowl2	Asio_capensis	951079	Asio capensis
+otu34	Otus ireneae	sosowl1	Otus_ireneae	851813	Otus ireneae
+otu38	Otus lettia	cosowl1	Otus_lettia	271293	Otus lettia
+otu39	Otus bakkamoena	insowl1	Otus_bakkamoena	546103	Otus bakkamoena
+otu40	Otus lempiji	susowl2	Otus_lempiji	1021966	Otus lempiji
+otu35	Otus gurneyi	mineao1	Mimizuku_gurneyi	767828	Mimizuku gurneyi
+otu36	Otus semitorques	jasowl1	Otus_semitorques	218920	Otus semitorques
+otu37	Otus megalotis	phsowl1	Otus_megalotis	1086556	Otus megalotis
+otu54	Otus spilocephalus	mosowl2	Otus_spilocephalus	788568	Otus spilocephalus
+otu55	Otus sunia	orsowl	Otus_sunia	218922	Otus sunia
+otu45	Otus elegans	ryusco1	Otus_elegans	17176	Otus elegans
+otu51	Otus rutilus	masowl1	Otus_rutilus	61752	Otus rutilus
+otu50	Otus mayottensis	maysco1	Otus_mayottensis	851814	Otus mayottensis
+otu49	Otus capnodes	ansowl2	Otus_capnodes	851805	Otus capnodes
+otu48	Otus insularis	sesowl1	Otus_insularis	851812	Otus insularis
+otu53	Otus pauliani	cosowl3	Otus_pauliani	277289	Otus pauliani
+otu52	Otus moheliensis	mohsco1	Otus_moheliensis	851815	Otus moheliensis
+otu46	Otus longicornis	lusowl1	Otus_longicornis	1086559	Otus longicornis
+otu47	Otus mirus	misowl1	Otus_mirus	1086562	Otus mirus
+otu43	Otus scops	eursco1	Otus_scops	921080	Otus scops
+otu44	Otus brucei	pasowl3	Otus_brucei	445330	Otus brucei
+otu42	Otus senegalensis	afsowl1	Otus_senegalensis	277291	Otus senegalensis
+otu41	Otus pembaensis	pesowl2	Otus_pembaensis	277288	Otus pembaensis
+otu2	Ninox scutulata	brnhao1	Ninox_scutulata	546091	Ninox scutulata
+otu3	Ninox philippensis	phihao1	Ninox_philippensis	767823	Ninox philippensis
+otu8	Ninox boobook	souboo8	Ninox_boobook	475893	Ninox boobook
+otu10	Ninox rudolfi	sumboo1	Ninox_rudolfi	475892	Ninox rudolfi
+otu9	Ninox squamipila	molhao4	Ninox_squamipila	404896	Ninox squamipila
+otu7	Ninox connivens	barowl1	Ninox_connivens	404895	Ninox connivens
+otu6	Ninox novaeseelandiae	morepo2	Ninox_novaeseelandiae	285637	Ninox novaeseelandiae
+otu5	Ninox rufa	rufowl2	Ninox_rufa	970646	Ninox rufa
+otu4	Ninox strenua	powowl1	Ninox_strenua	525625	Ninox strenua
+otu103	Phodilus badius	orbowl1	Phodilus_badius	842854	Phodilus badius
+otu104	Tyto novaehollandiae	aumowl1	Tyto_novaehollandiae	799262	Tyto novaehollandiae
+otu106	Tyto longimembris	ausgro1	Tyto_longimembris	799259	Tyto longimembris
+otu105	Tyto capensis	afgowl1	Tyto_capensis	794579	Tyto capensis
+otu109	Tyto alba	brnowl	Tyto_alba	1065606	Tyto alba
+otu108	Tyto glaucops	asfowl1	Tyto_glaucops	1072270	Tyto glaucops
+otu107	Tyto tenebricosa	sooowl1	Tyto_tenebricosa	496495	Tyto tenebricosa
+otu110	Leptosomus discolor	cuckoo1	Leptosomus_discolor	897867	Leptosomus discolor
+otu111	Pandion haliaetus	osprey	Pandion_haliaetus	509837	Pandion haliaetus

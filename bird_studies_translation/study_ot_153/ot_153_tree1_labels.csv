@@ -1,0 +1,27 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu12	Pteroglossus torquatus sanguineus	colara4	Pteroglossus_torquatus_sanguineus	246960	Pteroglossus sanguineus
+otu13	Pteroglossus torquatus erythropygius	colara5	Pteroglossus_torquatus_erythropygius	769988	Pteroglossus erythropygius
+otu14	Pteroglossus frantzii	fibara1	Pteroglossus_frantzii	355169	Pteroglossus frantzii
+otu15	Pteroglossus torquatus	colara1	Pteroglossus_torquatus_torquatus	450968	Pteroglossus torquatus
+otu11	no_match	no_match	Pteroglossus_aracari_aracari	1031362	Pteroglossus aracari aracari
+otu10	no_match	no_match	Pteroglossus_aracari_atricollis	1031356	Pteroglossus aracari atricollis
+otu9	Pteroglossus pluricinctus	mabara1	Pteroglossus_pluricinctus	769998	Pteroglossus pluricinctus
+otu8	no_match	no_match	Pteroglossus_castanotis_australis	829345	Pteroglossus castanotis australis
+otu7	no_match	no_match	Pteroglossus_castanotis_castanotis	829343	Pteroglossus castanotis castanotis
+otu4	Pteroglossus azara flavirostris	ivbara4	Pteroglossus_azara_flavirostris	355349	Pteroglossus azara flavirostris
+otu5	Pteroglossus azara mariae	ivbara3	Pteroglossus_azara_mariae	770000	Pteroglossus mariae
+otu6	Pteroglossus azara azara	ivbara5	Pteroglossus_azara_azara	263560	Pteroglossus azara azara
+otu1	Pteroglossus bitorquatus sturmii	renara2	Pteroglossus_bitorquatus_sturmi	829349	Pteroglossus bitorquatus sturmii
+otu2	no_match	no_match	Pteroglossus_bitorquatus_reichenowi	829347	Pteroglossus bitorquatus reichenowi
+otu3	Pteroglossus beauharnaesii	cucara1	Pteroglossus_beauharnaesii	640525	Pteroglossus beauharnaesii
+otu16	Pteroglossus inscriptus inscriptus	letara3	Pteroglossus_inscriptus_inscriptus	829342	Pteroglossus inscriptus inscriptus
+otu17	Pteroglossus inscriptus humboldti	letara2	Pteroglossus_inscriptus_humboldtii	305170	Pteroglossus inscriptus humboldti
+otu18	Pteroglossus viridis	greara1	Pteroglossus_viridis	246963	Pteroglossus viridis
+otu19	Pteroglossus bailloni	saftou2	Pteroglossus_bailloni	130076	Pteroglossus bailloni
+otu22	Selenidera reinwardtii	goctou1	Selenidera_reinwardtii	485266	Selenidera reinwardtii
+otu23	Andigena cucullata	homtou1	Andigena_cucullata	485268	Andigena cucullata
+otu21	Aulacorhynchus prasinus caeruleogularis	emetou4	Aulacorhynchus_prasinus_caeruleogularis	564506	Aulacorhynchus caeruleogularis
+otu20	no_match	no_match	Aulacorhynchus_prasinus_atrogularis	288964	Aulacorhynchus atrogularis
+otu24	Ramphastos vitellinus ariel	chbtou2	Ramphastos_vitellinus_ariel	266063	Ramphastos ariel
+otu25	Semnornis frantzii	prbbar1	Semnornis_frantzii	542000	Semnornis frantzii
+otu26	Semnornis ramphastinus	toubar1	Semnornis_ramphastinus	1068256	Semnornis ramphastinus

@@ -1,0 +1,62 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu168	Cacomantis pallidus	palcuc1	Cacomantis_pallidus	3596351	Cacomantis pallidus
+otu167	Cacomantis leucolophus	whckoe1	Cacomantis_leucolophus	3596352	Cacomantis leucolophus
+otu166	Cacomantis flabelliformis	fatcuc1	Cacomantis_flabelliformis	792623	Cacomantis flabelliformis
+otu165	Cacomantis castaneiventris	chbcuc3	Cacomantis_castaneiventris	3596353	Cacomantis castaneiventris
+otu161	no_match	no_match	Cacomantis_variolosus_heinrichi	5560110	Cacomantis heinrichi
+otu160	no_match	no_match	Cacomantis_variolosus_sepulcralis	792619	Cacomantis sepulcralis
+otu159	Cacomantis variolosus	brucuc1	Cacomantis_variolosus_variolosus	169265	Cacomantis variolosus
+otu163	Cacomantis merulinus	placuc1	Cacomantis_merulinus	169267	Cacomantis merulinus
+otu162	Cacomantis passerinus	placuc3	Cacomantis_passerinus	3596350	Cacomantis passerinus
+otu164	Cacomantis sonneratii	babcuc2	Cacomantis_sonneratii	3596354	Cacomantis sonneratii
+otu155	Surniculus dicruroides	asidrc2	Surniculus_dicruroides	3596356	Surniculus dicruroides
+otu153	Surniculus musschenbroeki	asidrc4	Surniculus_musschenbroeki	3596357	Surniculus musschenbroeki
+otu152	Surniculus lugubris	asidrc3	Surniculus_lugubris	626955	Surniculus lugubris
+otu154	Surniculus velutinus	phidrc1	Surniculus_velutinus	3596355	Surniculus velutinus
+otu158	Cercococcyx mechowi	dltcuc1	Cercococcyx_mechowi	3596361	Cercococcyx mechowi
+otu157	Cercococcyx olivinus	oltcuc1	Cercococcyx_olivinus	3596360	Cercococcyx olivinus
+otu156	Cercococcyx montanus	bltcuc1	Cercococcyx_montanus	780426	Cercococcyx montanus
+otu149	Hierococcyx varius	cohcuc1	Hierococcyx_varius	3596335	Hierococcyx varius
+otu148	Hierococcyx sparverioides	larhac2	Hierococcyx_sparverioides	1050027	Hierococcyx sparverioides
+otu150	not_a_bird	not_a_bird	Hierococcyx_bocki	3596331	Hierococcyx bocki
+otu147	Hierococcyx hyperythrus	nohcuc1	Hierococcyx_hyperythrus	3596337	Hierococcyx hyperythrus
+otu146	Hierococcyx pectoralis	phhcuc1	Hierococcyx_pectoralis	3596336	Hierococcyx pectoralis
+otu144	Hierococcyx fugax	malhac1	Hierococcyx_fugax	3596334	Hierococcyx fugax
+otu145	Hierococcyx nisicolor	hodhac1	Hierococcyx_nisicolor	3596332	Hierococcyx nisicolor
+otu151	Hierococcyx vagans	mohcuc1	Hierococcyx_vagans	3596333	Hierococcyx vagans
+otu142	not_a_bird	not_a_bird	Cuculus_clamosus_clamosus	None	None
+otu143	not_a_bird	not_a_bird	Cuculus_clamosus_gabonensis	None	None
+otu133	Cuculus saturatus	himcuc1	Cuculus_saturatus	549514	Cuculus saturatus
+otu134	Cuculus saturatus	himcuc1	Cuculus_optatus	549514	Cuculus saturatus
+otu135	Cuculus canorus	comcuc	Cuculus_canorus	792628	Cuculus canorus
+otu137	Cuculus rochii	madcuc1	Cuculus_rochii	3596306	Cuculus rochii
+otu136	Cuculus gularis	afrcuc1	Cuculus_gularis	3596312	Cuculus gularis
+otu138	Cuculus micropterus	indcuc1	Cuculus_micropterus	3596307	Cuculus micropterus
+otu139	Cuculus crassirostris	suhcuc1	Cuculus_crassirostris	3596308	Cuculus crassirostris
+otu140	Cuculus poliocephalus	lescuc1	Cuculus_poliocephalus	550040	Cuculus poliocephalus
+otu141	Cuculus solitarius	reccuc1	Cuculus_solitarius	3596309	Cuculus solitarius
+otu184	Chrysococcyx maculatus	asecuc1	Chrysococcyx_maculatus	3596342	Chrysococcyx maculatus
+otu185	Chrysococcyx xanthorhynchus	viocuc1	Chrysococcyx_xanthorhynchus	3596344	Chrysococcyx xanthorhynchus
+otu179	Chrysococcyx cupreus	afecuc1	Chrysococcyx_cupreus_1	3596340	Chrysococcyx cupreus
+otu180	Chrysococcyx cupreus	afecuc1	Chrysococcyx_cupreus_2	3596340	Chrysococcyx cupreus
+otu181	Chrysococcyx flavigularis	yetcuc1	Chrysococcyx_flavigularis	690366	Chrysococcyx flavigularis
+otu182	Chrysococcyx klaas	klacuc1	Chrysococcyx_klaas	792620	Chrysococcyx klaas
+otu183	Chrysococcyx caprius	didcuc1	Chrysococcyx_caprius	3596339	Chrysococcyx caprius
+otu178	Chrysococcyx megarhynchus	lobcuc1	Chrysococcyx_megarhynchus	3596347	Chrysococcyx megarhynchus
+otu177	Chrysococcyx basalis	hobcuc1	Chrysococcyx_basalis	664650	Chalcites basalis
+otu176	Chrysococcyx osculans	blecuc1	Chrysococcyx_osculans	550039	Chrysococcyx osculans
+otu175	Chrysococcyx ruficollis	rtbcuc1	Chrysococcyx_ruficollis	3596346	Chrysococcyx ruficollis
+otu174	not_a_bird	not_a_bird	Chrysococcyx_lucidus_plagosus	None	None
+otu173	not_a_bird	not_a_bird	Chrysococcyx_lucidus_layardi	None	None
+otu169	not_a_bird	not_a_bird	Chrysococcyx_minutillus_barnardi	None	None
+otu170	not_a_bird	not_a_bird	Chrysococcyx_minutillus_poecilurus	None	None
+otu171	no_match	no_match	Chrysococcyx_minutillus_crassirostris	3596338	Chrysococcyx crassirostris
+otu172	Chrysococcyx meyerii	webcuc1	Chrysococcyx_meyeri	3596349	Chrysococcyx meyeri
+otu187	Urodynamis taitensis	lotkoe1	Urodynamis_taitensis	526771	Eudynamys taitensis
+otu186	Scythrops novaehollandiae	chbcuc2	Scythrops_novaehollandiae	119216	Scythrops novaehollandiae
+otu193	Pachycoccyx audeberti	thbcuc1	Pachycoccyx_audeberti	3605232	Pachycoccyx audeberti
+otu192	Microdynamis parva	dwakoe1	Microdynamis_parva	3601546	Microdynamis parva
+otu191	Eudynamys scolopaceus	asikoe2	Eudynamys_scolopaceus_scolopaceus	212175	Eudynamys scolopaceus
+otu190	Eudynamys melanorhynchus	bkbkoe1	Eudynamys_scolopaceus_melanorhyncha	5560112	Eudynamys melanorhyncha
+otu189	Eudynamys orientalis	asikoe3	Eudynamys_scolopaceus_alberti	3596321	Eudynamys orientalis
+otu188	no_match	no_match	Eudynamys_scolopaceus_cyanocephala	5560111	Eudynamys cyanocephala

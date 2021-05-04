@@ -1,0 +1,36 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+        otu312418
+        otu312419
+        otu312412
+        otu312413
+        otu312410
+        otu312411
+        otu312416
+        otu312417
+        otu312414
+        otu312415
+        otu312399
+        otu312398
+        otu312421
+        otu312420
+        otu312409
+        otu312408
+        otu312401
+        otu312400
+        otu312403
+        otu312402
+        otu312405
+        otu312404
+        otu312407
+        otu312406
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._7 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](otu312411:0.140947[&otu=otu312411,^ot:ottId=467867,^ot:ottTaxonName=Aegithalos caudatus,^ot:originalLabel=Aegithalos_caudatus_AB159169,^clo:ClementsTaxonName2019=Aegithalos caudatus,^clo:speciescode2019=lottit1],otu312404:0.122934[&otu=otu312404,^ot:ottId=1058772,^ot:ottTaxonName=Psaltriparus minimus,^ot:originalLabel=Psaltriparus_minimus_AF074597,^clo:ClementsTaxonName2019=Psaltriparus minimus,^clo:speciescode2019=bushti],(((otu312421:0.080997[&otu=otu312421,^ot:ottId=903277,^ot:ottTaxonName=Cettia fortipes,^ot:originalLabel=Cettia_fortipes_L77122,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu312399:0.003326[&otu=otu312399,^ot:ottId=721920,^ot:ottTaxonName=Cettia annae,^ot:originalLabel=Cettia_annae_AMNH332080_DQ288970,^clo:ClementsTaxonName2019=Horornis annae,^clo:speciescode2019=pabwar1],otu312415:0.001587[&otu=otu312415,^ot:ottId=721920,^ot:ottTaxonName=Cettia annae,^ot:originalLabel=Cettia_annae_AMNH332081_DQ288971,^clo:ClementsTaxonName2019=Horornis annae,^clo:speciescode2019=pabwar1])node795802:0.019287,(((otu312419[&otu=otu312419,^ot:ottId=721919,^ot:ottTaxonName=Cettia ruficapilla,^ot:originalLabel=Cettia_ruficapilla_AMNH224390_DQ288968,^clo:ClementsTaxonName2019=Horornis ruficapilla,^clo:speciescode2019=fibwar1],otu312413:0.001617[&otu=otu312413,^ot:ottId=721919,^ot:ottTaxonName=Cettia ruficapilla,^ot:originalLabel=Cettia_ruficapilla_AMNH251968_DQ288969,^clo:ClementsTaxonName2019=Horornis ruficapilla,^clo:speciescode2019=fibwar1])node795796:0.018732,otu312402:0.025578[&otu=otu312402,^ot:ottId=743801,^ot:ottTaxonName=Cettia haddeni,^ot:originalLabel=Cettia_haddeni_AMNH836189_DQ066451,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node795794:0.004894,(otu312407[&otu=otu312407,^ot:ottId=147444,^ot:ottTaxonName=Cettia parens,^ot:originalLabel=Cettia_parens_AMNH228061_DQ288966,^clo:ClementsTaxonName2019=Horornis parens,^clo:speciescode2019=shawar1],otu312417[&otu=otu312417,^ot:ottId=147444,^ot:ottTaxonName=Cettia parens,^ot:originalLabel=Cettia_parens_AMNH228065_DQ288967,^clo:ClementsTaxonName2019=Horornis parens,^clo:speciescode2019=shawar1])node795799:0.022281)node795793:0.004362)node795792:0.008844,(((otu312398:0.001628[&otu=otu312398,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_5_AB159195,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar],otu312410[&otu=otu312410,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_4_AB159196,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar],otu312408[&otu=otu312408,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_6_AB159194,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar],otu312405:0.003318[&otu=otu312405,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_7_D38315,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar])node795787:0.001632,otu312412[&otu=otu312412,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_3_AB159197,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar])node795785:0.017643,(otu312406[&otu=otu312406,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_2_AB159198,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar],otu312418[&otu=otu312418,^ot:ottId=1076190,^ot:ottTaxonName=Cettia diphone,^ot:originalLabel=Cettia_diphone_1_AB159199,^clo:ClementsTaxonName2019=Horornis diphone,^clo:speciescode2019=jabwar])node795782:0.014027)node795781:0.012758)node795780:0.039731)node795778:0.027638,(otu312403[&otu=otu312403,^ot:ottId=1010418,^ot:ottTaxonName=Cettia cetti,^ot:originalLabel=Cettia_cetti_3_AJ004311,^clo:ClementsTaxonName2019=Cettia cetti,^clo:speciescode2019=cetwar1],(otu312400:0.044119[&otu=otu312400,^ot:ottId=1010418,^ot:ottTaxonName=Cettia cetti,^ot:originalLabel=Cettia_cetti_4_AJ004798,^clo:ClementsTaxonName2019=Cettia cetti,^clo:speciescode2019=cetwar1],(otu312401:0.018457[&otu=otu312401,^ot:ottId=1010418,^ot:ottTaxonName=Cettia cetti,^ot:originalLabel=Cettia_cetti_1_AJ004313,^clo:ClementsTaxonName2019=Cettia cetti,^clo:speciescode2019=cetwar1],otu312420[&otu=otu312420,^ot:ottId=1010418,^ot:ottTaxonName=Cettia cetti,^ot:originalLabel=Cettia_cetti_2_AJ004312,^clo:ClementsTaxonName2019=Cettia cetti,^clo:speciescode2019=cetwar1])node795773)node795772)node795771:0.158841)node795770:0.007643,(otu312414:0.002848[&otu=otu312414,^ot:ottId=699766,^ot:ottTaxonName=Urosphena squameiceps,^ot:originalLabel=Urosphena_squameiceps_3_AB159179,^clo:ClementsTaxonName2019=Urosphena squameiceps,^clo:speciescode2019=asistu1],(otu312409[&otu=otu312409,^ot:ottId=699766,^ot:ottTaxonName=Urosphena squameiceps,^ot:originalLabel=Urosphena_squameiceps_2_AB159177,^clo:ClementsTaxonName2019=Urosphena squameiceps,^clo:speciescode2019=asistu1],otu312416:0.004903[&otu=otu312416,^ot:ottId=699766,^ot:ottTaxonName=Urosphena squameiceps,^ot:originalLabel=Urosphena_squameiceps_1_AB159178,^clo:ClementsTaxonName2019=Urosphena squameiceps,^clo:speciescode2019=asistu1])node795766:0.000412)node795765:0.04705)node795764:0.092619)node795763;
+END;
+

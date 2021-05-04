@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=291645,nearestTaxonMRCAName=Pteroglossus,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((((((otu12[&otu=otu12,^ot:ottId=246960,^ot:ottTaxonName=Pteroglossus sanguineus,^ot:originalLabel=Pteroglossus_torquatus_sanguineus,^clo:ClementsTaxonName2019=Pteroglossus torquatus sanguineus,^clo:speciescode2019=colara4],otu13[&otu=otu13,^ot:ottId=769988,^ot:ottTaxonName=Pteroglossus erythropygius,^ot:originalLabel=Pteroglossus_torquatus_erythropygius,^clo:ClementsTaxonName2019=Pteroglossus torquatus erythropygius,^clo:speciescode2019=colara5])node29,otu14[&otu=otu14,^ot:ottId=355169,^ot:ottTaxonName=Pteroglossus frantzii,^ot:originalLabel=Pteroglossus_frantzii,^clo:ClementsTaxonName2019=Pteroglossus frantzii,^clo:speciescode2019=fibara1])node28,otu15[&otu=otu15,^ot:ottId=450968,^ot:ottTaxonName=Pteroglossus torquatus,^ot:originalLabel=Pteroglossus_torquatus_torquatus,^clo:ClementsTaxonName2019=Pteroglossus torquatus,^clo:speciescode2019=colara1])node27,(((otu11[&otu=otu11,^ot:ottId=1031362,^ot:ottTaxonName=Pteroglossus aracari aracari,^ot:originalLabel=Pteroglossus_aracari_aracari,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu10[&otu=otu10,^ot:ottId=1031356,^ot:ottTaxonName=Pteroglossus aracari atricollis,^ot:originalLabel=Pteroglossus_aracari_atricollis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node24,(otu9[&otu=otu9,^ot:ottId=769998,^ot:ottTaxonName=Pteroglossus pluricinctus,^ot:originalLabel=Pteroglossus_pluricinctus,^clo:ClementsTaxonName2019=Pteroglossus pluricinctus,^clo:speciescode2019=mabara1],(otu8[&otu=otu8,^ot:ottId=829345,^ot:ottTaxonName=Pteroglossus castanotis australis,^ot:originalLabel=Pteroglossus_castanotis_australis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=829343,^ot:ottTaxonName=Pteroglossus castanotis castanotis,^ot:originalLabel=Pteroglossus_castanotis_castanotis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node20)node19)node18,(((otu4[&otu=otu4,^ot:ottId=355349,^ot:ottTaxonName=Pteroglossus azara flavirostris,^ot:originalLabel=Pteroglossus_azara_flavirostris,^clo:ClementsTaxonName2019=Pteroglossus azara flavirostris,^clo:speciescode2019=ivbara4],otu5[&otu=otu5,^ot:ottId=770000,^ot:ottTaxonName=Pteroglossus mariae,^ot:originalLabel=Pteroglossus_azara_mariae,^clo:ClementsTaxonName2019=Pteroglossus azara mariae,^clo:speciescode2019=ivbara3])node14,otu6[&otu=otu6,^ot:ottId=263560,^ot:ottTaxonName=Pteroglossus azara azara,^ot:originalLabel=Pteroglossus_azara_azara,^clo:ClementsTaxonName2019=Pteroglossus azara azara,^clo:speciescode2019=ivbara5])node13,((otu1[&otu=otu1,^ot:ottId=829349,^ot:ottTaxonName=Pteroglossus bitorquatus sturmii,^ot:originalLabel=Pteroglossus_bitorquatus_sturmi,^clo:ClementsTaxonName2019=Pteroglossus bitorquatus sturmii,^clo:speciescode2019=renara2],otu2[&otu=otu2,^ot:ottId=829347,^ot:ottTaxonName=Pteroglossus bitorquatus reichenowi,^ot:originalLabel=Pteroglossus_bitorquatus_reichenowi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node9,otu3[&otu=otu3,^ot:ottId=640525,^ot:ottTaxonName=Pteroglossus beauharnaesii,^ot:originalLabel=Pteroglossus_beauharnaesii,^clo:ClementsTaxonName2019=Pteroglossus beauharnaesii,^clo:speciescode2019=cucara1])node8)node7)node6)node5,(((otu16[&otu=otu16,^ot:ottId=829342,^ot:ottTaxonName=Pteroglossus inscriptus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus inscriptus,^clo:speciescode2019=letara3],otu17[&otu=otu17,^ot:ottId=305170,^ot:ottTaxonName=Pteroglossus inscriptus humboldti,^ot:originalLabel=Pteroglossus_inscriptus_humboldtii,^clo:ClementsTaxonName2019=Pteroglossus inscriptus humboldti,^clo:speciescode2019=letara2])node36,otu18[&otu=otu18,^ot:ottId=246963,^ot:ottTaxonName=Pteroglossus viridis,^ot:originalLabel=Pteroglossus_viridis,^clo:ClementsTaxonName2019=Pteroglossus viridis,^clo:speciescode2019=greara1])node35,otu19[&otu=otu19,^ot:ottId=130076,^ot:ottTaxonName=Pteroglossus bailloni,^ot:originalLabel=Pteroglossus_bailloni,^clo:ClementsTaxonName2019=Pteroglossus bailloni,^clo:speciescode2019=saftou2])node34)node4,((otu22[&otu=otu22,^ot:ottId=485266,^ot:ottTaxonName=Selenidera reinwardtii,^ot:originalLabel=Selenidera_reinwardtii,^clo:ClementsTaxonName2019=Selenidera reinwardtii,^clo:speciescode2019=goctou1],otu23[&otu=otu23,^ot:ottId=485268,^ot:ottTaxonName=Andigena cucullata,^ot:originalLabel=Andigena_cucullata,^clo:ClementsTaxonName2019=Andigena cucullata,^clo:speciescode2019=homtou1])node45,(otu21[&otu=otu21,^ot:ottId=564506,^ot:ottTaxonName=Aulacorhynchus caeruleogularis,^ot:originalLabel=Aulacorhynchus_prasinus_caeruleogularis,^clo:ClementsTaxonName2019=Aulacorhynchus prasinus caeruleogularis,^clo:speciescode2019=emetou4],otu20[&otu=otu20,^ot:ottId=288964,^ot:ottTaxonName=Aulacorhynchus atrogularis,^ot:originalLabel=Aulacorhynchus_prasinus_atrogularis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node42)node41)node3,otu24[&otu=otu24,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_vitellinus_ariel,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2])node2,(otu25[&otu=otu25,^ot:ottId=542000,^ot:ottTaxonName=Semnornis frantzii,^ot:originalLabel=Semnornis_frantzii,^clo:ClementsTaxonName2019=Semnornis frantzii,^clo:speciescode2019=prbbar1],otu26[&otu=otu26,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1])node49)node1;
+END;
+

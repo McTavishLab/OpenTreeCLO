@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+        Tl2157400
+        Tl2157401
+        Tl2157402
+        Tl2157403
+        Tl2157404
+        Tl2157398
+        Tl2157399
+        Tl2157392
+        Tl2157393
+        Tl2157394
+        Tl2157395
+        Tl2157396
+        Tl2157397
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig_S3b = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](((Tl2157403:0.04825274818220382[&otu=Tl2157403,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],((Tl2157398:0.026969183382718004[&otu=Tl2157398,^ot:ottId=572162,^ot:ottTaxonName=Pucrasia macrolopha,^ot:originalLabel=Pucrasia_macrolopha,^clo:ClementsTaxonName2019=Pucrasia macrolopha,^clo:speciescode2019=kokphe1],Tl2157394:0.026969183382718004[&otu=Tl2157394,^ot:ottId=586082,^ot:ottTaxonName=Arborophila ardens,^ot:originalLabel=Arborophila_ardens,^clo:ClementsTaxonName2019=Arborophila ardens,^clo:speciescode2019=haipar1])Tn13789964:0.015867632078863513,(((Tl2157401:0.02770697255059537[&otu=Tl2157401,^ot:ottId=51356,^ot:ottTaxonName=Tragopan temminckii,^ot:originalLabel=Tragopan_temminckii,^clo:ClementsTaxonName2019=Tragopan temminckii,^clo:speciescode2019=temtra1],((Tl2157395:0.012804359051612604[&otu=Tl2157395,^ot:ottId=943883,^ot:ottTaxonName=Chrysolophus amherstiae,^ot:originalLabel=Chrysolophus_amherstiae,^clo:ClementsTaxonName2019=Chrysolophus amherstiae,^clo:speciescode2019=laaphe1],Tl2157399:0.012804359051612604[&otu=Tl2157399,^ot:ottId=572176,^ot:ottTaxonName=Syrmaticus reevesii,^ot:originalLabel=Syrmaticus_reevesii,^clo:ClementsTaxonName2019=Syrmaticus reevesii,^clo:speciescode2019=reephe1])Tn13789976:0.00250530297324654,Tl2157393:0.015309662024859144[&otu=Tl2157393,^ot:ottId=102719,^ot:ottTaxonName=Phasianus colchicus,^ot:originalLabel=Phasianus_colchicus,^clo:ClementsTaxonName2019=Phasianus colchicus,^clo:speciescode2019=rinphe])Tn13789974:0.012397310525736227)Tn13789980:0.006301836445538431,Tl2157396:0.0340088089961338[&otu=Tl2157396,^ot:ottId=446482,^ot:ottTaxonName=Meleagris gallopavo,^ot:originalLabel=Meleagris_gallopavo,^clo:ClementsTaxonName2019=Meleagris gallopavo,^clo:speciescode2019=wiltur])Tn13789975:0.0056470078575518445,(Tl2157404:0.03215377563466912[&otu=Tl2157404,^ot:ottId=438398,^ot:ottTaxonName=Tetraophasis szechenyii,^ot:originalLabel=Tetraophasis_szechenyii,^clo:ClementsTaxonName2019=Tetraophasis szechenyii,^clo:speciescode2019=szepar1],Tl2157397:0.03215377563466912[&otu=Tl2157397,^ot:ottId=689091,^ot:ottTaxonName=Lophophorus lhuysii,^ot:originalLabel=Lophophorus_lhuysii,^clo:ClementsTaxonName2019=Lophophorus lhuysii,^clo:speciescode2019=chimon1])Tn13789969:0.007502041219016528)Tn13789971:0.00318099860789587)Tn13789979:0.005415932720622303)Tn13789962:0.012481589855312059,(Tl2157400:0.016296964023087807[&otu=Tl2157400,^ot:ottId=1077380,^ot:ottTaxonName=Arborophila rufipectus,^ot:originalLabel=Arborophila_rufipectus,^clo:ClementsTaxonName2019=Arborophila rufipectus,^clo:speciescode2019=sicpar1],Tl2157402:0.016296964023087807[&otu=Tl2157402,^ot:ottId=3596048,^ot:ottTaxonName=Arborophila brunneopectus,^ot:originalLabel=Arborophila_brunneopectus,^clo:ClementsTaxonName2019=Arborophila brunneopectus,^clo:speciescode2019=babpar1])Tn13789956:0.04443737401442807)Tn13789967:0.08872635184034211,Tl2157392:0.149460689877858[&otu=Tl2157392,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3])Tn13789977;
+END;
+

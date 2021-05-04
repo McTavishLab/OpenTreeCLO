@@ -1,0 +1,62 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=50;
+    TAXLABELS
+        '2_S.papa'
+        '1_S.papa'
+        '10_G.californianus'
+        '3_S.papa'
+        Fulmarus.glacialis
+        '4_V.gryphus'
+        Apterodytes.patagonicus
+        Pygoscelis.antarcticus
+        Ardea.herodias
+        Nyctanassa.violacea
+        Larus.marinus
+        Lunda.cirrhata
+        Gallus.gallus
+        Charadrius.alexandrinus
+        Bucephala.abeola
+        Bonasa.umbellus
+        Anas.clypeata
+        Anas.platyrhunchos
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        Gallus.domesticus
+        '8_C.aura'
+        '7_C.aura'
+        '122_C.atratus'
+        Balaeniceps.rex
+        Scopus.umbretta
+        Gavia.immer
+        Asio.otus
+        Ciconia.maguari
+        Ephippiorhynchus.senegalensis
+        '9_G.californianus'
+        '6_C.atratus'
+        '113_V.gryphus'
+        '97_S.papa'
+        Pandion
+        otu15
+        Sagittarius
+        '128_C.burrovianus'
+        Caracara.cheriway
+        Falco.rusticolus
+        Falco.peregrinus
+        Falco.femoralis
+        otu50
+        otu51
+        '31_C.melambrotus'
+        '135_C.aura'
+  ;
+END;
+
+BEGIN TREES;
+    TREE Cathartidae_5Nuc_2mtDNA.SpeciesTree.MCC = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Coalescent time units,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((((otu48:3.683638[&otu=otu48,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=Sarcoramphus.pappa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1],otu49:3.683638[&otu=otu49,^ot:ottId=363015,^ot:ottTaxonName=Vultur gryphus,^ot:originalLabel=Vultur.gryphus,^clo:ClementsTaxonName2019=Vultur gryphus,^clo:speciescode2019=andcon1])node226:0.264134,otu50:3.947773[&otu=otu50,^ot:ottId=316992,^ot:ottTaxonName=Gymnogyps californianus,^ot:originalLabel=Gymnogyps.californianus,^clo:ClementsTaxonName2019=Gymnogyps californianus,^clo:speciescode2019=calcon])node225:2.182454,(((otu46:0.797363[&otu=otu46,^ot:ottId=316998,^ot:ottTaxonName=Cathartes burrovianus,^ot:originalLabel=Cathartes.burrovianus,^clo:ClementsTaxonName2019=Cathartes burrovianus,^clo:speciescode2019=lyhvul1],otu47:0.797363[&otu=otu47,^ot:ottId=651476,^ot:ottTaxonName=Cathartes melambrotus,^ot:originalLabel=Cathartes.melambrotus,^clo:ClementsTaxonName2019=Cathartes melambrotus,^clo:speciescode2019=gyhvul1])node222:0.151916,otu45:0.94928[&otu=otu45,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=Cathartes.aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul])node220:4.297859,otu44:5.247139[&otu=otu44,^ot:ottId=316995,^ot:ottTaxonName=Coragyps atratus,^ot:originalLabel=Coragyps.atratus,^clo:ClementsTaxonName2019=Coragyps atratus,^clo:speciescode2019=blkvul])node218:0.883088)node217:22.233981,otu15:28.364207[&otu=otu15,^ot:ottId=315688,^ot:ottTaxonName=Gyps bengalensis,^ot:originalLabel=Gyps.bengalensis,^clo:ClementsTaxonName2019=Gyps bengalensis,^clo:speciescode2019=whrvul1])node215:8.0731,otu51:36.437308[&otu=otu51,^ot:ottId=438664,^ot:ottTaxonName=Daptrius ater,^ot:originalLabel=Daptrius.ater,^clo:ClementsTaxonName2019=Daptrius ater,^clo:speciescode2019=blacar1])node214;
+END;
+

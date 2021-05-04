@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu414608
+        otu414609
+        otu414600
+        otu414601
+        otu414602
+        otu414603
+        otu414604
+        otu414605
+        otu414606
+        otu414607
+        Corvus_corone
+        Smithornis_rufolateralis
+        Alligator_mississippiensis
+        Gavialis_gangeticus
+        otu414599
+        otu414611
+        otu414610
+        otu414612
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Figure 1: Bayesian + ML topology (20-gene, 24-kb nuclear DNA)' = [&unrootedTree=False,curatedType=Bayesian + ML topology,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](((otu414610[&otu=otu414610,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],otu414609[&otu=otu414609,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3])node1122123,(otu414612[&otu=otu414612,^ot:ottId=363031,^ot:ottTaxonName=Ciconia ciconia,^ot:originalLabel=Ciconia_ciconia,^clo:ClementsTaxonName2019=Ciconia ciconia,^clo:speciescode2019=whisto1],otu414611[&otu=otu414611,^ot:ottId=509839,^ot:ottTaxonName=Buteo jamaicensis,^ot:originalLabel=Buteo_jamaicensis,^clo:ClementsTaxonName2019=Buteo jamaicensis,^clo:speciescode2019=rethaw])node1122126)node1122122,(((((otu414600[&otu=otu414600,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],otu414599[&otu=otu414599,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=Casuarius_casuarius,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1])node1122107,otu414601[&otu=otu414601,^ot:ottId=241834,^ot:ottTaxonName=Apteryx australis,^ot:originalLabel=Apteryx_australis,^clo:ClementsTaxonName2019=Apteryx australis,^clo:speciescode2019=sobkiw1])node1122106,((otu414602[&otu=otu414602,^ot:ottId=960236,^ot:ottTaxonName=Crypturellus soui,^ot:originalLabel=Crypturellus_soui,^clo:ClementsTaxonName2019=Crypturellus soui,^clo:speciescode2019=littin1],otu414603[&otu=otu414603,^ot:ottId=306216,^ot:ottTaxonName=Tinamus guttatus,^ot:originalLabel=Tinamus_guttatus,^clo:ClementsTaxonName2019=Tinamus guttatus,^clo:speciescode2019=whttin1])node1122112,(otu414604[&otu=otu414604,^ot:ottId=402446,^ot:ottTaxonName=Nothoprocta perdicaria,^ot:originalLabel=Nothoprocta_perdicaria,^clo:ClementsTaxonName2019=Nothoprocta perdicaria,^clo:speciescode2019=chitin1],otu414605[&otu=otu414605,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1])node1122115)node1122111)node1122105,(otu414606[&otu=otu414606,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],otu414607[&otu=otu414607,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2])node1122118)node1122104,otu414608[&otu=otu414608,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node1122103)node1122102;
+END;
+

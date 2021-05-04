@@ -1,0 +1,55 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+        Aegithalos_caudatus
+        Aegithalos_glaucogularis
+        Aegithalos_iouschistos_iouschistos
+        Aegithalos_niveogularis
+        Aegithalos_fuliginosus
+        Aegithalos_iouschistos_sharpei
+        Aegithalos_leucogenys
+        Aegithalos_iouschistos_bonvaloti
+        Aegithalos_concinnus_manipurensis
+        Aegithalos_concinnus_iredalei
+        Certhia_familiaris_daurica
+        Certhia_himalayana_himalayana
+        Certhia_hodgsoni_hodgsoni
+        Certhia_familiaris_bianchii
+        Certhia_hodgsoni_khamensis
+        Certhia_hodgsoni_mandellii
+        Certhia_brachydactyla_mauritanica
+        Certhia_americana
+        Certhia_brachydactyla
+        Leptopoecile_elegans
+        Leptopoecile_sophiae
+        Psaltriparus_minimus_plumbeus
+        Psaltriparus_minimus_minimus
+        Aegithalos_concinnus_concinnus
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        Certhia_tianquanensis
+        otu15
+        otu16
+        otu17
+        Certhia_himalayana_yunnanensis
+        Certhia_discolor
+        Certhia_manipurensis
+        Certhia_nipalensis
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4d (Pinicola+Pyrrhula)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=]((((otu25[&otu=otu25,^ot:ottId=977520,^ot:ottTaxonName=Pyrrhula aurantiaca,^ot:originalLabel=Pyrrhula_aurantiaca,^clo:ClementsTaxonName2019=Pyrrhula aurantiaca,^clo:speciescode2019=orabul1],(otu24[&otu=otu24,^ot:ottId=901358,^ot:ottTaxonName=Pyrrhula erythrocephala,^ot:originalLabel=Pyrrhula_erythrocephala,^clo:ClementsTaxonName2019=Pyrrhula erythrocephala,^clo:speciescode2019=rehbul1],(otu23[&otu=otu23,^ot:ottId=368828,^ot:ottTaxonName=Pyrrhula erythaca owstoni,^ot:originalLabel=Pyrrhula_erythaca_owstoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu22[&otu=otu22,^ot:ottId=653290,^ot:ottTaxonName=Pyrrhula erythaca erythaca,^ot:originalLabel=Pyrrhula_erythaca_erythaca,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node45)node44)node43,((otu20[&otu=otu20,^ot:ottId=978803,^ot:ottTaxonName=Pyrrhula pyrrhula griseiventris,^ot:originalLabel=Pyrrhula_pyrrhula_griseiventris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu19[&otu=otu19,^ot:ottId=526863,^ot:ottTaxonName=Pyrrhula pyrrhula cineracea,^ot:originalLabel=Pyrrhula_pyrrhula_cineracea,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu16[&otu=otu16,^ot:ottId=388146,^ot:ottTaxonName=Pyrrhula pyrrhula iberiae,^ot:originalLabel=Pyrrhula_pyrrhula_iberiae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu17[&otu=otu17,^ot:ottId=927473,^ot:ottTaxonName=Pyrrhula pyrrhula pyrrhula,^ot:originalLabel=Pyrrhula_pyrrhula_pyrrhula,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node36,otu18[&otu=otu18,^ot:ottId=927475,^ot:ottTaxonName=Pyrrhula pyrrhula pileata,^ot:originalLabel=Pyrrhula_pyrrhula_pileata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node35)node34)node33,otu21[&otu=otu21,^ot:ottId=927470,^ot:ottTaxonName=Pyrrhula murina,^ot:originalLabel=Pyrrhula_murina,^clo:ClementsTaxonName2019=Pyrrhula murina,^clo:speciescode2019=eurbul1])node32)node31,(otu28[&otu=otu28,^ot:ottId=815423,^ot:ottTaxonName=Pyrrhula nipalensis,^ot:originalLabel=Pyrrhula_nipalensis,^clo:ClementsTaxonName2019=Pyrrhula nipalensis,^clo:speciescode2019=brobul1],(otu26[&otu=otu26,^ot:ottId=1009956,^ot:ottTaxonName=Pyrrhula leucogenis leucogenis,^ot:originalLabel=Pyrrhula_leucogenis_leucogenis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu27[&otu=otu27,^ot:ottId=351893,^ot:ottTaxonName=Pyrrhula leucogenis steerei,^ot:originalLabel=Pyrrhula_leucogenis_steerei,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node51)node50)node30,otu15[&otu=otu15,^ot:ottId=341471,^ot:ottTaxonName=Pinicola enucleator,^ot:originalLabel=Pinicola_enucleator,^clo:ClementsTaxonName2019=Pinicola enucleator,^clo:speciescode2019=pingro])node28;
+END;
+

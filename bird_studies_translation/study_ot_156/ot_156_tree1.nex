@@ -1,0 +1,57 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=45;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4a = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((otu9[&otu=otu9,^ot:ottId=738747,^ot:ottTaxonName=Calorhamphus fuliginosus,^ot:originalLabel=Calorhamphus_fuliginosus_1,^clo:ClementsTaxonName2019=Caloramphus fuliginosus,^clo:speciescode2019=brnbar2],otu10[&otu=otu10,^ot:ottId=738747,^ot:ottTaxonName=Calorhamphus fuliginosus,^ot:originalLabel=Calorhamphus_fuliginosus_2,^clo:ClementsTaxonName2019=Caloramphus fuliginosus,^clo:speciescode2019=brnbar2])node19,(((((otu4[&otu=otu4,^ot:ottId=738742,^ot:ottTaxonName=Megalaima monticola,^ot:originalLabel=Megalaima_monticola,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=738749,^ot:ottTaxonName=Megalaima franklinii,^ot:originalLabel=Megalaima_franklinii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node13,otu6[&otu=otu6,^ot:ottId=738735,^ot:ottTaxonName=Megalaima oorti,^ot:originalLabel=Megalaima_oorti,^clo:ClementsTaxonName2019=Psilopogon oorti,^clo:speciescode2019=blbbar5])node12,otu7[&otu=otu7,^ot:ottId=738737,^ot:ottTaxonName=Megalaima lineata,^ot:originalLabel=Megalaima_lineata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node11,(otu3[&otu=otu3,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu2[&otu=otu2,^ot:ottId=291641,^ot:ottTaxonName=Psilopogon pyrolophus,^ot:originalLabel=Psilopogon_pyrolophus,^clo:ClementsTaxonName2019=Psilopogon pyrolophus,^clo:speciescode2019=fitbar1],otu1[&otu=otu1,^ot:ottId=1019972,^ot:ottTaxonName=Megalaima virens,^ot:originalLabel=Megalaima_virens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node7)node6)node5,otu8[&otu=otu8,^ot:ottId=738739,^ot:ottTaxonName=Megalaima haemacephala,^ot:originalLabel=Megalaima_haemacephala,^clo:ClementsTaxonName2019=Psilopogon haemacephalus,^clo:speciescode2019=copbar1])node4)node3,(((otu17[&otu=otu17,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1],(otu16[&otu=otu16,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_ariel,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2],((otu13[&otu=otu13,^ot:ottId=291850,^ot:ottTaxonName=Aulacorhynchus prasinus,^ot:originalLabel=Aulacorhynchus_prasinus,^clo:ClementsTaxonName2019=Aulacorhynchus prasinus,^clo:speciescode2019=noremt1],(otu12[&otu=otu12,^ot:ottId=485266,^ot:ottTaxonName=Selenidera reinwardtii,^ot:originalLabel=Selenidera_reinwardtii,^clo:ClementsTaxonName2019=Selenidera reinwardtii,^clo:speciescode2019=goctou1],otu11[&otu=otu11,^ot:ottId=485268,^ot:ottTaxonName=Andigena cucullata,^ot:originalLabel=Andigena_cucullata,^clo:ClementsTaxonName2019=Andigena cucullata,^clo:speciescode2019=homtou1])node28)node27,(otu14[&otu=otu14,^ot:ottId=541992,^ot:ottTaxonName=Pteroglossus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus,^clo:speciescode2019=letara1],otu15[&otu=otu15,^ot:ottId=815700,^ot:ottTaxonName=Baillonius bailloni,^ot:originalLabel=Baillonius_bailloni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node32)node26)node25)node24,(otu18[&otu=otu18,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1],otu19[&otu=otu19,^ot:ottId=815705,^ot:ottTaxonName=Eubucco bourcierii,^ot:originalLabel=Eubucco_bourcierii,^clo:ClementsTaxonName2019=Eubucco bourcierii,^clo:speciescode2019=rehbar1])node37)node23,(((otu42[&otu=otu42,^ot:ottId=741573,^ot:ottTaxonName=Stactolaema olivacea,^ot:originalLabel=Stactolaema_olivacea,^clo:ClementsTaxonName2019=Stactolaema olivacea,^clo:speciescode2019=grebar2],otu43[&otu=otu43,^ot:ottId=789428,^ot:ottTaxonName=Buccanodon duchaillui,^ot:originalLabel=Buccanodon_duchaillui,^clo:ClementsTaxonName2019=Buccanodon duchaillui,^clo:speciescode2019=yesbar1],(otu41[&otu=otu41,^ot:ottId=738733,^ot:ottTaxonName=Gymnobucco calvus,^ot:originalLabel=Gymnobucco_calvus,^clo:ClementsTaxonName2019=Gymnobucco calvus,^clo:speciescode2019=nafbar1],((otu38[&otu=otu38,^ot:ottId=214974,^ot:ottTaxonName=Stactolaema leucotis,^ot:originalLabel=Stactolaema_leucotis_1,^clo:ClementsTaxonName2019=Stactolaema leucotis,^clo:speciescode2019=whebar1],otu39[&otu=otu39,^ot:ottId=214974,^ot:ottTaxonName=Stactolaema leucotis,^ot:originalLabel=Stactolaema_leucotis_2,^clo:ClementsTaxonName2019=Stactolaema leucotis,^clo:speciescode2019=whebar1])node79,otu40[&otu=otu40,^ot:ottId=214972,^ot:ottTaxonName=Stactolaema whytii,^ot:originalLabel=Stactolaema_whytii,^clo:ClementsTaxonName2019=Stactolaema whytii,^clo:speciescode2019=whybar1])node78)node77)node76,((otu37[&otu=otu37,^ot:ottId=214980,^ot:ottTaxonName=Pogoniulus coryphaeus,^ot:originalLabel=Pogoniulus_coryphaeus,^clo:ClementsTaxonName2019=Pogoniulus coryphaea,^clo:speciescode2019=westin1],((otu34[&otu=otu34,^ot:ottId=214976,^ot:ottTaxonName=Pogoniulus scolopaceus,^ot:originalLabel=Pogoniulus_scolopaceus,^clo:ClementsTaxonName2019=Pogoniulus scolopaceus,^clo:speciescode2019=spetin1],otu35[&otu=otu35,^ot:ottId=214978,^ot:ottTaxonName=Pogoniulus chrysoconus,^ot:originalLabel=Pogoniulus_chrysoconus,^clo:ClementsTaxonName2019=Pogoniulus chrysoconus,^clo:speciescode2019=yeftin1])node71,otu36[&otu=otu36,^ot:ottId=214982,^ot:ottTaxonName=Pogoniulus atroflavus,^ot:originalLabel=Pogoniulus_atroflavus,^clo:ClementsTaxonName2019=Pogoniulus atroflavus,^clo:speciescode2019=rertin1])node70)node69,((otu33[&otu=otu33,^ot:ottId=214989,^ot:ottTaxonName=Tricholaema hirsuta,^ot:originalLabel=Tricholaema_hirsuta_2,^clo:ClementsTaxonName2019=Tricholaema hirsuta,^clo:speciescode2019=habbar1],otu32[&otu=otu32,^ot:ottId=214989,^ot:ottTaxonName=Tricholaema hirsuta,^ot:originalLabel=Tricholaema_hirsuta_1,^clo:ClementsTaxonName2019=Tricholaema hirsuta,^clo:speciescode2019=habbar1])node66,((((otu25[&otu=otu25,^ot:ottId=789435,^ot:ottTaxonName=Lybius torquatus,^ot:originalLabel=Lybius_torquatus,^clo:ClementsTaxonName2019=Lybius torquatus,^clo:speciescode2019=blcbar1],otu26[&otu=otu26,^ot:ottId=789433,^ot:ottTaxonName=Lybius vieilloti,^ot:originalLabel=Lybius_vieilloti,^clo:ClementsTaxonName2019=Lybius vieilloti,^clo:speciescode2019=viebar1])node56,otu27[&otu=otu27,^ot:ottId=789430,^ot:ottTaxonName=Tricholaema lachrymosa,^ot:originalLabel=Tricholaema_lachrymosa,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node55,(otu29[&otu=otu29,^ot:ottId=789439,^ot:ottTaxonName=Lybius melanopterus,^ot:originalLabel=Lybius_melanopterus,^clo:ClementsTaxonName2019=Lybius melanopterus,^clo:speciescode2019=brbbar1],otu28[&otu=otu28,^ot:ottId=789437,^ot:ottTaxonName=Lybius dubius,^ot:originalLabel=Lybius_dubius,^clo:ClementsTaxonName2019=Lybius dubius,^clo:speciescode2019=beabar1])node60)node54,(otu31[&otu=otu31,^ot:ottId=214987,^ot:ottTaxonName=Tricholaema leucomelas,^ot:originalLabel=Tricholaema_leucomelas,^clo:ClementsTaxonName2019=Tricholaema leucomelas,^clo:speciescode2019=piebar1],otu30[&otu=otu30,^ot:ottId=214984,^ot:ottTaxonName=Tricholaema diademata,^ot:originalLabel=Tricholaema_diademata,^clo:ClementsTaxonName2019=Tricholaema diademata,^clo:speciescode2019=refbar2])node63)node53)node52)node51)node50,((otu23[&otu=otu23,^ot:ottId=1068258,^ot:ottTaxonName=Trachyphonus darnaudii,^ot:originalLabel=Trachyphonus_darnaudii,^clo:ClementsTaxonName2019=Trachyphonus darnaudii,^clo:speciescode2019=darbar1],otu24[&otu=otu24,^ot:ottId=266067,^ot:ottTaxonName=Trachyphonus erythrocephalus,^ot:originalLabel=Trachyphonus_erythrocephalus,^clo:ClementsTaxonName2019=Trachyphonus erythrocephalus,^clo:speciescode2019=raybar1])node47,(otu22[&otu=otu22,^ot:ottId=4130726,^ot:ottTaxonName=Trachyphonus purpuratus,^ot:originalLabel=Trachyphonus_purpuratus_3,^clo:ClementsTaxonName2019=Trachyphonus purpuratus,^clo:speciescode2019=yebbar1],(otu21[&otu=otu21,^ot:ottId=4130726,^ot:ottTaxonName=Trachyphonus purpuratus,^ot:originalLabel=Trachyphonus_purpuratus_2,^clo:ClementsTaxonName2019=Trachyphonus purpuratus,^clo:speciescode2019=yebbar1],otu20[&otu=otu20,^ot:ottId=4130726,^ot:ottTaxonName=Trachyphonus purpuratus,^ot:originalLabel=Trachyphonus_purpuratus_1,^clo:ClementsTaxonName2019=Trachyphonus purpuratus,^clo:speciescode2019=yebbar1])node43)node42)node41)node40)node22)node2,(otu45[&otu=otu45,^ot:ottId=1020138,^ot:ottTaxonName=Picidae,^ot:originalLabel=Picidae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu44[&otu=otu44,^ot:ottId=467845,^ot:ottTaxonName=Indicatoridae,^ot:originalLabel=Indicatoridae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node86)node1;
+END;
+

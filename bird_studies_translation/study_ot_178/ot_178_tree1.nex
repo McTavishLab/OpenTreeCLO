@@ -1,0 +1,92 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=80;
+    TAXLABELS
+        otu77
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu72
+        otu74
+        otu58
+        otu67
+        otu8
+        otu59
+        otu6
+        otu66
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu61
+        otu60
+        otu63
+        otu62
+        otu65
+        otu64
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu7
+        otu71
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu69
+        otu80
+        otu75
+        otu68
+        otu78
+        otu73
+        otu76
+        otu70
+        otu79
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._7 = [&unrootedTree=False,messages=,curatedType=,nearestTaxonMRCAOttId=897681,nearestTaxonMRCAName=Hirundinidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu1[&otu=otu1,^ot:ottId=537132,^ot:ottTaxonName=Pseudochelidon eurystomina,^ot:originalLabel=Pseudochelidon_eurystomina,^clo:ClementsTaxonName2019=Pseudochelidon eurystomina,^clo:speciescode2019=afrmar2],otu2[&otu=otu2,^ot:ottId=588834,^ot:ottTaxonName=Pseudochelidon sirintarae,^ot:originalLabel=Pseudochelidon_sirintarae,^clo:ClementsTaxonName2019=Pseudochelidon sirintarae,^clo:speciescode2019=wermar2])node2,(((((otu14[&otu=otu14,^ot:ottId=641120,^ot:ottTaxonName=Ptyonoprogne rupestris,^ot:originalLabel=Ptyonoprogne_rupestris,^clo:ClementsTaxonName2019=Ptyonoprogne rupestris,^clo:speciescode2019=eurcrm1],(otu13[&otu=otu13,^ot:ottId=877583,^ot:ottTaxonName=Ptyonoprogne fuligula,^ot:originalLabel=Ptyonoprogne_fuligula,^clo:ClementsTaxonName2019=Ptyonoprogne fuligula,^clo:speciescode2019=rocmar2],otu12[&otu=otu12,^ot:ottId=641123,^ot:ottTaxonName=Ptyonoprogne concolor,^ot:originalLabel=Ptyonoprogne_concolor,^clo:ClementsTaxonName2019=Ptyonoprogne concolor,^clo:speciescode2019=duscrm1])node25)node24,(((otu23[&otu=otu23,^ot:ottId=487355,^ot:ottTaxonName=Hirundo tahitica,^ot:originalLabel=Hirundo_tahitica,^clo:ClementsTaxonName2019=Hirundo tahitica,^clo:speciescode2019=pacswa1],otu24[&otu=otu24,^ot:ottId=487354,^ot:ottTaxonName=Hirundo neoxena,^ot:originalLabel=Hirundo_neoxena,^clo:ClementsTaxonName2019=Hirundo neoxena,^clo:speciescode2019=welswa1])node45,((otu20[&otu=otu20,^ot:ottId=641113,^ot:ottTaxonName=Hirundo nigrita,^ot:originalLabel=Hirundo_nigrita,^clo:ClementsTaxonName2019=Hirundo nigrita,^clo:speciescode2019=wtbswa1],((otu18[&otu=otu18,^ot:ottId=1040135,^ot:ottTaxonName=Hirundo rustica,^ot:originalLabel=Hirundo_rustica_1,^clo:ClementsTaxonName2019=Hirundo rustica,^clo:speciescode2019=barswa],otu19[&otu=otu19,^ot:ottId=1040135,^ot:ottTaxonName=Hirundo rustica,^ot:originalLabel=Hirundo_rustica_2,^clo:ClementsTaxonName2019=Hirundo rustica,^clo:speciescode2019=barswa])node39,((otu15[&otu=otu15,^ot:ottId=980335,^ot:ottTaxonName=Hirundo aethiopica,^ot:originalLabel=Hirundo_aethiopica,^clo:ClementsTaxonName2019=Hirundo aethiopica,^clo:speciescode2019=ethswa1],otu16[&otu=otu16,^ot:ottId=641122,^ot:ottTaxonName=Hirundo lucida,^ot:originalLabel=Hirundo_lucida,^clo:ClementsTaxonName2019=Hirundo lucida,^clo:speciescode2019=recswa1])node35,otu17[&otu=otu17,^ot:ottId=487356,^ot:ottTaxonName=Hirundo angolensis,^ot:originalLabel=Hirundo_angolensis,^clo:ClementsTaxonName2019=Hirundo angolensis,^clo:speciescode2019=angswa1])node34)node33)node32,otu22[&otu=otu22,^ot:ottId=487353,^ot:ottTaxonName=Hirundo albigularis,^ot:originalLabel=Hirundo_albigularis,^clo:ClementsTaxonName2019=Hirundo albigularis,^clo:speciescode2019=whtswa3],otu21[&otu=otu21,^ot:ottId=487358,^ot:ottTaxonName=Hirundo smithii,^ot:originalLabel=Hirundo_smithii,^clo:ClementsTaxonName2019=Hirundo smithii,^clo:speciescode2019=witswa1])node31)node30,otu25[&otu=otu25,^ot:ottId=487359,^ot:ottTaxonName=Hirundo atrocaerulea,^ot:originalLabel=Hirundo_atrocaerulea,^clo:ClementsTaxonName2019=Hirundo atrocaerulea,^clo:speciescode2019=bluswa1],(otu26[&otu=otu26,^ot:ottId=641112,^ot:ottTaxonName=Hirundo leucosoma,^ot:originalLabel=Hirundo_leucosoma,^clo:ClementsTaxonName2019=Hirundo leucosoma,^clo:speciescode2019=piwswa1],otu27[&otu=otu27,^ot:ottId=487357,^ot:ottTaxonName=Hirundo dimidiata,^ot:originalLabel=Hirundo_dimidiata,^clo:ClementsTaxonName2019=Hirundo dimidiata,^clo:speciescode2019=pebswa1])node49)node29)node23,(((otu44[&otu=otu44,^ot:ottId=119536,^ot:ottTaxonName=Delichon dasypus,^ot:originalLabel=Delichon_dasypus,^clo:ClementsTaxonName2019=Delichon dasypus,^clo:speciescode2019=ashmar1],otu45[&otu=otu45,^ot:ottId=67920,^ot:ottTaxonName=Delichon nipalensis,^ot:originalLabel=Delichon_nipalensis,^clo:ClementsTaxonName2019=Delichon nipalense,^clo:speciescode2019=nephom1])node83,otu46[&otu=otu46,^ot:ottId=36109,^ot:ottTaxonName=Delichon urbicum,^ot:originalLabel=Delichon_urbicum,^clo:ClementsTaxonName2019=Delichon urbicum,^clo:speciescode2019=cohmar1])node82,(((otu36[&otu=otu36,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Petrochelidon_preussi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu35[&otu=otu35,^ot:ottId=67918,^ot:ottTaxonName=Petrochelidon rufigula,^ot:originalLabel=Petrochelidon_rufigula,^clo:ClementsTaxonName2019=Petrochelidon rufigula,^clo:speciescode2019=retswa2])node68,((otu37[&otu=otu37,^ot:ottId=152806,^ot:ottTaxonName=Petrochelidon rufocollaris,^ot:originalLabel=Petrochelidon_rufocollaris,^clo:ClementsTaxonName2019=Petrochelidon rufocollaris,^clo:speciescode2019=chcswa2],otu38[&otu=otu38,^ot:ottId=152808,^ot:ottTaxonName=Petrochelidon fulva,^ot:originalLabel=Petrochelidon_fulva,^clo:ClementsTaxonName2019=Petrochelidon fulva,^clo:speciescode2019=cavswa])node72,otu39[&otu=otu39,^ot:ottId=302798,^ot:ottTaxonName=Petrochelidon pyrrhonota,^ot:originalLabel=Petrochelidon_pyrrhonota,^clo:ClementsTaxonName2019=Petrochelidon pyrrhonota,^clo:speciescode2019=cliswa])node71,(otu43[&otu=otu43,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Petrochelidon_spilodera,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu41[&otu=otu41,^ot:ottId=67919,^ot:ottTaxonName=Petrochelidon fluvicola,^ot:originalLabel=Petrochelidon_fluvicola,^clo:ClementsTaxonName2019=Petrochelidon fluvicola,^clo:speciescode2019=sttswa2],otu42[&otu=otu42,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Petrochelidon_nigrcans,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu40[&otu=otu40,^ot:ottId=658130,^ot:ottTaxonName=Petrochelidon ariel,^ot:originalLabel=Petrochelidon_ariel,^clo:ClementsTaxonName2019=Petrochelidon ariel,^clo:speciescode2019=faimar2])node77)node76)node67,((((otu28[&otu=otu28,^ot:ottId=67916,^ot:ottTaxonName=Cecropis striolata,^ot:originalLabel=Cecropis_striolata,^clo:ClementsTaxonName2019=Cecropis striolata,^clo:speciescode2019=strswa2],otu29[&otu=otu29,^ot:ottId=641124,^ot:ottTaxonName=Cecropis domicella,^ot:originalLabel=Cecropis_daurica_domicella,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node57,otu30[&otu=otu30,^ot:ottId=588836,^ot:ottTaxonName=Cecropis daurica rufula,^ot:originalLabel=Cecropis_daurica_rufula,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node56,otu31[&otu=otu31,^ot:ottId=641117,^ot:ottTaxonName=Cecropis cucullata,^ot:originalLabel=Cecropis_cucullata,^clo:ClementsTaxonName2019=Cecropis cucullata,^clo:speciescode2019=grests1])node55,(otu34[&otu=otu34,^ot:ottId=641114,^ot:ottTaxonName=Cecropis abyssinica,^ot:originalLabel=Cecropis_abyssinica,^clo:ClementsTaxonName2019=Cecropis abyssinica,^clo:speciescode2019=lessts1],(otu33[&otu=otu33,^ot:ottId=744787,^ot:ottTaxonName=Cecropis semirufa,^ot:originalLabel=Cecropis_semirufa_2,^clo:ClementsTaxonName2019=Cecropis semirufa,^clo:speciescode2019=rucswa2],otu32[&otu=otu32,^ot:ottId=744787,^ot:ottTaxonName=Cecropis semirufa,^ot:originalLabel=Cecropis_semirufa_1,^clo:ClementsTaxonName2019=Cecropis semirufa,^clo:speciescode2019=rucswa2])node63)node62)node54)node53)node52)node22,(((otu10[&otu=otu10,^ot:ottId=67924,^ot:ottTaxonName=Psalidoprocne albiceps,^ot:originalLabel=Psalidoprocne_albiceps,^clo:ClementsTaxonName2019=Psalidoprocne albiceps,^clo:speciescode2019=whhsaw1],otu11[&otu=otu11,^ot:ottId=302794,^ot:ottTaxonName=Psalidoprocne holomelas,^ot:originalLabel=Psalidoprocne_holomelas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node19,((otu5[&otu=otu5,^ot:ottId=759560,^ot:ottTaxonName=Psalidoprocne petiti,^ot:originalLabel=Psalidoprocne_petiti,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu6[&otu=otu6,^ot:ottId=67922,^ot:ottTaxonName=Psalidoprocne fuliginosa,^ot:originalLabel=Psalidoprocne_fuliginosa,^clo:ClementsTaxonName2019=Psalidoprocne fuliginosa,^clo:speciescode2019=mousaw1])node13,otu8[&otu=otu8,^ot:ottId=588837,^ot:ottTaxonName=Psalidoprocne obscura,^ot:originalLabel=Psalidoprocne_obscura,^clo:ClementsTaxonName2019=Psalidoprocne obscura,^clo:speciescode2019=fansaw1],otu7[&otu=otu7,^ot:ottId=588838,^ot:ottTaxonName=Psalidoprocne orientalis,^ot:originalLabel=Psalidoprocne_orientalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node12,otu9[&otu=otu9,^ot:ottId=67921,^ot:ottTaxonName=Psalidoprocne nitens,^ot:originalLabel=Psalidoprocne_nitens,^clo:ClementsTaxonName2019=Psalidoprocne nitens,^clo:speciescode2019=sqtsaw1])node11,(otu3[&otu=otu3,^ot:ottId=3597819,^ot:ottTaxonName=Cheramoeca leucosterna,^ot:originalLabel=Cheramoeca_leucosterna,^clo:ClementsTaxonName2019=Cheramoeca leucosterna,^clo:speciescode2019=whbswa3],otu4[&otu=otu4,^ot:ottId=190307,^ot:ottTaxonName=Pseudhirundo griseopyga,^ot:originalLabel=Pseudhirundo_griseopyga,^clo:ClementsTaxonName2019=Pseudhirundo griseopyga,^clo:speciescode2019=gyrswa1])node8)node7)node6,((otu80[&otu=otu80,^ot:ottId=641121,^ot:ottTaxonName=Phedina brazzae,^ot:originalLabel=Phedina_brazzae,^clo:ClementsTaxonName2019=Phedina brazzae,^clo:speciescode2019=bramar1],otu79[&otu=otu79,^ot:ottId=16194,^ot:ottTaxonName=Phedina borbonica,^ot:originalLabel=Phedina_borbonica,^clo:ClementsTaxonName2019=Phedina borbonica,^clo:speciescode2019=masmar1],otu78[&otu=otu78,^ot:ottId=302792,^ot:ottTaxonName=Riparia cincta,^ot:originalLabel=Riparia_cincta,^clo:ClementsTaxonName2019=Riparia cincta,^clo:speciescode2019=banmar1])node143,((otu67[&otu=otu67,^ot:ottId=1050413,^ot:ottTaxonName=Riparia paludicola,^ot:originalLabel=Riparia_paludicola,^clo:ClementsTaxonName2019=Riparia paludicola,^clo:speciescode2019=plamar1],otu68[&otu=otu68,^ot:ottId=922718,^ot:ottTaxonName=Riparia riparia,^ot:originalLabel=Riparia_riparia,^clo:ClementsTaxonName2019=Riparia riparia,^clo:speciescode2019=banswa])node125,(((otu74[&otu=otu74,^ot:ottId=621794,^ot:ottTaxonName=Tachycineta euchrysea,^ot:originalLabel=Tachycineta_euchrysea,^clo:ClementsTaxonName2019=Tachycineta euchrysea,^clo:speciescode2019=golswa1],otu75[&otu=otu75,^ot:ottId=621801,^ot:ottTaxonName=Tachycineta thalassina,^ot:originalLabel=Tachycineta_thalassina,^clo:ClementsTaxonName2019=Tachycineta thalassina,^clo:speciescode2019=vigswa])node138,otu77[&otu=otu77,^ot:ottId=621800,^ot:ottTaxonName=Tachycineta cyaneoviridis,^ot:originalLabel=Tachycineta_cyaneoviridis,^clo:ClementsTaxonName2019=Tachycineta cyaneoviridis,^clo:speciescode2019=bahswa],otu76[&otu=otu76,^ot:ottId=136028,^ot:ottTaxonName=Tachycineta bicolor,^ot:originalLabel=Tachycineta_bicolor,^clo:ClementsTaxonName2019=Tachycineta bicolor,^clo:speciescode2019=treswa])node137,((otu71[&otu=otu71,^ot:ottId=621803,^ot:ottTaxonName=Tachycineta leucorrhoa,^ot:originalLabel=Tachycineta_leucorrhoa,^clo:ClementsTaxonName2019=Tachycineta leucorrhoa,^clo:speciescode2019=whrswa1],otu72[&otu=otu72,^ot:ottId=621802,^ot:ottTaxonName=Tachycineta meyeni,^ot:originalLabel=Tachycineta_meyeni,^clo:ClementsTaxonName2019=Tachycineta leucopyga,^clo:speciescode2019=chiswa1])node133,(otu69[&otu=otu69,^ot:ottId=621797,^ot:ottTaxonName=Tachycineta albilinea,^ot:originalLabel=Tachycineta_albilinea,^clo:ClementsTaxonName2019=Tachycineta albilinea,^clo:speciescode2019=manswa1],otu70[&otu=otu70,^ot:ottId=621796,^ot:ottTaxonName=Tachycineta albiventer,^ot:originalLabel=Tachycineta_albiventer,^clo:ClementsTaxonName2019=Tachycineta albiventer,^clo:speciescode2019=whwswa1])node130,otu73[&otu=otu73,^ot:ottId=621798,^ot:ottTaxonName=Tachycineta stolzmanni,^ot:originalLabel=Tachycineta_stolzmanni,^clo:ClementsTaxonName2019=Tachycineta stolzmanni,^clo:speciescode2019=tumswa1])node129)node128,((((otu53[&otu=otu53,^ot:ottId=136026,^ot:ottTaxonName=Neochelidon tibialis,^ot:originalLabel=Neochelidon_tibialis,^clo:ClementsTaxonName2019=Atticora tibialis,^clo:speciescode2019=whtswa1],otu54[&otu=otu54,^ot:ottId=1063653,^ot:ottTaxonName=Notiochelidon pileata,^ot:originalLabel=Notiochelidon_pileata,^clo:ClementsTaxonName2019=Atticora pileata,^clo:speciescode2019=blcswa1])node103,otu55[&otu=otu55,^ot:ottId=650618,^ot:ottTaxonName=Atticora fasciata,^ot:originalLabel=Atticora_fasciata,^clo:ClementsTaxonName2019=Atticora fasciata,^clo:speciescode2019=whbswa2])node102,((otu52[&otu=otu52,^ot:ottId=1063652,^ot:ottTaxonName=Atticora melanoleuca,^ot:originalLabel=Atticora_melanoleuca,^clo:ClementsTaxonName2019=Pygochelidon melanoleuca,^clo:speciescode2019=blcswa2],otu51[&otu=otu51,^ot:ottId=877579,^ot:ottTaxonName=Pygochelidon cyanoleuca,^ot:originalLabel=Pygochelidon_cyanoleuca,^clo:ClementsTaxonName2019=Pygochelidon cyanoleuca,^clo:speciescode2019=bawswa1])node99,(((otu47[&otu=otu47,^ot:ottId=890939,^ot:ottTaxonName=Notiochelidon murina,^ot:originalLabel=Notiochelidon_murina,^clo:ClementsTaxonName2019=Orochelidon murina,^clo:speciescode2019=brbswa1],otu48[&otu=otu48,^ot:ottId=16185,^ot:ottTaxonName=Haplochelidon andecola,^ot:originalLabel=Haplochelidon_andecola,^clo:ClementsTaxonName2019=Orochelidon andecola,^clo:speciescode2019=andswa2])node94,otu49[&otu=otu49,^ot:ottId=119541,^ot:ottTaxonName=Notiochelidon flavipes,^ot:originalLabel=Notiochelidon_flavipes,^clo:ClementsTaxonName2019=Orochelidon flavipes,^clo:speciescode2019=pafswa1])node93,otu50[&otu=otu50,^ot:ottId=537126,^ot:ottTaxonName=Alopochelidon fucata,^ot:originalLabel=Alopochelidon_fucata,^clo:ClementsTaxonName2019=Alopochelidon fucata,^clo:speciescode2019=tahswa2])node92)node91)node90,((((otu62[&otu=otu62,^ot:ottId=136021,^ot:ottTaxonName=Progne chalybea,^ot:originalLabel=Progne_chalybea_1,^clo:ClementsTaxonName2019=Progne chalybea,^clo:speciescode2019=gybmar],otu63[&otu=otu63,^ot:ottId=154004,^ot:ottTaxonName=Progne elegans,^ot:originalLabel=Progne_elegans,^clo:ClementsTaxonName2019=Progne elegans,^clo:speciescode2019=soumar])node119,((otu58[&otu=otu58,^ot:ottId=537121,^ot:ottTaxonName=Progne cryptoleuca,^ot:originalLabel=Progne_cryptoleuca,^clo:ClementsTaxonName2019=Progne cryptoleuca,^clo:speciescode2019=cubmar],otu59[&otu=otu59,^ot:ottId=1063654,^ot:ottTaxonName=Progne dominicensis,^ot:originalLabel=Progne_dominicensis,^clo:ClementsTaxonName2019=Progne dominicensis,^clo:speciescode2019=carmar1])node114,otu60[&otu=otu60,^ot:ottId=136021,^ot:ottTaxonName=Progne chalybea,^ot:originalLabel=Progne_chalybea_2,^clo:ClementsTaxonName2019=Progne chalybea,^clo:speciescode2019=gybmar],otu61[&otu=otu61,^ot:ottId=119535,^ot:ottTaxonName=Progne sinaloae,^ot:originalLabel=Progne_sinaloae,^clo:ClementsTaxonName2019=Progne sinaloae,^clo:speciescode2019=sinmar1])node113,otu64[&otu=otu64,^ot:ottId=154000,^ot:ottTaxonName=Progne murphyi,^ot:originalLabel=Progne_murphyi,^clo:ClementsTaxonName2019=Progne murphyi,^clo:speciescode2019=permar1],otu65[&otu=otu65,^ot:ottId=621799,^ot:ottTaxonName=Progne subis,^ot:originalLabel=Progne_subis,^clo:ClementsTaxonName2019=Progne subis,^clo:speciescode2019=purmar])node112,otu66[&otu=otu66,^ot:ottId=537122,^ot:ottTaxonName=Progne tapera,^ot:originalLabel=Progne_tapera,^clo:ClementsTaxonName2019=Progne tapera,^clo:speciescode2019=brcmar1])node111,(otu57[&otu=otu57,^ot:ottId=814755,^ot:ottTaxonName=Stelgidopteryx serripennis,^ot:originalLabel=Stelgidopteryx_serripennis,^clo:ClementsTaxonName2019=Stelgidopteryx serripennis,^clo:speciescode2019=nrwswa],otu56[&otu=otu56,^ot:ottId=136035,^ot:ottTaxonName=Stelgidopteryx ruficollis,^ot:originalLabel=Stelgidopteryx_ruficollis,^clo:ClementsTaxonName2019=Stelgidopteryx ruficollis,^clo:speciescode2019=srwswa1])node108)node107)node89)node88)node87)node5)node1;
+END;
+

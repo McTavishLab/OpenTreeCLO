@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (MP)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=443266,^ot:ottTaxonName=Polioptila caerulea,^ot:originalLabel=Polioptila_caerulea,^clo:ClementsTaxonName2019=Polioptila caerulea,^clo:speciescode2019=buggna],(otu2[&otu=otu2,^ot:ottId=443265,^ot:ottTaxonName=Polioptila albiloris,^ot:originalLabel=Polioptila_albiloris,^clo:ClementsTaxonName2019=Polioptila albiloris,^clo:speciescode2019=whlgna2],(otu3[&otu=otu3,^ot:ottId=1019726,^ot:ottTaxonName=Polioptila nigriceps,^ot:originalLabel=Polioptila_nigriceps,^clo:ClementsTaxonName2019=Polioptila nigriceps,^clo:speciescode2019=bkcgna],(otu5[&otu=otu5,^ot:ottId=443273,^ot:ottTaxonName=Polioptila melanura,^ot:originalLabel=Polioptila_melanura,^clo:ClementsTaxonName2019=Polioptila melanura,^clo:speciescode2019=bktgna],otu4[&otu=otu4,^ot:ottId=443272,^ot:ottTaxonName=Polioptila californica,^ot:originalLabel=Polioptila_californica,^clo:ClementsTaxonName2019=Polioptila californica,^clo:speciescode2019=calgna])node7)node5)node3)node1;
+END;
+

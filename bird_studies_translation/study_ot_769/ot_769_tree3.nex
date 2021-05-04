@@ -1,0 +1,75 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=63;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        Treron_calvus
+        otu30
+        otu31
+        otu58
+        otu67
+        Columbina_buckleyi
+        otu59
+        Columbina_talpacoti_Bolivia
+        Columbina_talpacoti_Guyana
+        Columbina_passerina_Ecuador
+        Columbina_passerina_Bahamas
+        Columbina_passerina_Missouri
+        Columbina_passerina_Texas
+        Columbina_passerina_Mexico
+        otu61
+        otu60
+        otu62
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        Claravis_pretiosa_Mexico
+        Uropelia_campestris
+        otu27
+        Claravis_pretiosa_Paraguay
+        Metriopelia_melanoptera_Argentina
+        Metriopelia_melanoptera_Peru
+        Claravis_mondetoura
+        Metriopelia_aymara
+        otu54
+        Columbina_minuta
+        otu55
+        Columbina_picui_Paraguay
+        Columbina_cruziana_REW154
+        Columbina_cruziana_REW85
+        Metriopelia_ceciliae_Bolivia
+        Columbina_inca_Texas
+        Columbina_inca_Arizona
+        Columbina_squammata
+        Columbina_picui_Argentina
+        otu50
+        otu51
+        otu52
+        otu53
+        Metriopelia_ceciliae_captive
+        Metriopelia_morenoi
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (BEAST chronogram)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((otu37:0.149721[&otu=otu37,^ot:ottId=604964,^ot:ottTaxonName=Claravis pretiosa,^ot:originalLabel=Claravis_pretiosa_85,^clo:ClementsTaxonName2019=Claravis pretiosa,^clo:speciescode2019=blgdov1],otu38:0.149721[&otu=otu38,^ot:ottId=604964,^ot:ottTaxonName=Claravis pretiosa,^ot:originalLabel=Claravis_pretiosa_2154,^clo:ClementsTaxonName2019=Claravis pretiosa,^clo:speciescode2019=blgdov1])node136:15.043212,(otu62:13.532615[&otu=otu62,^ot:ottId=430170,^ot:ottTaxonName=Uropelia campestris,^ot:originalLabel=Uropelia_campestris_925,^clo:ClementsTaxonName2019=Uropelia campestris,^clo:speciescode2019=ltgdov1],(((otu44:9.277609[&otu=otu44,^ot:ottId=414980,^ot:ottTaxonName=Metriopelia aymara,^ot:originalLabel=Metriopelia_aymara_432,^clo:ClementsTaxonName2019=Metriopelia aymara,^clo:speciescode2019=gsgdov1],((otu42:0.036838[&otu=otu42,^ot:ottId=414969,^ot:ottTaxonName=Metriopelia melanoptera,^ot:originalLabel=Metriopelia_melanoptera_443,^clo:ClementsTaxonName2019=Metriopelia melanoptera,^clo:speciescode2019=bwgdov1],otu43:0.036838[&otu=otu43,^ot:ottId=414969,^ot:ottTaxonName=Metriopelia melanoptera,^ot:originalLabel=Metriopelia_melanoptera_273,^clo:ClementsTaxonName2019=Metriopelia melanoptera,^clo:speciescode2019=bwgdov1])node149:5.713385,(otu41:3.166874[&otu=otu41,^ot:ottId=550855,^ot:ottTaxonName=Metriopelia morenoi,^ot:originalLabel=Metriopelia_morenoi_05812,^clo:ClementsTaxonName2019=Metriopelia morenoi,^clo:speciescode2019=begdov1],(otu40:0.157502[&otu=otu40,^ot:ottId=143598,^ot:ottTaxonName=Metriopelia ceciliae,^ot:originalLabel=Metriopelia_ceciliae_23851,^clo:ClementsTaxonName2019=Metriopelia ceciliae,^clo:speciescode2019=bfgdov1],otu39:0.157502[&otu=otu39,^ot:ottId=143598,^ot:ottTaxonName=Metriopelia ceciliae,^ot:originalLabel=Metriopelia_ceciliae_382,^clo:ClementsTaxonName2019=Metriopelia ceciliae,^clo:speciescode2019=bfgdov1])node145:3.009371)node144:2.583349)node143:3.527385)node142:2.746782,otu45:12.024391[&otu=otu45,^ot:ottId=3596630,^ot:ottTaxonName=Claravis mondetoura,^ot:originalLabel=Claravis_mondetoura_16221,^clo:ClementsTaxonName2019=Paraclaravis mondetoura,^clo:speciescode2019=mcgdov1])node141:0.582096,(((otu50:1.725725[&otu=otu50,^ot:ottId=28925,^ot:ottTaxonName=Scardafella squammata,^ot:originalLabel=Columbina_squammata_88-153,^clo:ClementsTaxonName2019=Columbina squammata,^clo:speciescode2019=scadov1],(otu51:0.039935[&otu=otu51,^ot:ottId=846250,^ot:ottTaxonName=Columbina inca,^ot:originalLabel=Columbina_inca_123,^clo:ClementsTaxonName2019=Columbina inca,^clo:speciescode2019=incdov],otu52:0.039935[&otu=otu52,^ot:ottId=846250,^ot:ottTaxonName=Columbina inca,^ot:originalLabel=Columbina_inca_1,^clo:ClementsTaxonName2019=Columbina inca,^clo:speciescode2019=incdov])node165:1.685789)node163:3.672199,((otu58:0.645155[&otu=otu58,^ot:ottId=54386,^ot:ottTaxonName=Columbina minuta,^ot:originalLabel=Columbina_minuta_92-210,^clo:ClementsTaxonName2019=Columbina minuta,^clo:speciescode2019=pbgdov1],(otu61:0.111714[&otu=otu61,^ot:ottId=3596517,^ot:ottTaxonName=Columbina buckleyi,^ot:originalLabel=Columbina_buckleyi_956,^clo:ClementsTaxonName2019=Columbina buckleyi,^clo:speciescode2019=ecgdov1],(otu60:0.074326[&otu=otu60,^ot:ottId=388536,^ot:ottTaxonName=Columbina talpacoti,^ot:originalLabel=Columbina_talpacoti_09763,^clo:ClementsTaxonName2019=Columbina talpacoti,^clo:speciescode2019=rugdov],otu59:0.074326[&otu=otu59,^ot:ottId=388536,^ot:ottTaxonName=Columbina talpacoti,^ot:originalLabel=Columbina_talpacoti_86-107,^clo:ClementsTaxonName2019=Columbina talpacoti,^clo:speciescode2019=rugdov])node181:0.037388)node180:0.533441)node178:1.566852,((otu54:0.260119[&otu=otu54,^ot:ottId=157208,^ot:ottTaxonName=Columbina passerina,^ot:originalLabel=Columbina_passerina_8166,^clo:ClementsTaxonName2019=Columbina passerina,^clo:speciescode2019=cogdov],(otu57:0.220174[&otu=otu57,^ot:ottId=157208,^ot:ottTaxonName=Columbina passerina,^ot:originalLabel=Columbina_passerina_176,^clo:ClementsTaxonName2019=Columbina passerina,^clo:speciescode2019=cogdov],(otu55:0.1613[&otu=otu55,^ot:ottId=157208,^ot:ottTaxonName=Columbina passerina,^ot:originalLabel=Columbina_passerina_1755,^clo:ClementsTaxonName2019=Columbina passerina,^clo:speciescode2019=cogdov],otu56:0.1613[&otu=otu56,^ot:ottId=157208,^ot:ottTaxonName=Columbina passerina,^ot:originalLabel=Columbina_passerina_1878,^clo:ClementsTaxonName2019=Columbina passerina,^clo:speciescode2019=cogdov])node174:0.058874)node173:0.039944)node171:0.304295,otu53:0.564414[&otu=otu53,^ot:ottId=157208,^ot:ottTaxonName=Columbina passerina,^ot:originalLabel=Columbina_passerina_16864,^clo:ClementsTaxonName2019=Columbina passerina,^clo:speciescode2019=cogdov])node169:1.647593)node168:3.185917)node162:1.91478,((otu48:0.180676[&otu=otu48,^ot:ottId=1032048,^ot:ottTaxonName=Columbina cruziana,^ot:originalLabel=Columbina_cruziana_85,^clo:ClementsTaxonName2019=Columbina cruziana,^clo:speciescode2019=crgdov1],otu49:0.180676[&otu=otu49,^ot:ottId=1032048,^ot:ottTaxonName=Columbina cruziana,^ot:originalLabel=Columbina_cruziana_154,^clo:ClementsTaxonName2019=Columbina cruziana,^clo:speciescode2019=crgdov1])node159:4.611095,(otu46:0.104784[&otu=otu46,^ot:ottId=54405,^ot:ottTaxonName=Columbina picui,^ot:originalLabel=Columbina_picui_458,^clo:ClementsTaxonName2019=Columbina picui,^clo:speciescode2019=pigdov1],otu47:0.104784[&otu=otu47,^ot:ottId=54405,^ot:ottTaxonName=Columbina picui,^ot:originalLabel=Columbina_picui_153,^clo:ClementsTaxonName2019=Columbina picui,^clo:speciescode2019=pigdov1])node156:4.686987)node155:2.520933)node154:5.293783)node140:0.926128)node139:1.660318)node135:6.7071,((otu36:11.640919[&otu=otu36,^ot:ottId=358714,^ot:ottTaxonName=Leucosarcia melanoleuca,^ot:originalLabel=Leucosarcia_melanoleuca,^clo:ClementsTaxonName2019=Leucosarcia melanoleuca,^clo:speciescode2019=wonpig1],otu35:11.640919[&otu=otu35,^ot:ottId=449654,^ot:ottTaxonName=Geopelia cuneata,^ot:originalLabel=Geopelia_cuneata,^clo:ClementsTaxonName2019=Geopelia cuneata,^clo:speciescode2019=diadov1])node202:7.182548,((otu28:14.992518[&otu=otu28,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=Columba_livia,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig],otu27:14.992518[&otu=otu27,^ot:ottId=183576,^ot:ottTaxonName=Zenaida macroura,^ot:originalLabel=Zenaida_macroura,^clo:ClementsTaxonName2019=Zenaida macroura,^clo:speciescode2019=moudov])node199:3.281535,(((otu32:13.00166[&otu=otu32,^ot:ottId=975892,^ot:ottTaxonName=Oena capensis,^ot:originalLabel=Oena_capensis,^clo:ClementsTaxonName2019=Oena capensis,^clo:speciescode2019=namdov1],otu31:13.00166[&otu=otu31,^ot:ottId=1077422,^ot:ottTaxonName=Chalcophaps stephani,^ot:originalLabel=Chalcophaps_stephani,^clo:ClementsTaxonName2019=Chalcophaps stephani,^clo:speciescode2019=stedov1])node193:4.34016,(otu67:15.175322[&otu=otu67,^ot:ottId=550858,^ot:ottTaxonName=Treron calvus,^ot:originalLabel=Treron_calva,^clo:ClementsTaxonName2019=Treron calvus,^clo:speciescode2019=afrgrp1],otu34:15.175322[&otu=otu34,^ot:ottId=449659,^ot:ottTaxonName=Ducula bicolor,^ot:originalLabel=Ducula_bicolor,^clo:ClementsTaxonName2019=Ducula spilorrhoa,^clo:speciescode2019=torimp1])node196:2.166498)node192:0.310303,(otu30:16.337507[&otu=otu30,^ot:ottId=1026076,^ot:ottTaxonName=Goura cristata,^ot:originalLabel=Goura_cristata,^clo:ClementsTaxonName2019=Goura cristata,^clo:speciescode2019=wecpig1],otu29:16.337507[&otu=otu29,^ot:ottId=430171,^ot:ottTaxonName=Phapitreron amethystinus,^ot:originalLabel=Phapitreron_amethystinus,^clo:ClementsTaxonName2019=Phapitreron amethystinus,^clo:speciescode2019=amedov1])node189:1.314616)node188:0.62193)node187:0.549413)node186:3.076567)node134;
+END;
+

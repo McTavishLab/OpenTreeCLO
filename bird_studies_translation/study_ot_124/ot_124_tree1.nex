@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu30
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Neighbor-joining ,nearestTaxonMRCAOttId=966318,nearestTaxonMRCAName=Otididae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu1[&otu=otu1,^ot:ottId=191006,^ot:ottTaxonName=Balearica regulorum,^ot:originalLabel=Balearica_regulorum,^clo:ClementsTaxonName2019=Balearica regulorum,^clo:speciescode2019=grccra1],otu2[&otu=otu2,^ot:ottId=414358,^ot:ottTaxonName=Grus antigone,^ot:originalLabel=Grus_antigone,^clo:ClementsTaxonName2019=Antigone antigone,^clo:speciescode2019=sarcra1])node3,otu3[&otu=otu3,^ot:ottId=521836,^ot:ottTaxonName=Fulica cristata,^ot:originalLabel=Fulica_cristata,^clo:ClementsTaxonName2019=Fulica cristata,^clo:speciescode2019=rekcoo1])node2,(otu30[&otu=otu30,^ot:ottId=967561,^ot:ottTaxonName=Eupodotis rueppellii,^ot:originalLabel=Eupodotis_rueppellii,^clo:ClementsTaxonName2019=Eupodotis rueppelii,^clo:speciescode2019=ruebus1],((((((otu4[&otu=otu4,^ot:ottId=787599,^ot:ottTaxonName=Chlamydotis undulata undulata,^ot:originalLabel=Chlamydotis_undulata_undulata,^clo:ClementsTaxonName2019=Chlamydotis undulata undulata,^clo:speciescode2019=houbus3],otu5[&otu=otu5,^ot:ottId=323799,^ot:ottTaxonName=Chlamydotis undulata fuertaventurae,^ot:originalLabel=Chlamydotis_undulata_fuertaventurae,^clo:ClementsTaxonName2019=Chlamydotis undulata fuertaventurae,^clo:speciescode2019=houbus2])node13,otu6[&otu=otu6,^ot:ottId=787600,^ot:ottTaxonName=Chlamydotis undulata macqueenii,^ot:originalLabel=Chlamydotis_undulata_macqueenii,^clo:ClementsTaxonName2019=Chlamydotis macqueenii,^clo:speciescode2019=macbus1])node12,(otu8[&otu=otu8,^ot:ottId=738796,^ot:ottTaxonName=Otis tarda dybowskii,^ot:originalLabel=Otis_tarda_dybowskii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=805793,^ot:ottTaxonName=Otis tarda tarda,^ot:originalLabel=Otis_tarda_tarda,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node17)node11,((otu12[&otu=otu12,^ot:ottId=3600027,^ot:ottTaxonName=Eupodotis caerulescens,^ot:originalLabel=Eupodotis_caerulescens,^clo:ClementsTaxonName2019=Eupodotis caerulescens,^clo:speciescode2019=blubus1],otu11[&otu=otu11,^ot:ottId=521834,^ot:ottTaxonName=Eupodotis senegalensis,^ot:originalLabel=Eupodotis_senegalensis,^clo:ClementsTaxonName2019=Eupodotis senegalensis,^clo:speciescode2019=whbbus2])node24,(otu10[&otu=otu10,^ot:ottId=784565,^ot:ottTaxonName=Afrotis afraoides,^ot:originalLabel=Afrotis_afraoides,^clo:ClementsTaxonName2019=Eupodotis afraoides,^clo:speciescode2019=whqbus1],otu9[&otu=otu9,^ot:ottId=1041320,^ot:ottTaxonName=Afrotis afra,^ot:originalLabel=Afrotis_afra,^clo:ClementsTaxonName2019=Eupodotis afra,^clo:speciescode2019=blabus3])node21)node20)node10,(otu18[&otu=otu18,^ot:ottId=5027,^ot:ottTaxonName=Tetrax tetrax,^ot:originalLabel=Tetrax_tetrax,^clo:ClementsTaxonName2019=Tetrax tetrax,^clo:speciescode2019=litbus1],(((otu13[&otu=otu13,^ot:ottId=3600025,^ot:ottTaxonName=Lophotis savilei,^ot:originalLabel=Lophotis_savilei,^clo:ClementsTaxonName2019=Eupodotis savilei,^clo:speciescode2019=savbus1],otu14[&otu=otu14,^ot:ottId=3600024,^ot:ottTaxonName=Lophotis gindiana,^ot:originalLabel=Lophotis_gindiana,^clo:ClementsTaxonName2019=Eupodotis gindiana,^clo:speciescode2019=bucbus1])node30,otu15[&otu=otu15,^ot:ottId=5031,^ot:ottTaxonName=Lophotis ruficrista,^ot:originalLabel=Lophotis_ruficrista,^clo:ClementsTaxonName2019=Eupodotis ruficrista,^clo:speciescode2019=recbus1])node29,(otu16[&otu=otu16,^ot:ottId=3600036,^ot:ottTaxonName=Houbaropsis bengalensis,^ot:originalLabel=Houbaropsis_bengalensis,^clo:ClementsTaxonName2019=Houbaropsis bengalensis,^clo:speciescode2019=benflo2],otu17[&otu=otu17,^ot:ottId=3600039,^ot:ottTaxonName=Sypheotides indicus,^ot:originalLabel=Sypheotides_indicus,^clo:ClementsTaxonName2019=Sypheotides indicus,^clo:speciescode2019=lesflo2])node34)node28)node27)node9,((otu29[&otu=otu29,^ot:ottId=5026,^ot:ottTaxonName=Neotis nuba,^ot:originalLabel=Neotis_nuba,^clo:ClementsTaxonName2019=Neotis nuba,^clo:speciescode2019=nubbus1],((otu28[&otu=otu28,^ot:ottId=3600034,^ot:ottTaxonName=Neotis ludwigii,^ot:originalLabel=Neotis_ludwigii,^clo:ClementsTaxonName2019=Neotis ludwigii,^clo:speciescode2019=ludbus1],(otu26[&otu=otu26,^ot:ottId=3600032,^ot:ottTaxonName=Neotis denhami,^ot:originalLabel=Neotis_denhami_denhami,^clo:ClementsTaxonName2019=Neotis denhami,^clo:speciescode2019=stabus1],otu27[&otu=otu27,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Neotis_denhami_jacksonii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node54)node53,(((otu22[&otu=otu22,^ot:ottId=3600031,^ot:ottTaxonName=Ardeotis australis,^ot:originalLabel=Ardeotis_australis,^clo:ClementsTaxonName2019=Ardeotis australis,^clo:speciescode2019=ausbus1],otu21[&otu=otu21,^ot:ottId=976081,^ot:ottTaxonName=Ardeotis nigriceps,^ot:originalLabel=Ardeotis_nigriceps,^clo:ClementsTaxonName2019=Ardeotis nigriceps,^clo:speciescode2019=indbus1])node46,otu23[&otu=otu23,^ot:ottId=607272,^ot:ottTaxonName=Neotis heuglinii,^ot:originalLabel=Neotis_heuglinii,^clo:ClementsTaxonName2019=Neotis heuglinii,^clo:speciescode2019=heubus1])node45,(otu24[&otu=otu24,^ot:ottId=526428,^ot:ottTaxonName=Ardeotis arabs,^ot:originalLabel=Ardeotis_arabs,^clo:ClementsTaxonName2019=Ardeotis arabs,^clo:speciescode2019=arabus1],otu25[&otu=otu25,^ot:ottId=521837,^ot:ottTaxonName=Ardeotis kori,^ot:originalLabel=Ardeotis_kori,^clo:ClementsTaxonName2019=Ardeotis kori,^clo:speciescode2019=korbus1])node50)node44)node43)node42,(otu19[&otu=otu19,^ot:ottId=5021,^ot:ottTaxonName=Lissotis melanogaster,^ot:originalLabel=Lissotis_melanogaster,^clo:ClementsTaxonName2019=Lissotis melanogaster,^clo:speciescode2019=bkbbus1],otu20[&otu=otu20,^ot:ottId=3600026,^ot:ottTaxonName=Lissotis hartlaubii,^ot:originalLabel=Lissotis_hartlaubii,^clo:ClementsTaxonName2019=Lissotis hartlaubii,^clo:speciescode2019=harbus2])node39)node38)node8)node7)node1;
+END;
+

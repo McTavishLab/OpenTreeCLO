@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((otu24[&otu=otu24,^ot:ottId=452902,^ot:ottTaxonName=Priotelus roseigaster,^ot:originalLabel=Priotelus_roseigaster,^clo:ClementsTaxonName2019=Priotelus roseigaster,^clo:speciescode2019=histro1],otu23[&otu=otu23,^ot:ottId=412121,^ot:ottTaxonName=Priotelus temnurus,^ot:originalLabel=Priotelus_temnurus,^clo:ClementsTaxonName2019=Priotelus temnurus,^clo:speciescode2019=cubtro1])node46,(((otu17[&otu=otu17,^ot:ottId=917901,^ot:ottTaxonName=Trogon rufus,^ot:originalLabel=Trogon_rufus,^clo:ClementsTaxonName2019=Trogon rufus,^clo:speciescode2019=blttro2],(otu18[&otu=otu18,^ot:ottId=917899,^ot:ottTaxonName=Trogon elegans,^ot:originalLabel=Trogon_elegans,^clo:ClementsTaxonName2019=Trogon elegans,^clo:speciescode2019=eletro],(otu19[&otu=otu19,^ot:ottId=917900,^ot:ottTaxonName=Trogon mexicanus,^ot:originalLabel=Trogon_mexicanus,^clo:ClementsTaxonName2019=Trogon mexicanus,^clo:speciescode2019=moutro1],(otu20[&otu=otu20,^ot:ottId=284302,^ot:ottTaxonName=Trogon personatus,^ot:originalLabel=Trogon_personatus,^clo:ClementsTaxonName2019=Trogon personatus,^clo:speciescode2019=mastro1],(otu22[&otu=otu22,^ot:ottId=979037,^ot:ottTaxonName=Trogon aurantiiventris,^ot:originalLabel=Trogon_aurantiiventris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu21[&otu=otu21,^ot:ottId=917904,^ot:ottTaxonName=Trogon collaris,^ot:originalLabel=Trogon_collaris,^clo:ClementsTaxonName2019=Trogon collaris,^clo:speciescode2019=coltro1])node43)node41)node39)node37)node35,(((otu10[&otu=otu10,^ot:ottId=452890,^ot:ottTaxonName=Trogon massena,^ot:originalLabel=Trogon_massena,^clo:ClementsTaxonName2019=Trogon massena,^clo:speciescode2019=slttro1],otu11[&otu=otu11,^ot:ottId=1065612,^ot:ottTaxonName=Trogon melanurus,^ot:originalLabel=Trogon_melanurus,^clo:ClementsTaxonName2019=Trogon melanurus,^clo:speciescode2019=blttro1])node23,otu9[&otu=otu9,^ot:ottId=917905,^ot:ottTaxonName=Trogon comptus,^ot:originalLabel=Trogon_comptus,^clo:ClementsTaxonName2019=Trogon comptus,^clo:speciescode2019=buttro1])node21,((otu14[&otu=otu14,^ot:ottId=452892,^ot:ottTaxonName=Trogon surrucura,^ot:originalLabel=Trogon_surrucura,^clo:ClementsTaxonName2019=Trogon surrucura,^clo:speciescode2019=surtro1],(otu15[&otu=otu15,^ot:ottId=917898,^ot:ottTaxonName=Trogon curucui,^ot:originalLabel=Trogon_curucui,^clo:ClementsTaxonName2019=Trogon curucui,^clo:speciescode2019=blctro1],otu16[&otu=otu16,^ot:ottId=917893,^ot:ottTaxonName=Trogon violaceus,^ot:originalLabel=Trogon_violaceus,^clo:ClementsTaxonName2019=Trogon violaceus,^clo:speciescode2019=viotro2])node32)node30,(otu13[&otu=otu13,^ot:ottId=236084,^ot:ottTaxonName=Trogon melanocephalus,^ot:originalLabel=Trogon_melanocephalus,^clo:ClementsTaxonName2019=Trogon melanocephalus,^clo:speciescode2019=blhtro1],otu12[&otu=otu12,^ot:ottId=917894,^ot:ottTaxonName=Trogon viridis,^ot:originalLabel=Trogon_viridis,^clo:ClementsTaxonName2019=Trogon viridis,^clo:speciescode2019=gnbtro1])node27)node26)node20)node19,((otu1[&otu=otu1,^ot:ottId=392077,^ot:ottTaxonName=Apaloderma narina,^ot:originalLabel=Apaloderma_narina,^clo:ClementsTaxonName2019=Apaloderma narina,^clo:speciescode2019=nartro1],otu2[&otu=otu2,^ot:ottId=291857,^ot:ottTaxonName=Apaloderma vittatum,^ot:originalLabel=Apaloderma_vittatum,^clo:ClementsTaxonName2019=Apaloderma vittatum,^clo:speciescode2019=battro1])node5,(otu3[&otu=otu3,^ot:ottId=462543,^ot:ottTaxonName=Harpactes oreskios,^ot:originalLabel=Harpactes_oreskios,^clo:ClementsTaxonName2019=Harpactes oreskios,^clo:speciescode2019=orbtro2],(((otu5[&otu=otu5,^ot:ottId=452900,^ot:ottTaxonName=Harpactes erythrocephalus,^ot:originalLabel=Harpactes_erythrocephalus,^clo:ClementsTaxonName2019=Harpactes erythrocephalus,^clo:speciescode2019=rehtro1],otu6[&otu=otu6,^ot:ottId=392091,^ot:ottTaxonName=Harpactes diardii,^ot:originalLabel=Harpactes_diardii,^clo:ClementsTaxonName2019=Harpactes diardii,^clo:speciescode2019=diatro1])node13,otu4[&otu=otu4,^ot:ottId=392094,^ot:ottTaxonName=Harpactes ardens,^ot:originalLabel=Harpactes_ardens,^clo:ClementsTaxonName2019=Harpactes ardens,^clo:speciescode2019=phitro1])node11,(otu7[&otu=otu7,^ot:ottId=452898,^ot:ottTaxonName=Harpactes orrhophaeus,^ot:originalLabel=Harpactes_orrhophaeus,^clo:ClementsTaxonName2019=Harpactes orrhophaeus,^clo:speciescode2019=cirtro1],otu8[&otu=otu8,^ot:ottId=452894,^ot:ottTaxonName=Harpactes duvaucelii,^ot:originalLabel=Harpactes_duvaucelii,^clo:ClementsTaxonName2019=Harpactes duvaucelii,^clo:speciescode2019=scrtro1])node16)node10)node8)node4)node3)node2,(otu25[&otu=otu25,^ot:ottId=462555,^ot:ottTaxonName=Euptilotis neoxenus,^ot:originalLabel=Euptilotis_neoxenus,^clo:ClementsTaxonName2019=Euptilotis neoxenus,^clo:speciescode2019=earque],((otu28[&otu=otu28,^ot:ottId=917903,^ot:ottTaxonName=Pharomachrus pavoninus,^ot:originalLabel=Pharomachrus_pavoninus,^clo:ClementsTaxonName2019=Pharomachrus pavoninus,^clo:speciescode2019=pavque1],otu27[&otu=otu27,^ot:ottId=917902,^ot:ottTaxonName=Pharomachrus auriceps,^ot:originalLabel=Pharomachrus_auriceps,^clo:ClementsTaxonName2019=Pharomachrus auriceps,^clo:speciescode2019=gohque1])node53,otu26[&otu=otu26,^ot:ottId=412119,^ot:ottTaxonName=Pharomachrus antisianus,^ot:originalLabel=Pharomachrus_antisianus,^clo:ClementsTaxonName2019=Pharomachrus antisianus,^clo:speciescode2019=creque1])node51)node49)node1;
+END;
+

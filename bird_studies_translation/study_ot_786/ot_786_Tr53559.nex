@@ -1,0 +1,83 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=71;
+    TAXLABELS
+        Phoebetria_palpebrata
+        Archaeospheniscus_lopdelli
+        Tl815864
+        Delphinornis_larseni
+        Kairuku_grebneffi
+        Pelecanoides_urinatrix
+        Mesetaornis_polaris
+        Thalassarche_melanophrys
+        Macronectes_giganteus
+        Icadyptes_salasi
+        Anthropornis_sp._UCMP_321023
+        Inkayacu_paracasensis
+        Duntroonornis_parvus
+        Perudyptes_devriesi
+        Tl815806
+        Tl815807
+        Phoebastria_immutabilis
+        Tl815824
+        Spheniscus_megaramphus
+        Gavia_immer
+        Oceanodroma_leucorhoa
+        Gavia_stellata
+        Madrynornis_mirandus
+        Tl815822
+        Waimanu_manneringi
+        Palaeeudyptes_antarcticus
+        Tl815847
+        Delphinornis_arctowskii
+        Tl815845
+        Delphinornis_gracilis
+        Tl815829
+        Delphinornis_wimani
+        Tl815841
+        Archaeospheniscus__lowei
+        Tl815875
+        Tl815848
+        Pachyptila_desolata
+        Marplesornis_novaezealandiae
+        Kairuku_waitaki
+        Pachydyptes_ponderosus
+        Eretiscus_tonnii
+        Tl815874
+        Puffinus_gravis
+        Waimanu_tuatahi
+        'Burnside "Palaeudyptes"'
+        Spheniscus_muizoni
+        Daption_capense
+        Anthropornis_nordenskjoeldi
+        Oceanites_oceanicus
+        Platydyptes_marplesi
+        Procellaria_cinerea
+        Platydyptes_novaezealandiae
+        Pterodroma_brevirostris
+        Tl815810
+        Tl815813
+        Tl815812
+        Paraptenodytes_antarcticus
+        Tl815836
+        Tl815835
+        Palaeeudyptes_gunnari
+        Pygoscelis_grandis
+        Marambiornis_exilis
+        Tl815831
+        Anthropornis_grandis
+        Diomedea_exulans
+        Tl815858
+        Palaeeudyptes_klekowskii
+        Spheniscus_urbinai
+        Tl815856
+        Tl815839
+        Tl815838
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._8 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((Tl815836[&otu=Tl815836,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Palaeospheniscus_bergi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((Tl815847[&otu=Tl815847,^ot:ottId=399791,^ot:ottTaxonName=Spheniscus mendiculus,^ot:originalLabel=Spheniscus_mendiculus,^clo:ClementsTaxonName2019=Spheniscus mendiculus,^clo:speciescode2019=galpen1],Tl815824[&otu=Tl815824,^ot:ottId=810741,^ot:ottTaxonName=Spheniscus humboldti,^ot:originalLabel=Spheniscus_humboldti,^clo:ClementsTaxonName2019=Spheniscus humboldti,^clo:speciescode2019=humpen1])Tn8948869,(Tl815838[&otu=Tl815838,^ot:ottId=429622,^ot:ottTaxonName=Spheniscus magellanicus,^ot:originalLabel=Spheniscus_magellanicus,^clo:ClementsTaxonName2019=Spheniscus magellanicus,^clo:speciescode2019=magpen1],Tl815839[&otu=Tl815839,^ot:ottId=60417,^ot:ottTaxonName=Spheniscus demersus,^ot:originalLabel=Spheniscus_demersus,^clo:ClementsTaxonName2019=Spheniscus demersus,^clo:speciescode2019=jacpen1])Tn8948860)Tn8948868,Tl815848[&otu=Tl815848,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1])Tn8948864)Tn8948856,(Tl815841[&otu=Tl815841,^ot:ottId=429618,^ot:ottTaxonName=Megadyptes antipodes,^ot:originalLabel=Megadyptes_antipodes,^clo:ClementsTaxonName2019=Megadyptes antipodes,^clo:speciescode2019=yeepen1],((Tl815813[&otu=Tl815813,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Palaeospheniscus_biloculata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl815810[&otu=Tl815810,^ot:ottId=3600097,^ot:ottTaxonName=Eudyptes filholi,^ot:originalLabel=Eudyptes_filholi,^clo:ClementsTaxonName2019=Eudyptes chrysocome filholi,^clo:speciescode2019=rocpen3],Tl815845[&otu=Tl815845,^ot:ottId=82220,^ot:ottTaxonName=Eudyptes chrysocome,^ot:originalLabel=Eudyptes_chrysocome,^clo:ClementsTaxonName2019=Eudyptes chrysocome,^clo:speciescode2019=rocpen1])Tn8948872,Tl815874[&otu=Tl815874,^ot:ottId=3600098,^ot:ottTaxonName=Eudyptes chrysocome moseleyi,^ot:originalLabel=Eudyptes_moseleyi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8948837)Tn8948861,(((Tl815812[&otu=Tl815812,^ot:ottId=219197,^ot:ottTaxonName=Eudyptes robustus,^ot:originalLabel=Eudyptes_robustus,^clo:ClementsTaxonName2019=Eudyptes robustus,^clo:speciescode2019=snapen1],Tl815806[&otu=Tl815806,^ot:ottId=976561,^ot:ottTaxonName=Eudyptes pachyrhynchus,^ot:originalLabel=Eudyptes_pachyrhynchus,^clo:ClementsTaxonName2019=Eudyptes pachyrhynchus,^clo:speciescode2019=fiopen1])Tn8948854,Tl815835[&otu=Tl815835,^ot:ottId=60413,^ot:ottTaxonName=Eudyptes sclateri,^ot:originalLabel=Eudyptes_sclateri,^clo:ClementsTaxonName2019=Eudyptes sclateri,^clo:speciescode2019=bicpen1])Tn8948847,(Tl815864[&otu=Tl815864,^ot:ottId=605139,^ot:ottTaxonName=Eudyptes schlegeli,^ot:originalLabel=Eudyptes_schlegeli,^clo:ClementsTaxonName2019=Eudyptes schlegeli,^clo:speciescode2019=roypen1],Tl815831[&otu=Tl815831,^ot:ottId=82219,^ot:ottTaxonName=Eudyptes chrysolophus,^ot:originalLabel=Eudyptes_chrysolophus,^clo:ClementsTaxonName2019=Eudyptes chrysolophus,^clo:speciescode2019=macpen1])Tn8948859)Tn8948852)Tn8948845)Tn8948863)Tn8948873,((Tl815875[&otu=Tl815875,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1],(Tl815822[&otu=Tl815822,^ot:ottId=1028837,^ot:ottTaxonName=Pygoscelis papua,^ot:originalLabel=Pygoscelis_papua,^clo:ClementsTaxonName2019=Pygoscelis papua,^clo:speciescode2019=genpen1],Tl815856[&otu=Tl815856,^ot:ottId=134466,^ot:ottTaxonName=Pygoscelis antarcticus,^ot:originalLabel=Pygoscelis_antarctica,^clo:ClementsTaxonName2019=Pygoscelis antarcticus,^clo:speciescode2019=chipen2])Tn8948853)Tn8948867,Tl815807[&otu=Tl815807,^ot:ottId=4130848,^ot:ottTaxonName=Palaeospheniscus patagonicus,^ot:originalLabel=Palaeospheniscus_patagonicus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8948843)Tn8948839,(Tl815858[&otu=Tl815858,^ot:ottId=494370,^ot:ottTaxonName=Aptenodytes forsteri,^ot:originalLabel=Aptenodytes_forsteri,^clo:ClementsTaxonName2019=Aptenodytes forsteri,^clo:speciescode2019=emppen1],Tl815829[&otu=Tl815829,^ot:ottId=494361,^ot:ottTaxonName=Aptenodytes patagonicus,^ot:originalLabel=Aptenodytes_patagonicus,^clo:ClementsTaxonName2019=Aptenodytes patagonicus,^clo:speciescode2019=kinpen1])Tn8948858)Tn8948857;
+END;
+

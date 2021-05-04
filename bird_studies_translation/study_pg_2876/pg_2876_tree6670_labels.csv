@@ -1,0 +1,56 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu427251	Megapodius freycinet	dusscr2	Megapodius_freycinet	837568	Megapodius freycinet
+otu427237	Rhynchotus rufescens	rewtin1	Rhynchotus_rufescens	224379	Rhynchotus rufescens
+otu427238	not_a_bird	not_a_bird	Rhynchotus_rufescens_pallescens	None	None
+otu427239	Rhynchotus maculicollis	huatin1	Rhynchotus_rufescens_macullicollis	3600787	Rhynchotus maculicollis
+otu427223	Nothoprocta pentlandii	andtin1	Nothoprocta_pentlandii	3600805	Nothoprocta pentlandii
+otu427224	Nothoprocta taczanowskii	tactin1	Nothoprocta_taczanowskii	3600803	Nothoprocta taczanowskii
+otu427226	Nothoprocta perdicaria	chitin1	Nothoprocta_perdicaria	402446	Nothoprocta perdicaria
+otu427225	Nothoprocta curvirostris	cubtin1	Nothoprocta_curvirostris	3600806	Nothoprocta curvirostris
+otu427228	Nothoprocta ornata	orntin1	Nothoprocta_ornata	332613	Nothoprocta ornata
+otu427227	no_match	no_match	Nothoprocta_kalinowskii	3600804	Nothoprocta kalinowskii
+otu427229	Nothoprocta cinerascens	brutin1	Nothoprocta_cinerascens	292464	Nothoprocta cinerascens
+otu427230	Nothura maculosa	sponot1	Nothura_maculosa	892276	Nothura maculosa
+otu427231	no_match	no_match	Nothura_chacoensis	3600802	Nothura chacoensis
+otu427232	not_a_bird	not_a_bird	Nothura_sp.	None	None
+otu427233	Nothura darwinii	darnot1	Nothura_darwinii	892275	Nothura darwinii
+otu427234	Nothura minor	lesnot1	Nothura_minor	3600800	Nothura minor
+otu427235	Nothura boraquira	whbnot1	Nothura_boraquira	3600801	Nothura boraquira
+otu427236	Taoniscus nanus	dwatin1	Taoniscus_nanus	3600811	Taoniscus nanus
+otu427240	Tinamotis ingoufi	pattin1	Tinamotis_ingoufi	599077	Tinamotis ingoufi
+otu427241	Tinamotis pentlandii	puntin1	Tinamotis_pentlandii	599078	Tinamotis pentlandii
+otu427242	Eudromia elegans	elctin1	Eudromia_elegans	292461	Eudromia elegans
+otu427243	not_a_bird	not_a_bird	Eudromia_elegans_albida	None	None
+otu427244	Eudromia formosa	quctin1	Eudromia_formosa	784522	Eudromia formosa
+otu427219	Tinamus major	gretin1	Tinamus_major	402466	Tinamus major
+otu427218	Tinamus guttatus	whttin1	Tinamus_guttatus	306216	Tinamus guttatus
+otu427222	Tinamus osgoodi	blatin1	Tinamus_osgoodi	3600786	Tinamus osgoodi
+otu427221	Tinamus tao	grytin1	Tinamus_tao	466704	Tinamus tao
+otu427220	Tinamus solitarius	soltin1	Tinamus_solitarius	3600785	Tinamus solitarius
+otu427214	Crypturellus tataupa	tattin1	Crypturellus_tataupa	758347	Crypturellus tataupa
+otu427215	Crypturellus parvirostris	smbtin1	Crypturellus_parvirostris	379420	Crypturellus parvirostris
+otu427216	Crypturellus obsoletus	brotin1	Crypturellus_obsoletus	983480	Crypturellus obsoletus
+otu427211	Crypturellus berlepschi	bertin1	Crypturellus_berlepschi	3600796	Crypturellus berlepschi
+otu427212	Crypturellus cinereus	cintin1	Crypturellus_cinereus	647586	Crypturellus cinereus
+otu427213	Crypturellus ptaritepui	teptin1	Crypturellus_ptaritepui	3600793	Crypturellus ptaritepui
+otu427203	Crypturellus duidae	gyltin1	Crypturellus_duidae	3600790	Crypturellus duidae
+otu427197	Crypturellus brevirostris	rustin1	Crypturellus_brevirostris	647584	Crypturellus brevirostris
+otu427198	Crypturellus bartletti	bartin2	Crypturellus_bartletti	3600798	Crypturellus bartletti
+otu427199	Crypturellus casiquiare	bartin1	Crypturellus_casiquiare	3600788	Crypturellus casiquiare
+otu427201	Crypturellus noctivagus	yeltin1	Crypturellus_noctivagus	3600789	Crypturellus noctivagus
+otu427200	Crypturellus variegatus	vartin1	Crypturellus_variegatus	983483	Crypturellus variegatus
+otu427202	Crypturellus erythropus	reltin1	Crypturellus_erythropus	589927	Crypturellus erythropus
+otu427204	Crypturellus atrocapillus	blctin1	Crypturellus_atrocapillus	3600795	Crypturellus atrocapillus
+otu427205	Crypturellus soui	littin1	Crypturellus_soui	960236	Crypturellus soui
+otu427209	Crypturellus strigulosus	bratin1	Crypturellus_strigulosus	167137	Crypturellus strigulosus
+otu427208	Crypturellus undulatus	undtin1	Crypturellus_undulatus	870607	Crypturellus undulatus
+otu427207	Crypturellus cinnamomeus	thitin1	Crypturellus_cinnamomeus	3600791	Crypturellus cinnamomeus
+otu427206	Crypturellus transfasciatus	pabtin1	Crypturellus_transfasciatus	3600794	Crypturellus transfasciatus
+otu427210	Crypturellus boucardi	slbtin1	Crypturellus_boucardi	3600799	Crypturellus boucardi
+otu427217	Crypturellus kerriae	chotin1	Crypturellus_kerriae	3600797	Crypturellus kerriae
+otu427248	no_match	no_match	Dinornis_sp.	816655	Dinornis
+otu427247	Casuarius bennetti	dwacas1	Casuarius_bennetti	402459	Casuarius bennetti
+otu427250	Apteryx australis	sobkiw1	Apteryx_australis	241834	Apteryx australis
+otu427249	Struthio camelus	ostric2	Struthio_camelus	647692	Struthio camelus
+otu427246	Rhea americana	grerhe1	Rhea_americana	857864	Rhea americana
+otu427245	Rhea pennata	lesrhe2	Pterocnemia_pennata	857860	Pterocnemia pennata

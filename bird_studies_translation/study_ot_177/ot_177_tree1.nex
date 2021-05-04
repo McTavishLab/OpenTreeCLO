@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1b = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=897677,nearestTaxonMRCAName=Hirundo (genus in family Hirundinidae),outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((((otu11[&otu=otu11,^ot:ottId=487357,^ot:ottTaxonName=Hirundo dimidiata,^ot:originalLabel=Hirundo_dimidiata,^clo:ClementsTaxonName2019=Hirundo dimidiata,^clo:speciescode2019=pebswa1],otu10[&otu=otu10,^ot:ottId=795248,^ot:ottTaxonName=Hirundo megaensis,^ot:originalLabel=Hirundo_megaensis,^clo:ClementsTaxonName2019=Hirundo megaensis,^clo:speciescode2019=whtswa2])node24,otu12[&otu=otu12,^ot:ottId=641112,^ot:ottTaxonName=Hirundo leucosoma,^ot:originalLabel=Hirundo_leucosoma,^clo:ClementsTaxonName2019=Hirundo leucosoma,^clo:speciescode2019=piwswa1])node23,((otu9[&otu=otu9,^ot:ottId=487355,^ot:ottTaxonName=Hirundo tahitica,^ot:originalLabel=Hirundo_tahitica,^clo:ClementsTaxonName2019=Hirundo tahitica,^clo:speciescode2019=pacswa1],otu8[&otu=otu8,^ot:ottId=487354,^ot:ottTaxonName=Hirundo neoxena,^ot:originalLabel=Hirundo_neoxena,^clo:ClementsTaxonName2019=Hirundo neoxena,^clo:speciescode2019=welswa1])node20,(otu7[&otu=otu7,^ot:ottId=487353,^ot:ottTaxonName=Hirundo albigularis,^ot:originalLabel=Hirundo_albigularis,^clo:ClementsTaxonName2019=Hirundo albigularis,^clo:speciescode2019=whtswa3],(((((otu1[&otu=otu1,^ot:ottId=980335,^ot:ottTaxonName=Hirundo aethiopica,^ot:originalLabel=Hirundo_aethiopica,^clo:ClementsTaxonName2019=Hirundo aethiopica,^clo:speciescode2019=ethswa1],otu2[&otu=otu2,^ot:ottId=641122,^ot:ottTaxonName=Hirundo lucida,^ot:originalLabel=Hirundo_lucida,^clo:ClementsTaxonName2019=Hirundo lucida,^clo:speciescode2019=recswa1])node12,otu3[&otu=otu3,^ot:ottId=487356,^ot:ottTaxonName=Hirundo angolensis,^ot:originalLabel=Hirundo_angolensis,^clo:ClementsTaxonName2019=Hirundo angolensis,^clo:speciescode2019=angswa1])node11,otu4[&otu=otu4,^ot:ottId=1040135,^ot:ottTaxonName=Hirundo rustica,^ot:originalLabel=Hirundo_rustica,^clo:ClementsTaxonName2019=Hirundo rustica,^clo:speciescode2019=barswa])node10,otu5[&otu=otu5,^ot:ottId=641113,^ot:ottTaxonName=Hirundo nigrita,^ot:originalLabel=Hirundo_nigrita,^clo:ClementsTaxonName2019=Hirundo nigrita,^clo:speciescode2019=wtbswa1])node9,otu6[&otu=otu6,^ot:ottId=487358,^ot:ottTaxonName=Hirundo smithii,^ot:originalLabel=Hirundo_smithii,^clo:ClementsTaxonName2019=Hirundo smithii,^clo:speciescode2019=witswa1])node8)node7)node6)node5,(otu14[&otu=otu14,^ot:ottId=795245,^ot:ottTaxonName=Hirundo nigrorufa,^ot:originalLabel=Hirundo_nigrorufa,^clo:ClementsTaxonName2019=Hirundo nigrorufa,^clo:speciescode2019=barswa1],otu13[&otu=otu13,^ot:ottId=487359,^ot:ottTaxonName=Hirundo atrocaerulea,^ot:originalLabel=Hirundo_atrocaerulea,^clo:ClementsTaxonName2019=Hirundo atrocaerulea,^clo:speciescode2019=bluswa1])node28)node4,otu15[&otu=otu15,^ot:ottId=877583,^ot:ottTaxonName=Ptyonoprogne fuligula,^ot:originalLabel=Ptyonoprogne_fuligula,^clo:ClementsTaxonName2019=Ptyonoprogne fuligula,^clo:speciescode2019=rocmar2])node3,otu16[&otu=otu16,^ot:ottId=152808,^ot:ottTaxonName=Petrochelidon fulva,^ot:originalLabel=Petrochelidon_fulva,^clo:ClementsTaxonName2019=Petrochelidon fulva,^clo:speciescode2019=cavswa])node2,otu17[&otu=otu17,^ot:ottId=136028,^ot:ottTaxonName=Tachycineta bicolor,^ot:originalLabel=Tachycineta_bicolor,^clo:ClementsTaxonName2019=Tachycineta bicolor,^clo:speciescode2019=treswa])node1;
+END;
+

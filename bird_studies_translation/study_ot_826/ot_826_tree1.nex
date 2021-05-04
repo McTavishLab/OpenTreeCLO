@@ -1,0 +1,18 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+        otu6
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=UPGMA ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=1007196,^ot:ottTaxonName=Certhia familiaris,^ot:originalLabel=Certhia_familiaris,^clo:ClementsTaxonName2019=Certhia familiaris,^clo:speciescode2019=eurtre1],(otu2[&otu=otu2,^ot:ottId=697024,^ot:ottTaxonName=Certhia americana,^ot:originalLabel=Certhia_americana,^clo:ClementsTaxonName2019=Certhia americana,^clo:speciescode2019=brncre],otu3[&otu=otu3,^ot:ottId=1007172,^ot:ottTaxonName=Certhia brachydactyla,^ot:originalLabel=Certhia_brachydactyla,^clo:ClementsTaxonName2019=Certhia brachydactyla,^clo:speciescode2019=shttre1])node4)node2,((otu5[&otu=otu5,^ot:ottId=856514,^ot:ottTaxonName=Certhia discolor,^ot:originalLabel=Certhia_discolor,^clo:ClementsTaxonName2019=Certhia discolor,^clo:speciescode2019=bnttre1],otu6[&otu=otu6,^ot:ottId=856520,^ot:ottTaxonName=Certhia himalayana,^ot:originalLabel=Certhia_himalayana,^clo:ClementsTaxonName2019=Certhia himalayana,^clo:speciescode2019=battre1])node9,otu4[&otu=otu4,^ot:ottId=737469,^ot:ottTaxonName=Certhia nipalensis,^ot:originalLabel=Certhia_nipalensis,^clo:ClementsTaxonName2019=Certhia nipalensis,^clo:speciescode2019=ruftre4])node7)node1;
+END;
+

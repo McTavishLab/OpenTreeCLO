@@ -1,0 +1,76 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=64;
+    TAXLABELS
+        Gecinulus_grantia
+        Picus_canus
+        Campephilus_haematogaster
+        Picoides_mixtus
+        Otus_pembaensis
+        Otus_senegalensis
+        Otus_mayottensis
+        Otus_moheliensis
+        otu30
+        Otus_capnodes
+        Mulleripicus_funebris
+        otu8
+        Dryocopus_lineatus
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Colaptes_melanochloros
+        Dryocopus_martius
+        Piculus_chrysochloros
+        Celeus_lugubris
+        Veniliornis_nigriceps
+        Picus_mineaceus
+        Picus_chlorolophus
+        Picus_puniceus
+        Picus_viridanus
+        Picus_vittatus
+        Picus_xanthopygaeus
+        Picus_rabieri
+        Picus_awokera
+        Picus_viridis
+        Picus_erythropygius
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        Campethera_nivosa
+        otu9
+        Dinopium_javanense
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        Picus_mentalis
+        Picus_flavinucha
+        Geocolaptes_olivaceus
+        Campethera_caroli
+        otu18
+        otu19
+        Celeus_brachyurus
+        Meiglyptes_tristis
+  ;
+END;
+
+BEGIN TREES;
+    TREE fuchs_etal_2008_tree_1 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=1065606,^ot:ottTaxonName=Tyto alba,^ot:originalLabel=Tyto_alba,^clo:ClementsTaxonName2019=Tyto alba,^clo:speciescode2019=brnowl],(((((otu6[&otu=otu6,^ot:ottId=1060752,^ot:ottTaxonName=Asio otus,^ot:originalLabel=Asio_otus,^clo:ClementsTaxonName2019=Asio otus,^clo:speciescode2019=loeowl],otu7[&otu=otu7,^ot:ottId=1052340,^ot:ottTaxonName=Ptilopsis leucotis,^ot:originalLabel=Otus_leucotis,^clo:ClementsTaxonName2019=Ptilopsis leucotis,^clo:speciescode2019=nwfowl1])node14,((otu8[&otu=otu8,^ot:ottId=851808,^ot:ottTaxonName=Megascops koepckeae,^ot:originalLabel=Otus_koepckeae,^clo:ClementsTaxonName2019=Megascops koepckeae,^clo:speciescode2019=koesco1],(((otu12[&otu=otu12,^ot:ottId=1021964,^ot:ottTaxonName=Otus roboratus,^ot:originalLabel=Otus_roboratus,^clo:ClementsTaxonName2019=Megascops roboratus,^clo:speciescode2019=persco1],otu11[&otu=otu11,^ot:ottId=4806,^ot:ottTaxonName=Megascops hoyi,^ot:originalLabel=Otus_hoyi,^clo:ClementsTaxonName2019=Megascops hoyi,^clo:speciescode2019=mofsco1])node24,otu10[&otu=otu10,^ot:ottId=178680,^ot:ottTaxonName=Megascops kennicottii,^ot:originalLabel=Otus_kennicottii,^clo:ClementsTaxonName2019=Megascops kennicottii,^clo:speciescode2019=wesowl1])node22,otu9[&otu=otu9,^ot:ottId=570960,^ot:ottTaxonName=Megascops asio,^ot:originalLabel=Otus_asio,^clo:ClementsTaxonName2019=Megascops asio,^clo:speciescode2019=easowl1])node20)node18,(otu14[&otu=otu14,^ot:ottId=752976,^ot:ottTaxonName=Strix woodfordii,^ot:originalLabel=Strix_woodfordi,^clo:ClementsTaxonName2019=Strix woodfordii,^clo:speciescode2019=afwowl1],otu13[&otu=otu13,^ot:ottId=116522,^ot:ottTaxonName=Strix aluco,^ot:originalLabel=Strix_aluco,^clo:ClementsTaxonName2019=Strix aluco,^clo:speciescode2019=tawowl1])node27)node17)node13,(otu15[&otu=otu15,^ot:ottId=402453,^ot:ottTaxonName=Bubo bubo,^ot:originalLabel=Bubo_bubo,^clo:ClementsTaxonName2019=Bubo bubo,^clo:speciescode2019=eueowl1],otu16[&otu=otu16,^ot:ottId=509853,^ot:ottTaxonName=Bubo virginianus,^ot:originalLabel=Bubo_virginianus,^clo:ClementsTaxonName2019=Bubo virginianus,^clo:speciescode2019=grhowl])node30)node12,(((otu18[&otu=otu18,^ot:ottId=788568,^ot:ottTaxonName=Otus spilocephalus,^ot:originalLabel=Otus_spilocephalus,^clo:ClementsTaxonName2019=Otus spilocephalus,^clo:speciescode2019=mosowl2],(otu19[&otu=otu19,^ot:ottId=1086556,^ot:ottTaxonName=Otus megalotis,^ot:originalLabel=Otus_megalotis,^clo:ClementsTaxonName2019=Otus megalotis,^clo:speciescode2019=phsowl1],((otu22[&otu=otu22,^ot:ottId=1021966,^ot:ottTaxonName=Otus lempiji,^ot:originalLabel=Otus_lempiji,^clo:ClementsTaxonName2019=Otus lempiji,^clo:speciescode2019=susowl2],otu21[&otu=otu21,^ot:ottId=546103,^ot:ottTaxonName=Otus bakkamoena,^ot:originalLabel=Otus_bakkamoena,^clo:ClementsTaxonName2019=Otus bakkamoena,^clo:speciescode2019=insowl1])node42,otu20[&otu=otu20,^ot:ottId=271293,^ot:ottTaxonName=Otus lettia,^ot:originalLabel=Otus_lettia,^clo:ClementsTaxonName2019=Otus lettia,^clo:speciescode2019=cosowl1])node40)node38)node36,((otu24[&otu=otu24,^ot:ottId=921080,^ot:ottTaxonName=Otus scops,^ot:originalLabel=Otus_scops,^clo:ClementsTaxonName2019=Otus scops,^clo:speciescode2019=eursco1],otu23[&otu=otu23,^ot:ottId=3595727,^ot:ottTaxonName=Otus hartlaubi,^ot:originalLabel=Otus_hartlaubi,^clo:ClementsTaxonName2019=Otus hartlaubi,^clo:speciescode2019=stsowl1])node46,(otu25[&otu=otu25,^ot:ottId=61752,^ot:ottTaxonName=Otus rutilus,^ot:originalLabel=Otus_rutilus,^clo:ClementsTaxonName2019=Otus rutilus,^clo:speciescode2019=masowl1],(((otu29[&otu=otu29,^ot:ottId=277289,^ot:ottTaxonName=Otus pauliani,^ot:originalLabel=Otus_pauliani,^clo:ClementsTaxonName2019=Otus pauliani,^clo:speciescode2019=cosowl3],otu30[&otu=otu30,^ot:ottId=218922,^ot:ottTaxonName=Otus sunia,^ot:originalLabel=Otus_sunia,^clo:ClementsTaxonName2019=Otus sunia,^clo:speciescode2019=orsowl])node57,(otu27[&otu=otu27,^ot:ottId=1086559,^ot:ottTaxonName=Otus longicornis,^ot:originalLabel=Otus_longicornis,^clo:ClementsTaxonName2019=Otus longicornis,^clo:speciescode2019=lusowl1],otu28[&otu=otu28,^ot:ottId=1086562,^ot:ottTaxonName=Otus mirus,^ot:originalLabel=Otus_mirus,^clo:ClementsTaxonName2019=Otus mirus,^clo:speciescode2019=misowl1])node54)node53,otu26[&otu=otu26,^ot:ottId=851812,^ot:ottTaxonName=Otus insularis,^ot:originalLabel=Otus_insularis,^clo:ClementsTaxonName2019=Otus insularis,^clo:speciescode2019=sesowl1])node51)node49)node45)node35,otu17[&otu=otu17,^ot:ottId=851813,^ot:ottTaxonName=Otus ireneae,^ot:originalLabel=Otus_ireneae,^clo:ClementsTaxonName2019=Otus ireneae,^clo:speciescode2019=sosowl1])node33)node11,(otu2[&otu=otu2,^ot:ottId=509850,^ot:ottTaxonName=Aegolius acadicus,^ot:originalLabel=Aegolius_acadicus,^clo:ClementsTaxonName2019=Aegolius acadicus,^clo:speciescode2019=nswowl],(otu3[&otu=otu3,^ot:ottId=427150,^ot:ottTaxonName=Athene noctua,^ot:originalLabel=Athene_noctua,^clo:ClementsTaxonName2019=Athene noctua,^clo:speciescode2019=litowl1],(otu4[&otu=otu4,^ot:ottId=277290,^ot:ottTaxonName=Glaucidium cuculoides,^ot:originalLabel=Glaucidium_cuculoides,^clo:ClementsTaxonName2019=Glaucidium cuculoides,^clo:speciescode2019=asbowl1],otu5[&otu=otu5,^ot:ottId=178693,^ot:ottTaxonName=Glaucidium gnoma,^ot:originalLabel=Glaucidium_gnoma,^clo:ClementsTaxonName2019=Glaucidium gnoma,^clo:speciescode2019=nopowl])node8)node6)node4)node3)node1;
+END;
+

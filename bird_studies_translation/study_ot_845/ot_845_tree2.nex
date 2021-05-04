@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE powell_etal_2008_tree_2 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((otu5[&otu=otu5,^ot:ottId=735244,^ot:ottTaxonName=Quiscalus nicaraguensis,^ot:originalLabel=Quiscalus_nicaraguensis,^clo:ClementsTaxonName2019=Quiscalus nicaraguensis,^clo:speciescode2019=nicgra1],otu4[&otu=otu4,^ot:ottId=498749,^ot:ottTaxonName=Quiscalus lugubris,^ot:originalLabel=Quiscalus_lugubris,^clo:ClementsTaxonName2019=Quiscalus lugubris,^clo:speciescode2019=cargra1])node25,((otu9[&otu=otu9,^ot:ottId=735243,^ot:ottTaxonName=Quiscalus palustris,^ot:originalLabel=Quiscalus_palustris,^clo:ClementsTaxonName2019=Quiscalus palustris,^clo:speciescode2019=slbgra1],(otu6[&otu=otu6,^ot:ottId=283673,^ot:ottTaxonName=Quiscalus major,^ot:originalLabel=Quiscalus_major,^clo:ClementsTaxonName2019=Quiscalus major,^clo:speciescode2019=botgra],otu8[&otu=otu8,^ot:ottId=743411,^ot:ottTaxonName=Quiscalus mexicanus,^ot:originalLabel=Quiscalus_mexicanus,^clo:ClementsTaxonName2019=Quiscalus mexicanus,^clo:speciescode2019=grtgra])node32)node30,otu7[&otu=otu7,^ot:ottId=283674,^ot:ottTaxonName=Quiscalus niger,^ot:originalLabel=Quiscalus_niger,^clo:ClementsTaxonName2019=Quiscalus niger,^clo:speciescode2019=gragra1])node28)node24,otu3[&otu=otu3,^ot:ottId=283668,^ot:ottTaxonName=Quiscalus quiscula,^ot:originalLabel=Quiscalus_quiscula,^clo:ClementsTaxonName2019=Quiscalus quiscula,^clo:speciescode2019=comgra])node22,(otu1[&otu=otu1,^ot:ottId=839098,^ot:ottTaxonName=Euphagus carolinus,^ot:originalLabel=Euphagus_carolinus,^clo:ClementsTaxonName2019=Euphagus carolinus,^clo:speciescode2019=rusbla],otu2[&otu=otu2,^ot:ottId=264500,^ot:ottTaxonName=Euphagus cyanocephalus,^ot:originalLabel=Euphagus_cyanocephalus,^clo:ClementsTaxonName2019=Euphagus cyanocephalus,^clo:speciescode2019=brebla])node19)node18;
+END;
+

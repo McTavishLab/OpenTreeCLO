@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu380948
+        otu380947
+        otu380946
+        otu380945
+        otu380944
+        otu380943
+        Pseudacris_feriarum
+        otu380941
+        Danio_rerio
+  ;
+END;
+
+BEGIN TREES;
+    TREE tree5997 = [&curatedType=Bucky species tree,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((((otu380943:0.069156[&otu=otu380943,^ot:ottId=27076,^ot:ottTaxonName=Crotalus adamanteus,^ot:originalLabel=Crotalus_adamanteus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu380944:0.069156[&otu=otu380944,^ot:ottId=705356,^ot:ottTaxonName=Anolis carolinensis,^ot:originalLabel=Anolis_carolinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018951:0.081333,(otu380945:0.023311[&otu=otu380945,^ot:ottId=590809,^ot:ottTaxonName=Chiroxiphia lanceolata,^ot:originalLabel=Chiroxiphia_lanceolata,^clo:ClementsTaxonName2019=Chiroxiphia lanceolata,^clo:speciescode2019=latman1],otu380946:0.023311[&otu=otu380946,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1018954:0.127178)node1018950:0.042288,(otu380947:0.046319[&otu=otu380947,^ot:ottId=542509,^ot:ottTaxonName=Mus musculus,^ot:originalLabel=Mus_musculus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu380948:0.046319[&otu=otu380948,^ot:ottId=770315,^ot:ottTaxonName=Homo sapiens,^ot:originalLabel=Homo_sapiens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018957:0.146458)node1018949:0.127862,otu380941:0.320639[&otu=otu380941,^ot:ottId=940184,^ot:ottTaxonName=Xenopus (Silurana) tropicalis,^ot:originalLabel=Xenopus_tropicalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018947;
+END;
+

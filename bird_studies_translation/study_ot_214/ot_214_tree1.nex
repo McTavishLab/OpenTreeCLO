@@ -1,0 +1,60 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=48;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig.1 (dated TENT)' = [&MRCAName=Aves,unrootedTree=False,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=81461,nearestTaxonMRCAName=Aves,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,MRCAOttId=81461,messages=]((otu1:83.7636[&otu=otu1,^ot:ottId=402466,^ot:ottTaxonName=Tinamus major,^ot:originalLabel=Tinamus_major_Great_Tinamou,^clo:ClementsTaxonName2019=Tinamus major,^clo:speciescode2019=gretin1],otu2:83.7636[&otu=otu2,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus_Ostrich,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node2:17.8749,((((otu6:56.3318[&otu=otu6,^ot:ottId=443650,^ot:ottTaxonName=Phoenicopterus ruber,^ot:originalLabel=Phoenicopterus_ruber_American_Flamingo,^clo:ClementsTaxonName2019=Phoenicopterus ruber,^clo:speciescode2019=grefla2],otu7:56.3318[&otu=otu7,^ot:ottId=92263,^ot:ottTaxonName=Podiceps cristatus,^ot:originalLabel=Podiceps_cristatus_Great_Crested_Grebe,^clo:ClementsTaxonName2019=Podiceps cristatus,^clo:speciescode2019=grcgre1])node13:11.7895,(otu8:65.6081[&otu=otu8,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=Columba_livia_Rock_Pigeon,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig],(otu9:61.612[&otu=otu9,^ot:ottId=57819,^ot:ottTaxonName=Pterocles gutturalis,^ot:originalLabel=Pterocles_gutturalis_Yellow_throated_Sandgrouse,^clo:ClementsTaxonName2019=Pterocles gutturalis,^clo:speciescode2019=yetsan1],otu10:61.612[&otu=otu10,^ot:ottId=966316,^ot:ottTaxonName=Mesitornis unicolor,^ot:originalLabel=Mesitornis_unicolor_Brown_Mesite,^clo:ClementsTaxonName2019=Mesitornis unicolor,^clo:speciescode2019=bromes1])node18:3.9961)node16:2.5132)node12:1.0721,(((otu11:64.898[&otu=otu11,^ot:ottId=792628,^ot:ottTaxonName=Cuculus canorus,^ot:originalLabel=Cuculus_canorus_Common_Cuckoo,^clo:ClementsTaxonName2019=Cuculus canorus,^clo:speciescode2019=comcuc],(otu13:62.2562[&otu=otu13,^ot:ottId=787600,^ot:ottTaxonName=Chlamydotis undulata macqueenii,^ot:originalLabel=Chlamydotis_macqueenii_Macqueens_Bustard,^clo:ClementsTaxonName2019=Chlamydotis macqueenii,^clo:speciescode2019=macbus1],otu12:62.2562[&otu=otu12,^ot:ottId=487306,^ot:ottTaxonName=Tauraco erythrolophus,^ot:originalLabel=Tauraco_erythrolophus_Red_crested_Turaco,^clo:ClementsTaxonName2019=Tauraco erythrolophus,^clo:speciescode2019=rectur1])node25:2.6418)node23:1.8403,((otu15:43.6514[&otu=otu15,^ot:ottId=609785,^ot:ottTaxonName=Chaetura pelagica,^ot:originalLabel=Chaetura_pelagica_Chimney_Swift,^clo:ClementsTaxonName2019=Chaetura pelagica,^clo:speciescode2019=chiswi],otu16:43.6514[&otu=otu16,^ot:ottId=810756,^ot:ottTaxonName=Calypte anna,^ot:originalLabel=Calypte_anna_Annas_Hummingbird,^clo:ClementsTaxonName2019=Calypte anna,^clo:speciescode2019=annhum])node30:19.2882,otu14:62.9396[&otu=otu14,^ot:ottId=416426,^ot:ottTaxonName=Caprimulgus carolinensis,^ot:originalLabel=Antrostomus_carolinensis_Chuck_wills_widow,^clo:ClementsTaxonName2019=Antrostomus carolinensis,^clo:speciescode2019=chwwid])node28:3.7987)node22:1.2111,((((otu20:60.021[&otu=otu20,^ot:ottId=855119,^ot:ottTaxonName=Phaethon lepturus,^ot:originalLabel=Phaethon_lepturus_White_tailed_Tropicbird,^clo:ClementsTaxonName2019=Phaethon lepturus,^clo:speciescode2019=whttro],otu21:60.021[&otu=otu21,^ot:ottId=86680,^ot:ottTaxonName=Eurypyga helias,^ot:originalLabel=Eurypyga_helias_Sunbittern,^clo:ClementsTaxonName2019=Eurypyga helias,^clo:speciescode2019=sunbit1])node41:4.5043,(((otu23:59.9864[&otu=otu23,^ot:ottId=1028832,^ot:ottTaxonName=Fulmarus glacialis,^ot:originalLabel=Fulmarus_glacialis_Northern_Fulmar,^clo:ClementsTaxonName2019=Fulmarus glacialis,^clo:speciescode2019=norful],(otu24:22.9983[&otu=otu24,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae_Adelie_Penguin,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1],otu25:22.9983[&otu=otu25,^ot:ottId=494370,^ot:ottTaxonName=Aptenodytes forsteri,^ot:originalLabel=Aptenodytes_forsteri_Emperor_Penguin,^clo:ClementsTaxonName2019=Aptenodytes forsteri,^clo:speciescode2019=emppen1])node49:36.988)node47:1.3657,(otu26:58.9221[&otu=otu26,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo_Cormorant,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor],(otu27:57.5582[&otu=otu27,^ot:ottId=946418,^ot:ottTaxonName=Nipponia nippon,^ot:originalLabel=Nipponia_nippon_Crested_Ibis,^clo:ClementsTaxonName2019=Nipponia nippon,^clo:speciescode2019=creibi1],(otu28:55.2426[&otu=otu28,^ot:ottId=273425,^ot:ottTaxonName=Egretta garzetta,^ot:originalLabel=Egretta_garzetta_Little_Egret,^clo:ClementsTaxonName2019=Egretta garzetta,^clo:speciescode2019=litegr],otu29:55.2426[&otu=otu29,^ot:ottId=427900,^ot:ottTaxonName=Pelecanus crispus,^ot:originalLabel=Pelecanus_crispus_Dalmatian_Pelican,^clo:ClementsTaxonName2019=Pelecanus crispus,^clo:speciescode2019=dalpel1])node56:2.3156)node54:1.3639)node52:2.4299)node46:1.4487,otu22:62.8008[&otu=otu22,^ot:ottId=1057044,^ot:ottTaxonName=Gavia stellata,^ot:originalLabel=Gavia_stellata_Red_throated_Loon,^clo:ClementsTaxonName2019=Gavia stellata,^clo:speciescode2019=retloo])node44:1.7245)node40:0.9182,(((otu42:61.6492[&otu=otu42,^ot:ottId=1065606,^ot:ottTaxonName=Tyto alba,^ot:originalLabel=Tyto_alba_Barn_Owl,^clo:ClementsTaxonName2019=Tyto alba,^clo:speciescode2019=brnowl],(otu43:59.9419[&otu=otu43,^ot:ottId=462544,^ot:ottTaxonName=Colius striatus,^ot:originalLabel=Colius_striatus_Speckled_Mousebird,^clo:ClementsTaxonName2019=Colius striatus,^clo:speciescode2019=spemou2],((otu45:55.0956[&otu=otu45,^ot:ottId=291857,^ot:ottTaxonName=Apaloderma vittatum,^ot:originalLabel=Apaloderma_vittatum_Bar_tailed_Trogon,^clo:ClementsTaxonName2019=Apaloderma vittatum,^clo:speciescode2019=battro1],((otu47:42.3418[&otu=otu47,^ot:ottId=873958,^ot:ottTaxonName=Picoides pubescens,^ot:originalLabel=Picoides_pubescens_Downy_Woodpecker,^clo:ClementsTaxonName2019=Dryobates pubescens,^clo:speciescode2019=dowwoo],otu48:42.3418[&otu=otu48,^ot:ottId=989087,^ot:ottTaxonName=Merops nubicus,^ot:originalLabel=Merops_nubicus_Carmine_Bee_eater,^clo:ClementsTaxonName2019=Merops nubicus,^clo:speciescode2019=ncbeat1])node93:9.6431,otu46:51.9849[&otu=otu46,^ot:ottId=785189,^ot:ottTaxonName=Buceros rhinoceros,^ot:originalLabel=Buceros_rhinoceros_Rhinoceros_Hornbill,^clo:ClementsTaxonName2019=Buceros rhinoceros,^clo:speciescode2019=rhihor1])node91:3.1107)node89:3.4763,otu44:58.5719[&otu=otu44,^ot:ottId=897867,^ot:ottTaxonName=Leptosomus discolor,^ot:originalLabel=Leptosomus_discolor_Cuckoo_Roller,^clo:ClementsTaxonName2019=Leptosomus discolor,^clo:speciescode2019=cuckoo1])node87:1.37)node85:1.7073)node83:1.1228,(otu39:60.3491[&otu=otu39,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=Cathartes_aura_Turkey_Vulture,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul],(otu41:5.9922[&otu=otu41,^ot:ottId=1012350,^ot:ottTaxonName=Haliaeetus leucocephalus,^ot:originalLabel=Haliaeetus_leucocephalus_Bald_Eagle,^clo:ClementsTaxonName2019=Haliaeetus leucocephalus,^clo:speciescode2019=baleag],otu40:5.9922[&otu=otu40,^ot:ottId=263118,^ot:ottTaxonName=Haliaeetus albicilla,^ot:originalLabel=Haliaeetus_albicilla_White_tailed_Eagle,^clo:ClementsTaxonName2019=Haliaeetus albicilla,^clo:speciescode2019=whteag])node80:54.3569)node78:2.4229)node77:0.7031,(((((otu35:31.817[&otu=otu35,^ot:ottId=640833,^ot:ottTaxonName=Manacus vitellinus,^ot:originalLabel=Manacus_vitellinus_Golden_collared_Manakin,^clo:ClementsTaxonName2019=Manacus vitellinus,^clo:speciescode2019=gocman1],(otu36:20.526[&otu=otu36,^ot:ottId=331952,^ot:ottTaxonName=Corvus brachyrhynchos,^ot:originalLabel=Corvus_brachyrhynchos_American_Crow,^clo:ClementsTaxonName2019=Corvus brachyrhynchos,^clo:speciescode2019=amecro],(otu37:9.9154[&otu=otu37,^ot:ottId=589951,^ot:ottTaxonName=Geospiza fortis,^ot:originalLabel=Geospiza_fortis_Medium_Ground_finch,^clo:ClementsTaxonName2019=Geospiza fortis,^clo:speciescode2019=megfin1],otu38:9.9154[&otu=otu38,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata_Zebra_Finch,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node74:10.6105)node72:11.291)node70:6.6609,otu34:38.4779[&otu=otu34,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=Acanthisitta_chloris_Rifleman,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1])node68:15.9777,(otu33:28.8663[&otu=otu33,^ot:ottId=749203,^ot:ottTaxonName=Nestor notabilis,^ot:originalLabel=Nestor_notabilis_Kea,^clo:ClementsTaxonName2019=Nestor notabilis,^clo:speciescode2019=kea1],otu32:28.8663[&otu=otu32,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus_Budgerigar,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger])node65:25.5893)node64:5.5373,otu31:59.9929[&otu=otu31,^ot:ottId=786435,^ot:ottTaxonName=Falco peregrinus,^ot:originalLabel=Falco_peregrinus_Peregrine_Falcon,^clo:ClementsTaxonName2019=Falco peregrinus,^clo:speciescode2019=perfal])node62:2.11,otu30:62.1029[&otu=otu30,^ot:ottId=86685,^ot:ottTaxonName=Cariama cristata,^ot:originalLabel=Cariama_cristata_Red_legged_Seriema,^clo:ClementsTaxonName2019=Cariama cristata,^clo:speciescode2019=relser1])node60:1.3723)node59:1.9684)node39:1.2911,(otu17:65.9286[&otu=otu17,^ot:ottId=928360,^ot:ottTaxonName=Opisthocomus hoazin,^ot:originalLabel=Opisthocomus_hoazin_Hoatzin,^clo:ClementsTaxonName2019=Opisthocomus hoazin,^clo:speciescode2019=hoatzi1],(otu18:64.5754[&otu=otu18,^ot:ottId=661811,^ot:ottTaxonName=Charadrius vociferus,^ot:originalLabel=Charadrius_vociferus_Killdeer,^clo:ClementsTaxonName2019=Charadrius vociferus,^clo:speciescode2019=killde],otu19:64.5754[&otu=otu19,^ot:ottId=191006,^ot:ottTaxonName=Balearica regulorum,^ot:originalLabel=Balearica_regulorum_Grey_Crowned_Crane,^clo:ClementsTaxonName2019=Balearica regulorum,^clo:speciescode2019=grccra1])node36:1.3532)node34:0.806)node33:1.2148)node21:1.244)node11:19.3779,(otu3:65.7832[&otu=otu3,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos_Mallard,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3],(otu4:27.9122[&otu=otu4,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus_Red_Junglefowl,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],otu5:27.9122[&otu=otu5,^ot:ottId=446482,^ot:ottTaxonName=Meleagris gallopavo,^ot:originalLabel=Meleagris_gallopavo_Turkey,^clo:ClementsTaxonName2019=Meleagris gallopavo,^clo:speciescode2019=wiltur])node8:37.871)node6:22.7881)node5:13.0671)node1;
+END;
+

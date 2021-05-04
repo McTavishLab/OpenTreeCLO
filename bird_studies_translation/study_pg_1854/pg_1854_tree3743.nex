@@ -1,0 +1,79 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=67;
+    TAXLABELS
+        otu283624
+        otu283625
+        otu283626
+        otu283627
+        otu283589
+        otu283588
+        otu283608
+        otu283609
+        otu283585
+        otu283584
+        otu283587
+        otu283586
+        otu283602
+        Zeledonia_coronata
+        otu283583
+        otu283582
+        otu283642
+        otu283643
+        otu283635
+        otu283630
+        otu283617
+        Prinia_bairdii
+        otu283644
+        otu283645
+        otu283620
+        otu283637
+        Sturnus_vulgaris
+        otu283636
+        otu283613
+        otu283622
+        otu283612
+        otu283623
+        otu283606
+        Donacobius_atricapillus
+        otu283597
+        otu283639
+        otu283604
+        otu283633
+        Acanthidops_bairdii
+        Sialia_sialis
+        otu283605
+        otu283619
+        Zosterops_senegalensis
+        otu283598
+        Sitta_pygmaea
+        otu283596
+        Meliphaga_gracilis
+        otu283594
+        Certhia_familiaris
+        otu283592
+        otu283593
+        Dasyornis_broadbenti
+        otu283591
+        otu283611
+        otu283600
+        otu283638
+        otu283615
+        otu283601
+        otu283634
+        Dumetella_carolinensis
+        otu283629
+        otu283640
+        otu283610
+        Pipra_pipra
+        otu283614
+        otu283628
+        otu283646
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2_ML = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](otu283614:0.067459[&otu=otu283614,^ot:ottId=443266,^ot:ottTaxonName=Polioptila caerulea,^ot:originalLabel=Polioptila_caerulea,^clo:ClementsTaxonName2019=Polioptila caerulea,^clo:speciescode2019=buggna],(otu283629:0.063433[&otu=otu283629,^ot:ottId=356971,^ot:ottTaxonName=Odontorchilus cinereus,^ot:originalLabel=Odontorchilus_cinereus,^clo:ClementsTaxonName2019=Odontorchilus cinereus,^clo:speciescode2019=tobwre1],((((otu283620:0.040226[&otu=otu283620,^ot:ottId=932504,^ot:ottTaxonName=Cistothorus palustris,^ot:originalLabel=Cistothorus_palustris,^clo:ClementsTaxonName2019=Cistothorus palustris,^clo:speciescode2019=marwre],otu283625:0.040045[&otu=otu283625,^ot:ottId=932500,^ot:ottTaxonName=Cistothorus platensis,^ot:originalLabel=Cistothorus_platensis,^clo:ClementsTaxonName2019=Cistothorus platensis,^clo:speciescode2019=sedwre])node708626:0.016933,otu283619:0.059097[&otu=otu283619,^ot:ottId=259813,^ot:ottTaxonName=Troglodytes troglodytes,^ot:originalLabel=Troglodytes_troglodytes,^clo:ClementsTaxonName2019=Troglodytes troglodytes,^clo:speciescode2019=winwre4],(otu283611:0.016626[&otu=otu283611,^ot:ottId=293378,^ot:ottTaxonName=Troglodytes aedon,^ot:originalLabel=Troglodytes_aedon,^clo:ClementsTaxonName2019=Troglodytes aedon,^clo:speciescode2019=houwre],otu283609:0.019472[&otu=otu283609,^ot:ottId=384299,^ot:ottTaxonName=Troglodytes musculus intermedius,^ot:originalLabel=Troglodytes_musculus_intermedius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708623:0.0359295)node708621:0.012768999999999999,(((otu283645:0.061283[&otu=otu283645,^ot:ottId=356973,^ot:ottTaxonName=Microcerculus marginatus,^ot:originalLabel=Microcerculus_marginatus,^clo:ClementsTaxonName2019=Microcerculus marginatus,^clo:speciescode2019=scbwre1],(otu283586:0.051672[&otu=otu283586,^ot:ottId=356964,^ot:ottTaxonName=Catherpes sumichrasti,^ot:originalLabel=Hylorchilus_sumichrasti,^clo:ClementsTaxonName2019=Hylorchilus sumichrasti,^clo:speciescode2019=sumwre1],otu283640:0.058888[&otu=otu283640,^ot:ottId=406675,^ot:ottTaxonName=Catherpes mexicanus,^ot:originalLabel=Catherpes_mexicanus,^clo:ClementsTaxonName2019=Catherpes mexicanus,^clo:speciescode2019=canwre])node708634:0.0114355)node708632:0.0114355,otu283635:0.053631[&otu=otu283635,^ot:ottId=356961,^ot:ottTaxonName=Salpinctes obsoletus,^ot:originalLabel=Salpinctes_obsoletus,^clo:ClementsTaxonName2019=Salpinctes obsoletus,^clo:speciescode2019=rocwre])node708630:0.009754,((otu283589:0.040253[&otu=otu283589,^ot:ottId=932497,^ot:ottTaxonName=Thryomanes bewickii,^ot:originalLabel=Thryomanes_bewickii,^clo:ClementsTaxonName2019=Thryomanes bewickii,^clo:speciescode2019=bewwre],(otu283615:0.012908[&otu=otu283615,^ot:ottId=777941,^ot:ottTaxonName=Thryothorus albinucha,^ot:originalLabel=Thryothorus_ludovicianus_albinucha,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283608:0.026102[&otu=otu283608,^ot:ottId=1036137,^ot:ottTaxonName=Thryothorus ludovicianus,^ot:originalLabel=Thryothorus_ludovicianus_ludovicianus,^clo:ClementsTaxonName2019=Thryothorus ludovicianus,^clo:speciescode2019=carwre])node708640:0.022539)node708638:0.019928,(otu283623:0.064527[&otu=otu283623,^ot:ottId=932501,^ot:ottTaxonName=Cinnycerthia peruana,^ot:originalLabel=Cinnycerthia_peruana,^clo:ClementsTaxonName2019=Cinnycerthia peruana,^clo:speciescode2019=perwre1],((otu283626:0.035788[&otu=otu283626,^ot:ottId=808730,^ot:ottTaxonName=Henicorhina leucophrys leucophrys,^ot:originalLabel=Henicorhina_leucophrys_leucophrys,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu283604:0.013003[&otu=otu283604,^ot:ottId=384300,^ot:ottTaxonName=Henicorhina leucosticta costaricensis,^ot:originalLabel=Henicorhina_leucosticta_costaricensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283591:0.016411[&otu=otu283591,^ot:ottId=402970,^ot:ottTaxonName=Henicorhina leucosticta,^ot:originalLabel=Henicorhina_leucosticta,^clo:ClementsTaxonName2019=Henicorhina leucosticta,^clo:speciescode2019=wbwwre1])node708648:0.029454)node708646:0.019945,(((otu283624:0.058178799999999996[&otu=otu283624,^ot:ottId=808709,^ot:ottTaxonName=Thryophilus rufalbus castanonotus,^ot:originalLabel=Thryothorus_rufalbus_castanonotus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu283637:0.043166[&otu=otu283637,^ot:ottId=859832,^ot:ottTaxonName=Thryophilus pleurostictus nisorius,^ot:originalLabel=Thryothorus_pleurostictus_nisorius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283598:0.0246205[&otu=otu283598,^ot:ottId=859831,^ot:ottTaxonName=Thryothorus sinaloa sinaloa,^ot:originalLabel=Thryothorus_sinaloa_sinaloa,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708684:0.0246205)node708682:0.016494,(((otu283585:0.034732[&otu=otu283585,^ot:ottId=234414,^ot:ottTaxonName=Thryothorus modestus zeledoni,^ot:originalLabel=Thryothorus_modestus_zeledoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283646:0.023428[&otu=otu283646,^ot:ottId=234413,^ot:ottTaxonName=Thryothorus modestus modestus,^ot:originalLabel=Thryothorus_modestus_modestus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708692:0.02132,(((((otu283597:0.030707[&otu=otu283597,^ot:ottId=932495,^ot:ottTaxonName=Thryothorus guarayanus,^ot:originalLabel=Thryothorus_guarayanus,^clo:ClementsTaxonName2019=Cantorchilus guarayanus,^clo:speciescode2019=fabwre1],otu283610:0.028803[&otu=otu283610,^ot:ottId=932491,^ot:ottTaxonName=Thryothorus leucotis,^ot:originalLabel=Thryothorus_leucotis_albipectus,^clo:ClementsTaxonName2019=Cantorchilus leucotis,^clo:speciescode2019=bubwre1])node708710:0.014131,(otu283612[&otu=otu283612,^ot:ottId=285057,^ot:ottTaxonName=Thryothorus longirostris,^ot:originalLabel=Thryothorus_longirostris_1,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283644[&otu=otu283644,^ot:ottId=285057,^ot:ottTaxonName=Thryothorus longirostris,^ot:originalLabel=Thryothorus_longirostris_2,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708713:0.0127945)node708709:0.0127945,otu283601:0.033283[&otu=otu283601,^ot:ottId=808711,^ot:ottTaxonName=Thryothorus leucotis galbraithii,^ot:originalLabel=Thryothorus_leucotis_galbraithii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708707:0.0040025,otu283593:0.044698[&otu=otu283593,^ot:ottId=859835,^ot:ottTaxonName=Thryothorus superciliaris superciliaris,^ot:originalLabel=Thryothorus_superciliaris_superciliaris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708705:0.0040025,((otu283600:0.009765[&otu=otu283600,^ot:ottId=808713,^ot:ottTaxonName=Thryothorus nigricapillus schotti,^ot:originalLabel=Thryothorus_nigricapillus_schotti,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu283643:0.00409[&otu=otu283643,^ot:ottId=448687,^ot:ottTaxonName=Thryothorus nigricapillus connectens,^ot:originalLabel=Thryothorus_nigricapillus_connectens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283639:0.003176[&otu=otu283639,^ot:ottId=808715,^ot:ottTaxonName=Thryothorus nigricapillus nigricapillus,^ot:originalLabel=Thryothorus_nigricapillus_nigricapillus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708702:0.003993,otu283634:0.020642[&otu=otu283634,^ot:ottId=808712,^ot:ottTaxonName=Thryothorus nigricapillus costaricensis,^ot:originalLabel=Thryothorus_nigricapillus_costaricensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708700:0.003993)node708698:0.029501,otu283622:0.03193[&otu=otu283622,^ot:ottId=647111,^ot:ottTaxonName=Thryothorus semibadius,^ot:originalLabel=Thryothorus_semibadius,^clo:ClementsTaxonName2019=Cantorchilus semibadius,^clo:speciescode2019=rivwre1])node708696:0.015208)node708695:0.0015145)node708691:0.0015145,(otu283630:0.016354[&otu=otu283630,^ot:ottId=234409,^ot:ottTaxonName=Thryothorus leucopogon leucopogon,^ot:originalLabel=Thryothorus_leucopogon_leucopogon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283588:0.028581[&otu=otu283588,^ot:ottId=298966,^ot:ottTaxonName=Thryothorus thoracicus,^ot:originalLabel=Thryothorus_thoracicus,^clo:ClementsTaxonName2019=Cantorchilus thoracicus,^clo:speciescode2019=stbwre1])node708688:0.035679)node708687:0.0103795)node708681:0.00518975,(((otu283584:0.059438000000000005[&otu=otu283584,^ot:ottId=808708,^ot:ottTaxonName=Thryothorus fasciatoventris melanogaster,^ot:originalLabel=Thryothorus_fasciatoventris_melanogaster,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu283582:0.0224045[&otu=otu283582,^ot:ottId=859838,^ot:ottTaxonName=Pheugopedius coraya griseipectus,^ot:originalLabel=Thryothorus_coraya_griseipectus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283642:0.04835[&otu=otu283642,^ot:ottId=313316,^ot:ottTaxonName=Pheugopedius coraya,^ot:originalLabel=Thryothorus_coraya_ridgwayi,^clo:ClementsTaxonName2019=Pheugopedius coraya,^clo:speciescode2019=corwre1])node708675:0.0224045,(otu283613:0.030191[&otu=otu283613,^ot:ottId=285059,^ot:ottTaxonName=Thryothorus genibarbis,^ot:originalLabel=Thryothorus_genibarbis_2,^clo:ClementsTaxonName2019=Pheugopedius genibarbis,^clo:speciescode2019=mouwre2],otu283592:0.02928[&otu=otu283592,^ot:ottId=285059,^ot:ottTaxonName=Thryothorus genibarbis,^ot:originalLabel=Thryothorus_genibarbis_1,^clo:ClementsTaxonName2019=Pheugopedius genibarbis,^clo:speciescode2019=mouwre2])node708678:0.017732)node708674:0.0080075,(otu283636:0.038418[&otu=otu283636,^ot:ottId=859843,^ot:ottTaxonName=Thryothorus mystacalis mystacalis,^ot:originalLabel=Thryothorus_mystacalis_mystacalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283628:0.048885[&otu=otu283628,^ot:ottId=285052,^ot:ottTaxonName=Thryothorus euophrys euophrys,^ot:originalLabel=Thryothorus_euophrys_euophrys,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708671:0.008158)node708670:0.00400375)node708668:0.00400375,(((otu283605:0.034816[&otu=otu283605,^ot:ottId=859837,^ot:ottTaxonName=Thryothorus sclateri paucimaculatus,^ot:originalLabel=Thryothorus_sclateri_paucimaculatus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283638:0.025539[&otu=otu283638,^ot:ottId=298984,^ot:ottTaxonName=Thryothorus felix felix,^ot:originalLabel=Thryothorus_felix_felix,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708660:0.004423,(otu283587:0.032523[&otu=otu283587,^ot:ottId=298983,^ot:ottTaxonName=Thryothorus rutilus hyperythrus,^ot:originalLabel=Thryothorus_rutilus_hyperythrus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu283583:0.006367[&otu=otu283583,^ot:ottId=356968,^ot:ottTaxonName=Thryothorus maculipectus,^ot:originalLabel=Thryothorus_maculipectus,^clo:ClementsTaxonName2019=Pheugopedius maculipectus,^clo:speciescode2019=spbwre1],otu283606:0.039727[&otu=otu283606,^ot:ottId=298969,^ot:ottTaxonName=Thryothorus maculipectus canobrunneus,^ot:originalLabel=Thryothorus_maculipectus_canobrunneus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708665:0.006869)node708663:0.009462)node708659:0.008716,otu283602:0.035066[&otu=otu283602,^ot:ottId=234412,^ot:ottTaxonName=Thryothorus atrogularis,^ot:originalLabel=Thryothorus_atrogularis,^clo:ClementsTaxonName2019=Pheugopedius atrogularis,^clo:speciescode2019=bltwre1])node708657:0.008716)node708656:0.011624,(otu283617:0.062712[&otu=otu283617,^ot:ottId=881734,^ot:ottTaxonName=Cyphorhinus arada,^ot:originalLabel=Cyphorhinus_arada,^clo:ClementsTaxonName2019=Cyphorhinus arada,^clo:speciescode2019=muswre2],otu283596:0.034936999999999996[&otu=otu283596,^ot:ottId=116839,^ot:ottTaxonName=Uropsila leucogastra leucogastra,^ot:originalLabel=Uropsila_leucogastra_leucogastra,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node708653:0.034936999999999996)node708652:0.011624)node708651:0.00518975)node708645:0.004843)node708643:0.0072645)node708637:0.0024215)node708629:0.0024215)node708620:0.0024215,((otu283633:0.035133[&otu=otu283633,^ot:ottId=428678,^ot:ottTaxonName=Campylorhynchus turdinus hypostictus,^ot:originalLabel=Campylorhynchus_turdinus_hypostictus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu283627:0.030205[&otu=otu283627,^ot:ottId=251339,^ot:ottTaxonName=Campylorhynchus megalopterus,^ot:originalLabel=Campylorhynchus_megalopterus,^clo:ClementsTaxonName2019=Campylorhynchus megalopterus,^clo:speciescode2019=grbwre1])node708617:0.013675,otu283594:0.036448[&otu=otu283594,^ot:ottId=800237,^ot:ottTaxonName=Campylorhynchus brunneicapillus,^ot:originalLabel=Campylorhynchus_brunneicapillus,^clo:ClementsTaxonName2019=Campylorhynchus brunneicapillus,^clo:speciescode2019=cacwre])node708615:0.037664)node708614:0.002554)node708612:0.067459)node708610;
+END;
+

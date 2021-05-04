@@ -1,0 +1,23 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu11	Ramphastos tucanus tucanus	whttou2	Ramphastos_tucanus_tucanus_2	179929	Ramphastos tucanus tucanus
+otu10	no_match	no_match	Ramphastos_tucanus_cuvieri_1	1068262	Ramphastos cuvieri
+otu12	no_match	no_match	Ramphastos_tucanus_cuvieri_2	1068262	Ramphastos cuvieri
+otu13	Ramphastos tucanus tucanus	whttou2	Ramphastos_tucanus_tucanus_1	179929	Ramphastos tucanus tucanus
+otu14	Ramphastos ambiguus swainsonii	chmtou1	Ramphastos_ambiguus_swainsonii	535536	Ramphastos swainsonii
+otu15	no_match	no_match	Ramphastos_ambiguus_ambiguus	866604	Ramphastos ambiguus ambiguus
+otu9	Ramphastos sulfuratus	kebtou1	Ramphastos_sulfuratus	1030674	Ramphastos sulfuratus
+otu8	Ramphastos dicolorus	rebtou2	Ramphastos_dicolorus	1030675	Ramphastos dicolorus
+otu7	Ramphastos brevis	chotou1	Ramphastos_brevis	397816	Ramphastos brevis
+otu6	Ramphastos vitellinus ariel	chbtou2	Ramphastos_vitellinus_ariel_SE	266063	Ramphastos ariel
+otu3	Ramphastos vitellinus ariel	chbtou2	Ramphastos_vitellinus_ariel_N_2	266063	Ramphastos ariel
+otu2	Ramphastos vitellinus ariel	chbtou2	Ramphastos_vitellinus_ariel_N_1	266063	Ramphastos ariel
+otu1	no_match	no_match	Ramphastos_vitellinus_culminatus_1	450962	Ramphastos culminatus
+otu4	no_match	no_match	Ramphastos_vitellinus_culminatus_2	450962	Ramphastos culminatus
+otu5	Ramphastos vitellinus vitellinus	chbtou8	Ramphastos_vitellinus_vitellinus	179925	Ramphastos vitellinus vitellinus
+otu20	no_match	no_match	Pteroglossus	291645	Pteroglossus
+otu18	no_match	no_match	Aulacorhynchus_prasinus_atrogularis	288964	Aulacorhynchus atrogularis
+otu19	Aulacorhynchus prasinus caeruleogularis	emetou4	Aulacorhynchus_prasinus_caeruleogularis	564506	Aulacorhynchus caeruleogularis
+otu16	no_match	no_match	Selenidera	1068266	Selenidera
+otu17	no_match	no_match	Andigena	815702	Andigena
+otu21	Semnornis frantzii	prbbar1	Semnornis_frantzii	542000	Semnornis frantzii
+otu22	Semnornis ramphastinus	toubar1	Semnornis_ramphastinus	1068256	Semnornis ramphastinus

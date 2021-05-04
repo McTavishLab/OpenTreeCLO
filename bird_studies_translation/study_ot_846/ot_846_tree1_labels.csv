@@ -1,0 +1,12 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Halcyon malimbica	blbkin4	Halcyon_malimbica	551379	Halcyon malimbica
+otu2	Megaceryle maxima	giakin3	Megaceryle_maxima	209417	Megaceryle maxima
+otu7	no_match	no_match	Alcedo_nais	951191	Alcedo leucogaster nais
+otu9	Corythornis cristatus thomensis	malkin5	Alcedo_thomensis	604614	Alcedo cristata thomensis
+otu8	Corythornis cristatus	malkin1	Alcedo_cristata	651469	Alcedo cristata
+otu6	Corythornis leucogaster	whbkin1	Alcedo_leucogaster	26087	Alcedo leucogaster
+otu10	Ispidina lecontei	dwakin1	Ceyx_lecontei	1061846	Ceyx lecontei
+otu11	Ispidina picta	afpkin1	Ispidina_picta	1097691	Ceyx pictus
+otu3	Ceyx erithaca	bkbkin1	Ceyx_erithacus	215691	Ceyx erithaca
+otu5	Alcedo quadribrachys	shbkin1	Alcedo_quadribrachys	26078	Alcedo quadribrachys
+otu4	Alcedo atthis	comkin1	Alcedo_atthis	549519	Alcedo atthis

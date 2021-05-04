@@ -1,0 +1,33 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Gallus gallus	redjun	Gallus_gallus_19	153563	Gallus gallus
+otu2	Aythya americana	redhea	Aythya_americana	693332	Aythya americana
+otu3	Anseranas semipalmata	maggoo1	Anseranas_semipalmata	714464	Anseranas semipalmata
+otu18	Leucogeranus leucogeranus	sibcra1	Grus_leucogeranus	832271	Grus leucogeranus
+otu19	no_match	no_match	Grus_rubicunda	972481	Grus rubicunda
+otu20	Grus grus	comcra	Grus_grus	589064	Grus grus
+otu17	Balearica pavonina	blccra1	Balearica_pavonina_FJ769842	928354	Balearica pavonina
+otu16	Balearica regulorum	grccra1	Balearica_regulorumFJ769841	191006	Balearica regulorum
+otu21	Heliornis fulica	sungre1	Heliornis_fulica	440618	Heliornis fulica
+otu29	Porphyrio hochstetteri	takahe3	Porphyrio_hochstetteri_NC_010092	73578	Porphyrio hochstetteri
+otu30	Porphyrio porphyrio	purswa1	Porphyrio_porphyrio_161112	148209	Porphyrio porphyrio
+otu32	Coturnicops exquisitus	swirai1	Coturnicops_exquisitus_NC_012143	556660	Coturnicops exquisitus
+otu31	no_match	no_match	Rallina_eurizonoides_sepiaria_NC_012142	195805	Rallina eurizonoides sepiaria
+otu27	Fulica atra	eurcoo	Fulica_atra	1041538	Fulica atra
+otu28	Gallinula chloropus	commoo3	Gallinula_chloropus_NC_015236	1041541	Gallinula chloropus
+otu25	Gallirallus philippensis	bubrai1	Gallirallus_philippensis_270213	32332	Gallirallus philippensis
+otu26	Gallirallus okinawae	okirai1	Gallirallus_okinawae_NC_012140	765969	Gallirallus okinawae
+otu24	Gallirallus castaneoventris	cherai1	Eulabeornis_castaneoventris	70700	Eulabeornis castaneoventris
+otu23	Gallirallus australis	weka1	Gallirallus_australis_270213	1041544	Gallirallus australis
+otu22	Lewinia muelleri	auirai1	Lewinia_muelleri	3599969	Lewinia muelleri
+otu4	Otis tarda	grebus1	Otis_tarda_NC_014046	458651	Otis tarda
+otu6	Urodynamis taitensis	lotkoe1	Eudynamys_taitensis_NC_011709	526771	Eudynamys taitensis
+otu5	Crotophaga ani	smbani	Crotophaga_ani_HM746794	267844	Crotophaga ani
+otu9	Gavia stellata	retloo	Gavia_stellata	1057044	Gavia stellata
+otu10	Gavia pacifica	pacloo	Gavia_pacifica	651474	Gavia pacifica
+otu11	Ciconia ciconia	whisto1	Ciconia_ciconia	363031	Ciconia ciconia
+otu12	Threskiornis aethiopicus	sacibi2	Threskiornis_aethiopicus	413795	Threskiornis aethiopicus
+otu15	Eudyptes chrysocome	rocpen1	Eudyptes_chrysocome	82220	Eudyptes chrysocome
+otu14	Eudyptula minor	litpen1	Eudyptula_minor	613299	Eudyptula minor
+otu13	Pygoscelis adeliae	adepen1	Pygoscelis_adeliae_gg	494357	Pygoscelis adeliae
+otu8	Nyctibius griseus	compot1	Nyctibius_griseus	178242	Nyctibius griseus
+otu7	Aegotheles cristatus	auonig1	Aegotheles_cristatus	540033	Aegotheles cristatus

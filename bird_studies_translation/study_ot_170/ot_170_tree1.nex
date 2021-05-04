@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu7
+        otu8
+        otu9
+        otu6
+        otu3
+        otu4
+        otu5
+        otu2
+        otu20
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu18[&otu=otu18,^ot:ottId=3599890,^ot:ottTaxonName=Regulus calendula,^ot:originalLabel=Regulus_calendula,^clo:ClementsTaxonName2019=Regulus calendula,^clo:speciescode2019=ruckin],((((((((otu8[&otu=otu8,^ot:ottId=4131623,^ot:ottTaxonName=Regulus regulus interni,^ot:originalLabel=Regulus_regulus_interni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=4131625,^ot:ottTaxonName=Regulus regulus regulus,^ot:originalLabel=Regulus_regulus_regulus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node20,((otu6[&otu=otu6,^ot:ottId=4131620,^ot:ottTaxonName=Regulus regulus sanctae-mariae,^ot:originalLabel=Regulus_regulus_sanctaemariae,^clo:ClementsTaxonName2019=Regulus regulus sanctaemariae,^clo:speciescode2019=goldcr3],otu5[&otu=otu5,^ot:ottId=4131618,^ot:ottTaxonName=Regulus regulus azoricus,^ot:originalLabel=Regulus_regulus_azoricus,^clo:ClementsTaxonName2019=Regulus regulus azoricus,^clo:speciescode2019=goldcr2])node17,otu4[&otu=otu4,^ot:ottId=4131619,^ot:ottTaxonName=Regulus regulus inermis,^ot:originalLabel=Regulus_regulus_inermis,^clo:ClementsTaxonName2019=Regulus regulus inermis,^clo:speciescode2019=goldcr4])node15)node14,(otu9[&otu=otu9,^ot:ottId=4131624,^ot:ottTaxonName=Regulus regulus ellenthalerae,^ot:originalLabel=Regulus_regulus_ellenthalerae,^clo:ClementsTaxonName2019=Regulus regulus ellenthalerae,^clo:speciescode2019=goldcr7],otu10[&otu=otu10,^ot:ottId=3599545,^ot:ottTaxonName=Regulus teneriffae,^ot:originalLabel=Regulus_regulus_teneriffae,^clo:ClementsTaxonName2019=Regulus regulus teneriffae,^clo:speciescode2019=caikin1])node23)node13,(otu12[&otu=otu12,^ot:ottId=4131621,^ot:ottTaxonName=Regulus regulus tristis,^ot:originalLabel=Regulus_regulus_tristis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu11[&otu=otu11,^ot:ottId=4131626,^ot:ottTaxonName=Regulus regulus japonensis,^ot:originalLabel=Regulus_regulus_japonensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node26)node12,(otu13[&otu=otu13,^ot:ottId=4131616,^ot:ottTaxonName=Regulus regulus himalayensis,^ot:originalLabel=Regulus_regulus_himalayensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu14[&otu=otu14,^ot:ottId=4131622,^ot:ottTaxonName=Regulus regulus sikkimensis,^ot:originalLabel=Regulus_regulus_sikkimensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node29)node11,otu15[&otu=otu15,^ot:ottId=3599842,^ot:ottTaxonName=Regulus goodfellowi,^ot:originalLabel=Regulus_goodfellowi,^clo:ClementsTaxonName2019=Regulus goodfellowi,^clo:speciescode2019=flamec1])node10,(otu17[&otu=otu17,^ot:ottId=4131614,^ot:ottTaxonName=Regulus satrapa satrapa,^ot:originalLabel=Regulus_satrapa_satrapa,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu16[&otu=otu16,^ot:ottId=4131615,^ot:ottTaxonName=Regulus satrapa olivaceus,^ot:originalLabel=Regulus_satrapa_olivaceus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node33)node9,((otu1[&otu=otu1,^ot:ottId=4131613,^ot:ottTaxonName=Regulus ignicapilla balearicus,^ot:originalLabel=Regulus_ignicapilla_balearicus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=4131612,^ot:ottTaxonName=Regulus ignicapilla ignicapilla,^ot:originalLabel=Regulus_ignicapilla_ignicapilla,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node5,otu3[&otu=otu3,^ot:ottId=3599436,^ot:ottTaxonName=Regulus madeirensis,^ot:originalLabel=Regulus_madeirensis,^clo:ClementsTaxonName2019=Regulus madeirensis,^clo:speciescode2019=firecr3])node4)node3)node2,(otu19[&otu=otu19,^ot:ottId=726307,^ot:ottTaxonName=Phylloscopus collybita,^ot:originalLabel=Phylloscopus_collybita,^clo:ClementsTaxonName2019=Phylloscopus collybita,^clo:speciescode2019=comchi1],otu20[&otu=otu20,^ot:ottId=931419,^ot:ottTaxonName=Leptopoecile elegans,^ot:originalLabel=Leptopoecile_elegans,^clo:ClementsTaxonName2019=Leptopoecile elegans,^clo:speciescode2019=crtwar1])node37)node1;
+END;
+

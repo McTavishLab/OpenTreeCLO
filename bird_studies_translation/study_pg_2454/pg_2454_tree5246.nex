@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        otu352948
+        otu352949
+        otu352946
+        otu352947
+        otu352966
+        otu352967
+        otu352964
+        otu352965
+        otu352962
+        otu352963
+        otu352960
+        otu352961
+        otu352968
+        otu352969
+        otu352959
+        otu352958
+        otu352953
+        otu352952
+        otu352951
+        otu352950
+        otu352957
+        otu352956
+        otu352955
+        otu352954
+        Sakesphorus_melanonotus
+        otu352974
+        Sakesphorus_melanothorax
+        Thamnophilus_multistriatus
+        otu352971
+        otu352970
+        otu352973
+        otu352972
+        Sakesphorus_cristatus
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree5246)' = [&unrootedTree=True,curatedType=Fig. 2e- ML,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=,messages=](((otu352951[&otu=otu352951,^ot:ottId=134534,^ot:ottTaxonName=Thamnomanes caesius,^ot:originalLabel=Thamnomanes_caesius,^clo:ClementsTaxonName2019=Thamnomanes caesius,^clo:speciescode2019=cinant1],(((((otu352957[&otu=otu352957,^ot:ottId=4947790,^ot:ottTaxonName=Thamnophilus bernardi,^ot:originalLabel=Sakesphorus_bernardi,^clo:ClementsTaxonName2019=Thamnophilus bernardi,^clo:speciescode2019=colant1],(otu352973[&otu=otu352973,^ot:ottId=970541,^ot:ottTaxonName=Thamnophilus atrinucha,^ot:originalLabel=Thamnophilus_atrinucha,^clo:ClementsTaxonName2019=Thamnophilus atrinucha,^clo:speciescode2019=wesant1],otu352967[&otu=otu352967,^ot:ottId=648995,^ot:ottTaxonName=Thamnophilus bridgesi,^ot:originalLabel=Thamnophilus_bridgesi,^clo:ClementsTaxonName2019=Thamnophilus bridgesi,^clo:speciescode2019=blhant2])node909125)node909123,(otu352952[&otu=otu352952,^ot:ottId=970544,^ot:ottTaxonName=Thamnophilus divisorius,^ot:originalLabel=Thamnophilus_divisorius,^clo:ClementsTaxonName2019=Thamnophilus divisorius,^clo:speciescode2019=acrant1],otu352970[&otu=otu352970,^ot:ottId=970538,^ot:ottTaxonName=Thamnophilus insignis,^ot:originalLabel=Thamnophilus_insignis,^clo:ClementsTaxonName2019=Thamnophilus insignis,^clo:speciescode2019=stbant1])node909128)node909122,(((((otu352955[&otu=otu352955,^ot:ottId=648990,^ot:ottTaxonName=Thamnophilus punctatus,^ot:originalLabel=Thamnophilus_punctatus,^clo:ClementsTaxonName2019=Thamnophilus punctatus,^clo:speciescode2019=norsla1],otu352960[&otu=otu352960,^ot:ottId=648989,^ot:ottTaxonName=Thamnophilus stictocephalus,^ot:originalLabel=Thamnophilus_stictocephalus,^clo:ClementsTaxonName2019=Thamnophilus stictocephalus,^clo:speciescode2019=natsla1])node909142,otu352946[&otu=otu352946,^ot:ottId=804859,^ot:ottTaxonName=Thamnophilus aethiops,^ot:originalLabel=Thamnophilus_aethiops,^clo:ClementsTaxonName2019=Thamnophilus aethiops,^clo:speciescode2019=whsant2],((otu352964[&otu=otu352964,^ot:ottId=648994,^ot:ottTaxonName=Thamnophilus nigriceps,^ot:originalLabel=Thamnophilus_nigriceps,^clo:ClementsTaxonName2019=Thamnophilus nigriceps,^clo:speciescode2019=blaant1],otu352966[&otu=otu352966,^ot:ottId=952791,^ot:ottTaxonName=Thamnophilus praecox,^ot:originalLabel=Thamnophilus_praecox,^clo:ClementsTaxonName2019=Thamnophilus praecox,^clo:speciescode2019=cocant1])node909138,otu352961[&otu=otu352961,^ot:ottId=82234,^ot:ottTaxonName=Thamnophilus unicolor,^ot:originalLabel=Thamnophilus_unicolor,^clo:ClementsTaxonName2019=Thamnophilus unicolor,^clo:speciescode2019=uniant2])node909137,otu352959[&otu=otu352959,^ot:ottId=648991,^ot:ottTaxonName=Thamnophilus aroyae,^ot:originalLabel=Thamnophilus_aroyae,^clo:ClementsTaxonName2019=Thamnophilus aroyae,^clo:speciescode2019=uplant1])node909134,(otu352971[&otu=otu352971,^ot:ottId=685791,^ot:ottTaxonName=Thamnophilus caerulescens,^ot:originalLabel=Thamnophilus_caerulescens,^clo:ClementsTaxonName2019=Thamnophilus caerulescens,^clo:speciescode2019=varant1],(otu352963[&otu=otu352963,^ot:ottId=260888,^ot:ottTaxonName=Thamnophilus cryptoleucus,^ot:originalLabel=Thamnophilus_cryptoleucus,^clo:ClementsTaxonName2019=Thamnophilus cryptoleucus,^clo:speciescode2019=casant1],otu352950[&otu=otu352950,^ot:ottId=413004,^ot:ottTaxonName=Thamnophilus nigrocinereus,^ot:originalLabel=Thamnophilus_nigrocinereus,^clo:ClementsTaxonName2019=Thamnophilus nigrocinereus,^clo:speciescode2019=blgant2])node909147)node909145)node909133,otu352974[&otu=otu352974,^ot:ottId=648993,^ot:ottTaxonName=Thamnophilus schistaceus,^ot:originalLabel=Thamnophilus_schistaceus,^clo:ClementsTaxonName2019=Thamnophilus schistaceus,^clo:speciescode2019=plwant1])node909132,otu352954[&otu=otu352954,^ot:ottId=648992,^ot:ottTaxonName=Thamnophilus murinus,^ot:originalLabel=Thamnophilus_murinus,^clo:ClementsTaxonName2019=Thamnophilus murinus,^clo:speciescode2019=mocant1],((((otu352958[&otu=otu352958,^ot:ottId=970545,^ot:ottTaxonName=Thamnophilus torquatus,^ot:originalLabel=Thamnophilus_torquatus,^clo:ClementsTaxonName2019=Thamnophilus torquatus,^clo:speciescode2019=ruwant2],otu352972[&otu=otu352972,^ot:ottId=970542,^ot:ottTaxonName=Thamnophilus ruficapillus,^ot:originalLabel=Thamnophilus_ruficapillus,^clo:ClementsTaxonName2019=Thamnophilus ruficapillus,^clo:speciescode2019=rucant1])node909155,otu352962[&otu=otu352962,^ot:ottId=799168,^ot:ottTaxonName=Thamnophilus doliatus,^ot:originalLabel=Thamnoophilus_doliatus,^clo:ClementsTaxonName2019=Thamnophilus doliatus,^clo:speciescode2019=barant1])node909153,(otu352953[&otu=otu352953,^ot:ottId=127435,^ot:ottTaxonName=Thamnophilus tenuepunctatus,^ot:originalLabel=Thamnophilus_tenuepunctatus,^clo:ClementsTaxonName2019=Thamnophilus tenuepunctatus,^clo:speciescode2019=linant1],otu352965[&otu=otu352965,^ot:ottId=648996,^ot:ottTaxonName=Thamnophilus palliatus,^ot:originalLabel=Thamnophilus_palliatus,^clo:ClementsTaxonName2019=Thamnophilus palliatus,^clo:speciescode2019=chbant2])node909158)node909152,otu352956[&otu=otu352956,^ot:ottId=970543,^ot:ottTaxonName=Thamnophilus zarumae,^ot:originalLabel=Thamnophilus_zarumae,^clo:ClementsTaxonName2019=Thamnophilus zarumae,^clo:speciescode2019=chaant1])node909151)node909131)node909121,otu352969[&otu=otu352969,^ot:ottId=970539,^ot:ottTaxonName=Thamnophilus amazonicus,^ot:originalLabel=Thamnophilus_amazonicus,^clo:ClementsTaxonName2019=Thamnophilus amazonicus,^clo:speciescode2019=amaant2])node909120,(otu352947[&otu=otu352947,^ot:ottId=394152,^ot:ottTaxonName=Sakesphorus luctuosus,^ot:originalLabel=Sakesphorus_luctuosus,^clo:ClementsTaxonName2019=Sakesphorus luctuosus,^clo:speciescode2019=gloant1],otu352968[&otu=otu352968,^ot:ottId=970546,^ot:ottTaxonName=Sakesphorus canadensis,^ot:originalLabel=Sakesphorus_canadensis,^clo:ClementsTaxonName2019=Sakesphorus canadensis,^clo:speciescode2019=blcant4])node909164)node909119)node909118,otu352949[&otu=otu352949,^ot:ottId=759513,^ot:ottTaxonName=Frederickena unduligera,^ot:originalLabel=Frederickena_unduligera,^clo:ClementsTaxonName2019=Frederickena unduliger,^clo:speciescode2019=undant2])node909116,otu352948[&otu=otu352948,^ot:ottId=394156,^ot:ottTaxonName=Cymbilaimus lineatus,^ot:originalLabel=Cymbilaimus_lineatus,^clo:ClementsTaxonName2019=Cymbilaimus lineatus,^clo:speciescode2019=fasant1])node909114;
+END;
+

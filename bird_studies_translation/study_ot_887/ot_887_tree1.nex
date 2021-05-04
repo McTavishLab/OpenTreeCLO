@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3A = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu5[&otu=otu5,^ot:ottId=662618,^ot:ottTaxonName=Dendrocygna bicolor,^ot:originalLabel=Dendrocygna_bicolor,^clo:ClementsTaxonName2019=Dendrocygna bicolor,^clo:speciescode2019=fuwduc],((otu1[&otu=otu1,^ot:ottId=714461,^ot:ottTaxonName=Branta canadensis,^ot:originalLabel=Branta_canadensis,^clo:ClementsTaxonName2019=Branta canadensis,^clo:speciescode2019=cangoo],otu2[&otu=otu2,^ot:ottId=190878,^ot:ottTaxonName=Anser caerulescens,^ot:originalLabel=Anser_caerulescens,^clo:ClementsTaxonName2019=Anser caerulescens,^clo:speciescode2019=snogoo])node3,(otu3[&otu=otu3,^ot:ottId=318892,^ot:ottTaxonName=Cygnus melancoryphus,^ot:originalLabel=Cygnus_melancoryphus,^clo:ClementsTaxonName2019=Cygnus melancoryphus,^clo:speciescode2019=blnswa2],otu4[&otu=otu4,^ot:ottId=140305,^ot:ottTaxonName=Coscoroba coscoroba,^ot:originalLabel=Coscoroba_coscoroba,^clo:ClementsTaxonName2019=Coscoroba coscoroba,^clo:speciescode2019=cosswa1])node6)node2)node1;
+END;
+

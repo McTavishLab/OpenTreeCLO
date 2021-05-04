@@ -1,0 +1,63 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu3	Hirundo rustica	barswa	Hirundo_rustica	1040135	Hirundo rustica
+otu4	Progne subis	purmar	Progne_subis	621799	Progne subis
+otu26	Eurillas virens	litgre2	Andropadus_virens	3599462	Eurillas virens
+otu27	Eurillas curvirostris	plagre2	Andropadus_curvirostris	674942	Andropadus curvirostris
+otu28	Eurillas ansorgei	ansgre1	Andropadus_ansorgei	334218	Andropadus ansorgei
+otu29	Eurillas gracilis	grygre1	Andropadus_gracilis	334217	Andropadus gracilis
+otu24	Criniger calurus	retgre1	Criniger_calurus	204775	Criniger calurus
+otu25	Criniger ndussumensis	whbgre1	Criniger_ndussumensis	204771	Criniger ndussumensis
+otu23	Criniger chloronotus	easbeg1	Criniger_chloronotus	859170	Criniger chloronotus
+otu61	Criniger barbatus	wesbeg1	Criniger_barbatus	204777	Criniger barbatus
+otu20	Baeopogon indicator	hongre1	Baeopogon_indicator	117655	Baeopogon indicator
+otu60	Baeopogon clamans	sjogre1	Baeopogon_clamans	753180	Baeopogon clamans
+otu21	Thescelocichla leucopleura	swagre1	Thescelocichla_leucopleura	434236	Thescelocichla leucopleura
+otu22	Atimastillas flavicollis	yetgre1	Chlorocichla_flavicollis	859167	Chlorocichla flavicollis
+otu18	Bleda canicapillus	gyhbri1	Bleda_canicapilla	334209	Bleda canicapillus
+otu19	Bleda eximius	gntbri1	Bleda_eximia	334206	Bleda eximius
+otu15	Phyllastrephus icterinus	ictgre1	Phyllastrephus_icterinus	647941	Phyllastrephus icterinus
+otu16	Phyllastrephus albigularis	whtgre2	Phyllastrephus_albigularis	778854	Phyllastrephus albigularis
+otu17	Phyllastrephus xavieri	xavgre1	Phyllastrephus_xavieri	258275	Phyllastrephus xavieri
+otu58	Phyllastrephus scandens	leaf-l1	Phyllastrephus_scandens	647945	Phyllastrephus scandens
+otu11	Phyllastrephus hypochloris	toogre1	Phyllastrephus_hypochloris	753178	Phyllastrephus hypochloris
+otu13	Phyllastrephus fischeri	fisgre1	Phyllastrephus_fischeri	314973	Phyllastrephus fischeri
+otu12	Phyllastrephus cabanisi placidus	cabgre3	Phyllastrephus_placidus	753183	Phyllastrephus placidus
+otu59	Phyllastrephus terrestris	terbro1	Phyllastrephus_terrestris	753179	Phyllastrephus terrestris
+otu10	Phyllastrephus flavostriatus	yesbul1	Phyllastrephus_flavostriatus	62261	Phyllastrephus flavostriatus
+otu14	Phyllastrephus debilis	tingre1	Phyllastrephus_debilis	647942	Phyllastrephus debilis
+otu30	Calyptocichla serinus	golgre1	Calyptocichla_serina	1010889	Calyptocichla serina
+otu31	Brachypodius atriceps	blhbul1	Pycnonotus_atriceps	778855	Brachypodius atriceps
+otu32	Brachypodius eutilotus	pubbul1	Pycnonotus_eutilotus	202631	Pycnonotus eutilotus
+otu33	Brachypodius melanoleucos	bawbul2	Pycnonotus_melanoleucos	597117	Pycnonotus melanoleucos
+otu39	Iole charlottae	chabul1	Iole_olivacea	1010885	Iole charlottae
+otu42	Hemixos flavala	ashbul1	Hemixos_flavala	434233	Hemixos flavala
+otu43	Ixos malaccensis	strbul1	Ixos_malaccensis	434240	Ixos malaccensis
+otu40	Hypsipetes amaurotis	brebul1	Microscelis_amaurotis	1010893	Microscelis amaurotis
+otu41	Hypsipetes madagascariensis	madbul1	Hypsipetes_madagascariensis	92684	Hypsipetes madagascariensis
+otu62	Hypsipetes philippinus	phibul1	Ixos_philippinus	434229	Ixos philippinus
+otu38	Alophoixus ochraceus	ochbul1	Criniger_ochraceus	122177	Alophoixus ochraceus
+otu37	Alophoixus bres	gycbul1	Criniger_bres	122201	Alophoixus bres
+otu36	Alophoixus phaeocephalus	yebbul2	Criniger_phaeocephalus	204788	Alophoixus phaeocephalus
+otu35	Setornis criniger	hobbul1	Setornis_criniger	1010887	Setornis criniger
+otu34	Tricholestes criniger	habbul1	Tricholestes_criniger	177065	Tricholestes criniger
+otu50	Pycnonotus plumosus	olwbul1	Pycnonotus_plumosus	108244	Pycnonotus plumosus
+otu49	Pycnonotus brunneus	reebul1	Pycnonotus_brunneus	202629	Pycnonotus brunneus
+otu48	Pycnonotus zeylanicus	sthbul1	Pycnonotus_zeylanicus	284401	Pycnonotus zeylanicus
+otu52	Pycnonotus leucogenys	whcbul2	Pycnonotus_leucogenys	597118	Pycnonotus leucogenis
+otu54	Pycnonotus nigricans	blfbul1	Pycnonotus_nigricans	597127	Pycnonotus nigricans
+otu53	Pycnonotus barbatus	combul2	Pycnonotus_barbatus	1054509	Pycnonotus barbatus
+otu51	Pycnonotus goiavier	yevbul1	Pycnonotus_goiavier	631572	Pycnonotus goiavier
+otu44	Spizixos semitorques	colfin1	Spizixos_semitorques	321380	Spizixos semitorques
+otu46	Rubigula cyaniventris	gybbul1	Pycnonotus_cyaniventris	597116	Pycnonotus cyaniventris
+otu47	Rubigula erythropthalmos	spebul1	Pycnonotus_erythropthalmos	597115	Pycnonotus erythropthalmos
+otu45	Rubigula melanicterus	bkcbul2	Pycnonotus_melanicterus	653279	Pycnonotus melanicterus
+otu2	Nicator vireo	yetnic1	Nicator_vireo	284404	Nicator vireo
+otu55	Nicator chloris	yesnic1	Nicator_chloris	814747	Nicator chloris
+otu9	Xanthomixis tenebrosa	dustet1	Phyllastrephus_tenebrosus	959909	Xanthomixis tenebrosus
+otu7	Bernieria madagascariensis	lobber1	Phyllastrephus_madagascariensis	959901	Bernieria madagascariensis (Gmelin, 1789)
+otu56	Xanthomixis cinereiceps	gyctet1	Phyllastrephus_cinereiceps	959907	Xanthomixis cinereiceps
+otu57	Xanthomixis apperti	apptet1	Phyllastrephus_apperti	959905	Xanthomixis apperti
+otu8	Xanthomixis zosterops	spetet1	Phyllastrephus_zosterops	959911	Xanthomixis zosterops
+otu6	no_match	no_match	Stachyris_plateni	334216	Stachyris plateni
+otu5	no_match	no_match	Trichastoma_bicolor	26168	Trichastoma bicolor
+otu1	Enicurus leschenaulti	whcfor1	Enicurus_leschenaulti	254683	Enicurus leschenaulti

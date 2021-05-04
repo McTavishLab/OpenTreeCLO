@@ -1,0 +1,50 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=38;
+    TAXLABELS
+        Pectinopygus_minor
+        Pectinopygus_setosus
+        Pectinopygus_fregatiphagus
+        otu313853
+        otu313852
+        otu313855
+        otu313854
+        otu313857
+        otu313856
+        otu313859
+        otu313858
+        Pectinopygus_gracilicornis
+        Pectinopygus_bassani_ex_Morus_serrator
+        Pectinopygus_occidentalis
+        Pectinopygus_farallonii
+        Anaticola_crassicornis
+        Pectinopygus_sulae
+        Pectinopygus_sp
+        otu313860
+        Pectinopygus_brevicornis
+        Pectinopygus_aquaticus
+        Pectinopygus_punctatus
+        Pectinopygus_tordoffi
+        Pectinopygus_excornis
+        Pectinopygus_gyricornis
+        Pectinopygus_annulatus
+        Pectinopygus_varius
+        Pectinopygus_bassani_ex_Morus_bassanus
+        otu313886
+        otu313887
+        otu313884
+        otu313885
+        otu313882
+        otu313883
+        otu313880
+        otu313881
+        otu313888
+        otu313889
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4a (birds)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu313889[&otu=otu313889,^ot:ottId=1057044,^ot:ottTaxonName=Gavia stellata,^ot:originalLabel=Gavia_stellata,^clo:ClementsTaxonName2019=Gavia stellata,^clo:speciescode2019=retloo],(((otu313883[&otu=otu313883,^ot:ottId=285638,^ot:ottTaxonName=Fregata minor,^ot:originalLabel=Fregata_minor,^clo:ClementsTaxonName2019=Fregata minor,^clo:speciescode2019=grefri],otu313853[&otu=otu313853,^ot:ottId=330000,^ot:ottTaxonName=Fregata magnificens,^ot:originalLabel=Fregata_magnificens,^clo:ClementsTaxonName2019=Fregata magnificens,^clo:speciescode2019=magfri])node801789,(((otu313887[&otu=otu313887,^ot:ottId=1021952,^ot:ottTaxonName=Phalacrocorax aristotelis,^ot:originalLabel=Phalacrocorax_aristotelis,^clo:ClementsTaxonName2019=Phalacrocorax aristotelis,^clo:speciescode2019=eursha1],(otu313885[&otu=otu313885,^ot:ottId=170200,^ot:ottTaxonName=Phalacrocorax auritus,^ot:originalLabel=Phalacrocorax_auritus,^clo:ClementsTaxonName2019=Phalacrocorax auritus,^clo:speciescode2019=doccor],((otu313888[&otu=otu313888,^ot:ottId=480891,^ot:ottTaxonName=Phalacrocorax punctatus,^ot:originalLabel=Phalacrocorax_punctatus,^clo:ClementsTaxonName2019=Phalacrocorax punctatus,^clo:speciescode2019=sposha1],(otu313859[&otu=otu313859,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Phalacrocorax_varius,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1],otu313882[&otu=otu313882,^ot:ottId=443642,^ot:ottTaxonName=Phalacrocorax sulcirostris,^ot:originalLabel=Phalacrocorax_sulcirostris,^clo:ClementsTaxonName2019=Phalacrocorax sulcirostris,^clo:speciescode2019=libcor1])node801812)node801811,otu313852[&otu=otu313852,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor])node801809)node801808)node801807,otu313886[&otu=otu313886,^ot:ottId=3600659,^ot:ottTaxonName=Phalacrocorax pygmaeus,^ot:originalLabel=Phalacrocorax_pygmaeus,^clo:ClementsTaxonName2019=Microcarbo pygmaeus,^clo:speciescode2019=pygcor2])node801806,(otu313860[&otu=otu313860,^ot:ottId=443639,^ot:ottTaxonName=Anhinga novaehollandiae,^ot:originalLabel=Anhinga_novaehollandiae,^clo:ClementsTaxonName2019=Anhinga novaehollandiae,^clo:speciescode2019=darter4],((otu313858[&otu=otu313858,^ot:ottId=1030314,^ot:ottTaxonName=Sula sula,^ot:originalLabel=Sula_sula,^clo:ClementsTaxonName2019=Sula sula,^clo:speciescode2019=refboo],(otu313880[&otu=otu313880,^ot:ottId=1030310,^ot:ottTaxonName=Sula leucogaster,^ot:originalLabel=Sula_leucogaster,^clo:ClementsTaxonName2019=Sula leucogaster,^clo:speciescode2019=brnboo],(otu313856[&otu=otu313856,^ot:ottId=170197,^ot:ottTaxonName=Sula dactylatra,^ot:originalLabel=Sula_dactylatra,^clo:ClementsTaxonName2019=Sula dactylatra,^clo:speciescode2019=masboo],otu313881[&otu=otu313881,^ot:ottId=429615,^ot:ottTaxonName=Sula nebouxii,^ot:originalLabel=Sula_nebouxii,^clo:ClementsTaxonName2019=Sula nebouxii,^clo:speciescode2019=bfoboo])node801800)node801799)node801798,(otu313857[&otu=otu313857,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1],otu313854[&otu=otu313854,^ot:ottId=675103,^ot:ottTaxonName=Morus bassanus,^ot:originalLabel=Morus_bassanus,^clo:ClementsTaxonName2019=Morus bassanus,^clo:speciescode2019=norgan])node801795)node801794)node801793)node801792)node801788,(otu313855[&otu=otu313855,^ot:ottId=329999,^ot:ottTaxonName=Pelecanus occidentalis,^ot:originalLabel=Pelecanus_occidentalis,^clo:ClementsTaxonName2019=Pelecanus occidentalis,^clo:speciescode2019=brnpel],otu313884[&otu=otu313884,^ot:ottId=316989,^ot:ottTaxonName=Pelecanus erythrorhynchos,^ot:originalLabel=Pelecanus_erythrorhynchos,^clo:ClementsTaxonName2019=Pelecanus erythrorhynchos,^clo:speciescode2019=amwpel])node801819)node801787)node801786;
+END;
+

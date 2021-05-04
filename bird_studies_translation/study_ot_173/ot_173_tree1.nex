@@ -1,0 +1,20 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=](((otu7[&otu=otu7,^ot:ottId=951128,^ot:ottTaxonName=Poecile cinctus,^ot:originalLabel=Poecile_cinctus,^clo:ClementsTaxonName2019=Poecile cinctus,^clo:speciescode2019=gyhchi],(otu6[&otu=otu6,^ot:ottId=171835,^ot:ottTaxonName=Poecile hudsonica,^ot:originalLabel=Poecile_hudsonicus,^clo:ClementsTaxonName2019=Poecile hudsonicus,^clo:speciescode2019=borchi2],otu5[&otu=otu5,^ot:ottId=119889,^ot:ottTaxonName=Poecile rufescens,^ot:originalLabel=Poecile_rufescens,^clo:ClementsTaxonName2019=Poecile rufescens,^clo:speciescode2019=chbchi])node11)node10,((otu1[&otu=otu1,^ot:ottId=171825,^ot:ottTaxonName=Poecile sclateri,^ot:originalLabel=Poecile_sclateri,^clo:ClementsTaxonName2019=Poecile sclateri,^clo:speciescode2019=mexchi],otu2[&otu=otu2,^ot:ottId=694655,^ot:ottTaxonName=Poecile gambeli,^ot:originalLabel=Poecile_gambeli,^clo:ClementsTaxonName2019=Poecile gambeli,^clo:speciescode2019=mouchi])node4,(otu4[&otu=otu4,^ot:ottId=17255,^ot:ottTaxonName=Poecile carolinensis,^ot:originalLabel=Poecile_carolinensis,^clo:ClementsTaxonName2019=Poecile carolinensis,^clo:speciescode2019=carchi],otu3[&otu=otu3,^ot:ottId=17262,^ot:ottTaxonName=Poecile atricapilla,^ot:originalLabel=Poecile_atricapillus,^clo:ClementsTaxonName2019=Poecile atricapillus,^clo:speciescode2019=bkcchi])node7)node3)node2,otu8[&otu=otu8,^ot:ottId=17260,^ot:ottTaxonName=Poecile palustris,^ot:originalLabel=Parus_palustris,^clo:ClementsTaxonName2019=Poecile palustris,^clo:speciescode2019=martit2])node1;
+END;
+

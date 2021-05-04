@@ -1,0 +1,56 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu101	Cossypha archeri	arrcha1	Cossypha_archeri	288665	Cossypha archeri
+otu102	Erithacus rubecula	eurrob1	Erithacus_rubecula	507122	Erithacus rubecula
+otu94	Enicurus leschenaulti	whcfor1	Enicurus_leschenaulti	254683	Enicurus leschenaulti
+otu95	Tarsiger cyanurus	refblu	Tarsiger_cyanurus	131992	Luscinia cyanura
+otu96	Myiomela leucura	whtrob2	Myiomela_leucura	35350	Myiomela leucura
+otu93	Ficedula zanthopygia	korfly1	Ficedula_zanthopygia	547548	Ficedula zanthopygia
+otu92	Ficedula narcissina	narfly	Ficedula_narcissina	131996	Ficedula narcissina
+otu91	Ficedula elisae	narfly1	Ficedula_elisae	3598138	Ficedula elisae
+otu68	Ficedula buruensis	cicfly1	Ficedula_buruensis	284698	Ficedula buruensis
+otu69	Ficedula rufigula	rutfly5	Ficedula_rufigula	130294	Ficedula rufigula
+otu61	Ficedula basilanica	lisfly1	Ficedula_basilanica	3598140	Ficedula basilanica
+otu60	Ficedula crypta	rutfly7	Ficedula_crypta	284693	Ficedula crypta
+otu59	not_a_bird	not_a_bird	Ficedula_luzoniensis_10967	None	None
+otu58	not_a_bird	not_a_bird	Ficedula_luzoniensis_20911	None	None
+otu56	not_a_bird	not_a_bird	Ficedula_luzoniensis_18078	None	None
+otu57	not_a_bird	not_a_bird	Ficedula_luzoniensis_955	None	None
+otu65	Ficedula nigrorufa	barfly1	Ficedula_nigrorufa	909204	Ficedula nigrorufa
+otu64	Ficedula dumetoria	rucfly1	Ficedula_dumetoria	284700	Ficedula dumetoria
+otu63	Ficedula platenae	palfly1	Ficedula_platenae	284694	Ficedula platenae
+otu62	Ficedula disposita	furfly1	Ficedula_disposita	174772	Ficedula disposita
+otu66	Ficedula harterti	sumfly1	Ficedula_harterti	284695	Ficedula harterti
+otu67	Ficedula timorensis	blbfly2	Ficedula_timorensis	909201	Ficedula timorensis
+otu74	Ficedula albicilla	taifly1	Ficedula_albicilla	859519	Ficedula albicilla
+otu76	Ficedula subrubra	kasfly1	Ficedula_subrubra	859520	Ficedula subrubra
+otu75	Ficedula parva	rebfly	Ficedula_parva	416087	Ficedula parva
+otu73	Ficedula semitorquata	semfly1	Ficedula_semitorquata	629342	Ficedula semitorquata
+otu72	Ficedula speculigera	atlfly1	Ficedula_speculigera	416089	Ficedula speculigera
+otu71	Ficedula hypoleuca	eupfly1	Ficedula_hypoleuca	22300	Ficedula hypoleuca
+otu70	Ficedula albicollis	colfly1	Ficedula_albicollis	107840	Ficedula albicollis
+otu78	no_match	no_match	Muscicapa_ruficauda_130228	3598245	Muscicapa ruficauda
+otu77	no_match	no_match	Muscicapa_ruficauda_24522	3598245	Muscicapa ruficauda
+otu89	Ficedula strophiata	rugfly1	Ficedula_strophiata	859518	Ficedula strophiata
+otu88	Ficedula sapphira	sapfly1	Ficedula_sapphira	909203	Ficedula sapphira
+otu86	Ficedula superciliaris	ultfly1	Ficedula_superciliaris	909205	Ficedula superciliaris
+otu87	Ficedula westermanni	lipfly1	Ficedula_westermanni	284707	Ficedula westermanni
+otu85	no_match	no_match	Ficedula_sordida	859517	Ficedula hodgsonii
+otu84	Ficedula mugimaki	mugfly	Ficedula_mugimaki	67150	Ficedula mugimaki
+otu81	Ficedula hyperythra	snbfly1	Ficedula_hyperythra_67484	859509	Ficedula hyperythra
+otu80	Ficedula hyperythra	snbfly1	Ficedula_hyperythra_15255	859509	Ficedula hyperythra
+otu134	Ficedula hyperythra	snbfly1	Ficedula_hyperythra_DH18	859509	Ficedula hyperythra
+otu82	Ficedula hyperythra	snbfly1	Ficedula_hyperythra_17734	859509	Ficedula hyperythra
+otu83	Ficedula tricolor	slbfly2	Ficedula_tricolor	1058850	Ficedula tricolor
+otu90	no_match	no_match	Ficedula_hodgsoni	909199	Muscicapella hodgsoni
+otu100	Phoenicurus phoenicurus	comred2	Phoenicurus_phoenicurus	1093902	Phoenicurus phoenicurus
+otu99	Monticola solitarius	burthr	Monticola_solitarius	653933	Monticola solitarius
+otu98	Saxicola rubetra	whinch1	Saxicola_rubetra	170383	Saxicola rubetra
+otu97	Oenanthe deserti	deswhe1	Oenanthe_deserti	619182	Oenanthe deserti
+otu103	Brachypteryx montana	whbsho12	Brachypteryx_montana	878305	Brachypteryx montana
+otu104	Luscinia svecica	blueth	Luscinia_svecica	274225	Luscinia svecica
+otu106	Niltava sundara	rubnil1	Niltava_sundara	678887	Niltava sundara
+otu105	Cyornis tickelliae	tibfly3	Cyornis_tickelliae	3598179	Cyornis tickelliae
+otu109	Copsychus fulicatus	indrob1	Copsychus_fulicatus	3598207	Copsychus fulicatus
+otu108	Muscicapa striata	spofly1	Muscicapa_striata	116518	Muscicapa striata
+otu107	Muscicapa griseisticta	gysfly1	Muscicapa_griseisticta	795157	Muscicapa griseisticta
+otu110	Turdus obscurus	eyethr	Turdus_obscurus	653930	Turdus obscurus

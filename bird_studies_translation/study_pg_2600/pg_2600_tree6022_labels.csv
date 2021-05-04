@@ -1,0 +1,104 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu386459	Picathartes gymnocephalus	whnroc1	Picathartes_gymnocephalus	699623	Picathartes gymnocephalus
+otu386460	Alauda arvensis	skylar	Alauda_arvensis	312548	Alauda arvensis
+otu386472	Muscicapa striata	spofly1	Muscicapa_striata	116518	Muscicapa striata
+otu386473	Sturnus vulgaris	eursta	Sturnus_vulgaris	565813	Sturnus vulgaris
+otu386471	Troglodytes troglodytes	winwre4	Troglodytes_troglodytes	259813	Troglodytes troglodytes
+otu386470	Certhia familiaris	eurtre1	Certhia_familiaris	1007196	Certhia familiaris
+otu386468	Stenostira scita	faifly1	Stenostira_scita	158197	Stenostira scita
+otu386469	Elminia nigromitrata	ducfly1	Elminia_nigromitrata	542035	Elminia nigromitrata
+otu386465	Modulatrix stictigula	spothr1	Modulatrix_stictigula	1015936	Modulatrix stictigula
+otu386467	Passer montanus	eutspa	Passer_montanus	44870	Passer montanus
+otu386466	Dicaeum australe	resflo1	Dicaeum_australe	1064683	Dicaeum australe
+otu386464	no_match	no_match	Regulus_regu_igni	3599326	Regulus
+otu386463	Bombycilla garrulus	bohwax	Bombycilla_garrulus	613881	Bombycilla garrulus
+otu386461	Hyliota flavigaster	yebhyl1	Hyliota_flavigaster	3599747	Hyliota flavigaster
+otu386462	Pycnonotus barbatus	combul2	Pycnonotus_barbatus	1054509	Pycnonotus barbatus
+otu386509	Melaniparus funereus	dustit2	Parus_funereus_JO07	4131696	Melaniparus funereus
+otu386510	Melaniparus griseiventris	miotit2	Parus_griseiventris_ABS459	4131702	Melaniparus griseiventris
+otu386513	Melaniparus fasciiventer	stbtit2	Parus_fasciiventer_RB3096	4131703	Melaniparus fasciiventer
+otu386512	Melaniparus fasciiventer	stbtit2	Parus_fasciiventer_JO20	4131703	Melaniparus fasciiventer
+otu386511	Melaniparus fasciiventer	stbtit2	Parus_fasciiventer_RB3095	4131703	Melaniparus fasciiventer
+otu386521	Melaniparus thruppi	somtit4	Parus_thruppi_JO12	4131695	Melaniparus thruppi
+otu386522	Melaniparus fringillinus	rettit2	Parus_fringillinus_JO06	4131699	Melaniparus fringillinus
+otu386523	Melaniparus fringillinus	rettit2	Parus_fringillinus_BMNH	4131699	Melaniparus fringillinus
+otu386517	Melaniparus afer	grytit1	Parus_afer_JP816	4131698	Melaniparus afer
+otu386516	Melaniparus afer	grytit1	Parus_afer_JP815	4131698	Melaniparus afer
+otu386519	Melaniparus cinerascens	ashtit2	Parus_cinerascens_JP813	4131692	Melaniparus cinerascens
+otu386520	Melaniparus cinerascens	ashtit2	Parus_cinerascens_JP814	4131692	Melaniparus cinerascens
+otu386518	Melaniparus cinerascens	ashtit2	Parus_cinerascens_BH24010	4131692	Melaniparus cinerascens
+otu386515	Melaniparus leuconotus	whbblt1	Parus_leuconotus_JO10	4131700	Melaniparus leuconotus
+otu386514	Melaniparus leuconotus	whbblt1	Parus_leuconotus_UO	4131700	Melaniparus leuconotus
+otu386506	Melaniparus guineensis	whsblt1	Parus_guineensis	4131701	Melaniparus guineensis
+otu386508	no_match	no_match	Parus_leucomelas_leucomelas_JO09	5223421	Melaniparus leucomelas leucomelas
+otu386507	no_match	no_match	Parus_leucomelas_insignis_JO08	5223422	Melaniparus leucomelas insignis
+otu386501	Melaniparus niger	soublt1	Parus_niger_RB3097	4131704	Melaniparus niger
+otu386500	Melaniparus niger	soublt1	Parus_niger_JP812	4131704	Melaniparus niger
+otu386499	Melaniparus niger	soublt1	Parus_niger_JP811	4131704	Melaniparus niger
+otu386502	Melaniparus carpi	cartit2	Parus_carpi_BMNH	4131694	Melaniparus carpi
+otu386498	Melaniparus albiventris	whbtit5	Parus_albiventris	4131691	Melaniparus albiventris
+otu386505	Melaniparus rufiventris	rubtit3	Parus_rufiventris_JO11	4131697	Melaniparus rufiventris
+otu386504	no_match	no_match	Parus_pallidiventris_ABS460	852353	Melaniparus pallidiventris
+otu386503	no_match	no_match	Parus_pallidiventris_ABS458	852353	Melaniparus pallidiventris
+otu386492	Machlolophus holsti	yeltit2	Parus_holsti_JO05	325806	Machlolophus holsti
+otu386493	no_match	no_match	Parus_spilonotus_rex	5223425	Machlolophus spilonotus rex
+otu386494	no_match	no_match	Parus_spilonotus_basileus_JO28	5223424	Machlolophus spilonotus basileus
+otu386495	no_match	no_match	Parus_spilonotus_subviridis_JO29	5223426	Machlolophus spilonotus subviridis
+otu386496	not_a_bird	not_a_bird	Parus_xanthogenys_aplonotus_BMNH	None	None
+otu386497	no_match	no_match	Parus_xanthogenys_xanthogenys_BMNH	5223427	Machlolophus xanthogenys xanthogenys
+otu386491	Machlolophus nuchalis	whwtit2	Parus_nuchalis_BMNH	3598685	Machlolophus nuchalis
+otu386485	Pseudopodoces humilis	grotit1	Pseudopodoces_humilis	875992	Pseudopodoces humilis
+otu386489	Parus minor	gretit4	Parus_major_minor	387300	Parus minor
+otu386490	no_match	no_match	Parus_bokharensis_NRM	492911	Parus bokharensis
+otu386488	Parus cinereus	gretit2	Parus_major_cinereus	3598691	Parus cinereus
+otu386487	no_match	no_match	Parus_major_major	823219	Parus major major
+otu386486	Parus monticolus	grbtit1	Parus_monticolus	694663	Parus monticolus
+otu386483	no_match	no_match	Cyanistes_caeruleus_caeruleus_NRM966240	744585	Cyanistes caeruleus caeruleus
+otu386484	Cyanistes cyanus	azutit2	Cyanistes_cyanus_JO03	222479	Cyanistes cyanus
+otu386481	Cyanistes teneriffae	afbtit2	Cyanistes_teneriffae_JO04	808982	Cyanistes teneriffae
+otu386482	no_match	no_match	Cyanistes_caeruleus_ultramarinus_UO	728471	Cyanistes caeruleus ultramarinus
+otu386525	not_a_bird	not_a_bird	Periparus_amabilis_BMNH	4131706	Pardaliparus amabilis
+otu386524	not_a_bird	not_a_bird	Periparus_elegans_ZMUC117211	None	None
+otu386526	not_a_bird	not_a_bird	Periparus_venustulus_6362	4131707	Pardaliparus venustulus
+otu386529	Periparus rufonuchalis	bkbtit2	Periparus_rufonuchalis_FMNH395843	3598705	Periparus rufonuchalis
+otu386530	no_match	no_match	Periparus_rubidiventris_rubidiventris_TP	263624	Periparus rubidiventris rubidiventris
+otu386531	no_match	no_match	Periparus_rubidiventris_beavani_NEP019	736295	Periparus rubidiventris beavani
+otu386528	no_match	no_match	Periparus_melanolophus_TP01748	222484	Periparus melanolophus
+otu386527	Periparus ater	coatit2	Periparus_ater_NRM976516	746130	Periparus ater
+otu386556	Baeolophus atricristatus	blctit4	Baeolophus_atricristatus_JO01	809013	Baeolophus atricristatus
+otu386557	Baeolophus bicolor	tuftit	Baeolophus_bicolor_NRM20086098	922720	Baeolophus bicolor
+otu386558	Baeolophus bicolor	tuftit	ABS559_Baeolophus_bicolor	922720	Baeolophus bicolor
+otu386561	Baeolophus ridgwayi	juntit1	Baeolophus_ridgwayi_ABS563	582675	Baeolophus ridgwayi
+otu386560	Baeolophus inornatus	oaktit	Baeolophus_inornatus_ABS561	641521	Baeolophus inornatus
+otu386559	Baeolophus inornatus	oaktit	Baeolophus_inornatus_ABS560	641521	Baeolophus inornatus
+otu386555	Baeolophus wollweberi	britit	Baeolophus_wollweberi_JO02	694665	Baeolophus wollweberi
+otu386532	Lophophanes cristatus	cretit2	Lophophanes_cristatus_NRM20036743	73152	Lophophanes cristatus
+otu386533	Lophophanes dichrous	gyctit1	Lophophanes_dichrous_TP002	222481	Lophophanes dichrous
+otu386534	not_a_bird	not_a_bird	Parus_semilarvatus_MI17	None	None
+otu386535	Sittiparus varius	vartit1	Poecile_varius_JO18	613888	Sittiparus varius
+otu386546	Poecile gambeli	mouchi	Poecile_gambeli_ABS552	694655	Poecile gambeli
+otu386547	Poecile gambeli	mouchi	Poecile_gambeli_ABS553	694655	Poecile gambeli
+otu386545	Poecile atricapillus	bkcchi	Poecile_atricapillus_NRM20036275	17262	Poecile atricapilla
+otu386553	Poecile carolinensis	carchi	Poecile_carolinensis_ABS554	17255	Poecile carolinensis
+otu386554	Poecile carolinensis	carchi	Poecile_carolinensis_ABS555	17255	Poecile carolinensis
+otu386548	Poecile sclateri	mexchi	Poecile_sclateri_JO16	171825	Poecile sclateri
+otu386552	Poecile cinctus	gyhchi	Poecile_cinctus_NRM945608	951128	Poecile cinctus
+otu386550	Poecile rufescens	chbchi	Poecile_rufescens_ABS556	119889	Poecile rufescens
+otu386551	Poecile rufescens	chbchi	Poecile_rufescens_ABS557	119889	Poecile rufescens
+otu386549	Poecile hudsonicus	borchi2	Poecile_hudsonicus_JO15	171835	Poecile hudsonica
+otu386540	Poecile hypermelaenus	bkbtit1	Poecile_palustris_hypermelaenus	3598720	Poecile hypermelaenus
+otu386542	no_match	no_match	Poecile_songarus_affinis_JO22	410091	Poecile montanus affinis
+otu386541	Poecile montanus	wiltit1	Poecile_montanus_NRM956362	17269	Poecile montanus
+otu386539	Poecile hyrcanus	castit2	Poecile_lugubris_hyrcanus_BMNH	3598722	Poecile hyrcanus
+otu386543	Poecile palustris	martit2	Poecile_palustris_NRM956361	17260	Poecile palustris
+otu386544	Poecile davidi	pedtit1	Poecile_davidi_BMNH	694656	Poecile davidi
+otu386537	not_a_bird	not_a_bird	Poecile_lugubris_lugubris_NRM20026298	None	None
+otu386538	Poecile lugubris	somtit3	Poecile_lugubris_JO23	171829	Poecile lugubris
+otu386536	Poecile superciliosus	whbtit4	Poecile_superciliosus_JO17	171826	Poecile superciliosus
+otu386480	Melanochlora sultanea	sultit1	Melanochlora_sultanea_JO13	814750	Melanochlora sultanea
+otu386479	Sylviparus modestus	yebtit3	Sylviparus_modestus	71359	Sylviparus modestus
+otu386478	Cephalopyrus flammiceps	fictit1	Cephalopyrus_flammiceps_JO26	124085	Cephalopyrus flammiceps
+otu386474	Auriparus flaviceps	verdin	Auriparus_flaviceps_FMNH394359	1093469	Auriparus flaviceps
+otu386475	Anthoscopus minutus	soptit1	Anthoscopus_minutus_W33645	73144	Anthoscopus minutus
+otu386476	Anthoscopus parvulus	yeptit1	Anthoscopus_parvulus	3598714	Anthoscopus parvulus
+otu386477	Remiz pendulinus	euptit1	Remiz_pendulinus	746137	Remiz pendulinus

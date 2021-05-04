@@ -1,0 +1,66 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=54;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu54
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 1 (MrBayes consensus)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=](((((otu51:0.482357[&otu=otu51,^ot:ottId=799167,^ot:ottTaxonName=Thamnophilus (genus in Deuterostomia),^ot:originalLabel=Thamnophilus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu50:0.44299[&otu=otu50,^ot:ottId=474278,^ot:ottTaxonName=Elaenia,^ot:originalLabel=Elaenia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node102:0.066514,otu52:0.549392[&otu=otu52,^ot:ottId=784742,^ot:ottTaxonName=Philepitta,^ot:originalLabel=Philepitta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node101:0.089375,(otu49:0.399344[&otu=otu49,^ot:ottId=73933,^ot:ottTaxonName=Menura,^ot:originalLabel=Menura,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu48:0.395894[&otu=otu48,^ot:ottId=901831,^ot:ottTaxonName=Malurus,^ot:originalLabel=Malurus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu44:0.228953[&otu=otu44,^ot:ottId=613403,^ot:ottTaxonName=Gymnorhina,^ot:originalLabel=Gymnorhina,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu45:0.183363[&otu=otu45,^ot:ottId=310378,^ot:ottTaxonName=Batis (genus in phylum Opisthokonta),^ot:originalLabel=Batis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node93:0.032359,(((otu41:0.222942[&otu=otu41,^ot:ottId=176462,^ot:ottTaxonName=Monarcha (genus in Deuterostomia),^ot:originalLabel=Monarcha,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((((otu36:0.051127[&otu=otu36,^ot:ottId=544651,^ot:ottTaxonName=Manucodia jobiensis,^ot:originalLabel=Manucodia_jobiensis,^clo:ClementsTaxonName2019=Manucodia jobiensis,^clo:speciescode2019=jobman1],otu35:0.032629[&otu=otu35,^ot:ottId=489932,^ot:ottTaxonName=Manucodia ater,^ot:originalLabel=Manucodia_ater,^clo:ClementsTaxonName2019=Manucodia ater,^clo:speciescode2019=glmman2])node82:0.007548,(otu37:0.035213[&otu=otu37,^ot:ottId=1015953,^ot:ottTaxonName=Manucodia chalybatus,^ot:originalLabel=Manucodia_chalybatus,^clo:ClementsTaxonName2019=Manucodia chalybatus,^clo:speciescode2019=crcman2],otu38:0.032089[&otu=otu38,^ot:ottId=499634,^ot:ottTaxonName=Manucodia comrii,^ot:originalLabel=Manucodia_comrii,^clo:ClementsTaxonName2019=Manucodia comrii,^clo:speciescode2019=cucman1])node85:0.01091)node81:0.040917,otu39:0.069618[&otu=otu39,^ot:ottId=551825,^ot:ottTaxonName=Phonygammus keraudrenii,^ot:originalLabel=Phonygammus_keraudrenii,^clo:ClementsTaxonName2019=Phonygammus keraudrenii,^clo:speciescode2019=truman1])node80:0.019792,otu40:0.12386[&otu=otu40,^ot:ottId=544652,^ot:ottTaxonName=Lycocorax pyrrhopterus,^ot:originalLabel=Lycocorax_pyrrhopterus,^clo:ClementsTaxonName2019=Lycocorax pyrrhopterus,^clo:speciescode2019=parcro1])node79:0.055915,((((((otu8:0.027994[&otu=otu8,^ot:ottId=551810,^ot:ottTaxonName=Diphyllodes magnificus,^ot:originalLabel=Diphyllodes_magnificus,^clo:ClementsTaxonName2019=Cicinnurus magnificus,^clo:speciescode2019=mbopar2],otu9:0.026708[&otu=otu9,^ot:ottId=28327,^ot:ottTaxonName=Diphyllodes respublica,^ot:originalLabel=Diphyllodes_respublica,^clo:ClementsTaxonName2019=Cicinnurus respublica,^clo:speciescode2019=wbopar1])node30:0.029136,otu10:0.047561[&otu=otu10,^ot:ottId=813780,^ot:ottTaxonName=Cicinnurus regius,^ot:originalLabel=Cicinnurus_regius,^clo:ClementsTaxonName2019=Cicinnurus regius,^clo:speciescode2019=kbopar1])node29:0.02699,(otu7:0.040219[&otu=otu7,^ot:ottId=499630,^ot:ottTaxonName=Paradisaea rudolphi,^ot:originalLabel=Paradisaea_rudolphi,^clo:ClementsTaxonName2019=Paradisaea rudolphi,^clo:speciescode2019=bbopar1],(((otu5:0.016215[&otu=otu5,^ot:ottId=762087,^ot:ottTaxonName=Paradisaea rubra,^ot:originalLabel=Paradisaea_rubra,^clo:ClementsTaxonName2019=Paradisaea rubra,^clo:speciescode2019=rbopar2],otu4:0.008382[&otu=otu4,^ot:ottId=544657,^ot:ottTaxonName=Paradisaea decora,^ot:originalLabel=Paradisaea_decora,^clo:ClementsTaxonName2019=Paradisaea decora,^clo:speciescode2019=gbopar1])node24:0.006346,(otu3:0.006523[&otu=otu3,^ot:ottId=762101,^ot:ottTaxonName=Paradisaea minor,^ot:originalLabel=Paradisaea_minor,^clo:ClementsTaxonName2019=Paradisaea minor,^clo:speciescode2019=lbopar1],(otu2:0.00115[&otu=otu2,^ot:ottId=499638,^ot:ottTaxonName=Paradisaea raggiana,^ot:originalLabel=Paradisaea_raggiana,^clo:ClementsTaxonName2019=Paradisaea raggiana,^clo:speciescode2019=rbopar1],otu1:0.004444[&otu=otu1,^ot:ottId=544658,^ot:ottTaxonName=Paradisaea apoda,^ot:originalLabel=Paradisaea_apoda,^clo:ClementsTaxonName2019=Paradisaea apoda,^clo:speciescode2019=gbopar2])node20:0.00283)node19:0.004456)node18:0.017711,otu6:0.024838[&otu=otu6,^ot:ottId=291932,^ot:ottTaxonName=Paradisaea guilielmi,^ot:originalLabel=Paradisaea_guilielmi,^clo:ClementsTaxonName2019=Paradisaea guilielmi,^clo:speciescode2019=ebopar1])node17:0.02694)node16:0.009976)node15:0.012395,(((((otu11:0.002148[&otu=otu11,^ot:ottId=143296,^ot:ottTaxonName=Astrapia mayeri,^ot:originalLabel=Astrapia_mayeri,^clo:ClementsTaxonName2019=Astrapia mayeri,^clo:speciescode2019=ritast1],otu12:0.001398[&otu=otu12,^ot:ottId=23691,^ot:ottTaxonName=Astrapia stephaniae,^ot:originalLabel=Astrapia_stephaniae,^clo:ClementsTaxonName2019=Astrapia stephaniae,^clo:speciescode2019=prsast1])node38:0.013576,otu13:0.019782[&otu=otu13,^ot:ottId=143309,^ot:ottTaxonName=Astrapia rothschildi,^ot:originalLabel=Astrapia_rothschildi,^clo:ClementsTaxonName2019=Astrapia rothschildi,^clo:speciescode2019=huoast1])node37:0.005916,(otu15:0.016952[&otu=otu15,^ot:ottId=23690,^ot:ottTaxonName=Astrapia splendidissima,^ot:originalLabel=Astrapia_splendidissima,^clo:ClementsTaxonName2019=Astrapia splendidissima,^clo:speciescode2019=splast1],otu14:0.010682[&otu=otu14,^ot:ottId=23692,^ot:ottTaxonName=Astrapia nigra,^ot:originalLabel=Astrapia_nigra,^clo:ClementsTaxonName2019=Astrapia nigra,^clo:speciescode2019=arfast1])node42:0.013756)node36:0.009563,(otu16:0.026172[&otu=otu16,^ot:ottId=544653,^ot:ottTaxonName=Paradigalla brevicauda,^ot:originalLabel=Paradigalla_brevicauda,^clo:ClementsTaxonName2019=Paradigalla brevicauda,^clo:speciescode2019=shtpar1],otu17:0.018673[&otu=otu17,^ot:ottId=544655,^ot:ottTaxonName=Paradigalla carunculata,^ot:originalLabel=Paradigalla_carunculata,^clo:ClementsTaxonName2019=Paradigalla carunculata,^clo:speciescode2019=lotpar1])node45:0.027597)node35:0.012437,(otu19:0.032528[&otu=otu19,^ot:ottId=499632,^ot:ottTaxonName=Epimachus meyeri,^ot:originalLabel=Epimachus_meyeri,^clo:ClementsTaxonName2019=Epimachus meyeri,^clo:speciescode2019=brosic1],otu18:0.031864[&otu=otu18,^ot:ottId=551814,^ot:ottTaxonName=Epimachus fastuosus,^ot:originalLabel=Epimachus_fastuosus,^clo:ClementsTaxonName2019=Epimachus fastosus,^clo:speciescode2019=blasic1])node48:0.020854)node34:0.00987)node14:0.011326,(otu28:0.048169[&otu=otu28,^ot:ottId=813729,^ot:ottTaxonName=Seleucidis melanoleucus,^ot:originalLabel=Seleucidis_melanoleucus,^clo:ClementsTaxonName2019=Seleucidis melanoleucus,^clo:speciescode2019=twwbop1],((otu27:0.055986[&otu=otu27,^ot:ottId=544649,^ot:ottTaxonName=Drepanornis bruijnii,^ot:originalLabel=Drepanornis_bruijnii,^clo:ClementsTaxonName2019=Drepanornis bruijnii,^clo:speciescode2019=pabsic1],otu26:0.039475[&otu=otu26,^ot:ottId=515147,^ot:ottTaxonName=Epimachus albertisi,^ot:originalLabel=Drepanornis_albertisi,^clo:ClementsTaxonName2019=Drepanornis albertisi,^clo:speciescode2019=blbsic1])node64:0.014195,((((otu20:0.014516[&otu=otu20,^ot:ottId=291937,^ot:ottTaxonName=Ptiloris intercedens,^ot:originalLabel=Ptiloris_intercedens,^clo:ClementsTaxonName2019=Ptiloris intercedens,^clo:speciescode2019=magrif2],otu21:0.018233[&otu=otu21,^ot:ottId=635591,^ot:ottTaxonName=Ptiloris magnificus,^ot:originalLabel=Ptiloris_magnificus,^clo:ClementsTaxonName2019=Ptiloris magnificus,^clo:speciescode2019=magrif3])node56:0.02023,otu22:0.023099[&otu=otu22,^ot:ottId=187883,^ot:ottTaxonName=Lophorina superba,^ot:originalLabel=Lophorina_superba,^clo:ClementsTaxonName2019=Lophorina superba,^clo:speciescode2019=grsbop1])node55:0.006785,(otu24:0.00889[&otu=otu24,^ot:ottId=291940,^ot:ottTaxonName=Ptiloris victoriae,^ot:originalLabel=Ptiloris_victoriae,^clo:ClementsTaxonName2019=Ptiloris victoriae,^clo:speciescode2019=vicrif1],otu23:0.009641[&otu=otu23,^ot:ottId=30732,^ot:ottTaxonName=Ptiloris paradiseus,^ot:originalLabel=Ptiloris_paradiseus,^clo:ClementsTaxonName2019=Ptiloris paradiseus,^clo:speciescode2019=parrif1])node60:0.044709)node54:0.033929,otu25:0.066163[&otu=otu25,^ot:ottId=866756,^ot:ottTaxonName=Semioptera wallacii,^ot:originalLabel=Semioptera_wallacii,^clo:ClementsTaxonName2019=Semioptera wallacii,^clo:speciescode2019=walsta2])node53:0.016272)node52:0.007604)node51:0.006528)node13:0.012576,(otu34:0.067758[&otu=otu34,^ot:ottId=291938,^ot:ottTaxonName=Pteridophora alberti,^ot:originalLabel=Pteridophora_alberti,^clo:ClementsTaxonName2019=Pteridophora alberti,^clo:speciescode2019=kospar1],(otu33:0.062646[&otu=otu33,^ot:ottId=291931,^ot:ottTaxonName=Parotia carolae,^ot:originalLabel=Parotia_carolae,^clo:ClementsTaxonName2019=Parotia carolae,^clo:speciescode2019=carpar1],((otu29:0.003261[&otu=otu29,^ot:ottId=291934,^ot:ottTaxonName=Parotia helenae,^ot:originalLabel=Parotia_helenae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu30:0.004841[&otu=otu30,^ot:ottId=762097,^ot:ottTaxonName=Parotia lawesii,^ot:originalLabel=Parotia_lawesii,^clo:ClementsTaxonName2019=Parotia lawesii,^clo:speciescode2019=lawpar1])node71:0.00797,(otu31:0.016654[&otu=otu31,^ot:ottId=291933,^ot:ottTaxonName=Parotia sefilata,^ot:originalLabel=Parotia_sefilata,^clo:ClementsTaxonName2019=Parotia sefilata,^clo:speciescode2019=wespar1],otu32:0.0205[&otu=otu32,^ot:ottId=291936,^ot:ottTaxonName=Parotia wahnesi,^ot:originalLabel=Parotia_wahnesi,^clo:ClementsTaxonName2019=Parotia wahnesi,^clo:speciescode2019=wahpar1])node74:0.00495)node70:0.028448)node69:0.013222)node68:0.013321)node12:0.111371)node11:0.046948)node10:0.016648,otu42:0.188487[&otu=otu42,^ot:ottId=952596,^ot:ottTaxonName=Corvus,^ot:originalLabel=Corvus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node9:0.013705,otu43:0.210135[&otu=otu43,^ot:ottId=72474,^ot:ottTaxonName=Dicrurus,^ot:originalLabel=Dicrurus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node8:0.063462)node7:0.054556,(otu46:0.311422[&otu=otu46,^ot:ottId=515158,^ot:ottTaxonName=Passer,^ot:originalLabel=Passer,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu47:0.310271[&otu=otu47,^ot:ottId=515141,^ot:ottTaxonName=Parus,^ot:originalLabel=Parus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node96:0.053309)node6:0.109385)node5:0.0455)node4:0.213323)node3:0.105004,otu53:0.450552[&otu=otu53,^ot:ottId=1085741,^ot:ottTaxonName=Acanthisitta,^ot:originalLabel=Acanthisitta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node2:0.51543,otu54:0.51543[&otu=otu54,^ot:ottId=1020130,^ot:ottTaxonName=Psittacidae,^ot:originalLabel=Psittacidae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1;
+END;
+

@@ -1,0 +1,22 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=10;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=136029,nearestTaxonMRCAName=Tachycineta,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((otu4[&otu=otu4,^ot:ottId=621803,^ot:ottTaxonName=Tachycineta leucorrhoa,^ot:originalLabel=Tachycineta_leucorrhoa,^clo:ClementsTaxonName2019=Tachycineta leucorrhoa,^clo:speciescode2019=whrswa1],otu5[&otu=otu5,^ot:ottId=621802,^ot:ottTaxonName=Tachycineta meyeni,^ot:originalLabel=Tachycineta_meyeni,^clo:ClementsTaxonName2019=Tachycineta leucopyga,^clo:speciescode2019=chiswa1])node9,((otu1[&otu=otu1,^ot:ottId=621797,^ot:ottTaxonName=Tachycineta albilinea,^ot:originalLabel=Tachycineta_albilinea,^clo:ClementsTaxonName2019=Tachycineta albilinea,^clo:speciescode2019=manswa1],otu2[&otu=otu2,^ot:ottId=621796,^ot:ottTaxonName=Tachycineta albiventer,^ot:originalLabel=Tachycineta_albiventer,^clo:ClementsTaxonName2019=Tachycineta albiventer,^clo:speciescode2019=whwswa1])node5,otu3[&otu=otu3,^ot:ottId=621798,^ot:ottTaxonName=Tachycineta stolzmanni,^ot:originalLabel=Tachycineta_stolzmanni,^clo:ClementsTaxonName2019=Tachycineta stolzmanni,^clo:speciescode2019=tumswa1])node4)node3,(((otu6[&otu=otu6,^ot:ottId=621800,^ot:ottTaxonName=Tachycineta cyaneoviridis,^ot:originalLabel=Tachycineta_cyaneoviridis,^clo:ClementsTaxonName2019=Tachycineta cyaneoviridis,^clo:speciescode2019=bahswa],otu7[&otu=otu7,^ot:ottId=621794,^ot:ottTaxonName=Tachycineta euchrysea,^ot:originalLabel=Tachycineta_euchrysea,^clo:ClementsTaxonName2019=Tachycineta euchrysea,^clo:speciescode2019=golswa1])node14,otu8[&otu=otu8,^ot:ottId=621801,^ot:ottTaxonName=Tachycineta thalassina,^ot:originalLabel=Tachycineta_thalassina,^clo:ClementsTaxonName2019=Tachycineta thalassina,^clo:speciescode2019=vigswa])node13,otu9[&otu=otu9,^ot:ottId=136028,^ot:ottTaxonName=Tachycineta bicolor,^ot:originalLabel=Tachycineta_bicolor,^clo:ClementsTaxonName2019=Tachycineta bicolor,^clo:speciescode2019=treswa])node12)node2,otu10[&otu=otu10,^ot:ottId=136021,^ot:ottTaxonName=Progne chalybea,^ot:originalLabel=Progne_chalybea,^clo:ClementsTaxonName2019=Progne chalybea,^clo:speciescode2019=gybmar])node1;
+END;
+

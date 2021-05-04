@@ -1,0 +1,35 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Figure_2a = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=]((otu1:0.827[&otu=otu1,^ot:ottId=589949,^ot:ottTaxonName=Certhidea olivacea,^ot:originalLabel=Certhidea_olivacea_S,^clo:ClementsTaxonName2019=Certhidea olivacea,^clo:speciescode2019=warfin1],(otu2:0.291[&otu=otu2,^ot:ottId=527327,^ot:ottTaxonName=Certhidea fusca,^ot:originalLabel=Certhidea_fusca_E,^clo:ClementsTaxonName2019=Certhidea fusca,^clo:speciescode2019=grywaf1],otu3:0.291[&otu=otu3,^ot:ottId=527327,^ot:ottTaxonName=Certhidea fusca,^ot:originalLabel=Certhidea_fusca_L,^clo:ClementsTaxonName2019=Certhidea fusca,^clo:speciescode2019=grywaf1])node4:0.536)node2:0.083,((otu5:0.529[&otu=otu5,^ot:ottId=992256,^ot:ottTaxonName=Pinaroloxias inornata,^ot:originalLabel=Pinaroloxias_inornata_C,^clo:ClementsTaxonName2019=Pinaroloxias inornata,^clo:speciescode2019=cocfin1],((otu6:0.231[&otu=otu6,^ot:ottId=419376,^ot:ottTaxonName=Geospiza difficilis,^ot:originalLabel=Geospiza_difficilis_F,^clo:ClementsTaxonName2019=Geospiza difficilis,^clo:speciescode2019=shbgrf3],(otu7:0.231[&otu=otu7,^ot:ottId=419376,^ot:ottTaxonName=Geospiza difficilis,^ot:originalLabel=Geospiza_difficilis_S,^clo:ClementsTaxonName2019=Geospiza difficilis,^clo:speciescode2019=shbgrf3],otu8:0.231[&otu=otu8,^ot:ottId=419376,^ot:ottTaxonName=Geospiza difficilis,^ot:originalLabel=Geospiza_difficilis_P,^clo:ClementsTaxonName2019=Geospiza difficilis,^clo:speciescode2019=shbgrf3])node14:0)node12:0.238,(((otu9:0.174[&otu=otu9,^ot:ottId=422530,^ot:ottTaxonName=Camarhynchus pauper,^ot:originalLabel=Camarhynchus_pauper_F,^clo:ClementsTaxonName2019=Camarhynchus pauper,^clo:speciescode2019=metfin1],otu10:0.174[&otu=otu10,^ot:ottId=419363,^ot:ottTaxonName=Camarhynchus psittacula,^ot:originalLabel=Camarhynchus_psittacula_P,^clo:ClementsTaxonName2019=Camarhynchus psittacula,^clo:speciescode2019=latfin1])node19:0.031,((otu13:0.171[&otu=otu13,^ot:ottId=3597306,^ot:ottTaxonName=Camarhynchus heliobates,^ot:originalLabel=Camarhynchus_heliobates_I,^clo:ClementsTaxonName2019=Camarhynchus heliobates,^clo:speciescode2019=manfin1],otu12:0.171[&otu=otu12,^ot:ottId=963505,^ot:ottTaxonName=Camarhynchus pallidus,^ot:originalLabel=Camarhynchus_pallidus_Z,^clo:ClementsTaxonName2019=Camarhynchus pallidus,^clo:speciescode2019=woofin1])node24:0.033,otu11:0.204[&otu=otu11,^ot:ottId=419367,^ot:ottTaxonName=Camarhynchus parvulus,^ot:originalLabel=Camarhynchus_parvulus_Z,^clo:ClementsTaxonName2019=Camarhynchus parvulus,^clo:speciescode2019=smtfin1])node22:0.001)node18:0.207,((((otu21:0.227[&otu=otu21,^ot:ottId=5991470,^ot:ottTaxonName=Geospiza propinqua,^ot:originalLabel=Geospiza_propinqua_G,^clo:ClementsTaxonName2019=Geospiza propinqua,^clo:speciescode2019=gencaf1],otu20:0.227[&otu=otu20,^ot:ottId=589959,^ot:ottTaxonName=Geospiza scandens,^ot:originalLabel=Geospiza_scandens_M,^clo:ClementsTaxonName2019=Geospiza scandens,^clo:speciescode2019=cocfin3])node40:0.009,(otu23:0.17[&otu=otu23,^ot:ottId=589953,^ot:ottTaxonName=Geospiza conirostris,^ot:originalLabel=Geospiza_conirostris_E,^clo:ClementsTaxonName2019=Geospiza conirostris,^clo:speciescode2019=larcaf2],otu22:0.17[&otu=otu22,^ot:ottId=589955,^ot:ottTaxonName=Geospiza magnirostris,^ot:originalLabel=Geospiza_magnirostris_G,^clo:ClementsTaxonName2019=Geospiza magnirostris,^clo:speciescode2019=lagfin1])node43:0.066)node39:0.022,((otu18:0.24[&otu=otu18,^ot:ottId=589951,^ot:ottTaxonName=Geospiza fortis,^ot:originalLabel=Geospiza_fortis_M,^clo:ClementsTaxonName2019=Geospiza fortis,^clo:speciescode2019=megfin1],otu19:0.24[&otu=otu19,^ot:ottId=5991469,^ot:ottTaxonName=Geospiza acutirostris,^ot:originalLabel=Geospiza_acutirostris_G,^clo:ClementsTaxonName2019=Geospiza acutirostris,^clo:speciescode2019=shbgrf2])node36:0.01,(otu17:0.239[&otu=otu17,^ot:ottId=589956,^ot:ottTaxonName=Geospiza fuliginosa,^ot:originalLabel=Geospiza_fuliginosa_S,^clo:ClementsTaxonName2019=Geospiza fuliginosa,^clo:speciescode2019=smgfin1],otu16:0.239[&otu=otu16,^ot:ottId=589956,^ot:ottTaxonName=Geospiza fuliginosa,^ot:originalLabel=Geospiza_fuliginosa_Z,^clo:ClementsTaxonName2019=Geospiza fuliginosa,^clo:speciescode2019=smgfin1])node33:0.011)node32:0.008)node31:0.102,(otu15:0.134[&otu=otu15,^ot:ottId=5859950,^ot:ottTaxonName=Geospiza difficilis septentrionalis,^ot:originalLabel=Geospiza_septentrionalis_W,^clo:ClementsTaxonName2019=Geospiza septentrionalis,^clo:speciescode2019=shbgrf1],otu14:0.134[&otu=otu14,^ot:ottId=5859950,^ot:ottTaxonName=Geospiza difficilis septentrionalis,^ot:originalLabel=Geospiza_septentrionalis_D,^clo:ClementsTaxonName2019=Geospiza septentrionalis,^clo:speciescode2019=shbgrf1])node28:0.226)node27:0.052)node17:0.057)node11:0.06)node9:0.017,otu4:0.546[&otu=otu4,^ot:ottId=589943,^ot:ottTaxonName=Platyspiza crassirostris,^ot:originalLabel=Platyspiza_crassirostris_Z,^clo:ClementsTaxonName2019=Platyspiza crassirostris,^clo:speciescode2019=vegfin2])node7:0.355)node1;
+END;
+

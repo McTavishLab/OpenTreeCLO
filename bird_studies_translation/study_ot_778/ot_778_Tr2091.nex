@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        Tl36434
+        Tl36429
+        Tl157942
+        Tl157940
+        Tl157941
+        Tl36433
+        Tl157944
+        Tl157945
+        Tl157938
+        Tl157937
+        Tl157936
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3b (parsimony)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((((Tl157936[&otu=Tl157936,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor],Tl157937[&otu=Tl157937,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Phalacrocorax_varius,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1])Tn135171,Tl36429[&otu=Tl36429,^ot:ottId=9838,^ot:ottTaxonName=Microcarbo melanoleucos,^ot:originalLabel=Phalacrocorax_melanoleucos,^clo:ClementsTaxonName2019=Microcarbo melanoleucos,^clo:speciescode2019=lipcor1])Tn135174,(Tl157938[&otu=Tl157938,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1],(Tl157941[&otu=Tl157941,^ot:ottId=1030314,^ot:ottTaxonName=Sula sula,^ot:originalLabel=Sula_sula,^clo:ClementsTaxonName2019=Sula sula,^clo:speciescode2019=refboo],Tl157940[&otu=Tl157940,^ot:ottId=170197,^ot:ottTaxonName=Sula dactylatra,^ot:originalLabel=Sula_dactylatra,^clo:ClementsTaxonName2019=Sula dactylatra,^clo:speciescode2019=masboo])Tn135183)Tn135187)Tn135186,((Tl36434[&otu=Tl36434,^ot:ottId=986356,^ot:ottTaxonName=Anhinga rufa,^ot:originalLabel=Anhinga_rufa,^clo:ClementsTaxonName2019=Anhinga rufa,^clo:speciescode2019=darter3],Tl157944[&otu=Tl157944,^ot:ottId=443639,^ot:ottTaxonName=Anhinga novaehollandiae,^ot:originalLabel=Anhinga_novaehollandiae,^clo:ClementsTaxonName2019=Anhinga novaehollandiae,^clo:speciescode2019=darter4])Tn135182,Tl157945[&otu=Tl157945,^ot:ottId=170196,^ot:ottTaxonName=Anhinga anhinga,^ot:originalLabel=Anhinga_anhinga,^clo:ClementsTaxonName2019=Anhinga anhinga,^clo:speciescode2019=anhing])Tn135184)Tn135181,(Tl157942[&otu=Tl157942,^ot:ottId=329999,^ot:ottTaxonName=Pelecanus occidentalis,^ot:originalLabel=Pelecanus_occidentalis,^clo:ClementsTaxonName2019=Pelecanus occidentalis,^clo:speciescode2019=brnpel],Tl36433[&otu=Tl36433,^ot:ottId=986358,^ot:ottTaxonName=Pelecanus conspicillatus,^ot:originalLabel=Pelecanus_conspicillatus,^clo:ClementsTaxonName2019=Pelecanus conspicillatus,^clo:speciescode2019=auspel1])Tn135180)Tn135178;
+END;
+

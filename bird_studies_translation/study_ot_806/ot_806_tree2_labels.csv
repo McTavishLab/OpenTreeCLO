@@ -1,0 +1,56 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu74	no_match	no_match	Waimanu_manneringi	3600110	Waimanu manneringi
+otu69	not_a_bird	not_a_bird	Delphinornis_wimani	None	None
+otu70	no_match	no_match	Delphinornis_arctowskii	4130815	Delphinornis arctowskii
+otu72	no_match	no_match	Delphinornis_larseni	4130813	Delphinornis larseni
+otu71	not_a_bird	not_a_bird	Delphinornis_gracilis	4130814	Delphinornis gracilis
+otu66	not_a_bird	not_a_bird	Perudyptes_devriesi	None	None
+otu67	not_a_bird	not_a_bird	Mesetaornis_polaris	3600121	Mesetaornis polaris
+otu68	not_a_bird	not_a_bird	Marambiornis_exilis	3600108	Marambiornis exilis
+otu63	no_match	no_match	Palaeeudyptes_gunnari	4130833	Palaeeudyptes gunnari
+otu62	no_match	no_match	Palaeeudyptes_klekowskii	4130832	Palaeeudyptes klekowskii
+otu59	not_a_bird	not_a_bird	Icadyptes_salasi	None	None
+otu58	no_match	no_match	Pachydyptes_ponderosus	3600127	Pachydyptes ponderosus
+otu47	no_match	no_match	Palaeospheniscus_patagonicus	4130848	Palaeospheniscus patagonicus
+otu48	not_a_bird	not_a_bird	Eretiscus_tonnii	None	None
+otu46	not_a_bird	not_a_bird	Palaeospheniscus_biloculata	None	None
+otu45	not_a_bird	not_a_bird	Palaeospheniscus_bergi	None	None
+otu44	no_match	no_match	Marplesornis_novaezealandiae	4130817	Marplesornis novaezealandiae
+otu6	Megadyptes antipodes	yeepen1	Megadyptes_antipodes	429618	Megadyptes antipodes
+otu14	Eudyptes sclateri	bicpen1	Eudyptes_sclateri	60413	Eudyptes sclateri
+otu7	Eudyptes chrysocome	rocpen1	Eudyptes_chrysocome	82220	Eudyptes chrysocome
+otu8	Eudyptes chrysocome filholi	rocpen3	Eudyptes_filholi	3600097	Eudyptes filholi
+otu9	no_match	no_match	Eudyptes_moseleyi	3600098	Eudyptes chrysocome moseleyi
+otu13	Eudyptes robustus	snapen1	Eudyptes_robustus	219197	Eudyptes robustus
+otu12	Eudyptes pachyrhynchus	fiopen1	Eudyptes_pachyrhynchus	976561	Eudyptes pachyrhynchus
+otu11	Eudyptes schlegeli	roypen1	Eudyptes_schlegeli	605139	Eudyptes schlegeli
+otu10	Eudyptes chrysolophus	macpen1	Eudyptes_chrysolophus	82219	Eudyptes chrysolophus
+otu35	no_match	no_match	Madrynornis_mirandus	3600131	Madrynornis mirandus
+otu15	Eudyptula minor	litpen1	Eudyptula_minor	613299	Eudyptula minor
+otu43	not_a_bird	not_a_bird	Spheniscus_megaramphus	None	None
+otu42	not_a_bird	not_a_bird	Spheniscus_urbinai	None	None
+otu16	Spheniscus demersus	jacpen1	Spheniscus_demersus	60417	Spheniscus demersus
+otu17	Spheniscus magellanicus	magpen1	Spheniscus_magellanicus	429622	Spheniscus magellanicus
+otu18	Spheniscus humboldti	humpen1	Spheniscus_humboldti	810741	Spheniscus humboldti
+otu19	Spheniscus mendiculus	galpen1	Spheniscus_mendiculus	399791	Spheniscus mendiculus
+otu41	no_match	no_match	Spheniscus_muizoni	3600100	Spheniscus muizoni
+otu1	Aptenodytes forsteri	emppen1	Aptenodytes_forsteri	494370	Aptenodytes forsteri
+otu2	Aptenodytes patagonicus	kinpen1	Aptenodytes_patagonicus	494361	Aptenodytes patagonicus
+otu22	not_a_bird	not_a_bird	Pygoscelis_grandis	None	None
+otu5	Pygoscelis adeliae	adepen1	Pygoscelis_adeliae	494357	Pygoscelis adeliae
+otu4	Pygoscelis papua	genpen1	Pygoscelis_papua	1028837	Pygoscelis papua
+otu3	Pygoscelis antarcticus	chipen2	Pygoscelis_antarctica	134466	Pygoscelis antarcticus
+otu49	no_match	no_match	Platydyptes_novaezealandiae	3600129	Platydyptes novaezealandiae
+otu50	no_match	no_match	Platydyptes_marplesi	3600128	Platydyptes marplesi
+otu51	no_match	no_match	Paraptenodytes_antarcticus	4130828	Paraptenodytes antarcticus
+otu52	not_a_bird	not_a_bird	Duntroonornis_parvus	None	None
+otu53	no_match	no_match	Archaeospheniscus_lopdelli	3600124	Archaeospheniscus lopdelli
+otu54	no_match	no_match	Archaeospheniscus_lowei	3600125	Archaeospheniscus lowei
+otu57	no_match	no_match	Palaeeudyptes_antarcticus	4130831	Palaeeudyptes antarcticus
+otu55	not_a_bird	not_a_bird	Kairuku_waitaki	None	None
+otu56	not_a_bird	not_a_bird	Kairuku_grebneffi	None	None
+otu61	not_a_bird	not_a_bird	Burnside_Palaeudyptes	None	None
+otu60	not_a_bird	not_a_bird	Inkayacu_paracasensis	None	None
+otu65	no_match	no_match	Anthropornis_grandis	4130835	Anthropornis grandis
+otu64	no_match	no_match	Anthropornis_nordenskjoeldi	4130836	Anthropornis nordenskjoeldi
+otu73	no_match	no_match	Waimanu_tuatahi	3600120	Waimanu tuatahi

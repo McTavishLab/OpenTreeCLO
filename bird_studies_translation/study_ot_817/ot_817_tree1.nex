@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu7
+        otu8
+        otu9
+        otu6
+        otu3
+        otu4
+        otu5
+        otu2
+        otu20
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4 (MP)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=]((((((otu14[&otu=otu14,^ot:ottId=746546,^ot:ottTaxonName=Branta hutchinsii minima,^ot:originalLabel=Branta_canadensis_minima,^clo:ClementsTaxonName2019=Branta hutchinsii minima,^clo:speciescode2019=cacgoo2],otu15[&otu=otu15,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Branta_canadensis_hutchinsii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu16[&otu=otu16,^ot:ottId=1095437,^ot:ottTaxonName=Branta hutchinsii taverneri,^ot:originalLabel=Branta_canadensis_taverneri,^clo:ClementsTaxonName2019=Branta hutchinsii taverneri,^clo:speciescode2019=tacgoo1])node29)node28,otu17[&otu=otu17,^ot:ottId=799124,^ot:ottTaxonName=Branta leucopsis,^ot:originalLabel=Branta_leucopsis,^clo:ClementsTaxonName2019=Branta leucopsis,^clo:speciescode2019=bargoo])node27,((otu13[&otu=otu13,^ot:ottId=75874,^ot:ottTaxonName=Branta canadensis maxima,^ot:originalLabel=Branta_canadensis_maxima,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12[&otu=otu12,^ot:ottId=1052012,^ot:ottTaxonName=Branta canadensis occidentalis,^ot:originalLabel=Branta_canadensis_occidentalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node24,(otu11[&otu=otu11,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Giant_Hawaii_Goose,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu10[&otu=otu10,^ot:ottId=799129,^ot:ottTaxonName=Branta hylobadistes,^ot:originalLabel=Branta_hylobadistes,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu7[&otu=otu7,^ot:ottId=767835,^ot:ottTaxonName=Branta sandvicensis,^ot:originalLabel=Branta_sandvicensis_Maui,^clo:ClementsTaxonName2019=Branta sandvicensis,^clo:speciescode2019=hawgoo],otu8[&otu=otu8,^ot:ottId=767835,^ot:ottTaxonName=Branta sandvicensis,^ot:originalLabel=Branta_sandvicensis_Hawaii,^clo:ClementsTaxonName2019=Branta sandvicensis,^clo:speciescode2019=hawgoo],otu9[&otu=otu9,^ot:ottId=767835,^ot:ottTaxonName=Branta sandvicensis,^ot:originalLabel=Branta_sandvicensis,^clo:ClementsTaxonName2019=Branta sandvicensis,^clo:speciescode2019=hawgoo])node18)node17)node16)node15)node14,((otu18[&otu=otu18,^ot:ottId=799134,^ot:ottTaxonName=Branta bernicla hrota,^ot:originalLabel=Branta_bernicla_hrota,^clo:ClementsTaxonName2019=Branta bernicla hrota,^clo:speciescode2019=atlbra1],otu19[&otu=otu19,^ot:ottId=799107,^ot:ottTaxonName=Branta bernicla nigricans,^ot:originalLabel=Branta_bernicla_nigricans,^clo:ClementsTaxonName2019=Branta bernicla nigricans,^clo:speciescode2019=blkbra1])node35,otu20[&otu=otu20,^ot:ottId=799106,^ot:ottTaxonName=Branta ruficollis,^ot:originalLabel=Branta_ruficollis,^clo:ClementsTaxonName2019=Branta ruficollis,^clo:speciescode2019=rebgoo1])node34)node13,((otu5[&otu=otu5,^ot:ottId=166688,^ot:ottTaxonName=Anser canagica,^ot:originalLabel=Anser_canagicus,^clo:ClementsTaxonName2019=Anser canagicus,^clo:speciescode2019=empgoo],(otu4[&otu=otu4,^ot:ottId=190892,^ot:ottTaxonName=Anser cygnoides,^ot:originalLabel=Anser_cygnoides,^clo:ClementsTaxonName2019=Anser cygnoides,^clo:speciescode2019=swagoo1],(otu3[&otu=otu3,^ot:ottId=691333,^ot:ottTaxonName=Anser erythropus,^ot:originalLabel=Anser_erythropus,^clo:ClementsTaxonName2019=Anser erythropus,^clo:speciescode2019=lwfgoo],(otu1[&otu=otu1,^ot:ottId=455335,^ot:ottTaxonName=Anser albifrons frontalis,^ot:originalLabel=Anser_albifrons_frontalis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=444177,^ot:ottTaxonName=Anser albifrons flavirostris,^ot:originalLabel=Anser_albifrons_flavirostris,^clo:ClementsTaxonName2019=Anser albifrons flavirostris,^clo:speciescode2019=gwfgoo1])node6)node5)node4)node3,otu6[&otu=otu6,^ot:ottId=767830,^ot:ottTaxonName=Anser rossii,^ot:originalLabel=Anser_rosii,^clo:ClementsTaxonName2019=Anser rossii,^clo:speciescode2019=rosgoo])node2)node1;
+END;
+

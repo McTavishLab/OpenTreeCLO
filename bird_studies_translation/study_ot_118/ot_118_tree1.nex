@@ -1,0 +1,34 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu21
+        otu20
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu14[&otu=otu14,^ot:ottId=750774,^ot:ottTaxonName=Eulipoa wallacei,^ot:originalLabel=Eulipoa_wallacei,^clo:ClementsTaxonName2019=Eulipoa wallacei,^clo:speciescode2019=molscr1],(((otu10[&otu=otu10,^ot:ottId=3596029,^ot:ottTaxonName=Megapodius laperouse,^ot:originalLabel=Megapodius_laperouse,^clo:ClementsTaxonName2019=Megapodius laperouse,^clo:speciescode2019=micscr1],((otu9[&otu=otu9,^ot:ottId=227314,^ot:ottTaxonName=Megapodius layardi,^ot:originalLabel=Megapodius_layardi,^clo:ClementsTaxonName2019=Megapodius layardi,^clo:speciescode2019=vanscr1],otu8[&otu=otu8,^ot:ottId=227315,^ot:ottTaxonName=Megapodius pritchardii,^ot:originalLabel=Megapodius_pritchardii,^clo:ClementsTaxonName2019=Megapodius pritchardii,^clo:speciescode2019=niuscr1])node21,((((((otu1[&otu=otu1,^ot:ottId=227302,^ot:ottTaxonName=Megapodius forstenii,^ot:originalLabel=Megapodius_forstenii,^clo:ClementsTaxonName2019=Megapodius forsteni,^clo:speciescode2019=forscr1],otu2[&otu=otu2,^ot:ottId=837568,^ot:ottTaxonName=Megapodius freycinet,^ot:originalLabel=Megapodius_freycinet,^clo:ClementsTaxonName2019=Megapodius freycinet,^clo:speciescode2019=dusscr2])node13,otu3[&otu=otu3,^ot:ottId=227301,^ot:ottTaxonName=Megapodius decollatus,^ot:originalLabel=Megapodius_decollatus,^clo:ClementsTaxonName2019=Megapodius decollatus,^clo:speciescode2019=negscr1])node12,otu4[&otu=otu4,^ot:ottId=570964,^ot:ottTaxonName=Megapodius eremita,^ot:originalLabel=Megapodius_eremita,^clo:ClementsTaxonName2019=Megapodius eremita,^clo:speciescode2019=melscr1])node11,otu5[&otu=otu5,^ot:ottId=1014129,^ot:ottTaxonName=Megapodius reinwardt,^ot:originalLabel=Megapodius_reinwardt,^clo:ClementsTaxonName2019=Megapodius reinwardt,^clo:speciescode2019=orfscr1])node10,otu6[&otu=otu6,^ot:ottId=3596033,^ot:ottTaxonName=Megapodius geelvinkianus,^ot:originalLabel=Megapodius_geelvinkianus,^clo:ClementsTaxonName2019=Megapodius geelvinkianus,^clo:speciescode2019=dusscr3])node9,otu7[&otu=otu7,^ot:ottId=3596031,^ot:ottTaxonName=Megapodius bernsteinii,^ot:originalLabel=Megapodius_bernsteinii,^clo:ClementsTaxonName2019=Megapodius bernsteinii,^clo:speciescode2019=sulscr1])node8)node7)node6,otu11[&otu=otu11,^ot:ottId=3596032,^ot:ottTaxonName=Megapodius nicobariensis,^ot:originalLabel=Megapodius_nicobariensis,^clo:ClementsTaxonName2019=Megapodius nicobariensis,^clo:speciescode2019=nicscr1])node5,(otu13[&otu=otu13,^ot:ottId=750772,^ot:ottTaxonName=Megapodius tenimberensis,^ot:originalLabel=Megapodius_tenimberensis,^clo:ClementsTaxonName2019=Megapodius tenimberensis,^clo:speciescode2019=tanscr1],otu12[&otu=otu12,^ot:ottId=255470,^ot:ottTaxonName=Megapodius cumingii,^ot:originalLabel=Megapodius_cumingii,^clo:ClementsTaxonName2019=Megapodius cumingii,^clo:speciescode2019=tabscr1])node26)node4)node3,otu15[&otu=otu15,^ot:ottId=750781,^ot:ottTaxonName=Macrocephalon maleo,^ot:originalLabel=Macrocephalon_maleo,^clo:ClementsTaxonName2019=Macrocephalon maleo,^clo:speciescode2019=maleo1])node2,(((otu21[&otu=otu21,^ot:ottId=176333,^ot:ottTaxonName=Talegalla fuscirostris,^ot:originalLabel=Talegalla_fuscirostris,^clo:ClementsTaxonName2019=Talegalla fuscirostris,^clo:speciescode2019=bkbbrt1],otu20[&otu=otu20,^ot:ottId=3596028,^ot:ottTaxonName=Talegalla jobiensis,^ot:originalLabel=Talegalla_jobiensis,^clo:ClementsTaxonName2019=Talegalla jobiensis,^clo:speciescode2019=bncbrt1])node40,otu22[&otu=otu22,^ot:ottId=3596027,^ot:ottTaxonName=Talegalla cuvieri,^ot:originalLabel=Talegalla_cuvieri,^clo:ClementsTaxonName2019=Talegalla cuvieri,^clo:speciescode2019=rebbrt1])node39,(otu19[&otu=otu19,^ot:ottId=109888,^ot:ottTaxonName=Leipoa ocellata,^ot:originalLabel=Leipoa_ocellata,^clo:ClementsTaxonName2019=Leipoa ocellata,^clo:speciescode2019=mallee1],(otu18[&otu=otu18,^ot:ottId=570956,^ot:ottTaxonName=Alectura lathami,^ot:originalLabel=Alectura_lathami,^clo:ClementsTaxonName2019=Alectura lathami,^clo:speciescode2019=ausbrt1],(otu16[&otu=otu16,^ot:ottId=352749,^ot:ottTaxonName=Aepypodius arfakianus,^ot:originalLabel=Aepypodius_arfakianus,^clo:ClementsTaxonName2019=Aepypodius arfakianus,^clo:speciescode2019=watbrt1],otu17[&otu=otu17,^ot:ottId=3596026,^ot:ottTaxonName=Aepypodius bruijnii,^ot:originalLabel=Aepypodius_bruijnii,^clo:ClementsTaxonName2019=Aepypodius bruijnii,^clo:speciescode2019=brubrt1])node34)node33)node32)node31)node1;
+END;
+

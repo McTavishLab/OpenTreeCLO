@@ -1,0 +1,123 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu363622	not_a_bird	not_a_bird	outgroup_to_Procellariiformes_MRP	None	None
+otu363582	Aptenodytes patagonicus	kinpen1	Aptenodytes_patagonicus	494361	Aptenodytes patagonicus
+otu363572	Eudyptes chrysocome	rocpen1	Eudyptes_chrysocome	82220	Eudyptes chrysocome
+otu363595	Eudyptes chrysolophus	macpen1	Eudyptes_chrysolophus	82219	Eudyptes chrysolophus
+otu363532	Pygoscelis adeliae	adepen1	Pygoscelis_adeliae	494357	Pygoscelis adeliae
+otu363561	Pygoscelis papua	genpen1	Pygoscelis_papua	1028837	Pygoscelis papua
+otu363619	Pygoscelis antarcticus	chipen2	Pygoscelis_antarctica	134466	Pygoscelis antarcticus
+otu363508	Megadyptes antipodes	yeepen1	Megadyptes_antipodes	429618	Megadyptes antipodes
+otu363585	Eudyptes pachyrhynchus	fiopen1	Eudyptes_pachyrhynchus	976561	Eudyptes pachyrhynchus
+otu363543	Spheniscus demersus	jacpen1	Spheniscus_demersus	60417	Spheniscus demersus
+otu363512	Eudyptula minor	litpen1	Eudyptula_minor	613299	Eudyptula minor
+otu363539	Thalassarche chrysostoma	gyhalb	Thalassarche_chrysostoma	320280	Diomedea chrysostoma
+otu363540	Thalassarche melanophris	bkbalb	Thalassarche_melanophris	320271	Thalassarche melanophrys
+otu363566	Thalassarche melanophris impavida	bkbalb2	Thalassarche_impavida	514681	Thalassarche impavida
+otu363576	Thalassarche cauta	whcalb1	Thalassarche_cauta	320278	Thalassarche cauta
+otu363583	Thalassarche eremita	shyalb2	Thalassarche_eremita	134477	Thalassarche eremita
+otu363604	Thalassarche salvini	salalb1	Thalassarche_salvini	514671	Thalassarche salvini
+otu363588	Thalassarche bulleri	bulalb2	Thalassarche_bulleri	844475	Thalassarche bulleri
+otu363616	Thalassarche chlororhynchos	yenalb	Thalassarche_chlororhynchos	663145	Thalassarche chlororhynchos
+otu363519	Thalassarche chlororhynchos carteri	yenalb3	Thalassarche_bassi	134478	Thalassarche carteri
+otu363546	Phoebetria palpebrata	limalb1	Phoebetria_palpebrata	592674	Phoebetria palpebrata
+otu363530	Phoebetria fusca	sooalb1	Phoebetria_fusca	592673	Phoebetria fusca
+otu363624	Phoebastria irrorata	wavalb	Phoebastria_irrorata	320282	Phoebastria irrorata
+otu363581	Phoebastria nigripes	bkfalb	Phoebastria_nigripes	320288	Phoebastria nigripes
+otu363579	Phoebastria immutabilis	layalb	Phoebastria_immutabilis	320286	Phoebastria immutabilis
+otu363589	Phoebastria albatrus	shtalb	Phoebastria_albatrus	320284	Phoebastria albatrus
+otu363513	Diomedea epomophora epomophora	royalb2	Diomedea_epomophora	904499	Diomedea epomophora
+otu363608	Diomedea epomophora sanfordi	royalb3	Diomedea_sanfordi	3595652	Diomedea sanfordi
+otu363598	Diomedea exulans dabbenena	wanalb3	Diomedea_dabbenena	300867	Diomedea dabbenena
+otu363551	Diomedea exulans	wanalb	Diomedea_exulans	71459	Diomedea exulans
+otu363531	Diomedea exulans amsterdamensis	wanalb5	Diomedea_amsterdamensis	71463	Diomedea amsterdamensis
+otu363617	no_match	no_match	Diomedea_gibsoni	488690	Diomedea gibsoni
+otu363606	Diomedea exulans antipodensis	wanalb2	Diomedea_antipodensis	82214	Diomedea antipodensis
+otu363511	Pelecanoides urinatrix	codpet1	Pelecanoides_urinatrix	904486	Pelecanoides urinatrix
+otu363600	Pelecanoides magellani	madpet1	Pelecanoides_magellani	603893	Pelecanoides magellani
+otu363520	Pelecanoides georgicus	sgdpet1	Pelecanoides_georgicus	904485	Pelecanoides georgicus
+otu363575	Pelecanoides garnotii	pedpet1	Pelecanoides_garnotii	603910	Pelecanoides garnotii
+otu363548	Pterodroma hypoleuca	bonpet	Pterodroma_hypoleuca	797520	Pterodroma hypoleuca
+otu363621	Pterodroma leucoptera	goupet1	Pterodroma_brevipes	3595611	Pterodroma leucoptera
+otu363573	Pterodroma leucoptera	goupet1	Pterodroma_leucoptera	3595611	Pterodroma leucoptera
+otu363607	Pterodroma defilippiana	maspet3	Pterodroma_defilippiana	3595618	Pterodroma defilippiana
+otu363528	Pterodroma cookii	coopet	Pterodroma_cookii	845415	Pterodroma cookii
+otu363569	Pterodroma longirostris	stepet	Pterodroma_longirostris	271031	Pterodroma longirostris
+otu363609	Pterodroma pycrofti	pycpet1	Pterodroma_pycrofti	3595620	Pterodroma pycrofti
+otu363553	Pterodroma ultima	murpet	Pterodroma_ultima	73703	Pterodroma ultima
+otu363626	Pterodroma madeira	madpet	Pterodroma_madeira	713614	Pterodroma madeira
+otu363605	Pterodroma feae	feapet1	Pterodroma_feae	950182	Pterodroma feae
+otu363526	Pterodroma hasitata	bkcpet	Pterodroma_hasitata	271036	Pterodroma hasitata
+otu363529	Pterodroma cahow	berpet	Pterodroma_cahow	845408	Pterodroma cahow
+otu363550	Pterodroma mollis	soppet1	Pterodroma_mollis	271030	Pterodroma mollis
+otu363613	Pterodroma lessonii	whhpet1	Pterodroma_lessonii	271034	Pterodroma lessonii
+otu363618	Pterodroma incerta	atlpet1	Pterodroma_incerta	271033	Pterodroma incerta
+otu363538	Pterodroma macroptera	grwpet3	Pterodroma_macroptera	271032	Pterodroma macroptera
+otu363525	Pterodroma magentae	magpet1	Pterodroma_magentae	271029	Pterodroma magentae
+otu363596	Pterodroma solandri	solpet1	Pterodroma_solandri	485716	Pterodroma solandri
+otu363577	Pterodroma alba	phopet1	Pterodroma_alba	461784	Pterodroma alba
+otu363554	Pterodroma arminjoniana	tripet1	Pterodroma_arminjoniana	666330	Pterodroma arminjoniana
+otu363625	Pterodroma baraui	barpet1	Pterodroma_baraui	319472	Pterodroma baraui
+otu363574	Pterodroma neglecta	kerpet	Pterodroma_neglecta	271044	Pterodroma neglecta
+otu363536	Pterodroma externa	jufpet	Pterodroma_externa	271035	Pterodroma externa
+otu363544	Pterodroma phaeopygia	galpet	Pterodroma_phaeopygia	485717	Pterodroma phaeopygia
+otu363593	Pterodroma sandwichensis	hawpet1	Pterodroma_sandwichensis	449678	Pterodroma sandwichensis
+otu363541	Pterodroma heraldica	herpet2	Pterodroma_heraldica	285635	Pterodroma heraldica
+otu363586	Pterodroma inexpectata	motpet	Pterodroma_inexpectata	85282	Pterodroma inexpectata
+otu363524	Pterodroma axillaris	chapet1	Pterodroma_axillaris	845409	Pterodroma axillaris
+otu363515	Pterodroma nigripennis	bkwpet	Pterodroma_nigripennis	319464	Pterodroma nigripennis
+otu363594	Pterodroma cervicalis	whnpet	Pterodroma_cervicalis	461783	Pterodroma cervicalis
+otu363587	Bulweria bulwerii	bulpet	Bulweria_bulwerii	944663	Bulweria bulwerii
+otu363578	Procellaria westlandica	wespet1	Procellaria_westlandica	379429	Procellaria westlandica
+otu363516	Procellaria parkinsoni	parpet1	Procellaria_parkinsoni	603895	Procellaria parkinsoni
+otu363523	Procellaria aequinoctialis	whcpet1	Procellaria_aequinoctialis	845406	Procellaria aequinoctialis
+otu363570	Calonectris leucomelas	strshe	Calonectris_leucomelas	82215	Calonectris leucomelas
+otu363612	Calonectris diomedea	corshe	Calonectris_diomedea	172646	Calonectris diomedea
+otu363614	Puffinus nativitatis	chrshe	Puffinus_nativitatis	471655	Puffinus nativitatis
+otu363567	Puffinus gavia	flushe1	Puffinus_gavia	471659	Puffinus gavia
+otu363568	Puffinus huttoni	hutshe1	Puffinus_huttoni	457331	Puffinus huttoni
+otu363601	Puffinus auricularis	towshe1	Puffinus_auricularis	946837	Puffinus auricularis
+otu363534	Puffinus puffinus	manshe	Puffinus_puffinus	471661	Puffinus puffinus
+otu363535	Puffinus yelkouan	levshe1	Puffinus_yelkouan	471651	Puffinus yelkouan
+otu363517	Puffinus mauretanicus	balshe1	Puffinus_mauretanicus	471658	Puffinus mauretanicus
+otu363560	Puffinus assimilis	litshe8	Puffinus_assimilis	946844	Puffinus assimilis
+otu363603	Puffinus lherminieri	audshe	Puffinus_lherminieri	982880	Puffinus lherminieri
+otu363514	Puffinus opisthomelas	bkvshe	Puffinus_opisthomelas	134468	Puffinus opisthomelas
+otu363602	Ardenna pacifica	wetshe	Puffinus_pacificus	471653	Puffinus pacificus
+otu363558	Ardenna bulleri	bulshe	Puffinus_bulleri	946835	Puffinus bulleri
+otu363611	Ardenna tenuirostris	shtshe	Puffinus_tenuirostris	471652	Puffinus tenuirostris
+otu363509	Ardenna grisea	sooshe	Puffinus_griseus	726166	Puffinus griseus
+otu363555	Ardenna gravis	greshe	Puffinus_gravis	726165	Puffinus gravis
+otu363597	Ardenna carneipes	flfshe	Puffinus_carneipes	946836	Puffinus carneipes
+otu363559	Ardenna creatopus	pifshe	Puffinus_creatopus	946834	Puffinus creatopus
+otu363527	Pseudobulweria rostrata	tahpet1	Pseudobulweria_rostrata	172667	Pseudobulweria rostrata
+otu363545	Pseudobulweria aterrima	maspet1	Pseudobulweria_aterrima	172670	Pseudobulweria aterrima
+otu363563	Procellaria cinerea	grapet	Procellaria_cinerea	592656	Procellaria cinerea
+otu363565	Pachyptila vittata	brbpri1	Pachyptila_vittata	85289	Pachyptila vittata
+otu363623	Pachyptila salvini	salpri1	Pachyptila_salvini	603909	Pachyptila salvini
+otu363521	Pachyptila desolata	dovpri1	Pachyptila_desolata	603914	Pachyptila desolata
+otu363556	Pachyptila turtur	faipri1	Pachyptila_turtur	854633	Pachyptila turtur
+otu363592	Halobaena caerulea	blupet1	Halobaena_caerulea	656582	Halobaena caerulea
+otu363571	Aphrodroma brevirostris	kerpet2	Lugensa_brevirostris	3595633	Aphrodroma brevirostris
+otu363557	Pagodroma nivea	snopet1	Pagodroma_nivea	944660	Pagodroma nivea
+otu363518	Thalassoica antarctica	antpet1	Thalassoica_antarctica	656580	Thalassoica antarctica
+otu363549	Daption capense	cappet	Daption_capense	726152	Daption capense
+otu363615	Fulmarus glacialis	norful	Fulmarus_glacialis	1028832	Fulmarus glacialis
+otu363590	Fulmarus glacialoides	souful1	Fulmarus_glacialoides	82196	Fulmarus glacialoides
+otu363552	Macronectes halli	norgip1	Macronectes_halli	603906	Macronectes halli
+otu363620	Macronectes giganteus	angpet1	Macronectes_giganteus	854608	Macronectes giganteus
+otu363564	Garrodia nereis	gybstp1	Garrodia_nereis	134492	Garrodia nereis
+otu363584	Pelagodroma marina	wfspet	Pelagodroma_marina	904490	Pelagodroma marina
+otu363542	Fregetta grallaria	wbspet1	Fregetta_grallaria	82197	Fregetta grallaria
+otu363537	Fregetta tropica	bbspet1	Fregetta_tropica	904495	Fregetta tropica
+otu363507	Oceanites oceanicus	wispet	Oceanites_oceanicus	656591	Oceanites oceanicus
+otu363522	Oceanodroma leucorhoa	lcspet	Oceanodroma_leucorhoa	944658	Oceanodroma leucorhoa
+otu363562	Oceanodroma tristrami	trspet	Oceanodroma_tristrami	603913	Oceanodroma tristrami
+otu363580	Hydrobates pelagicus	bripet	Hydrobates_pelagicus	656589	Hydrobates pelagicus
+otu363599	Oceanodroma furcata	ftspet	Oceanodroma_furcata	603908	Oceanodroma furcata
+otu363547	Oceanodroma microsoma	lsspet	Halocyptena_microsoma	656584	Oceanodroma microsoma
+otu363510	Oceanodroma tethys	wrspet	Oceanodroma_tethys	603905	Oceanodroma tethys
+otu363591	Oceanodroma melania	bkspet	Oceanodroma_melania	603904	Oceanodroma melania
+otu363533	Oceanodroma castro castro	barstp4	Oceanodroma_castro	496011	Oceanodroma castro
+otu363610	Oceanodroma hornbyi	rispet1	Oceanodroma_hornbyi	3595642	Oceanodroma hornbyi
+otu363506	Gavia immer	comloo	Gavia_immer	1057518	Gavia immer
+otu363505	Gavia stellata	retloo	Gavia_stellata	1057044	Gavia stellata

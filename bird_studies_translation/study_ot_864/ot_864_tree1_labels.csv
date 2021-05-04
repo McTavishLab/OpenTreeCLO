@@ -1,0 +1,18 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu12	Podiceps andinus	colgre1	Podiceps_andinus_ICN8361	3595575	Podiceps andinus
+otu11	Podiceps andinus	colgre1	Podiceps_andinus_ICN14229	3595575	Podiceps andinus
+otu10	Podiceps nigricollis	eargre	Podiceps_nigricollis_californicus_DMNH35693	651477	Podiceps nigricollis
+otu9	Podiceps nigricollis	eargre	Podiceps_nigricollis_californicus_Joseph_Jehl	651477	Podiceps nigricollis
+otu8	Podiceps nigricollis	eargre	Podiceps_nigricollis_nigricollis_UWBM73209	651477	Podiceps nigricollis
+otu6	Podiceps nigricollis	eargre	Podiceps_nigricollis_gurneyi_UMMZ94965	651477	Podiceps nigricollis
+otu7	Podiceps nigricollis	eargre	Podiceps_nigricollis_nigricollis_Juan_Amat	651477	Podiceps nigricollis
+otu5	Podiceps occipitalis	silgre1	Podiceps_occipitalis_juninensis_ZUMC1611277	3595565	Podiceps occipitalis
+otu4	Podiceps occipitalis	silgre1	Podiceps_occipitalis_juninensis_ZUMC100178	3595565	Podiceps occipitalis
+otu3	Podiceps taczanowskii	jungre1	Podiceps_taczanowskii_ZUMC140178	3595567	Podiceps taczanowskii
+otu1	Podiceps taczanowskii	jungre1	Podiceps_taczanowskii_UMMZ157233	3595567	Podiceps taczanowskii
+otu2	Podiceps occipitalis	silgre1	Podiceps_occipitalis_occipitalis_UMMZ157233	3595565	Podiceps occipitalis
+otu13	Podiceps gallardoi	hoogre1	Podiceps_gallardoi_ZUMC200382	799136	Podiceps gallardoi
+otu15	Rollandia rolland	whtgre3	Rollandia_rolland_morrisoni_ZUMC050178	547308	Rollandia rolland
+otu14	Rollandia rolland	whtgre3	Rollandia_rolland_chilensis_YPM101152	547308	Rollandia rolland
+otu16	Podiceps auritus	horgre	Podiceps_auritus_USNMB13508	726164	Podiceps auritus
+otu17	Podiceps grisegena	rengre	Podiceps_grisegena_ANSP22181	740071	Podiceps grisegena

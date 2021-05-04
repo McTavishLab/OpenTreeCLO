@@ -1,0 +1,84 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=72;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu72
+        otu58
+        otu67
+        otu8
+        otu59
+        otu6
+        otu66
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu61
+        otu60
+        otu63
+        otu62
+        otu65
+        otu64
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu7
+        otu71
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu69
+        otu68
+        otu70
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Intron nDNA tree (strict clock)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=](((((otu65:26.320767[&otu=otu65,^ot:ottId=241840,^ot:ottTaxonName=Apteryx,^ot:originalLabel=Apteryx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu66:8.503934[&otu=otu66,^ot:ottId=589156,^ot:ottTaxonName=Casuarius,^ot:originalLabel=Casuarius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu67:8.503934[&otu=otu67,^ot:ottId=283193,^ot:ottTaxonName=Dromaius,^ot:originalLabel=Dromaius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1564:17.816832)node1562:11.272168,((otu68:17.15823[&otu=otu68,^ot:ottId=870604,^ot:ottTaxonName=Crypturellus,^ot:originalLabel=Crypturellus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu69:17.15823[&otu=otu69,^ot:ottId=402450,^ot:ottTaxonName=Tinamus,^ot:originalLabel=Tinamus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1568:5.360516,otu70:22.518746[&otu=otu70,^ot:ottId=292460,^ot:ottTaxonName=Eudromia,^ot:originalLabel=Eudromia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1567:15.074188)node1561:0.145594,otu71:37.738529[&otu=otu71,^ot:ottId=857863,^ot:ottTaxonName=Rhea,^ot:originalLabel=Rhea,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1560:2.190253,otu72:39.928782[&otu=otu72,^ot:ottId=292466,^ot:ottTaxonName=Struthio,^ot:originalLabel=Struthio,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1559:41.423199,(((otu64:35.216577[&otu=otu64,^ot:ottId=714466,^ot:ottTaxonName=Anseranas,^ot:originalLabel=Anseranas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu63:13.807705[&otu=otu63,^ot:ottId=190884,^ot:ottTaxonName=Anser,^ot:originalLabel=Anser,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu62:4.93767[&otu=otu62,^ot:ottId=693334,^ot:ottTaxonName=Aythya,^ot:originalLabel=Aythya,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu61:4.93767[&otu=otu61,^ot:ottId=765185,^ot:ottTaxonName=Anas,^ot:originalLabel=Anas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1554:8.870035)node1553:21.408871)node1552:14.875823,(otu57:43.722982[&otu=otu57,^ot:ottId=620981,^ot:ottTaxonName=Megapodiidae,^ot:originalLabel=Megapodidae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu60:24.275535[&otu=otu60,^ot:ottId=684050,^ot:ottTaxonName=Numida,^ot:originalLabel=Numida,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu58:16.939368[&otu=otu58,^ot:ottId=1098759,^ot:ottTaxonName=Coturnix,^ot:originalLabel=Coturnix,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu59:16.939368[&otu=otu59,^ot:ottId=153562,^ot:ottTaxonName=Gallus,^ot:originalLabel=Gallus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1548:7.336168)node1547:19.447447)node1545:6.369417)node1544:17.715703,(((otu52:43.278443[&otu=otu52,^ot:ottId=86676,^ot:ottTaxonName=Rhynochetos,^ot:originalLabel=Rhynochetos_Eurypyga,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu51:42.431201[&otu=otu51,^ot:ottId=178253,^ot:ottTaxonName=Nyctibius,^ot:originalLabel=Nyctibius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu50:38.712407[&otu=otu50,^ot:ottId=540029,^ot:ottTaxonName=Aegotheles,^ot:originalLabel=Aegotheles,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu49:35.019202[&otu=otu49,^ot:ottId=804122,^ot:ottTaxonName=Colibri,^ot:originalLabel=Colibri_Phaethornis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu48:35.019202[&otu=otu48,^ot:ottId=534819,^ot:ottTaxonName=Aerodramus,^ot:originalLabel=Aerodramus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1531:3.693205)node1530:3.718794)node1529:0.847242)node1528:0.68845,((otu55:28.839914[&otu=otu55,^ot:ottId=443649,^ot:ottTaxonName=Phoenicopterus,^ot:originalLabel=Phoenicopterus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu56:28.839914[&otu=otu56,^ot:ottId=329993,^ot:ottTaxonName=Podiceps,^ot:originalLabel=Podiceps,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1541:13.825004,(otu54:42.369528[&otu=otu54,^ot:ottId=938415,^ot:ottTaxonName=Columba,^ot:originalLabel=Columba,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu53:42.369528[&otu=otu53,^ot:ottId=5559043,^ot:ottTaxonName=Phaethon,^ot:originalLabel=Phaethon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1538:0.295391)node1537:1.301975)node1527:2.585848,((((((((otu6:26.615923[&otu=otu6,^ot:ottId=73933,^ot:ottTaxonName=Menura,^ot:originalLabel=Menura,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu5:20.494418[&otu=otu5,^ot:ottId=952596,^ot:ottTaxonName=Corvus,^ot:originalLabel=Corvus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu4:13.876542[&otu=otu4,^ot:ottId=507121,^ot:ottTaxonName=Vidua,^ot:originalLabel=Vidua,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu3:13.876542[&otu=otu3,^ot:ottId=28336,^ot:ottTaxonName=Fringilla,^ot:originalLabel=Fringilla_Passer,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1446:3.220962,otu2:17.097505[&otu=otu2,^ot:ottId=463177,^ot:ottTaxonName=Sylvia,^ot:originalLabel=Sylvia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1444:3.396914)node1443:6.121505)node1442:6.4441,(otu7:29.036636[&otu=otu7,^ot:ottId=463185,^ot:ottTaxonName=Tyrannus,^ot:originalLabel=Tyrannus_Mionectes,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu8:29.036636[&otu=otu8,^ot:ottId=622872,^ot:ottTaxonName=Smithornis,^ot:originalLabel=Smithornis_Pitta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1451:4.023387)node1441:1.836663,otu1:34.896685[&otu=otu1,^ot:ottId=1085741,^ot:ottTaxonName=Acanthisitta,^ot:originalLabel=Acanthisitta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1439:8.772652,(otu9:15.446147[&otu=otu9,^ot:ottId=276608,^ot:ottTaxonName=Chalcopsitta,^ot:originalLabel=Chalcopsitta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu10:15.446147[&otu=otu10,^ot:ottId=619340,^ot:ottTaxonName=Cacatua,^ot:originalLabel=Cacatua,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1454:28.22319)node1438:0.35781,(otu11:23.697597[&otu=otu11,^ot:ottId=786441,^ot:ottTaxonName=Falco,^ot:originalLabel=Falco_Daptrius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12:23.697597[&otu=otu12,^ot:ottId=1015202,^ot:ottTaxonName=Micrastur,^ot:originalLabel=Micrastur_Herpetotheres,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1457:20.329551)node1437:0.60051,(((otu22:18.600046[&otu=otu22,^ot:ottId=119211,^ot:ottTaxonName=Buteo,^ot:originalLabel=Buteo,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu23:18.600046[&otu=otu23,^ot:ottId=509844,^ot:ottTaxonName=Pandion,^ot:originalLabel=Pandion,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1479:12.992507,otu24:31.592552[&otu=otu24,^ot:ottId=317003,^ot:ottTaxonName=Cathartes,^ot:originalLabel=Cathartes,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1478:12.732383,((otu21:33.027035[&otu=otu21,^ot:ottId=427905,^ot:ottTaxonName=Strix,^ot:originalLabel=Strix_Speotyto,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu20:33.027035[&otu=otu20,^ot:ottId=1065605,^ot:ottTaxonName=Tyto,^ot:originalLabel=Tyto_Phodilus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1475:11.150615,(otu19:43.88546[&otu=otu19,^ot:ottId=1065611,^ot:ottTaxonName=Trogon,^ot:originalLabel=Trogon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu18:18.409865[&otu=otu18,^ot:ottId=1097399,^ot:ottTaxonName=Tockus,^ot:originalLabel=Tockus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu17:18.409865[&otu=otu17,^ot:ottId=991312,^ot:ottTaxonName=Bucorvus,^ot:originalLabel=Bucorvus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1471:24.598763,((otu16:24.258523[&otu=otu16,^ot:ottId=291638,^ot:ottTaxonName=Megalaima,^ot:originalLabel=Megalaima_Capito,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15:24.258523[&otu=otu15,^ot:ottId=733986,^ot:ottTaxonName=Dryocopus,^ot:originalLabel=Dryocopus_Indicator,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1468:17.680014,(otu14:38.060919[&otu=otu14,^ot:ottId=244695,^ot:ottTaxonName=Coracias,^ot:originalLabel=Coracias_Brachypteracias,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu13:38.060919[&otu=otu13,^ot:ottId=549518,^ot:ottTaxonName=Alcedo,^ot:originalLabel=Alcedo_Motmotus_Todus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1465:3.877618)node1464:1.070091)node1463:0.876832)node1462:0.292191)node1461:0.147285)node1460:0.302722)node1436:0.88993,(otu27:32.856123[&otu=otu27,^ot:ottId=193407,^ot:ottTaxonName=Haematopus,^ot:originalLabel=Haematopus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu26:29.148902[&otu=otu26,^ot:ottId=887695,^ot:ottTaxonName=Larus,^ot:originalLabel=Larus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25:29.148902[&otu=otu25,^ot:ottId=821756,^ot:ottTaxonName=Arenaria,^ot:originalLabel=Arenaria,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1484:3.707221)node1483:12.661465)node1435:0.635548,((otu47:42.299698[&otu=otu47,^ot:ottId=521835,^ot:ottTaxonName=Eupodotis,^ot:originalLabel=Eupodotis_Choriotis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu46:25.837044[&otu=otu46,^ot:ottId=1041422,^ot:ottTaxonName=Crotophaga,^ot:originalLabel=Crotophaga,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu45:25.837044[&otu=otu45,^ot:ottId=212185,^ot:ottTaxonName=Geococcyx,^ot:originalLabel=Geococcyx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1523:4.967119,otu44:30.804163[&otu=otu44,^ot:ottId=1041429,^ot:ottTaxonName=Cuculus,^ot:originalLabel=Cuculus_Coccyzus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1521:11.115574,(otu43:34.803624[&otu=otu43,^ot:ottId=440612,^ot:ottTaxonName=Rallus,^ot:originalLabel=Rallus_Sarothrura,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu42:34.803624[&otu=otu42,^ot:ottId=414354,^ot:ottTaxonName=Grus,^ot:originalLabel=Grus_Aramus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1518:7.116114)node1517:0.379961)node1516:0.29108,((((((otu35:17.631576[&otu=otu35,^ot:ottId=597797,^ot:ottTaxonName=Balaeniceps,^ot:originalLabel=Balaeniceps,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu34:17.631576[&otu=otu34,^ot:ottId=316994,^ot:ottTaxonName=Pelecanus,^ot:originalLabel=Pelecanus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1504:5.180352,(otu33:22.280154[&otu=otu33,^ot:ottId=689774,^ot:ottTaxonName=Eudocimus,^ot:originalLabel=Eudocimus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu32:22.280154[&otu=otu32,^ot:ottId=860130,^ot:ottTaxonName=Ardea,^ot:originalLabel=Ardea,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1501:0.531774)node1500:0.93764,(otu31:21.631459[&otu=otu31,^ot:ottId=108973,^ot:ottTaxonName=Fregata,^ot:originalLabel=Fregata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu28:15.073977[&otu=otu28,^ot:ottId=443638,^ot:ottTaxonName=Anhinga,^ot:originalLabel=Anhinga,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu29:15.073977[&otu=otu29,^ot:ottId=322277,^ot:ottTaxonName=Phalacrocorax,^ot:originalLabel=Phalacrocorax,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1495:1.119811,otu30:16.193787[&otu=otu30,^ot:ottId=752683,^ot:ottTaxonName=Morus,^ot:originalLabel=Morus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1494:5.437672)node1493:2.118109)node1492:0.457144,otu36:24.206712[&otu=otu36,^ot:ottId=363012,^ot:ottTaxonName=Ciconia,^ot:originalLabel=Ciconia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1491:0.55545,(((otu40:16.665149[&otu=otu40,^ot:ottId=1028843,^ot:ottTaxonName=Puffinus,^ot:originalLabel=Puffinus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu39:16.665149[&otu=otu39,^ot:ottId=379419,^ot:ottTaxonName=Diomedea,^ot:originalLabel=Diomedea,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1512:1.354983,otu38:18.020132[&otu=otu38,^ot:ottId=656590,^ot:ottTaxonName=Oceanites,^ot:originalLabel=Oceanites,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1510:3.107657,otu37:21.127789[&otu=otu37,^ot:ottId=388853,^ot:ottTaxonName=Eudyptula,^ot:originalLabel=Eudyptula,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1508:3.634373)node1490:1.308924,otu41:26.071086[&otu=otu41,^ot:ottId=803675,^ot:ottTaxonName=Gavia,^ot:originalLabel=Gavia,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1489:16.519692)node1488:3.562356)node1434:0.399606)node1433:21.255361)node1432:13.543879)node1431;
+END;
+

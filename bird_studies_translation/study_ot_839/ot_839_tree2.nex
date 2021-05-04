@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        Grallaria_varia
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE yuri_etal_2008_tree_2 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=Acanthisitta_chloris,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1],((otu2[&otu=otu2,^ot:ottId=531206,^ot:ottTaxonName=Menura novaehollandiae,^ot:originalLabel=Menura_novaehollandiae,^clo:ClementsTaxonName2019=Menura novaehollandiae,^clo:speciescode2019=suplyr1],(otu25[&otu=otu25,^ot:ottId=310385,^ot:ottTaxonName=Climacteris erythrops,^ot:originalLabel=Climacteris_erythrops,^clo:ClementsTaxonName2019=Climacteris erythrops,^clo:speciescode2019=rebtre1],(otu3[&otu=otu3,^ot:ottId=959440,^ot:ottTaxonName=Malurus melanocephalus,^ot:originalLabel=Malurus_melanocephalus,^clo:ClementsTaxonName2019=Malurus melanocephalus,^clo:speciescode2019=rebfai1],(otu5[&otu=otu5,^ot:ottId=699623,^ot:ottTaxonName=Picathartes gymnocephalus,^ot:originalLabel=Picathartes_gymnocephalus,^clo:ClementsTaxonName2019=Picathartes gymnocephalus,^clo:speciescode2019=whnroc1],(otu4[&otu=otu4,^ot:ottId=711844,^ot:ottTaxonName=Corvus corone,^ot:originalLabel=Corvus_corone,^clo:ClementsTaxonName2019=Corvus corone,^clo:speciescode2019=carcro1],((otu13[&otu=otu13,^ot:ottId=3599890,^ot:ottTaxonName=Regulus calendula,^ot:originalLabel=Regulus_calendula,^clo:ClementsTaxonName2019=Regulus calendula,^clo:speciescode2019=ruckin],(otu14[&otu=otu14,^ot:ottId=433924,^ot:ottTaxonName=Sylvia nana,^ot:originalLabel=Sylvia_nana,^clo:ClementsTaxonName2019=Sylvia nana,^clo:speciescode2019=asdwar1],otu6[&otu=otu6,^ot:ottId=381315,^ot:ottTaxonName=Turdus falcklandii,^ot:originalLabel=Turdus_falklandii,^clo:ClementsTaxonName2019=Turdus falcklandii,^clo:speciescode2019=austhr1])node75)node73,((((otu10[&otu=otu10,^ot:ottId=44870,^ot:ottTaxonName=Passer montanus,^ot:originalLabel=Passer_montanus,^clo:ClementsTaxonName2019=Passer montanus,^clo:speciescode2019=eutspa],otu9[&otu=otu9,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node67,otu8[&otu=otu8,^ot:ottId=28332,^ot:ottTaxonName=Fringilla montifringilla,^ot:originalLabel=Fringilla_montifringilla,^clo:ClementsTaxonName2019=Fringilla montifringilla,^clo:speciescode2019=brambl])node65,(otu12[&otu=otu12,^ot:ottId=622887,^ot:ottTaxonName=Vidua chalybeata,^ot:originalLabel=Vidua_chalybeata,^clo:ClementsTaxonName2019=Vidua chalybeata,^clo:speciescode2019=vilind],otu11[&otu=otu11,^ot:ottId=370802,^ot:ottTaxonName=Ploceus cucullatus,^ot:originalLabel=Ploceus_cucullatus,^clo:ClementsTaxonName2019=Ploceus cucullatus,^clo:speciescode2019=vilwea1])node70)node64,otu7[&otu=otu7,^ot:ottId=613881,^ot:ottTaxonName=Bombycilla garrulus,^ot:originalLabel=Bombycilla_garrulus,^clo:ClementsTaxonName2019=Bombycilla garrulus,^clo:speciescode2019=bohwax])node62)node61)node59)node57)node55)node53)node51,((otu24[&otu=otu24,^ot:ottId=592204,^ot:ottTaxonName=Smithornis rufolateralis,^ot:originalLabel=Smithornis_rufolateralis,^clo:ClementsTaxonName2019=Smithornis rufolateralis,^clo:speciescode2019=rusbro1],(otu22[&otu=otu22,^ot:ottId=395861,^ot:ottTaxonName=Sapayoa aenigma,^ot:originalLabel=Sapayoa_aenigma,^clo:ClementsTaxonName2019=Sapayoa aenigma,^clo:speciescode2019=sapayo1],otu23[&otu=otu23,^ot:ottId=232061,^ot:ottTaxonName=Hydrornis guajana,^ot:originalLabel=Pitta_guajana,^clo:ClementsTaxonName2019=Hydrornis guajanus,^clo:speciescode2019=banpit2])node92)node90,((otu15[&otu=otu15,^ot:ottId=413004,^ot:ottTaxonName=Thamnophilus nigrocinereus,^ot:originalLabel=Thamnophilus_nigrocinereus,^clo:ClementsTaxonName2019=Thamnophilus nigrocinereus,^clo:speciescode2019=blgant2],(otu17[&otu=otu17,^ot:ottId=584977,^ot:ottTaxonName=Dendrocolaptes certhia,^ot:originalLabel=Dendrocolaptes_certhia,^clo:ClementsTaxonName2019=Dendrocolaptes certhia,^clo:speciescode2019=amabaw1],otu18[&otu=otu18,^ot:ottId=44861,^ot:ottTaxonName=Scytalopus magellanicus,^ot:originalLabel=Scytalopus_magellanicus,^clo:ClementsTaxonName2019=Scytalopus magellanicus,^clo:speciescode2019=magtap1])node82)node80,((otu21[&otu=otu21,^ot:ottId=463183,^ot:ottTaxonName=Tyrannus tyrannus,^ot:originalLabel=Tyrannus_tyrannus,^clo:ClementsTaxonName2019=Tyrannus tyrannus,^clo:speciescode2019=easkin],otu20[&otu=otu20,^ot:ottId=1015939,^ot:ottTaxonName=Mionectes macconnelli,^ot:originalLabel=Mionectes_macconnelli,^clo:ClementsTaxonName2019=Mionectes macconnelli,^clo:speciescode2019=mccfly1])node87,otu19[&otu=otu19,^ot:ottId=49248,^ot:ottTaxonName=Lepidothrix coronata,^ot:originalLabel=Pipra_coronata,^clo:ClementsTaxonName2019=Lepidothrix coronata,^clo:speciescode2019=blcman1])node85)node79)node78)node50)node48;
+END;
+

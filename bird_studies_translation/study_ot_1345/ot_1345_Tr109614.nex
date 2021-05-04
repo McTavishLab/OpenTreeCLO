@@ -1,0 +1,50 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=38;
+    TAXLABELS
+        Tl3026895
+        Tl3026894
+        Tl3026897
+        Tl3026896
+        Tl3026891
+        Tl3026890
+        Tl3026893
+        Tl3026892
+        Tl3026899
+        Tl3026898
+        Tl3026907
+        Anatalavis_oxfordi
+        Tl3026905
+        Tl3026904
+        Tl3026903
+        Tl3026902
+        Tl3026901
+        Tl3026900
+        Tl3026909
+        Tl3026908
+        Tl3026886
+        Tl3026887
+        Tl3026884
+        Tl3026885
+        Tl3026882
+        Tl3026883
+        Tl3026880
+        Tl3026881
+        Tl3026888
+        Tl3026889
+        Tl3026910
+        Tl3026911
+        Tl3026912
+        Tl3026913
+        Tl3026914
+        Tl3026877
+        Tl3026879
+        Tl3026878
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._13 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((Tl3026889[&otu=Tl3026889,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2],(Tl3026895[&otu=Tl3026895,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],(Tl3026890[&otu=Tl3026890,^ot:ottId=208456,^ot:ottTaxonName=Dinornis robustus,^ot:originalLabel=Dinornis_robustus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(Tl3026893[&otu=Tl3026893,^ot:ottId=402466,^ot:ottTaxonName=Tinamus major,^ot:originalLabel=Tinamus_robustus,^clo:ClementsTaxonName2019=Tinamus major,^clo:speciescode2019=gretin1],(Tl3026914[&otu=Tl3026914,^ot:ottId=6150816,^ot:ottTaxonName=Lithornis promiscuus,^ot:originalLabel=Lithornis_promiscuus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl3026900[&otu=Tl3026900,^ot:ottId=6151126,^ot:ottTaxonName=Paracathartes howardae,^ot:originalLabel=Paracathartes_howardae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl3026886[&otu=Tl3026886,^ot:ottId=6150815,^ot:ottTaxonName=Lithornis plebius,^ot:originalLabel=Lithornis_plebius,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn17248095)Tn17248099)Tn17248115)Tn17248125)Tn17248147)Tn17248121,(((Tl3026880[&otu=Tl3026880,^ot:ottId=6520193,^ot:ottTaxonName=Dromornis planei,^ot:originalLabel=Dromornis_planei,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl3026888[&otu=Tl3026888,^ot:ottId=3596035,^ot:ottTaxonName=Sylviornis neoclaedoniae,^ot:originalLabel=Sylviornis_neocaledoniae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(Tl3026899[&otu=Tl3026899,^ot:ottId=6520194,^ot:ottTaxonName=Mwalau walterlinii,^ot:originalLabel=Mwalau_walterlinii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((((Tl3026881[&otu=Tl3026881,^ot:ottId=570964,^ot:ottTaxonName=Megapodius eremita,^ot:originalLabel=Megapodius_eremita,^clo:ClementsTaxonName2019=Megapodius eremita,^clo:speciescode2019=melscr1],Tl3026902[&otu=Tl3026902,^ot:ottId=1014129,^ot:ottTaxonName=Megapodius reinwardt,^ot:originalLabel=Megapodius_reinwardt,^clo:ClementsTaxonName2019=Megapodius reinwardt,^clo:speciescode2019=orfscr1])Tn17248142,Tl3026912[&otu=Tl3026912,^ot:ottId=750774,^ot:ottTaxonName=Eulipoa wallacei,^ot:originalLabel=Eulipoa_wallacei,^clo:ClementsTaxonName2019=Eulipoa wallacei,^clo:speciescode2019=molscr1])Tn17248107,((Tl3026901[&otu=Tl3026901,^ot:ottId=176333,^ot:ottTaxonName=Talegalla fuscirostris,^ot:originalLabel=Talegalla_fuscirostris,^clo:ClementsTaxonName2019=Talegalla fuscirostris,^clo:speciescode2019=bkbbrt1],(Tl3026897[&otu=Tl3026897,^ot:ottId=570956,^ot:ottTaxonName=Alectura lathami,^ot:originalLabel=Alectura_lathami,^clo:ClementsTaxonName2019=Alectura lathami,^clo:speciescode2019=ausbrt1],Tl3026908[&otu=Tl3026908,^ot:ottId=109888,^ot:ottTaxonName=Leipoa ocellata,^ot:originalLabel=Leipoa_ocellata,^clo:ClementsTaxonName2019=Leipoa ocellata,^clo:speciescode2019=mallee1])Tn17248148)Tn17248126,Tl3026882[&otu=Tl3026882,^ot:ottId=750773,^ot:ottTaxonName=Macrocephalon,^ot:originalLabel=Macrocephalon,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn17248127)Tn17248137,((Tl3026894[&otu=Tl3026894,^ot:ottId=132829,^ot:ottTaxonName=Crax rubra,^ot:originalLabel=Crax_rubra,^clo:ClementsTaxonName2019=Crax rubra,^clo:speciescode2019=grecur1],Tl3026887[&otu=Tl3026887,^ot:ottId=109882,^ot:ottTaxonName=Ortalis vetula,^ot:originalLabel=Ortalis_vetula,^clo:ClementsTaxonName2019=Ortalis vetula,^clo:speciescode2019=placha])Tn17248150,(Tl3026904[&otu=Tl3026904,^ot:ottId=684040,^ot:ottTaxonName=Acryllium vulturinum,^ot:originalLabel=Acryllium_vulturinum,^clo:ClementsTaxonName2019=Acryllium vulturinum,^clo:speciescode2019=vulgui1],((Tl3026907[&otu=Tl3026907,^ot:ottId=102719,^ot:ottTaxonName=Phasianus colchicus,^ot:originalLabel=Phasianus_colchicus,^clo:ClementsTaxonName2019=Phasianus colchicus,^clo:speciescode2019=rinphe],Tl3026885[&otu=Tl3026885,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])Tn17248091,Tl3026913[&otu=Tl3026913,^ot:ottId=602029,^ot:ottTaxonName=Coturnix pectoralis,^ot:originalLabel=Coturnix_pectoralis,^clo:ClementsTaxonName2019=Coturnix pectoralis,^clo:speciescode2019=stuqua1])Tn17248149)Tn17248098)Tn17248096)Tn17248097)Tn17248093,Tl3026903[&otu=Tl3026903,^ot:ottId=6520195,^ot:ottTaxonName=Megavitiornis altirostris,^ot:originalLabel=Megavitiornis_altirostris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn17248139)Tn17248100,(((((Tl3026891[&otu=Tl3026891,^ot:ottId=282327,^ot:ottTaxonName=Tadorna tadornoides,^ot:originalLabel=Tadorna_tadornoides,^clo:ClementsTaxonName2019=Tadorna tadornoides,^clo:speciescode2019=ausshe1],Tl3026898[&otu=Tl3026898,^ot:ottId=436831,^ot:ottTaxonName=Malacorhynchus,^ot:originalLabel=Malacorhynchus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn17248135,(Tl3026879[&otu=Tl3026879,^ot:ottId=714459,^ot:ottTaxonName=Cereopsis novaehollandiae,^ot:originalLabel=Cereopsis_novaehollandiae,^clo:ClementsTaxonName2019=Cereopsis novaehollandiae,^clo:speciescode2019=cabgoo1],Tl3026883[&otu=Tl3026883,^ot:ottId=190878,^ot:ottTaxonName=Anser caerulescens,^ot:originalLabel=Anser_caerulescens,^clo:ClementsTaxonName2019=Anser caerulescens,^clo:speciescode2019=snogoo])Tn17248116)Tn17248146,Tl3026910[&otu=Tl3026910,^ot:ottId=662615,^ot:ottTaxonName=Dendrocygna eytoni,^ot:originalLabel=Dendrocygna_eytoni,^clo:ClementsTaxonName2019=Dendrocygna eytoni,^clo:speciescode2019=plwduc1])Tn17248088,Tl3026896[&otu=Tl3026896,^ot:ottId=3595987,^ot:ottTaxonName=Vegavis iaai,^ot:originalLabel=Vegavis_iaai,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl3026878[&otu=Tl3026878,^ot:ottId=3595974,^ot:ottTaxonName=Presbyornis pervetus,^ot:originalLabel=Presbyornis_pervetus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl3026911[&otu=Tl3026911,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1])Tn17248131)Tn17248110,(Tl3026905[&otu=Tl3026905,^ot:ottId=767829,^ot:ottTaxonName=Anhima cornuta,^ot:originalLabel=Anhima_cornuta,^clo:ClementsTaxonName2019=Anhima cornuta,^clo:speciescode2019=horscr1],Tl3026884[&otu=Tl3026884,^ot:ottId=860132,^ot:ottTaxonName=Chauna torquata,^ot:originalLabel=Chauna_torquata,^clo:ClementsTaxonName2019=Chauna torquata,^clo:speciescode2019=souscr1])Tn17248082)Tn17248106)Tn17248101,((Tl3026892[&otu=Tl3026892,^ot:ottId=380192,^ot:ottTaxonName=Porphyrio melanotus,^ot:originalLabel=Porphyrio_melanotus,^clo:ClementsTaxonName2019=Porphyrio melanotus,^clo:speciescode2019=purswa6],Tl3026877[&otu=Tl3026877,^ot:ottId=972481,^ot:ottTaxonName=Grus rubicunda,^ot:originalLabel=Grus_rubicunda,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn17248103,Tl3026909[&otu=Tl3026909,^ot:ottId=868643,^ot:ottTaxonName=Burhinus grallarius,^ot:originalLabel=Burhinus_grallarius,^clo:ClementsTaxonName2019=Burhinus grallarius,^clo:speciescode2019=butkne1])Tn17248117)Tn17248108)Tn17248136;
+END;
+

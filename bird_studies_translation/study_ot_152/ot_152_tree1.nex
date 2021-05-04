@@ -1,0 +1,34 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu21
+        otu20
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._6 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=1068261,nearestTaxonMRCAName=Ramphastos,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((((otu11[&otu=otu11,^ot:ottId=179929,^ot:ottTaxonName=Ramphastos tucanus tucanus,^ot:originalLabel=Ramphastos_tucanus_tucanus_2,^clo:ClementsTaxonName2019=Ramphastos tucanus tucanus,^clo:speciescode2019=whttou2],otu10[&otu=otu10,^ot:ottId=1068262,^ot:ottTaxonName=Ramphastos cuvieri,^ot:originalLabel=Ramphastos_tucanus_cuvieri_1,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node24,otu12[&otu=otu12,^ot:ottId=1068262,^ot:ottTaxonName=Ramphastos cuvieri,^ot:originalLabel=Ramphastos_tucanus_cuvieri_2,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node23,otu13[&otu=otu13,^ot:ottId=179929,^ot:ottTaxonName=Ramphastos tucanus tucanus,^ot:originalLabel=Ramphastos_tucanus_tucanus_1,^clo:ClementsTaxonName2019=Ramphastos tucanus tucanus,^clo:speciescode2019=whttou2])node22,(otu14[&otu=otu14,^ot:ottId=535536,^ot:ottTaxonName=Ramphastos swainsonii,^ot:originalLabel=Ramphastos_ambiguus_swainsonii,^clo:ClementsTaxonName2019=Ramphastos ambiguus swainsonii,^clo:speciescode2019=chmtou1],otu15[&otu=otu15,^ot:ottId=866604,^ot:ottTaxonName=Ramphastos ambiguus ambiguus,^ot:originalLabel=Ramphastos_ambiguus_ambiguus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node29)node21,(otu9[&otu=otu9,^ot:ottId=1030674,^ot:ottTaxonName=Ramphastos sulfuratus,^ot:originalLabel=Ramphastos_sulfuratus,^clo:ClementsTaxonName2019=Ramphastos sulfuratus,^clo:speciescode2019=kebtou1],(otu8[&otu=otu8,^ot:ottId=1030675,^ot:ottTaxonName=Ramphastos dicolorus,^ot:originalLabel=Ramphastos_dicolorus,^clo:ClementsTaxonName2019=Ramphastos dicolorus,^clo:speciescode2019=rebtou2],(otu7[&otu=otu7,^ot:ottId=397816,^ot:ottTaxonName=Ramphastos brevis,^ot:originalLabel=Ramphastos_brevis,^clo:ClementsTaxonName2019=Ramphastos brevis,^clo:speciescode2019=chotou1],(otu6[&otu=otu6,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_vitellinus_ariel_SE,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2],(((otu3[&otu=otu3,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_vitellinus_ariel_N_2,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2],(otu2[&otu=otu2,^ot:ottId=266063,^ot:ottTaxonName=Ramphastos ariel,^ot:originalLabel=Ramphastos_vitellinus_ariel_N_1,^clo:ClementsTaxonName2019=Ramphastos vitellinus ariel,^clo:speciescode2019=chbtou2],otu1[&otu=otu1,^ot:ottId=450962,^ot:ottTaxonName=Ramphastos culminatus,^ot:originalLabel=Ramphastos_vitellinus_culminatus_1,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node11)node10,otu4[&otu=otu4,^ot:ottId=450962,^ot:ottTaxonName=Ramphastos culminatus,^ot:originalLabel=Ramphastos_vitellinus_culminatus_2,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node9,otu5[&otu=otu5,^ot:ottId=179925,^ot:ottTaxonName=Ramphastos vitellinus vitellinus,^ot:originalLabel=Ramphastos_vitellinus_vitellinus,^clo:ClementsTaxonName2019=Ramphastos vitellinus vitellinus,^clo:speciescode2019=chbtou8])node8)node7)node6)node5)node4)node3,(otu20[&otu=otu20,^ot:ottId=291645,^ot:ottTaxonName=Pteroglossus,^ot:originalLabel=Pteroglossus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu18[&otu=otu18,^ot:ottId=288964,^ot:ottTaxonName=Aulacorhynchus atrogularis,^ot:originalLabel=Aulacorhynchus_prasinus_atrogularis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu19[&otu=otu19,^ot:ottId=564506,^ot:ottTaxonName=Aulacorhynchus caeruleogularis,^ot:originalLabel=Aulacorhynchus_prasinus_caeruleogularis,^clo:ClementsTaxonName2019=Aulacorhynchus prasinus caeruleogularis,^clo:speciescode2019=emetou4])node37,(otu16[&otu=otu16,^ot:ottId=1068266,^ot:ottTaxonName=Selenidera,^ot:originalLabel=Selenidera,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu17[&otu=otu17,^ot:ottId=815702,^ot:ottTaxonName=Andigena,^ot:originalLabel=Andigena,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node34)node33)node32)node2,(otu21[&otu=otu21,^ot:ottId=542000,^ot:ottTaxonName=Semnornis frantzii,^ot:originalLabel=Semnornis_frantzii,^clo:ClementsTaxonName2019=Semnornis frantzii,^clo:speciescode2019=prbbar1],otu22[&otu=otu22,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1])node41)node1;
+END;
+

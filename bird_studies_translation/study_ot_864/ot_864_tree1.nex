@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2A (chronogram)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=](((((((otu12:0.43[&otu=otu12,^ot:ottId=3595575,^ot:ottTaxonName=Podiceps andinus,^ot:originalLabel=Podiceps_andinus_ICN8361,^clo:ClementsTaxonName2019=Podiceps andinus,^clo:speciescode2019=colgre1],otu11:0.43[&otu=otu11,^ot:ottId=3595575,^ot:ottTaxonName=Podiceps andinus,^ot:originalLabel=Podiceps_andinus_ICN14229,^clo:ClementsTaxonName2019=Podiceps andinus,^clo:speciescode2019=colgre1])node24:0.16,(otu10:0.39[&otu=otu10,^ot:ottId=651477,^ot:ottTaxonName=Podiceps nigricollis,^ot:originalLabel=Podiceps_nigricollis_californicus_DMNH35693,^clo:ClementsTaxonName2019=Podiceps nigricollis,^clo:speciescode2019=eargre],otu9:0.39[&otu=otu9,^ot:ottId=651477,^ot:ottTaxonName=Podiceps nigricollis,^ot:originalLabel=Podiceps_nigricollis_californicus_Joseph_Jehl,^clo:ClementsTaxonName2019=Podiceps nigricollis,^clo:speciescode2019=eargre])node21:0.2)node20:0.38,(otu8:0.35[&otu=otu8,^ot:ottId=651477,^ot:ottTaxonName=Podiceps nigricollis,^ot:originalLabel=Podiceps_nigricollis_nigricollis_UWBM73209,^clo:ClementsTaxonName2019=Podiceps nigricollis,^clo:speciescode2019=eargre],(otu6:0.24[&otu=otu6,^ot:ottId=651477,^ot:ottTaxonName=Podiceps nigricollis,^ot:originalLabel=Podiceps_nigricollis_gurneyi_UMMZ94965,^clo:ClementsTaxonName2019=Podiceps nigricollis,^clo:speciescode2019=eargre],otu7:0.24[&otu=otu7,^ot:ottId=651477,^ot:ottTaxonName=Podiceps nigricollis,^ot:originalLabel=Podiceps_nigricollis_nigricollis_Juan_Amat,^clo:ClementsTaxonName2019=Podiceps nigricollis,^clo:speciescode2019=eargre])node16:0.11)node15:0.62)node14:0.94,(otu5:1.44[&otu=otu5,^ot:ottId=3595565,^ot:ottTaxonName=Podiceps occipitalis,^ot:originalLabel=Podiceps_occipitalis_juninensis_ZUMC1611277,^clo:ClementsTaxonName2019=Podiceps occipitalis,^clo:speciescode2019=silgre1],(otu4:1.15[&otu=otu4,^ot:ottId=3595565,^ot:ottTaxonName=Podiceps occipitalis,^ot:originalLabel=Podiceps_occipitalis_juninensis_ZUMC100178,^clo:ClementsTaxonName2019=Podiceps occipitalis,^clo:speciescode2019=silgre1],(otu3:0.89[&otu=otu3,^ot:ottId=3595567,^ot:ottTaxonName=Podiceps taczanowskii,^ot:originalLabel=Podiceps_taczanowskii_ZUMC140178,^clo:ClementsTaxonName2019=Podiceps taczanowskii,^clo:speciescode2019=jungre1],(otu1:0.57[&otu=otu1,^ot:ottId=3595567,^ot:ottTaxonName=Podiceps taczanowskii,^ot:originalLabel=Podiceps_taczanowskii_UMMZ157233,^clo:ClementsTaxonName2019=Podiceps taczanowskii,^clo:speciescode2019=jungre1],otu2:0.57[&otu=otu2,^ot:ottId=3595565,^ot:ottTaxonName=Podiceps occipitalis,^ot:originalLabel=Podiceps_occipitalis_occipitalis_UMMZ157233,^clo:ClementsTaxonName2019=Podiceps occipitalis,^clo:speciescode2019=silgre1])node8:0.32)node7:0.26)node6:0.29)node5:0.47)node4:2.06,otu13:3.97[&otu=otu13,^ot:ottId=799136,^ot:ottTaxonName=Podiceps gallardoi,^ot:originalLabel=Podiceps_gallardoi_ZUMC200382,^clo:ClementsTaxonName2019=Podiceps gallardoi,^clo:speciescode2019=hoogre1])node3:3.82,(otu15:0.3[&otu=otu15,^ot:ottId=547308,^ot:ottTaxonName=Rollandia rolland,^ot:originalLabel=Rollandia_rolland_morrisoni_ZUMC050178,^clo:ClementsTaxonName2019=Rollandia rolland,^clo:speciescode2019=whtgre3],otu14:0.3[&otu=otu14,^ot:ottId=547308,^ot:ottTaxonName=Rollandia rolland,^ot:originalLabel=Rollandia_rolland_chilensis_YPM101152,^clo:ClementsTaxonName2019=Rollandia rolland,^clo:speciescode2019=whtgre3])node28:7.49)node2:1.12,(otu16:3.38[&otu=otu16,^ot:ottId=726164,^ot:ottTaxonName=Podiceps auritus,^ot:originalLabel=Podiceps_auritus_USNMB13508,^clo:ClementsTaxonName2019=Podiceps auritus,^clo:speciescode2019=horgre],otu17:3.38[&otu=otu17,^ot:ottId=740071,^ot:ottTaxonName=Podiceps grisegena,^ot:originalLabel=Podiceps_grisegena_ANSP22181,^clo:ClementsTaxonName2019=Podiceps grisegena,^clo:speciescode2019=rengre])node31:5.53)node1;
+END;
+

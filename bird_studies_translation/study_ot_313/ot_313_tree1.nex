@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu3
+        otu4
+        otu5
+        otu2
+        Platycercus_elegans
+        otu1
+        otu7
+        Platycercus_eximius
+        Platycercus_adscitus
+        otu10
+        otu11
+        otu12
+        otu13
+        Platycercus_venustus
+        Platycercus_icterotis
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3a - *BEAST w subspecies, all loci' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((((otu9:0.113095[&otu=otu9,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_eximius_eximius,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu10:0.113095[&otu=otu10,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_eximius_diemenensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node19:0.361895,((otu5:0.104051[&otu=otu5,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_adscitus_palliceps,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu6:0.104051[&otu=otu6,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_adscitus_adscitus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node13:0.198573,(otu7:0.133037[&otu=otu7,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_venustus_venustus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu8:0.133037[&otu=otu8,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_venustus_hillii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node16:0.169587)node12:0.172366)node11:0.914951,otu11:1.389941[&otu=otu11,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_icterotis_icterotis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node10:0.314891,(otu1:0.734072[&otu=otu1,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_elegans_nigrescens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu2:0.417021[&otu=otu2,^ot:ottId=638633,^ot:ottTaxonName=Platycercus caledonicus,^ot:originalLabel=Platycercus_caledonicus,^clo:ClementsTaxonName2019=Platycercus caledonicus,^clo:speciescode2019=greros2],(otu4:0.154774[&otu=otu4,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_elegans_flaveolus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu3:0.154774[&otu=otu3,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Platycercus_elegans_elegans,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node7:0.262248)node5:0.317051)node3:0.97076)node2:3.083691,(otu12:3.575774[&otu=otu12,^ot:ottId=57350,^ot:ottTaxonName=Barnardius zonarius,^ot:originalLabel=Barnardius_zonarius,^clo:ClementsTaxonName2019=Barnardius zonarius,^clo:speciescode2019=polpar1],otu13:3.575774[&otu=otu13,^ot:ottId=14155,^ot:ottTaxonName=Psephotus varius,^ot:originalLabel=Psephotus_varius,^clo:ClementsTaxonName2019=Psephotus varius,^clo:speciescode2019=mulpar1])node23:1.212749)node1;
+END;
+

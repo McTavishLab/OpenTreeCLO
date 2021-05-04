@@ -1,0 +1,46 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=34;
+    TAXLABELS
+        otu427129
+        otu427128
+        otu427127
+        otu427126
+        otu427149
+        otu427148
+        otu427141
+        otu427140
+        otu427143
+        otu427142
+        otu427145
+        otu427144
+        otu427147
+        otu427146
+        otu427138
+        otu427139
+        otu427134
+        otu427135
+        otu427136
+        otu427137
+        otu427130
+        otu427131
+        otu427132
+        otu427133
+        otu427158
+        otu427159
+        otu427152
+        otu427153
+        otu427150
+        otu427151
+        otu427156
+        otu427157
+        otu427154
+        otu427155
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=839319,nearestTaxonMRCAName=Fringillidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](((otu427158[&otu=otu427158,^ot:ottId=664801,^ot:ottTaxonName=Carpodacus cassinii,^ot:originalLabel=Carpodacus_cassinii,^clo:ClementsTaxonName2019=Haemorhous cassinii,^clo:speciescode2019=casfin],((otu427155[&otu=otu427155,^ot:ottId=235457,^ot:ottTaxonName=Leucosticte nemoricola,^ot:originalLabel=Leucosticte_nemoricola,^clo:ClementsTaxonName2019=Leucosticte nemoricola,^clo:speciescode2019=plmfin1],otu427156[&otu=otu427156,^ot:ottId=815420,^ot:ottTaxonName=Carpodacus nipalensis,^ot:originalLabel=Carpodacus_nipalensis,^clo:ClementsTaxonName2019=Procarduelis nipalensis,^clo:speciescode2019=dabros1])node1162196,otu427157[&otu=otu427157,^ot:ottId=341471,^ot:ottTaxonName=Pinicola enucleator,^ot:originalLabel=Pinicola_enucleator,^clo:ClementsTaxonName2019=Pinicola enucleator,^clo:speciescode2019=pingro])node1162195)node1162194,(((otu427151[&otu=otu427151,^ot:ottId=242220,^ot:ottTaxonName=Chaunoproctus ferreorostris,^ot:originalLabel=Chaunoproctus_ferreorostris,^clo:ClementsTaxonName2019=Carpodacus ferreorostris,^clo:speciescode2019=bongro1],(((otu427138[&otu=otu427138,^ot:ottId=873486,^ot:ottTaxonName=Carpodacus synoicus,^ot:originalLabel=Carpodacus_synoicus_synoicus,^clo:ClementsTaxonName2019=Carpodacus synoicus,^clo:speciescode2019=sinros1],otu427137[&otu=otu427137,^ot:ottId=873486,^ot:ottTaxonName=Carpodacus synoicus,^ot:originalLabel=Carpodacus_synoicus,^clo:ClementsTaxonName2019=Carpodacus synoicus,^clo:speciescode2019=sinros1])node1162163,((otu427136[&otu=otu427136,^ot:ottId=405224,^ot:ottTaxonName=Kozlowia roborowskii,^ot:originalLabel=Kozlowia_roborowskii,^clo:ClementsTaxonName2019=Carpodacus roborowskii,^clo:speciescode2019=tibros1],((otu427134[&otu=otu427134,^ot:ottId=3597380,^ot:ottTaxonName=Carpodacus severtzovi,^ot:originalLabel=Carpodacus_rubicilla_severtzovi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu427133[&otu=otu427133,^ot:ottId=235455,^ot:ottTaxonName=Carpodacus rubicilla,^ot:originalLabel=Carpodacus_rubicilla_rubicilla,^clo:ClementsTaxonName2019=Carpodacus rubicilla,^clo:speciescode2019=greros1])node1162158,otu427135[&otu=otu427135,^ot:ottId=815422,^ot:ottTaxonName=Carpodacus rubicilloides,^ot:originalLabel=Carpodacus_rubicilloides,^clo:ClementsTaxonName2019=Carpodacus rubicilloides,^clo:speciescode2019=strros1])node1162157)node1162156,(((((otu427127[&otu=otu427127,^ot:ottId=157599,^ot:ottTaxonName=Carpodacus thura,^ot:originalLabel=Carpodacus_thura_thura,^clo:ClementsTaxonName2019=Carpodacus thura,^clo:speciescode2019=whbros1],otu427126[&otu=otu427126,^ot:ottId=3597376,^ot:ottTaxonName=Carpodacus dubius,^ot:originalLabel=Carpodacus_thura_dubius,^clo:ClementsTaxonName2019=Carpodacus dubius,^clo:speciescode2019=cwbros1])node1162147,otu427128[&otu=otu427128,^ot:ottId=815421,^ot:ottTaxonName=Carpodacus trifasciatus,^ot:originalLabel=Carpodacus_trifasciatus,^clo:ClementsTaxonName2019=Carpodacus trifasciatus,^clo:speciescode2019=thbros1])node1162146,otu427129[&otu=otu427129,^ot:ottId=815419,^ot:ottTaxonName=Carpodacus roseus,^ot:originalLabel=Carpodacus_roseus,^clo:ClementsTaxonName2019=Carpodacus roseus,^clo:speciescode2019=palros2])node1162145,(otu427130[&otu=otu427130,^ot:ottId=473007,^ot:ottTaxonName=Carpodacus puniceus,^ot:originalLabel=Carpodacus_puniceus,^clo:ClementsTaxonName2019=Carpodacus puniceus,^clo:speciescode2019=refros1],otu427131[&otu=otu427131,^ot:ottId=1031951,^ot:ottTaxonName=Pinicola subhimachala,^ot:originalLabel=Pinicola_subhimachala,^clo:ClementsTaxonName2019=Carpodacus subhimachalus,^clo:speciescode2019=crbfin3])node1162152)node1162144,otu427132[&otu=otu427132,^ot:ottId=253382,^ot:ottTaxonName=Uragus sibiricus,^ot:originalLabel=Uragus_sibiricus,^clo:ClementsTaxonName2019=Carpodacus sibiricus,^clo:speciescode2019=lotros1])node1162143)node1162142)node1162141,((((otu427145[&otu=otu427145,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Carpodacus_pulcherrimus_waltoni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu427146[&otu=otu427146,^ot:ottId=3597373,^ot:ottTaxonName=Carpodacus eos,^ot:originalLabel=Carpodacus_eos,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1162180,(otu427148[&otu=otu427148,^ot:ottId=563259,^ot:ottTaxonName=Carpodacus pulcherrimus,^ot:originalLabel=Carpodacus_pulcherrimus_pulcherrimus,^clo:ClementsTaxonName2019=Carpodacus pulcherrimus,^clo:speciescode2019=bearos1],otu427147[&otu=otu427147,^ot:ottId=3597375,^ot:ottTaxonName=Carpodacus davidianus,^ot:originalLabel=Carpodacus_pulcherrimus_davidianus,^clo:ClementsTaxonName2019=Carpodacus davidianus,^clo:speciescode2019=chbros1])node1162183)node1162179,(otu427144[&otu=otu427144,^ot:ottId=473006,^ot:ottTaxonName=Carpodacus edwardsii,^ot:originalLabel=Carpodacus_edwardsii,^clo:ClementsTaxonName2019=Carpodacus edwardsii,^clo:speciescode2019=darros1],(((otu427139[&otu=otu427139,^ot:ottId=977524,^ot:ottTaxonName=Carpodacus formosanus,^ot:originalLabel=Carpodacus_vinaceus_formosanus,^clo:ClementsTaxonName2019=Carpodacus formosanus,^clo:speciescode2019=vinros3],otu427140[&otu=otu427140,^ot:ottId=977522,^ot:ottTaxonName=Carpodacus vinaceus vinaceus,^ot:originalLabel=Carpodacus_vinaceus_vinaceus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1162171,otu427141[&otu=otu427141,^ot:ottId=277039,^ot:ottTaxonName=Carpodacus rodopeplus,^ot:originalLabel=Carpodacus_rodopeplus_rodopeplus,^clo:ClementsTaxonName2019=Carpodacus rodopeplus,^clo:speciescode2019=spwros2])node1162170,(otu427142[&otu=otu427142,^ot:ottId=3597378,^ot:ottTaxonName=Carpodacus verreauxii,^ot:originalLabel=Carpodacus_rodopeplus_verreauxii,^clo:ClementsTaxonName2019=Carpodacus verreauxii,^clo:speciescode2019=spwros3],otu427143[&otu=otu427143,^ot:ottId=747629,^ot:ottTaxonName=Carpodacus rodochroa,^ot:originalLabel=Carpodacus_rodochroa,^clo:ClementsTaxonName2019=Carpodacus rodochroa,^clo:speciescode2019=pibros2])node1162175)node1162169)node1162168)node1162167,(otu427150[&otu=otu427150,^ot:ottId=405217,^ot:ottTaxonName=Carpodacus rhodochlamys,^ot:originalLabel=Carpodacus_rhodochlamys,^clo:ClementsTaxonName2019=Carpodacus rhodochlamys,^clo:speciescode2019=remros1],otu427149[&otu=otu427149,^ot:ottId=3597377,^ot:ottTaxonName=Carpodacus grandis,^ot:originalLabel=Carpodacus_grandis,^clo:ClementsTaxonName2019=Carpodacus grandis,^clo:speciescode2019=blyros1])node1162186)node1162166)node1162140)node1162139,(otu427153[&otu=otu427153,^ot:ottId=815418,^ot:ottTaxonName=Carpodacus erythrinus,^ot:originalLabel=Carpodacus_erythrinus,^clo:ClementsTaxonName2019=Carpodacus erythrinus,^clo:speciescode2019=comros],otu427152[&otu=otu427152,^ot:ottId=341467,^ot:ottTaxonName=Haematospiza sipahi,^ot:originalLabel=Haematospiza_sipahi,^clo:ClementsTaxonName2019=Carpodacus sipahi,^clo:speciescode2019=scafin1])node1162190)node1162138,otu427154[&otu=otu427154,^ot:ottId=157610,^ot:ottTaxonName=Hemignathus virens,^ot:originalLabel=Hemignathus_virens,^clo:ClementsTaxonName2019=Chlorodrepanis virens,^clo:speciescode2019=hawama])node1162137)node1162136,otu427159[&otu=otu427159,^ot:ottId=828694,^ot:ottTaxonName=Fringilla coelebs,^ot:originalLabel=Fringilla_coelebs,^clo:ClementsTaxonName2019=Fringilla coelebs,^clo:speciescode2019=comcha])node1162135;
+END;
+

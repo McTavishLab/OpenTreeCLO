@@ -1,0 +1,88 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=76;
+    TAXLABELS
+        Tl862008
+        Tl862038
+        Tl862020
+        Tl862021
+        Tl862031
+        Tl862030
+        Tl862033
+        Tl862014
+        Tl862035
+        Tl862034
+        Tl862025
+        Tl862036
+        Tl861988
+        Tl861989
+        Tl862011
+        Tl862010
+        Tl862017
+        Tl862016
+        Tl862015
+        Tl862009
+        Tl861980
+        Tl861981
+        Tl861982
+        Tl861983
+        Tl861984
+        Tl861985
+        Tl861986
+        Tl861987
+        Tl862042
+        Tl862018
+        Tl862027
+        Tl861975
+        Tl861974
+        Tl861977
+        Tl861976
+        Tl862026
+        Tl862028
+        Tl861973
+        Tl861972
+        Tl862029
+        Tl861979
+        Tl861978
+        Tl862032
+        Tl862044
+        Tl862045
+        Tl862046
+        Tl862047
+        Tl862040
+        Tl862041
+        Tl862019
+        Tl862043
+        Tl862000
+        Tl862001
+        Tl861999
+        Tl861998
+        Tl862004
+        Tl862005
+        Tl862006
+        Tl862007
+        Tl861993
+        Tl861992
+        Tl861991
+        Tl861990
+        Tl861997
+        Tl861996
+        Tl861995
+        Tl861994
+        Tl862013
+        Tl862039
+        Tl862012
+        Tl862002
+        Tl862024
+        Tl862003
+        Tl862022
+        Tl862037
+        Tl862023
+  ;
+END;
+
+BEGIN TREES;
+    TREE Figure_6 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](Tl862020[&otu=Tl862020,^ot:ottId=4127030,^ot:ottTaxonName=Allosaurus fragilis,^ot:originalLabel=Allosaurus_fragilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862013[&otu=Tl862013,^ot:ottId=4129436,^ot:ottTaxonName=Sinraptor dongi,^ot:originalLabel=Sinraptor_dongi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((Tl862011[&otu=Tl862011,^ot:ottId=4126509,^ot:ottTaxonName=Huaxiagnathus orientalis,^ot:originalLabel=Huaxiagnathus_orientalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862025[&otu=Tl862025,^ot:ottId=4126505,^ot:ottTaxonName=Sinosauropteryx prima,^ot:originalLabel=Sinosauropteryx_prima,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861982[&otu=Tl861982,^ot:ottId=4126507,^ot:ottTaxonName=Compsognathus longipes,^ot:originalLabel=Compsognathus_longipes,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171402,(Tl862015[&otu=Tl862015,^ot:ottId=3595537,^ot:ottTaxonName=Dilong paradoxus,^ot:originalLabel=Dilong_paradoxus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862010[&otu=Tl862010,^ot:ottId=3595538,^ot:ottTaxonName=Gorgosaurus libratus,^ot:originalLabel=Gorgosaurus_libratus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862045[&otu=Tl862045,^ot:ottId=664349,^ot:ottTaxonName=Tyrannosaurus rex,^ot:originalLabel=Tyrannosaurus_rex,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171382)Tn9171417)Tn9171337,((Tl862031[&otu=Tl862031,^ot:ottId=4129653,^ot:ottTaxonName=Ornitholestes hermanni,^ot:originalLabel=Ornitholestes_hermanni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((Tl862023[&otu=Tl862023,^ot:ottId=4128315,^ot:ottTaxonName=Falcarius utahensis,^ot:originalLabel=Falcarius_utahensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl861985[&otu=Tl861985,^ot:ottId=4126197,^ot:ottTaxonName=Beipiaosaurus inexpectus,^ot:originalLabel=Beipiaosaurus_inexpectus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl862019[&otu=Tl862019,^ot:ottId=4128313,^ot:ottTaxonName=Therizinosaurus cheloniformis,^ot:originalLabel=Therizinosaurus_cheloniformis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861974[&otu=Tl861974,^ot:ottId=4128326,^ot:ottTaxonName=Nanshiungosaurus bohlini,^ot:originalLabel=Nanshiungosaurus_bohlini,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862001[&otu=Tl862001,^ot:ottId=4128321,^ot:ottTaxonName=Erliansaurus bellamanus,^ot:originalLabel=Erliansaurus_bellamanus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861996[&otu=Tl861996,^ot:ottId=4128327,^ot:ottTaxonName=Nanshiungosaurus brevispinus,^ot:originalLabel=Nanshiungosaurus_brevispinus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861976[&otu=Tl861976,^ot:ottId=4128377,^ot:ottTaxonName=Erlikosaurus andrewsi,^ot:originalLabel=Erlikosaurus_andrewsi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861983[&otu=Tl861983,^ot:ottId=4129493,^ot:ottTaxonName=Enigmosaurus mongoliensis,^ot:originalLabel=Enigmosaurus_mongoliensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862035[&otu=Tl862035,^ot:ottId=4128317,^ot:ottTaxonName=Neimongosaurus yangi,^ot:originalLabel=Neimongosaurus_yangi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861980[&otu=Tl861980,^ot:ottId=4128323,^ot:ottTaxonName=Nothronychus mckinleyi,^ot:originalLabel=Nothronychus_mckinleyi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861991[&otu=Tl861991,^ot:ottId=4128324,^ot:ottTaxonName=Nothronychus graffami,^ot:originalLabel=Nothronychus_graffami,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861995[&otu=Tl861995,^ot:ottId=4128379,^ot:ottTaxonName=Segnosaurus galbinensis,^ot:originalLabel=Segnosaurus_galbinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861973[&otu=Tl861973,^ot:ottId=4144730,^ot:ottTaxonName=Suzhousaurus megatherioides,^ot:originalLabel=Suzhousaurus_megatherioides,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171371,Tl861977[&otu=Tl861977,^ot:ottId=4127541,^ot:ottTaxonName=Alxasaurus elesitaiensis,^ot:originalLabel=Alxasaurus_elesitaiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171336)Tn9171413)Tn9171374,((((Tl862041[&otu=Tl862041,^ot:ottId=3604082,^ot:ottTaxonName=Archaeopteryx lithographica,^ot:originalLabel=Archaeopteryx_lithographica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((Tl862028[&otu=Tl862028,^ot:ottId=3605177,^ot:ottTaxonName=Yanornis martini,^ot:originalLabel=Yanornis_martini,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862033[&otu=Tl862033,^ot:ottId=4132146,^ot:ottTaxonName=Confuciusornis sanctus,^ot:originalLabel=Confuciusornis_sanctus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171458,Tl862012[&otu=Tl862012,^ot:ottId=3605183,^ot:ottTaxonName=Jeholornis prima,^ot:originalLabel=Jeholornis_prima,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn9171369)Tn9171376,(((Tl862027[&otu=Tl862027,^ot:ottId=4947122,^ot:ottTaxonName=Byronosaurus jaffei,^ot:originalLabel=Byronosaurus_jaffei,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl862018[&otu=Tl862018,^ot:ottId=4947127,^ot:ottTaxonName=Troodon,^ot:originalLabel=Troodon_formosus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862026[&otu=Tl862026,^ot:ottId=4947120,^ot:ottTaxonName=Saurornithoides mongoliensis,^ot:originalLabel=Saurornithoides_mongoliensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862002[&otu=Tl862002,^ot:ottId=4947118,^ot:ottTaxonName=Saurornithoides,^ot:originalLabel=Saurornithoides_junior,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171358)Tn9171338,Tl861989[&otu=Tl861989,^ot:ottId=4947124,^ot:ottTaxonName=Sinornithoides youngi,^ot:originalLabel=Sinornithoides_youngi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171353,Tl862005[&otu=Tl862005,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=EK_troodontid,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171360,(Tl861972[&otu=Tl861972,^ot:ottId=4947126,^ot:ottTaxonName=Mei long,^ot:originalLabel=Mei_long,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862003[&otu=Tl862003,^ot:ottId=4128105,^ot:ottTaxonName=Sinovenator changii,^ot:originalLabel=Sinovenator_changii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171367)Tn9171446,((((Tl862030[&otu=Tl862030,^ot:ottId=4946064,^ot:ottTaxonName=Velociraptor mongoliensis,^ot:originalLabel=Velociraptor_mongoliensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862008[&otu=Tl862008,^ot:ottId=4946068,^ot:ottTaxonName=Deinonychus antirrhopus,^ot:originalLabel=Deinonychus_antirrhopus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl861990[&otu=Tl861990,^ot:ottId=4946104,^ot:ottTaxonName=Tsaagan mangas,^ot:originalLabel=Tsaagan_mangas,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862009[&otu=Tl862009,^ot:ottId=4946113,^ot:ottTaxonName=Utahraptor,^ot:originalLabel=Utahraptor_ostrommaysorum,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862040[&otu=Tl862040,^ot:ottId=4946056,^ot:ottTaxonName=Dromaeosaurus albertensis,^ot:originalLabel=Dromaeosaurus_albertensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861984[&otu=Tl861984,^ot:ottId=4946116,^ot:ottTaxonName=Achillobator giganticus,^ot:originalLabel=Achillobator_giganticus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171383)Tn9171423,(Tl862014[&otu=Tl862014,^ot:ottId=4946060,^ot:ottTaxonName=Adasaurus mongoliensis,^ot:originalLabel=Adasaurus_mongoliensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862024[&otu=Tl862024,^ot:ottId=4946086,^ot:ottTaxonName=Saurornitholestes langstoni,^ot:originalLabel=Saurornitholestes_langstoni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171405)Tn9171463)Tn9171378)Tn9171459,Tl862038[&otu=Tl862038,^ot:ottId=4946093,^ot:ottTaxonName=Microraptor zhaoianus,^ot:originalLabel=Microraptor_zhaoianus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862021[&otu=Tl862021,^ot:ottId=4946108,^ot:ottTaxonName=Shanag ashile,^ot:originalLabel=Shanag_ashile,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861979[&otu=Tl861979,^ot:ottId=4946084,^ot:ottTaxonName=Sinornithosaurus millenii,^ot:originalLabel=Sinornithosaurus_millenii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171384,(Tl862000[&otu=Tl862000,^ot:ottId=4946074,^ot:ottTaxonName=Buitreraptor,^ot:originalLabel=Buitreraptor_gonzalozorum,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl862036[&otu=Tl862036,^ot:ottId=4946118,^ot:ottTaxonName=Rahonavis ostromi,^ot:originalLabel=Rahonavis_ostromi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861993[&otu=Tl861993,^ot:ottId=4946082,^ot:ottTaxonName=Unenlagia comahuensis,^ot:originalLabel=Unenlagia_comahuensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171395)Tn9171412)Tn9171355,Tl862043[&otu=Tl862043,^ot:ottId=4946054,^ot:ottTaxonName=Mahakala omnogovae,^ot:originalLabel=Mahakala_omnogovae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171365)Tn9171450)Tn9171452,((Tl862022[&otu=Tl862022,^ot:ottId=4129552,^ot:ottTaxonName=Caudipteryx zoui,^ot:originalLabel=Caudipteryx_zoui,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl862046[&otu=Tl862046,^ot:ottId=4143388,^ot:ottTaxonName=Hagryphus giganteus,^ot:originalLabel=Hagryphus_giganteus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862047[&otu=Tl862047,^ot:ottId=4126524,^ot:ottTaxonName=Microvenator celer,^ot:originalLabel=Microvenator_celer,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862039[&otu=Tl862039,^ot:ottId=4126520,^ot:ottTaxonName=Chirostenotes pergracilis,^ot:originalLabel=Chirostenotes_pergracilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861981[&otu=Tl861981,^ot:ottId=4126482,^ot:ottTaxonName=Avimimus portentosus,^ot:originalLabel=Avimimus_portentosus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171439,(Tl861997[&otu=Tl861997,^ot:ottId=4946650,^ot:ottTaxonName=Oviraptor,^ot:originalLabel=Oviraptor_mongoliensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862006[&otu=Tl862006,^ot:ottId=4946651,^ot:ottTaxonName=Oviraptor philoceratops,^ot:originalLabel=Oviraptor_philoceratops,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862017[&otu=Tl862017,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Ingenia_yanshani,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl861986[&otu=Tl861986,^ot:ottId=4946655,^ot:ottTaxonName=Conchoraptor gracilis,^ot:originalLabel=Conchoraptor_gracilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861998[&otu=Tl861998,^ot:ottId=4946645,^ot:ottTaxonName=Citipati osmolskae,^ot:originalLabel=Citipati_osmolskae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171448)Tn9171342)Tn9171339)Tn9171430,(Tl862037[&otu=Tl862037,^ot:ottId=3605155,^ot:ottTaxonName=Protarchaeopteryx robusta,^ot:originalLabel=Protarchaeopteryx_robusta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl861975[&otu=Tl861975,^ot:ottId=6149182,^ot:ottTaxonName=Incisivosaurus gauthieri,^ot:originalLabel=Incisivosaurus_gauthieri,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171420)Tn9171361)Tn9171433,(((Tl862007[&otu=Tl862007,^ot:ottId=4946625,^ot:ottTaxonName=Shuvuuia deserti,^ot:originalLabel=Shuvuuia_deserti,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862034[&otu=Tl862034,^ot:ottId=4946636,^ot:ottTaxonName=Mononykus olecranus,^ot:originalLabel=Mononykus_olecranus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171352,Tl862042[&otu=Tl862042,^ot:ottId=4946632,^ot:ottTaxonName=Patagonykus puertai,^ot:originalLabel=Patagonykus_puertai,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171362,Tl862016[&otu=Tl862016,^ot:ottId=4946627,^ot:ottTaxonName=Alvarezsaurus calvoi,^ot:originalLabel=Alvarezsaurus_calvoi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171381)Tn9171354)Tn9171348,Tl861999[&otu=Tl861999,^ot:ottId=4129654,^ot:ottTaxonName=Coelurus,^ot:originalLabel=Coelurus_fragilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171386)Tn9171440,(Tl861994[&otu=Tl861994,^ot:ottId=4127289,^ot:ottTaxonName=Pelecanimimus,^ot:originalLabel=Pelecanimimus_polydon,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl861988[&otu=Tl861988,^ot:ottId=4127226,^ot:ottTaxonName=Shenzhousaurus orientalis,^ot:originalLabel=Shenzhousaurus_orientalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl861987[&otu=Tl861987,^ot:ottId=4127015,^ot:ottTaxonName=Harpymimus okladnikovi,^ot:originalLabel=Harpymimus_okladnikovi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl862029[&otu=Tl862029,^ot:ottId=4127019,^ot:ottTaxonName=Garudimimus brevipes,^ot:originalLabel=Garudimimus_brevipes,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((Tl862044[&otu=Tl862044,^ot:ottId=4129020,^ot:ottTaxonName=Anserimimus planinychus,^ot:originalLabel=Anserimimus_planinychus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl862032[&otu=Tl862032,^ot:ottId=4129013,^ot:ottTaxonName=Ornithomimus,^ot:originalLabel=Ornithomimus_edmonticus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171421,Tl862004[&otu=Tl862004,^ot:ottId=4129025,^ot:ottTaxonName=Struthiomimus altus,^ot:originalLabel=Struthiomimus_altus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171442,Tl861992[&otu=Tl861992,^ot:ottId=4129012,^ot:ottTaxonName=Gallimimus bullatus,^ot:originalLabel=Gallimimus_bullatus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171333)Tn9171398,Tl861978[&otu=Tl861978,^ot:ottId=4129028,^ot:ottTaxonName=Archaeornithomimus asiaticus,^ot:originalLabel=Archaeornithomimus_asiaticus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9171455)Tn9171443)Tn9171394)Tn9171334)Tn9171431)Tn9171387)Tn9171418)Tn9171379;
+END;
+

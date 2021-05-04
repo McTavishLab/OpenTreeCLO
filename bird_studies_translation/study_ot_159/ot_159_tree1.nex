@@ -1,0 +1,62 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=50;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=](((otu47[&otu=otu47,^ot:ottId=467846,^ot:ottTaxonName=Jynx torquilla,^ot:originalLabel=Jynx_torquilla,^clo:ClementsTaxonName2019=Jynx torquilla,^clo:speciescode2019=eurwry],(((otu42[&otu=otu42,^ot:ottId=802075,^ot:ottTaxonName=Picumnus innominatus,^ot:originalLabel=Picumnus_innominatus,^clo:ClementsTaxonName2019=Picumnus innominatus,^clo:speciescode2019=spepic1],(otu41[&otu=otu41,^ot:ottId=130075,^ot:ottTaxonName=Picumnus nebulosus,^ot:originalLabel=Picumnus_nebulosus,^clo:ClementsTaxonName2019=Picumnus nebulosus,^clo:speciescode2019=motpic1],((otu37[&otu=otu37,^ot:ottId=130072,^ot:ottTaxonName=Picumnus exilis,^ot:originalLabel=Picumnus_exilis,^clo:ClementsTaxonName2019=Picumnus exilis,^clo:speciescode2019=gospic1],otu38[&otu=otu38,^ot:ottId=706454,^ot:ottTaxonName=Picumnus aurifrons,^ot:originalLabel=Picumnus_aurifrons,^clo:ClementsTaxonName2019=Picumnus aurifrons,^clo:speciescode2019=babpic1])node79,(otu40[&otu=otu40,^ot:ottId=130074,^ot:ottTaxonName=Picumnus spilogaster,^ot:originalLabel=Picumnus_spilogaster,^clo:ClementsTaxonName2019=Picumnus spilogaster,^clo:speciescode2019=whbpic2],otu39[&otu=otu39,^ot:ottId=839547,^ot:ottTaxonName=Picumnus cirratus,^ot:originalLabel=Picumnus_cirratus,^clo:ClementsTaxonName2019=Picumnus cirratus,^clo:speciescode2019=whbpic1])node82)node78)node77)node76,(otu46[&otu=otu46,^ot:ottId=155286,^ot:ottTaxonName=Sasia africana,^ot:originalLabel=Sasia_africana,^clo:ClementsTaxonName2019=Verreauxia africana,^clo:speciescode2019=afrpic1],((otu43[&otu=otu43,^ot:ottId=678453,^ot:ottTaxonName=Sasia ochracea,^ot:originalLabel=Sasia_ochracea_1,^clo:ClementsTaxonName2019=Sasia ochracea,^clo:speciescode2019=whbpic3],otu44[&otu=otu44,^ot:ottId=678453,^ot:ottTaxonName=Sasia ochracea,^ot:originalLabel=Sasia_ochracea_2,^clo:ClementsTaxonName2019=Sasia ochracea,^clo:speciescode2019=whbpic3])node89,otu45[&otu=otu45,^ot:ottId=149822,^ot:ottTaxonName=Sasia abnormis,^ot:originalLabel=Sasia_abnormis,^clo:ClementsTaxonName2019=Sasia abnormis,^clo:speciescode2019=rufpic1])node88)node87)node75,(otu36[&otu=otu36,^ot:ottId=130077,^ot:ottTaxonName=Nesoctites micromegas,^ot:originalLabel=Nesoctites_micromegas,^clo:ClementsTaxonName2019=Nesoctites micromegas,^clo:speciescode2019=antpic1],(((otu35[&otu=otu35,^ot:ottId=704540,^ot:ottTaxonName=Dendropicos goertae,^ot:originalLabel=Dendropicos_goertae,^clo:ClementsTaxonName2019=Chloropicus goertae,^clo:speciescode2019=grywoo1],((otu31[&otu=otu31,^ot:ottId=876870,^ot:ottTaxonName=Veniliornis kirkii,^ot:originalLabel=Veniliornis_kirkii,^clo:ClementsTaxonName2019=Dryobates kirkii,^clo:speciescode2019=rerwoo1],otu30[&otu=otu30,^ot:ottId=876880,^ot:ottTaxonName=Veniliornis fumigatus,^ot:originalLabel=Veniliornis_fumigatus,^clo:ClementsTaxonName2019=Dryobates fumigatus,^clo:speciescode2019=smbwoo1])node66,otu32[&otu=otu32,^ot:ottId=873958,^ot:ottTaxonName=Picoides pubescens,^ot:originalLabel=Picoides_pubescens,^clo:ClementsTaxonName2019=Dryobates pubescens,^clo:speciescode2019=dowwoo])node65,(otu33[&otu=otu33,^ot:ottId=704539,^ot:ottTaxonName=Dendrocopos hyperythrus,^ot:originalLabel=Dendrocopos_hyperythrus,^clo:ClementsTaxonName2019=Dendrocopos hyperythrus,^clo:speciescode2019=rubwoo1],otu34[&otu=otu34,^ot:ottId=348848,^ot:ottTaxonName=Dendrocopos major,^ot:originalLabel=Dendrocopos_major,^clo:ClementsTaxonName2019=Dendrocopos major,^clo:speciescode2019=grswoo])node70)node64,(otu29[&otu=otu29,^ot:ottId=90562,^ot:ottTaxonName=Sphyrapicus nuchalis,^ot:originalLabel=Sphyrapicus_nuchalis,^clo:ClementsTaxonName2019=Sphyrapicus nuchalis,^clo:speciescode2019=rensap],(otu28[&otu=otu28,^ot:ottId=425443,^ot:ottTaxonName=Melanerpes aurifrons,^ot:originalLabel=Melanerpes_aurifrons,^clo:ClementsTaxonName2019=Melanerpes aurifrons,^clo:speciescode2019=gofwoo],otu27[&otu=otu27,^ot:ottId=122919,^ot:ottTaxonName=Melanerpes striatus,^ot:originalLabel=Melanerpes_striatus,^clo:ClementsTaxonName2019=Melanerpes striatus,^clo:speciescode2019=hiswoo1])node60)node59)node58,((((otu21[&otu=otu21,^ot:ottId=1025755,^ot:ottTaxonName=Reinwardtipicus validus,^ot:originalLabel=Reinwardtipicus_validus,^clo:ClementsTaxonName2019=Reinwardtipicus validus,^clo:speciescode2019=orbwoo1],otu22[&otu=otu22,^ot:ottId=724186,^ot:ottTaxonName=Chrysocolaptes lucidus,^ot:originalLabel=Chrysocolaptes_lucidus,^clo:ClementsTaxonName2019=Chrysocolaptes lucidus,^clo:speciescode2019=busfla1])node49,(otu23[&otu=otu23,^ot:ottId=704536,^ot:ottTaxonName=Campephilus rubricollis,^ot:originalLabel=Campephilus_rubricollis,^clo:ClementsTaxonName2019=Campephilus rubricollis,^clo:speciescode2019=renwoo1],otu24[&otu=otu24,^ot:ottId=704538,^ot:ottTaxonName=Campephilus guatemalensis,^ot:originalLabel=Campephilus_guatemalensis,^clo:ClementsTaxonName2019=Campephilus guatemalensis,^clo:speciescode2019=pabwoo1])node52)node48,(otu26[&otu=otu26,^ot:ottId=77828,^ot:ottTaxonName=Blythipicus rubiginosus,^ot:originalLabel=Blythipicus_rubiginosus,^clo:ClementsTaxonName2019=Blythipicus rubiginosus,^clo:speciescode2019=marwoo1],otu25[&otu=otu25,^ot:ottId=534436,^ot:ottTaxonName=Blythipicus pyrrhotis,^ot:originalLabel=Blythipicus_pyrrhotis,^clo:ClementsTaxonName2019=Blythipicus pyrrhotis,^clo:speciescode2019=baywoo1])node55)node47,(((((((((otu5[&otu=otu5,^ot:ottId=923815,^ot:ottTaxonName=Colaptes punctigula,^ot:originalLabel=Colaptes_punctigula,^clo:ClementsTaxonName2019=Colaptes punctigula,^clo:speciescode2019=spbwoo1],otu6[&otu=otu6,^ot:ottId=3600178,^ot:ottTaxonName=Colaptes rubiginosus,^ot:originalLabel=Piculus_rubiginosus,^clo:ClementsTaxonName2019=Colaptes rubiginosus,^clo:speciescode2019=goowoo1])node23,otu7[&otu=otu7,^ot:ottId=499950,^ot:ottTaxonName=Colaptes melanochloros,^ot:originalLabel=Colaptes_melanochloros,^clo:ClementsTaxonName2019=Colaptes melanochloros,^clo:speciescode2019=grbwoo3])node22,otu8[&otu=otu8,^ot:ottId=733990,^ot:ottTaxonName=Colaptes auratus,^ot:originalLabel=Colaptes_auratus,^clo:ClementsTaxonName2019=Colaptes auratus,^clo:speciescode2019=norfli])node21,otu9[&otu=otu9,^ot:ottId=149826,^ot:ottTaxonName=Piculus chrysochloros,^ot:originalLabel=Piculus_chrysochloros,^clo:ClementsTaxonName2019=Piculus chrysochloros,^clo:speciescode2019=gogwoo1])node20,(otu10[&otu=otu10,^ot:ottId=704541,^ot:ottTaxonName=Celeus loricatus,^ot:originalLabel=Celeus_loricatus,^clo:ClementsTaxonName2019=Celeus loricatus,^clo:speciescode2019=cinwoo1],otu11[&otu=otu11,^ot:ottId=704537,^ot:ottTaxonName=Celeus flavescens,^ot:originalLabel=Celeus_flavescens,^clo:ClementsTaxonName2019=Celeus flavescens,^clo:speciescode2019=blcwoo4])node29)node19,(((otu1[&otu=otu1,^ot:ottId=290738,^ot:ottTaxonName=Dryocopus lineatus,^ot:originalLabel=Dryocopus_lineatus,^clo:ClementsTaxonName2019=Dryocopus lineatus,^clo:speciescode2019=linwoo1],otu2[&otu=otu2,^ot:ottId=733984,^ot:ottTaxonName=Dryocopus pileatus,^ot:originalLabel=Dryocopus_pileatus,^clo:ClementsTaxonName2019=Dryocopus pileatus,^clo:speciescode2019=pilwoo])node14,otu3[&otu=otu3,^ot:ottId=459335,^ot:ottTaxonName=Dryocopus martius,^ot:originalLabel=Dryocopus_martius,^clo:ClementsTaxonName2019=Dryocopus martius,^clo:speciescode2019=blawoo1])node13,otu4[&otu=otu4,^ot:ottId=149816,^ot:ottTaxonName=Mulleripicus funebris,^ot:originalLabel=Mulleripicus_funebris,^clo:ClementsTaxonName2019=Mulleripicus funebris,^clo:speciescode2019=soowoo1])node12)node11,(otu14[&otu=otu14,^ot:ottId=738744,^ot:ottTaxonName=Picus mentalis,^ot:originalLabel=Picus_mentalis,^clo:ClementsTaxonName2019=Chrysophlegma mentale,^clo:speciescode2019=chtwoo1],(otu13[&otu=otu13,^ot:ottId=1010553,^ot:ottTaxonName=Picus viridis,^ot:originalLabel=Picus_viridis,^clo:ClementsTaxonName2019=Picus viridis,^clo:speciescode2019=eugwoo2],otu12[&otu=otu12,^ot:ottId=226445,^ot:ottTaxonName=Picus canus,^ot:originalLabel=Picus_canus,^clo:ClementsTaxonName2019=Picus canus,^clo:speciescode2019=gyfwoo1])node33)node32)node10,((otu15[&otu=otu15,^ot:ottId=726782,^ot:ottTaxonName=Meiglyptes tristis,^ot:originalLabel=Meiglyptes_tristis,^clo:ClementsTaxonName2019=Meiglyptes tristis,^clo:speciescode2019=burwoo1],otu16[&otu=otu16,^ot:ottId=1076469,^ot:ottTaxonName=Celeus brachyurus,^ot:originalLabel=Celeus_brachyurus,^clo:ClementsTaxonName2019=Micropternus brachyurus,^clo:speciescode2019=rufwoo2])node38,otu17[&otu=otu17,^ot:ottId=704547,^ot:ottTaxonName=Dinopium shorii,^ot:originalLabel=Dinopium_shorii,^clo:ClementsTaxonName2019=Dinopium shorii,^clo:speciescode2019=himfla1])node37)node9,(otu20[&otu=otu20,^ot:ottId=724169,^ot:ottTaxonName=Geocolaptes olivaceus,^ot:originalLabel=Geocolaptes_olivaceus,^clo:ClementsTaxonName2019=Geocolaptes olivaceus,^clo:speciescode2019=growoo1],(otu19[&otu=otu19,^ot:ottId=724180,^ot:ottTaxonName=Campethera cailliautii,^ot:originalLabel=Campethera_cailliautii,^clo:ClementsTaxonName2019=Campethera cailliautii,^clo:speciescode2019=grbwoo2],otu18[&otu=otu18,^ot:ottId=755098,^ot:ottTaxonName=Campethera nivosa,^ot:originalLabel=Campethera_nivosa,^clo:ClementsTaxonName2019=Campethera nivosa,^clo:speciescode2019=buswoo1])node43)node42)node8)node7)node6)node5)node4)node3,otu48[&otu=otu48,^ot:ottId=130073,^ot:ottTaxonName=Indicator exilis,^ot:originalLabel=Indicator_exilis,^clo:ClementsTaxonName2019=Indicator exilis,^clo:speciescode2019=leahon2])node2,(otu49[&otu=otu49,^ot:ottId=130076,^ot:ottTaxonName=Pteroglossus bailloni,^ot:originalLabel=Pteroglossus_bailloni,^clo:ClementsTaxonName2019=Pteroglossus bailloni,^clo:speciescode2019=saftou2],otu50[&otu=otu50,^ot:ottId=738749,^ot:ottTaxonName=Megalaima franklinii,^ot:originalLabel=Megalaima_franklinii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node96)node1;
+END;
+

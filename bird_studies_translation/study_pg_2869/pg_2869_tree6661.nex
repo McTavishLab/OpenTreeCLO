@@ -1,0 +1,73 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=61;
+    TAXLABELS
+        otu426988
+        otu426978
+        otu426982
+        otu426968
+        otu426980
+        otu426981
+        otu426986
+        otu426987
+        otu426984
+        otu426963
+        otu426989
+        otu426973
+        otu426972
+        otu426971
+        otu426970
+        otu426959
+        otu426958
+        otu426975
+        otu426974
+        otu426955
+        otu426954
+        otu426957
+        otu426956
+        otu426951
+        otu426950
+        otu426953
+        otu426952
+        otu426983
+        otu426939
+        otu426999
+        otu426998
+        otu426969
+        otu426991
+        otu426990
+        otu426993
+        otu426992
+        otu426995
+        otu426994
+        otu426997
+        otu426996
+        otu426977
+        otu426985
+        otu426976
+        otu426964
+        otu426965
+        otu426966
+        otu426967
+        otu426960
+        otu426961
+        otu426948
+        otu426949
+        otu426946
+        otu426947
+        otu426944
+        otu426945
+        otu426942
+        otu426943
+        otu426940
+        otu426941
+        otu426962
+        otu426979
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,curatedType=Maximum parsimony ,nearestTaxonMRCAOttId=341907,nearestTaxonMRCAName=Bucerotiformes,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=]((otu426999[&otu=otu426999,^ot:ottId=814836,^ot:ottTaxonName=Bucorvus leadbeateri,^ot:originalLabel=Bucorvus_leadbeateri,^clo:ClementsTaxonName2019=Bucorvus leadbeateri,^clo:speciescode2019=soghor1],otu426998[&otu=otu426998,^ot:ottId=991309,^ot:ottTaxonName=Bucorvus abyssinicus,^ot:originalLabel=Bucorvus_abyssinicus,^clo:ClementsTaxonName2019=Bucorvus abyssinicus,^clo:speciescode2019=noghor1])node1161843,(((((otu426991[&otu=otu426991,^ot:ottId=3600750,^ot:ottTaxonName=Tockus bradfieldi,^ot:originalLabel=Tockus_bradfieldi,^clo:ClementsTaxonName2019=Lophoceros bradfieldi,^clo:speciescode2019=brahor1],otu426992[&otu=otu426992,^ot:ottId=836532,^ot:ottTaxonName=Tockus alboterminatus,^ot:originalLabel=Tockus_alboterminatus,^clo:ClementsTaxonName2019=Lophoceros alboterminatus,^clo:speciescode2019=crohor1])node1161832,otu426993[&otu=otu426993,^ot:ottId=383917,^ot:ottTaxonName=Tockus camurus,^ot:originalLabel=Tockus_camurus,^clo:ClementsTaxonName2019=Lophoceros camurus,^clo:speciescode2019=rbdhor1])node1161831,((otu426996[&otu=otu426996,^ot:ottId=873953,^ot:ottTaxonName=Tockus nasutus,^ot:originalLabel=Tockus_nasutus,^clo:ClementsTaxonName2019=Lophoceros nasutus,^clo:speciescode2019=afghor1],otu426997[&otu=otu426997,^ot:ottId=3600752,^ot:ottTaxonName=Tockus pallidirostris,^ot:originalLabel=Tockus_pallidirostris,^clo:ClementsTaxonName2019=Lophoceros pallidirostris,^clo:speciescode2019=pabhor1])node1161840,(otu426994[&otu=otu426994,^ot:ottId=211117,^ot:ottTaxonName=Tockus fasciatus,^ot:originalLabel=Tockus_fasciatus,^clo:ClementsTaxonName2019=Lophoceros fasciatus,^clo:speciescode2019=afphor1],otu426995[&otu=otu426995,^ot:ottId=3600748,^ot:ottTaxonName=Tockus hemprichii,^ot:originalLabel=Tockus_hemprichii,^clo:ClementsTaxonName2019=Lophoceros hemprichii,^clo:speciescode2019=hemhor1])node1161837)node1161836)node1161830,((((otu426985[&otu=otu426985,^ot:ottId=3600751,^ot:ottTaxonName=Tockus rufirostris,^ot:originalLabel=Tockus_rufirostris,^clo:ClementsTaxonName2019=Tockus rufirostris,^clo:speciescode2019=srbhor1],otu426984[&otu=otu426984,^ot:ottId=3600745,^ot:ottTaxonName=Tockus damarensis,^ot:originalLabel=Tockus_damarensis,^clo:ClementsTaxonName2019=Tockus damarensis,^clo:speciescode2019=drbhor1])node1161819,(otu426983[&otu=otu426983,^ot:ottId=3600747,^ot:ottTaxonName=Tockus ruahae,^ot:originalLabel=Tockus_ruahae,^clo:ClementsTaxonName2019=Tockus ruahae,^clo:speciescode2019=trbhor1],(otu426981[&otu=otu426981,^ot:ottId=1097401,^ot:ottTaxonName=Tockus erythrorhynchus,^ot:originalLabel=Tockus_erythrorhynchus,^clo:ClementsTaxonName2019=Tockus erythrorhynchus,^clo:speciescode2019=rebhor1],otu426982[&otu=otu426982,^ot:ottId=3600753,^ot:ottTaxonName=Tockus kempi,^ot:originalLabel=Tockus_kempi,^clo:ClementsTaxonName2019=Tockus kempi,^clo:speciescode2019=wrbhor2])node1161815)node1161814)node1161813,otu426986[&otu=otu426986,^ot:ottId=991307,^ot:ottTaxonName=Tockus monteiri,^ot:originalLabel=Tockus_monteiri,^clo:ClementsTaxonName2019=Tockus monteiri,^clo:speciescode2019=monhor1])node1161812,(otu426990[&otu=otu426990,^ot:ottId=817584,^ot:ottTaxonName=Tockus flavirostris,^ot:originalLabel=Tockus_flavirostris,^clo:ClementsTaxonName2019=Tockus flavirostris,^clo:speciescode2019=eybhor1],(otu426989[&otu=otu426989,^ot:ottId=991308,^ot:ottTaxonName=Tockus leucomelas,^ot:originalLabel=Tockus_leucomelas,^clo:ClementsTaxonName2019=Tockus leucomelas,^clo:speciescode2019=sybhor1],(otu426988[&otu=otu426988,^ot:ottId=3600746,^ot:ottTaxonName=Tockus jacksoni,^ot:originalLabel=Tockus_jacksoni,^clo:ClementsTaxonName2019=Tockus jacksoni,^clo:speciescode2019=jachor1],otu426987[&otu=otu426987,^ot:ottId=836533,^ot:ottTaxonName=Tockus deckeni,^ot:originalLabel=Tockus_deckeni,^clo:ClementsTaxonName2019=Tockus deckeni,^clo:speciescode2019=vddhor1])node1161825)node1161824)node1161823)node1161811)node1161810,((((otu426968[&otu=otu426968,^ot:ottId=595237,^ot:ottTaxonName=Buceros hydrocorax,^ot:originalLabel=Buceros_hydrocorax,^clo:ClementsTaxonName2019=Buceros hydrocorax,^clo:speciescode2019=rufhor1],(otu426967[&otu=otu426967,^ot:ottId=785181,^ot:ottTaxonName=Buceros bicornis,^ot:originalLabel=Buceros_bicornis,^clo:ClementsTaxonName2019=Buceros bicornis,^clo:speciescode2019=grehor1],otu426966[&otu=otu426966,^ot:ottId=785189,^ot:ottTaxonName=Buceros rhinoceros,^ot:originalLabel=Buceros_rhinoceros,^clo:ClementsTaxonName2019=Buceros rhinoceros,^clo:speciescode2019=rhihor1])node1161784)node1161783,otu426969[&otu=otu426969,^ot:ottId=248499,^ot:ottTaxonName=Rhinoplax vigil,^ot:originalLabel=Rhinoplax_vigil,^clo:ClementsTaxonName2019=Buceros vigil,^clo:speciescode2019=helhor1])node1161782,(((((otu426943[&otu=otu426943,^ot:ottId=3600755,^ot:ottTaxonName=Rhyticeros everetti,^ot:originalLabel=Rhyticeros_everetti,^clo:ClementsTaxonName2019=Rhyticeros everetti,^clo:speciescode2019=sumhor1],(otu426942[&otu=otu426942,^ot:ottId=823087,^ot:ottTaxonName=Rhyticeros undulatus,^ot:originalLabel=Rhyticeros_undulatus,^clo:ClementsTaxonName2019=Rhyticeros undulatus,^clo:speciescode2019=wrehor1],(otu426941[&otu=otu426941,^ot:ottId=530446,^ot:ottTaxonName=Rhyticeros subruficollis,^ot:originalLabel=Rhyticeros_subruficollis,^clo:ClementsTaxonName2019=Rhyticeros subruficollis,^clo:speciescode2019=plphor1],(otu426940[&otu=otu426940,^ot:ottId=3600756,^ot:ottTaxonName=Rhyticeros plicatus,^ot:originalLabel=Rhyticeros_plicatus,^clo:ClementsTaxonName2019=Rhyticeros plicatus,^clo:speciescode2019=blyhor1],otu426939[&otu=otu426939,^ot:ottId=3600754,^ot:ottTaxonName=Rhyticeros narcondami,^ot:originalLabel=Rhyticeros_narcondami,^clo:ClementsTaxonName2019=Rhyticeros narcondami,^clo:speciescode2019=narhor1])node1161736)node1161735)node1161734)node1161733,otu426944[&otu=otu426944,^ot:ottId=211113,^ot:ottTaxonName=Aceros cassidix,^ot:originalLabel=Aceros_cassidix,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1161732,((otu426949[&otu=otu426949,^ot:ottId=785187,^ot:ottTaxonName=Penelopides panini,^ot:originalLabel=Penelopides_panini,^clo:ClementsTaxonName2019=Penelopides panini,^clo:speciescode2019=tarhor1],((otu426945[&otu=otu426945,^ot:ottId=6910,^ot:ottTaxonName=Penelopides manillae,^ot:originalLabel=Penelopides_manillae,^clo:ClementsTaxonName2019=Penelopides manillae,^clo:speciescode2019=luzhor1],otu426946[&otu=otu426946,^ot:ottId=3600743,^ot:ottTaxonName=Penelopides mindorensis,^ot:originalLabel=Penelopides_mindorensis,^clo:ClementsTaxonName2019=Penelopides mindorensis,^clo:speciescode2019=minhor2])node1161746,(otu426948[&otu=otu426948,^ot:ottId=4130577,^ot:ottTaxonName=Penelopides samarensis,^ot:originalLabel=Penelopides_samarensis,^clo:ClementsTaxonName2019=Penelopides samarensis,^clo:speciescode2019=samhor1],otu426947[&otu=otu426947,^ot:ottId=6908,^ot:ottTaxonName=Penelopides affinis,^ot:originalLabel=Penelopides_affinis,^clo:ClementsTaxonName2019=Penelopides affinis,^clo:speciescode2019=minhor1])node1161749)node1161745)node1161744,((otu426950[&otu=otu426950,^ot:ottId=419772,^ot:ottTaxonName=Aceros waldeni,^ot:originalLabel=Aceros_waldeni,^clo:ClementsTaxonName2019=Rhabdotorrhinus waldeni,^clo:speciescode2019=wrbhor1],otu426951[&otu=otu426951,^ot:ottId=6906,^ot:ottTaxonName=Aceros leucocephalus,^ot:originalLabel=Aceros_leucocephalus,^clo:ClementsTaxonName2019=Rhabdotorrhinus leucocephalus,^clo:speciescode2019=wrihor2])node1161754,(otu426953[&otu=otu426953,^ot:ottId=3600744,^ot:ottTaxonName=Penelopides exarhatus,^ot:originalLabel=Penelopides_exarhatus,^clo:ClementsTaxonName2019=Rhabdotorrhinus exarhatus,^clo:speciescode2019=sulhor1],otu426952[&otu=otu426952,^ot:ottId=211109,^ot:ottTaxonName=Aceros corrugatus,^ot:originalLabel=Aceros_corrugatus,^clo:ClementsTaxonName2019=Rhabdotorrhinus corrugatus,^clo:speciescode2019=wrihor1])node1161757)node1161753)node1161743)node1161731,otu426954[&otu=otu426954,^ot:ottId=889017,^ot:ottTaxonName=Aceros nipalensis,^ot:originalLabel=Aceros_nipalensis,^clo:ClementsTaxonName2019=Aceros nipalensis,^clo:speciescode2019=runhor1])node1161730,((otu426965[&otu=otu426965,^ot:ottId=889000,^ot:ottTaxonName=Anorrhinus galeritus,^ot:originalLabel=Anorrhinus_galeritus,^clo:ClementsTaxonName2019=Anorrhinus galeritus,^clo:speciescode2019=buchor1],(otu426964[&otu=otu426964,^ot:ottId=888996,^ot:ottTaxonName=Anorrhinus austeni,^ot:originalLabel=Anorrhinus_austeni,^clo:ClementsTaxonName2019=Anorrhinus austeni,^clo:speciescode2019=brnhor1],otu426963[&otu=otu426963,^ot:ottId=889005,^ot:ottTaxonName=Anorrhinus tickelli,^ot:originalLabel=Anorrhinus_tickelli,^clo:ClementsTaxonName2019=Anorrhinus tickelli,^clo:speciescode2019=ruchor1])node1161778)node1161777,((otu426962[&otu=otu426962,^ot:ottId=3600757,^ot:ottTaxonName=Ocyceros birostris,^ot:originalLabel=Ocyceros_birostris,^clo:ClementsTaxonName2019=Ocyceros birostris,^clo:speciescode2019=inghor2],(otu426961[&otu=otu426961,^ot:ottId=248506,^ot:ottTaxonName=Ocyceros gingalensis,^ot:originalLabel=Ocyceros_gingalensis,^clo:ClementsTaxonName2019=Ocyceros gingalensis,^clo:speciescode2019=ceghor1],otu426960[&otu=otu426960,^ot:ottId=3600758,^ot:ottTaxonName=Ocyceros griseus,^ot:originalLabel=Ocyceros_griseus,^clo:ClementsTaxonName2019=Ocyceros griseus,^clo:speciescode2019=maghor2])node1161773)node1161772,((((otu426955[&otu=otu426955,^ot:ottId=3600759,^ot:ottTaxonName=Anthracoceros marchei,^ot:originalLabel=Anthracoceros_marchei,^clo:ClementsTaxonName2019=Anthracoceros marchei,^clo:speciescode2019=palhor1],otu426956[&otu=otu426956,^ot:ottId=291854,^ot:ottTaxonName=Anthracoceros albirostris,^ot:originalLabel=Anthracoceros_albirostris,^clo:ClementsTaxonName2019=Anthracoceros albirostris,^clo:speciescode2019=orphor1])node1161766,otu426957[&otu=otu426957,^ot:ottId=3600760,^ot:ottTaxonName=Anthracoceros coronatus,^ot:originalLabel=Anthracoceros_coronatus,^clo:ClementsTaxonName2019=Anthracoceros coronatus,^clo:speciescode2019=maphor1])node1161765,otu426958[&otu=otu426958,^ot:ottId=3600761,^ot:ottTaxonName=Anthracoceros montani,^ot:originalLabel=Anthracoceros_montani,^clo:ClementsTaxonName2019=Anthracoceros montani,^clo:speciescode2019=sulhor2])node1161764,otu426959[&otu=otu426959,^ot:ottId=836534,^ot:ottTaxonName=Anthracoceros malayanus,^ot:originalLabel=Anthracoceros_malayanus,^clo:ClementsTaxonName2019=Anthracoceros malayanus,^clo:speciescode2019=blahor1])node1161763)node1161762)node1161761)node1161729)node1161728,(((otu426978[&otu=otu426978,^ot:ottId=3600749,^ot:ottTaxonName=Tockus hartlaubi,^ot:originalLabel=Tockus_hartlaubi,^clo:ClementsTaxonName2019=Horizocerus hartlaubi,^clo:speciescode2019=bldhor1],otu426979[&otu=otu426979,^ot:ottId=248494,^ot:ottTaxonName=Tropicranus albocristatus,^ot:originalLabel=Tropicranus_albocristatus,^clo:ClementsTaxonName2019=Horizocerus albocristatus,^clo:speciescode2019=whchor3])node1161806,otu426980[&otu=otu426980,^ot:ottId=159830,^ot:ottTaxonName=Berenicornis comatus,^ot:originalLabel=Berenicornis_comatus,^clo:ClementsTaxonName2019=Berenicornis comatus,^clo:speciescode2019=whchor2])node1161805,((otu426975[&otu=otu426975,^ot:ottId=159833,^ot:ottTaxonName=Bycanistes brevis,^ot:originalLabel=Bycanistes_brevis,^clo:ClementsTaxonName2019=Bycanistes brevis,^clo:speciescode2019=sichor1],(otu426974[&otu=otu426974,^ot:ottId=159838,^ot:ottTaxonName=Bycanistes subcylindricus,^ot:originalLabel=Bycanistes_subcylindricus,^clo:ClementsTaxonName2019=Bycanistes subcylindricus,^clo:speciescode2019=bawhor2],(((otu426971[&otu=otu426971,^ot:ottId=159839,^ot:ottTaxonName=Bycanistes bucinator,^ot:originalLabel=Bycanistes_bucinator,^clo:ClementsTaxonName2019=Bycanistes bucinator,^clo:speciescode2019=truhor1],otu426970[&otu=otu426970,^ot:ottId=3600738,^ot:ottTaxonName=Bycanistes fistulator,^ot:originalLabel=Bycanistes_fistulator,^clo:ClementsTaxonName2019=Bycanistes fistulator,^clo:speciescode2019=piphor1])node1161795,otu426972[&otu=otu426972,^ot:ottId=3600739,^ot:ottTaxonName=Bycanistes albotibialis,^ot:originalLabel=Bycanistes_albotibialis,^clo:ClementsTaxonName2019=Bycanistes albotibialis,^clo:speciescode2019=whthor1])node1161794,otu426973[&otu=otu426973,^ot:ottId=3600737,^ot:ottTaxonName=Bycanistes cylindricus,^ot:originalLabel=Bycanistes_cylindricus,^clo:ClementsTaxonName2019=Bycanistes cylindricus,^clo:speciescode2019=bnchor1])node1161793)node1161792)node1161791,(otu426977[&otu=otu426977,^ot:ottId=3600742,^ot:ottTaxonName=Ceratogymna elata,^ot:originalLabel=Ceratogymna_elata,^clo:ClementsTaxonName2019=Ceratogymna elata,^clo:speciescode2019=yechor1],otu426976[&otu=otu426976,^ot:ottId=785184,^ot:ottTaxonName=Ceratogymna atrata,^ot:originalLabel=Ceratogymna_atrata,^clo:ClementsTaxonName2019=Ceratogymna atrata,^clo:speciescode2019=blchor1])node1161802)node1161790)node1161789)node1161727)node1161726)node1161725;
+END;
+

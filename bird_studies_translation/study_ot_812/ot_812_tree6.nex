@@ -1,0 +1,62 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=50;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        Vultur.gryphus
+        Sarcoramphus.pappa
+        Cathartes.melambrotus
+        Cathartes.burrovianus
+        Cathartes.aura
+        Coragyps.atratus
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        Gymnogyps.californianus
+        Daptrius.ater
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'RAxML_8part_3mtcodons_5nucgenes_MLwith100bootstraps' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=](((otu5:0.10337[&otu=otu5,^ot:ottId=728082,^ot:ottTaxonName=Bonasa umbellus,^ot:originalLabel=Bonasa.umbellus,^clo:ClementsTaxonName2019=Bonasa umbellus,^clo:speciescode2019=rufgro],(otu6:0.001743[&otu=otu6,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus.gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],otu43:0.000574[&otu=otu43,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus.domesticus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node323:0.084177)node321:0.204754,((otu3:0.020605[&otu=otu3,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas.platyrhunchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3],otu2:0.024631[&otu=otu2,^ot:ottId=656794,^ot:ottTaxonName=Anas clypeata,^ot:originalLabel=Anas.clypeata,^clo:ClementsTaxonName2019=Spatula clypeata,^clo:speciescode2019=norsho])node328:0.017573,otu4:0.028211[&otu=otu4,^ot:ottId=654820,^ot:ottTaxonName=Bucephala albeola,^ot:originalLabel=Bucephala.abeola,^clo:ClementsTaxonName2019=Bucephala albeola,^clo:speciescode2019=buffle])node326:0.176001)node320:0.060381,((otu7:0.100284[&otu=otu7,^ot:ottId=112947,^ot:ottTaxonName=Charadrius alexandrinus,^ot:originalLabel=Charadrius.alexandrinus,^clo:ClementsTaxonName2019=Charadrius alexandrinus,^clo:speciescode2019=kenplo1],(otu9:0.04402[&otu=otu9,^ot:ottId=385981,^ot:ottTaxonName=Fratercula cirrhata,^ot:originalLabel=Lunda.cirrhata,^clo:ClementsTaxonName2019=Fratercula cirrhata,^clo:speciescode2019=tufpuf],otu8:0.056017[&otu=otu8,^ot:ottId=887691,^ot:ottTaxonName=Larus marinus,^ot:originalLabel=Larus.marinus,^clo:ClementsTaxonName2019=Larus marinus,^clo:speciescode2019=gbbgul])node252:0.058861)node250:0.015933,((otu25:0.076373[&otu=otu25,^ot:ottId=1057518,^ot:ottTaxonName=Gavia immer,^ot:originalLabel=Gavia.immer,^clo:ClementsTaxonName2019=Gavia immer,^clo:speciescode2019=comloo],(((otu16:0.098419[&otu=otu16,^ot:ottId=1036187,^ot:ottTaxonName=Sagittarius,^ot:originalLabel=Sagittarius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu14:0.090677[&otu=otu14,^ot:ottId=509844,^ot:ottTaxonName=Pandion,^ot:originalLabel=Pandion,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15:0.067852[&otu=otu15,^ot:ottId=315688,^ot:ottTaxonName=Gyps bengalensis,^ot:originalLabel=Gyps.bengalensis,^clo:ClementsTaxonName2019=Gyps bengalensis,^clo:speciescode2019=whrvul1])node288:0.020471)node286:0.01887,(((otu40:0.000334[&otu=otu40,^ot:ottId=316995,^ot:ottTaxonName=Coragyps atratus,^ot:originalLabel=122_C.atratus,^clo:ClementsTaxonName2019=Coragyps atratus,^clo:speciescode2019=blkvul],otu20:0.000171[&otu=otu20,^ot:ottId=316995,^ot:ottTaxonName=Coragyps atratus,^ot:originalLabel=6_C.atratus,^clo:ClementsTaxonName2019=Coragyps atratus,^clo:speciescode2019=blkvul])node308:0.027261,((otu17:0.004734[&otu=otu17,^ot:ottId=316998,^ot:ottTaxonName=Cathartes burrovianus,^ot:originalLabel=128_C.burrovianus,^clo:ClementsTaxonName2019=Cathartes burrovianus,^clo:speciescode2019=lyhvul1],otu18:0.008498[&otu=otu18,^ot:ottId=651476,^ot:ottTaxonName=Cathartes melambrotus,^ot:originalLabel=31_C.melambrotus,^clo:ClementsTaxonName2019=Cathartes melambrotus,^clo:speciescode2019=gyhvul1])node317:0.002737,(otu19:0.001111[&otu=otu19,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=135_C.aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul],(otu42:0.000153[&otu=otu42,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=8_C.aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul],otu41:0.000342[&otu=otu41,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=7_C.aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul])node313:0.000727)node312:0.009119)node311:0.024524)node307:0.004247,(((otu36:1e-06[&otu=otu36,^ot:ottId=316992,^ot:ottTaxonName=Gymnogyps californianus,^ot:originalLabel=10_G.californianus,^clo:ClementsTaxonName2019=Gymnogyps californianus,^clo:speciescode2019=calcon],otu21:0.000167[&otu=otu21,^ot:ottId=316992,^ot:ottTaxonName=Gymnogyps californianus,^ot:originalLabel=9_G.californianus,^clo:ClementsTaxonName2019=Gymnogyps californianus,^clo:speciescode2019=calcon])node297:0.027121,(((otu39:0.000166[&otu=otu39,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=1_S.papa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1],otu38:0.00033[&otu=otu38,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=2_S.papa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1])node304:0.000219,otu37:0.000235[&otu=otu37,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=3_S.papa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1])node302:0.000375,otu22:1e-06[&otu=otu22,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=97_S.papa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1])node300:0.019926)node296:0.003394,(otu35:1e-06[&otu=otu35,^ot:ottId=363015,^ot:ottTaxonName=Vultur gryphus,^ot:originalLabel=4_V.gryphus,^clo:ClementsTaxonName2019=Vultur gryphus,^clo:speciescode2019=andcon1],otu23:1e-06[&otu=otu23,^ot:ottId=363015,^ot:ottTaxonName=Vultur gryphus,^ot:originalLabel=113_V.gryphus,^clo:ClementsTaxonName2019=Vultur gryphus,^clo:speciescode2019=andcon1])node293:0.019222)node292:0.009693)node291:0.046728)node285:0.004221,((((otu11:0.010819[&otu=otu11,^ot:ottId=759238,^ot:ottTaxonName=Falco rusticolus,^ot:originalLabel=Falco.rusticolus,^clo:ClementsTaxonName2019=Falco rusticolus,^clo:speciescode2019=gyrfal],otu12:0.008138[&otu=otu12,^ot:ottId=786435,^ot:ottTaxonName=Falco peregrinus,^ot:originalLabel=Falco.peregrinus,^clo:ClementsTaxonName2019=Falco peregrinus,^clo:speciescode2019=perfal])node279:0.015683,otu13:0.023124[&otu=otu13,^ot:ottId=438663,^ot:ottTaxonName=Falco femoralis,^ot:originalLabel=Falco.femoralis,^clo:ClementsTaxonName2019=Falco femoralis,^clo:speciescode2019=aplfal])node278:0.072535,otu10:0.052821[&otu=otu10,^ot:ottId=1005432,^ot:ottTaxonName=Caracara cheriway,^ot:originalLabel=Caracara.cheriway,^clo:ClementsTaxonName2019=Caracara cheriway,^clo:speciescode2019=crecar1])node277:0.093722,otu24:0.146386[&otu=otu24,^ot:ottId=1060752,^ot:ottTaxonName=Asio otus,^ot:originalLabel=Asio.otus,^clo:ClementsTaxonName2019=Asio otus,^clo:speciescode2019=loeowl])node276:0.007359)node275:0.004331)node273:0.002513,(((otu26:0.030788[&otu=otu26,^ot:ottId=848594,^ot:ottTaxonName=Ephippiorhynchus senegalensis,^ot:originalLabel=Ephippiorhynchus.senegalensis,^clo:ClementsTaxonName2019=Ephippiorhynchus senegalensis,^clo:speciescode2019=sabsto1],otu27:0.03003[&otu=otu27,^ot:ottId=324161,^ot:ottTaxonName=Ciconia maguari,^ot:originalLabel=Ciconia.maguari,^clo:ClementsTaxonName2019=Ciconia maguari,^clo:speciescode2019=magsto1])node263:0.053003,((otu30:0.037463[&otu=otu30,^ot:ottId=744564,^ot:ottTaxonName=Ardea herodias,^ot:originalLabel=Ardea.herodias,^clo:ClementsTaxonName2019=Ardea herodias,^clo:speciescode2019=grbher3],otu31:0.033158[&otu=otu31,^ot:ottId=244700,^ot:ottTaxonName=Nyctanassa violacea,^ot:originalLabel=Nyctanassa.violacea,^clo:ClementsTaxonName2019=Nyctanassa violacea pauper,^clo:speciescode2019=yecnih2])node270:0.082246,(otu28:0.115002[&otu=otu28,^ot:ottId=464704,^ot:ottTaxonName=Scopus umbretta,^ot:originalLabel=Scopus.umbretta,^clo:ClementsTaxonName2019=Scopus umbretta,^clo:speciescode2019=hamerk1],otu29:0.066278[&otu=otu29,^ot:ottId=464697,^ot:ottTaxonName=Balaeniceps rex,^ot:originalLabel=Balaeniceps.rex,^clo:ClementsTaxonName2019=Balaeniceps rex,^clo:speciescode2019=shoebi1])node267:0.016627)node266:0.00219)node262:0.003068,((otu33:0.037114[&otu=otu33,^ot:ottId=134466,^ot:ottTaxonName=Pygoscelis antarcticus,^ot:originalLabel=Pygoscelis.antarcticus,^clo:ClementsTaxonName2019=Pygoscelis antarcticus,^clo:speciescode2019=chipen2],otu32:0.036838[&otu=otu32,^ot:ottId=494361,^ot:ottTaxonName=Aptenodytes patagonicus,^ot:originalLabel=Apterodytes.patagonicus,^clo:ClementsTaxonName2019=Aptenodytes patagonicus,^clo:speciescode2019=kinpen1])node259:0.04969,otu34:0.077315[&otu=otu34,^ot:ottId=1028832,^ot:ottTaxonName=Fulmarus glacialis,^ot:originalLabel=Fulmarus.glacialis,^clo:ClementsTaxonName2019=Fulmarus glacialis,^clo:speciescode2019=norful])node257:0.003028)node256:0.004067)node255:0.007251)node249:0.060381)node248;
+END;
+

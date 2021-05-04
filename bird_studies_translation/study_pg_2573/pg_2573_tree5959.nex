@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu378588
+        otu378589
+        otu378596
+        otu378595
+        otu378594
+        otu378593
+        otu378592
+        otu378591
+        otu378590
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree5959)' = [&unrootedTree=False,curatedType=STEAC tree,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](((otu378588:0.0093634384685[&otu=otu378588,^ot:ottId=587300,^ot:ottTaxonName=Chrysemys picta,^ot:originalLabel=Chrysemys_picta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu378589:0.0155847938115[&otu=otu378589,^ot:ottId=775044,^ot:ottTaxonName=Pelomedusa subrufa,^ot:originalLabel=Pelomedusa_subrufa,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1011366:0.007102483,((otu378593:0.0190521109696[&otu=otu378593,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2],otu378592:0.0161053026804[&otu=otu378592,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1011373:0.011588226,(otu378591:0.00379089822374[&otu=otu378591,^ot:ottId=335590,^ot:ottTaxonName=Alligator mississippiensis,^ot:originalLabel=Alligator_mississippiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu378590:0.00411294764626[&otu=otu378590,^ot:ottId=35872,^ot:ottTaxonName=Crocodylus porosus,^ot:originalLabel=Crocodylus_porosus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1011370:0.009504655)node1011369:0.001353186)node1011365:0.001821131,(otu378594:0.0193665799114[&otu=otu378594,^ot:ottId=35890,^ot:ottTaxonName=Sphenodon punctatus,^ot:originalLabel=Sphenodon_tuatara,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu378596:0.0676387047944[&otu=otu378596,^ot:ottId=456236,^ot:ottTaxonName=Pantherophis guttatus,^ot:originalLabel=Pantherophis_guttata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu378595:0.0307995261157[&otu=otu378595,^ot:ottId=705356,^ot:ottTaxonName=Anolis carolinensis,^ot:originalLabel=Anolis_carolinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1011378:0.035886378)node1011376:0.002723439)node1011364;
+END;
+

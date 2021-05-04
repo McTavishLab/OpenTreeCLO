@@ -1,0 +1,9 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu7	no_match	no_match	Anas	765185	Anas
+otu14	no_match	no_match	Coturnix	1098759	Coturnix
+otu5	no_match	no_match	Gallus	153562	Gallus
+otu4	no_match	no_match	Colius	1039512	Colius
+otu1	no_match	no_match	Columba	938415	Columba
+otu2	no_match	no_match	Zenaida	1092651	Zenaida
+otu3	no_match	no_match	Bubo	402451	Bubo
+otu8	not_a_bird	not_a_bird	Alligator	335593	Alligator

@@ -1,0 +1,48 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu2	Pandion haliaetus	osprey	Pandion_haliaetus	509837	Pandion haliaetus
+otu4	Accipiter trivirgatus	cregos1	Accipiter_trivirgatus	1018783	Accipiter trivirgatus
+otu3	Aquila fasciata	boneag2	Aquila_fasciatus	283160	Hieraaetus fasciatus
+otu93	not_a_bird	not_a_bird	Accipiter_supercilliosus	None	None
+otu47	Micronisus gabar	gabgos2	Melierax_gabar	919193	Micronisus gabar
+otu39	Accipiter castanilius	chfspa1	Accipiter_castanilius	61111	Accipiter castanilius
+otu38	Accipiter tachiro	afrgos1	Accipiter_tachiro	818183	Accipiter tachiro
+otu97	Accipiter toussenelii	recgos1	Accipiter_toussenelli	818185	Accipiter toussenelii
+otu52	not_a_bird	not_a_bird	Accipiter_haplochorus	None	None
+otu31	Accipiter poliocephalus	gyhgos1	Accipiter_poliocephalus	3596210	Accipiter poliocephalus
+otu33	Accipiter badius	shikra1	Accipiter_badius	193714	Accipiter badius
+otu36	Accipiter erythropus	retspa1	Accipiter_erythropus	767919	Accipiter erythropus
+otu35	Accipiter minullus	litspa1	Accipiter_minullus	1082979	Accipiter minullus
+otu34	Accipiter virgatus	besra1	Accipiter_virgatus	243413	Accipiter virgatus
+otu10	Accipiter striatus	shshaw	Accipiter_striatus	1015194	Accipiter striatus
+otu11	Accipiter striatus chionogaster	shshaw3	Accipiter_chionogaster	3596221	Accipiter chionogaster
+otu9	Accipiter rufiventris	rucspa2	Accipiter_rufiventris	153276	Accipiter rufiventris
+otu8	Accipiter nisus	eurspa1	Accipiter_nisus	238460	Accipiter nisus
+otu12	Accipiter bicolor	bichaw1	Accipiter_bicolor	901450	Accipiter bicolor
+otu14	Accipiter gentilis	norgos	Accipiter_gentilis	786433	Accipiter gentilis
+otu13	not_a_bird	not_a_bird	Accipiter_melanoleucos	None	None
+otu66	not_a_bird	not_a_bird	Circus_cyaneus_cyaneus_DB38	None	None
+otu67	not_a_bird	not_a_bird	Circus_cyaneus_cyaneus_NRM966543	None	None
+otu113	not_a_bird	not_a_bird	Circus_cinereous	None	None
+otu18	no_match	no_match	Circus_cyaneus_hudsonius	766812	Circus cyaneus hudsonius
+otu71	Circus maurus	blahar1	Circus_maurus_DB03	3596194	Circus maurus
+otu72	Circus maurus	blahar1	Circus_maurus_DB36	3596194	Circus maurus
+otu20	Circus macrourus	palhar1	Circus_macrourus	766813	Circus macrourus
+otu15	Circus assimilis	spohar1	Circus_assimilis	766823	Circus assimilis
+otu76	Circus pygargus	monhar1	Circus_pygargus_NRM2002623	766811	Circus pygargus
+otu75	Circus pygargus	monhar1	Circus_pygargus_MSEC201306	766811	Circus pygargus
+otu74	Circus pygargus	monhar1	Circus_pygargus_DB86	766811	Circus pygargus
+otu73	Circus pygargus	monhar1	Circus_pygargus_DB26	766811	Circus pygargus
+otu27	Circus approximans	swahar1	Circus_approximans	766820	Circus approximans
+otu86	not_a_bird	not_a_bird	Circus_spilonotus_spilothorax_DC78	None	None
+otu85	not_a_bird	not_a_bird	Circus_spilonotus_spilothorax_DC77	None	None
+otu26	not_a_bird	not_a_bird	Circus_maillardi_maillardi	None	None
+otu82	not_a_bird	not_a_bird	Circus_spilonotus_spilonotus	None	None
+otu29	not_a_bird	not_a_bird	Circus_maillardi_macrosceles	None	None
+otu23	Circus ranivorus	afmhar1	Circus_ranivorus	3596191	Circus ranivorus
+otu24	no_match	no_match	Circus_aeruginosus_aeruginosus	5560963	Circus aeruginosus aeruginosus
+otu25	not_a_bird	not_a_bird	Circus_aeruginosus_harterti	None	None
+otu30	Circus melanoleucos	piehar1	Circus_melanoleucos	3596192	Circus melanoleucos
+otu21	Circus buffoni	lowhar1	Circus_buffoni	766824	Circus buffoni
+otu5	Milvus migrans	blakit1	Milvus_migrans	548448	Milvus migrans
+otu6	Buteo jamaicensis	rethaw	Buteo_jamaicensis	509839	Buteo jamaicensis
+otu1	Sagittarius serpentarius	secret2	Sagittarius_serpentarius	1036186	Sagittarius serpentarius

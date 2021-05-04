@@ -1,0 +1,18 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+        otu6
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=472436,nearestTaxonMRCAName=Phoenicopteridae,outGroupEdge=,branchLengthTimeUnit=Myr,branchLengthDescription=,tag={},branchLengthMode=ot:time](((otu1:1.01[&otu=otu1,^ot:ottId=443650,^ot:ottTaxonName=Phoenicopterus ruber,^ot:originalLabel=Phoenicopterus_ruber,^clo:ClementsTaxonName2019=Phoenicopterus ruber,^clo:speciescode2019=grefla2],otu2:1.01[&otu=otu2,^ot:ottId=595567,^ot:ottTaxonName=Phoenicopterus roseus,^ot:originalLabel=Phoenicopterus_roseus,^clo:ClementsTaxonName2019=Phoenicopterus roseus,^clo:speciescode2019=grefla3])node3:1.28,otu3:2.29[&otu=otu3,^ot:ottId=960220,^ot:ottTaxonName=Phoenicopterus chilensis,^ot:originalLabel=Phoenicopterus_chilensis,^clo:ClementsTaxonName2019=Phoenicopterus chilensis,^clo:speciescode2019=chifla1])node2:2.08,(otu6:2.56[&otu=otu6,^ot:ottId=1030753,^ot:ottTaxonName=Phoenicoparrus minor,^ot:originalLabel=Phoenicoparrus_minor,^clo:ClementsTaxonName2019=Phoeniconaias minor,^clo:speciescode2019=lesfla1],(otu4:1.34[&otu=otu4,^ot:ottId=1030749,^ot:ottTaxonName=Phoenicoparrus andinus,^ot:originalLabel=Phoenicoparrus_andinus,^clo:ClementsTaxonName2019=Phoenicoparrus andinus,^clo:speciescode2019=andfla2],otu5:1.34[&otu=otu5,^ot:ottId=1030759,^ot:ottTaxonName=Phoenicoparrus jamesi,^ot:originalLabel=Phoenicoparrus_jamesi,^clo:ClementsTaxonName2019=Phoenicoparrus jamesi,^clo:speciescode2019=jamfla1])node8:1.22)node7:1.81)node1;
+END;
+

@@ -1,0 +1,55 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+        Aegithalos_caudatus
+        Aegithalos_glaucogularis
+        Aegithalos_iouschistos_iouschistos
+        Aegithalos_niveogularis
+        Aegithalos_fuliginosus
+        Aegithalos_iouschistos_sharpei
+        Aegithalos_leucogenys
+        Aegithalos_iouschistos_bonvaloti
+        Aegithalos_concinnus_manipurensis
+        Aegithalos_concinnus_iredalei
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Leptopoecile_elegans
+        Leptopoecile_sophiae
+        Psaltriparus_minimus_plumbeus
+        Psaltriparus_minimus_minimus
+        Aegithalos_concinnus_concinnus
+        Pyrrhula_nipalensis
+        Pyrrhula_aurantiaca
+        Pyrrhula_erythrocephala
+        Pyrrhula_leucogenis_steerei
+        Pyrrhula_leucogenis_leucogenis
+        Pyrrhula_murina
+        Pyrrhula_pyrrhula_griseiventris
+        Pyrrhula_erythaca_owstoni
+        Pyrrhula_erythaca_erythaca
+        otu14
+        Pinicola_enucleator
+        Pyrrhula_pyrrhula_iberiae
+        Pyrrhula_pyrrhula_pyrrhula
+        otu10
+        otu11
+        otu12
+        otu13
+        Pyrrhula_pyrrhula_pileata
+        Pyrrhula_pyrrhula_cineracea
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4e (Certhia)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=]((((otu1[&otu=otu1,^ot:ottId=1007172,^ot:ottTaxonName=Certhia brachydactyla,^ot:originalLabel=Certhia_brachydactyla,^clo:ClementsTaxonName2019=Certhia brachydactyla,^clo:speciescode2019=shttre1],otu2[&otu=otu2,^ot:ottId=785711,^ot:ottTaxonName=Certhia brachydactyla mauritanica,^ot:originalLabel=Certhia_brachydactyla_mauritanica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node4,otu3[&otu=otu3,^ot:ottId=697024,^ot:ottTaxonName=Certhia americana,^ot:originalLabel=Certhia_americana,^clo:ClementsTaxonName2019=Certhia americana,^clo:speciescode2019=brncre])node3,((otu6[&otu=otu6,^ot:ottId=5861453,^ot:ottTaxonName=Certhia hodgsoni hodgsoni,^ot:originalLabel=Certhia_hodgsoni_hodgsoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu4[&otu=otu4,^ot:ottId=785707,^ot:ottTaxonName=Certhia hodgsoni khamensis,^ot:originalLabel=Certhia_hodgsoni_khamensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=157232,^ot:ottTaxonName=Certhia hodgsoni mandellii,^ot:originalLabel=Certhia_hodgsoni_mandellii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node10)node9,(otu7[&otu=otu7,^ot:ottId=391157,^ot:ottTaxonName=Certhia familiaris bianchii,^ot:originalLabel=Certhia_familiaris_bianchii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu8[&otu=otu8,^ot:ottId=659655,^ot:ottTaxonName=Certhia familiaris daurica,^ot:originalLabel=Certhia_familiaris_daurica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node14)node8)node2,(((otu9[&otu=otu9,^ot:ottId=785713,^ot:ottTaxonName=Certhia himalayana himalayana,^ot:originalLabel=Certhia_himalayana_himalayana,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu10[&otu=otu10,^ot:ottId=785709,^ot:ottTaxonName=Certhia himalayana yunnanensis,^ot:originalLabel=Certhia_himalayana_yunnanensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node19,(otu12[&otu=otu12,^ot:ottId=856515,^ot:ottTaxonName=Certhia manipurensis,^ot:originalLabel=Certhia_manipurensis,^clo:ClementsTaxonName2019=Certhia manipurensis,^clo:speciescode2019=bnttre2],otu11[&otu=otu11,^ot:ottId=856514,^ot:ottTaxonName=Certhia discolor,^ot:originalLabel=Certhia_discolor,^clo:ClementsTaxonName2019=Certhia discolor,^clo:speciescode2019=bnttre1])node22)node18,(otu14[&otu=otu14,^ot:ottId=856513,^ot:ottTaxonName=Certhia tianquanensis,^ot:originalLabel=Certhia_tianquanensis,^clo:ClementsTaxonName2019=Certhia tianquanensis,^clo:speciescode2019=sictre1],otu13[&otu=otu13,^ot:ottId=737469,^ot:ottTaxonName=Certhia nipalensis,^ot:originalLabel=Certhia_nipalensis,^clo:ClementsTaxonName2019=Certhia nipalensis,^clo:speciescode2019=ruftre4])node25)node17)node1;
+END;
+

@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu14
+        otu15
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree2)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu14[&otu=otu14,^ot:ottId=507122,^ot:ottTaxonName=Erithacus rubecula,^ot:originalLabel=Erithacus_rubecula,^clo:ClementsTaxonName2019=Erithacus rubecula,^clo:speciescode2019=eurrob1],otu15[&otu=otu15,^ot:ottId=33133,^ot:ottTaxonName=Phoenicurus ochruros,^ot:originalLabel=Phoenicurus_ochruros,^clo:ClementsTaxonName2019=Phoenicurus ochruros,^clo:speciescode2019=blared1])node19,otu3[&otu=otu3,^ot:ottId=613881,^ot:ottTaxonName=Bombycilla garrulus,^ot:originalLabel=Bombycilla_garrulus,^clo:ClementsTaxonName2019=Bombycilla garrulus,^clo:speciescode2019=bohwax],otu4[&otu=otu4,^ot:ottId=496009,^ot:ottTaxonName=Cinclus cinclus,^ot:originalLabel=Cinclus_cinclus,^clo:ClementsTaxonName2019=Cinclus cinclus,^clo:speciescode2019=whtdip1],otu2[&otu=otu2,^ot:ottId=647178,^ot:ottTaxonName=Irena puella,^ot:originalLabel=Irena_puella,^clo:ClementsTaxonName2019=Irena puella,^clo:speciescode2019=asfblu1],((otu6[&otu=otu6,^ot:ottId=551825,^ot:ottTaxonName=Phonygammus keraudrenii,^ot:originalLabel=Phonygammus_keraudrenii,^clo:ClementsTaxonName2019=Phonygammus keraudrenii,^clo:speciescode2019=truman1],otu7[&otu=otu7,^ot:ottId=464854,^ot:ottTaxonName=Gymnorhina tibicen,^ot:originalLabel=Gymnorhina_tibicen,^clo:ClementsTaxonName2019=Gymnorhina tibicen,^clo:speciescode2019=ausmag2],(otu9[&otu=otu9,^ot:ottId=711844,^ot:ottTaxonName=Corvus corone,^ot:originalLabel=Corvus_corone,^clo:ClementsTaxonName2019=Corvus corone,^clo:speciescode2019=carcro1],otu10[&otu=otu10,^ot:ottId=130921,^ot:ottTaxonName=Cyanocitta stelleri,^ot:originalLabel=Cyanocitta_stelleri,^clo:ClementsTaxonName2019=Cyanocitta stelleri,^clo:speciescode2019=stejay],otu8[&otu=otu8,^ot:ottId=140425,^ot:ottTaxonName=Corvus corax,^ot:originalLabel=Corvus_corax,^clo:ClementsTaxonName2019=Corvus corax,^clo:speciescode2019=comrav],otu11[&otu=otu11,^ot:ottId=776471,^ot:ottTaxonName=Pica pica,^ot:originalLabel=Pica_pica,^clo:ClementsTaxonName2019=Pica pica,^clo:speciescode2019=eurmag1])node11)node8,otu5[&otu=otu5,^ot:ottId=1098618,^ot:ottTaxonName=Oriolus chinensis,^ot:originalLabel=Oriolus_chinensis,^clo:ClementsTaxonName2019=Oriolus chinensis,^clo:speciescode2019=blnori1],(otu12[&otu=otu12,^ot:ottId=699623,^ot:ottTaxonName=Picathartes gymnocephalus,^ot:originalLabel=Picathartes_gymnocephalus,^clo:ClementsTaxonName2019=Picathartes gymnocephalus,^clo:speciescode2019=whnroc1],otu13[&otu=otu13,^ot:ottId=1098617,^ot:ottTaxonName=Picathartes oreas,^ot:originalLabel=Picathartes_oreas,^clo:ClementsTaxonName2019=Picathartes oreas,^clo:speciescode2019=gynroc1])node16)node6)node2;
+END;
+

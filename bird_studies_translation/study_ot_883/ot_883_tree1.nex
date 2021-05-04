@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3A (ML topology)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](otu7[&otu=otu7,^ot:ottId=204716,^ot:ottTaxonName=Cyrtonyx montezumae,^ot:originalLabel=Cyrtonyx_montezumae,^clo:ClementsTaxonName2019=Cyrtonyx montezumae,^clo:speciescode2019=monqua],((otu5[&otu=otu5,^ot:ottId=204709,^ot:ottTaxonName=Colinus virginianus,^ot:originalLabel=Colinus_virginianus,^clo:ClementsTaxonName2019=Colinus virginianus,^clo:speciescode2019=norbob],((otu1[&otu=otu1,^ot:ottId=340887,^ot:ottTaxonName=Callipepla gambelii,^ot:originalLabel=Callipepla_gambelii,^clo:ClementsTaxonName2019=Callipepla gambelii,^clo:speciescode2019=gamqua],otu2[&otu=otu2,^ot:ottId=340882,^ot:ottTaxonName=Callipepla californica,^ot:originalLabel=Callipepla_californica,^clo:ClementsTaxonName2019=Callipepla californica,^clo:speciescode2019=calqua])node5,(otu3[&otu=otu3,^ot:ottId=340885,^ot:ottTaxonName=Callipepla douglasii,^ot:originalLabel=Callipepla_douglasii,^clo:ClementsTaxonName2019=Callipepla douglasii,^clo:speciescode2019=elequa],otu4[&otu=otu4,^ot:ottId=728092,^ot:ottTaxonName=Callipepla squamata,^ot:originalLabel=Callipepla_squamata,^clo:ClementsTaxonName2019=Callipepla squamata,^clo:speciescode2019=scaqua])node8)node4)node3,otu6[&otu=otu6,^ot:ottId=676779,^ot:ottTaxonName=Oreortyx pictus,^ot:originalLabel=Oreortyx_pictus,^clo:ClementsTaxonName2019=Oreortyx pictus,^clo:speciescode2019=mouqua])node2)node1;
+END;
+

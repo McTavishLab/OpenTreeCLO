@@ -1,0 +1,67 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=55;
+    TAXLABELS
+        Waimanu_tuatahi
+        Madrynornis_mirandus
+        Waimanu_manneringi
+        Pachydyptes_ponderosus
+        Delphinornis_arctowskii
+        otu8
+        Icadyptes_salasi
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Burnside_Palaeudyptes
+        Inkayacu_paracasensis
+        Palaeeudyptes_gunnari
+        Palaeeudyptes_klekowskii
+        Anthropornis_grandis
+        Anthropornis_nordenskjoeldi
+        Platydyptes_novaezealandiae
+        Eretiscus_tonnii
+        Palaeospheniscus_patagonicus
+        Palaeospheniscus_biloculata
+        Palaeospheniscus_bergi
+        Marplesornis_novaezealandiae
+        Spheniscus_megaramphus
+        Spheniscus_urbinai
+        Spheniscus_muizoni
+        Delphinornis_gracilis
+        Mesetaornis_polaris
+        Delphinornis_larseni
+        Perudyptes_devriesi
+        Pygoscelis_grandis
+        Delphinornis_wimani
+        Marambiornis_exilis
+        Archaeospheniscus_lowei
+        otu9
+        Kairuku_waitaki
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        Platydyptes_marplesi
+        Paraptenodytes_antarcticus
+        Duntroonornis_parvus
+        Archaeospheniscus_lopdelli
+        otu18
+        otu19
+        Kairuku_grebneffi
+        Palaeeudyptes_antarcticus
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 5 (extant chronogram)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((otu1:1.627213[&otu=otu1,^ot:ottId=494370,^ot:ottTaxonName=Aptenodytes forsteri,^ot:originalLabel=Aptenodytes_forsteri,^clo:ClementsTaxonName2019=Aptenodytes forsteri,^clo:speciescode2019=emppen1],otu2:1.627213[&otu=otu2,^ot:ottId=494361,^ot:ottTaxonName=Aptenodytes patagonicus,^ot:originalLabel=Aptenodytes_patagonicus,^clo:ClementsTaxonName2019=Aptenodytes patagonicus,^clo:speciescode2019=kinpen1])node3:8.199353,(otu5:6.121302[&otu=otu5,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1],(otu4:3.471026[&otu=otu4,^ot:ottId=1028837,^ot:ottTaxonName=Pygoscelis papua,^ot:originalLabel=Pygoscelis_papua,^clo:ClementsTaxonName2019=Pygoscelis papua,^clo:speciescode2019=genpen1],otu3:3.471026[&otu=otu3,^ot:ottId=134466,^ot:ottTaxonName=Pygoscelis antarcticus,^ot:originalLabel=Pygoscelis_antarctica,^clo:ClementsTaxonName2019=Pygoscelis antarcticus,^clo:speciescode2019=chipen2])node7:2.650276)node6:3.705263)node2:2.836543,((otu6:5.081717[&otu=otu6,^ot:ottId=429618,^ot:ottTaxonName=Megadyptes antipodes,^ot:originalLabel=Megadyptes_antipodes,^clo:ClementsTaxonName2019=Megadyptes antipodes,^clo:speciescode2019=yeepen1],((otu14:2.095872[&otu=otu14,^ot:ottId=60413,^ot:ottTaxonName=Eudyptes sclateri,^ot:originalLabel=Eudyptes_sclateri,^clo:ClementsTaxonName2019=Eudyptes sclateri,^clo:speciescode2019=bicpen1],(otu13:0.764678[&otu=otu13,^ot:ottId=219197,^ot:ottTaxonName=Eudyptes robustus,^ot:originalLabel=Eudyptes_robustus,^clo:ClementsTaxonName2019=Eudyptes robustus,^clo:speciescode2019=snapen1],otu12:0.764678[&otu=otu12,^ot:ottId=976561,^ot:ottTaxonName=Eudyptes pachyrhynchus,^ot:originalLabel=Eudyptes_pachyrhynchus,^clo:ClementsTaxonName2019=Eudyptes pachyrhynchus,^clo:speciescode2019=fiopen1])node25:1.331194)node24:0.321064,((otu11:0.443689[&otu=otu11,^ot:ottId=605139,^ot:ottTaxonName=Eudyptes schlegeli,^ot:originalLabel=Eudyptes_schlegeli,^clo:ClementsTaxonName2019=Eudyptes schlegeli,^clo:speciescode2019=roypen1],otu10:0.443689[&otu=otu10,^ot:ottId=82219,^ot:ottTaxonName=Eudyptes chrysolophus,^ot:originalLabel=Eudyptes_chrysolophus,^clo:ClementsTaxonName2019=Eudyptes chrysolophus,^clo:speciescode2019=macpen1])node21:1.751604,(otu9:0.767928[&otu=otu9,^ot:ottId=3600098,^ot:ottTaxonName=Eudyptes chrysocome moseleyi,^ot:originalLabel=Eudyptes_moseleyi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu8:0.320052[&otu=otu8,^ot:ottId=3600097,^ot:ottTaxonName=Eudyptes filholi,^ot:originalLabel=Eudyptes_filholi,^clo:ClementsTaxonName2019=Eudyptes chrysocome filholi,^clo:speciescode2019=rocpen3],otu7:0.320052[&otu=otu7,^ot:ottId=82220,^ot:ottTaxonName=Eudyptes chrysocome,^ot:originalLabel=Eudyptes_chrysocome,^clo:ClementsTaxonName2019=Eudyptes chrysocome,^clo:speciescode2019=rocpen1])node17:0.447875)node16:1.427365)node15:0.221643)node14:2.664781)node12:6.105258,(otu15:10.336146[&otu=otu15,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1],((otu18:1.254673[&otu=otu18,^ot:ottId=810741,^ot:ottTaxonName=Spheniscus humboldti,^ot:originalLabel=Spheniscus_humboldti,^clo:ClementsTaxonName2019=Spheniscus humboldti,^clo:speciescode2019=humpen1],otu19:1.254673[&otu=otu19,^ot:ottId=399791,^ot:ottTaxonName=Spheniscus mendiculus,^ot:originalLabel=Spheniscus_mendiculus,^clo:ClementsTaxonName2019=Spheniscus mendiculus,^clo:speciescode2019=galpen1])node35:0.399115,(otu16:1.061195[&otu=otu16,^ot:ottId=60417,^ot:ottTaxonName=Spheniscus demersus,^ot:originalLabel=Spheniscus_demersus,^clo:ClementsTaxonName2019=Spheniscus demersus,^clo:speciescode2019=jacpen1],otu17:1.061195[&otu=otu17,^ot:ottId=429622,^ot:ottTaxonName=Spheniscus magellanicus,^ot:originalLabel=Spheniscus_magellanicus,^clo:ClementsTaxonName2019=Spheniscus magellanicus,^clo:speciescode2019=magpen1])node32:0.592593)node31:8.682359)node29:0.850828)node11:1.476134)node1;
+END;
+

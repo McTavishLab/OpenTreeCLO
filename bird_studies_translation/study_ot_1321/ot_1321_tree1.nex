@@ -1,0 +1,86 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=74;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu72
+        otu74
+        otu58
+        otu67
+        otu8
+        otu59
+        otu6
+        otu66
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu61
+        otu60
+        otu63
+        otu62
+        otu65
+        otu64
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu7
+        otu71
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu69
+        otu68
+        otu73
+        otu70
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig1_concat_BI' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu1:0.013611[&otu=otu1,^ot:ottId=388714,^ot:ottTaxonName=Lepidothrix coeruleocapilla,^ot:originalLabel=LCL0001,^clo:ClementsTaxonName2019=Lepidothrix coeruleocapilla,^clo:speciescode2019=cecman1],otu2:0.01197[&otu=otu2,^ot:ottId=3599060,^ot:ottTaxonName=Lepidothrix isidorei,^ot:originalLabel=LIS0001,^clo:ClementsTaxonName2019=Lepidothrix isidorei,^clo:speciescode2019=blrman1])node2:0.006224,((((((((otu23:0.000998[&otu=otu23,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0118,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu22:0.000607[&otu=otu22,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE1265,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu20:0.000264[&otu=otu20,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0119,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu16:0.00041[&otu=otu16,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0101,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu19:0.000405[&otu=otu19,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0132,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],(otu18:0.000265[&otu=otu18,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0058,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu17:0.000261[&otu=otu17,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0111,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node44:0.000487)node43:0.000433)node41:0.000475)node40:0.00061,otu21:0.000984[&otu=otu21,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0250,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node39:0.000258,(((((otu6:0.000605[&otu=otu6,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0066,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu5:0.0006[&otu=otu5,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0001,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node22:0.000597,otu7:0.000426[&otu=otu7,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0035,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node21:0.000513,(otu9:0.000632[&otu=otu9,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0249,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu8:0.000269[&otu=otu8,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0190,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node26:0.000609)node20:0.000278,(otu10:0.000259[&otu=otu10,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0004,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu11:0.000606[&otu=otu11,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI1322,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node29:0.000268)node19:0.000265,((otu14:0.000261[&otu=otu14,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0099,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15:0.001007[&otu=otu15,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI1337,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node36:0.00027,(otu13:0.00138[&otu=otu13,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0141,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu12:0.00026[&otu=otu12,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0093,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node33:0.000212)node32:0.000263)node18:0.000256)node17:0.000257)node16:0.000635)node15:0.000274,(otu24:0.000625[&otu=otu24,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0104,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25:0.000636[&otu=otu25,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0384,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node52:0.000645)node14:0.000631,otu26:0.000249[&otu=otu26,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI1318,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node13:0.000276,(otu27:0.000628[&otu=otu27,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0149,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu28:0.000252[&otu=otu28,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI1314,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node56:0.000266)node12:0.000267,(otu30:0.000617[&otu=otu30,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI1292,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2],otu29:0.000654[&otu=otu29,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0012,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node59:0.000259)node11:0.000223,otu31:0.001016[&otu=otu31,^ot:ottId=1097457,^ot:ottTaxonName=Lepidothrix vilasboasi,^ot:originalLabel=LVI0170,^clo:ClementsTaxonName2019=Lepidothrix vilasboasi,^clo:speciescode2019=gocman2])node10:0.006354,((((otu60:0.000633[&otu=otu60,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0016,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu61:0.000658[&otu=otu61,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0498,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node121:0.000259,((otu62:0.001044[&otu=otu62,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0111,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu63:0.000999[&otu=otu63,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA047M,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node125:0.000253,otu64:0.000631[&otu=otu64,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0479,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node124:0.000632)node120:0.001376,((((otu35:0.000974[&otu=otu35,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA047F,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],((otu33:0.000634[&otu=otu33,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0021,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu34:0.000251[&otu=otu34,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0108,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node71:0.000257,otu32:0.000268[&otu=otu32,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE0169,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node69:0.000273)node68:0.000637,(((otu54:0.001022[&otu=otu54,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0072,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],(otu55:0.000267[&otu=otu55,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0081,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu56:0.000659[&otu=otu56,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0445,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node113:0.000611)node111:0.000316,(((otu53:0.000606[&otu=otu53,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA057F,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu52:0.0026[&otu=otu52,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0174,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node108:0.000242,(otu51:0.000256[&otu=otu51,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0157,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu50:0.000262[&otu=otu50,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0064,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node105:0.000272)node104:0.000225,((((((otu42:0.000255[&otu=otu42,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0237,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu43:0.000642[&otu=otu43,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0280,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node93:0.000256,((otu40:0.00064[&otu=otu40,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA006T,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu41:0.000262[&otu=otu41,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0358,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node90:0.000268,(otu39:0.000647[&otu=otu39,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0151,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu38:0.000618[&otu=otu38,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0007,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node87:0.000283)node86:0.000283)node85:0.000248,otu44:0.000272[&otu=otu44,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0089,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node84:0.000625,otu45:0.000277[&otu=otu45,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0084,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node83:0.000866,(otu46:0.002184[&otu=otu46,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0027,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu47:0.000463[&otu=otu47,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0206,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node98:0.000645)node82:0.000248,(otu49:0.00027[&otu=otu49,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA5676,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu48:0.001737[&otu=otu48,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0070,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node101:0.000245)node81:0.000341)node80:0.00011)node79:0.000222,(otu36:0.002152[&otu=otu36,^ot:ottId=5859884,^ot:ottTaxonName=Lepidothrix iris eucephala,^ot:originalLabel=LIE1267,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu37:0.001469[&otu=otu37,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0803,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node76:0.000626)node75:0.000298)node67:0.00063,otu57:0.000634[&otu=otu57,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0049,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node66:0.001055,(otu59:0.000271[&otu=otu59,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0048,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu58:0.001425[&otu=otu58,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0019,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node117:0.002924)node65:0.000287)node64:0.001757,((otu74:0.000412[&otu=otu74,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0753,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],((otu73:0.001009[&otu=otu73,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0682,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu72:0.001641[&otu=otu72,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0578,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node144:0.000319,(otu71:0.000258[&otu=otu71,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0629,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1],otu70:0.000609[&otu=otu70,^ot:ottId=165537,^ot:ottTaxonName=Lepidothrix nattereri,^ot:originalLabel=LNA0009,^clo:ClementsTaxonName2019=Lepidothrix nattereri,^clo:speciescode2019=sncman1])node141:0.001609)node140:0.000803)node139:0.004236,((otu69:0.00043[&otu=otu69,^ot:ottId=49250,^ot:ottTaxonName=Lepidothrix iris,^ot:originalLabel=LII0218,^clo:ClementsTaxonName2019=Lepidothrix iris,^clo:speciescode2019=opcman1],(otu68:0.000664[&otu=otu68,^ot:ottId=49250,^ot:ottTaxonName=Lepidothrix iris,^ot:originalLabel=LII0159,^clo:ClementsTaxonName2019=Lepidothrix iris,^clo:speciescode2019=opcman1],otu67:0.001345[&otu=otu67,^ot:ottId=49250,^ot:ottTaxonName=Lepidothrix iris,^ot:originalLabel=LII0017,^clo:ClementsTaxonName2019=Lepidothrix iris,^clo:speciescode2019=opcman1])node135:0.000861)node134:0.000801,(otu66:0.000406[&otu=otu66,^ot:ottId=49250,^ot:ottTaxonName=Lepidothrix iris,^ot:originalLabel=LII0230,^clo:ClementsTaxonName2019=Lepidothrix iris,^clo:speciescode2019=opcman1],otu65:0.000385[&otu=otu65,^ot:ottId=49250,^ot:ottTaxonName=Lepidothrix iris,^ot:originalLabel=LII0015,^clo:ClementsTaxonName2019=Lepidothrix iris,^clo:speciescode2019=opcman1])node131:0.000821)node130:0.004442)node129:0.001825)node63:0.00182)node9:0.010602,(otu3:0.000463[&otu=otu3,^ot:ottId=49248,^ot:ottTaxonName=Lepidothrix coronata,^ot:originalLabel=LCO0337,^clo:ClementsTaxonName2019=Lepidothrix coronata,^clo:speciescode2019=blcman1],otu4:0.00098[&otu=otu4,^ot:ottId=49248,^ot:ottTaxonName=Lepidothrix coronata,^ot:originalLabel=LCO0449,^clo:ClementsTaxonName2019=Lepidothrix coronata,^clo:speciescode2019=blcman1])node6:0.028778)node5:0.006224)node1;
+END;
+

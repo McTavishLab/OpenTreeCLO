@@ -1,0 +1,22 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=10;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=674279,^ot:ottTaxonName=Vireolanius leucotis,^ot:originalLabel=Vireolanius_leucotis,^clo:ClementsTaxonName2019=Vireolanius leucotis,^clo:speciescode2019=scsvir1],((otu2[&otu=otu2,^ot:ottId=621721,^ot:ottTaxonName=Cyclarhis gujanensis,^ot:originalLabel=Cyclarhis_gujanensis,^clo:ClementsTaxonName2019=Cyclarhis gujanensis,^clo:speciescode2019=rubpep1],otu3[&otu=otu3,^ot:ottId=19371,^ot:ottTaxonName=Yuhina zantholeuca,^ot:originalLabel=Yuhina_zantholeuca,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node5,(otu4[&otu=otu4,^ot:ottId=669572,^ot:ottTaxonName=Hylophilus ochraceiceps,^ot:originalLabel=Hylophilus_ochraceiceps,^clo:ClementsTaxonName2019=Tunchiornis ochraceiceps luteifrons,^clo:speciescode2019=tacgre5],otu5[&otu=otu5,^ot:ottId=289074,^ot:ottTaxonName=Vireo cassinii,^ot:originalLabel=Vireo_cassinii,^clo:ClementsTaxonName2019=Vireo cassinii,^clo:speciescode2019=casvir])node8)node4)node2,(((otu7[&otu=otu7,^ot:ottId=245036,^ot:ottTaxonName=Pteruthius aenobarbus,^ot:originalLabel=Pteruthius_aenobarbus,^clo:ClementsTaxonName2019=Pteruthius aenobarbus,^clo:speciescode2019=cfsbab1],otu8[&otu=otu8,^ot:ottId=41271,^ot:ottTaxonName=Pteruthius melanotis,^ot:originalLabel=Pteruthius_melanotis,^clo:ClementsTaxonName2019=Pteruthius melanotis,^clo:speciescode2019=besbab1])node14,(otu10[&otu=otu10,^ot:ottId=31188,^ot:ottTaxonName=Pteruthius rufiventer,^ot:originalLabel=Pteruthius_rufiventer,^clo:ClementsTaxonName2019=Pteruthius rufiventer,^clo:speciescode2019=bhsbab1],otu9[&otu=otu9,^ot:ottId=245037,^ot:ottTaxonName=Pteruthius flaviscapis,^ot:originalLabel=Pteruthius_flaviscapis,^clo:ClementsTaxonName2019=Pteruthius flaviscapis,^clo:speciescode2019=wbsbab2])node17)node13,otu6[&otu=otu6,^ot:ottId=31190,^ot:ottTaxonName=Pteruthius xanthochlorus,^ot:originalLabel=Pteruthius_xanthochlorus,^clo:ClementsTaxonName2019=Pteruthius xanthochlorus,^clo:speciescode2019=grsbab1])node11)node1;
+END;
+

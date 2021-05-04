@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=480157,nearestTaxonMRCAName=Threskiornithidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((otu12[&otu=otu12,^ot:ottId=625779,^ot:ottTaxonName=Ardea alba,^ot:originalLabel=Ardea_alba,^clo:ClementsTaxonName2019=Ardea alba,^clo:speciescode2019=greegr],(((otu9[&otu=otu9,^ot:ottId=497204,^ot:ottTaxonName=Phimosus infuscatus,^ot:originalLabel=Phimosus_infuscatus,^clo:ClementsTaxonName2019=Phimosus infuscatus,^clo:speciescode2019=bafibi1],(otu8[&otu=otu8,^ot:ottId=979992,^ot:ottTaxonName=Theristicus caerulescens,^ot:originalLabel=Theristicus_caerulescens,^clo:ClementsTaxonName2019=Theristicus caerulescens,^clo:speciescode2019=pluibi1],(otu6[&otu=otu6,^ot:ottId=575316,^ot:ottTaxonName=Theristicus caudatus,^ot:originalLabel=Theristicus_caudatus,^clo:ClementsTaxonName2019=Theristicus caudatus,^clo:speciescode2019=bunibi1],otu7[&otu=otu7,^ot:ottId=1073495,^ot:ottTaxonName=Theristicus melanopis,^ot:originalLabel=Theristicus_melanopis,^clo:ClementsTaxonName2019=Theristicus melanopis,^clo:speciescode2019=bkfibi1])node16)node15)node14,(otu11[&otu=otu11,^ot:ottId=689773,^ot:ottTaxonName=Eudocimus ruber,^ot:originalLabel=Eudocimus_ruber,^clo:ClementsTaxonName2019=Eudocimus ruber,^clo:speciescode2019=scaibi],otu10[&otu=otu10,^ot:ottId=425447,^ot:ottTaxonName=Eudocimus albus,^ot:originalLabel=Eudocimus_albus,^clo:ClementsTaxonName2019=Eudocimus albus,^clo:speciescode2019=whiibi])node21)node13,((otu4[&otu=otu4,^ot:ottId=242774,^ot:ottTaxonName=Plegadis chihi,^ot:originalLabel=Plegadis_chihi,^clo:ClementsTaxonName2019=Plegadis chihi,^clo:speciescode2019=whfibi],otu5[&otu=otu5,^ot:ottId=848593,^ot:ottTaxonName=Plegadis falcinellus,^ot:originalLabel=Plegadis_falcinellus,^clo:ClementsTaxonName2019=Plegadis falcinellus,^clo:speciescode2019=gloibi])node10,(otu3[&otu=otu3,^ot:ottId=293724,^ot:ottTaxonName=Threskiornis molucca,^ot:originalLabel=Threskiornis_molucca,^clo:ClementsTaxonName2019=Threskiornis molucca,^clo:speciescode2019=ausibi1],(otu1[&otu=otu1,^ot:ottId=1057477,^ot:ottTaxonName=Platalea alba,^ot:originalLabel=Platalea_alba,^clo:ClementsTaxonName2019=Platalea alba,^clo:speciescode2019=afrspo1],otu2[&otu=otu2,^ot:ottId=951123,^ot:ottTaxonName=Platalea ajaja,^ot:originalLabel=Platalea_ajaja,^clo:ClementsTaxonName2019=Platalea ajaja,^clo:speciescode2019=rosspo1])node6)node5)node4)node3)node2,otu13[&otu=otu13,^ot:ottId=464695,^ot:ottTaxonName=Mycteria americana,^ot:originalLabel=Mycteria_americana,^clo:ClementsTaxonName2019=Mycteria americana,^clo:speciescode2019=woosto])node1;
+END;
+

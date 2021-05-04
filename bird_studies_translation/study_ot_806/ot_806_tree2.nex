@@ -1,0 +1,67 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=55;
+    TAXLABELS
+        otu73
+        otu35
+        otu74
+        otu58
+        otu70
+        otu8
+        otu59
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu61
+        otu60
+        otu63
+        otu62
+        otu65
+        otu64
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu71
+        otu67
+        otu72
+        otu66
+        otu22
+        otu69
+        otu68
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig.3 (chronogram: all)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](otu74:0[&otu=otu74,^ot:ottId=3600110,^ot:ottTaxonName=Waimanu manneringi,^ot:originalLabel=Waimanu_manneringi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((((otu69:0[&otu=otu69,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Delphinornis_wimani,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu70:5.289327[&otu=otu70,^ot:ottId=4130815,^ot:ottTaxonName=Delphinornis arctowskii,^ot:originalLabel=Delphinornis_arctowskii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node139:2.991729,(otu72:1.232656[&otu=otu72,^ot:ottId=4130813,^ot:ottTaxonName=Delphinornis larseni,^ot:originalLabel=Delphinornis_larseni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu71:0.338546[&otu=otu71,^ot:ottId=4130814,^ot:ottTaxonName=Delphinornis gracilis,^ot:originalLabel=Delphinornis_gracilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node142:3.296407)node138:2.76018,((otu66:1.705564[&otu=otu66,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Perudyptes_devriesi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu67:1.570104[&otu=otu67,^ot:ottId=3600121,^ot:ottTaxonName=Mesetaornis polaris,^ot:originalLabel=Mesetaornis_polaris,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu68:0[&otu=otu68,^ot:ottId=3600108,^ot:ottTaxonName=Marambiornis exilis,^ot:originalLabel=Marambiornis_exilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node135:2.143192)node133:1.235329,(((otu63:0.770158[&otu=otu63,^ot:ottId=4130833,^ot:ottTaxonName=Palaeeudyptes gunnari,^ot:originalLabel=Palaeeudyptes_gunnari,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu62:0[&otu=otu62,^ot:ottId=4130832,^ot:ottTaxonName=Palaeeudyptes klekowskii,^ot:originalLabel=Palaeeudyptes_klekowskii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node127:0.254514,(((otu59:0[&otu=otu59,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Icadyptes_salasi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu58:0.397974[&otu=otu58,^ot:ottId=3600127,^ot:ottTaxonName=Pachydyptes ponderosus,^ot:originalLabel=Pachydyptes_ponderosus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node121:1.783061,((((((otu47:0[&otu=otu47,^ot:ottId=4130848,^ot:ottTaxonName=Palaeospheniscus patagonicus,^ot:originalLabel=Palaeospheniscus_patagonicus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu48:3.013885[&otu=otu48,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Eretiscus_tonnii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node104:0.273604,(otu46:0[&otu=otu46,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Palaeospheniscus_biloculata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu45:0[&otu=otu45,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Palaeospheniscus_bergi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu44:1.384461[&otu=otu44,^ot:ottId=4130817,^ot:ottTaxonName=Marplesornis novaezealandiae,^ot:originalLabel=Marplesornis_novaezealandiae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((((otu6:4.808545[&otu=otu6,^ot:ottId=429618,^ot:ottTaxonName=Megadyptes antipodes,^ot:originalLabel=Megadyptes_antipodes,^clo:ClementsTaxonName2019=Megadyptes antipodes,^clo:speciescode2019=yeepen1],(otu14:2.793384[&otu=otu14,^ot:ottId=60413,^ot:ottTaxonName=Eudyptes sclateri,^ot:originalLabel=Eudyptes_sclateri,^clo:ClementsTaxonName2019=Eudyptes sclateri,^clo:speciescode2019=bicpen1],((((otu7:0.19739[&otu=otu7,^ot:ottId=82220,^ot:ottTaxonName=Eudyptes chrysocome,^ot:originalLabel=Eudyptes_chrysocome,^clo:ClementsTaxonName2019=Eudyptes chrysocome,^clo:speciescode2019=rocpen1],otu8:0.19739[&otu=otu8,^ot:ottId=3600097,^ot:ottTaxonName=Eudyptes filholi,^ot:originalLabel=Eudyptes_filholi,^clo:ClementsTaxonName2019=Eudyptes chrysocome filholi,^clo:speciescode2019=rocpen3])node74:0.512416,otu9:0.709806[&otu=otu9,^ot:ottId=3600098,^ot:ottTaxonName=Eudyptes chrysocome moseleyi,^ot:originalLabel=Eudyptes_moseleyi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node73:1.489582,(otu13:1.027272[&otu=otu13,^ot:ottId=219197,^ot:ottTaxonName=Eudyptes robustus,^ot:originalLabel=Eudyptes_robustus,^clo:ClementsTaxonName2019=Eudyptes robustus,^clo:speciescode2019=snapen1],otu12:1.027272[&otu=otu12,^ot:ottId=976561,^ot:ottTaxonName=Eudyptes pachyrhynchus,^ot:originalLabel=Eudyptes_pachyrhynchus,^clo:ClementsTaxonName2019=Eudyptes pachyrhynchus,^clo:speciescode2019=fiopen1])node78:1.172116)node72:0.388187,(otu11:0.363052[&otu=otu11,^ot:ottId=605139,^ot:ottTaxonName=Eudyptes schlegeli,^ot:originalLabel=Eudyptes_schlegeli,^clo:ClementsTaxonName2019=Eudyptes schlegeli,^clo:speciescode2019=roypen1],otu10:0.363052[&otu=otu10,^ot:ottId=82219,^ot:ottTaxonName=Eudyptes chrysolophus,^ot:originalLabel=Eudyptes_chrysolophus,^clo:ClementsTaxonName2019=Eudyptes chrysolophus,^clo:speciescode2019=macpen1])node81:2.224523)node71:0.205809)node70:2.015161)node68:5.052136,otu35:0[&otu=otu35,^ot:ottId=3600131,^ot:ottTaxonName=Madrynornis mirandus,^ot:originalLabel=Madrynornis_mirandus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node67:2.720518,(otu15:10.736501[&otu=otu15,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1],((otu43:0.457545[&otu=otu43,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Spheniscus_megaramphus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu42:0[&otu=otu42,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Spheniscus_urbinai,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node98:1.710448,(((otu16:1.301815[&otu=otu16,^ot:ottId=60417,^ot:ottTaxonName=Spheniscus demersus,^ot:originalLabel=Spheniscus_demersus,^clo:ClementsTaxonName2019=Spheniscus demersus,^clo:speciescode2019=jacpen1],otu17:1.301815[&otu=otu17,^ot:ottId=429622,^ot:ottTaxonName=Spheniscus magellanicus,^ot:originalLabel=Spheniscus_magellanicus,^clo:ClementsTaxonName2019=Spheniscus magellanicus,^clo:speciescode2019=magpen1])node91:0.343237,(otu18:1.100953[&otu=otu18,^ot:ottId=810741,^ot:ottTaxonName=Spheniscus humboldti,^ot:originalLabel=Spheniscus_humboldti,^clo:ClementsTaxonName2019=Spheniscus humboldti,^clo:speciescode2019=humpen1],otu19:1.100953[&otu=otu19,^ot:ottId=399791,^ot:ottTaxonName=Spheniscus mendiculus,^ot:originalLabel=Spheniscus_mendiculus,^clo:ClementsTaxonName2019=Spheniscus mendiculus,^clo:speciescode2019=galpen1])node94:0.5441)node90:7.400438,otu41:0[&otu=otu41,^ot:ottId=3600100,^ot:ottTaxonName=Spheniscus muizoni,^ot:originalLabel=Spheniscus_muizoni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node89:0.465755)node88:1.225256)node86:1.844698)node66:1.198935,(((otu1:1.465117[&otu=otu1,^ot:ottId=494370,^ot:ottTaxonName=Aptenodytes forsteri,^ot:originalLabel=Aptenodytes_forsteri,^clo:ClementsTaxonName2019=Aptenodytes forsteri,^clo:speciescode2019=emppen1],otu2:1.465117[&otu=otu2,^ot:ottId=494361,^ot:ottTaxonName=Aptenodytes patagonicus,^ot:originalLabel=Aptenodytes_patagonicus,^clo:ClementsTaxonName2019=Aptenodytes patagonicus,^clo:speciescode2019=kinpen1])node57:7.787965,otu22:3.946078[&otu=otu22,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pygoscelis_grandis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node56:1.345175,(otu5:6.67609[&otu=otu5,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1],(otu4:4.345773[&otu=otu4,^ot:ottId=1028837,^ot:ottTaxonName=Pygoscelis papua,^ot:originalLabel=Pygoscelis_papua,^clo:ClementsTaxonName2019=Pygoscelis papua,^clo:speciescode2019=genpen1],otu3:4.345773[&otu=otu3,^ot:ottId=134466,^ot:ottTaxonName=Pygoscelis antarcticus,^ot:originalLabel=Pygoscelis_antarctica,^clo:ClementsTaxonName2019=Pygoscelis antarcticus,^clo:speciescode2019=chipen2])node62:2.330317)node61:3.922166)node55:3.181878)node54:2.85422)node53:1.706494)node52:0.415811)node51:1.451319)node50:4.656535,otu49:0[&otu=otu49,^ot:ottId=3600129,^ot:ottTaxonName=Platydyptes novaezealandiae,^ot:originalLabel=Platydyptes_novaezealandiae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node49:0.171612,otu50:0[&otu=otu50,^ot:ottId=3600128,^ot:ottTaxonName=Platydyptes marplesi,^ot:originalLabel=Platydyptes_marplesi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node48:6.690153,(((otu51:6.582858[&otu=otu51,^ot:ottId=4130828,^ot:ottTaxonName=Paraptenodytes antarcticus,^ot:originalLabel=Paraptenodytes_antarcticus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu52:1.442408[&otu=otu52,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Duntroonornis_parvus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node111:0.729149,otu53:0[&otu=otu53,^ot:ottId=3600124,^ot:ottTaxonName=Archaeospheniscus lopdelli,^ot:originalLabel=Archaeospheniscus_lopdelli,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node110:1.188303,otu54:3.361106[&otu=otu54,^ot:ottId=3600125,^ot:ottTaxonName=Archaeospheniscus lowei,^ot:originalLabel=Archaeospheniscus_lowei,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node109:1.276024)node47:3.742713,(otu57:0.141682[&otu=otu57,^ot:ottId=4130831,^ot:ottTaxonName=Palaeeudyptes antarcticus,^ot:originalLabel=Palaeeudyptes_antarcticus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu55:0.037674[&otu=otu55,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Kairuku_waitaki,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu56:0[&otu=otu56,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Kairuku_grebneffi,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node117:6.830483)node116:1.926783)node46:2.69283)node45:1.887729,(otu61:0[&otu=otu61,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Burnside_Palaeudyptes,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu60:0.258076[&otu=otu60,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Inkayacu_paracasensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node124:3.698655)node44:0.490379)node43:1.421898,(otu65:4.697068[&otu=otu65,^ot:ottId=4130835,^ot:ottTaxonName=Anthropornis grandis,^ot:originalLabel=Anthropornis_grandis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu64:0[&otu=otu64,^ot:ottId=4130836,^ot:ottTaxonName=Anthropornis nordenskjoeldi,^ot:originalLabel=Anthropornis_nordenskjoeldi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node130:0.952117)node42:2.114115)node41:1.814283)node40:11.295916,otu73:0[&otu=otu73,^ot:ottId=3600120,^ot:ottTaxonName=Waimanu tuatahi,^ot:originalLabel=Waimanu_tuatahi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node39:3.5387)node38;
+END;
+

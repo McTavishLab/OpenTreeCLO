@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (mtDNA)' = [&unrootedTree=False,curatedType=Least squares ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu8[&otu=otu8,^ot:ottId=453758,^ot:ottTaxonName=Passerculus sandwichensis,^ot:originalLabel=Passerculus_sandwichensis,^clo:ClementsTaxonName2019=Passerculus sandwichensis,^clo:speciescode2019=savspa],(((otu7[&otu=otu7,^ot:ottId=836182,^ot:ottTaxonName=Ammodramus bairdii,^ot:originalLabel=Ammodramus_bairdii,^clo:ClementsTaxonName2019=Centronyx bairdii,^clo:speciescode2019=baispa],(otu3[&otu=otu3,^ot:ottId=1002241,^ot:ottTaxonName=Ammodramus maritimus,^ot:originalLabel=Ammodramus_maritimus,^clo:ClementsTaxonName2019=Ammospiza maritima,^clo:speciescode2019=seaspa],(otu5[&otu=otu5,^ot:ottId=292635,^ot:ottTaxonName=Ammodramus leconteii,^ot:originalLabel=Ammodramus_leconteii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=567252,^ot:ottTaxonName=Ammodramus caudacutus,^ot:originalLabel=Ammodramus_caudacutus,^clo:ClementsTaxonName2019=Ammospiza caudacuta,^clo:speciescode2019=sstspa])node21)node20)node19,otu6[&otu=otu6,^ot:ottId=292636,^ot:ottTaxonName=Ammodramus henslowii,^ot:originalLabel=Ammodramus_henslowii,^clo:ClementsTaxonName2019=Centronyx henslowii,^clo:speciescode2019=henspa])node18,(otu2[&otu=otu2,^ot:ottId=420998,^ot:ottTaxonName=Ammodramus savannarum,^ot:originalLabel=Ammodramus_savannarum,^clo:ClementsTaxonName2019=Ammodramus savannarum,^clo:speciescode2019=graspa],(otu1[&otu=otu1,^ot:ottId=4131481,^ot:ottTaxonName=Ammodramus aurifrons,^ot:originalLabel=Ammodramus_aurifrons,^clo:ClementsTaxonName2019=Ammodramus aurifrons,^clo:speciescode2019=yebspa1],otu14[&otu=otu14,^ot:ottId=4131482,^ot:ottTaxonName=Ammodramus humeralis,^ot:originalLabel=Ammodramus_humeralis,^clo:ClementsTaxonName2019=Ammodramus humeralis,^clo:speciescode2019=graspa1])node28)node27)node17)node16;
+END;
+

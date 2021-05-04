@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE barker_etal_2008_tree_1 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=858292,^ot:ottTaxonName=Dolichonyx oryzivorus,^ot:originalLabel=Dolichonyx_oryzivorus,^clo:ClementsTaxonName2019=Dolichonyx oryzivorus,^clo:speciescode2019=boboli],(otu2[&otu=otu2,^ot:ottId=979985,^ot:ottTaxonName=Sturnella militaris,^ot:originalLabel=Sturnella_militaris,^clo:ClementsTaxonName2019=Leistes militaris,^clo:speciescode2019=rebbla1],otu3[&otu=otu3,^ot:ottId=283665,^ot:ottTaxonName=Sturnella bellicosa,^ot:originalLabel=Sturnella_bellicosa,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=283666,^ot:ottTaxonName=Sturnella neglecta,^ot:originalLabel=Sturnella_neglecta,^clo:ClementsTaxonName2019=Sturnella neglecta,^clo:speciescode2019=wesmea],otu5[&otu=otu5,^ot:ottId=489144,^ot:ottTaxonName=Sturnella magna,^ot:originalLabel=Sturnella_magna,^clo:ClementsTaxonName2019=Sturnella magna,^clo:speciescode2019=easmea])node1)'tree1_ROOT';
+END;
+

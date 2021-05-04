@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        Tl847100
+        Tl847101
+        Tl847102
+        Tl847103
+        Tl847104
+        Tl847105
+        Tl847106
+        Tl847107
+        Tl847108
+        Tl847109
+        Tl847081
+        Tl847080
+        Tl847083
+        Tl847082
+        Tl847085
+        Tl847084
+        Tl847087
+        Tl847086
+        Tl847089
+        Tl847088
+        Tl847079
+        Tl847111
+        Tl847110
+        Tl847098
+        Tl847099
+        Tl847096
+        Tl847097
+        Tl847094
+        Tl847095
+        Tl847092
+        Tl847093
+        Tl847090
+        Tl847091
+  ;
+END;
+
+BEGIN TREES;
+    TREE Figure_5 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](Tl847106[&otu=Tl847106,^ot:ottId=4946052,^ot:ottTaxonName=Dromaeosauridae,^ot:originalLabel=Dromaeosauridae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl847097[&otu=Tl847097,^ot:ottId=3601624,^ot:ottTaxonName=Jeholornis,^ot:originalLabel=Jeholornis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(Tl847108[&otu=Tl847108,^ot:ottId=4140826,^ot:ottTaxonName=Zhongornis,^ot:originalLabel=Zhongornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((Tl847107[&otu=Tl847107,^ot:ottId=4132144,^ot:ottTaxonName=Confuciusornis,^ot:originalLabel=Confuciusornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847094[&otu=Tl847094,^ot:ottId=4132149,^ot:ottTaxonName=Changchengornis,^ot:originalLabel=Changchengornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093172,(Tl847088[&otu=Tl847088,^ot:ottId=3601210,^ot:ottTaxonName=Sapeornis,^ot:originalLabel=Sapeornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((((Tl847092[&otu=Tl847092,^ot:ottId=4132101,^ot:ottTaxonName=Longirostravis,^ot:originalLabel=Longirostravis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847089[&otu=Tl847089,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=DNHM_D1878,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093162,Tl847105[&otu=Tl847105,^ot:ottId=4132099,^ot:ottTaxonName=Longipteryx,^ot:originalLabel=Longipteryx,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093158,(Tl847100[&otu=Tl847100,^ot:ottId=3601257,^ot:ottTaxonName=Eoenantiornis,^ot:originalLabel=Eoenantiornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((((Tl847104[&otu=Tl847104,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=CAGS_06_012,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847103[&otu=Tl847103,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=CAGS_05_004,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093123,(Tl847082[&otu=Tl847082,^ot:ottId=4132136,^ot:ottTaxonName=Gobipteryx,^ot:originalLabel=Gobipteryx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl847081[&otu=Tl847081,^ot:ottId=3601524,^ot:ottTaxonName=Neuquenornis,^ot:originalLabel=Neuquenornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847091[&otu=Tl847091,^ot:ottId=4140824,^ot:ottTaxonName=Vescornis,^ot:originalLabel=Vescornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847109[&otu=Tl847109,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Soravisaurus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093137)Tn9093138,Tl847083[&otu=Tl847083,^ot:ottId=3604783,^ot:ottTaxonName=Concornis,^ot:originalLabel=Concornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093135,(Tl847098[&otu=Tl847098,^ot:ottId=3604172,^ot:ottTaxonName=Iberomesornis,^ot:originalLabel=Iberomesornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847090[&otu=Tl847090,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=CAGS_07_001,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847093[&otu=Tl847093,^ot:ottId=6155663,^ot:ottTaxonName=Qiliania,^ot:originalLabel=Qiliania,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847087[&otu=Tl847087,^ot:ottId=3603736,^ot:ottTaxonName=Eoalulavis,^ot:originalLabel=Eoalulavis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093147)Tn9093142)Tn9093146)Tn9093183,(Tl847079[&otu=Tl847079,^ot:ottId=4142070,^ot:ottTaxonName=Archaeorhynchus,^ot:originalLabel=Archaeorhynchus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((((Tl847095[&otu=Tl847095,^ot:ottId=3604301,^ot:ottTaxonName=Yanornis,^ot:originalLabel=Yanornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl847096[&otu=Tl847096,^ot:ottId=3600977,^ot:ottTaxonName=Yixianornis,^ot:originalLabel=Yixianornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093160,(Tl847101[&otu=Tl847101,^ot:ottId=3601924,^ot:ottTaxonName=Gansus,^ot:originalLabel=Gansus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(Tl847084[&otu=Tl847084,^ot:ottId=3603115,^ot:ottTaxonName=Apsaravis,^ot:originalLabel=Apsaravis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl847102[&otu=Tl847102,^ot:ottId=3600984,^ot:ottTaxonName=Hesperornis,^ot:originalLabel=Hesperornis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((Tl847110[&otu=Tl847110,^ot:ottId=765185,^ot:ottTaxonName=Anas,^ot:originalLabel=Anas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl847086[&otu=Tl847086,^ot:ottId=153562,^ot:ottTaxonName=Gallus,^ot:originalLabel=Gallus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn9093153,Tl847099[&otu=Tl847099,^ot:ottId=3603279,^ot:ottTaxonName=Ichthyornis,^ot:originalLabel=Icthyornis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn9093136)Tn9093152)Tn9093130)Tn9093169)Tn9093141,Tl847111[&otu=Tl847111,^ot:ottId=4143598,^ot:ottTaxonName=Hongshanornis,^ot:originalLabel=Hongshanornis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn9093168,Tl847085[&otu=Tl847085,^ot:ottId=3601387,^ot:ottTaxonName=Patagopteryx,^ot:originalLabel=Patagopteryx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn9093166)Tn9093176)Tn9093182)Tn9093144)Tn9093180)Tn9093170)Tn9093167,Tl847080[&otu=Tl847080,^ot:ottId=6150678,^ot:ottTaxonName=Archaeopteryx (genus in Eumetazoa),^ot:originalLabel=Archaeopteryx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn9093165)Tn9093124;
+END;
+

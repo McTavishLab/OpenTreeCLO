@@ -1,0 +1,35 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu433073	Rhea pennata	lesrhe2	Pterocnemia_pennata	857860	Pterocnemia pennata
+otu433074	Rhea americana	grerhe1	Rhea_americana	857864	Rhea americana
+otu433084	Tinamus major	gretin1	Tinamus_major	402466	Tinamus major
+otu433085	Crypturellus tataupa	tattin1	Crypturellus_tataupa	758347	Crypturellus tataupa
+otu433083	Eudromia elegans	elctin1	Eudromia_elegans	292461	Eudromia elegans
+otu433088	no_match	no_match	Dinornis_giganteus	576657	Dinornis giganteus
+otu433087	no_match	no_match	Anomalopteryx_didiformis	816665	Anomalopteryx didiformis
+otu433086	no_match	no_match	Emeus_crassus	576651	Emeus crassus
+otu433077	Dromaius novaehollandiae	emu1	Dromaius_novaehollandiae	829513	Dromaius novaehollandiae
+otu433076	Casuarius casuarius	soucas1	Casuarius_casuarius	589152	Casuarius casuarius
+otu433075	Casuarius bennetti	dwacas1	Casuarius_bennetti	402459	Casuarius bennetti
+otu433081	Apteryx haastii	grskiw1	Apteryx_haastii	241836	Apteryx haastii
+otu433082	Apteryx owenii	liskiw1	Apteryx_owenii	241844	Apteryx owenii
+otu433080	Apteryx mantelli	nibkiw1	Apteryx_mantelli	748998	Apteryx australis mantelli
+otu433078	no_match	no_match	Aepyornis_hildebrandti	3600825	Aepyornis hildebrandti
+otu433079	no_match	no_match	Mullerornis_agilis	84218	Mullerornis agilis
+otu433072	Struthio camelus	ostric2	Struthio_camelus	647692	Struthio camelus
+otu433058	Alectura lathami	ausbrt1	Alectura_lathami	570956	Alectura lathami
+otu433057	Gallus gallus	redjun	Gallus_gallus	153563	Gallus gallus
+otu433059	Anser albifrons	gwfgoo	Anser_albifrons	430239	Anser albifrons
+otu433060	Anas platyrhynchos	mallar3	Anas_platyrhynchos	765167	Anas platyrhynchos
+otu433061	Anseranas semipalmata	maggoo1	Anseranas_semipalmata	714464	Anseranas semipalmata
+otu433071	Acanthisitta chloris	riflem1	Acanthisitta_chloris	1085740	Acanthisitta chloris
+otu433070	Taeniopygia guttata	zebfin2	Taeniopygia_guttata	708327	Taeniopygia guttata
+otu433068	Pygoscelis adeliae	adepen1	Pygoscelis_adeliae	494357	Pygoscelis adeliae
+otu433069	Ciconia ciconia	whisto1	Ciconia_ciconia	363031	Ciconia ciconia
+otu433067	Aphrodroma brevirostris	kerpet2	Pterodroma_brevirostris	3595633	Aphrodroma brevirostris
+otu433066	Gavia stellata	retloo	Gavia_stellata	1057044	Gavia stellata
+otu433062	Arenaria interpres	rudtur	Arenaria_interpres	821753	Arenaria interpres
+otu433063	Haematopus ater	blaoys1	Haematopus_ater	918965	Haematopus ater
+otu433065	Archilochus colubris	rthhum	Archilochus_colubris	759410	Archilochus colubris
+otu433064	Apus apus	comswi	Apus_apus	609788	Apus apus
+otu433090	not_a_bird	not_a_bird	Alligator_mississippiensis	335590	Alligator mississippiensis
+otu433089	not_a_bird	not_a_bird	Caiman_crocodilus	912130	Caiman crocodilus

@@ -1,0 +1,39 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu9	Alcedo quadribrachys	shbkin1	Alcedo_quadribrachys	26078	Alcedo quadribrachys
+otu10	Alcedo atthis	comkin1	Alcedo_atthis	549519	Alcedo atthis
+otu4	Corythornis leucogaster	whbkin1	Alcedo_leucogaster	26087	Alcedo leucogaster
+otu5	Corythornis cristatus	malkin1	Alcedo_cristata	651469	Alcedo cristata
+otu3	no_match	no_match	Ceyx_madagascariensis	1061838	Ceyx madagascariensis
+otu6	Ceyx azureus	azukin1	Alcedo_azurea	1061841	Alcedo azurea
+otu7	Ceyx erithaca	bkbkin1	Ceyx_erithacus	215691	Ceyx erithaca
+otu8	Ceyx lepidus	vardwk4	Ceyx_lepidus	931007	Ceyx lepidus
+otu1	Ispidina lecontei	dwakin1	Ceyx_lecontei	1061846	Ceyx lecontei
+otu2	Ispidina picta	afpkin1	Ispidina_picta	1097691	Ceyx pictus
+otu37	Chloroceryle americana	grnkin	Chloroceryle_americana	1039522	Chloroceryle americana
+otu38	Chloroceryle inda	garkin1	Chloroceryle_inda	485385	Chloroceryle inda
+otu36	Chloroceryle aenea	ampkin1	Chloroceryle_aenea	986901	Chloroceryle aenea
+otu35	Chloroceryle amazona	amakin1	Chloroceryle_amazona	485386	Chloroceryle amazona
+otu34	Ceryle rudis	piekin1	Ceryle_rudis	26085	Ceryle rudis
+otu31	Megaceryle maxima	giakin3	Megaceryle_maxima	209417	Megaceryle maxima
+otu32	Megaceryle torquata	rinkin1	Megaceryle_torquata	314750	Megaceryle torquata
+otu33	Megaceryle alcyon	belkin1	Megaceryle_alcyon	839181	Megaceryle alcyon
+otu28	Halcyon badia	chbkin2	Halcyon_badia	26092	Halcyon badia
+otu29	Halcyon senegalensis	wookin1	Halcyon_senegalensis	234474	Halcyon senegalensis
+otu30	Halcyon malimbica	blbkin4	Halcyon_malimbica	551379	Halcyon malimbica
+otu27	Pelargopsis capensis	stbkin1	Pelargopsis_capensis	589619	Pelargopsis capensis
+otu26	Lacedo pulchella	bankin1	Lacedo_pulchella	485388	Lacedo pulchella
+otu13	Syma torotoro	yebkin1	Syma_torotoro	234478	Syma torotoro
+otu17	Todiramphus chloris	colkin1	Todirhamphus_chloris	704131	Todiramphus chloris
+otu18	Todiramphus sanctus	sackin1	Todirhamphus_sanctus	234470	Todiramphus sanctus
+otu16	no_match	no_match	Todirhamphus_tuta	1011657	Halcyon tuta
+otu15	no_match	no_match	Todirhamphus_ruficollaris	5560131	Todirhamphus ruficollaris
+otu14	Todiramphus leucopygius	ultkin1	Todirhamphus_leucopygius	3596387	Todiramphus leucopygius
+otu19	Melidora macrorrhina	hobkin1	Melidora_macrorrhina	757734	Melidora macrorrhina
+otu20	Clytoceyx rex	shbkoo1	Clytoceyx_rex	757735	Clytoceyx rex
+otu21	Dacelo gaudichaud	rubkoo1	Dacelo_gaudichaud	234479	Dacelo gaudichaud
+otu23	Dacelo leachii	blwkoo1	Dacelo_leachii	3596367	Dacelo leachii
+otu22	Dacelo novaeguineae	laukoo1	Dacelo_novaeguineae	938422	Dacelo novaeguineae
+otu25	Tanysiptera galatea	copkin1	Tanysiptera_galatea	234476	Tanysiptera galatea
+otu24	Cittura cyanotis	lilkin1	Cittura_cyanotis	234469	Cittura cyanotis
+otu11	Actenoides concretus	ruckin1	Actenoides_concretus	571609	Actenoides concretus
+otu12	Actenoides lindsayi	spokin1	Actenoides_lindsayi	571605	Actenoides lindsayi

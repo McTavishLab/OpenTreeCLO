@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4 (mtDNA+nuDNA)' = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=724182,nearestTaxonMRCAName=Celeus,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((((otu10[&otu=otu10,^ot:ottId=724966,^ot:ottTaxonName=Celeus undatus,^ot:originalLabel=Celeus_undatus_2,^clo:ClementsTaxonName2019=Celeus undatus,^clo:speciescode2019=wavwoo1],otu9[&otu=otu9,^ot:ottId=724966,^ot:ottTaxonName=Celeus undatus,^ot:originalLabel=Celeus_undatus_1,^clo:ClementsTaxonName2019=Celeus undatus,^clo:speciescode2019=wavwoo1])node22,(otu12[&otu=otu12,^ot:ottId=499964,^ot:ottTaxonName=Celeus grammicus,^ot:originalLabel=Celeus_grammicus_2,^clo:ClementsTaxonName2019=Celeus grammicus,^clo:speciescode2019=scbwoo5],otu11[&otu=otu11,^ot:ottId=499964,^ot:ottTaxonName=Celeus grammicus,^ot:originalLabel=Celeus_grammicus_1,^clo:ClementsTaxonName2019=Celeus grammicus,^clo:speciescode2019=scbwoo5])node25)node21,(otu14[&otu=otu14,^ot:ottId=724960,^ot:ottTaxonName=Celeus castaneus,^ot:originalLabel=Celeus_castaneus_2,^clo:ClementsTaxonName2019=Celeus castaneus,^clo:speciescode2019=chcwoo1],otu13[&otu=otu13,^ot:ottId=724960,^ot:ottTaxonName=Celeus castaneus,^ot:originalLabel=Celeus_castaneus_1,^clo:ClementsTaxonName2019=Celeus castaneus,^clo:speciescode2019=chcwoo1])node28)node20,(((otu17[&otu=otu17,^ot:ottId=983476,^ot:ottTaxonName=Celeus spectabilis,^ot:originalLabel=Celeus_spectabilis_1,^clo:ClementsTaxonName2019=Celeus spectabilis,^clo:speciescode2019=ruhwoo1],otu18[&otu=otu18,^ot:ottId=983476,^ot:ottTaxonName=Celeus spectabilis,^ot:originalLabel=Celeus_spectabilis_2,^clo:ClementsTaxonName2019=Celeus spectabilis,^clo:speciescode2019=ruhwoo1])node36,otu19[&otu=otu19,^ot:ottId=724964,^ot:ottTaxonName=Celeus obrieni,^ot:originalLabel=Celeus_obrieni,^clo:ClementsTaxonName2019=Celeus obrieni,^clo:speciescode2019=caawoo1])node35,(otu15[&otu=otu15,^ot:ottId=524497,^ot:ottTaxonName=Celeus flavus,^ot:originalLabel=Celeus_flavus_1,^clo:ClementsTaxonName2019=Celeus flavus,^clo:speciescode2019=crcwoo2],otu16[&otu=otu16,^ot:ottId=524497,^ot:ottTaxonName=Celeus flavus,^ot:originalLabel=Celeus_flavus_2,^clo:ClementsTaxonName2019=Celeus flavus,^clo:speciescode2019=crcwoo2])node32)node31)node19,(((otu5[&otu=otu5,^ot:ottId=704537,^ot:ottTaxonName=Celeus flavescens,^ot:originalLabel=Celeus_flavescens_1,^clo:ClementsTaxonName2019=Celeus flavescens,^clo:speciescode2019=blcwoo4],otu6[&otu=otu6,^ot:ottId=704537,^ot:ottTaxonName=Celeus flavescens,^ot:originalLabel=Celeus_flavescens_2,^clo:ClementsTaxonName2019=Celeus flavescens,^clo:speciescode2019=blcwoo4])node13,((otu3[&otu=otu3,^ot:ottId=724183,^ot:ottTaxonName=Celeus elegans,^ot:originalLabel=Celeus_elegans_1,^clo:ClementsTaxonName2019=Celeus elegans,^clo:speciescode2019=chewoo2],otu4[&otu=otu4,^ot:ottId=724183,^ot:ottTaxonName=Celeus elegans,^ot:originalLabel=Celeus_elegans_2,^clo:ClementsTaxonName2019=Celeus elegans,^clo:speciescode2019=chewoo2])node10,(otu2[&otu=otu2,^ot:ottId=499951,^ot:ottTaxonName=Celeus lugubris,^ot:originalLabel=Celeus_lugubris_2,^clo:ClementsTaxonName2019=Celeus lugubris,^clo:speciescode2019=pacwoo1],otu1[&otu=otu1,^ot:ottId=499951,^ot:ottTaxonName=Celeus lugubris,^ot:originalLabel=Celeus_lugubris_1,^clo:ClementsTaxonName2019=Celeus lugubris,^clo:speciescode2019=pacwoo1])node7)node6)node5,(otu7[&otu=otu7,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Celeus_ochraceus_1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu8[&otu=otu8,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Celeus_ochraceus_2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node16)node4)node3,((otu20[&otu=otu20,^ot:ottId=704541,^ot:ottTaxonName=Celeus loricatus,^ot:originalLabel=Celeus_loricatus_1,^clo:ClementsTaxonName2019=Celeus loricatus,^clo:speciescode2019=cinwoo1],otu21[&otu=otu21,^ot:ottId=704541,^ot:ottTaxonName=Celeus loricatus,^ot:originalLabel=Celeus_loricatus_2,^clo:ClementsTaxonName2019=Celeus loricatus,^clo:speciescode2019=cinwoo1])node41,(otu23[&otu=otu23,^ot:ottId=724968,^ot:ottTaxonName=Celeus torquatus,^ot:originalLabel=Celeus_torquatus_2,^clo:ClementsTaxonName2019=Celeus torquatus,^clo:speciescode2019=rinwoo1],otu22[&otu=otu22,^ot:ottId=724968,^ot:ottTaxonName=Celeus torquatus,^ot:originalLabel=Celeus_torquatus_1,^clo:ClementsTaxonName2019=Celeus torquatus,^clo:speciescode2019=rinwoo1])node44)node40)node2,(otu24[&otu=otu24,^ot:ottId=290738,^ot:ottTaxonName=Dryocopus lineatus,^ot:originalLabel=Dryocopus_lineatus,^clo:ClementsTaxonName2019=Dryocopus lineatus,^clo:speciescode2019=linwoo1],otu25[&otu=otu25,^ot:ottId=149826,^ot:ottTaxonName=Piculus chrysochloros,^ot:originalLabel=Piculus_chrysochloros,^clo:ClementsTaxonName2019=Piculus chrysochloros,^clo:speciescode2019=gogwoo1])node47)node1;
+END;
+

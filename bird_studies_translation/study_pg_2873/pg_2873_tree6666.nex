@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu427116
+        otu427117
+        otu427115
+        otu427118
+        otu427119
+        otu427123
+        otu427122
+        otu427121
+        otu427120
+        otu427125
+        otu427124
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=467879,nearestTaxonMRCAName=Certhia,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](((((otu427118[&otu=otu427118,^ot:ottId=856525,^ot:ottTaxonName=Certhia hodgsoni,^ot:originalLabel=Certhia_hodgsoni,^clo:ClementsTaxonName2019=Certhia hodgsoni,^clo:speciescode2019=eurtre3],otu427117[&otu=otu427117,^ot:ottId=1007196,^ot:ottTaxonName=Certhia familiaris,^ot:originalLabel=Certhia_familiaris,^clo:ClementsTaxonName2019=Certhia familiaris,^clo:speciescode2019=eurtre1])node1162121,(otu427116[&otu=otu427116,^ot:ottId=1007172,^ot:ottTaxonName=Certhia brachydactyla,^ot:originalLabel=Certhia_brachydactyla,^clo:ClementsTaxonName2019=Certhia brachydactyla,^clo:speciescode2019=shttre1],otu427115[&otu=otu427115,^ot:ottId=697024,^ot:ottTaxonName=Certhia americana,^ot:originalLabel=Certhia_americana,^clo:ClementsTaxonName2019=Certhia americana,^clo:speciescode2019=brncre])node1162118)node1162117,((otu427120[&otu=otu427120,^ot:ottId=737469,^ot:ottTaxonName=Certhia nipalensis,^ot:originalLabel=Certhia_nipalensis,^clo:ClementsTaxonName2019=Certhia nipalensis,^clo:speciescode2019=ruftre4],otu427121[&otu=otu427121,^ot:ottId=856513,^ot:ottTaxonName=Certhia tianquanensis,^ot:originalLabel=Certhia_tianquanensis,^clo:ClementsTaxonName2019=Certhia tianquanensis,^clo:speciescode2019=sictre1])node1162126,(otu427122[&otu=otu427122,^ot:ottId=856514,^ot:ottTaxonName=Certhia discolor,^ot:originalLabel=Certhia_discolor,^clo:ClementsTaxonName2019=Certhia discolor,^clo:speciescode2019=bnttre1],otu427123[&otu=otu427123,^ot:ottId=856515,^ot:ottTaxonName=Certhia manipurensis,^ot:originalLabel=Certhia_manipurensis,^clo:ClementsTaxonName2019=Certhia manipurensis,^clo:speciescode2019=bnttre2])node1162129)node1162125,otu427119[&otu=otu427119,^ot:ottId=856520,^ot:ottTaxonName=Certhia himalayana,^ot:originalLabel=Certhia_himalayana,^clo:ClementsTaxonName2019=Certhia himalayana,^clo:speciescode2019=battre1])node1162116)node1162115,(otu427125[&otu=otu427125,^ot:ottId=82242,^ot:ottTaxonName=Sitta europaea,^ot:originalLabel=Sitta_europaea,^clo:ClementsTaxonName2019=Sitta europaea,^clo:speciescode2019=eurnut2],otu427124[&otu=otu427124,^ot:ottId=259813,^ot:ottTaxonName=Troglodytes troglodytes,^ot:originalLabel=Troglodytes_troglodytes,^clo:ClementsTaxonName2019=Troglodytes troglodytes,^clo:speciescode2019=winwre4])node1162132)'tree6666_ROOT';
+END;
+

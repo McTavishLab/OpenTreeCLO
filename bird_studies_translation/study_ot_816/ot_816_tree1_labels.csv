@@ -1,0 +1,87 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu76	Hydrophasianus chirurgus	phtjac1	Hydrophasianus_chirurgus	977453	Hydrophasianus chirurgus
+otu77	Jacana jacana	watjac1	Jacana_jacana	332005	Jacana jacana
+otu75	Actophilornis africanus	afrjac1	Actophilornis_africanus	977428	Actophilornis africanus
+otu73	Irediparra gallinacea	cocjac1	Irediparra_gallinacea	332002	Irediparra gallinacea
+otu74	Microparra capensis	lesjac1	Microparra_capensis	5272	Microparra capensis
+otu78	Rostratula benghalensis	grpsni1	Rostratula_benghalensis	5276	Rostratula benghalensis
+otu79	Nycticryphes semicollaris	soapas1	Rostratula_semicollaris	953621	Nycticryphes semicollaris
+otu81	Attagis malouinus	whbsee2	Attagis_malouinus	417274	Attagis malouinus
+otu80	Attagis gayi	rubsee2	Attagis_gayi	427704	Attagis gayi
+otu82	Thinocorus orbignyianus	gybsee1	Thinocorus_orbignyianus	628490	Thinocorus orbignyianus
+otu83	Thinocorus rumicivorus	leasee1	Thinocorus_rumicivorus	481916	Thinocorus rumicivorus
+otu84	Pedionomus torquatus	plawan1	Pedionomus_torquatus	163953	Pedionomus torquatus
+otu68	Numenius minutus	litcur	Numenius_minutus	651069	Numenius minutus
+otu67	Numenius americanus	lobcur	Numenius_americanus	808998	Numenius americanus
+otu65	Numenius arquata	eurcur	Numenius_arquata	971518	Numenius arquata
+otu66	Numenius madagascariensis	faecur	Numenius_madagascariensis	341976	Numenius madagascariensis
+otu70	Numenius phaeopus variegatus	whimbr2	Numenius_phaeopus_variegatus	821660	Numenius phaeopus variegatus
+otu69	Numenius phaeopus hudsonicus	whimbr3	Numenius_phaeopus_hudsonicus	821655	Numenius hudsonicus
+otu71	Numenius tahitiensis	brtcur	Numenius_tahitiensis	425437	Numenius tahitiensis
+otu72	Bartramia longicauda	uplsan	Bartramia_longicauda	654835	Bartramia longicauda
+otu58	Arenaria interpres	rudtur	Arenaria_interpres	821753	Arenaria interpres
+otu59	Arenaria melanocephala	blktur	Arenaria_melanocephala	654830	Arenaria melanocephala
+otu42	Calidris maritima	pursan	Calidris_maritima	855479	Calidris maritima
+otu43	Calidris ptilocnemis	rocsan	Calidris_ptilocnemis	236664	Calidris ptilocnemis
+otu44	Calidris alpina	dunlin	Calidris_alpina	887705	Calidris alpina
+otu45	Calidris alba	sander	Calidris_alba	654824	Calidris alba
+otu41	Calidris bairdii	baisan	Calidris_bairdii	654826	Calidris bairdii
+otu40	Calidris minuta	litsti	Calidris_minuta	271793	Calidris minuta
+otu39	Calidris minutilla	leasan	Calidris_minutilla	654822	Calidris minutilla
+otu38	Calidris fuscicollis	whrsan	Calidris_fuscicollis	234673	Calidris fuscicollis
+otu35	Calidris mauri	wessan	Calidris_mauri	234671	Calidris mauri
+otu34	Calidris pusilla	semsan	Calidris_pusilla	1092981	Calidris pusilla
+otu36	Calidris melanotos	pecsan	Calidris_melanotos	57825	Calidris melanotos
+otu37	Calidris subruficollis	bubsan	Tryngites_subruficollis	808996	Tryngites subruficollis
+otu48	Calidris subminuta	lotsti	Calidris_subminuta	271794	Calidris subminuta
+otu49	Calidris temminckii	temsti	Calidris_temminckii	149072	Calidris temminckii
+otu47	Calidris pygmaea	spbsan1	Eurynorhynchus_pygmeus	180487	Eurynorhynchus pygmeus
+otu46	Calidris ruficollis	rensti	Calidris_ruficollis	24121	Calidris ruficollis
+otu51	Calidris himantopus	stisan	Calidris_himantopus	633931	Calidris himantopus
+otu50	Calidris ferruginea	cursan	Calidris_ferruginea	236666	Calidris ferruginea
+otu52	Calidris acuminata	shtsan	Calidris_acuminata	768489	Calidris acuminata
+otu53	Calidris falcinellus	brbsan	Limicola_falcinellus	651066	Limicola falcinellus
+otu54	Calidris pugnax	ruff	Philomachus_pugnax	1090732	Calidris pugnax
+otu55	no_match	no_match	Aphriza_virgata	654828	Aphriza virgata
+otu56	Calidris canutus	redkno	Calidris_canutus	214779	Calidris canutus
+otu57	Calidris tenuirostris	grekno	Calidris_tenuirostris	341981	Calidris tenuirostris
+otu18	Phalaropus tricolor	wilpha	Phalaropus_tricolor	214789	Phalaropus tricolor
+otu16	Phalaropus fulicarius	redpha1	Phalaropus_fulicaria	809003	Phalaropus fulicaria
+otu17	Phalaropus lobatus	renpha	Phalaropus_lobatus	57821	Phalaropus lobatus
+otu19	Xenus cinereus	tersan	Xenus_cinereus	917049	Xenus cinereus
+otu7	Tringa semipalmata	willet1	Catoptrophorus_semipalmatus	446288	Tringa semipalmata
+otu8	Tringa flavipes	lesyel	Tringa_flavipes	55408	Tringa flavipes
+otu1	Tringa melanoleuca	greyel	Tringa_melanoleuca	304017	Tringa melanoleuca
+otu2	Tringa nebularia	comgre	Tringa_nebularia	917055	Tringa nebularia
+otu3	Tringa erythropus	spored	Tringa_erythropus	596861	Tringa erythropus
+otu4	Tringa stagnatilis	marsan	Tringa_stagnatilis	1030678	Tringa stagnatilis
+otu5	Tringa glareola	woosan	Tringa_glareola	341975	Tringa glareola
+otu6	Tringa totanus	comred1	Tringa_totanus	917056	Tringa totanus
+otu10	Tringa incana	wantat1	Heteroscelus_incanus	596104	Tringa incana
+otu9	Tringa brevipes	gyttat1	Heteroscelus_brevipes	596102	Tringa brevipes
+otu11	Tringa solitaria cinnamomea	solsan2	Tringa_solitaria_cinnamomea	5223316	Tringa solitaria cinnamomea
+otu12	Tringa solitaria solitaria	solsan1	Tringa_solitaria_solitaria	5223315	Tringa solitaria solitaria
+otu13	Tringa ochropus	grnsan	Tringa_ochropus	165976	Tringa ochropus
+otu14	Actitis hypoleucos	comsan	Actitis_hypoleucos	792983	Actitis hypoleucos
+otu15	Actitis macularius	sposan	Actitis_macularius	810558	Actitis macularia
+otu28	Gallinago imperialis	impsni1	Gallinago_imperialis	565611	Gallinago imperialis
+otu27	Coenocorypha pusilla	chisni1	Coenocorypha_pusilla	448964	Coenocorypha pusilla
+otu26	Coenocorypha aucklandica	subsni1	Coenocorypha_aucklandica	180482	Coenocorypha aucklandica
+otu22	Gallinago nigripennis	afrsni1	Gallinago_nigripennis	512604	Gallinago nigripennis
+otu20	Gallinago delicata	wilsni1	Gallinago_delicata	234669	Gallinago delicata
+otu21	Gallinago gallinago	comsni	Gallinago_gallinago	615378	Gallinago gallinago
+otu23	Gallinago paraguaiae	soasni1	Gallinago_paraguaiae	943096	Gallinago paraguaiae
+otu25	Gallinago stenura	pitsni	Gallinago_stenura	45306	Gallinago stenura
+otu24	Gallinago media	gresni1	Gallinago_media	848007	Gallinago media
+otu30	Scolopax rusticola	eurwoo	Scolopax_rusticola	1010551	Scolopax rusticola
+otu29	Scolopax minor	amewoo	Scolopax_minor	244702	Scolopax minor
+otu31	Limnodromus griseus	shbdow	Limnodromus_griseus	234683	Limnodromus griseus
+otu32	Limnodromus scolopaceus	lobdow	Limnodromus_scolopaceus	530284	Limnodromus scolopaceus
+otu33	Limnodromus semipalmatus	asidow1	Limnodromus_semipalmatus	565604	Limnodromus semipalmatus
+otu64	Limosa lapponica	batgod	Limosa_lapponica	304018	Limosa lapponica
+otu62	Limosa limosa islandica	bktgod1	Limosa_limosa_islandica	279299	Limosa limosa islandica
+otu63	Limosa limosa melanuroides	bktgod3	Limosa_limosa_melanuroides	763654	Limosa limosa melanuroides
+otu61	Limosa haemastica	hudgod	Limosa_haemastica	413324	Limosa haemastica
+otu60	Limosa fedoa	margod	Limosa_fedoa	413323	Limosa fedoa
+otu85	Sterna hirundo	comter	Sterna_hirundo	1057459	Sterna hirundo
+otu86	Rynchops niger	blkski	Rynchops_niger	738512	Rynchops niger

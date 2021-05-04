@@ -1,0 +1,36 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu3	no_match	no_match	Rhea	857863	Rhea
+otu6	no_match	no_match	Branta	714463	Branta
+otu7	no_match	no_match	Bonasa	684039	Bonasa
+otu8	no_match	no_match	Gallus	153562	Gallus
+otu9	no_match	no_match	Meleagris	446481	Meleagris
+otu14	no_match	no_match	Phalacrocorax	322277	Phalacrocorax
+otu13	no_match	no_match	Diomedea	379419	Diomedea (genus in Opisthokonta)
+otu12	no_match	no_match	Grus	414354	Grus
+otu11	no_match	no_match	Larus	887695	Larus
+otu22	no_match	no_match	Vireo	604021	Vireo
+otu21	no_match	no_match	Cyanocitta	30735	Cyanocitta
+otu26	no_match	no_match	Turdus	568571	Turdus
+otu25	no_match	no_match	Sitta	603922	Sitta
+otu24	no_match	no_match	Dumetella	658836	Dumetella
+otu35	no_match	no_match	Icterus	839105	Icterus
+otu34	no_match	no_match	Quiscalus	743410	Quiscalus
+otu37	no_match	no_match	Vermivora	150638	Vermivora
+otu36	no_match	no_match	Dendroica	285198	Setophaga
+otu33	no_match	no_match	Piranga	714800	Piranga
+otu32	no_match	no_match	Cardinalis	489153	Cardinalis (genus in Opisthokonta)
+otu31	no_match	no_match	Pheucticus	370810	Pheucticus
+otu27	no_match	no_match	Carduelis	28348	Carduelis
+otu28	no_match	no_match	Spizella	463028	Spizella
+otu29	no_match	no_match	Passerella	789027	Passerella
+otu30	no_match	no_match	Zonotrichia	789032	Zonotrichia (genus in domain Eukaryota)
+otu23	no_match	no_match	Poecile	119892	Poecile
+otu15	no_match	no_match	Colaptes	1020136	Colaptes
+otu16	Accipiter cooperii	coohaw	AccipiterCooperi	764598	Accipiter cooperii
+otu17	Accipiter striatus	shshaw	AccipiterStriatus	1015194	Accipiter striatus
+otu18	no_match	no_match	Bubo	402451	Bubo
+otu19	no_match	no_match	Aegolius	509848	Aegolius
+otu20	no_match	no_match	Megascops	181710	Megascops
+otu10	no_match	no_match	Zenaida	1092651	Zenaida
+otu4	no_match	no_match	Dromaius	283193	Dromaius
+otu5	no_match	no_match	Struthio	292466	Struthio

@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+        otu407053
+        otu407050
+        otu407039
+        otu407052
+        otu407054
+        otu407038
+        otu407055
+        otu407046
+        otu407047
+        otu407044
+        otu407045
+        otu407042
+        otu407043
+        otu407040
+        otu407041
+        otu407037
+        otu407051
+        otu407048
+        otu407049
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig.2_ = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu407040:0.143258[&otu=otu407040,^ot:ottId=464697,^ot:ottTaxonName=Balaeniceps rex,^ot:originalLabel=Balaeniceps_rex,^clo:ClementsTaxonName2019=Balaeniceps rex,^clo:speciescode2019=shoebi1],((otu407050:0.039745[&otu=otu407050,^ot:ottId=316989,^ot:ottTaxonName=Pelecanus erythrorhynchos,^ot:originalLabel=Pelecanus_erythrorhynchos,^clo:ClementsTaxonName2019=Pelecanus erythrorhynchos,^clo:speciescode2019=amwpel],((otu407055:0.00022800000000000598[&otu=otu407055,^ot:ottId=613206,^ot:ottTaxonName=Pelecanus thagus,^ot:originalLabel=Pelecanus_thagus_Peru44,^clo:ClementsTaxonName2019=Pelecanus thagus,^clo:speciescode2019=perpel1],otu407054:0.00023300000000001098[&otu=otu407054,^ot:ottId=613206,^ot:ottTaxonName=Pelecanus thagus,^ot:originalLabel=Pelecanus_thagus_Chile31,^clo:ClementsTaxonName2019=Pelecanus thagus,^clo:speciescode2019=perpel1])node1096161:0.0043400000000000105,((otu407053:0.00021299999999999097[&otu=otu407053,^ot:ottId=901990,^ot:ottTaxonName=Pelecanus occidentalis californicus,^ot:originalLabel=Pelecanus_occidentalis_californicus_91010,^clo:ClementsTaxonName2019=Pelecanus occidentalis californicus,^clo:speciescode2019=brnpel3],otu407052:0.0006680000000000019[&otu=otu407052,^ot:ottId=901990,^ot:ottTaxonName=Pelecanus occidentalis californicus,^ot:originalLabel=Pelecanus_occidentalis_californicus_90541,^clo:ClementsTaxonName2019=Pelecanus occidentalis californicus,^clo:speciescode2019=brnpel3])node1096158:0.0005419999999999869,otu407051:0.0010699999999999876[&otu=otu407051,^ot:ottId=901992,^ot:ottTaxonName=Pelecanus occidentalis carolinensis,^ot:originalLabel=Pelecanus_occidentalis_carolinensis,^clo:ClementsTaxonName2019=Pelecanus occidentalis carolinensis,^clo:speciescode2019=brnpel2])node1096156:0.008116000000000012)node1096155:0.03135399999999999)node1096153:0.021876000000000007,((otu407049:0.00022600000000000398[&otu=otu407049,^ot:ottId=427899,^ot:ottTaxonName=Pelecanus onocrotalus,^ot:originalLabel=Pelecanus_onocrotalus_302006,^clo:ClementsTaxonName2019=Pelecanus onocrotalus,^clo:speciescode2019=grwpel1],otu407048:0.00021099999999998897[&otu=otu407048,^ot:ottId=427899,^ot:ottTaxonName=Pelecanus onocrotalus,^ot:originalLabel=Pelecanus_onocrotalus_302009,^clo:ClementsTaxonName2019=Pelecanus onocrotalus,^clo:speciescode2019=grwpel1])node1096150:0.04327400000000001,(otu407041:0.028729000000000005[&otu=otu407041,^ot:ottId=986358,^ot:ottTaxonName=Pelecanus conspicillatus,^ot:originalLabel=Pelecanus_conspicillatus,^clo:ClementsTaxonName2019=Pelecanus conspicillatus,^clo:speciescode2019=auspel1],((otu407047:0.00021799999999999597[&otu=otu407047,^ot:ottId=901986,^ot:ottTaxonName=Pelecanus rufescens,^ot:originalLabel=Pelecanus_rufescens_418010,^clo:ClementsTaxonName2019=Pelecanus rufescens,^clo:speciescode2019=pibpel1],otu407046:0.00021199999999998997[&otu=otu407046,^ot:ottId=901986,^ot:ottTaxonName=Pelecanus rufescens,^ot:originalLabel=Pelecanus_rufescens_418009,^clo:ClementsTaxonName2019=Pelecanus rufescens,^clo:speciescode2019=pibpel1])node1096147:0.007484999999999992,((otu407044:0.00045500000000001095[&otu=otu407044,^ot:ottId=438402,^ot:ottTaxonName=Pelecanus philippensis,^ot:originalLabel=Pelecanus_philippensis_594006,^clo:ClementsTaxonName2019=Pelecanus philippensis,^clo:speciescode2019=spbpel1],otu407045:0.0006049999999999944[&otu=otu407045,^ot:ottId=438402,^ot:ottTaxonName=Pelecanus philippensis,^ot:originalLabel=Pelecanus_philippensis_594001,^clo:ClementsTaxonName2019=Pelecanus philippensis,^clo:speciescode2019=spbpel1])node1096144:0.005491999999999997,(otu407043:0.00045600000000001195[&otu=otu407043,^ot:ottId=427900,^ot:ottTaxonName=Pelecanus crispus,^ot:originalLabel=Pelecanus_crispus_303018,^clo:ClementsTaxonName2019=Pelecanus crispus,^clo:speciescode2019=dalpel1],otu407042:0.00023999999999999022[&otu=otu407042,^ot:ottId=427900,^ot:ottTaxonName=Pelecanus crispus,^ot:originalLabel=Pelecanus_crispus_303005,^clo:ClementsTaxonName2019=Pelecanus crispus,^clo:speciescode2019=dalpel1])node1096141:0.006207999999999991)node1096140:0.002836000000000005)node1096139:0.021632999999999986)node1096137:0.02648600000000001)node1096136:0.006530000000000008)node1096135:0.124494)node1096133:0.05734600000000001,((otu407038:0.130058[&otu=otu407038,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1],otu407039:0.206942[&otu=otu407039,^ot:ottId=9838,^ot:ottTaxonName=Phalacrocorax melanoleucos,^ot:originalLabel=Phalacrocorax_melanoleucos,^clo:ClementsTaxonName2019=Microcarbo melanoleucos,^clo:speciescode2019=lipcor1])node1096130:0.05440500000000001,otu407037:0.130263[&otu=otu407037,^ot:ottId=330000,^ot:ottTaxonName=Fregata magnificens,^ot:originalLabel=Fregata_magnificens,^clo:ClementsTaxonName2019=Fregata magnificens,^clo:speciescode2019=magfri])node1096128:0.028673)node1096127;
+END;
+

@@ -1,0 +1,61 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=49;
+    TAXLABELS
+        Nestor_notabilis
+        Strigops_habroptilus
+        otu415315
+        Calyptorhynchus_banksii
+        otu415318
+        Bolbopsittacus_lunulatus
+        otu415279
+        otu415276
+        otu415277
+        Myiopsitta_monachus
+        otu415316
+        Psittacula_columboides
+        otu415310
+        otu415313
+        Tanygnathus_lucionensis
+        otu417466
+        Poicephalus_robustus
+        Purpureicephalus_spurius
+        Northiella_haematogaster
+        Psephotus_haematonotus
+        otu415293
+        Cyanoramphus_novaezelandiae
+        Eunymphicus_uvaeensis
+        Prosopeia_tabuensis
+        otu415297
+        otu415298
+        otu415299
+        otu415320
+        Eolophus_roseicapillus
+        otu415308
+        otu415309
+        otu415306
+        Polytelis_anthopeplus
+        otu415304
+        otu415305
+        otu415302
+        otu415303
+        Cyclopsitta_diophthalma
+        otu415301
+        Psephotus_varius
+        otu415288
+        Platycercus_elegans
+        otu415286
+        Barnardius_zonarius
+        Barnardius_barnardi
+        otu415283
+        otu415282
+        Pezoporus_flaviventris
+        otu415280
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig.2_Bayesian_consensus = [&unrootedTree=True,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((((otu415318:0.055166[&otu=otu415318,^ot:ottId=412123,^ot:ottTaxonName=Psittrichas fulgidus,^ot:originalLabel=Psittrichas_fulgidus,^clo:ClementsTaxonName2019=Psittrichas fulgidus,^clo:speciescode2019=pespar1],otu415316:0.063954[&otu=otu415316,^ot:ottId=48860,^ot:ottTaxonName=Coracopsis vasa,^ot:originalLabel=Coracopsis_vasa,^clo:ClementsTaxonName2019=Coracopsis vasa,^clo:speciescode2019=vaspar1])node1133119:0.005215,(((((otu415309:0.032326[&otu=otu415309,^ot:ottId=375776,^ot:ottTaxonName=Eclectus roratus,^ot:originalLabel=Eclectus_roratus,^clo:ClementsTaxonName2019=Eclectus roratus,^clo:speciescode2019=eclpar],otu415310:0.023388[&otu=otu415310,^ot:ottId=717631,^ot:ottTaxonName=Geoffroyus heteroclitus,^ot:originalLabel=Geoffroyus_heteroclitus,^clo:ClementsTaxonName2019=Geoffroyus heteroclitus,^clo:speciescode2019=sinpar1])node1133114:0.022406,otu415313:0.048195[&otu=otu415313,^ot:ottId=771954,^ot:ottTaxonName=Prioniturus luconensis,^ot:originalLabel=Prioniturus_luconensis,^clo:ClementsTaxonName2019=Prioniturus luconensis,^clo:speciescode2019=grrtai1])node1133113:0.007936,(otu415306:0.019985[&otu=otu415306,^ot:ottId=435948,^ot:ottTaxonName=Polytelis alexandrae,^ot:originalLabel=Polytelis_alexandrae,^clo:ClementsTaxonName2019=Polytelis alexandrae,^clo:speciescode2019=alepar1],(otu415304:0.026899[&otu=otu415304,^ot:ottId=108562,^ot:ottTaxonName=Alisterus amboinensis,^ot:originalLabel=Alisterus_amboinensis,^clo:ClementsTaxonName2019=Alisterus amboinensis,^clo:speciescode2019=mokpar1],otu415305:0.025552[&otu=otu415305,^ot:ottId=417916,^ot:ottTaxonName=Aprosmictus erythropterus,^ot:originalLabel=Aprosmictus_erythropterus,^clo:ClementsTaxonName2019=Aprosmictus erythropterus,^clo:speciescode2019=rewpar1])node1133109:0.00315)node1133108:0.03058)node1133107:0.005394,otu415308:0.071266[&otu=otu415308,^ot:ottId=989085,^ot:ottTaxonName=Micropsitta finschii,^ot:originalLabel=Micropsitta_finschii,^clo:ClementsTaxonName2019=Micropsitta finschii,^clo:speciescode2019=fippar1])node1133106:0.008175,((otu415303:0.031277[&otu=otu415303,^ot:ottId=225201,^ot:ottTaxonName=Psittacella picta,^ot:originalLabel=Psittacella_picta,^clo:ClementsTaxonName2019=Psittacella picta,^clo:speciescode2019=patpar1],otu415302:0.023627[&otu=otu415302,^ot:ottId=706779,^ot:ottTaxonName=Psittacella brehmii,^ot:originalLabel=Psittacella_brehmii,^clo:ClementsTaxonName2019=Psittacella brehmii,^clo:speciescode2019=brtpar2])node1133103:0.03921,((((otu415288:0.032159[&otu=otu415288,^ot:ottId=638634,^ot:ottTaxonName=Psephotus dissimilis,^ot:originalLabel=Psephotus_dissimilis,^clo:ClementsTaxonName2019=Psephotus dissimilis,^clo:speciescode2019=hoopar1],otu415286:0.025517[&otu=otu415286,^ot:ottId=771955,^ot:ottTaxonName=Platycercus adscitus,^ot:originalLabel=Platycercus_adscitus,^clo:ClementsTaxonName2019=Platycercus adscitus,^clo:speciescode2019=pahros1])node1133091:0.023438,(otu415297:0.024289[&otu=otu415297,^ot:ottId=58949,^ot:ottTaxonName=Lathamus discolor,^ot:originalLabel=Lathamus_discolor,^clo:ClementsTaxonName2019=Lathamus discolor,^clo:speciescode2019=swipar1],otu415293:0.039934[&otu=otu415293,^ot:ottId=818314,^ot:ottTaxonName=Cyanoramphus auriceps,^ot:originalLabel=Cyanoramphus_auriceps,^clo:ClementsTaxonName2019=Cyanoramphus auriceps,^clo:speciescode2019=yefpar3])node1133088:0.016829)node1133087:0.036921,((otu415283:0.019281[&otu=otu415283,^ot:ottId=1068646,^ot:ottTaxonName=Pezoporus occidentalis,^ot:originalLabel=Pezoporus_occidentalis,^clo:ClementsTaxonName2019=Pezoporus occidentalis,^clo:speciescode2019=nigpar2],(otu417466:0.009339[&otu=otu417466,^ot:ottId=37182,^ot:ottTaxonName=Pezoporus wallicus flaviventris,^ot:originalLabel=Pezoporus_wallicus_flaviventris,^clo:ClementsTaxonName2019=Pezoporus wallicus flaviventris,^clo:speciescode2019=gropar2],otu415282:0.006273[&otu=otu415282,^ot:ottId=512908,^ot:ottTaxonName=Pezoporus wallicus,^ot:originalLabel=Pezoporus_wallicus,^clo:ClementsTaxonName2019=Pezoporus wallicus,^clo:speciescode2019=gropar1])node1133080:0.013462)node1133079:0.035258,(otu415280:0.049211[&otu=otu415280,^ot:ottId=108574,^ot:ottTaxonName=Neopsephotus bourkii,^ot:originalLabel=Neopsephotus_bourkii,^clo:ClementsTaxonName2019=Neophema bourkii,^clo:speciescode2019=boupar2],otu415279:0.061049[&otu=otu415279,^ot:ottId=651479,^ot:ottTaxonName=Neophema elegans,^ot:originalLabel=Neophema_elegans,^clo:ClementsTaxonName2019=Neophema elegans,^clo:speciescode2019=elepar1])node1133084:0.014679)node1133078:0.009867)node1133077:0.002809,((otu415301:0.041637[&otu=otu415301,^ot:ottId=995021,^ot:ottTaxonName=Psittaculirostris edwardsii,^ot:originalLabel=Psittaculirostris_edwardsii,^clo:ClementsTaxonName2019=Psittaculirostris edwardsii,^clo:speciescode2019=edfpar1],(otu415299:0.050989[&otu=otu415299,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger],otu415298:0.036282[&otu=otu415298,^ot:ottId=417923,^ot:ottTaxonName=Chalcopsitta duivenbodei,^ot:originalLabel=Chalcopsitta_duivenbodei,^clo:ClementsTaxonName2019=Chalcopsitta duivenbodei,^clo:speciescode2019=brolor1])node1133096:0.006064)node1133095:0.025747,(otu415277:0.066548[&otu=otu415277,^ot:ottId=697455,^ot:ottTaxonName=Loriculus galgulus,^ot:originalLabel=Loriculus_galgulus,^clo:ClementsTaxonName2019=Loriculus galgulus,^clo:speciescode2019=bchpar1],otu415276:0.088201[&otu=otu415276,^ot:ottId=174401,^ot:ottTaxonName=Agapornis roseicollis,^ot:originalLabel=Agapornis_roseicollis,^clo:ClementsTaxonName2019=Agapornis roseicollis,^clo:speciescode2019=peflov])node1133100:0.016367)node1133094:0.004535)node1133076:0.002233)node1133075:0.006317)node1133074:0.005681)node1133073:0.003472,otu415315:0.10044[&otu=otu415315,^ot:ottId=285641,^ot:ottTaxonName=Psittacus erithacus,^ot:originalLabel=Psittacus_erithacus,^clo:ClementsTaxonName2019=Psittacus erithacus,^clo:speciescode2019=grepar])node1133072:0.0446595,otu415320:0.089319[&otu=otu415320,^ot:ottId=817586,^ot:ottTaxonName=Calyptorhynchus funereus,^ot:originalLabel=Calyptorhynchus_funereus,^clo:ClementsTaxonName2019=Calyptorhynchus funereus,^clo:speciescode2019=ytbcoc1])node1133071;
+END;
+

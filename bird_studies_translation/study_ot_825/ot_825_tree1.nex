@@ -1,0 +1,37 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=3597211,^ot:ottTaxonName=Setophaga citrina,^ot:originalLabel=Wilsonia_citrina,^clo:ClementsTaxonName2019=Setophaga citrina,^clo:speciescode2019=hoowar],(otu2[&otu=otu2,^ot:ottId=285200,^ot:ottTaxonName=Setophaga ruticilla,^ot:originalLabel=Setophaga_ruticilla,^clo:ClementsTaxonName2019=Setophaga ruticilla,^clo:speciescode2019=amered],(otu3[&otu=otu3,^ot:ottId=3597203,^ot:ottTaxonName=Setophaga kirtlandii,^ot:originalLabel=Dendroica_kirtlandii,^clo:ClementsTaxonName2019=Setophaga kirtlandii,^clo:speciescode2019=kirwar],(((((otu15[&otu=otu15,^ot:ottId=3597202,^ot:ottTaxonName=Setophaga palmarum,^ot:originalLabel=Dendroica_palmarum,^clo:ClementsTaxonName2019=Setophaga palmarum,^clo:speciescode2019=palwar],(otu16[&otu=otu16,^ot:ottId=3597200,^ot:ottTaxonName=Setophaga coronata,^ot:originalLabel=Dendroica_coronata,^clo:ClementsTaxonName2019=Setophaga coronata,^clo:speciescode2019=yerwar],(otu17[&otu=otu17,^ot:ottId=3597194,^ot:ottTaxonName=Setophaga dominica,^ot:originalLabel=Dendroica_dominica,^clo:ClementsTaxonName2019=Setophaga dominica,^clo:speciescode2019=yetwar],otu18[&otu=otu18,^ot:ottId=3597210,^ot:ottTaxonName=Setophaga pinus,^ot:originalLabel=Dendroica_pinus,^clo:ClementsTaxonName2019=Setophaga pinus,^clo:speciescode2019=pinwar])node34)node32)node30,(otu19[&otu=otu19,^ot:ottId=3597197,^ot:ottTaxonName=Setophaga discolor,^ot:originalLabel=Dendroica_discolor,^clo:ClementsTaxonName2019=Setophaga discolor,^clo:speciescode2019=prawar],((otu21[&otu=otu21,^ot:ottId=455853,^ot:ottTaxonName=Setophaga graciae,^ot:originalLabel=Dendroica_graciae,^clo:ClementsTaxonName2019=Setophaga graciae,^clo:speciescode2019=grawar],otu20[&otu=otu20,^ot:ottId=3597216,^ot:ottTaxonName=Setophaga nigrescens,^ot:originalLabel=Dendroica_nigrescens,^clo:ClementsTaxonName2019=Setophaga nigrescens,^clo:speciescode2019=btywar])node40,((otu24[&otu=otu24,^ot:ottId=3597213,^ot:ottTaxonName=Setophaga occidentalis,^ot:originalLabel=Dendroica_occidentalis,^clo:ClementsTaxonName2019=Setophaga occidentalis,^clo:speciescode2019=herwar],otu25[&otu=otu25,^ot:ottId=3597215,^ot:ottTaxonName=Setophaga townsendi,^ot:originalLabel=Dendroica_townsendi,^clo:ClementsTaxonName2019=Setophaga townsendi,^clo:speciescode2019=towwar])node47,(otu23[&otu=otu23,^ot:ottId=3597192,^ot:ottTaxonName=Setophaga chrysoparia,^ot:originalLabel=Dendroica_chrysoparia,^clo:ClementsTaxonName2019=Setophaga chrysoparia,^clo:speciescode2019=gchwar],otu22[&otu=otu22,^ot:ottId=3597195,^ot:ottTaxonName=Setophaga virens,^ot:originalLabel=Dendroica_virens,^clo:ClementsTaxonName2019=Setophaga virens,^clo:speciescode2019=btnwar])node44)node43)node39)node37)node29,otu14[&otu=otu14,^ot:ottId=3597187,^ot:ottTaxonName=Setophaga caerulescens,^ot:originalLabel=Dendroica_caerulescens,^clo:ClementsTaxonName2019=Setophaga caerulescens,^clo:speciescode2019=btbwar])node27,(otu8[&otu=otu8,^ot:ottId=3597209,^ot:ottTaxonName=Setophaga magnolia,^ot:originalLabel=Dendroica_magnolia,^clo:ClementsTaxonName2019=Setophaga magnolia,^clo:speciescode2019=magwar],((otu9[&otu=otu9,^ot:ottId=3597193,^ot:ottTaxonName=Setophaga fusca,^ot:originalLabel=Dendroica_fusca,^clo:ClementsTaxonName2019=Setophaga fusca,^clo:speciescode2019=bkbwar],otu10[&otu=otu10,^ot:ottId=3597188,^ot:ottTaxonName=Setophaga castanea,^ot:originalLabel=Dendroica_castanea,^clo:ClementsTaxonName2019=Setophaga castanea,^clo:speciescode2019=babwar])node19,((otu13[&otu=otu13,^ot:ottId=3597208,^ot:ottTaxonName=Setophaga pensylvanica,^ot:originalLabel=Dendroica_pensylvanica,^clo:ClementsTaxonName2019=Setophaga pensylvanica,^clo:speciescode2019=chswar],otu12[&otu=otu12,^ot:ottId=60236,^ot:ottTaxonName=Setophaga striata,^ot:originalLabel=Dendroica_striata,^clo:ClementsTaxonName2019=Setophaga striata,^clo:speciescode2019=bkpwar])node24,otu11[&otu=otu11,^ot:ottId=612066,^ot:ottTaxonName=Setophaga petechia,^ot:originalLabel=Dendroica_petechia,^clo:ClementsTaxonName2019=Setophaga petechia,^clo:speciescode2019=yelwar])node22)node18)node16)node15,(otu4[&otu=otu4,^ot:ottId=3597199,^ot:ottTaxonName=Setophaga tigrina,^ot:originalLabel=Dendroica_tigrina,^clo:ClementsTaxonName2019=Setophaga tigrina,^clo:speciescode2019=camwar],(otu5[&otu=otu5,^ot:ottId=3597212,^ot:ottTaxonName=Setophaga cerulea,^ot:originalLabel=Dendroica_cerulea,^clo:ClementsTaxonName2019=Setophaga cerulea,^clo:speciescode2019=cerwar],(otu6[&otu=otu6,^ot:ottId=3597189,^ot:ottTaxonName=Setophaga americana,^ot:originalLabel=Parula_americana,^clo:ClementsTaxonName2019=Setophaga americana,^clo:speciescode2019=norpar],otu7[&otu=otu7,^ot:ottId=3597201,^ot:ottTaxonName=Setophaga pitiayumi,^ot:originalLabel=Parula_pitiayumi,^clo:ClementsTaxonName2019=Setophaga pitiayumi,^clo:speciescode2019=tropar])node12)node10)node8)node7)node5)node3)node1;
+END;
+

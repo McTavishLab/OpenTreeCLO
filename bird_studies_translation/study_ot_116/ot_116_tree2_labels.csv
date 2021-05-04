@@ -1,0 +1,89 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu113	no_match	no_match	Strix	427905	Strix
+otu114	no_match	no_match	Pandion	509844	Pandion
+otu116	no_match	no_match	Grus	414354	Grus
+otu131	Nyctibius grandis	grepot1	Nyctibius_grandis	178249	Nyctibius grandis
+otu134	Nyctibius griseus	compot1	Nyctibius_griseus	178242	Nyctibius griseus
+otu135	Nyctibius jamaicensis	norpot1	Nyctibius_jamaicensis	228481	Nyctibius jamaicensis
+otu133	Nyctibius maculosus	andpot1	Nyctibius_maculosus	701553	Nyctibius maculosus
+otu132	Nyctibius leucopterus	whwpot1	Nyctibius_leucopterus	178241	Nyctibius leucopterus
+otu130	Nyctibius aethereus	lotpot1	Nyctibius_aethereus	178251	Nyctibius aethereus
+otu129	Nyctibius bracteatus	rufpot1	Nyctibius_bracteatus	178250	Nyctibius bracteatus
+otu128	no_match	no_match	Hemiprocne	697438	Hemiprocne
+otu127	no_match	no_match	Aerodramus	534819	Aerodramus
+otu122	Aegotheles archboldi	aronig1	Aegotheles_archboldi	705938	Aegotheles archboldi
+otu123	Aegotheles albertisi	moonig1	Aegotheles_albertisi	540030	Aegotheles albertisi
+otu124	Aegotheles wallacii	waonig1	Aegotheles_wallacii	705939	Aegotheles wallacii
+otu119	not_a_bird	not_a_bird	Aegotheles_crinifrons	None	None
+otu120	Aegotheles bennettii	barown1	Aegotheles_bennettii	540032	Aegotheles bennettii
+otu121	Aegotheles cristatus	auonig1	Aegotheles_cristatus	540033	Aegotheles cristatus
+otu126	not_a_bird	not_a_bird	Aegotheles_tatei	None	None
+otu125	not_a_bird	not_a_bird	Aegotheles_insignis	None	None
+otu118	Aegotheles savesi	nconig1	Aegotheles_savesi	705947	Aegotheles savesi
+otu117	no_match	no_match	Aegotheles_novaezealandiae	705942	Aegotheles novaezealandiae
+otu143	Lyncornis macrotis	grenig1	Eurostopodus_macrotis	483809	Eurostopodus macrotis
+otu144	Gactornis enarratus	colnig1	Caprimulgus_enarratus	960274	Caprimulgus enarratus
+otu158	Nyctidromus albicollis	compau	Nyctidromus_albicollis	1014896	Nyctidromus albicollis
+otu159	Nyctidromus anthonyi	scrnig1	Caprimulgus_anthonyi	960269	Caprimulgus anthonyi
+otu157	Uropsalis lyra	lytnig1	Uropsalis_lyra	272734	Uropsalis lyra
+otu156	Uropsalis segmentata	swtnig1	Uropsalis_segmentata	752978	Uropsalis segmentata
+otu155	Setopagis whitelyi	rornig1	Caprimulgus_whitelyi	322677	Caprimulgus whitelyi
+otu154	Eleothreptus candicans	whwnig1	Caprimulgus_candicans	378505	Caprimulgus candicans
+otu153	Eleothreptus anomalus	siwnig1	Eleothreptus_anomalus	903612	Eleothreptus anomalus
+otu152	Systellura longirostris mochaensis	bawnig4	Caprimulgus_longirostris	275133	Caprimulgus longirostris
+otu149	Hydropsalis cayennensis	whtnig1	Caprimulgus_cayennensis	604421	Caprimulgus cayennensis
+otu150	Hydropsalis torquata	sctnig2	Hydropsalis_torquata	317735	Hydropsalis torquata
+otu151	Hydropsalis climacocerca	latnig1	Hydropsalis_climacocerca	624335	Hydropsalis climacocerca
+otu148	Hydropsalis maculicaudus	sptnig1	Caprimulgus_maculicaudus	378496	Caprimulgus maculicaudus
+otu147	Setopagis parvula	litnig1	Caprimulgus_parvulus	624334	Caprimulgus parvulus
+otu146	Nyctipolus nigrescens	blanig1	Caprimulgus_nigrescens	102378	Caprimulgus nigrescens
+otu145	Nyctiprogne leucopyga	batnig1	Nyctiprogne_leucopyga	51270	Nyctiprogne leucopyga
+otu161	Lurocalis rufiventris	rubnig1	Lurocalis_rufiventris	102377	Lurocalis rufiventris
+otu160	Lurocalis semitorquatus	shtnig1	Lurocalis_semitorquatus	51274	Lurocalis semitorquatus
+otu186	Nyctiphrynus rosenbergi	chopoo1	Nyctiphrynus_rosenbergi	847118	Nyctiphrynus rosenbergi
+otu187	Nyctiphrynus mcleodii	earpoo1	Nyctiphrynus_mcleodii	989090	Nyctiphrynus mcleodii
+otu188	Nyctiphrynus yucatanicus	yucpoo1	Nyctiphrynus_yucatanicus	847136	Nyctiphrynus yucatanicus
+otu189	Nyctiphrynus ocellatus	ocepoo1	Nyctiphrynus_ocellatus	51273	Nyctiphrynus ocellatus
+otu190	Phalaenoptilus nuttallii	compoo	Phalaenoptilus_nuttallii	701551	Phalaenoptilus nuttallii
+otu191	Antrostomus vociferus	whip-p1	Caprimulgus_vociferus	1039515	Caprimulgus vociferus
+otu192	Antrostomus saturatus	dusnig1	Caprimulgus_saturatus	219282	Caprimulgus saturatus
+otu196	Antrostomus carolinensis	chwwid	Caprimulgus_carolinensis	416426	Caprimulgus carolinensis
+otu195	Antrostomus rufus	rufnig1	Caprimulgus_rufus	219291	Caprimulgus rufus
+otu194	Antrostomus salvini	tacnig1	Caprimulgus_salvini	219279	Caprimulgus salvini
+otu193	Antrostomus ridgwayi	bucnig	Caprimulgus_ridgwayi	742961	Caprimulgus ridgwayi
+otu185	Siphonorhis brewsteri	leapau1	Siphonorhis_brewsteri	847145	Siphonorhis brewsteri
+otu165	Chordeiles rupestris	sacnig1	Chordeiles_rupestris	275136	Chordeiles rupestris
+otu166	Chordeiles acutipennis	lesnig	Chordeiles_acutipennis	484902	Chordeiles acutipennis
+otu164	Chordeiles minor	comnig	Chordeiles_minor	870594	Chordeiles minor
+otu163	Chordeiles nacunda	nacnig1	Podager_nacunda	741570	Podager nacunda
+otu162	Chordeiles pusillus	leanig1	Chordeiles_pusillus	322686	Chordeiles pusillus
+otu182	Caprimulgus pectoralis	finnig1	Caprimulgus_pectoralis	960266	Caprimulgus pectoralis
+otu181	Caprimulgus poliocephalus	abynig1	Caprimulgus_poliocephalus	742970	Caprimulgus poliocephalus
+otu180	Caprimulgus nigriscapularis	bksnig1	Caprimulgus_nigriscapularis	206187	Caprimulgus nigriscapularis
+otu184	Caprimulgus aegyptius	egynig1	Caprimulgus_aegyptius	960285	Caprimulgus aegyptius
+otu183	Caprimulgus affinis	savnig1	Caprimulgus_affinis	624318	Caprimulgus affinis
+otu167	Caprimulgus madagascariensis	madnig1	Caprimulgus_madagascariensis	960263	Caprimulgus madagascariensis
+otu168	Caprimulgus inornatus	planig1	Caprimulgus_inornatus	80196	Caprimulgus inornatus
+otu169	Caprimulgus manillensis	phinig1	Caprimulgus_manillensis	604420	Caprimulgus manillensis
+otu170	Caprimulgus macrurus	latnig2	Caprimulgus_macrurus	624319	Caprimulgus macrurus
+otu171	Caprimulgus indicus	grynig2	Caprimulgus_indicus	618206	Caprimulgus indicus
+otu173	Caprimulgus vexillarius	pewnig1	Macrodipteryx_vexillarius	51276	Macrodipteryx vexillarius
+otu174	Caprimulgus longipennis	stwnig1	Macrodipteryx_longipennis	903620	Macrodipteryx longipennis
+otu176	Caprimulgus europaeus	eurnig1	Caprimulgus_europaeus	178687	Caprimulgus europaeus
+otu177	Caprimulgus rufigena	rucnig1	Caprimulgus_rufigena	742978	Caprimulgus rufigena
+otu175	Caprimulgus fraenatus	somnig1	Caprimulgus_fraenatus	378498	Caprimulgus fraenatus
+otu178	Caprimulgus climacurus	lotnig1	Caprimulgus_climacurus	378509	Caprimulgus climacurus
+otu179	Caprimulgus fossii	sqtnig1	Caprimulgus_fossii	960277	Caprimulgus fossii
+otu172	Caprimulgus batesi	batnig2	Caprimulgus_batesi	336015	Caprimulgus batesi
+otu199	Eurostopodus mystacalis	whtnig3	Eurostopodus_mystacalis	798642	Eurostopodus mystacalis
+otu198	Eurostopodus argus	sponig1	Eurostopodus_argus	847125	Eurostopodus argus
+otu197	Eurostopodus papuensis	papnig1	Eurostopodus_papuensis	202981	Eurostopodus papuensis
+otu141	Batrachostomus cornutus	sunfro1	Batrachostomus_cornutus	275128	Batrachostomus cornutus
+otu142	Batrachostomus septimus	phifro1	Batrachostomus_septimus	624321	Batrachostomus septimus
+otu137	Rigidipenna inexpectata	soifro1	Rigidipenna_inexpectata	1096695	Rigidipenna inexpectata
+otu138	Podargus ocellatus	marfro1	Podargus_ocellatus	701555	Podargus ocellatus
+otu140	Podargus papuensis	papfro1	Podargus_papuensis	701554	Podargus papuensis
+otu139	Podargus strigoides	tawfro1	Podargus_strigoides	313120	Podargus strigoides
+otu136	Steatornis caripensis	oilbir1	Steatornis_caripensis	701548	Steatornis caripensis
+otu115	no_match	no_match	Tauraco	539140	Tauraco
+otu112	no_match	no_match	Psittaciformes	1020133	Psittaciformes

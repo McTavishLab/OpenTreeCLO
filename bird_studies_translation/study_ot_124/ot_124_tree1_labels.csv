@@ -1,0 +1,31 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Balearica regulorum	grccra1	Balearica_regulorum	191006	Balearica regulorum
+otu2	Antigone antigone	sarcra1	Grus_antigone	414358	Grus antigone
+otu3	Fulica cristata	rekcoo1	Fulica_cristata	521836	Fulica cristata
+otu30	Eupodotis rueppelii	ruebus1	Eupodotis_rueppellii	967561	Eupodotis rueppellii
+otu4	Chlamydotis undulata undulata	houbus3	Chlamydotis_undulata_undulata	787599	Chlamydotis undulata undulata
+otu5	Chlamydotis undulata fuertaventurae	houbus2	Chlamydotis_undulata_fuertaventurae	323799	Chlamydotis undulata fuertaventurae
+otu6	Chlamydotis macqueenii	macbus1	Chlamydotis_undulata_macqueenii	787600	Chlamydotis undulata macqueenii
+otu8	no_match	no_match	Otis_tarda_dybowskii	738796	Otis tarda dybowskii
+otu7	no_match	no_match	Otis_tarda_tarda	805793	Otis tarda tarda
+otu12	Eupodotis caerulescens	blubus1	Eupodotis_caerulescens	3600027	Eupodotis caerulescens
+otu11	Eupodotis senegalensis	whbbus2	Eupodotis_senegalensis	521834	Eupodotis senegalensis
+otu10	Eupodotis afraoides	whqbus1	Afrotis_afraoides	784565	Afrotis afraoides
+otu9	Eupodotis afra	blabus3	Afrotis_afra	1041320	Afrotis afra
+otu18	Tetrax tetrax	litbus1	Tetrax_tetrax	5027	Tetrax tetrax
+otu13	Eupodotis savilei	savbus1	Lophotis_savilei	3600025	Lophotis savilei
+otu14	Eupodotis gindiana	bucbus1	Lophotis_gindiana	3600024	Lophotis gindiana
+otu15	Eupodotis ruficrista	recbus1	Lophotis_ruficrista	5031	Lophotis ruficrista
+otu16	Houbaropsis bengalensis	benflo2	Houbaropsis_bengalensis	3600036	Houbaropsis bengalensis
+otu17	Sypheotides indicus	lesflo2	Sypheotides_indicus	3600039	Sypheotides indicus
+otu29	Neotis nuba	nubbus1	Neotis_nuba	5026	Neotis nuba
+otu28	Neotis ludwigii	ludbus1	Neotis_ludwigii	3600034	Neotis ludwigii
+otu26	Neotis denhami	stabus1	Neotis_denhami_denhami	3600032	Neotis denhami
+otu27	not_a_bird	not_a_bird	Neotis_denhami_jacksonii	None	None
+otu22	Ardeotis australis	ausbus1	Ardeotis_australis	3600031	Ardeotis australis
+otu21	Ardeotis nigriceps	indbus1	Ardeotis_nigriceps	976081	Ardeotis nigriceps
+otu23	Neotis heuglinii	heubus1	Neotis_heuglinii	607272	Neotis heuglinii
+otu24	Ardeotis arabs	arabus1	Ardeotis_arabs	526428	Ardeotis arabs
+otu25	Ardeotis kori	korbus1	Ardeotis_kori	521837	Ardeotis kori
+otu19	Lissotis melanogaster	bkbbus1	Lissotis_melanogaster	5021	Lissotis melanogaster
+otu20	Lissotis hartlaubii	harbus2	Lissotis_hartlaubii	3600026	Lissotis hartlaubii

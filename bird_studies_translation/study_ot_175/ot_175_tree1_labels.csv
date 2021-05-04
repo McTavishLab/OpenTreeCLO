@@ -1,0 +1,18 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu5	Elminia longicauda	afbfly1	Elminia_longicauda_1	570978	Elminia longicauda
+otu6	Elminia longicauda	afbfly1	Elminia_longicauda_2	570978	Elminia longicauda
+otu4	Elminia albicauda	wtbfly1	Elminia_albicauda_4	949780	Elminia albicauda
+otu1	Elminia albicauda	wtbfly1	Elminia_albicauda_1	949780	Elminia albicauda
+otu2	Elminia albicauda	wtbfly1	Elminia_albicauda_2	949780	Elminia albicauda
+otu3	Elminia albicauda	wtbfly1	Elminia_albicauda_3	949780	Elminia albicauda
+otu13	Elminia nigromitrata	ducfly1	Elminia_nigromitrata_2	542035	Elminia nigromitrata
+otu12	Elminia nigromitrata	ducfly1	Elminia_nigromitrata_1	542035	Elminia nigromitrata
+otu11	Elminia albiventris	wbcfly1	Elminia_albiventris_2	949771	Elminia albiventris
+otu10	Elminia albiventris	wbcfly1	Elminia_albiventris_1	949771	Elminia albiventris
+otu9	Elminia albonotata	wtcfly1	Elminia_albonotata_3	1042774	Elminia albonotata
+otu7	Elminia albonotata	wtcfly1	Elminia_albonotata_1	1042774	Elminia albonotata
+otu8	Elminia albonotata	wtcfly1	Elminia_albonotata_2	1042774	Elminia albonotata
+otu15	Culicicapa ceylonensis	gyhcaf1	Culicicapa_ceylonensis	72478	Culicicapa ceylonensis
+otu14	Culicicapa helianthea	citcaf1	Culicicapa_helianthea	72472	Culicicapa helianthea
+otu16	Stenostira scita	faifly1	Stenostira_scita	158197	Stenostira scita
+otu17	not_a_bird	not_a_bird	outgroups	None	None

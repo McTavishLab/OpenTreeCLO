@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+        Nymphicus_hollandicus
+        otu9
+        Psittacus_erithacus
+        Cacatua_goffini
+        Purpureicephalus_spurius
+        Poicephalus_senegalus
+        otu2
+        otu3
+        Columba_livia
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](((otu10[&otu=otu10,^ot:ottId=3600448,^ot:ottTaxonName=Alipiopsitta xanthops,^ot:originalLabel=Amazona_xanthops,^clo:ClementsTaxonName2019=Alipiopsitta xanthops,^clo:speciescode2019=yefpar5],((otu12[&otu=otu12,^ot:ottId=636288,^ot:ottTaxonName=Amazona autumnalis,^ot:originalLabel=Amazona_autumnalis,^clo:ClementsTaxonName2019=Amazona autumnalis,^clo:speciescode2019=relpar],(otu13[&otu=otu13,^ot:ottId=400203,^ot:ottTaxonName=Amazona tucumana,^ot:originalLabel=Amazona_tucumana,^clo:ClementsTaxonName2019=Amazona tucumana,^clo:speciescode2019=tucpar1],otu3[&otu=otu3,^ot:ottId=165617,^ot:ottTaxonName=Amazona ochrocephala,^ot:originalLabel=Amazona_ochrocephala,^clo:ClementsTaxonName2019=Amazona ochrocephala,^clo:speciescode2019=ywcpar])node26)node24,otu11[&otu=otu11,^ot:ottId=400211,^ot:ottTaxonName=Graydidascalus brachyurus,^ot:originalLabel=Graydidascalus_brachyurus,^clo:ClementsTaxonName2019=Graydidascalus brachyurus,^clo:speciescode2019=shtpar2])node22)node20,otu9[&otu=otu9,^ot:ottId=1028838,^ot:ottTaxonName=Pionus senilis,^ot:originalLabel=Pionus_senilis,^clo:ClementsTaxonName2019=Pionus senilis,^clo:speciescode2019=whcpar])node18,otu2[&otu=otu2,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger])node16;
+END;
+

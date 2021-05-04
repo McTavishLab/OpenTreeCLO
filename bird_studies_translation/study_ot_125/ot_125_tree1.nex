@@ -1,0 +1,20 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=915642,nearestTaxonMRCAName=Psophia,outGroupEdge=,branchLengthTimeUnit=Myr,branchLengthDescription=,tag={},branchLengthMode=ot:time](((otu1:1.04[&otu=otu1,^ot:ottId=915643,^ot:ottTaxonName=Psophia crepitans,^ot:originalLabel=Psophia_crepitans,^clo:ClementsTaxonName2019=Psophia crepitans,^clo:speciescode2019=gywtru1],otu2:1.04[&otu=otu2,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Psophia_ochroptera,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node3:0.17,otu3:1.21[&otu=otu3,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Psophia_napensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node2:1.53,(otu8:1.79[&otu=otu8,^ot:ottId=813276,^ot:ottTaxonName=Psophia leucoptera,^ot:originalLabel=Psophia_leucoptera,^clo:ClementsTaxonName2019=Psophia leucoptera,^clo:speciescode2019=pawtru2],((otu6:0.76[&otu=otu6,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Psophia_obscura,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu4:0.48[&otu=otu4,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Psophia_dextralis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu5:0.48[&otu=otu5,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Psophia_interjecta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node10:0.28)node9:0.49,otu7:1.25[&otu=otu7,^ot:ottId=242768,^ot:ottTaxonName=Psophia viridis,^ot:originalLabel=Psophia_viridis,^clo:ClementsTaxonName2019=Psophia viridis,^clo:speciescode2019=dawtru1])node8:0.54)node7:0.95)node1;
+END;
+

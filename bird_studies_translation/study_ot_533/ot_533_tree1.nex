@@ -1,0 +1,81 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=69;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        Megascops_choliba
+        Megascops_clarkii
+        Megascops_kennicottii
+        Megascops_watsonii_watsonii
+        otu8
+        Megascops_trichopsis
+        otu6
+        Megascops_watsonii_usta
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Megascops_guatemalae
+        Megascops_vermiculatus_roraimae
+        Megascops_vermiculatus_napensis
+        Megascops_atricapilla
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu7
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        Megascops_sanctaecatarinae
+        Megascops_nudipes
+        Megascops_albogularis
+        Megascops_marshalli
+        otu9
+        Megascops_hoyi
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        Megascops_ingens_Ecuador
+        Megascops_ingens_Peru
+        otu18
+        otu19
+        Megascops_petersoni
+        Megascops_asio
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1_Bayesian = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=](otu1:0.265772[&otu=otu1,^ot:ottId=381775,^ot:ottTaxonName=Glaucidium peruanum,^ot:originalLabel=Glaucidium_peruanum,^clo:ClementsTaxonName2019=Glaucidium peruanum,^clo:speciescode2019=pepowl1],(otu2:0.166477[&otu=otu2,^ot:ottId=1086556,^ot:ottTaxonName=Otus megalotis,^ot:originalLabel=Otus_megalotis,^clo:ClementsTaxonName2019=Otus megalotis,^clo:speciescode2019=phsowl1],(((((((otu20:0.048422[&otu=otu20,^ot:ottId=4131240,^ot:ottTaxonName=Megascops cooperi,^ot:originalLabel=Megascops_cooperi,^clo:ClementsTaxonName2019=Megascops cooperi,^clo:speciescode2019=pasowl4],(otu18:0.047081[&otu=otu18,^ot:ottId=652699,^ot:ottTaxonName=Megascops asio naevius,^ot:originalLabel=Megascops_asio_naevius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu19:0.046129[&otu=otu19,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_kennicottii_yumanensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node39:0.005357)node38:0.006322,otu21:0.050961[&otu=otu21,^ot:ottId=4131239,^ot:ottTaxonName=Megascops barbarus,^ot:originalLabel=Megascops_barbarus,^clo:ClementsTaxonName2019=Megascops barbarus,^clo:speciescode2019=besowl])node37:0.002892,(otu23:0.000294[&otu=otu23,^ot:ottId=5857169,^ot:ottTaxonName=Megascops sanctaecatarinae,^ot:originalLabel=Megascops_sanctaecatarinae2,^clo:ClementsTaxonName2019=Megascops sanctaecatarinae,^clo:speciescode2019=lotsco1],otu22:0.001006[&otu=otu22,^ot:ottId=5857169,^ot:ottTaxonName=Megascops sanctaecatarinae,^ot:originalLabel=Megascops_sanctaecatarinae1,^clo:ClementsTaxonName2019=Megascops sanctaecatarinae,^clo:speciescode2019=lotsco1])node44:0.04158)node36:0.004469,((((otu37:0.012002[&otu=otu37,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_guatemalae_thompsoni,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu38:0.012716[&otu=otu38,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_guatemalae_guatemalae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node74:0.031117,(((otu32:0.005835[&otu=otu32,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_vermiculatus_napensis1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu33:0.006664[&otu=otu33,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_vermiculatus_napensis2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node67:0.006638,(otu34:0.002604[&otu=otu34,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_vermiculatus_roraimae1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu35:0.003035[&otu=otu35,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_vermiculatus_roraimae2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node70:0.010237)node66:0.010609,otu36:0.040793[&otu=otu36,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_vermiculatus_vermiculatus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node65:0.027735)node64:0.009867,((otu30:0.041111[&otu=otu30,^ot:ottId=5857170,^ot:ottTaxonName=Megascops roboratus,^ot:originalLabel=Megascops_roboratus,^clo:ClementsTaxonName2019=Megascops roboratus,^clo:speciescode2019=persco1],(otu29:0.0419[&otu=otu29,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_watsonii_watsonii2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((otu27:0.002304[&otu=otu27,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_watsonii_watsonii1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu28:0.002942[&otu=otu28,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_watsonii_usta2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node58:0.015135,(otu26:0.015257[&otu=otu26,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_watsonii_usta1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu24:0.002738[&otu=otu24,^ot:ottId=4792,^ot:ottTaxonName=Megascops atricapilla,^ot:originalLabel=Megascops_atricapilla1,^clo:ClementsTaxonName2019=Megascops atricapilla,^clo:speciescode2019=bkcsco1],otu25:0.002187[&otu=otu25,^ot:ottId=4792,^ot:ottTaxonName=Megascops atricapilla,^ot:originalLabel=Megascops_atricapilla2,^clo:ClementsTaxonName2019=Megascops atricapilla,^clo:speciescode2019=bkcsco1])node54:0.008929)node53:0.003229)node52:0.019661)node51:0.008518)node50:0.007984,otu31:0.059378[&otu=otu31,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_sp._INC38770,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node49:0.005381)node48:0.002106,((((otu44:0.001653[&otu=otu44,^ot:ottId=4806,^ot:ottTaxonName=Megascops hoyi,^ot:originalLabel=Megascops_hoyi1,^clo:ClementsTaxonName2019=Megascops hoyi,^clo:speciescode2019=mofsco1],otu45:0.001099[&otu=otu45,^ot:ottId=4806,^ot:ottTaxonName=Megascops hoyi,^ot:originalLabel=Megascops_hoyi2,^clo:ClementsTaxonName2019=Megascops hoyi,^clo:speciescode2019=mofsco1])node89:0.037836,(otu46:0.000707[&otu=otu46,^ot:ottId=4131238,^ot:ottTaxonName=Megascops marshalli,^ot:originalLabel=Megascops_marshalli1,^clo:ClementsTaxonName2019=Megascops marshalli,^clo:speciescode2019=clfsco1],otu47:0.001071[&otu=otu47,^ot:ottId=4131238,^ot:ottTaxonName=Megascops marshalli,^ot:originalLabel=Megascops_marshalli2,^clo:ClementsTaxonName2019=Megascops marshalli,^clo:speciescode2019=clfsco1],otu48:0.00919[&otu=otu48,^ot:ottId=4131238,^ot:ottTaxonName=Megascops marshalli,^ot:originalLabel=Megascops_marshalli3,^clo:ClementsTaxonName2019=Megascops marshalli,^clo:speciescode2019=clfsco1])node92:0.021638)node88:0.021929,(otu49:0.001977[&otu=otu49,^ot:ottId=5857171,^ot:ottTaxonName=Megascops petersoni,^ot:originalLabel=Megascops_petersoni1,^clo:ClementsTaxonName2019=Megascops petersoni,^clo:speciescode2019=cinsco1],otu50:0.008346[&otu=otu50,^ot:ottId=5857171,^ot:ottTaxonName=Megascops petersoni,^ot:originalLabel=Megascops_petersoni2,^clo:ClementsTaxonName2019=Megascops petersoni,^clo:speciescode2019=cinsco1])node96:0.056651)node87:0.002706,(otu39:0.02135[&otu=otu39,^ot:ottId=4131249,^ot:ottTaxonName=Megascops colombianus,^ot:originalLabel=Megascops_colombianus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu40:0.00249[&otu=otu40,^ot:ottId=4131250,^ot:ottTaxonName=Megascops ingens,^ot:originalLabel=Megascops_ingens_Ecuador1,^clo:ClementsTaxonName2019=Megascops ingens,^clo:speciescode2019=rufsco1],otu41:0.014595[&otu=otu41,^ot:ottId=4131250,^ot:ottTaxonName=Megascops ingens,^ot:originalLabel=Megascops_ingens_Ecuador2,^clo:ClementsTaxonName2019=Megascops ingens,^clo:speciescode2019=rufsco1])node81:0.01669,(otu43:0.004823[&otu=otu43,^ot:ottId=4131250,^ot:ottTaxonName=Megascops ingens,^ot:originalLabel=Megascops_ingens_Peru2,^clo:ClementsTaxonName2019=Megascops ingens,^clo:speciescode2019=rufsco1],otu42:0.008042[&otu=otu42,^ot:ottId=4131250,^ot:ottTaxonName=Megascops ingens,^ot:originalLabel=Megascops_ingens_Peru1,^clo:ClementsTaxonName2019=Megascops ingens,^clo:speciescode2019=rufsco1])node84:0.008593)node80:0.01107)node78:0.032696)node77:0.014664)node47:0.005234)node35:0.041732,(((otu14:0.000994[&otu=otu14,^ot:ottId=1027748,^ot:ottTaxonName=Megascops clarkii,^ot:originalLabel=Megascops_clarkii1,^clo:ClementsTaxonName2019=Megascops clarkii,^clo:speciescode2019=bssowl],otu15:0.001879[&otu=otu15,^ot:ottId=1027748,^ot:ottTaxonName=Megascops clarkii,^ot:originalLabel=Megascops_clarkii2,^clo:ClementsTaxonName2019=Megascops clarkii,^clo:speciescode2019=bssowl])node29:0.033917,(otu16:0.025064[&otu=otu16,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_trichopsis_trichopsis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu17:0.01819[&otu=otu17,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_trichopsis_mesoamericanus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node32:0.05175)node28:0.02354,(((((otu12:0.000271[&otu=otu12,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_choliba_duidae2,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu11:0.000265[&otu=otu11,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_choliba_duidae1,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node24:0.005431,otu10:0.002369[&otu=otu10,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_choliba_choliba,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node22:0.001564,otu9:0.017218[&otu=otu9,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_choliba_suturutus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node20:0.009778,otu13:0.017642[&otu=otu13,^ot:ottId=851808,^ot:ottTaxonName=Megascops koepckeae,^ot:originalLabel=Megascops_koepckeae,^clo:ClementsTaxonName2019=Megascops koepckeae,^clo:speciescode2019=koesco1])node19:0.067062,(otu7:0.002003[&otu=otu7,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_albogularis_remotus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu8:0.00085[&otu=otu8,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_albogularis_aequatorialis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node16:0.05939)node15:0.013649)node14:0.016585)node13:0.053654,(otu5:0.098548[&otu=otu5,^ot:ottId=178676,^ot:ottTaxonName=Otus flammeolus,^ot:originalLabel=Psiloscops_flammeolus,^clo:ClementsTaxonName2019=Psiloscops flammeolus,^clo:speciescode2019=flaowl],otu6:0.095495[&otu=otu6,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Megascops_nudipes_nudipes,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node10:0.058844)node9:0.027868,(otu3:0.17834[&otu=otu3,^ot:ottId=1023137,^ot:ottTaxonName=Pseudoscops clamator,^ot:originalLabel=Asio_clamator,^clo:ClementsTaxonName2019=Asio clamator,^clo:speciescode2019=strowl1],otu4:0.137617[&otu=otu4,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Lophostrix_cristatus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node6:0.034293)node5:0.034043)node3:0.214045)node1;
+END;
+

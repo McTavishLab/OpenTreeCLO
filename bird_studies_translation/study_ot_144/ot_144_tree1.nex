@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=855478,nearestTaxonMRCAName=Alcidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu18[&otu=otu18,^ot:ottId=855484,^ot:ottTaxonName=Aethia pusilla,^ot:originalLabel=Aethia_pusilla,^clo:ClementsTaxonName2019=Aethia pusilla,^clo:speciescode2019=leaauk],otu19[&otu=otu19,^ot:ottId=855480,^ot:ottTaxonName=Aethia cristatella,^ot:originalLabel=Aethia_cristatella,^clo:ClementsTaxonName2019=Aethia cristatella,^clo:speciescode2019=creauk])node38,(otu20[&otu=otu20,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Aethia_psittacula,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu21[&otu=otu21,^ot:ottId=855482,^ot:ottTaxonName=Aethia pygmaea,^ot:originalLabel=Aethia_pygmaea,^clo:ClementsTaxonName2019=Aethia pygmaea,^clo:speciescode2019=whiauk])node41)node37,otu22[&otu=otu22,^ot:ottId=979353,^ot:ottTaxonName=Ptychoramphus aleuticus,^ot:originalLabel=Ptychoramphus_aleuticus,^clo:ClementsTaxonName2019=Ptychoramphus aleuticus,^clo:speciescode2019=casauk])node36,(((otu23[&otu=otu23,^ot:ottId=864865,^ot:ottTaxonName=Fratercula arctica,^ot:originalLabel=Fratercula_arctica,^clo:ClementsTaxonName2019=Fratercula arctica,^clo:speciescode2019=atlpuf],otu24[&otu=otu24,^ot:ottId=1078400,^ot:ottTaxonName=Fratercula corniculata,^ot:originalLabel=Fratercula_corniculata,^clo:ClementsTaxonName2019=Fratercula corniculata,^clo:speciescode2019=horpuf])node47,otu25[&otu=otu25,^ot:ottId=385981,^ot:ottTaxonName=Fratercula cirrhata,^ot:originalLabel=Fratercula_cirrhata,^clo:ClementsTaxonName2019=Fratercula cirrhata,^clo:speciescode2019=tufpuf])node46,otu26[&otu=otu26,^ot:ottId=989958,^ot:ottTaxonName=Cerorhinca monocerata,^ot:originalLabel=Cerorhinca_monocerata,^clo:ClementsTaxonName2019=Cerorhinca monocerata,^clo:speciescode2019=rhiauk])node45)node35,((((((otu4[&otu=otu4,^ot:ottId=571570,^ot:ottTaxonName=Alle alle alle,^ot:originalLabel=Alle_alle_alle,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=147723,^ot:ottTaxonName=Alle alle polaris,^ot:originalLabel=Alle_alle_polaris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node12,(otu3[&otu=otu3,^ot:ottId=551817,^ot:ottTaxonName=Uria lomvia,^ot:originalLabel=Uria_lomvia,^clo:ClementsTaxonName2019=Uria lomvia,^clo:speciescode2019=thbmur],(otu1[&otu=otu1,^ot:ottId=1097995,^ot:ottTaxonName=Uria aalge aalge,^ot:originalLabel=Uria_aalge_aalge,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=1097994,^ot:ottTaxonName=Uria aalge inornata,^ot:originalLabel=Uria_aalge_inornata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node8)node7)node6,(otu7[&otu=otu7,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pinguinus_impennis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu6[&otu=otu6,^ot:ottId=855485,^ot:ottTaxonName=Alca torda,^ot:originalLabel=Alca_torda,^clo:ClementsTaxonName2019=Alca torda,^clo:speciescode2019=razorb])node15)node5,((otu8[&otu=otu8,^ot:ottId=1078411,^ot:ottTaxonName=Synthliboramphus antiquus,^ot:originalLabel=Synthliboramphus_antiquus,^clo:ClementsTaxonName2019=Synthliboramphus antiquus,^clo:speciescode2019=ancmur],otu9[&otu=otu9,^ot:ottId=551819,^ot:ottTaxonName=Synthliboramphus wumizusume,^ot:originalLabel=Synthliboramphus_wumizusume,^clo:ClementsTaxonName2019=Synthliboramphus wumizusume,^clo:speciescode2019=japmur1])node19,(otu11[&otu=otu11,^ot:ottId=1078413,^ot:ottTaxonName=Synthliboramphus hypoleucus,^ot:originalLabel=Synthliboramphus_hypoleucus,^clo:ClementsTaxonName2019=Synthliboramphus hypoleucus,^clo:speciescode2019=xanmur1],otu10[&otu=otu10,^ot:ottId=454492,^ot:ottTaxonName=Synthliboramphus craveri,^ot:originalLabel=Synthliboramphus_craveri,^clo:ClementsTaxonName2019=Synthliboramphus craveri,^clo:speciescode2019=cramur])node22)node18)node4,(otu14[&otu=otu14,^ot:ottId=280901,^ot:ottTaxonName=Cepphus grylle,^ot:originalLabel=Cepphus_grylle,^clo:ClementsTaxonName2019=Cepphus grylle,^clo:speciescode2019=blkgui],(otu13[&otu=otu13,^ot:ottId=280900,^ot:ottTaxonName=Cepphus columba,^ot:originalLabel=Cepphus_columba,^clo:ClementsTaxonName2019=Cepphus columba,^clo:speciescode2019=piggui],otu12[&otu=otu12,^ot:ottId=536766,^ot:ottTaxonName=Cepphus carbo,^ot:originalLabel=Cepphus_carbo,^clo:ClementsTaxonName2019=Cepphus carbo,^clo:speciescode2019=spegui1])node26)node25)node3,((otu15[&otu=otu15,^ot:ottId=280897,^ot:ottTaxonName=Brachyramphus brevirostris,^ot:originalLabel=Brachyramphus_brevirostris,^clo:ClementsTaxonName2019=Brachyramphus brevirostris,^clo:speciescode2019=kitmur],otu16[&otu=otu16,^ot:ottId=280902,^ot:ottTaxonName=Brachyramphus marmoratus,^ot:originalLabel=Brachyramphus_marmoratus,^clo:ClementsTaxonName2019=Brachyramphus marmoratus,^clo:speciescode2019=marmur])node31,otu17[&otu=otu17,^ot:ottId=1097991,^ot:ottTaxonName=Brachyramphus perdix,^ot:originalLabel=Brachyramphus_perdix,^clo:ClementsTaxonName2019=Brachyramphus perdix,^clo:speciescode2019=lobmur])node30)node2)node1;
+END;
+

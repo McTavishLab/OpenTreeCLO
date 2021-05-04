@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu30
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=474164,^ot:ottTaxonName=Petroica multicolor,^ot:originalLabel=Petroica_multicolor,^clo:ClementsTaxonName2019=Petroica multicolor,^clo:speciescode2019=pacrob2],otu2[&otu=otu2,^ot:ottId=282510,^ot:ottTaxonName=Petroica rosea,^ot:originalLabel=Petroica_rosea,^clo:ClementsTaxonName2019=Petroica rosea,^clo:speciescode2019=rosrob1],(otu3[&otu=otu3,^ot:ottId=1015946,^ot:ottTaxonName=Melanodryas cucullata,^ot:originalLabel=Melanodryas_cucullata,^clo:ClementsTaxonName2019=Melanodryas cucullata,^clo:speciescode2019=hoorob1],(otu4[&otu=otu4,^ot:ottId=226273,^ot:ottTaxonName=Rhagologus leucostigma,^ot:originalLabel=Rhagologus_leucostigma,^clo:ClementsTaxonName2019=Rhagologus leucostigma,^clo:speciescode2019=motwhi1],(((((otu6[&otu=otu6,^ot:ottId=310388,^ot:ottTaxonName=Colluricincla harmonica,^ot:originalLabel=Colluricincla_harmonica,^clo:ClementsTaxonName2019=Colluricincla harmonica,^clo:speciescode2019=grysht1],otu7[&otu=otu7,^ot:ottId=715129,^ot:ottTaxonName=Colluricincla woodwardi,^ot:originalLabel=Colluricincla_woodwardi,^clo:ClementsTaxonName2019=Colluricincla woodwardi,^clo:speciescode2019=sansht2])node13,otu5[&otu=otu5,^ot:ottId=749724,^ot:ottTaxonName=Colluricincla megarhyncha,^ot:originalLabel=Colluricincla_megarhyncha,^clo:ClementsTaxonName2019=Colluricincla megarhyncha,^clo:speciescode2019=rufsht1])node11,(otu8[&otu=otu8,^ot:ottId=89237,^ot:ottTaxonName=Pseudorectes ferrugineus,^ot:originalLabel=Pitohui_ferrugineus,^clo:ClementsTaxonName2019=Pseudorectes ferrugineus,^clo:speciescode2019=ruspit1],otu9[&otu=otu9,^ot:ottId=527030,^ot:ottTaxonName=Pitohui incertus,^ot:originalLabel=Pitohui_incertus,^clo:ClementsTaxonName2019=Pseudorectes incertus,^clo:speciescode2019=whbpit1])node16)node10,(((otu24[&otu=otu24,^ot:ottId=95988,^ot:ottTaxonName=Pitohui kirhocephalus,^ot:originalLabel=Pitohui_kirhocephalus,^clo:ClementsTaxonName2019=Pitohui kirhocephalus,^clo:speciescode2019=varpit2],otu23[&otu=otu23,^ot:ottId=749722,^ot:ottTaxonName=Pitohui dichrous,^ot:originalLabel=Pitohui_dichrous,^clo:ClementsTaxonName2019=Pitohui dichrous,^clo:speciescode2019=hoopit1])node46,(((otu10[&otu=otu10,^ot:ottId=242575,^ot:ottTaxonName=Ifrita kowaldi,^ot:originalLabel=Ifrita_kowaldi,^clo:ClementsTaxonName2019=Ifrita kowaldi,^clo:speciescode2019=bucifr1],otu11[&otu=otu11,^ot:ottId=749725,^ot:ottTaxonName=Melampitta gigantea,^ot:originalLabel=Melampitta_gigantea,^clo:ClementsTaxonName2019=Melampitta gigantea,^clo:speciescode2019=gremel1])node23,(otu13[&otu=otu13,^ot:ottId=551810,^ot:ottTaxonName=Diphyllodes magnificus,^ot:originalLabel=Diphyllodes_magnificus,^clo:ClementsTaxonName2019=Cicinnurus magnificus,^clo:speciescode2019=mbopar2],otu12[&otu=otu12,^ot:ottId=499638,^ot:ottTaxonName=Paradisaea raggiana,^ot:originalLabel=Paradisaea_raggiana,^clo:ClementsTaxonName2019=Paradisaea raggiana,^clo:speciescode2019=rbopar1])node26)node22,(otu14[&otu=otu14,^ot:ottId=663338,^ot:ottTaxonName=Pitohui nigrescens,^ot:originalLabel=Pitohui_nigrescens,^clo:ClementsTaxonName2019=Melanorectes nigrescens,^clo:speciescode2019=blapit1],(otu15[&otu=otu15,^ot:ottId=193910,^ot:ottTaxonName=Pachycephala olivacea,^ot:originalLabel=Pachycephala_olivacea,^clo:ClementsTaxonName2019=Pachycephala olivacea,^clo:speciescode2019=oliwhi1],((otu20[&otu=otu20,^ot:ottId=534614,^ot:ottTaxonName=Pachycephala simplex,^ot:originalLabel=Pachycephala_simplex,^clo:ClementsTaxonName2019=Pachycephala simplex,^clo:speciescode2019=grywhi2],(otu22[&otu=otu22,^ot:ottId=663342,^ot:ottTaxonName=Pitohui tenebrosus,^ot:originalLabel=Pitohui_tenebrosus,^clo:ClementsTaxonName2019=Colluricincla tenebrosa,^clo:speciescode2019=soosht1],otu21[&otu=otu21,^ot:ottId=896904,^ot:ottTaxonName=Pachycephala pectoralis,^ot:originalLabel=Pachycephala_pectoralis,^clo:ClementsTaxonName2019=Pachycephala pectoralis,^clo:speciescode2019=golwhi1])node43)node41,((otu16[&otu=otu16,^ot:ottId=849598,^ot:ottTaxonName=Pachycephala lorentzi,^ot:originalLabel=Pachycephala_lorentzi,^clo:ClementsTaxonName2019=Pachycephala lorentzi,^clo:speciescode2019=lorwhi1],otu17[&otu=otu17,^ot:ottId=95994,^ot:ottTaxonName=Pachycephala schlegelii,^ot:originalLabel=Pachycephala_schlegelii,^clo:ClementsTaxonName2019=Pachycephala schlegelii,^clo:speciescode2019=regwhi1])node35,(otu18[&otu=otu18,^ot:ottId=95987,^ot:ottTaxonName=Pachycephala soror,^ot:originalLabel=Pachycephala_soror,^clo:ClementsTaxonName2019=Pachycephala soror,^clo:speciescode2019=sclwhi1],otu19[&otu=otu19,^ot:ottId=896892,^ot:ottTaxonName=Pachycephala,^ot:originalLabel=Pachycephala_sp,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node38)node34)node33)node31)node29)node21)node20,(otu25[&otu=otu25,^ot:ottId=540001,^ot:ottTaxonName=Oreoica gutturalis,^ot:originalLabel=Oreoica_gutturalis,^clo:ClementsTaxonName2019=Oreoica gutturalis,^clo:speciescode2019=crebel1],(otu27[&otu=otu27,^ot:ottId=269011,^ot:ottTaxonName=Pitohui cristatus,^ot:originalLabel=Pitohui_cristatus,^clo:ClementsTaxonName2019=Ornorectes cristatus,^clo:speciescode2019=crepit1],otu26[&otu=otu26,^ot:ottId=89244,^ot:ottTaxonName=Aleadryas rufinucha,^ot:originalLabel=Aleadryas_rufinucha,^clo:ClementsTaxonName2019=Aleadryas rufinucha,^clo:speciescode2019=runwhi1])node51)node49)node19)node9,(otu28[&otu=otu28,^ot:ottId=965222,^ot:ottTaxonName=Falcunculus frontatus,^ot:originalLabel=Falcunculus_frontatus,^clo:ClementsTaxonName2019=Falcunculus frontatus,^clo:speciescode2019=crstit1],(otu29[&otu=otu29,^ot:ottId=663331,^ot:ottTaxonName=Eulacestoma nigropectus,^ot:originalLabel=Eulacestoma_nigropectus,^clo:ClementsTaxonName2019=Eulacestoma nigropectus,^clo:speciescode2019=watplo1],otu30[&otu=otu30,^ot:ottId=242579,^ot:ottTaxonName=Psophodes olivaceus,^ot:originalLabel=Psophodes_olivaceus,^clo:ClementsTaxonName2019=Psophodes olivaceus,^clo:speciescode2019=easwhi1])node56)node54)node8)node6)node4)node1;
+END;
+

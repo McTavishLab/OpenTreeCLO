@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+        Apteryx_owenii
+        Apteryx_australis
+        otu379826
+        Casuarius_casuarius
+        Anomalopteryx_didiformis
+        Emeus_crassus
+        otu379822
+        Apteryx_haastii
+        otu379815
+        otu379814
+        Eudromia_elegans
+        Nothoprocta_perdicaria
+        otu379828
+        otu379829
+        otu379832
+        otu379830
+        Dinornis_giganteus
+        otu379831
+        otu379821
+  ;
+END;
+
+BEGIN TREES;
+    TREE Bucky_species_tree = [&unrootedTree=False,curatedType=concordance tree,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((otu379821[&otu=otu379821,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],otu379822[&otu=otu379822,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2])node1016215,(otu379826[&otu=otu379826,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],(otu379815[&otu=otu379815,^ot:ottId=306216,^ot:ottTaxonName=Tinamus guttatus,^ot:originalLabel=Tinamus_guttatus,^clo:ClementsTaxonName2019=Tinamus guttatus,^clo:speciescode2019=whttin1],otu379814[&otu=otu379814,^ot:ottId=960236,^ot:ottTaxonName=Crypturellus soui,^ot:originalLabel=Crypturellus_soui,^clo:ClementsTaxonName2019=Crypturellus soui,^clo:speciescode2019=littin1])node1016211)node1016210)node1016209,otu379828[&otu=otu379828,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node1016208,(((otu379830[&otu=otu379830,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],otu379829[&otu=otu379829,^ot:ottId=654722,^ot:ottTaxonName=Crax alector,^ot:originalLabel=Crax_alector,^clo:ClementsTaxonName2019=Crax alector,^clo:speciescode2019=blacur1])node1016221,otu379831[&otu=otu379831,^ot:ottId=860132,^ot:ottTaxonName=Chauna torquata,^ot:originalLabel=Chauna_torquata,^clo:ClementsTaxonName2019=Chauna torquata,^clo:speciescode2019=souscr1])node1016220,otu379832[&otu=otu379832,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node1016219)node1016207;
+END;
+

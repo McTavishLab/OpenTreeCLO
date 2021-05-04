@@ -1,0 +1,58 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=46;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=135928,nearestTaxonMRCAName=Amazona,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu42[&otu=otu42,^ot:ottId=283086,^ot:ottTaxonName=Pionus,^ot:originalLabel=Pionus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((((((otu26[&otu=otu26,^ot:ottId=636289,^ot:ottTaxonName=Amazona amazonica,^ot:originalLabel=Amazona_amazonica,^clo:ClementsTaxonName2019=Amazona amazonica,^clo:speciescode2019=orwpar],otu27[&otu=otu27,^ot:ottId=1073065,^ot:ottTaxonName=Amazona guildingii,^ot:originalLabel=Amazona_guildingii,^clo:ClementsTaxonName2019=Amazona guildingii,^clo:speciescode2019=stvpar1])node57,otu28[&otu=otu28,^ot:ottId=1077162,^ot:ottTaxonName=Amazona brasiliensis,^ot:originalLabel=Amazona_brasiliensis,^clo:ClementsTaxonName2019=Amazona brasiliensis,^clo:speciescode2019=retpar1])node56,otu29[&otu=otu29,^ot:ottId=831222,^ot:ottTaxonName=Amazona imperialis,^ot:originalLabel=Amazona_imperialis,^clo:ClementsTaxonName2019=Amazona imperialis,^clo:speciescode2019=imppar1])node55,(((otu22[&otu=otu22,^ot:ottId=550598,^ot:ottTaxonName=Amazona autumnalis autumnalis,^ot:originalLabel=Amazona_autumnalis_autumnalis,^clo:ClementsTaxonName2019=Amazona autumnalis autumnalis,^clo:speciescode2019=relpar2],otu23[&otu=otu23,^ot:ottId=550592,^ot:ottTaxonName=Amazona autumnalis lilacine,^ot:originalLabel=Amazona_autumnalis_lilacine,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node49,(otu24[&otu=otu24,^ot:ottId=919810,^ot:ottTaxonName=Amazona viridigenalis,^ot:originalLabel=Amazona_viridigenalis,^clo:ClementsTaxonName2019=Amazona viridigenalis,^clo:speciescode2019=recpar],otu25[&otu=otu25,^ot:ottId=831228,^ot:ottTaxonName=Amazona finschi,^ot:originalLabel=Amazona_finschi,^clo:ClementsTaxonName2019=Amazona finschi,^clo:speciescode2019=licpar])node52)node48,(((otu15[&otu=otu15,^ot:ottId=831220,^ot:ottTaxonName=Amazona dufresniana,^ot:originalLabel=Amazona_dufresniana,^clo:ClementsTaxonName2019=Amazona dufresniana,^clo:speciescode2019=blcpar2],otu16[&otu=otu16,^ot:ottId=400201,^ot:ottTaxonName=Amazona rhodocorytha,^ot:originalLabel=Amazona_rhodocorytha,^clo:ClementsTaxonName2019=Amazona rhodocorytha,^clo:speciescode2019=rebpar7])node36,(((((otu3[&otu=otu3,^ot:ottId=919813,^ot:ottTaxonName=Amazona ochrocephala nattereri,^ot:originalLabel=Amazona_ochrocephala_nattereri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu2[&otu=otu2,^ot:ottId=550596,^ot:ottTaxonName=Amazona aestiva xanthopteryx,^ot:originalLabel=Amazona_aestiva_xanthopteryx,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu1[&otu=otu1,^ot:ottId=550595,^ot:ottTaxonName=Amazona aestiva aestiva,^ot:originalLabel=Amazona_aestiva_aestiva,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node15)node14,otu4[&otu=otu4,^ot:ottId=919812,^ot:ottTaxonName=Amazona ochrocephala xantholaema,^ot:originalLabel=Amazona_ochrocephala_xantholaema,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node13,(otu10[&otu=otu10,^ot:ottId=165621,^ot:ottTaxonName=Amazona ochrocephala panamensis,^ot:originalLabel=Amazona_ochrocephala_panamensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu5[&otu=otu5,^ot:ottId=1077157,^ot:ottTaxonName=Amazona oratrix belizensis,^ot:originalLabel=Amazona_oratrix_belizensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu6[&otu=otu6,^ot:ottId=400198,^ot:ottTaxonName=Amazona oratrix oratrix,^ot:originalLabel=Amazona_oratrix_oratrix,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node23,otu7[&otu=otu7,^ot:ottId=550600,^ot:ottTaxonName=Amazona auropalliata auropalliata,^ot:originalLabel=Amazona_auropalliata_auropalliata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node22,(otu9[&otu=otu9,^ot:ottId=550597,^ot:ottTaxonName=Amazona auropalliata parvipes,^ot:originalLabel=Amazona_auropalliata_parvipes,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu8[&otu=otu8,^ot:ottId=1077156,^ot:ottTaxonName=Amazona oratrix hondurensis,^ot:originalLabel=Amazona_oratrix_hondurensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node27)node21)node20)node12,otu11[&otu=otu11,^ot:ottId=165623,^ot:ottTaxonName=Amazona ochrocephala ochrocephala,^ot:originalLabel=Amazona_ochrocephala_ochrocephala,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12[&otu=otu12,^ot:ottId=919808,^ot:ottTaxonName=Amazona barbadensis,^ot:originalLabel=Amazona_barbadensis,^clo:ClementsTaxonName2019=Amazona barbadensis,^clo:speciescode2019=yespar1])node11,(otu14[&otu=otu14,^ot:ottId=307002,^ot:ottTaxonName=Amazona arausiaca,^ot:originalLabel=Amazona_arausiaca,^clo:ClementsTaxonName2019=Amazona arausiaca,^clo:speciescode2019=renpar1],otu13[&otu=otu13,^ot:ottId=256849,^ot:ottTaxonName=Amazona versicolor,^ot:originalLabel=Amazona_versicolor,^clo:ClementsTaxonName2019=Amazona versicolor,^clo:speciescode2019=stlpar1])node33)node10)node9,(otu21[&otu=otu21,^ot:ottId=717534,^ot:ottTaxonName=Amazona kawalli,^ot:originalLabel=Amazona_kawalli,^clo:ClementsTaxonName2019=Amazona kawalli,^clo:speciescode2019=kawpar1],((otu17[&otu=otu17,^ot:ottId=1077164,^ot:ottTaxonName=Amazona farinosa inornata,^ot:originalLabel=Amazona_farinosa_inornata,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu18[&otu=otu18,^ot:ottId=1077161,^ot:ottTaxonName=Amazona farinosa farinosa,^ot:originalLabel=Amazona_farinosa_farinosa,^clo:ClementsTaxonName2019=Amazona farinosa farinosa,^clo:speciescode2019=meapar2])node41,(otu20[&otu=otu20,^ot:ottId=1077168,^ot:ottTaxonName=Amazona farinosa virenticeps,^ot:originalLabel=Amazona_farinosa_virenticeps,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu19[&otu=otu19,^ot:ottId=1077165,^ot:ottTaxonName=Amazona farinosa guatemalae,^ot:originalLabel=Amazona_farinosa_guatemalae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node44)node40)node39)node8)node7)node6,(otu33[&otu=otu33,^ot:ottId=1077170,^ot:ottTaxonName=Amazona festiva bodini,^ot:originalLabel=Amazona_festiva_bodini,^clo:ClementsTaxonName2019=Amazona festiva bodini,^clo:speciescode2019=fespar2],(otu32[&otu=otu32,^ot:ottId=400205,^ot:ottTaxonName=Amazona vinacea,^ot:originalLabel=Amazona_vinacea,^clo:ClementsTaxonName2019=Amazona vinacea,^clo:speciescode2019=vinpar1],(otu31[&otu=otu31,^ot:ottId=400203,^ot:ottTaxonName=Amazona tucumana,^ot:originalLabel=Amazona_tucumana,^clo:ClementsTaxonName2019=Amazona tucumana,^clo:speciescode2019=tucpar1],otu30[&otu=otu30,^ot:ottId=400199,^ot:ottTaxonName=Amazona pretrei,^ot:originalLabel=Amazona_pretrei,^clo:ClementsTaxonName2019=Amazona pretrei,^clo:speciescode2019=respar2])node64)node63)node62)node5,(((otu40[&otu=otu40,^ot:ottId=550599,^ot:ottTaxonName=Amazona albifrons saltuensis,^ot:originalLabel=Amazona_albifrons_saltuensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu39[&otu=otu39,^ot:ottId=550593,^ot:ottTaxonName=Amazona albifrons albifrons,^ot:originalLabel=Amazona_albifrons_albifrons,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node80,otu41[&otu=otu41,^ot:ottId=550594,^ot:ottTaxonName=Amazona albifrons nana,^ot:originalLabel=Amazona_albifrons_nana,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node79,((((otu34[&otu=otu34,^ot:ottId=307000,^ot:ottTaxonName=Amazona leucocephala,^ot:originalLabel=Amazona_leucocephala,^clo:ClementsTaxonName2019=Amazona leucocephala,^clo:speciescode2019=cubpar1],otu35[&otu=otu35,^ot:ottId=256853,^ot:ottTaxonName=Amazona vittata,^ot:originalLabel=Amazona_vittata,^clo:ClementsTaxonName2019=Amazona vittata,^clo:speciescode2019=purpar1])node73,otu36[&otu=otu36,^ot:ottId=291861,^ot:ottTaxonName=Amazona ventralis,^ot:originalLabel=Amazona_ventralis,^clo:ClementsTaxonName2019=Amazona ventralis,^clo:speciescode2019=hispar1])node72,otu37[&otu=otu37,^ot:ottId=256847,^ot:ottTaxonName=Amazona collaria,^ot:originalLabel=Amazona_collaria,^clo:ClementsTaxonName2019=Amazona collaria,^clo:speciescode2019=yebpar1])node71,otu38[&otu=otu38,^ot:ottId=256845,^ot:ottTaxonName=Amazona agilis,^ot:originalLabel=Amazona_agilis,^clo:ClementsTaxonName2019=Amazona agilis,^clo:speciescode2019=blbpar1])node70)node69)node4)node3,(otu43[&otu=otu43,^ot:ottId=3600448,^ot:ottTaxonName=Alipiopsitta xanthops,^ot:originalLabel=Amazona_xanthops,^clo:ClementsTaxonName2019=Alipiopsitta xanthops,^clo:speciescode2019=yefpar5],otu44[&otu=otu44,^ot:ottId=400210,^ot:ottTaxonName=Graydidascalus,^ot:originalLabel=Graydidascalus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node85)node2,(otu46[&otu=otu46,^ot:ottId=186445,^ot:ottTaxonName=Aratinga,^ot:originalLabel=Aratinga,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu45[&otu=otu45,^ot:ottId=1020129,^ot:ottTaxonName=Ara,^ot:originalLabel=Ara,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node88)node1;
+END;
+

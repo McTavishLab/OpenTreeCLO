@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu7
+        otu8
+        otu9
+        otu6
+        otu3
+        otu4
+        otu5
+        otu2
+        otu20
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=839319,nearestTaxonMRCAName=Fringillidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((otu17[&otu=otu17,^ot:ottId=823298,^ot:ottTaxonName=Paroreomyza montana,^ot:originalLabel=Paroreomyza_montana,^clo:ClementsTaxonName2019=Paroreomyza montana,^clo:speciescode2019=mauala],otu18[&otu=otu18,^ot:ottId=298769,^ot:ottTaxonName=Oreomystis bairdi,^ot:originalLabel=Oreomystis_bairdi,^clo:ClementsTaxonName2019=Oreomystis bairdi,^clo:speciescode2019=akikik])node35,((((otu4[&otu=otu4,^ot:ottId=298780,^ot:ottTaxonName=Himatione sanguinea,^ot:originalLabel=Himatione_sanguinea,^clo:ClementsTaxonName2019=Himatione sanguinea,^clo:speciescode2019=apapan],otu5[&otu=otu5,^ot:ottId=298765,^ot:ottTaxonName=Palmeria dolei,^ot:originalLabel=Palmeria_dolei,^clo:ClementsTaxonName2019=Palmeria dolei,^clo:speciescode2019=crehon])node12,otu6[&otu=otu6,^ot:ottId=823302,^ot:ottTaxonName=Vestiaria coccinea,^ot:originalLabel=Vestiaria_coccinea,^clo:ClementsTaxonName2019=Drepanis coccinea,^clo:speciescode2019=iiwi])node11,(((((otu9[&otu=otu9,^ot:ottId=298776,^ot:ottTaxonName=Loxops coccineus,^ot:originalLabel=Loxops_coccineus,^clo:ClementsTaxonName2019=Loxops coccineus,^clo:speciescode2019=akepa1],otu10[&otu=otu10,^ot:ottId=1089641,^ot:ottTaxonName=Loxops caeruleirostris,^ot:originalLabel=Loxops_caeruleirostris,^clo:ClementsTaxonName2019=Loxops caeruleirostris,^clo:speciescode2019=akekee])node23,otu11[&otu=otu11,^ot:ottId=298768,^ot:ottTaxonName=Oreomystis mana,^ot:originalLabel=Oreomystis_mana,^clo:ClementsTaxonName2019=Loxops mana,^clo:speciescode2019=hawcre])node22,((otu14[&otu=otu14,^ot:ottId=324560,^ot:ottTaxonName=Hemignathus virens virens,^ot:originalLabel=Hemignathus_virens_virens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15[&otu=otu15,^ot:ottId=324561,^ot:ottTaxonName=Hemignathus virens wilsoni,^ot:originalLabel=Hemignathus_virens_wilsoni,^clo:ClementsTaxonName2019=Chlorodrepanis virens wilsoni,^clo:speciescode2019=hawama1])node31,(otu13[&otu=otu13,^ot:ottId=324558,^ot:ottTaxonName=Hemignathus flavus,^ot:originalLabel=Hemignathus_flavus,^clo:ClementsTaxonName2019=Chlorodrepanis flava,^clo:speciescode2019=oahama],otu12[&otu=otu12,^ot:ottId=706153,^ot:ottTaxonName=Hemignathus stejnegeri,^ot:originalLabel=Hemignathus_stejnegeri,^clo:ClementsTaxonName2019=Akialoa stejnegeri,^clo:speciescode2019=greaki4])node28)node27)node21,otu16[&otu=otu16,^ot:ottId=3597443,^ot:ottTaxonName=Magumma parva,^ot:originalLabel=Magumma_parva,^clo:ClementsTaxonName2019=Magumma parva,^clo:speciescode2019=aniani])node20,(otu8[&otu=otu8,^ot:ottId=823300,^ot:ottTaxonName=Pseudonestor xanthophrys,^ot:originalLabel=Pseudonestor_xanthophrys,^clo:ClementsTaxonName2019=Pseudonestor xanthophrys,^clo:speciescode2019=maupar],otu7[&otu=otu7,^ot:ottId=157614,^ot:ottTaxonName=Hemignathus munroi,^ot:originalLabel=Hemignathus_munroi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node17)node16)node10,(otu3[&otu=otu3,^ot:ottId=221897,^ot:ottTaxonName=Loxioides bailleui,^ot:originalLabel=Loxioides_bailleui,^clo:ClementsTaxonName2019=Loxioides bailleui,^clo:speciescode2019=palila],(otu1[&otu=otu1,^ot:ottId=213516,^ot:ottTaxonName=Telespiza cantans,^ot:originalLabel=Telespiza_cantans,^clo:ClementsTaxonName2019=Telespiza cantans,^clo:speciescode2019=layfin],otu2[&otu=otu2,^ot:ottId=512723,^ot:ottTaxonName=Telespiza ultima,^ot:originalLabel=Telespiza_ultima,^clo:ClementsTaxonName2019=Telespiza ultima,^clo:speciescode2019=nihfin])node6)node5)node4)node3,otu19[&otu=otu19,^ot:ottId=221515,^ot:ottTaxonName=Melamprosops phaeosoma,^ot:originalLabel=Melamprosops_phaeosoma,^clo:ClementsTaxonName2019=Melamprosops phaeosoma,^clo:speciescode2019=poouli])node2,otu20[&otu=otu20,^ot:ottId=815418,^ot:ottTaxonName=Carpodacus erythrinus,^ot:originalLabel=Carpodacus_erythrinus,^clo:ClementsTaxonName2019=Carpodacus erythrinus,^clo:speciescode2019=comros])node1;
+END;
+

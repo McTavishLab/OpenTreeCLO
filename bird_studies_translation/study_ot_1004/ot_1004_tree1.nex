@@ -1,0 +1,64 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=52;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Figure 2 (chronogram)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=](((((otu46:16.98237[&otu=otu46,^ot:ottId=463183,^ot:ottTaxonName=Tyrannus tyrannus,^ot:originalLabel=Tyrannus_tyrannus,^clo:ClementsTaxonName2019=Tyrannus tyrannus,^clo:speciescode2019=easkin],otu47:16.98237[&otu=otu47,^ot:ottId=1015939,^ot:ottTaxonName=Mionectes macconnelli,^ot:originalLabel=Mionectes_macconnelli,^clo:ClementsTaxonName2019=Mionectes macconnelli,^clo:speciescode2019=mccfly1])node93:4.13947,otu45:21.12184[&otu=otu45,^ot:ottId=49248,^ot:ottTaxonName=Lepidothrix coronata,^ot:originalLabel=Lepidothrix_coronata,^clo:ClementsTaxonName2019=Lepidothrix coronata,^clo:speciescode2019=blcman1])node91:11.81633,(otu48:26.70492[&otu=otu48,^ot:ottId=413004,^ot:ottTaxonName=Thamnophilus nigrocinereus,^ot:originalLabel=Thamnophilus_nigrocinereus,^clo:ClementsTaxonName2019=Thamnophilus nigrocinereus,^clo:speciescode2019=blgant2],(otu51:24.91892[&otu=otu51,^ot:ottId=1091665,^ot:ottTaxonName=Grallaria varia,^ot:originalLabel=Grallaria_varia,^clo:ClementsTaxonName2019=Grallaria varia,^clo:speciescode2019=varant2],(otu50:23.2411[&otu=otu50,^ot:ottId=584977,^ot:ottTaxonName=Dendrocolaptes certhia,^ot:originalLabel=Dendrocolaptes_certhia,^clo:ClementsTaxonName2019=Dendrocolaptes certhia,^clo:speciescode2019=amabaw1],otu49:23.2411[&otu=otu49,^ot:ottId=44861,^ot:ottTaxonName=Scytalopus magellanicus,^ot:originalLabel=Scytalopus_magellanicus,^clo:ClementsTaxonName2019=Scytalopus magellanicus,^clo:speciescode2019=magtap1])node99:1.67782)node98:1.786)node96:6.23324)node90:6.14842,(otu44:28.91268[&otu=otu44,^ot:ottId=395861,^ot:ottTaxonName=Sapayoa aenigma,^ot:originalLabel=Sapayoa_aenigma,^clo:ClementsTaxonName2019=Sapayoa aenigma,^clo:speciescode2019=sapayo1],((((otu16:11.84053[&otu=otu16,^ot:ottId=793320,^ot:ottTaxonName=Hydrornis phayrei,^ot:originalLabel=Hydrornis_phayrei,^clo:ClementsTaxonName2019=Hydrornis phayrei,^clo:speciescode2019=earpit1],(((otu22:4.29509[&otu=otu22,^ot:ottId=4947551,^ot:ottTaxonName=Hydrornis guajanus,^ot:originalLabel=Hydrornis_guajanus,^clo:ClementsTaxonName2019=Hydrornis guajanus,^clo:speciescode2019=banpit2],otu21:4.29509[&otu=otu21,^ot:ottId=784637,^ot:ottTaxonName=Hydrornis baudii,^ot:originalLabel=Hydrornis_baudii,^clo:ClementsTaxonName2019=Hydrornis baudii,^clo:speciescode2019=blhpit1])node46:1.13221,(otu23:5.07321[&otu=otu23,^ot:ottId=4947548,^ot:ottTaxonName=Hydrornis cyaneus,^ot:originalLabel=Hydrornis_cyaneus,^clo:ClementsTaxonName2019=Hydrornis cyaneus,^clo:speciescode2019=blupit1],(otu25:1.86368[&otu=otu25,^ot:ottId=660689,^ot:ottTaxonName=Hydrornis gurneyi,^ot:originalLabel=Hydrornis_gurneyi,^clo:ClementsTaxonName2019=Hydrornis gurneyi,^clo:speciescode2019=gurpit1],otu24:1.86368[&otu=otu24,^ot:ottId=660686,^ot:ottTaxonName=Hydrornis elliottii,^ot:originalLabel=Hydrornis_elliotii,^clo:ClementsTaxonName2019=Hydrornis elliotii,^clo:speciescode2019=babpit1])node51:3.20953)node49:0.35409)node45:4.25587,(otu17:8.41769[&otu=otu17,^ot:ottId=4947550,^ot:ottTaxonName=Hydrornis caeruleus,^ot:originalLabel=Hydrornis_caeruleus,^clo:ClementsTaxonName2019=Hydrornis caeruleus,^clo:speciescode2019=giapit1],((otu20:1.66711[&otu=otu20,^ot:ottId=857813,^ot:ottTaxonName=Hydrornis soror,^ot:originalLabel=Hydrornis_soror,^clo:ClementsTaxonName2019=Hydrornis soror,^clo:speciescode2019=blrpit1],otu19:1.66711[&otu=otu19,^ot:ottId=660685,^ot:ottTaxonName=Hydrornis nipalensis,^ot:originalLabel=Hydrornis_nipalensis,^clo:ClementsTaxonName2019=Hydrornis nipalensis,^clo:speciescode2019=blnpit1])node42:3.01505,otu18:4.68216[&otu=otu18,^ot:ottId=857816,^ot:ottTaxonName=Hydrornis oatesi,^ot:originalLabel=Hydrornis_oatesi,^clo:ClementsTaxonName2019=Hydrornis oatesi,^clo:speciescode2019=runpit1])node40:3.73553)node38:1.26548)node37:2.15736)node35:1.63317,(((otu39:7.28715[&otu=otu39,^ot:ottId=3598672,^ot:ottTaxonName=Erythropitta erythrogaster,^ot:originalLabel=Erythropitta_erythrogaster,^clo:ClementsTaxonName2019=Erythropitta erythrogaster,^clo:speciescode2019=rebpit1],otu40:7.28715[&otu=otu40,^ot:ottId=3598674,^ot:ottTaxonName=Erythropitta kochi,^ot:originalLabel=Erythropitta_kochi,^clo:ClementsTaxonName2019=Erythropitta kochi,^clo:speciescode2019=whipit1])node81:3.24869,((otu41:3.09403[&otu=otu41,^ot:ottId=3598669,^ot:ottTaxonName=Erythropitta arquata,^ot:originalLabel=Erythropitta_arquata,^clo:ClementsTaxonName2019=Erythropitta arquata,^clo:speciescode2019=blbpit1],otu42:3.09403[&otu=otu42,^ot:ottId=3598675,^ot:ottTaxonName=Erythropitta granatina,^ot:originalLabel=Erythropitta_granatina,^clo:ClementsTaxonName2019=Erythropitta granatina,^clo:speciescode2019=garpit1])node85:2.49055,otu43:5.58458[&otu=otu43,^ot:ottId=3598671,^ot:ottTaxonName=Erythropitta venusta,^ot:originalLabel=Erythropitta_venusta,^clo:ClementsTaxonName2019=Erythropitta venusta,^clo:speciescode2019=blcpit1])node84:4.95125)node80:1.98184,((otu26:2.52911[&otu=otu26,^ot:ottId=269793,^ot:ottTaxonName=Pitta reichenowi,^ot:originalLabel=Pitta_reichenowi,^clo:ClementsTaxonName2019=Pitta reichenowi,^clo:speciescode2019=grbpit1],otu27:2.52911[&otu=otu27,^ot:ottId=33874,^ot:ottTaxonName=Pitta angolensis,^ot:originalLabel=Pitta_angolensis,^clo:ClementsTaxonName2019=Pitta angolensis,^clo:speciescode2019=afrpit1])node56:7.16483,(otu38:7.69215[&otu=otu38,^ot:ottId=269794,^ot:ottTaxonName=Pitta brachyura,^ot:originalLabel=Pitta_brachyura,^clo:ClementsTaxonName2019=Pitta brachyura,^clo:speciescode2019=indpit1],(((otu31:2.84861[&otu=otu31,^ot:ottId=660691,^ot:ottTaxonName=Pitta maxima,^ot:originalLabel=Pitta_maxima,^clo:ClementsTaxonName2019=Pitta maxima,^clo:speciescode2019=ivbpit1],((otu34:2.49152[&otu=otu34,^ot:ottId=269788,^ot:ottTaxonName=Pitta steerii,^ot:originalLabel=Pitta_steerii,^clo:ClementsTaxonName2019=Pitta steerii,^clo:speciescode2019=azbpit1],(otu35:1.64659[&otu=otu35,^ot:ottId=660692,^ot:ottTaxonName=Pitta superba,^ot:originalLabel=Pitta_superba,^clo:ClementsTaxonName2019=Pitta superba,^clo:speciescode2019=suppit1],otu36:1.64659[&otu=otu36,^ot:ottId=857811,^ot:ottTaxonName=Pitta iris,^ot:originalLabel=Pitta_iris,^clo:ClementsTaxonName2019=Pitta iris,^clo:speciescode2019=raipit1])node75:0.84493)node73:0.20084,(otu32:2.25083[&otu=otu32,^ot:ottId=793323,^ot:ottTaxonName=Pitta anerythra,^ot:originalLabel=Pitta_anerythra,^clo:ClementsTaxonName2019=Pitta anerythra,^clo:speciescode2019=blfpit1],otu33:2.25083[&otu=otu33,^ot:ottId=793324,^ot:ottTaxonName=Pitta elegans,^ot:originalLabel=Pitta_elegans,^clo:ClementsTaxonName2019=Pitta elegans,^clo:speciescode2019=elepit1])node70:0.44152)node69:0.15626)node67:0.17637,otu37:3.02498[&otu=otu37,^ot:ottId=413075,^ot:ottTaxonName=Pitta versicolor,^ot:originalLabel=Pitta_versicolor,^clo:ClementsTaxonName2019=Pitta versicolor,^clo:speciescode2019=noipit1])node66:1.85306,((otu30:2.997[&otu=otu30,^ot:ottId=269795,^ot:ottTaxonName=Pitta nympha,^ot:originalLabel=Pitta_nympha,^clo:ClementsTaxonName2019=Pitta nympha,^clo:speciescode2019=faipit1],otu29:2.997[&otu=otu29,^ot:ottId=44876,^ot:ottTaxonName=Pitta sordida,^ot:originalLabel=Pitta_sordida,^clo:ClementsTaxonName2019=Pitta sordida,^clo:speciescode2019=hoopit2])node63:0.91103,otu28:3.90804[&otu=otu28,^ot:ottId=269796,^ot:ottTaxonName=Pitta moluccensis,^ot:originalLabel=Pitta_moluccensis,^clo:ClementsTaxonName2019=Pitta moluccensis,^clo:speciescode2019=blwpit1])node61:0.97001)node60:2.8141)node59:2.0018)node55:2.82373)node54:0.95603)node34:13.96835,(((otu13:3.20243[&otu=otu13,^ot:ottId=592204,^ot:ottTaxonName=Smithornis rufolateralis,^ot:originalLabel=Smithornis_rufolateralis,^clo:ClementsTaxonName2019=Smithornis rufolateralis,^clo:speciescode2019=rusbro1],otu14:3.20243[&otu=otu14,^ot:ottId=283120,^ot:ottTaxonName=Smithornis capensis,^ot:originalLabel=Smithornis_capensis,^clo:ClementsTaxonName2019=Smithornis capensis,^clo:speciescode2019=afrbro1])node30:2.82116,otu15:6.0236[&otu=otu15,^ot:ottId=50165,^ot:ottTaxonName=Smithornis sharpei,^ot:originalLabel=Smithornis_sharpei,^clo:ClementsTaxonName2019=Smithornis sharpei,^clo:speciescode2019=gyhbro1])node29:16.16802,(otu12:4.31261[&otu=otu12,^ot:ottId=283121,^ot:ottTaxonName=Calyptomena whiteheadi,^ot:originalLabel=Calyptomena_whiteheadi,^clo:ClementsTaxonName2019=Calyptomena whiteheadi,^clo:speciescode2019=whibro1],otu11:4.31261[&otu=otu11,^ot:ottId=26175,^ot:ottTaxonName=Calyptomena viridis,^ot:originalLabel=Calyptomena_viridis,^clo:ClementsTaxonName2019=Calyptomena viridis,^clo:speciescode2019=grebro1])node26:17.879)node25:5.25044)node24:0.733,((otu10:16.06802[&otu=otu10,^ot:ottId=839554,^ot:ottTaxonName=Philepitta castanea,^ot:originalLabel=Philepitta_castanea,^clo:ClementsTaxonName2019=Philepitta castanea,^clo:speciescode2019=velasi1],otu9:16.06802[&otu=otu9,^ot:ottId=540005,^ot:ottTaxonName=Neodrepanis coruscans,^ot:originalLabel=Neodrepanis_coruscans,^clo:ClementsTaxonName2019=Neodrepanis coruscans,^clo:speciescode2019=sunasi1])node21:6.04022,(otu1:18.72031[&otu=otu1,^ot:ottId=857821,^ot:ottTaxonName=Pseudocalyptomena graueri,^ot:originalLabel=Pseudocalyptomena_graueri,^clo:ClementsTaxonName2019=Pseudocalyptomena graueri,^clo:speciescode2019=grabro1],((otu2:9.70676[&otu=otu2,^ot:ottId=857810,^ot:ottTaxonName=Corydon sumatranus,^ot:originalLabel=Corydon_sumatranus,^clo:ClementsTaxonName2019=Corydon sumatranus,^clo:speciescode2019=dusbro1],otu3:9.70676[&otu=otu3,^ot:ottId=895684,^ot:ottTaxonName=Psarisomus dalhousiae,^ot:originalLabel=Psarisomus_dalhousiae,^clo:ClementsTaxonName2019=Psarisomus dalhousiae,^clo:speciescode2019=lotbro1])node9:4.08885,(otu4:11.48824[&otu=otu4,^ot:ottId=5857365,^ot:ottTaxonName=Sarcophanops steerii,^ot:originalLabel=Sarcophanops_steerii,^clo:ClementsTaxonName2019=Eurylaimus steerii,^clo:speciescode2019=watbro1],((otu7:4.78555[&otu=otu7,^ot:ottId=395865,^ot:ottTaxonName=Cymbirhynchus macrorhynchos,^ot:originalLabel=Cymbirhynchus_macrorhynchos,^clo:ClementsTaxonName2019=Cymbirhynchus macrorhynchos,^clo:speciescode2019=barbro1],otu8:4.78555[&otu=otu8,^ot:ottId=768994,^ot:ottTaxonName=Serilophus lunatus,^ot:originalLabel=Serilophus_lunatus,^clo:ClementsTaxonName2019=Serilophus lunatus,^clo:speciescode2019=sibbro1])node18:4.12932,(otu6:3.13854[&otu=otu6,^ot:ottId=857812,^ot:ottTaxonName=Eurylaimus javanicus,^ot:originalLabel=Eurylaimus_javanicus,^clo:ClementsTaxonName2019=Eurylaimus javanicus,^clo:speciescode2019=banbro1],otu5:3.13854[&otu=otu5,^ot:ottId=184248,^ot:ottTaxonName=Eurylaimus ochromalus,^ot:originalLabel=Eurylaimus_ochromalus,^clo:ClementsTaxonName2019=Eurylaimus ochromalus,^clo:speciescode2019=baybro1])node15:5.77633)node14:2.57337)node12:2.30737)node8:4.9247)node6:3.38794)node5:6.06681)node4:0.73763)node3:10.17391)node2:11.41695,otu52:50.50354[&otu=otu52,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=Acanthisitta_chloris,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1])node1;
+END;
+

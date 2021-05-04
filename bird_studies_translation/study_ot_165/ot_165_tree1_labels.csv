@@ -1,0 +1,21 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu5	Forpus cyanopygius insularis	mexpar3	Forpus_cyanopygius_insularis	558234	Forpus cyanopygius insularis
+otu6	Forpus cyanopygius cyanopygius	mexpar2	Forpus_cyanopygius_cyanopygius	649005	Forpus cyanopygius cyanopygius
+otu18	Forpus xanthopterygius crassirostris	buwpar2	Forpus_xanthopterygius_crassirostris	267640	Forpus crassirostris
+otu9	no_match	no_match	Forpus_passerinus_cyanochlorus	842175	Forpus passerinus cyanochlorus
+otu8	no_match	no_match	Forpus_passerinus_deliciosus	495050	Forpus passerinus deliciosus
+otu7	no_match	no_match	Forpus_passerinus_passerinus	495037	Forpus passerinus passerinus
+otu10	not_a_bird	not_a_bird	Forpus_passerinus_Jamaica	None	None
+otu11	no_match	no_match	Forpus_passerinus_cyanophanes	842173	Forpus passerinus cyanophanes
+otu14	Forpus conspicillatus	spepar1	Forpus_conspicillatus	1047127	Forpus conspicillatus
+otu13	Forpus xanthops	yefpar2	Forpus_xanthops	803501	Forpus xanthops
+otu12	Forpus coelestis	pacpar2	Forpus_coelestis	630221	Forpus coelestis
+otu17	not_a_bird	not_a_bird	Forpus_xanthopterygius_flavescens	None	None
+otu16	not_a_bird	not_a_bird	Forpus_xanthopterygius_flavissimus	None	None
+otu15	Forpus xanthopterygius	blwpar4	Forpus_xanthopterygius_xanthopterygius	267637	Forpus xanthopterygius
+otu1	no_match	no_match	Forpus_modestus_eidos_East	649011	Forpus modestus eidos
+otu2	no_match	no_match	Forpus_modestus_eidos_West	649011	Forpus modestus eidos
+otu3	Forpus modestus sclateri	dubpar3	Forpus_modestus_sclateri_West	893370	Forpus modestus sclateri
+otu4	Forpus modestus sclateri	dubpar3	Forpus_modestus_sclateri_East	893370	Forpus modestus sclateri
+otu19	Brotogeris jugularis	orcpar	Brotogeris_jugularis	717634	Brotogeris jugularis
+otu20	Eupsittula pertinax	brtpar1	Aratinga_pertinax	435940	Aratinga pertinax

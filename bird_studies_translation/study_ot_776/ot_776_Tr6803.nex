@@ -1,0 +1,46 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=34;
+    TAXLABELS
+        Tl272421
+        Tl272420
+        Tl270896
+        Tl270897
+        Tl270894
+        Tl270895
+        Anhinga_spp
+        Tl270893
+        Tl270890
+        Tl270891
+        Tl270898
+        Tl270899
+        Tl270913
+        Tl270912
+        Tl270911
+        Tl270910
+        Tl269145
+        Tl270889
+        Tl270888
+        Tl269136
+        Tl270885
+        Tl270887
+        Tl270886
+        Tl272419
+        Tl270908
+        Tl270909
+        Tl270900
+        Tl270901
+        Tl270902
+        Tl270903
+        Tl270904
+        Tl270905
+        Tl270906
+        Tl270907
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2b (Bayesian 90% consensus)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((Tl272419[&otu=Tl272419,^ot:ottId=170196,^ot:ottTaxonName=Anhinga anhinga,^ot:originalLabel=Anhinga_anhinga,^clo:ClementsTaxonName2019=Anhinga anhinga,^clo:speciescode2019=anhing],Tl272421[&otu=Tl272421,^ot:ottId=986356,^ot:ottTaxonName=Anhinga rufa,^ot:originalLabel=Anhinga_rufa,^clo:ClementsTaxonName2019=Anhinga rufa,^clo:speciescode2019=darter3],Tl272420[&otu=Tl272420,^ot:ottId=443639,^ot:ottTaxonName=Anhinga novaehollandiae,^ot:originalLabel=Anhinga_novaehollandiae,^clo:ClementsTaxonName2019=Anhinga novaehollandiae,^clo:speciescode2019=darter4])Tn551385,(Tl270889[&otu=Tl270889,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Compsohalieus_neglectus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(Tl270912[&otu=Tl270912,^ot:ottId=9836,^ot:ottTaxonName=Phalacrocorax capensis,^ot:originalLabel=Leucocarbo_capensis,^clo:ClementsTaxonName2019=Phalacrocorax capensis,^clo:speciescode2019=capcor1],(Tl269136[&otu=Tl269136,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor],Tl269145[&otu=Tl269145,^ot:ottId=9835,^ot:ottTaxonName=Phalacrocorax capillatus,^ot:originalLabel=Phalacrocorax_capillatus,^clo:ClementsTaxonName2019=Phalacrocorax capillatus,^clo:speciescode2019=japcor1])Tn551380)Tn551391,((Tl270910[&otu=Tl270910,^ot:ottId=443642,^ot:ottTaxonName=Phalacrocorax sulcirostris,^ot:originalLabel=Hypoleucos_sulcirostris,^clo:ClementsTaxonName2019=Phalacrocorax sulcirostris,^clo:speciescode2019=libcor1],(Tl270904[&otu=Tl270904,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Compsohalieus_fuscescens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl270903[&otu=Tl270903,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Hypoleucos_varius,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1])Tn551408)Tn551405,(Tl270911[&otu=Tl270911,^ot:ottId=480891,^ot:ottTaxonName=Phalacrocorax punctatus,^ot:originalLabel=Stictocarbo_punctatus,^clo:ClementsTaxonName2019=Phalacrocorax punctatus,^clo:speciescode2019=sposha1],Tl270887[&otu=Tl270887,^ot:ottId=5857076,^ot:ottTaxonName=Stictocarbo featherstoni,^ot:originalLabel=Stictocarbo_featherstoni,^clo:ClementsTaxonName2019=Phalacrocorax featherstoni,^clo:speciescode2019=piisha1])Tn551410)Tn551417,Tl270909[&otu=Tl270909,^ot:ottId=780772,^ot:ottTaxonName=Phalacrocorax nigrogularis,^ot:originalLabel=Leucocarbo_nigrogularis,^clo:ClementsTaxonName2019=Phalacrocorax nigrogularis,^clo:speciescode2019=soccor1],(Tl270899[&otu=Tl270899,^ot:ottId=409434,^ot:ottTaxonName=Nannopterum harrisi,^ot:originalLabel=Compsohalieus_harrisi,^clo:ClementsTaxonName2019=Phalacrocorax harrisi,^clo:speciescode2019=flicor1],Tl270888[&otu=Tl270888,^ot:ottId=701202,^ot:ottTaxonName=Phalacrocorax varius,^ot:originalLabel=Hypoleucos_auritus,^clo:ClementsTaxonName2019=Phalacrocorax varius,^clo:speciescode2019=piecor1],Tl270902[&otu=Tl270902,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hypoleucos_brasilianus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn551370,(Tl270896[&otu=Tl270896,^ot:ottId=1080666,^ot:ottTaxonName=Microcarbo pygmeus,^ot:originalLabel=Microcarbo_pygmaeus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl270905[&otu=Tl270905,^ot:ottId=9838,^ot:ottTaxonName=Microcarbo melanoleucos,^ot:originalLabel=Microcarbo_melanoleucos,^clo:ClementsTaxonName2019=Microcarbo melanoleucos,^clo:speciescode2019=lipcor1])Tn551409,Tl270891[&otu=Tl270891,^ot:ottId=480885,^ot:ottTaxonName=Poikilocarbo gaimardi,^ot:originalLabel=Stictocarbo_gaimardi,^clo:ClementsTaxonName2019=Phalacrocorax gaimardi,^clo:speciescode2019=relcor1],Tl270895[&otu=Tl270895,^ot:ottId=1021952,^ot:ottTaxonName=Gulosus aristotelis,^ot:originalLabel=Stictocarbo_aristotelis,^clo:ClementsTaxonName2019=Phalacrocorax aristotelis,^clo:speciescode2019=eursha1],((Tl270907[&otu=Tl270907,^ot:ottId=401967,^ot:ottTaxonName=Leucocarbo bransfieldensis,^ot:originalLabel=Notocarbo_bransfieldensis,^clo:ClementsTaxonName2019=Phalacrocorax bransfieldensis,^clo:speciescode2019=antsha1],Tl270906[&otu=Tl270906,^ot:ottId=221814,^ot:ottTaxonName=Leucocarbo georgianus,^ot:originalLabel=Notocarbo_georgianus,^clo:ClementsTaxonName2019=Phalacrocorax georgianus,^clo:speciescode2019=sogsha1],Tl270913[&otu=Tl270913,^ot:ottId=9834,^ot:ottTaxonName=Leucocarbo bougainvillii,^ot:originalLabel=Leucocarbo_bougainvillii,^clo:ClementsTaxonName2019=Phalacrocorax bougainvillii,^clo:speciescode2019=guacor1],Tl270901[&otu=Tl270901,^ot:ottId=969843,^ot:ottTaxonName=Leucocarbo albiventer,^ot:originalLabel=Notocarbo_albiventer,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(Tl270893[&otu=Tl270893,^ot:ottId=9831,^ot:ottTaxonName=Leucocarbo campbelli,^ot:originalLabel=Nesocarbo_campbelli,^clo:ClementsTaxonName2019=Phalacrocorax campbelli,^clo:speciescode2019=caisha2],Tl270900[&otu=Tl270900,^ot:ottId=31563,^ot:ottTaxonName=Leucocarbo colensoi,^ot:originalLabel=Euleucocarbo_colensoi,^clo:ClementsTaxonName2019=Phalacrocorax colensoi,^clo:speciescode2019=auisha1])Tn551393,(Tl270885[&otu=Tl270885,^ot:ottId=480890,^ot:ottTaxonName=Leucocarbo chalconotus,^ot:originalLabel=Euleucocarbo_chalconotus,^clo:ClementsTaxonName2019=Phalacrocorax chalconotus,^clo:speciescode2019=brosha1],Tl270897[&otu=Tl270897,^ot:ottId=9837,^ot:ottTaxonName=Leucocarbo onslowi,^ot:originalLabel=Euleucocarbo_onslowi,^clo:ClementsTaxonName2019=Phalacrocorax onslowi,^clo:speciescode2019=chisha1])Tn551401,Tl270898[&otu=Tl270898,^ot:ottId=31566,^ot:ottTaxonName=Leucocarbo ranfurlyi,^ot:originalLabel=Euleucocarbo_ranfurlyi,^clo:ClementsTaxonName2019=Phalacrocorax ranfurlyi,^clo:speciescode2019=boisha1])Tn551384,Tl270908[&otu=Tl270908,^ot:ottId=323108,^ot:ottTaxonName=Leucocarbo magellanicus,^ot:originalLabel=Stictocarbo_magellanicus,^clo:ClementsTaxonName2019=Phalacrocorax magellanicus,^clo:speciescode2019=magcor1])Tn551394,(Tl270890[&otu=Tl270890,^ot:ottId=9830,^ot:ottTaxonName=Urile penicillatus,^ot:originalLabel=Compsohalieus_penicillatus,^clo:ClementsTaxonName2019=Phalacrocorax penicillatus,^clo:speciescode2019=bracor],(Tl270886[&otu=Tl270886,^ot:ottId=744568,^ot:ottTaxonName=Urile pelagicus,^ot:originalLabel=Stictocarbo_pelagicus,^clo:ClementsTaxonName2019=Phalacrocorax pelagicus,^clo:speciescode2019=pelcor],Tl270894[&otu=Tl270894,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Stictocarbo_urile,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn551398)Tn551377)Tn551371)Tn551378;
+END;
+

@@ -1,0 +1,18 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+        otu6
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=989502,^ot:ottTaxonName=Junco hyemalis,^ot:originalLabel=Junco_hyemalis,^clo:ClementsTaxonName2019=Junco hyemalis,^clo:speciescode2019=daejun],(otu2[&otu=otu2,^ot:ottId=265551,^ot:ottTaxonName=Zonotrichia capensis,^ot:originalLabel=Zonotrichia_capensis,^clo:ClementsTaxonName2019=Zonotrichia capensis,^clo:speciescode2019=rucspa1],(otu3[&otu=otu3,^ot:ottId=265552,^ot:ottTaxonName=Zonotrichia querula,^ot:originalLabel=Zonotrichia_querula,^clo:ClementsTaxonName2019=Zonotrichia querula,^clo:speciescode2019=harspa],((otu5[&otu=otu5,^ot:ottId=265553,^ot:ottTaxonName=Zonotrichia leucophrys,^ot:originalLabel=Zonotrichia_leucophrys,^clo:ClementsTaxonName2019=Zonotrichia leucophrys,^clo:speciescode2019=whcspa],otu6[&otu=otu6,^ot:ottId=265554,^ot:ottTaxonName=Zonotrichia atricapilla,^ot:originalLabel=Zonotrichia_atricapilla,^clo:ClementsTaxonName2019=Zonotrichia atricapilla,^clo:speciescode2019=gocspa])node9,otu4[&otu=otu4,^ot:ottId=265547,^ot:ottTaxonName=Zonotrichia albicollis,^ot:originalLabel=Zonotrichia_albicollis,^clo:ClementsTaxonName2019=Zonotrichia albicollis,^clo:speciescode2019=whtspa])node7)node5)node3)node1;
+END;
+

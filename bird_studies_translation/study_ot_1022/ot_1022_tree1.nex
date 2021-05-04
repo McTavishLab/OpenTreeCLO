@@ -1,0 +1,57 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=45;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 5a (topology only)' = [&unrootedTree=False,curatedType=Neighbor-joining ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((((((otu22[&otu=otu22,^ot:ottId=552044,^ot:ottTaxonName=Callonetta leucophrys,^ot:originalLabel=Callonetta_leucophrys,^clo:ClementsTaxonName2019=Callonetta leucophrys,^clo:speciescode2019=rintea1],otu21[&otu=otu21,^ot:ottId=948668,^ot:ottTaxonName=Melanitta nigra,^ot:originalLabel=Melanitta_nigra,^clo:ClementsTaxonName2019=Melanitta nigra,^clo:speciescode2019=blksco1])node46,(otu20[&otu=otu20,^ot:ottId=166683,^ot:ottTaxonName=Bucephala clangula,^ot:originalLabel=Bucephala_clangula,^clo:ClementsTaxonName2019=Bucephala clangula,^clo:speciescode2019=comgol],((otu17[&otu=otu17,^ot:ottId=809009,^ot:ottTaxonName=Lophodytes cucullatus,^ot:originalLabel=Mergus_cucullatus,^clo:ClementsTaxonName2019=Lophodytes cucullatus,^clo:speciescode2019=hoomer],otu18[&otu=otu18,^ot:ottId=166692,^ot:ottTaxonName=Mergellus albellus,^ot:originalLabel=Mergus_albellus,^clo:ClementsTaxonName2019=Mergellus albellus,^clo:speciescode2019=smew])node41,otu19[&otu=otu19,^ot:ottId=662625,^ot:ottTaxonName=Mergus serrator,^ot:originalLabel=Mergus_serrator,^clo:ClementsTaxonName2019=Mergus serrator,^clo:speciescode2019=rebmer])node40)node39)node38,(otu23[&otu=otu23,^ot:ottId=785961,^ot:ottTaxonName=Somateria mollissima,^ot:originalLabel=Somateria_mollissima,^clo:ClementsTaxonName2019=Somateria mollissima,^clo:speciescode2019=comeid],otu24[&otu=otu24,^ot:ottId=316879,^ot:ottTaxonName=Clangula hyemalis,^ot:originalLabel=Clangula_hyemalis,^clo:ClementsTaxonName2019=Clangula hyemalis,^clo:speciescode2019=lotduc])node49)node37,(((otu13[&otu=otu13,^ot:ottId=552052,^ot:ottTaxonName=Marmaronetta angustirostris,^ot:originalLabel=Marmaronetta_angustirostris,^clo:ClementsTaxonName2019=Marmaronetta angustirostris,^clo:speciescode2019=martea1],otu14[&otu=otu14,^ot:ottId=436829,^ot:ottTaxonName=Chenonetta jubata,^ot:originalLabel=Chenonetta_jubata,^clo:ClementsTaxonName2019=Chenonetta jubata,^clo:speciescode2019=manduc1])node31,(((otu12[&otu=otu12,^ot:ottId=693335,^ot:ottTaxonName=Netta rufina,^ot:originalLabel=Netta_rufina,^clo:ClementsTaxonName2019=Netta rufina,^clo:speciescode2019=recpoc],otu11[&otu=otu11,^ot:ottId=789865,^ot:ottTaxonName=Aythya nyroca,^ot:originalLabel=Aythya_nyroca,^clo:ClementsTaxonName2019=Aythya nyroca,^clo:speciescode2019=ferduc])node28,(otu10[&otu=otu10,^ot:ottId=1044561,^ot:ottTaxonName=Aythya marila,^ot:originalLabel=Aythya_marila,^clo:ClementsTaxonName2019=Aythya marila,^clo:speciescode2019=gresca],otu9[&otu=otu9,^ot:ottId=693332,^ot:ottTaxonName=Aythya americana,^ot:originalLabel=Aythya_americana,^clo:ClementsTaxonName2019=Aythya americana,^clo:speciescode2019=redhea])node25)node24,(((otu5[&otu=otu5,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3],((otu1[&otu=otu1,^ot:ottId=30856,^ot:ottTaxonName=Mareca strepera,^ot:originalLabel=Anas_strepera,^clo:ClementsTaxonName2019=Mareca strepera,^clo:speciescode2019=gadwal],otu2[&otu=otu2,^ot:ottId=604188,^ot:ottTaxonName=Mareca sibilatrix,^ot:originalLabel=Anas_sibilatrix,^clo:ClementsTaxonName2019=Mareca sibilatrix,^clo:speciescode2019=chiwig1])node13,(otu3[&otu=otu3,^ot:ottId=656778,^ot:ottTaxonName=Anas bahamensis,^ot:originalLabel=Anas_bahamensis,^clo:ClementsTaxonName2019=Anas bahamensis,^clo:speciescode2019=whcpin],otu4[&otu=otu4,^ot:ottId=855474,^ot:ottTaxonName=Anas acuta,^ot:originalLabel=Anas_acuta,^clo:ClementsTaxonName2019=Anas acuta,^clo:speciescode2019=norpin])node16)node12)node11,otu6[&otu=otu6,^ot:ottId=552046,^ot:ottTaxonName=Lophonetta specularioides,^ot:originalLabel=Lophonetta_specularoides,^clo:ClementsTaxonName2019=Lophonetta specularioides,^clo:speciescode2019=creduc1])node10,(otu8[&otu=otu8,^ot:ottId=656794,^ot:ottTaxonName=Anas clypeata,^ot:originalLabel=Anas_clypeata,^clo:ClementsTaxonName2019=Spatula clypeata,^clo:speciescode2019=norsho],otu7[&otu=otu7,^ot:ottId=656799,^ot:ottTaxonName=Anas crecca,^ot:originalLabel=Anas_crecca,^clo:ClementsTaxonName2019=Anas crecca,^clo:speciescode2019=gnwtea])node21)node9)node8)node7,(otu15[&otu=otu15,^ot:ottId=714469,^ot:ottTaxonName=Cairina moschata,^ot:originalLabel=Cairina_moschata,^clo:ClementsTaxonName2019=Cairina moschata,^clo:speciescode2019=musduc],otu16[&otu=otu16,^ot:ottId=765197,^ot:ottTaxonName=Aix galericulata,^ot:originalLabel=Aix_galericulata,^clo:ClementsTaxonName2019=Aix galericulata,^clo:speciescode2019=manduc])node34)node6)node5,(otu28[&otu=otu28,^ot:ottId=140309,^ot:ottTaxonName=Chloephaga picta,^ot:originalLabel=Chloephaga_picta,^clo:ClementsTaxonName2019=Chloephaga picta,^clo:speciescode2019=uplgoo1],(otu27[&otu=otu27,^ot:ottId=693339,^ot:ottTaxonName=Alopochen aegyptiacus,^ot:originalLabel=Alopochen_aegyptiacus,^clo:ClementsTaxonName2019=Alopochen aegyptiaca,^clo:speciescode2019=egygoo],(otu25[&otu=otu25,^ot:ottId=282327,^ot:ottTaxonName=Tadorna tadornoides,^ot:originalLabel=Tadorna_tadornoides,^clo:ClementsTaxonName2019=Tadorna tadornoides,^clo:speciescode2019=ausshe1],otu26[&otu=otu26,^ot:ottId=30847,^ot:ottTaxonName=Tadorna tadorna,^ot:originalLabel=Tadorna_tadorna,^clo:ClementsTaxonName2019=Tadorna tadorna,^clo:speciescode2019=comshe])node54)node53)node52)node4,(((otu41[&otu=otu41,^ot:ottId=714459,^ot:ottTaxonName=Cereopsis novaehollandiae,^ot:originalLabel=Cereopsis_novaehollandiae,^clo:ClementsTaxonName2019=Cereopsis novaehollandiae,^clo:speciescode2019=cabgoo1],otu40[&otu=otu40,^ot:ottId=140305,^ot:ottTaxonName=Coscoroba coscoroba,^ot:originalLabel=Coscoroba_coscoroba,^clo:ClementsTaxonName2019=Coscoroba coscoroba,^clo:speciescode2019=cosswa1])node82,otu42[&otu=otu42,^ot:ottId=140312,^ot:ottTaxonName=Cygnus atratus,^ot:originalLabel=Cygnus_atratus,^clo:ClementsTaxonName2019=Cygnus atratus,^clo:speciescode2019=blkswa])node81,((otu39[&otu=otu39,^ot:ottId=799106,^ot:ottTaxonName=Branta ruficollis,^ot:originalLabel=Branta_ruficollis,^clo:ClementsTaxonName2019=Branta ruficollis,^clo:speciescode2019=rebgoo1],(otu38[&otu=otu38,^ot:ottId=135287,^ot:ottTaxonName=Branta bernicla,^ot:originalLabel=Branta_bernicla,^clo:ClementsTaxonName2019=Branta bernicla,^clo:speciescode2019=brant],(otu36[&otu=otu36,^ot:ottId=799124,^ot:ottTaxonName=Branta leucopsis,^ot:originalLabel=Branta_leucopsis,^clo:ClementsTaxonName2019=Branta leucopsis,^clo:speciescode2019=bargoo],otu37[&otu=otu37,^ot:ottId=714461,^ot:ottTaxonName=Branta canadensis,^ot:originalLabel=Branta_canadensis,^clo:ClementsTaxonName2019=Branta canadensis,^clo:speciescode2019=cangoo])node76)node75)node74,(otu35[&otu=otu35,^ot:ottId=166688,^ot:ottTaxonName=Anser canagica,^ot:originalLabel=Anser_canagicus,^clo:ClementsTaxonName2019=Anser canagicus,^clo:speciescode2019=empgoo],(otu34[&otu=otu34,^ot:ottId=430239,^ot:ottTaxonName=Anser albifrons,^ot:originalLabel=Anser_albifrons,^clo:ClementsTaxonName2019=Anser albifrons,^clo:speciescode2019=gwfgoo],(otu33[&otu=otu33,^ot:ottId=190878,^ot:ottTaxonName=Anser caerulescens,^ot:originalLabel=Anser_caerulescens,^clo:ClementsTaxonName2019=Anser caerulescens,^clo:speciescode2019=snogoo],(((otu30[&otu=otu30,^ot:ottId=190887,^ot:ottTaxonName=Anser anser,^ot:originalLabel=Anser_anser,^clo:ClementsTaxonName2019=Anser anser,^clo:speciescode2019=gragoo],otu29[&otu=otu29,^ot:ottId=767830,^ot:ottTaxonName=Anser rossii,^ot:originalLabel=Anser_rossii,^clo:ClementsTaxonName2019=Anser rossii,^clo:speciescode2019=rosgoo])node66,otu31[&otu=otu31,^ot:ottId=190897,^ot:ottTaxonName=Anser indicus,^ot:originalLabel=Anser_indicus,^clo:ClementsTaxonName2019=Anser indicus,^clo:speciescode2019=bahgoo])node65,otu32[&otu=otu32,^ot:ottId=691333,^ot:ottTaxonName=Anser erythropus,^ot:originalLabel=Anser_erythropus,^clo:ClementsTaxonName2019=Anser erythropus,^clo:speciescode2019=lwfgoo])node64)node63)node62)node61)node60)node59)node3,(otu44[&otu=otu44,^ot:ottId=662618,^ot:ottTaxonName=Dendrocygna bicolor,^ot:originalLabel=Dendrocygna_bicolor,^clo:ClementsTaxonName2019=Dendrocygna bicolor,^clo:speciescode2019=fuwduc],otu43[&otu=otu43,^ot:ottId=662615,^ot:ottTaxonName=Dendrocygna eytoni,^ot:originalLabel=Dendrocygna_eytoni,^clo:ClementsTaxonName2019=Dendrocygna eytoni,^clo:speciescode2019=plwduc1])node86)node2,otu45[&otu=otu45,^ot:ottId=860132,^ot:ottTaxonName=Chauna torquata,^ot:originalLabel=Chauna_torquata,^clo:ClementsTaxonName2019=Chauna torquata,^clo:speciescode2019=souscr1])node1;
+END;
+

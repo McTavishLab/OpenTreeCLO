@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=551379,^ot:ottTaxonName=Halcyon malimbica,^ot:originalLabel=Halcyon_malimbica,^clo:ClementsTaxonName2019=Halcyon malimbica,^clo:speciescode2019=blbkin4],otu2[&otu=otu2,^ot:ottId=209417,^ot:ottTaxonName=Megaceryle maxima,^ot:originalLabel=Megaceryle_maxima,^clo:ClementsTaxonName2019=Megaceryle maxima,^clo:speciescode2019=giakin3],((((otu7[&otu=otu7,^ot:ottId=951191,^ot:ottTaxonName=Alcedo leucogaster nais,^ot:originalLabel=Alcedo_nais,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu9[&otu=otu9,^ot:ottId=604614,^ot:ottTaxonName=Alcedo cristata thomensis,^ot:originalLabel=Alcedo_thomensis,^clo:ClementsTaxonName2019=Corythornis cristatus thomensis,^clo:speciescode2019=malkin5],otu8[&otu=otu8,^ot:ottId=651469,^ot:ottTaxonName=Alcedo cristata,^ot:originalLabel=Alcedo_cristata,^clo:ClementsTaxonName2019=Corythornis cristatus,^clo:speciescode2019=malkin1])node15)node13,otu6[&otu=otu6,^ot:ottId=26087,^ot:ottTaxonName=Alcedo leucogaster,^ot:originalLabel=Alcedo_leucogaster,^clo:ClementsTaxonName2019=Corythornis leucogaster,^clo:speciescode2019=whbkin1])node11,(otu10[&otu=otu10,^ot:ottId=1061846,^ot:ottTaxonName=Ceyx lecontei,^ot:originalLabel=Ceyx_lecontei,^clo:ClementsTaxonName2019=Ispidina lecontei,^clo:speciescode2019=dwakin1],otu11[&otu=otu11,^ot:ottId=1097691,^ot:ottTaxonName=Ceyx pictus,^ot:originalLabel=Ispidina_picta,^clo:ClementsTaxonName2019=Ispidina picta,^clo:speciescode2019=afpkin1])node18)node10,(otu3[&otu=otu3,^ot:ottId=215691,^ot:ottTaxonName=Ceyx erithaca,^ot:originalLabel=Ceyx_erithacus,^clo:ClementsTaxonName2019=Ceyx erithaca,^clo:speciescode2019=bkbkin1],(otu5[&otu=otu5,^ot:ottId=26078,^ot:ottTaxonName=Alcedo quadribrachys,^ot:originalLabel=Alcedo_quadribrachys,^clo:ClementsTaxonName2019=Alcedo quadribrachys,^clo:speciescode2019=shbkin1],otu4[&otu=otu4,^ot:ottId=549519,^ot:ottTaxonName=Alcedo atthis,^ot:originalLabel=Alcedo_atthis,^clo:ClementsTaxonName2019=Alcedo atthis,^clo:speciescode2019=comkin1])node7)node5)node4)node1;
+END;
+

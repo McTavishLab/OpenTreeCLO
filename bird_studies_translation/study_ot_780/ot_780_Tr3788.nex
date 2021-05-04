@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        Tl121908
+        Tl121907
+        Tl121906
+        Tl121905
+        Tl121904
+        Tl121903
+        Tl121902
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 (equal weights parsimony)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((Tl121904[&otu=Tl121904,^ot:ottId=962757,^ot:ottTaxonName=Anas superciliosa,^ot:originalLabel=Anas_superciliosa,^clo:ClementsTaxonName2019=Anas superciliosa,^clo:speciescode2019=pabduc1],Tl121906[&otu=Tl121906,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3])Tn263833,((Tl121905[&otu=Tl121905,^ot:ottId=282358,^ot:ottTaxonName=Anas gracilis,^ot:originalLabel=Anas_gracilis,^clo:ClementsTaxonName2019=Anas gracilis,^clo:speciescode2019=gretea1],Tl121903[&otu=Tl121903,^ot:ottId=282355,^ot:ottTaxonName=Anas castanea,^ot:originalLabel=Anas_castanea,^clo:ClementsTaxonName2019=Anas castanea,^clo:speciescode2019=chetea1])Tn263829,(Tl121908[&otu=Tl121908,^ot:ottId=656791,^ot:ottTaxonName=Anas aucklandica,^ot:originalLabel=Anas_aucklandica,^clo:ClementsTaxonName2019=Anas aucklandica,^clo:speciescode2019=auitea1],(Tl121907[&otu=Tl121907,^ot:ottId=656784,^ot:ottTaxonName=Anas chlorotis,^ot:originalLabel=Anas_chlorotis,^clo:ClementsTaxonName2019=Anas chlorotis,^clo:speciescode2019=brotea1],Tl121902[&otu=Tl121902,^ot:ottId=877771,^ot:ottTaxonName=Anas nesiotis,^ot:originalLabel=Anas_nesiotis,^clo:ClementsTaxonName2019=Anas nesiotis,^clo:speciescode2019=caitea1])Tn263832)Tn263834)Tn263836)Tn263835;
+END;
+

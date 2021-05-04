@@ -1,0 +1,32 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+        otu6
+        otu8
+        otu9
+        otu36
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._6 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=363013,nearestTaxonMRCAName=Ciconiidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu17[&otu=otu17,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=Cathartes_aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul],otu18[&otu=otu18,^ot:ottId=363015,^ot:ottTaxonName=Vultur gryphus,^ot:originalLabel=Vultur_gryphus,^clo:ClementsTaxonName2019=Vultur gryphus,^clo:speciescode2019=andcon1])node36,otu19[&otu=otu19,^ot:ottId=819160,^ot:ottTaxonName=Sarcoramphus papa,^ot:originalLabel=Sarcoramphus_papa,^clo:ClementsTaxonName2019=Sarcoramphus papa,^clo:speciescode2019=kinvul1])node35,(((otu1[&otu=otu1,^ot:ottId=3596802,^ot:ottTaxonName=Leptoptilos crumenifer,^ot:originalLabel=Leptoptilos_crumenifer,^clo:ClementsTaxonName2019=Leptoptilos crumenifer,^clo:speciescode2019=marsto1],otu2[&otu=otu2,^ot:ottId=324163,^ot:ottTaxonName=Leptoptilos javanicus,^ot:originalLabel=Leptoptilos_javanicus,^clo:ClementsTaxonName2019=Leptoptilos javanicus,^clo:speciescode2019=lesadj1])node4,(((((otu11[&otu=otu11,^ot:ottId=848605,^ot:ottTaxonName=Mycteria leucocephala,^ot:originalLabel=Mycteria_leucocephala,^clo:ClementsTaxonName2019=Mycteria leucocephala,^clo:speciescode2019=paisto1],otu10[&otu=otu10,^ot:ottId=848606,^ot:ottTaxonName=Mycteria cinerea,^ot:originalLabel=Mycteria_cinerea,^clo:ClementsTaxonName2019=Mycteria cinerea,^clo:speciescode2019=milsto1])node24,otu12[&otu=otu12,^ot:ottId=464693,^ot:ottTaxonName=Mycteria ibis,^ot:originalLabel=Mycteria_ibis,^clo:ClementsTaxonName2019=Mycteria ibis,^clo:speciescode2019=yebsto1])node23,otu13[&otu=otu13,^ot:ottId=464695,^ot:ottTaxonName=Mycteria americana,^ot:originalLabel=Mycteria_americana,^clo:ClementsTaxonName2019=Mycteria americana,^clo:speciescode2019=woosto])node22,((otu14[&otu=otu14,^ot:ottId=848607,^ot:ottTaxonName=Ephippiorhynchus asiaticus,^ot:originalLabel=Ephippiorhynchus_asiaticus,^clo:ClementsTaxonName2019=Ephippiorhynchus asiaticus,^clo:speciescode2019=blnsto1],otu15[&otu=otu15,^ot:ottId=848594,^ot:ottTaxonName=Ephippiorhynchus senegalensis,^ot:originalLabel=Ephippiorhynchus_senegalensis,^clo:ClementsTaxonName2019=Ephippiorhynchus senegalensis,^clo:speciescode2019=sabsto1])node30,otu16[&otu=otu16,^ot:ottId=1041424,^ot:ottTaxonName=Jabiru mycteria,^ot:originalLabel=Jabiru_mycteria,^clo:ClementsTaxonName2019=Jabiru mycteria,^clo:speciescode2019=jabiru])node29)node21,((otu5[&otu=otu5,^ot:ottId=563490,^ot:ottTaxonName=Ciconia abdimii,^ot:originalLabel=Ciconia_abdimii,^clo:ClementsTaxonName2019=Ciconia abdimii,^clo:speciescode2019=abdsto1],(otu3[&otu=otu3,^ot:ottId=324160,^ot:ottTaxonName=Ciconia episcopus,^ot:originalLabel=Ciconia_episcopus,^clo:ClementsTaxonName2019=Ciconia episcopus,^clo:speciescode2019=wonsto1],otu4[&otu=otu4,^ot:ottId=324162,^ot:ottTaxonName=Ciconia stormi,^ot:originalLabel=Ciconia_stormi,^clo:ClementsTaxonName2019=Ciconia stormi,^clo:speciescode2019=stosto1])node10)node9,(otu9[&otu=otu9,^ot:ottId=549527,^ot:ottTaxonName=Ciconia nigra,^ot:originalLabel=Ciconia_nigra,^clo:ClementsTaxonName2019=Ciconia nigra,^clo:speciescode2019=blasto1],(otu8[&otu=otu8,^ot:ottId=324161,^ot:ottTaxonName=Ciconia maguari,^ot:originalLabel=Ciconia_maguari,^clo:ClementsTaxonName2019=Ciconia maguari,^clo:speciescode2019=magsto1],(otu6[&otu=otu6,^ot:ottId=363031,^ot:ottTaxonName=Ciconia ciconia,^ot:originalLabel=Ciconia_ciconia,^clo:ClementsTaxonName2019=Ciconia ciconia,^clo:speciescode2019=whisto1],otu7[&otu=otu7,^ot:ottId=324158,^ot:ottTaxonName=Ciconia boyciana,^ot:originalLabel=Ciconia_boyciana,^clo:ClementsTaxonName2019=Ciconia boyciana,^clo:speciescode2019=oristo1])node16)node15)node14)node8)node7)node3,otu36[&otu=otu36,^ot:ottId=848593,^ot:ottTaxonName=Plegadis falcinellus,^ot:originalLabel=Plegadis_falcinellus,^clo:ClementsTaxonName2019=Plegadis falcinellus,^clo:speciescode2019=gloibi])node2)node1;
+END;
+

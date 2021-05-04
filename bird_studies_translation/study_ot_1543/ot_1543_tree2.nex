@@ -1,0 +1,39 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Persons et al. 2016, Maximum Likelihood' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu28:0.131238[&otu=otu28,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],(((((otu24:0.017363[&otu=otu24,^ot:ottId=3596073,^ot:ottTaxonName=Tetrastes sewerzowi,^ot:originalLabel=Tetrastes_sewerzowi,^clo:ClementsTaxonName2019=Tetrastes sewerzowi,^clo:speciescode2019=sevgro1],otu23:0.011427[&otu=otu23,^ot:ottId=259105,^ot:ottTaxonName=Tetrastes bonasia,^ot:originalLabel=Tetrastes_bonasia,^clo:ClementsTaxonName2019=Tetrastes bonasia,^clo:speciescode2019=hazgro1])node46:0.03561,(((otu17:0.028091[&otu=otu17,^ot:ottId=55929,^ot:ottTaxonName=Falcipennis falcipennis,^ot:originalLabel=Falcipennis_falcipennis,^clo:ClementsTaxonName2019=Falcipennis falcipennis,^clo:speciescode2019=sibgro2],(otu18:0.023603[&otu=otu18,^ot:ottId=55937,^ot:ottTaxonName=Falcipennis canadensis,^ot:originalLabel=Falcipennis_canadensis,^clo:ClementsTaxonName2019=Falcipennis canadensis,^clo:speciescode2019=sprgro],((otu20:0.007697[&otu=otu20,^ot:ottId=168727,^ot:ottTaxonName=Lyrurus mlokosiewiczi,^ot:originalLabel=Lyrurus_mlokosiewiczi,^clo:ClementsTaxonName2019=Tetrao mlokosiewiczi,^clo:speciescode2019=caugro1],otu19:0.008971[&otu=otu19,^ot:ottId=725154,^ot:ottTaxonName=Lyrurus tetrix,^ot:originalLabel=Lyrurus_tetrix,^clo:ClementsTaxonName2019=Tetrao tetrix,^clo:speciescode2019=blagro1])node40:0.011718,(otu22:0.015209[&otu=otu22,^ot:ottId=55923,^ot:ottTaxonName=Tetrao parvirostris,^ot:originalLabel=Tetrao_parvirostris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu21:0.012268[&otu=otu21,^ot:ottId=484331,^ot:ottTaxonName=Tetrao urogallus,^ot:originalLabel=Tetrao_urogallus,^clo:ClementsTaxonName2019=Tetrao urogallus,^clo:speciescode2019=wescap1])node43:0.006455)node39:0.007772)node37:0.003666)node35:0.003234,(otu14:0.020603[&otu=otu14,^ot:ottId=928346,^ot:ottTaxonName=Lagopus leucura,^ot:originalLabel=Lagopus_leucra,^clo:ClementsTaxonName2019=Lagopus leucura,^clo:speciescode2019=whtpta1],(otu15:0.016216[&otu=otu15,^ot:ottId=444614,^ot:ottTaxonName=Lagopus lagopus,^ot:originalLabel=Lagopus_lagopus,^clo:ClementsTaxonName2019=Lagopus lagopus,^clo:speciescode2019=wilpta],otu16:0.013[&otu=otu16,^ot:ottId=504006,^ot:ottTaxonName=Lagopus muta,^ot:originalLabel=Lagopous_muta,^clo:ClementsTaxonName2019=Lagopus muta,^clo:speciescode2019=rocpta1])node32:0.009753)node30:0.007045)node29:0.003456,((((otu10:0.002253[&otu=otu10,^ot:ottId=728073,^ot:ottTaxonName=Tympanuchus cupido,^ot:originalLabel=Tympanuchus_cupido,^clo:ClementsTaxonName2019=Tympanuchus cupido,^clo:speciescode2019=grpchi],otu11:0.005068[&otu=otu11,^ot:ottId=849533,^ot:ottTaxonName=Tympanuchus pallidicinctus,^ot:originalLabel=Tympanuchus_pallidicinctus,^clo:ClementsTaxonName2019=Tympanuchus pallidicinctus,^clo:speciescode2019=lepchi])node23:0.000644,otu9:0.002848[&otu=otu9,^ot:ottId=979422,^ot:ottTaxonName=Tympanuchus phasianellus,^ot:originalLabel=Tympanuchus_phasianellus,^clo:ClementsTaxonName2019=Tympanuchus phasianellus,^clo:speciescode2019=shtgro])node21:0.018171,(otu7:0.006285[&otu=otu7,^ot:ottId=754431,^ot:ottTaxonName=Dendragapus fuliginosus,^ot:originalLabel=Dendragapus_fuliginosus,^clo:ClementsTaxonName2019=Dendragapus fuliginosus,^clo:speciescode2019=soogro1],otu8:0.008192[&otu=otu8,^ot:ottId=1003843,^ot:ottTaxonName=Dendragapus obscurus,^ot:originalLabel=Dendragapus_obscurus,^clo:ClementsTaxonName2019=Dendragapus obscurus,^clo:speciescode2019=dusgro])node18:0.01298)node17:0.007791,(otu13:0.010257[&otu=otu13,^ot:ottId=728077,^ot:ottTaxonName=Centrocercus urophasianus,^ot:originalLabel=Centrocercus_urophasianus,^clo:ClementsTaxonName2019=Centrocercus urophasianus,^clo:speciescode2019=saggro],otu12:0.007424[&otu=otu12,^ot:ottId=909953,^ot:ottTaxonName=Centrocercus minimus,^ot:originalLabel=Centrocercus_minimus,^clo:ClementsTaxonName2019=Centrocercus minimus,^clo:speciescode2019=gusgro])node26:0.019577)node16:0.007764)node15:0.017259)node14:0.005937,otu25:0.049124[&otu=otu25,^ot:ottId=728082,^ot:ottTaxonName=Bonasa umbellus,^ot:originalLabel=Bonasa_umbellus,^clo:ClementsTaxonName2019=Bonasa umbellus,^clo:speciescode2019=rufgro])node13:0.046399,(otu5:0.014735[&otu=otu5,^ot:ottId=446482,^ot:ottTaxonName=Meleagris gallopavo,^ot:originalLabel=Meleagris_gallopavo,^clo:ClementsTaxonName2019=Meleagris gallopavo,^clo:speciescode2019=wiltur],otu6:0.015471[&otu=otu6,^ot:ottId=446490,^ot:ottTaxonName=Meleagris ocellata,^ot:originalLabel=Meleagris_ocellata,^clo:ClementsTaxonName2019=Meleagris ocellata,^clo:speciescode2019=ocetur1])node10:0.064414)node9:0.005752,((otu2:0.057443[&otu=otu2,^ot:ottId=624446,^ot:ottTaxonName=Lophura nycthemera,^ot:originalLabel=Lophura_nycthemera,^clo:ClementsTaxonName2019=Lophura nycthemera,^clo:speciescode2019=silphe],otu3:0.09059[&otu=otu3,^ot:ottId=520561,^ot:ottTaxonName=Perdix dauurica,^ot:originalLabel=Perdix_dauurica,^clo:ClementsTaxonName2019=Perdix dauurica,^clo:speciescode2019=daupar1])node5:0.009392,otu4:0.05896[&otu=otu4,^ot:ottId=572162,^ot:ottTaxonName=Pucrasia macrolopha,^ot:originalLabel=Pucrasia_macrolopha,^clo:ClementsTaxonName2019=Pucrasia macrolopha,^clo:speciescode2019=kokphe1])node4:0.003244)node3:0.003336,(otu26:0.058151[&otu=otu26,^ot:ottId=51354,^ot:ottTaxonName=Tragopan satyra,^ot:originalLabel=Tragopan_satyra,^clo:ClementsTaxonName2019=Tragopan satyra,^clo:speciescode2019=sattra1],otu27:0.037893[&otu=otu27,^ot:ottId=624442,^ot:ottTaxonName=Lophophorus impejanus,^ot:originalLabel=Lophophorus_impeyanus,^clo:ClementsTaxonName2019=Lophophorus impejanus,^clo:speciescode2019=himmon1])node50:0.011671)node2;
+END;
+

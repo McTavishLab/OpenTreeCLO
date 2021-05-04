@@ -1,0 +1,20 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4 (Bayesian, clock enforced)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](((otu7[&otu=otu7,^ot:ottId=80776,^ot:ottTaxonName=Loxia leucoptera bifasciata,^ot:originalLabel=Loxia_leucoptera_bifasciata,^clo:ClementsTaxonName2019=Loxia leucoptera bifasciata,^clo:speciescode2019=whwcro1],(otu6[&otu=otu6,^ot:ottId=3597418,^ot:ottTaxonName=Loxia megaplaga,^ot:originalLabel=Loxia_megaplaga,^clo:ClementsTaxonName2019=Loxia megaplaga,^clo:speciescode2019=hiscro],otu5[&otu=otu5,^ot:ottId=602508,^ot:ottTaxonName=Loxia leucoptera leucoptera,^ot:originalLabel=Loxia_leucoptera_leucoptera,^clo:ClementsTaxonName2019=Loxia leucoptera leucoptera,^clo:speciescode2019=whwcro2])node11)node10,(otu4[&otu=otu4,^ot:ottId=438240,^ot:ottTaxonName=Loxia curvirostra curvirostra,^ot:originalLabel=Loxia_curvirostra_curvirostra,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu1[&otu=otu1,^ot:ottId=602511,^ot:ottTaxonName=Loxia curvirostra stricklandi,^ot:originalLabel=Loxia_curvirostra_stricklandii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=602513,^ot:ottTaxonName=Loxia curvirostra minor,^ot:originalLabel=Loxia_curvirostra_minor,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node5,otu3[&otu=otu3,^ot:ottId=602512,^ot:ottTaxonName=Loxia curvirostra pusilla,^ot:originalLabel=Loxia_curvirostra_pusilla,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node4)node3)node2,otu8[&otu=otu8,^ot:ottId=6367,^ot:ottTaxonName=Acanthis hornemanni,^ot:originalLabel=Carduelis_hornemanni,^clo:ClementsTaxonName2019=Acanthis hornemanni,^clo:speciescode2019=hoared])node1;
+END;
+

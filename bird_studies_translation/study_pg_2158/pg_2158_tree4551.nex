@@ -1,0 +1,48 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=36;
+    TAXLABELS
+        otu316783
+        otu316768
+        otu316769
+        otu316775
+        otu316760
+        otu316761
+        otu316762
+        otu316763
+        otu316764
+        otu316765
+        otu316766
+        otu316767
+        otu316755
+        otu316772
+        otu316786
+        otu316787
+        otu316784
+        otu316785
+        otu316782
+        otu316757
+        otu316780
+        otu316781
+        otu316770
+        otu316788
+        otu316777
+        otu316776
+        otu316753
+        otu316774
+        otu316773
+        otu316754
+        otu316771
+        otu316756
+        otu316759
+        otu316758
+        otu316779
+        otu316778
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4_BI = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu316787[&otu=otu316787,^ot:ottId=463441,^ot:ottTaxonName=Aglaeactis cupripennis,^ot:originalLabel=Aglaeactis_cupripennis_6304,^clo:ClementsTaxonName2019=Aglaeactis cupripennis,^clo:speciescode2019=shisun1],(otu316761[&otu=otu316761,^ot:ottId=747338,^ot:ottTaxonName=Lafresnaya lafresnayi,^ot:originalLabel=Lafresnaya_lafresnayi_32771,^clo:ClementsTaxonName2019=Lafresnaya lafresnayi,^clo:speciescode2019=mouvel1],(((((otu316757[&otu=otu316757,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_b_33476,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1],(otu316769[&otu=otu316769,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_iavh1869,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1],otu316774[&otu=otu316774,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_iavh752,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1])node813724)node813722,(otu316777[&otu=otu316777,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_iavh4500,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1],otu316756[&otu=otu316756,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_jlpv33,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1])node813727)node813721,otu316763[&otu=otu316763,^ot:ottId=747318,^ot:ottTaxonName=Coeligena coeligena,^ot:originalLabel=Coeligena_coeligena_b_8015,^clo:ClementsTaxonName2019=Coeligena coeligena,^clo:speciescode2019=broinc1])node813720,((otu316779[&otu=otu316779,^ot:ottId=869064,^ot:ottTaxonName=Coeligena wilsoni,^ot:originalLabel=Coeligena_wilsoni_b_7870,^clo:ClementsTaxonName2019=Coeligena wilsoni,^clo:speciescode2019=broinc2],otu316771[&otu=otu316771,^ot:ottId=869064,^ot:ottTaxonName=Coeligena wilsoni,^ot:originalLabel=Coeligena_wilsoni_b_12064,^clo:ClementsTaxonName2019=Coeligena wilsoni,^clo:speciescode2019=broinc2])node813735,(otu316776[&otu=otu316776,^ot:ottId=245447,^ot:ottTaxonName=Coeligena prunellei,^ot:originalLabel=Coeligena_prunellei_jlpv64,^clo:ClementsTaxonName2019=Coeligena prunellei,^clo:speciescode2019=blainc1],otu316755[&otu=otu316755,^ot:ottId=245447,^ot:ottTaxonName=Coeligena prunellei,^ot:originalLabel=Coeligena_prunellei_jlpv42,^clo:ClementsTaxonName2019=Coeligena prunellei,^clo:speciescode2019=blainc1])node813732)node813731)node813719,(((otu316754[&otu=otu316754,^ot:ottId=869063,^ot:ottTaxonName=Coeligena violifer,^ot:originalLabel=Coeligena_violifer_b_1258,^clo:ClementsTaxonName2019=Coeligena violifer,^clo:speciescode2019=vitsta1],(otu316759[&otu=otu316759,^ot:ottId=869063,^ot:ottTaxonName=Coeligena violifer,^ot:originalLabel=Coeligena_violifer_b_44151,^clo:ClementsTaxonName2019=Coeligena violifer,^clo:speciescode2019=vitsta1],otu316781[&otu=otu316781,^ot:ottId=869063,^ot:ottTaxonName=Coeligena violifer,^ot:originalLabel=Coeligena_violifer_b_3504,^clo:ClementsTaxonName2019=Coeligena violifer,^clo:speciescode2019=vitsta1])node813708)node813706,((otu316753[&otu=otu316753,^ot:ottId=747317,^ot:ottTaxonName=Coeligena iris,^ot:originalLabel=Coeligena_iris_b_31972,^clo:ClementsTaxonName2019=Coeligena iris,^clo:speciescode2019=raista1],(otu316780[&otu=otu316780,^ot:ottId=747317,^ot:ottTaxonName=Coeligena iris,^ot:originalLabel=Coeligena_iris_b_31851,^clo:ClementsTaxonName2019=Coeligena iris,^clo:speciescode2019=raista1],(otu316765[&otu=otu316765,^ot:ottId=747317,^ot:ottTaxonName=Coeligena iris,^ot:originalLabel=Coeligena_iris_01N8410,^clo:ClementsTaxonName2019=Coeligena iris,^clo:speciescode2019=raista1],otu316778[&otu=otu316778,^ot:ottId=747317,^ot:ottTaxonName=Coeligena iris,^ot:originalLabel=Coeligena_iris_01N8752,^clo:ClementsTaxonName2019=Coeligena iris,^clo:speciescode2019=raista1])node813701)node813700)node813699,(otu316770[&otu=otu316770,^ot:ottId=245448,^ot:ottTaxonName=Coeligena phalerata,^ot:originalLabel=Coeligena_phalerata_iavh485,^clo:ClementsTaxonName2019=Coeligena phalerata,^clo:speciescode2019=whtsta1],((((otu316783[&otu=otu316783,^ot:ottId=245442,^ot:ottTaxonName=Coeligena helianthea,^ot:originalLabel=Coeligena_helianthea_iavh2569,^clo:ClementsTaxonName2019=Coeligena helianthea,^clo:speciescode2019=bltsta1],otu316785[&otu=otu316785,^ot:ottId=245443,^ot:ottTaxonName=Coeligena bonapartei,^ot:originalLabel=Coeligena_bonapartei_jlpv74,^clo:ClementsTaxonName2019=Coeligena bonapartei,^clo:speciescode2019=gobsta1])node813685,otu316775[&otu=otu316775,^ot:ottId=245442,^ot:ottTaxonName=Coeligena helianthea,^ot:originalLabel=Coeligena_helianthea_iavh2504,^clo:ClementsTaxonName2019=Coeligena helianthea,^clo:speciescode2019=bltsta1])node813684,otu316786[&otu=otu316786,^ot:ottId=245443,^ot:ottTaxonName=Coeligena bonapartei,^ot:originalLabel=Coeligena_bonapartei_iavh4188,^clo:ClementsTaxonName2019=Coeligena bonapartei,^clo:speciescode2019=gobsta1])node813682,(((otu316772[&otu=otu316772,^ot:ottId=369031,^ot:ottTaxonName=Coeligena lutetiae,^ot:originalLabel=Coeligena_lutetiae_00N5086,^clo:ClementsTaxonName2019=Coeligena lutetiae,^clo:speciescode2019=buwsta1],otu316788[&otu=otu316788,^ot:ottId=369031,^ot:ottTaxonName=Coeligena lutetiae,^ot:originalLabel=Coeligena_lutetiae_b_340,^clo:ClementsTaxonName2019=Coeligena lutetiae,^clo:speciescode2019=buwsta1])node813691,otu316782[&otu=otu316782,^ot:ottId=369031,^ot:ottTaxonName=Coeligena lutetiae,^ot:originalLabel=Coeligena_lutetiae_iavh1639,^clo:ClementsTaxonName2019=Coeligena lutetiae,^clo:speciescode2019=buwsta1])node813690,(otu316760[&otu=otu316760,^ot:ottId=245449,^ot:ottTaxonName=Coeligena orina,^ot:originalLabel=Coeligena_orina_iavh5169,^clo:ClementsTaxonName2019=Coeligena orina,^clo:speciescode2019=dussta1],otu316766[&otu=otu316766,^ot:ottId=245449,^ot:ottTaxonName=Coeligena orina,^ot:originalLabel=Coeligena_orina_pcpr1,^clo:ClementsTaxonName2019=Coeligena orina,^clo:speciescode2019=dussta1])node813695)node813689)node813681)node813680)node813679)node813678,((otu316767[&otu=otu316767,^ot:ottId=551374,^ot:ottTaxonName=Coeligena torquata,^ot:originalLabel=Coeligena_torquata_b_6229,^clo:ClementsTaxonName2019=Coeligena torquata,^clo:speciescode2019=colinc1],otu316768[&otu=otu316768,^ot:ottId=551374,^ot:ottTaxonName=Coeligena torquata,^ot:originalLabel=Coeligena_torquata_jlpv38,^clo:ClementsTaxonName2019=Coeligena torquata,^clo:speciescode2019=colinc1])node813716,(otu316764[&otu=otu316764,^ot:ottId=551374,^ot:ottTaxonName=Coeligena torquata,^ot:originalLabel=Coeligena_torquata_ccw1115,^clo:ClementsTaxonName2019=Coeligena torquata,^clo:speciescode2019=colinc1],otu316773[&otu=otu316773,^ot:ottId=551374,^ot:ottTaxonName=Coeligena torquata,^ot:originalLabel=Coeligena_torquata_b_8019,^clo:ClementsTaxonName2019=Coeligena torquata,^clo:speciescode2019=colinc1],otu316758[&otu=otu316758,^ot:ottId=551374,^ot:ottTaxonName=Coeligena torquata,^ot:originalLabel=Coeligena_torquata_b_44126,^clo:ClementsTaxonName2019=Coeligena torquata,^clo:speciescode2019=colinc1])node813712)node813711)node813677)node813676,(otu316762[&otu=otu316762,^ot:ottId=996918,^ot:ottTaxonName=Eriocnemis vestita,^ot:originalLabel=Eriocnemis_vestitus_jlpv75,^clo:ClementsTaxonName2019=Eriocnemis vestita,^clo:speciescode2019=glopuf2],otu316784[&otu=otu316784,^ot:ottId=243722,^ot:ottTaxonName=Ensifera ensifera,^ot:originalLabel=Ensifera_ensifera_8224,^clo:ClementsTaxonName2019=Ensifera ensifera,^clo:speciescode2019=swbhum1])node813738)node813675)node813673;
+END;
+

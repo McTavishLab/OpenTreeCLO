@@ -1,0 +1,24 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Certhidea olivacea	warfin1	Certhidea_olivacea_S	589949	Certhidea olivacea
+otu2	Certhidea fusca	grywaf1	Certhidea_fusca_E	527327	Certhidea fusca
+otu3	Certhidea fusca	grywaf1	Certhidea_fusca_L	527327	Certhidea fusca
+otu5	Pinaroloxias inornata	cocfin1	Pinaroloxias_inornata_C	992256	Pinaroloxias inornata
+otu6	Geospiza difficilis	shbgrf3	Geospiza_difficilis_F	419376	Geospiza difficilis
+otu7	Geospiza difficilis	shbgrf3	Geospiza_difficilis_S	419376	Geospiza difficilis
+otu8	Geospiza difficilis	shbgrf3	Geospiza_difficilis_P	419376	Geospiza difficilis
+otu9	Camarhynchus pauper	metfin1	Camarhynchus_pauper_F	422530	Camarhynchus pauper
+otu10	Camarhynchus psittacula	latfin1	Camarhynchus_psittacula_P	419363	Camarhynchus psittacula
+otu13	Camarhynchus heliobates	manfin1	Camarhynchus_heliobates_I	3597306	Camarhynchus heliobates
+otu12	Camarhynchus pallidus	woofin1	Camarhynchus_pallidus_Z	963505	Camarhynchus pallidus
+otu11	Camarhynchus parvulus	smtfin1	Camarhynchus_parvulus_Z	419367	Camarhynchus parvulus
+otu21	Geospiza propinqua	gencaf1	Geospiza_propinqua_G	5991470	Geospiza propinqua
+otu20	Geospiza scandens	cocfin3	Geospiza_scandens_M	589959	Geospiza scandens
+otu23	Geospiza conirostris	larcaf2	Geospiza_conirostris_E	589953	Geospiza conirostris
+otu22	Geospiza magnirostris	lagfin1	Geospiza_magnirostris_G	589955	Geospiza magnirostris
+otu18	Geospiza fortis	megfin1	Geospiza_fortis_M	589951	Geospiza fortis
+otu19	Geospiza acutirostris	shbgrf2	Geospiza_acutirostris_G	5991469	Geospiza acutirostris
+otu17	Geospiza fuliginosa	smgfin1	Geospiza_fuliginosa_S	589956	Geospiza fuliginosa
+otu16	Geospiza fuliginosa	smgfin1	Geospiza_fuliginosa_Z	589956	Geospiza fuliginosa
+otu15	Geospiza septentrionalis	shbgrf1	Geospiza_septentrionalis_W	5859950	Geospiza difficilis septentrionalis
+otu14	Geospiza septentrionalis	shbgrf1	Geospiza_septentrionalis_D	5859950	Geospiza difficilis septentrionalis
+otu4	Platyspiza crassirostris	vegfin2	Platyspiza_crassirostris_Z	589943	Platyspiza crassirostris

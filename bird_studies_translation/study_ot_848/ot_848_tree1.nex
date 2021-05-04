@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE lovette_etal_2008_tree_1 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=844091,^ot:ottTaxonName=Sturnus roseus,^ot:originalLabel=Sturnus_roseus,^clo:ClementsTaxonName2019=Pastor roseus,^clo:speciescode2019=rossta2],(otu2[&otu=otu2,^ot:ottId=79250,^ot:ottTaxonName=Creatophora cinerea,^ot:originalLabel=Creatophora_cinerea,^clo:ClementsTaxonName2019=Creatophora cinerea,^clo:speciescode2019=watsta1],(((otu24[&otu=otu24,^ot:ottId=848366,^ot:ottTaxonName=Sturnus sturninus,^ot:originalLabel=Sturnus_sturninus,^clo:ClementsTaxonName2019=Agropsar sturninus,^clo:speciescode2019=dausta1],otu23[&otu=otu23,^ot:ottId=844089,^ot:ottTaxonName=Sturnus philippensis,^ot:originalLabel=Sturnus_philippensis,^clo:ClementsTaxonName2019=Agropsar philippensis,^clo:speciescode2019=chcsta1])node46,(otu22[&otu=otu22,^ot:ottId=366471,^ot:ottTaxonName=Sturnus nigricollis,^ot:originalLabel=Sturnus_nigricollis,^clo:ClementsTaxonName2019=Gracupica nigricollis,^clo:speciescode2019=bkcsta1],otu21[&otu=otu21,^ot:ottId=844085,^ot:ottTaxonName=Sturnus contra,^ot:originalLabel=Sturnus_contra,^clo:ClementsTaxonName2019=Gracupica contra,^clo:speciescode2019=aspsta2])node43)node42,(((otu17[&otu=otu17,^ot:ottId=2224,^ot:ottTaxonName=Sturnus sinensis,^ot:originalLabel=Sturnus_sinensis,^clo:ClementsTaxonName2019=Sturnia sinensis,^clo:speciescode2019=whssta2],(otu18[&otu=otu18,^ot:ottId=844099,^ot:ottTaxonName=Sturnus pagodarum,^ot:originalLabel=Sturnus_pagodarum,^clo:ClementsTaxonName2019=Sturnia pagodarum,^clo:speciescode2019=brasta1],(otu19[&otu=otu19,^ot:ottId=848364,^ot:ottTaxonName=Sturnus erythropygius,^ot:originalLabel=Sturnus_erythropygius,^clo:ClementsTaxonName2019=Sturnia erythropygia,^clo:speciescode2019=whhsta2],otu20[&otu=otu20,^ot:ottId=844094,^ot:ottTaxonName=Sturnus malabaricus,^ot:originalLabel=Sturnus_malabaricus,^clo:ClementsTaxonName2019=Sturnia malabarica,^clo:speciescode2019=chtsta2])node39)node37)node35,(otu15[&otu=otu15,^ot:ottId=863246,^ot:ottTaxonName=Leucopsar rothschildi,^ot:originalLabel=Leucopsar_rothschildi,^clo:ClementsTaxonName2019=Leucopsar rothschildi,^clo:speciescode2019=balmyn1],otu16[&otu=otu16,^ot:ottId=3598555,^ot:ottTaxonName=Sturnus senex,^ot:originalLabel=Sturnus_senex,^clo:ClementsTaxonName2019=Sturnia sinensis,^clo:speciescode2019=whssta2])node32)node31,(((((otu3[&otu=otu3,^ot:ottId=544910,^ot:ottTaxonName=Acridotheres albocinctus,^ot:originalLabel=Acridotheres_albocinctus,^clo:ClementsTaxonName2019=Acridotheres albocinctus,^clo:speciescode2019=colmyn1],(otu4[&otu=otu4,^ot:ottId=405018,^ot:ottTaxonName=Acridotheres cristatellus,^ot:originalLabel=Acridotheres_cristatellus,^clo:ClementsTaxonName2019=Acridotheres cristatellus,^clo:speciescode2019=cremyn],otu5[&otu=otu5,^ot:ottId=405024,^ot:ottTaxonName=Acridotheres grandis,^ot:originalLabel=Acridotheres_grandis,^clo:ClementsTaxonName2019=Acridotheres grandis,^clo:speciescode2019=whvmyn1])node14)node12,((otu7[&otu=otu7,^ot:ottId=544911,^ot:ottTaxonName=Acridotheres cinereus,^ot:originalLabel=Acridotheres_cinereus,^clo:ClementsTaxonName2019=Acridotheres cinereus,^clo:speciescode2019=pabmyn1],otu8[&otu=otu8,^ot:ottId=405023,^ot:ottTaxonName=Acridotheres javanicus,^ot:originalLabel=Acridotheres_javanicus,^clo:ClementsTaxonName2019=Acridotheres javanicus,^clo:speciescode2019=whvmyn])node19,otu6[&otu=otu6,^ot:ottId=595025,^ot:ottTaxonName=Acridotheres fuscus,^ot:originalLabel=Acridotheres_fuscus,^clo:ClementsTaxonName2019=Acridotheres fuscus,^clo:speciescode2019=junmyn1])node17)node11,(otu10[&otu=otu10,^ot:ottId=3598554,^ot:ottTaxonName=Sturnus melanopterus,^ot:originalLabel=Sturnus_melanopterus,^clo:ClementsTaxonName2019=Acridotheres melanopterus,^clo:speciescode2019=bkwsta1],otu9[&otu=otu9,^ot:ottId=848363,^ot:ottTaxonName=Sturnus burmannicus,^ot:originalLabel=Sturnus_burmannicus,^clo:ClementsTaxonName2019=Acridotheres burmannicus,^clo:speciescode2019=vibsta3])node22)node10,(otu12[&otu=otu12,^ot:ottId=80701,^ot:ottTaxonName=Acridotheres tristis,^ot:originalLabel=Acridotheres_tristis,^clo:ClementsTaxonName2019=Acridotheres tristis,^clo:speciescode2019=commyn],otu11[&otu=otu11,^ot:ottId=405017,^ot:ottTaxonName=Acridotheres ginginianus,^ot:originalLabel=Acridotheres_ginginianus,^clo:ClementsTaxonName2019=Acridotheres ginginianus,^clo:speciescode2019=banmyn1])node25)node9,(otu14[&otu=otu14,^ot:ottId=661325,^ot:ottTaxonName=Sturnus sericeus,^ot:originalLabel=Sturnus_sericeus,^clo:ClementsTaxonName2019=Spodiopsar sericeus,^clo:speciescode2019=rebsta1],otu13[&otu=otu13,^ot:ottId=499641,^ot:ottTaxonName=Sturnus cineraceus,^ot:originalLabel=Sturnus_cineraceus,^clo:ClementsTaxonName2019=Spodiopsar cineraceus,^clo:speciescode2019=whcsta1])node28)node8)node7)node6)node4)node2,(otu25[&otu=otu25,^ot:ottId=366470,^ot:ottTaxonName=Sturnus unicolor,^ot:originalLabel=Sturnus_unicolor,^clo:ClementsTaxonName2019=Sturnus unicolor,^clo:speciescode2019=sposta1],otu26[&otu=otu26,^ot:ottId=565813,^ot:ottTaxonName=Sturnus vulgaris,^ot:originalLabel=Sturnus_vulgaris,^clo:ClementsTaxonName2019=Sturnus vulgaris,^clo:speciescode2019=eursta])node49)node1;
+END;
+

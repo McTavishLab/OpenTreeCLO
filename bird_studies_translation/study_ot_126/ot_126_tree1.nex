@@ -1,0 +1,27 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2_complete_mtDNA = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=446460,nearestTaxonMRCAName=Gruidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu11[&otu=otu11,^ot:ottId=414352,^ot:ottTaxonName=Grus vipio,^ot:originalLabel=Grus_vipio,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu10[&otu=otu10,^ot:ottId=972481,^ot:ottTaxonName=Grus rubicunda,^ot:originalLabel=Grus_rubicunda,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=414358,^ot:ottTaxonName=Grus antigone,^ot:originalLabel=Grus_antigone,^clo:ClementsTaxonName2019=Antigone antigone,^clo:speciescode2019=sarcra1])node21)node20,otu12[&otu=otu12,^ot:ottId=257929,^ot:ottTaxonName=Grus canadensis,^ot:originalLabel=Grus_canadensis,^clo:ClementsTaxonName2019=Antigone canadensis,^clo:speciescode2019=sancra])node19,((otu8[&otu=otu8,^ot:ottId=414343,^ot:ottTaxonName=Grus carunculatus,^ot:originalLabel=Bugeranus_carunculatus,^clo:ClementsTaxonName2019=Bugeranus carunculatus,^clo:speciescode2019=watcra2],(otu7[&otu=otu7,^ot:ottId=510573,^ot:ottTaxonName=Anthropoides paradiseus,^ot:originalLabel=Anthropoides_paradiseus,^clo:ClementsTaxonName2019=Anthropoides paradiseus,^clo:speciescode2019=blucra2],otu6[&otu=otu6,^ot:ottId=414347,^ot:ottTaxonName=Anthropoides virgo,^ot:originalLabel=Anthropoides_virgo,^clo:ClementsTaxonName2019=Anthropoides virgo,^clo:speciescode2019=demcra1])node15)node14,(otu5[&otu=otu5,^ot:ottId=928352,^ot:ottTaxonName=Grus japonensis,^ot:originalLabel=Grus_japonensis,^clo:ClementsTaxonName2019=Grus japonensis,^clo:speciescode2019=reccra1],(otu4[&otu=otu4,^ot:ottId=414356,^ot:ottTaxonName=Grus americana,^ot:originalLabel=Grus_americana,^clo:ClementsTaxonName2019=Grus americana,^clo:speciescode2019=whocra],(otu3[&otu=otu3,^ot:ottId=589064,^ot:ottTaxonName=Grus grus,^ot:originalLabel=Grus_grus,^clo:ClementsTaxonName2019=Grus grus,^clo:speciescode2019=comcra],(otu1[&otu=otu1,^ot:ottId=589069,^ot:ottTaxonName=Grus nigricollis,^ot:originalLabel=Grus_nigricollis,^clo:ClementsTaxonName2019=Grus nigricollis,^clo:speciescode2019=blncra1],otu2[&otu=otu2,^ot:ottId=832269,^ot:ottTaxonName=Grus monacha,^ot:originalLabel=Grus_monacha,^clo:ClementsTaxonName2019=Grus monacha,^clo:speciescode2019=hoocra1])node8)node7)node6)node5)node4)node3,otu13[&otu=otu13,^ot:ottId=832271,^ot:ottTaxonName=Grus leucogeranus,^ot:originalLabel=Leucogeranus_leucogeranus,^clo:ClementsTaxonName2019=Leucogeranus leucogeranus,^clo:speciescode2019=sibcra1])node2,(otu15[&otu=otu15,^ot:ottId=191006,^ot:ottTaxonName=Balearica regulorum,^ot:originalLabel=Balearica_regulorum,^clo:ClementsTaxonName2019=Balearica regulorum,^clo:speciescode2019=grccra1],otu14[&otu=otu14,^ot:ottId=928354,^ot:ottTaxonName=Balearica pavonina,^ot:originalLabel=Balearica_pavonina,^clo:ClementsTaxonName2019=Balearica pavonina,^clo:speciescode2019=blccra1])node27)node1;
+END;
+

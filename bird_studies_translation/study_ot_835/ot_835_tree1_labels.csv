@@ -1,0 +1,28 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Megaceryle alcyon	belkin1	Megaceryle_alcyon	839181	Megaceryle alcyon
+otu2	Chloroceryle americana	grnkin	Chloroceryle_americana	1039522	Chloroceryle americana
+otu3	Pelargopsis capensis	stbkin1	Pelargopsis_capensis	589619	Pelargopsis capensis
+otu4	Halcyon malimbica	blbkin4	Halcyon_malimbica	551379	Halcyon malimbica
+otu27	Ispidina lecontei	dwakin1	Ceyx_lecontei	1061846	Ceyx lecontei
+otu26	Ispidina picta	afpkin1	Ispidina_picta	1097691	Ceyx pictus
+otu22	no_match	no_match	Ceyx_madagascariensis	1061838	Ceyx madagascariensis
+otu24	no_match	no_match	Alcedo_vintsioides	26086	Alcedo vintsioides
+otu25	Corythornis cristatus	malkin1	Alcedo_cristata	651469	Alcedo cristata
+otu23	Corythornis leucogaster	whbkin1	Alcedo_leucogaster	26087	Alcedo leucogaster
+otu15	Ceyx websteri	biskin1	Alcedo_websteri	838174	Alcedo websteri
+otu14	Ceyx azureus	azukin1	Alcedo_azurea	1061841	Alcedo azurea
+otu13	Ceyx pusillus	litkin1	Alcedo_pusilla	838167	Alcedo pusilla
+otu16	Ceyx melanurus	phikin1	Ceyx_melanurus	931027	Ceyx melanurus
+otu19	Ceyx lepidus	vardwk4	Ceyx_lepidus	931007	Ceyx lepidus
+otu20	Ceyx argentatus	silkin1	Alcedo_argentata	838166	Alcedo argentata
+otu21	Ceyx cyanopectus	inbkin2	Alcedo_cyanopecta	838161	Alcedo cyanopectus
+otu17	Ceyx erithaca	bkbkin1	Ceyx_erithacus	215691	Ceyx erithaca
+otu18	Ceyx rufidorsa	rubkin1	Ceyx_rufidorsa	313663	Ceyx rufidorsa
+otu12	Ceyx fallax	sulkin1	Ceyx_fallax	313662	Ceyx fallax
+otu5	Alcedo euryzona	blbkin2	Alcedo_euryzona	838173	Alcedo euryzona
+otu10	Alcedo coerulescens	smbkin1	Alcedo_coerulescens	624772	Alcedo coerulescens
+otu11	Alcedo atthis	comkin1	Alcedo_atthis	549519	Alcedo atthis
+otu9	Alcedo semitorquata	hackin1	Alcedo_semitorquata	838175	Alcedo semitorquata
+otu8	Alcedo quadribrachys	shbkin1	Alcedo_quadribrachys	26078	Alcedo quadribrachys
+otu7	Alcedo hercules	blykin1	Alcedo_hercules	838172	Alcedo hercules
+otu6	Alcedo meninting	blekin1	Alcedo_meninting	838168	Alcedo meninting

@@ -1,0 +1,66 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=54;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu54
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Strategy_3_run_1 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=]((otu2:509.8104[&otu=otu2,^ot:ottId=707499,^ot:ottTaxonName=Amphimedon queenslandica,^ot:originalLabel=Amphimedon_queenslandica,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu3:509.8104[&otu=otu3,^ot:ottId=127353,^ot:ottTaxonName=Suberites domuncula,^ot:originalLabel=Suberites_domuncula,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node431:309.7741,(((((otu10:646.5517[&otu=otu10,^ot:ottId=176532,^ot:ottTaxonName=Branchiostoma floridae,^ot:originalLabel=Branchiostoma_floridae,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((otu20:405.7356[&otu=otu20,^ot:ottId=852668,^ot:ottTaxonName=Eptatretus burgeri,^ot:originalLabel=Eptatretus_burgeri,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu21:405.7356[&otu=otu21,^ot:ottId=227494,^ot:ottTaxonName=Petromyzon marinus,^ot:originalLabel=Petromyzon_marinus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node468:109.3225,(otu19:453.0243[&otu=otu19,^ot:ottId=493418,^ot:ottTaxonName=Leucoraja erinacea,^ot:originalLabel=Leucoraja_erinacea,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((otu14:323.1478[&otu=otu14,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],(otu17:183.2295[&otu=otu17,^ot:ottId=962377,^ot:ottTaxonName=Ornithorhynchus anatinus,^ot:originalLabel=Ornithorhynchus_anatinus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu16:83.7111[&otu=otu16,^ot:ottId=542509,^ot:ottTaxonName=Mus musculus,^ot:originalLabel=Mus_musculus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu15:83.7111[&otu=otu15,^ot:ottId=770315,^ot:ottTaxonName=Homo sapiens,^ot:originalLabel=Homo_sapiens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node462:99.5185)node461:139.9182)node459:23.2171,otu18:346.3649[&otu=otu18,^ot:ottId=940184,^ot:ottTaxonName=Xenopus (Silurana) tropicalis,^ot:originalLabel=Xenopus_tropicalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node458:82.8513,otu13:429.2162[&otu=otu13,^ot:ottId=1005914,^ot:ottTaxonName=Danio rerio,^ot:originalLabel=Danio_rerio,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node456:23.8081)node455:62.0338)node454:86.582,(otu12:371.7972[&otu=otu12,^ot:ottId=714794,^ot:ottTaxonName=Molgula tectiformis,^ot:originalLabel=Molgula_tectiformis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu11:371.7972[&otu=otu11,^ot:ottId=744224,^ot:ottTaxonName=Ciona intestinalis,^ot:originalLabel=Ciona_intestinalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node451:229.8429)node450:44.9115)node448:34.8081,((otu28:519.8644[&otu=otu28,^ot:ottId=467516,^ot:ottTaxonName=Xenoturbella bocki,^ot:originalLabel=Xenoturbella_bocki,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu27:519.8644[&otu=otu27,^ot:ottId=675113,^ot:ottTaxonName=Symsagittifera roscoffensis,^ot:originalLabel=Symsagittifera_roscoffensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node481:109.649,((otu22:457.3013[&otu=otu22,^ot:ottId=977093,^ot:ottTaxonName=Patiria pectinifera,^ot:originalLabel=Patiria_pectinifera,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu24:386.0348[&otu=otu24,^ot:ottId=564702,^ot:ottTaxonName=Strongylocentrotus purpuratus,^ot:originalLabel=Strongylocentrotus_purpuratus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu23:386.0348[&otu=otu23,^ot:ottId=887212,^ot:ottTaxonName=Holothuria glaberrima,^ot:originalLabel=Holothuria_glaberrima,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node475:71.2665)node473:131.5392,(otu26:519.3656[&otu=otu26,^ot:ottId=570370,^ot:ottTaxonName=Saccoglossus kowalevskii,^ot:originalLabel=Saccoglossus_kowalevskii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu25:519.3656[&otu=otu25,^ot:ottId=768590,^ot:ottTaxonName=Ptychodera flava,^ot:originalLabel=Ptychodera_flava,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node478:69.4749)node472:40.6729)node471:51.8464)node447:39.2828,(((otu44:607.3238[&otu=otu44,^ot:ottId=395048,^ot:ottTaxonName=Caenorhabditis elegans,^ot:originalLabel=Caenorhabditis_elegans,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu45:581.6315[&otu=otu45,^ot:ottId=1046340,^ot:ottTaxonName=Euperipatoides kanangrensis,^ot:originalLabel=Euperipatoides_kanangrensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],((((otu46:502.4125[&otu=otu46,^ot:ottId=59086,^ot:ottTaxonName=Daphnia pulex,^ot:originalLabel=Daphnia_pulex,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(((otu49:335.637[&otu=otu49,^ot:ottId=148904,^ot:ottTaxonName=Tribolium castaneum,^ot:originalLabel=Tribolium_castaneum,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu48:335.637[&otu=otu48,^ot:ottId=958469,^ot:ottTaxonName=Rhodnius prolixus,^ot:originalLabel=Rhodnius_prolixus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node526:39.9825,otu47:375.6195[&otu=otu47,^ot:ottId=1077624,^ot:ottTaxonName=Gryllus bimaculatus,^ot:originalLabel=Gryllus_bimaculatus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node524:78.0521,otu50:453.6716[&otu=otu50,^ot:ottId=799602,^ot:ottTaxonName=Megaphorura arctica,^ot:originalLabel=Onychiurus_arcticus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node523:48.7409)node521:14.8329,otu51:517.2455[&otu=otu51,^ot:ottId=169168,^ot:ottTaxonName=Litopenaeus vannamei,^ot:originalLabel=Litopenaeus_vannamei,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node520:12.2985,otu52:529.544[&otu=otu52,^ot:ottId=431229,^ot:ottTaxonName=Scutigera coleoptrata,^ot:originalLabel=Scutigera_coleoptrata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node519:22.5803,((otu54:441.3945[&otu=otu54,^ot:ottId=26968,^ot:ottTaxonName=Acanthoscurria gomesiana,^ot:originalLabel=Acanthoscurria_gomesiana,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu55:441.3945[&otu=otu55,^ot:ottId=621065,^ot:ottTaxonName=Ixodes scapularis,^ot:originalLabel=Ixodes_scapularis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node534:69.0147,otu53:510.4091[&otu=otu53,^ot:ottId=3581926,^ot:ottTaxonName=Anoplodactylus turbidus,^ot:originalLabel=Anoplodactylus_turbidus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node532:41.7152)node518:29.5072)node516:25.6923)node514:22.164,otu43:629.4878[&otu=otu43,^ot:ottId=1033111,^ot:ottTaxonName=Priapulus caudatus,^ot:originalLabel=Priapulus_caudatus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node512:46.0013,((otu42:281.6137[&otu=otu42,^ot:ottId=1003020,^ot:ottTaxonName=Spadella cephaloptera,^ot:originalLabel=Spadella_cephaloptera,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu41:281.6137[&otu=otu41,^ot:ottId=679425,^ot:ottTaxonName=Flaccisagitta enflata,^ot:originalLabel=Flaccisagitta_enflata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node509:372.718,(((((otu34:476.537[&otu=otu34,^ot:ottId=51009,^ot:ottTaxonName=Aplysia californica,^ot:originalLabel=Aplysia_californica,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu35:476.537[&otu=otu35,^ot:ottId=840650,^ot:ottTaxonName=Lottia gigantea,^ot:originalLabel=Lottia_gigantea,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node499:56.5713,(otu37:388.9114[&otu=otu37,^ot:ottId=423885,^ot:ottTaxonName=Mytilus galloprovincialis,^ot:originalLabel=Mytilus_galloprovincialis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu36:388.9114[&otu=otu36,^ot:ottId=987409,^ot:ottTaxonName=Crassostrea gigas,^ot:originalLabel=Crassostrea_gigas,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node502:144.1969)node498:13.1291,otu38:546.2374[&otu=otu38,^ot:ottId=528814,^ot:ottTaxonName=Euprymna scolopes,^ot:originalLabel=Euprymna_scolopes,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node497:49.7321,(((otu30:405.2828[&otu=otu30,^ot:ottId=707082,^ot:ottTaxonName=Capitella teleta,^ot:originalLabel=Capitella_teleta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu31:405.2828[&otu=otu31,^ot:ottId=96166,^ot:ottTaxonName=Pomatoceros lamarckii,^ot:originalLabel=Pomatoceros_lamarckii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node491:74.2395,otu29:479.5223[&otu=otu29,^ot:ottId=466493,^ot:ottTaxonName=Alvinella pompejana,^ot:originalLabel=Alvinella_pompejana,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node489:41.469,(otu33:365.5831[&otu=otu33,^ot:ottId=639288,^ot:ottTaxonName=Tubifex tubifex,^ot:originalLabel=Tubifex_tubifex,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu32:365.5831[&otu=otu32,^ot:ottId=870792,^ot:ottTaxonName=Helobdella robusta,^ot:originalLabel=Helobdella_robusta,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node494:155.4082)node488:74.9782)node487:36.2067,(otu40:447.5352[&otu=otu40,^ot:ottId=236073,^ot:ottTaxonName=Philodina roseola,^ot:originalLabel=Philodina_roseola,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu39:447.5352[&otu=otu39,^ot:ottId=471703,^ot:ottTaxonName=Brachionus plicatilis,^ot:originalLabel=Brachionus_plicatilis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node506:184.641)node486:22.1554)node485:21.1576)node484:45.1535)node446:53.5511,(((otu7:330.0683[&otu=otu7,^ot:ottId=938118,^ot:ottTaxonName=Nematostella vectensis,^ot:originalLabel=Nematostella_vetensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu6:330.0683[&otu=otu6,^ot:ottId=214124,^ot:ottTaxonName=Anemonia viridis,^ot:originalLabel=Anemonia_viridis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node440:167.0071,otu5:497.0754[&otu=otu5,^ot:ottId=718262,^ot:ottTaxonName=Acropora millepora,^ot:originalLabel=Acropora_millepora,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node438:175.6634,(otu9:367.2767[&otu=otu9,^ot:ottId=115617,^ot:ottTaxonName=Hydractinia echinata,^ot:originalLabel=Hydractinia_echinata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu8:367.2767[&otu=otu8,^ot:ottId=861536,^ot:ottTaxonName=Hydra vulgaris,^ot:originalLabel=Hydra_magnipapillata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node443:305.462)node437:101.455)node436:34.6675,otu4:808.8613[&otu=otu4,^ot:ottId=570365,^ot:ottTaxonName=Trichoplax adhaerens,^ot:originalLabel=Trichoplax_adhaerens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node434:10.7232)node430;
+END;
+

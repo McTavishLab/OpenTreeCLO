@@ -1,0 +1,20 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=331999,nearestTaxonMRCAName=Jacanidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu7[&otu=otu7,^ot:ottId=977453,^ot:ottTaxonName=Hydrophasianus chirurgus,^ot:originalLabel=Hydrophasianus_chirurgus,^clo:ClementsTaxonName2019=Hydrophasianus chirurgus,^clo:speciescode2019=phtjac1],(otu6[&otu=otu6,^ot:ottId=526708,^ot:ottTaxonName=Jacana spinosa,^ot:originalLabel=Jacana_spinosa,^clo:ClementsTaxonName2019=Jacana spinosa,^clo:speciescode2019=norjac],otu5[&otu=otu5,^ot:ottId=332005,^ot:ottTaxonName=Jacana jacana,^ot:originalLabel=Jacana_jacana,^clo:ClementsTaxonName2019=Jacana jacana,^clo:speciescode2019=watjac1])node11)node10,(otu4[&otu=otu4,^ot:ottId=977428,^ot:ottTaxonName=Actophilornis africanus,^ot:originalLabel=Actophilornis_africanus,^clo:ClementsTaxonName2019=Actophilornis africanus,^clo:speciescode2019=afrjac1],((otu1[&otu=otu1,^ot:ottId=5272,^ot:ottTaxonName=Microparra capensis,^ot:originalLabel=Microparra_capensis,^clo:ClementsTaxonName2019=Microparra capensis,^clo:speciescode2019=lesjac1],otu2[&otu=otu2,^ot:ottId=332002,^ot:ottTaxonName=Irediparra gallinacea,^ot:originalLabel=Irediparra_gallinacea,^clo:ClementsTaxonName2019=Irediparra gallinacea,^clo:speciescode2019=cocjac1])node5,otu3[&otu=otu3,^ot:ottId=526689,^ot:ottTaxonName=Metopidius indicus,^ot:originalLabel=Metopidius_indicus,^clo:ClementsTaxonName2019=Metopidius indicus,^clo:speciescode2019=brwjac1])node4)node3)node2,otu8[&otu=otu8,^ot:ottId=5276,^ot:ottTaxonName=Rostratula benghalensis,^ot:originalLabel=Rostratula_benghalensis,^clo:ClementsTaxonName2019=Rostratula benghalensis,^clo:speciescode2019=grpsni1])node1;
+END;
+

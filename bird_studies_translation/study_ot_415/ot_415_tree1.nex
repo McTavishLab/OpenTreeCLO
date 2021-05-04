@@ -1,0 +1,59 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=47;
+    TAXLABELS
+        Gallinula_chloropus
+        Gallirallus_australis
+        Gallirallus_philippensis
+        Gallirallus_okinawae
+        otu32
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Gallus_gallus
+        Balearica_pavonina
+        Balearica_regulorum
+        Porphyrio_orphyrio
+        Porphyrio_hochstetteri
+        Coturnicops_exquisitus
+        Rallina_eurizonoides
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        Crotophaga_ani
+        Eudynamys_taitensis
+        Otis_tarda
+        otu18
+        otu19
+        Pygoscelis_adeliae
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (RAxML)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=]((otu1:0.475407[&otu=otu1,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus_19,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],(otu2:0.37564[&otu=otu2,^ot:ottId=693332,^ot:ottTaxonName=Aythya americana,^ot:originalLabel=Aythya_americana,^clo:ClementsTaxonName2019=Aythya americana,^clo:speciescode2019=redhea],otu3:0.203562[&otu=otu3,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1])node4:0.071234)node2:0.091319,((((otu18:0.05142[&otu=otu18,^ot:ottId=832271,^ot:ottTaxonName=Grus leucogeranus,^ot:originalLabel=Grus_leucogeranus,^clo:ClementsTaxonName2019=Leucogeranus leucogeranus,^clo:speciescode2019=sibcra1],(otu19:0.039345[&otu=otu19,^ot:ottId=972481,^ot:ottTaxonName=Grus rubicunda,^ot:originalLabel=Grus_rubicunda,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu20:0.044458[&otu=otu20,^ot:ottId=589064,^ot:ottTaxonName=Grus grus,^ot:originalLabel=Grus_grus,^clo:ClementsTaxonName2019=Grus grus,^clo:speciescode2019=comcra])node38:0.009064)node36:0.048959,(otu17:0.018595[&otu=otu17,^ot:ottId=928354,^ot:ottTaxonName=Balearica pavonina,^ot:originalLabel=Balearica_pavonina_FJ769842,^clo:ClementsTaxonName2019=Balearica pavonina,^clo:speciescode2019=blccra1],otu16:0.019292[&otu=otu16,^ot:ottId=191006,^ot:ottTaxonName=Balearica regulorum,^ot:originalLabel=Balearica_regulorumFJ769841,^clo:ClementsTaxonName2019=Balearica regulorum,^clo:speciescode2019=grccra1])node33:0.093362)node32:0.074391,(otu21:0.661932[&otu=otu21,^ot:ottId=440618,^ot:ottTaxonName=Heliornis fulica,^ot:originalLabel=Heliornis_fulica,^clo:ClementsTaxonName2019=Heliornis fulica,^clo:speciescode2019=sungre1],((((otu29:0.024444[&otu=otu29,^ot:ottId=73578,^ot:ottTaxonName=Porphyrio hochstetteri,^ot:originalLabel=Porphyrio_hochstetteri_NC_010092,^clo:ClementsTaxonName2019=Porphyrio hochstetteri,^clo:speciescode2019=takahe3],otu30:0.016482[&otu=otu30,^ot:ottId=148209,^ot:ottTaxonName=Porphyrio porphyrio,^ot:originalLabel=Porphyrio_porphyrio_161112,^clo:ClementsTaxonName2019=Porphyrio porphyrio,^clo:speciescode2019=purswa1])node58:0.176518,(otu32:0.229[&otu=otu32,^ot:ottId=556660,^ot:ottTaxonName=Coturnicops exquisitus,^ot:originalLabel=Coturnicops_exquisitus_NC_012143,^clo:ClementsTaxonName2019=Coturnicops exquisitus,^clo:speciescode2019=swirai1],otu31:0.249063[&otu=otu31,^ot:ottId=195805,^ot:ottTaxonName=Rallina eurizonoides sepiaria,^ot:originalLabel=Rallina_eurizonoides_sepiaria_NC_012142,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node61:0.028724)node57:0.017855,(otu27:0.061972[&otu=otu27,^ot:ottId=1041538,^ot:ottTaxonName=Fulica atra,^ot:originalLabel=Fulica_atra,^clo:ClementsTaxonName2019=Fulica atra,^clo:speciescode2019=eurcoo],otu28:0.094587[&otu=otu28,^ot:ottId=1041541,^ot:ottTaxonName=Gallinula chloropus,^ot:originalLabel=Gallinula_chloropus_NC_015236,^clo:ClementsTaxonName2019=Gallinula chloropus,^clo:speciescode2019=commoo3])node54:0.114487)node53:0.007825,((((otu25:0.027084[&otu=otu25,^ot:ottId=32332,^ot:ottTaxonName=Gallirallus philippensis,^ot:originalLabel=Gallirallus_philippensis_270213,^clo:ClementsTaxonName2019=Gallirallus philippensis,^clo:speciescode2019=bubrai1],otu26:0.02776[&otu=otu26,^ot:ottId=765969,^ot:ottTaxonName=Gallirallus okinawae,^ot:originalLabel=Gallirallus_okinawae_NC_012140,^clo:ClementsTaxonName2019=Gallirallus okinawae,^clo:speciescode2019=okirai1])node50:0.02045,otu24:0.039513[&otu=otu24,^ot:ottId=70700,^ot:ottTaxonName=Eulabeornis castaneoventris,^ot:originalLabel=Eulabeornis_castaneoventris,^clo:ClementsTaxonName2019=Gallirallus castaneoventris,^clo:speciescode2019=cherai1])node48:0.009906,otu23:0.038827[&otu=otu23,^ot:ottId=1041544,^ot:ottTaxonName=Gallirallus australis,^ot:originalLabel=Gallirallus_australis_270213,^clo:ClementsTaxonName2019=Gallirallus australis,^clo:speciescode2019=weka1])node46:0.078435,otu22:0.132556[&otu=otu22,^ot:ottId=3599969,^ot:ottTaxonName=Lewinia muelleri,^ot:originalLabel=Lewinia_muelleri,^clo:ClementsTaxonName2019=Lewinia muelleri,^clo:speciescode2019=auirai1])node44:0.105383)node43:0.109749)node41:0.16895)node31:0.040606,((otu4:0.262344[&otu=otu4,^ot:ottId=458651,^ot:ottTaxonName=Otis tarda,^ot:originalLabel=Otis_tarda_NC_014046,^clo:ClementsTaxonName2019=Otis tarda,^clo:speciescode2019=grebus1],(otu6:0.28621[&otu=otu6,^ot:ottId=526771,^ot:ottTaxonName=Eudynamys taitensis,^ot:originalLabel=Eudynamys_taitensis_NC_011709,^clo:ClementsTaxonName2019=Urodynamis taitensis,^clo:speciescode2019=lotkoe1],otu5:0.348219[&otu=otu5,^ot:ottId=267844,^ot:ottTaxonName=Crotophaga ani,^ot:originalLabel=Crotophaga_ani_HM746794,^clo:ClementsTaxonName2019=Crotophaga ani,^clo:speciescode2019=smbani])node11:0.130812)node9:0.011567,(((otu9:0.065244[&otu=otu9,^ot:ottId=1057044,^ot:ottTaxonName=Gavia stellata,^ot:originalLabel=Gavia_stellata,^clo:ClementsTaxonName2019=Gavia stellata,^clo:speciescode2019=retloo],otu10:0.062022[&otu=otu10,^ot:ottId=651474,^ot:ottTaxonName=Gavia pacifica,^ot:originalLabel=Gavia_pacifica,^clo:ClementsTaxonName2019=Gavia pacifica,^clo:speciescode2019=pacloo])node19:0.129947,((otu11:0.184858[&otu=otu11,^ot:ottId=363031,^ot:ottTaxonName=Ciconia ciconia,^ot:originalLabel=Ciconia_ciconia,^clo:ClementsTaxonName2019=Ciconia ciconia,^clo:speciescode2019=whisto1],otu12:0.251015[&otu=otu12,^ot:ottId=413795,^ot:ottTaxonName=Threskiornis aethiopicus,^ot:originalLabel=Threskiornis_aethiopicus,^clo:ClementsTaxonName2019=Threskiornis aethiopicus,^clo:speciescode2019=sacibi2])node23:0.012311,((otu15:0.070671[&otu=otu15,^ot:ottId=82220,^ot:ottTaxonName=Eudyptes chrysocome,^ot:originalLabel=Eudyptes_chrysocome,^clo:ClementsTaxonName2019=Eudyptes chrysocome,^clo:speciescode2019=rocpen1],otu14:0.08584[&otu=otu14,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1])node28:0.041401,otu13:0.108536[&otu=otu13,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae_gg,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1])node26:0.13505)node22:0.006597)node18:0.010331,(otu8:0.338626[&otu=otu8,^ot:ottId=178242,^ot:ottTaxonName=Nyctibius griseus,^ot:originalLabel=Nyctibius_griseus,^clo:ClementsTaxonName2019=Nyctibius griseus,^clo:speciescode2019=compot1],otu7:0.366347[&otu=otu7,^ot:ottId=540033,^ot:ottTaxonName=Aegotheles cristatus,^ot:originalLabel=Aegotheles_cristatus,^clo:ClementsTaxonName2019=Aegotheles cristatus,^clo:speciescode2019=auonig1])node15:0.016004)node14:0.002904)node8:0.010852)node7:0.091319)node1;
+END;
+

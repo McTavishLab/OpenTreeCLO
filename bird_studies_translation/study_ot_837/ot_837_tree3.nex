@@ -1,0 +1,50 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=38;
+    TAXLABELS
+        otu38
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE moyle_2006_tree_3 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((((otu34[&otu=otu34,^ot:ottId=26085,^ot:ottTaxonName=Ceryle rudis,^ot:originalLabel=Ceryle_rudis,^clo:ClementsTaxonName2019=Ceryle rudis,^clo:speciescode2019=piekin1],(otu35[&otu=otu35,^ot:ottId=485386,^ot:ottTaxonName=Chloroceryle amazona,^ot:originalLabel=Chloroceryle_amazona,^clo:ClementsTaxonName2019=Chloroceryle amazona,^clo:speciescode2019=amakin1],((otu38[&otu=otu38,^ot:ottId=485385,^ot:ottTaxonName=Chloroceryle inda,^ot:originalLabel=Chloroceryle_inda,^clo:ClementsTaxonName2019=Chloroceryle inda,^clo:speciescode2019=garkin1],otu36[&otu=otu36,^ot:ottId=986901,^ot:ottTaxonName=Chloroceryle aenea,^ot:originalLabel=Chloroceryle_aenea,^clo:ClementsTaxonName2019=Chloroceryle aenea,^clo:speciescode2019=ampkin1])node184,otu37[&otu=otu37,^ot:ottId=1039522,^ot:ottTaxonName=Chloroceryle americana,^ot:originalLabel=Chloroceryle_americana,^clo:ClementsTaxonName2019=Chloroceryle americana,^clo:speciescode2019=grnkin])node182)node180)node178,((otu33[&otu=otu33,^ot:ottId=839181,^ot:ottTaxonName=Megaceryle alcyon,^ot:originalLabel=Megaceryle_alcyon,^clo:ClementsTaxonName2019=Megaceryle alcyon,^clo:speciescode2019=belkin1],otu32[&otu=otu32,^ot:ottId=314750,^ot:ottTaxonName=Megaceryle torquata,^ot:originalLabel=Megaceryle_torquata,^clo:ClementsTaxonName2019=Megaceryle torquata,^clo:speciescode2019=rinkin1])node175,otu31[&otu=otu31,^ot:ottId=209417,^ot:ottTaxonName=Megaceryle maxima,^ot:originalLabel=Megaceryle_maxima,^clo:ClementsTaxonName2019=Megaceryle maxima,^clo:speciescode2019=giakin3])node173)node172,(((otu3[&otu=otu3,^ot:ottId=1061838,^ot:ottTaxonName=Ceyx madagascariensis,^ot:originalLabel=Ceyx_madagascariensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu4[&otu=otu4,^ot:ottId=26087,^ot:ottTaxonName=Alcedo leucogaster,^ot:originalLabel=Alcedo_leucogaster,^clo:ClementsTaxonName2019=Corythornis leucogaster,^clo:speciescode2019=whbkin1],otu5[&otu=otu5,^ot:ottId=651469,^ot:ottTaxonName=Alcedo cristata,^ot:originalLabel=Alcedo_cristata,^clo:ClementsTaxonName2019=Corythornis cristatus,^clo:speciescode2019=malkin1])node160)node158,(((otu8[&otu=otu8,^ot:ottId=931007,^ot:ottTaxonName=Ceyx lepidus,^ot:originalLabel=Ceyx_lepidus,^clo:ClementsTaxonName2019=Ceyx lepidus,^clo:speciescode2019=vardwk4],otu7[&otu=otu7,^ot:ottId=215691,^ot:ottTaxonName=Ceyx erithaca,^ot:originalLabel=Ceyx_erithacus,^clo:ClementsTaxonName2019=Ceyx erithaca,^clo:speciescode2019=bkbkin1])node166,otu6[&otu=otu6,^ot:ottId=1061841,^ot:ottTaxonName=Alcedo azurea,^ot:originalLabel=Alcedo_azurea,^clo:ClementsTaxonName2019=Ceyx azureus,^clo:speciescode2019=azukin1])node164,(otu10[&otu=otu10,^ot:ottId=549519,^ot:ottTaxonName=Alcedo atthis,^ot:originalLabel=Alcedo_atthis,^clo:ClementsTaxonName2019=Alcedo atthis,^clo:speciescode2019=comkin1],otu9[&otu=otu9,^ot:ottId=26078,^ot:ottTaxonName=Alcedo quadribrachys,^ot:originalLabel=Alcedo_quadribrachys,^clo:ClementsTaxonName2019=Alcedo quadribrachys,^clo:speciescode2019=shbkin1])node169)node163)node157,(otu1[&otu=otu1,^ot:ottId=1061846,^ot:ottTaxonName=Ceyx lecontei,^ot:originalLabel=Ceyx_lecontei,^clo:ClementsTaxonName2019=Ispidina lecontei,^clo:speciescode2019=dwakin1],otu2[&otu=otu2,^ot:ottId=1097691,^ot:ottTaxonName=Ceyx pictus,^ot:originalLabel=Ispidina_picta,^clo:ClementsTaxonName2019=Ispidina picta,^clo:speciescode2019=afpkin1])node154)node153)node152,(((((otu11[&otu=otu11,^ot:ottId=571609,^ot:ottTaxonName=Actenoides concretus,^ot:originalLabel=Actenoides_concretus,^clo:ClementsTaxonName2019=Actenoides concretus,^clo:speciescode2019=ruckin1],otu12[&otu=otu12,^ot:ottId=571605,^ot:ottTaxonName=Actenoides lindsayi,^ot:originalLabel=Actenoides_lindsayi,^clo:ClementsTaxonName2019=Actenoides lindsayi,^clo:speciescode2019=spokin1])node192,(otu13[&otu=otu13,^ot:ottId=234478,^ot:ottTaxonName=Syma torotoro,^ot:originalLabel=Syma_torotoro,^clo:ClementsTaxonName2019=Syma torotoro,^clo:speciescode2019=yebkin1],(otu14[&otu=otu14,^ot:ottId=3596387,^ot:ottTaxonName=Todiramphus leucopygius,^ot:originalLabel=Todirhamphus_leucopygius,^clo:ClementsTaxonName2019=Todiramphus leucopygius,^clo:speciescode2019=ultkin1],((otu17[&otu=otu17,^ot:ottId=704131,^ot:ottTaxonName=Todiramphus chloris,^ot:originalLabel=Todirhamphus_chloris,^clo:ClementsTaxonName2019=Todiramphus chloris,^clo:speciescode2019=colkin1],otu18[&otu=otu18,^ot:ottId=234470,^ot:ottTaxonName=Todiramphus sanctus,^ot:originalLabel=Todirhamphus_sanctus,^clo:ClementsTaxonName2019=Todiramphus sanctus,^clo:speciescode2019=sackin1])node203,(otu15[&otu=otu15,^ot:ottId=5560131,^ot:ottTaxonName=Todirhamphus ruficollaris,^ot:originalLabel=Todirhamphus_ruficollaris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu16[&otu=otu16,^ot:ottId=1011657,^ot:ottTaxonName=Halcyon tuta,^ot:originalLabel=Todirhamphus_tuta,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node200)node199)node197)node195)node191,((otu25[&otu=otu25,^ot:ottId=234476,^ot:ottTaxonName=Tanysiptera galatea,^ot:originalLabel=Tanysiptera_galatea,^clo:ClementsTaxonName2019=Tanysiptera galatea,^clo:speciescode2019=copkin1],otu24[&otu=otu24,^ot:ottId=234469,^ot:ottTaxonName=Cittura cyanotis,^ot:originalLabel=Cittura_cyanotis,^clo:ClementsTaxonName2019=Cittura cyanotis,^clo:speciescode2019=lilkin1])node216,(otu19[&otu=otu19,^ot:ottId=757734,^ot:ottTaxonName=Melidora macrorrhina,^ot:originalLabel=Melidora_macrorrhina,^clo:ClementsTaxonName2019=Melidora macrorrhina,^clo:speciescode2019=hobkin1],((otu21[&otu=otu21,^ot:ottId=234479,^ot:ottTaxonName=Dacelo gaudichaud,^ot:originalLabel=Dacelo_gaudichaud,^clo:ClementsTaxonName2019=Dacelo gaudichaud,^clo:speciescode2019=rubkoo1],(otu23[&otu=otu23,^ot:ottId=3596367,^ot:ottTaxonName=Dacelo leachii,^ot:originalLabel=Dacelo_leachii,^clo:ClementsTaxonName2019=Dacelo leachii,^clo:speciescode2019=blwkoo1],otu22[&otu=otu22,^ot:ottId=938422,^ot:ottTaxonName=Dacelo novaeguineae,^ot:originalLabel=Dacelo_novaeguineae,^clo:ClementsTaxonName2019=Dacelo novaeguineae,^clo:speciescode2019=laukoo1])node213)node211,otu20[&otu=otu20,^ot:ottId=757735,^ot:ottTaxonName=Clytoceyx rex,^ot:originalLabel=Clytoceyx_rex,^clo:ClementsTaxonName2019=Clytoceyx rex,^clo:speciescode2019=shbkoo1])node209)node207)node206)node190,((otu28[&otu=otu28,^ot:ottId=26092,^ot:ottTaxonName=Halcyon badia,^ot:originalLabel=Halcyon_badia,^clo:ClementsTaxonName2019=Halcyon badia,^clo:speciescode2019=chbkin2],(otu30[&otu=otu30,^ot:ottId=551379,^ot:ottTaxonName=Halcyon malimbica,^ot:originalLabel=Halcyon_malimbica,^clo:ClementsTaxonName2019=Halcyon malimbica,^clo:speciescode2019=blbkin4],otu29[&otu=otu29,^ot:ottId=234474,^ot:ottTaxonName=Halcyon senegalensis,^ot:originalLabel=Halcyon_senegalensis,^clo:ClementsTaxonName2019=Halcyon senegalensis,^clo:speciescode2019=wookin1])node223)node221,otu27[&otu=otu27,^ot:ottId=589619,^ot:ottTaxonName=Pelargopsis capensis,^ot:originalLabel=Pelargopsis_capensis,^clo:ClementsTaxonName2019=Pelargopsis capensis,^clo:speciescode2019=stbkin1])node219)node189,otu26[&otu=otu26,^ot:ottId=485388,^ot:ottTaxonName=Lacedo pulchella,^ot:originalLabel=Lacedo_pulchella,^clo:ClementsTaxonName2019=Lacedo pulchella,^clo:speciescode2019=bankin1])node187)node151;
+END;
+

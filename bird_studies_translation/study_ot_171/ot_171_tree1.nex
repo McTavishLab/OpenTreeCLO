@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=1041547,nearestTaxonMRCAName=Passeriformes,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu15[&otu=otu15,^ot:ottId=1007196,^ot:ottTaxonName=Certhia familiaris,^ot:originalLabel=Certhia_familiaris,^clo:ClementsTaxonName2019=Certhia familiaris,^clo:speciescode2019=eurtre1],(otu14[&otu=otu14,^ot:ottId=565813,^ot:ottTaxonName=Sturnus vulgaris,^ot:originalLabel=Sturnus_vulgaris,^clo:ClementsTaxonName2019=Sturnus vulgaris,^clo:speciescode2019=eursta],(otu13[&otu=otu13,^ot:ottId=381315,^ot:ottTaxonName=Turdus falcklandii,^ot:originalLabel=Turdus_falklandii,^clo:ClementsTaxonName2019=Turdus falcklandii,^clo:speciescode2019=austhr1],otu12[&otu=otu12,^ot:ottId=496009,^ot:ottTaxonName=Cinclus cinclus,^ot:originalLabel=Cinclus_cinclus,^clo:ClementsTaxonName2019=Cinclus cinclus,^clo:speciescode2019=whtdip1])node26)node25)node24,(otu11[&otu=otu11,^ot:ottId=33425,^ot:ottTaxonName=Dulus dominicus,^ot:originalLabel=Dulus_dominicus,^clo:ClementsTaxonName2019=Dulus dominicus,^clo:speciescode2019=palmch1],((otu10[&otu=otu10,^ot:ottId=294597,^ot:ottTaxonName=Hypocolius ampelinus,^ot:originalLabel=Hypocolius_ampelinus,^clo:ClementsTaxonName2019=Hypocolius ampelinus,^clo:speciescode2019=hypoco1],otu9[&otu=otu9,^ot:ottId=352344,^ot:ottTaxonName=Hylocitrea bonensis,^ot:originalLabel=Hylocitrea_bonensis,^clo:ClementsTaxonName2019=Hylocitrea bonensis,^clo:speciescode2019=olfwhi1])node20,((otu5[&otu=otu5,^ot:ottId=179330,^ot:ottTaxonName=Phainoptila melanoxantha,^ot:originalLabel=Phainoptila_melanoxantha,^clo:ClementsTaxonName2019=Phainoptila melanoxantha,^clo:speciescode2019=bayfly1],(otu4[&otu=otu4,^ot:ottId=33427,^ot:ottTaxonName=Phainopepla nitens,^ot:originalLabel=Phainopepla_nitens,^clo:ClementsTaxonName2019=Phainopepla nitens,^clo:speciescode2019=phaino],((otu1[&otu=otu1,^ot:ottId=294590,^ot:ottTaxonName=Ptilogonys caudatus,^ot:originalLabel=Ptilogonys_caudatus_1,^clo:ClementsTaxonName2019=Ptiliogonys caudatus,^clo:speciescode2019=ltsfly1],otu2[&otu=otu2,^ot:ottId=294590,^ot:ottTaxonName=Ptilogonys caudatus,^ot:originalLabel=Ptilogonys_caudatus_2,^clo:ClementsTaxonName2019=Ptiliogonys caudatus,^clo:speciescode2019=ltsfly1])node9,otu3[&otu=otu3,^ot:ottId=843507,^ot:ottTaxonName=Ptilogonys cinereus,^ot:originalLabel=Ptilogonys_cinereus,^clo:ClementsTaxonName2019=Ptiliogonys cinereus,^clo:speciescode2019=grsfly1])node8)node7)node6,(otu8[&otu=otu8,^ot:ottId=606625,^ot:ottTaxonName=Bombycilla cedrorum,^ot:originalLabel=Bombycilla_cedrorum,^clo:ClementsTaxonName2019=Bombycilla cedrorum,^clo:speciescode2019=cedwax],(otu6[&otu=otu6,^ot:ottId=613881,^ot:ottTaxonName=Bombycilla garrulus,^ot:originalLabel=Bombycilla_garrulus,^clo:ClementsTaxonName2019=Bombycilla garrulus,^clo:speciescode2019=bohwax],otu7[&otu=otu7,^ot:ottId=496029,^ot:ottTaxonName=Bombycilla japonica,^ot:originalLabel=Bombycilla_japonica,^clo:ClementsTaxonName2019=Bombycilla japonica,^clo:speciescode2019=japwax1])node16)node15)node5)node4)node3)node2,(otu18[&otu=otu18,^ot:ottId=433922,^ot:ottTaxonName=Thraupis cyanocephala,^ot:originalLabel=Thraupis_cyanocephala,^clo:ClementsTaxonName2019=Thraupis cyanocephala,^clo:speciescode2019=blctan2],(otu16[&otu=otu16,^ot:ottId=189137,^ot:ottTaxonName=Cisticola anonymus,^ot:originalLabel=Cisticola_anonymus,^clo:ClementsTaxonName2019=Cisticola anonymus,^clo:speciescode2019=chacis1],otu17[&otu=otu17,^ot:ottId=699631,^ot:ottTaxonName=Tregellasia leucops,^ot:originalLabel=Tregellasia_leucops,^clo:ClementsTaxonName2019=Tregellasia leucops,^clo:speciescode2019=whfrob1])node32)node31)node1;
+END;
+

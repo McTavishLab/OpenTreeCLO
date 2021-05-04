@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        Cotunrix
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (FITCH)' = [&unrootedTree=False,curatedType=Least squares ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=DNA-DNA hybridization distance,tag={},branchLengthMode=ot:other,messages=](((otu7:12.98[&otu=otu7,^ot:ottId=765185,^ot:ottTaxonName=Anas,^ot:originalLabel=Anas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu14:6.56[&otu=otu14,^ot:ottId=1098759,^ot:ottTaxonName=Coturnix,^ot:originalLabel=Coturnix,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5:4.74[&otu=otu5,^ot:ottId=153562,^ot:ottTaxonName=Gallus,^ot:originalLabel=Gallus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node11:10.35)node10:2.22,(otu4:13.13[&otu=otu4,^ot:ottId=1039512,^ot:ottTaxonName=Colius,^ot:originalLabel=Colius,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu1:2.89[&otu=otu1,^ot:ottId=938415,^ot:ottTaxonName=Columba,^ot:originalLabel=Columba,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2:3.46[&otu=otu2,^ot:ottId=1092651,^ot:ottTaxonName=Zenaida,^ot:originalLabel=Zenaida,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node5:4.18,otu3:11.54[&otu=otu3,^ot:ottId=402451,^ot:ottTaxonName=Bubo,^ot:originalLabel=Bubo,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node4:1.94)node3:2.83)node2:13.765,otu8:13.765[&otu=otu8,^ot:ottId=335593,^ot:ottTaxonName=Alligator,^ot:originalLabel=Alligator,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1;
+END;
+

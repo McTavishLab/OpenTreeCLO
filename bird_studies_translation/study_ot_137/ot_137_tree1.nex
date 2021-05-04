@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3b = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=452462,nearestTaxonMRCAName=Sulidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](otu1[&otu=otu1,^ot:ottId=744567,^ot:ottTaxonName=Phalacrocorax urile,^ot:originalLabel=Phalacrocorax_urile,^clo:ClementsTaxonName2019=Phalacrocorax urile,^clo:speciescode2019=refcor],(otu2[&otu=otu2,^ot:ottId=117726,^ot:ottTaxonName=Papasula abbotti,^ot:originalLabel=Papasula_abbotti,^clo:ClementsTaxonName2019=Papasula abbotti,^clo:speciescode2019=abbboo2],((otu11[&otu=otu11,^ot:ottId=675103,^ot:ottTaxonName=Morus bassanus,^ot:originalLabel=Morus_bassanus,^clo:ClementsTaxonName2019=Morus bassanus,^clo:speciescode2019=norgan],(otu9[&otu=otu9,^ot:ottId=403802,^ot:ottTaxonName=Morus capensis,^ot:originalLabel=Morus_capensis,^clo:ClementsTaxonName2019=Morus capensis,^clo:speciescode2019=capgan1],otu10[&otu=otu10,^ot:ottId=403772,^ot:ottTaxonName=Morus serrator,^ot:originalLabel=Morus_serrator,^clo:ClementsTaxonName2019=Morus serrator,^clo:speciescode2019=ausgan1])node18)node17,((otu7[&otu=otu7,^ot:ottId=1030310,^ot:ottTaxonName=Sula leucogaster,^ot:originalLabel=Sula_leucogaster,^clo:ClementsTaxonName2019=Sula leucogaster,^clo:speciescode2019=brnboo],((otu3[&otu=otu3,^ot:ottId=170197,^ot:ottTaxonName=Sula dactylatra,^ot:originalLabel=Sula_dactylatra,^clo:ClementsTaxonName2019=Sula dactylatra,^clo:speciescode2019=masboo],otu4[&otu=otu4,^ot:ottId=827441,^ot:ottTaxonName=Sula granti,^ot:originalLabel=Sula_granti,^clo:ClementsTaxonName2019=Sula granti,^clo:speciescode2019=nazboo1])node9,(otu5[&otu=otu5,^ot:ottId=429615,^ot:ottTaxonName=Sula nebouxii,^ot:originalLabel=Sula_nebouxii,^clo:ClementsTaxonName2019=Sula nebouxii,^clo:speciescode2019=bfoboo],otu6[&otu=otu6,^ot:ottId=1030312,^ot:ottTaxonName=Sula variegata,^ot:originalLabel=Sula_variegata,^clo:ClementsTaxonName2019=Sula variegata,^clo:speciescode2019=perboo1])node12)node8)node7,otu8[&otu=otu8,^ot:ottId=1030314,^ot:ottTaxonName=Sula sula,^ot:originalLabel=Sula_sula,^clo:ClementsTaxonName2019=Sula sula,^clo:speciescode2019=refboo])node6)node5)node3)node1;
+END;
+

@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu380948
+        otu380947
+        otu380946
+        otu380945
+        otu380944
+        otu380943
+        otu380942
+        otu380941
+        otu380940
+  ;
+END;
+
+BEGIN TREES;
+    TREE tree5996 = [&curatedType=Bucky species tree,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={choose me},branchLengthMode=ot:substitutionCount,messages=](((((otu380946:0.027719[&otu=otu380946,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun],otu380945:0.027719[&otu=otu380945,^ot:ottId=590809,^ot:ottTaxonName=Chiroxiphia lanceolata,^ot:originalLabel=Chiroxiphia_lanceolata,^clo:ClementsTaxonName2019=Chiroxiphia lanceolata,^clo:speciescode2019=latman1])node1018941:0.098313,(otu380944:0.056333[&otu=otu380944,^ot:ottId=705356,^ot:ottTaxonName=Anolis carolinensis,^ot:originalLabel=Anolis_carolinensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu380943:0.056333[&otu=otu380943,^ot:ottId=27076,^ot:ottTaxonName=Crotalus adamanteus,^ot:originalLabel=Crotalus_adamanteus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018938:0.0697)node1018937:0.0007,(otu380948:0.034697[&otu=otu380948,^ot:ottId=770315,^ot:ottTaxonName=Homo sapiens,^ot:originalLabel=Homo_sapiens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu380947:0.034697[&otu=otu380947,^ot:ottId=542509,^ot:ottTaxonName=Mus musculus,^ot:originalLabel=Mus_musculus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018944:0.092034)node1018936:0.083733,(otu380941:0.087062[&otu=otu380941,^ot:ottId=940184,^ot:ottTaxonName=Xenopus (Silurana) tropicalis,^ot:originalLabel=Xenopus_tropicalis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu380942:0.087062[&otu=otu380942,^ot:ottId=323018,^ot:ottTaxonName=Pseudacris feriarum,^ot:originalLabel=Pseudacris_feriarum,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018933:0.123403)node1018932:0.169551,otu380940:0.380016[&otu=otu380940,^ot:ottId=1005914,^ot:ottTaxonName=Danio rerio,^ot:originalLabel=Danio_rerio,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1018930;
+END;
+

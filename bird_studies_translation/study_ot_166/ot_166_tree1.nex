@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4c = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=241846,nearestTaxonMRCAName=Neognathae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu6[&otu=otu6,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hapalopsittaca_melanotis_melanotis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu7[&otu=otu7,^ot:ottId=1064714,^ot:ottTaxonName=Hapalopsittaca melanotis peruviana,^ot:originalLabel=Hapalopsittaca_melanotis_peruviana,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node14,((otu5[&otu=otu5,^ot:ottId=642316,^ot:ottTaxonName=Hapalopsittaca fuertesi,^ot:originalLabel=Hapalopsittaca_fuertesi,^clo:ClementsTaxonName2019=Hapalopsittaca fuertesi,^clo:speciescode2019=inwpar1],otu4[&otu=otu4,^ot:ottId=1064717,^ot:ottTaxonName=Hapalopsittaca pyrrhops,^ot:originalLabel=Hapalopsittaca_pyrrhops,^clo:ClementsTaxonName2019=Hapalopsittaca pyrrhops,^clo:speciescode2019=refpar2])node11,(otu3[&otu=otu3,^ot:ottId=642310,^ot:ottTaxonName=Hapalopsittaca amazonina theresae,^ot:originalLabel=Hapalopsittaca_amazonina_theresae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu2[&otu=otu2,^ot:ottId=642313,^ot:ottTaxonName=Hapalopsittaca amazonina velezi,^ot:originalLabel=Hapalopsittaca_amazonina_velezi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu1[&otu=otu1,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hapalopsittaca_amazonina_amazonina,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node7)node6)node5)node4,(otu10[&otu=otu10,^ot:ottId=238155,^ot:ottTaxonName=Pionopsitta haematotis,^ot:originalLabel=Pyrilia_haematotis,^clo:ClementsTaxonName2019=Pyrilia haematotis,^clo:speciescode2019=brhpar1],(otu8[&otu=otu8,^ot:ottId=3600349,^ot:ottTaxonName=Pionopsitta pyrilia,^ot:originalLabel=Pyrilia_pyrilia,^clo:ClementsTaxonName2019=Pyrilia pyrilia,^clo:speciescode2019=sahpar1],otu9[&otu=otu9,^ot:ottId=238149,^ot:ottTaxonName=Pionopsitta caica,^ot:originalLabel=Pyrilia_caica,^clo:ClementsTaxonName2019=Pyrilia caica,^clo:speciescode2019=caipar2])node18)node17)node3,(((((otu28[&otu=otu28,^ot:ottId=757510,^ot:ottTaxonName=Pionus tumultuosus,^ot:originalLabel=Pionus_tumultuosus,^clo:ClementsTaxonName2019=Pionus tumultuosus,^clo:speciescode2019=spfpar1],otu29[&otu=otu29,^ot:ottId=1028838,^ot:ottTaxonName=Pionus senilis,^ot:originalLabel=Pionus_seniloides,^clo:ClementsTaxonName2019=Pionus senilis,^clo:speciescode2019=whcpar])node58,(((otu22[&otu=otu22,^ot:ottId=706784,^ot:ottTaxonName=Pionus cyanescens,^ot:originalLabel=Pionus_cyanescens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu23[&otu=otu23,^ot:ottId=165630,^ot:ottTaxonName=Pionus chalcopterus,^ot:originalLabel=Pionus_chalcopterus,^clo:ClementsTaxonName2019=Pionus chalcopterus,^clo:speciescode2019=brwpar1])node49,otu24[&otu=otu24,^ot:ottId=1028838,^ot:ottTaxonName=Pionus senilis,^ot:originalLabel=Pionus_senilis,^clo:ClementsTaxonName2019=Pionus senilis,^clo:speciescode2019=whcpar])node48,(otu27[&otu=otu27,^ot:ottId=183244,^ot:ottTaxonName=Pionus menstruus rubrigularis,^ot:originalLabel=Pionus_rubrigularis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu25[&otu=otu25,^ot:ottId=875952,^ot:ottTaxonName=Pionus menstruus menstruus,^ot:originalLabel=Pionus_menstruus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu26[&otu=otu26,^ot:ottId=706765,^ot:ottTaxonName=Pionus menstruus reichenowi,^ot:originalLabel=Pionus_reichenowi,^clo:ClementsTaxonName2019=Pionus menstruus reichenowi,^clo:speciescode2019=buhpar2])node54)node53)node47)node46,(otu21[&otu=otu21,^ot:ottId=250897,^ot:ottTaxonName=Pionus fuscus,^ot:originalLabel=Pionus_fuscus,^clo:ClementsTaxonName2019=Pionus fuscus,^clo:speciescode2019=duspar1],(((otu20[&otu=otu20,^ot:ottId=183241,^ot:ottTaxonName=Pionus maximiliani lacerus,^ot:originalLabel=Pionus_lacerus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu19[&otu=otu19,^ot:ottId=183252,^ot:ottTaxonName=Pionus maximiliani siy,^ot:originalLabel=Pionus_siy,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node42,(otu17[&otu=otu17,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pionus_maximiliani,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu18[&otu=otu18,^ot:ottId=183250,^ot:ottTaxonName=Pionus maximiliani melanoblepharus,^ot:originalLabel=Pionus_melanoblepharus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node39)node38,((otu15[&otu=otu15,^ot:ottId=706785,^ot:ottTaxonName=Pionus sordidus mindoensis,^ot:originalLabel=Pionus_mindoensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu16[&otu=otu16,^ot:ottId=183248,^ot:ottTaxonName=Pionus sordidus corallinus,^ot:originalLabel=Pionus_corallinus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node35,(((otu11[&otu=otu11,^ot:ottId=706763,^ot:ottTaxonName=Pionus sordidus ponsi,^ot:originalLabel=Pionus_ponsi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12[&otu=otu12,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pionus_sordidus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node30,otu13[&otu=otu13,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Pionus_antelius,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node29,otu14[&otu=otu14,^ot:ottId=757507,^ot:ottTaxonName=Pionus sordidus saturatus,^ot:originalLabel=Pionus_saturatus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node28)node27)node26)node25)node24,otu30[&otu=otu30,^ot:ottId=135928,^ot:ottTaxonName=Amazona,^ot:originalLabel=Amazona_farinosa,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node23,(otu32[&otu=otu32,^ot:ottId=400211,^ot:ottTaxonName=Graydidascalus brachyurus,^ot:originalLabel=Graydidascalus_brachyurus,^clo:ClementsTaxonName2019=Graydidascalus brachyurus,^clo:speciescode2019=shtpar2],otu31[&otu=otu31,^ot:ottId=3600448,^ot:ottTaxonName=Alipiopsitta xanthops,^ot:originalLabel=Alipiopsitta_xanthops,^clo:ClementsTaxonName2019=Alipiopsitta xanthops,^clo:speciescode2019=yefpar5])node62)node22)node2,otu33[&otu=otu33,^ot:ottId=250892,^ot:ottTaxonName=Triclaria malachitacea,^ot:originalLabel=Triclaria_malachitacea,^clo:ClementsTaxonName2019=Triclaria malachitacea,^clo:speciescode2019=blbpar4])node1;
+END;
+

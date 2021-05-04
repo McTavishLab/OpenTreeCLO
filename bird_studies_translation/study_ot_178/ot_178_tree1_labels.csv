@@ -1,0 +1,81 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Pseudochelidon eurystomina	afrmar2	Pseudochelidon_eurystomina	537132	Pseudochelidon eurystomina
+otu2	Pseudochelidon sirintarae	wermar2	Pseudochelidon_sirintarae	588834	Pseudochelidon sirintarae
+otu14	Ptyonoprogne rupestris	eurcrm1	Ptyonoprogne_rupestris	641120	Ptyonoprogne rupestris
+otu13	Ptyonoprogne fuligula	rocmar2	Ptyonoprogne_fuligula	877583	Ptyonoprogne fuligula
+otu12	Ptyonoprogne concolor	duscrm1	Ptyonoprogne_concolor	641123	Ptyonoprogne concolor
+otu23	Hirundo tahitica	pacswa1	Hirundo_tahitica	487355	Hirundo tahitica
+otu24	Hirundo neoxena	welswa1	Hirundo_neoxena	487354	Hirundo neoxena
+otu20	Hirundo nigrita	wtbswa1	Hirundo_nigrita	641113	Hirundo nigrita
+otu18	Hirundo rustica	barswa	Hirundo_rustica_1	1040135	Hirundo rustica
+otu19	Hirundo rustica	barswa	Hirundo_rustica_2	1040135	Hirundo rustica
+otu15	Hirundo aethiopica	ethswa1	Hirundo_aethiopica	980335	Hirundo aethiopica
+otu16	Hirundo lucida	recswa1	Hirundo_lucida	641122	Hirundo lucida
+otu17	Hirundo angolensis	angswa1	Hirundo_angolensis	487356	Hirundo angolensis
+otu22	Hirundo albigularis	whtswa3	Hirundo_albigularis	487353	Hirundo albigularis
+otu21	Hirundo smithii	witswa1	Hirundo_smithii	487358	Hirundo smithii
+otu25	Hirundo atrocaerulea	bluswa1	Hirundo_atrocaerulea	487359	Hirundo atrocaerulea
+otu26	Hirundo leucosoma	piwswa1	Hirundo_leucosoma	641112	Hirundo leucosoma
+otu27	Hirundo dimidiata	pebswa1	Hirundo_dimidiata	487357	Hirundo dimidiata
+otu44	Delichon dasypus	ashmar1	Delichon_dasypus	119536	Delichon dasypus
+otu45	Delichon nipalense	nephom1	Delichon_nipalensis	67920	Delichon nipalensis
+otu46	Delichon urbicum	cohmar1	Delichon_urbicum	36109	Delichon urbicum
+otu36	not_a_bird	not_a_bird	Petrochelidon_preussi	None	None
+otu35	Petrochelidon rufigula	retswa2	Petrochelidon_rufigula	67918	Petrochelidon rufigula
+otu37	Petrochelidon rufocollaris	chcswa2	Petrochelidon_rufocollaris	152806	Petrochelidon rufocollaris
+otu38	Petrochelidon fulva	cavswa	Petrochelidon_fulva	152808	Petrochelidon fulva
+otu39	Petrochelidon pyrrhonota	cliswa	Petrochelidon_pyrrhonota	302798	Petrochelidon pyrrhonota
+otu43	not_a_bird	not_a_bird	Petrochelidon_spilodera	None	None
+otu41	Petrochelidon fluvicola	sttswa2	Petrochelidon_fluvicola	67919	Petrochelidon fluvicola
+otu42	not_a_bird	not_a_bird	Petrochelidon_nigrcans	None	None
+otu40	Petrochelidon ariel	faimar2	Petrochelidon_ariel	658130	Petrochelidon ariel
+otu28	Cecropis striolata	strswa2	Cecropis_striolata	67916	Cecropis striolata
+otu29	no_match	no_match	Cecropis_daurica_domicella	641124	Cecropis domicella
+otu30	no_match	no_match	Cecropis_daurica_rufula	588836	Cecropis daurica rufula
+otu31	Cecropis cucullata	grests1	Cecropis_cucullata	641117	Cecropis cucullata
+otu34	Cecropis abyssinica	lessts1	Cecropis_abyssinica	641114	Cecropis abyssinica
+otu33	Cecropis semirufa	rucswa2	Cecropis_semirufa_2	744787	Cecropis semirufa
+otu32	Cecropis semirufa	rucswa2	Cecropis_semirufa_1	744787	Cecropis semirufa
+otu10	Psalidoprocne albiceps	whhsaw1	Psalidoprocne_albiceps	67924	Psalidoprocne albiceps
+otu11	no_match	no_match	Psalidoprocne_holomelas	302794	Psalidoprocne holomelas
+otu5	no_match	no_match	Psalidoprocne_petiti	759560	Psalidoprocne petiti
+otu6	Psalidoprocne fuliginosa	mousaw1	Psalidoprocne_fuliginosa	67922	Psalidoprocne fuliginosa
+otu8	Psalidoprocne obscura	fansaw1	Psalidoprocne_obscura	588837	Psalidoprocne obscura
+otu7	no_match	no_match	Psalidoprocne_orientalis	588838	Psalidoprocne orientalis
+otu9	Psalidoprocne nitens	sqtsaw1	Psalidoprocne_nitens	67921	Psalidoprocne nitens
+otu3	Cheramoeca leucosterna	whbswa3	Cheramoeca_leucosterna	3597819	Cheramoeca leucosterna
+otu4	Pseudhirundo griseopyga	gyrswa1	Pseudhirundo_griseopyga	190307	Pseudhirundo griseopyga
+otu80	Phedina brazzae	bramar1	Phedina_brazzae	641121	Phedina brazzae
+otu79	Phedina borbonica	masmar1	Phedina_borbonica	16194	Phedina borbonica
+otu78	Riparia cincta	banmar1	Riparia_cincta	302792	Riparia cincta
+otu67	Riparia paludicola	plamar1	Riparia_paludicola	1050413	Riparia paludicola
+otu68	Riparia riparia	banswa	Riparia_riparia	922718	Riparia riparia
+otu74	Tachycineta euchrysea	golswa1	Tachycineta_euchrysea	621794	Tachycineta euchrysea
+otu75	Tachycineta thalassina	vigswa	Tachycineta_thalassina	621801	Tachycineta thalassina
+otu77	Tachycineta cyaneoviridis	bahswa	Tachycineta_cyaneoviridis	621800	Tachycineta cyaneoviridis
+otu76	Tachycineta bicolor	treswa	Tachycineta_bicolor	136028	Tachycineta bicolor
+otu71	Tachycineta leucorrhoa	whrswa1	Tachycineta_leucorrhoa	621803	Tachycineta leucorrhoa
+otu72	Tachycineta leucopyga	chiswa1	Tachycineta_meyeni	621802	Tachycineta meyeni
+otu69	Tachycineta albilinea	manswa1	Tachycineta_albilinea	621797	Tachycineta albilinea
+otu70	Tachycineta albiventer	whwswa1	Tachycineta_albiventer	621796	Tachycineta albiventer
+otu73	Tachycineta stolzmanni	tumswa1	Tachycineta_stolzmanni	621798	Tachycineta stolzmanni
+otu53	Atticora tibialis	whtswa1	Neochelidon_tibialis	136026	Neochelidon tibialis
+otu54	Atticora pileata	blcswa1	Notiochelidon_pileata	1063653	Notiochelidon pileata
+otu55	Atticora fasciata	whbswa2	Atticora_fasciata	650618	Atticora fasciata
+otu52	Pygochelidon melanoleuca	blcswa2	Atticora_melanoleuca	1063652	Atticora melanoleuca
+otu51	Pygochelidon cyanoleuca	bawswa1	Pygochelidon_cyanoleuca	877579	Pygochelidon cyanoleuca
+otu47	Orochelidon murina	brbswa1	Notiochelidon_murina	890939	Notiochelidon murina
+otu48	Orochelidon andecola	andswa2	Haplochelidon_andecola	16185	Haplochelidon andecola
+otu49	Orochelidon flavipes	pafswa1	Notiochelidon_flavipes	119541	Notiochelidon flavipes
+otu50	Alopochelidon fucata	tahswa2	Alopochelidon_fucata	537126	Alopochelidon fucata
+otu62	Progne chalybea	gybmar	Progne_chalybea_1	136021	Progne chalybea
+otu63	Progne elegans	soumar	Progne_elegans	154004	Progne elegans
+otu58	Progne cryptoleuca	cubmar	Progne_cryptoleuca	537121	Progne cryptoleuca
+otu59	Progne dominicensis	carmar1	Progne_dominicensis	1063654	Progne dominicensis
+otu60	Progne chalybea	gybmar	Progne_chalybea_2	136021	Progne chalybea
+otu61	Progne sinaloae	sinmar1	Progne_sinaloae	119535	Progne sinaloae
+otu64	Progne murphyi	permar1	Progne_murphyi	154000	Progne murphyi
+otu65	Progne subis	purmar	Progne_subis	621799	Progne subis
+otu66	Progne tapera	brcmar1	Progne_tapera	537122	Progne tapera
+otu57	Stelgidopteryx serripennis	nrwswa	Stelgidopteryx_serripennis	814755	Stelgidopteryx serripennis
+otu56	Stelgidopteryx ruficollis	srwswa1	Stelgidopteryx_ruficollis	136035	Stelgidopteryx ruficollis

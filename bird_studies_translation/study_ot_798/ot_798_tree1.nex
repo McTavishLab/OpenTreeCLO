@@ -1,0 +1,44 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+        otu32
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Imported_tree_0 = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=cladogram,tag={},branchLengthMode=ot:other,messages=]((otu30:1[&otu=otu30,^ot:ottId=241834,^ot:ottTaxonName=Apteryx australis,^ot:originalLabel=A_australis,^clo:ClementsTaxonName2019=Apteryx australis,^clo:speciescode2019=sobkiw1],(otu32:1[&otu=otu32,^ot:ottId=241836,^ot:ottTaxonName=Apteryx haastii,^ot:originalLabel=A_haastii,^clo:ClementsTaxonName2019=Apteryx haastii,^clo:speciescode2019=grskiw1],otu31:1[&otu=otu31,^ot:ottId=241844,^ot:ottTaxonName=Apteryx owenii,^ot:originalLabel=A_owenii,^clo:ClementsTaxonName2019=Apteryx owenii,^clo:speciescode2019=liskiw1])node59:1)node57:0.9,((((otu11:1[&otu=otu11,^ot:ottId=738515,^ot:ottTaxonName=Chionis minor,^ot:originalLabel=C_minor,^clo:ClementsTaxonName2019=Chionis minor,^clo:speciescode2019=blfshe1],(otu10:1[&otu=otu10,^ot:ottId=741575,^ot:ottTaxonName=Todus mexicanus,^ot:originalLabel=T_mexicanus,^clo:ClementsTaxonName2019=Todus mexicanus,^clo:speciescode2019=purtod1],(((otu4:1[&otu=otu4,^ot:ottId=749203,^ot:ottTaxonName=Nestor notabilis,^ot:originalLabel=N_notabilis,^clo:ClementsTaxonName2019=Nestor notabilis,^clo:speciescode2019=kea1],otu5:1[&otu=otu5,^ot:ottId=225753,^ot:ottTaxonName=Nestor meridionalis,^ot:originalLabel=N_meridionalis,^clo:ClementsTaxonName2019=Nestor meridionalis,^clo:speciescode2019=nezkak1])node14:1,((otu9:1[&otu=otu9,^ot:ottId=344229,^ot:ottTaxonName=Cyanoramphus unicolor,^ot:originalLabel=C_unicolor,^clo:ClementsTaxonName2019=Cyanoramphus unicolor,^clo:speciescode2019=antpar1],otu7:1[&otu=otu7,^ot:ottId=818314,^ot:ottTaxonName=Cyanoramphus auriceps,^ot:originalLabel=C_auriceps,^clo:ClementsTaxonName2019=Cyanoramphus auriceps,^clo:speciescode2019=yefpar3],otu8:1[&otu=otu8,^ot:ottId=818316,^ot:ottTaxonName=Cyanoramphus novaezelandiae,^ot:originalLabel=C_novaezelandiae,^clo:ClementsTaxonName2019=Cyanoramphus novaezelandiae,^clo:speciescode2019=refpar4])node19:1,otu6:1[&otu=otu6,^ot:ottId=48860,^ot:ottTaxonName=Coracopsis vasa,^ot:originalLabel=C_vasa,^clo:ClementsTaxonName2019=Coracopsis vasa,^clo:speciescode2019=vaspar1])node17:1)node13:1,((otu1:1[&otu=otu1,^ot:ottId=221897,^ot:ottTaxonName=Loxioides bailleui,^ot:originalLabel=L_baillui,^clo:ClementsTaxonName2019=Loxioides bailleui,^clo:speciescode2019=palila],otu2:1[&otu=otu2,^ot:ottId=298780,^ot:ottTaxonName=Himatione sanguinea,^ot:originalLabel=H_sanguinea,^clo:ClementsTaxonName2019=Himatione sanguinea,^clo:speciescode2019=apapan])node9:1,otu3:1[&otu=otu3,^ot:ottId=6264,^ot:ottTaxonName=Prosthemadera novaeseelandiae,^ot:originalLabel=P_novaeseelandiae,^clo:ClementsTaxonName2019=Prosthemadera novaeseelandiae,^clo:speciescode2019=tui1])node8:1)node7:1)node6:1)node5:1,(((otu14:1[&otu=otu14,^ot:ottId=1041544,^ot:ottTaxonName=Gallirallus australis,^ot:originalLabel=G_australis,^clo:ClementsTaxonName2019=Gallirallus australis,^clo:speciescode2019=weka1],otu15:1[&otu=otu15,^ot:ottId=32337,^ot:ottTaxonName=Gallirallus owstoni,^ot:originalLabel=G_owstoni,^clo:ClementsTaxonName2019=Gallirallus owstoni,^clo:speciescode2019=guarai1])node29:1,otu13:1[&otu=otu13,^ot:ottId=3599985,^ot:ottTaxonName=Atlantisia rogersi,^ot:originalLabel=A_rogersi,^clo:ClementsTaxonName2019=Atlantisia rogersi,^clo:speciescode2019=inirai1])node27:1,otu12:1[&otu=otu12,^ot:ottId=73578,^ot:ottTaxonName=Porphyrio hochstetteri,^ot:originalLabel=P_hochstetteri,^clo:ClementsTaxonName2019=Porphyrio hochstetteri,^clo:speciescode2019=takahe3])node25:1)node4:1,(((otu18:1[&otu=otu18,^ot:ottId=1032058,^ot:ottTaxonName=Caloenas nicobarica,^ot:originalLabel=C_nicobarica,^clo:ClementsTaxonName2019=Caloenas nicobarica,^clo:speciescode2019=nicpig1],otu19:1[&otu=otu19,^ot:ottId=1026076,^ot:ottTaxonName=Goura cristata,^ot:originalLabel=G_cristata,^clo:ClementsTaxonName2019=Goura cristata,^clo:speciescode2019=wecpig1])node37:1,((otu20:1[&otu=otu20,^ot:ottId=470998,^ot:ottTaxonName=Ducula pacifica,^ot:originalLabel=D_pacifica,^clo:ClementsTaxonName2019=Ducula pacifica,^clo:speciescode2019=paipig1],otu21:1[&otu=otu21,^ot:ottId=437806,^ot:ottTaxonName=Ducula pistrinaria,^ot:originalLabel=D_pistrinia,^clo:ClementsTaxonName2019=Ducula pistrinaria,^clo:speciescode2019=isipig1])node41:1,(otu23:1[&otu=otu23,^ot:ottId=506107,^ot:ottTaxonName=Drepanoptila holosericea,^ot:originalLabel=D_holosericea,^clo:ClementsTaxonName2019=Drepanoptila holosericea,^clo:speciescode2019=clfdov1],otu22:1[&otu=otu22,^ot:ottId=438081,^ot:ottTaxonName=Hemiphaga novaeseelandiae,^ot:originalLabel=H_novaeseelandiae,^clo:ClementsTaxonName2019=Hemiphaga novaeseelandiae,^clo:speciescode2019=nezpig2])node44:1)node40:1)node36:1,(otu17:1[&otu=otu17,^ot:ottId=773513,^ot:ottTaxonName=Patagioenas leucocephala,^ot:originalLabel=C_leucocephala,^clo:ClementsTaxonName2019=Patagioenas leucocephala,^clo:speciescode2019=whcpig2],otu16:1[&otu=otu16,^ot:ottId=51607,^ot:ottTaxonName=Columba vitiensis,^ot:originalLabel=C_vitiensis,^clo:ClementsTaxonName2019=Columba vitiensis,^clo:speciescode2019=metpig1])node33:1)node32:1)node3:1,((otu25:1[&otu=otu25,^ot:ottId=166697,^ot:ottTaxonName=Tadorna variegata,^ot:originalLabel=T_variegata,^clo:ClementsTaxonName2019=Tadorna variegata,^clo:speciescode2019=parshe1],otu24:1[&otu=otu24,^ot:ottId=423364,^ot:ottTaxonName=Hymenolaimus malacorhynchos,^ot:originalLabel=H_malacorhynchos,^clo:ClementsTaxonName2019=Hymenolaimus malacorhynchos,^clo:speciescode2019=bluduc1])node48:1,((otu28:1[&otu=otu28,^ot:ottId=656784,^ot:ottTaxonName=Anas chlorotis,^ot:originalLabel=A_chlorotis,^clo:ClementsTaxonName2019=Anas chlorotis,^clo:speciescode2019=brotea1],otu29:1[&otu=otu29,^ot:ottId=877771,^ot:ottTaxonName=Anas nesiotis,^ot:originalLabel=A_nesiotis,^clo:ClementsTaxonName2019=Anas nesiotis,^clo:speciescode2019=caitea1],otu27:1[&otu=otu27,^ot:ottId=656791,^ot:ottTaxonName=Anas aucklandica,^ot:originalLabel=A_auklandica,^clo:ClementsTaxonName2019=Anas aucklandica,^clo:speciescode2019=auitea1])node53:1,otu26:1[&otu=otu26,^ot:ottId=3595899,^ot:ottTaxonName=Aythya novaeseelandiae,^ot:originalLabel=A_novaeseelandiae,^clo:ClementsTaxonName2019=Aythya novaeseelandiae,^clo:speciescode2019=nezsca1])node51:1)node47:1)node2:0.1)node1;
+END;
+

@@ -1,0 +1,28 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=16;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1a = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=](((((otu11[&otu=otu11,^ot:ottId=540033,^ot:ottTaxonName=Aegotheles cristatus,^ot:originalLabel=Aegotheles_cristatus,^clo:ClementsTaxonName2019=Aegotheles cristatus,^clo:speciescode2019=auonig1],((otu10[&otu=otu10,^ot:ottId=563569,^ot:ottTaxonName=Aegotheles bennettii terborghi,^ot:originalLabel=Aegotheles_bennettii_terborghi,^clo:ClementsTaxonName2019=Aegotheles bennettii terborghi,^clo:speciescode2019=barown5],otu9[&otu=otu9,^ot:ottId=68112,^ot:ottTaxonName=Aegotheles bennettii affinis,^ot:originalLabel=Aegotheles_bennettii_affinis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node21,(otu8[&otu=otu8,^ot:ottId=563570,^ot:ottTaxonName=Aegotheles bennettii plumiferus,^ot:originalLabel=Aegotheles_bennettii_plumiferus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu7[&otu=otu7,^ot:ottId=563568,^ot:ottTaxonName=Aegotheles bennettii wiedenfeldi,^ot:originalLabel=Aegotheles_bennettii_wiedenfeldi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu6[&otu=otu6,^ot:ottId=563571,^ot:ottTaxonName=Aegotheles bennettii bennettii,^ot:originalLabel=Aegotheles_bennettii_bennettii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node17)node16)node15)node14,(otu5[&otu=otu5,^ot:ottId=563580,^ot:ottTaxonName=Aegotheles albertisi salvadori,^ot:originalLabel=Aegotheles_albertisi_salvadorii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu3[&otu=otu3,^ot:ottId=259045,^ot:ottTaxonName=Aegotheles wallacii gigas,^ot:originalLabel=Aegotheles_wallacii_gigas,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=590139,^ot:ottTaxonName=Aegotheles wallacii wallacii,^ot:originalLabel=Aegotheles_wallacii_wallacii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node10,(otu2[&otu=otu2,^ot:ottId=563584,^ot:ottTaxonName=Aegotheles albertisi albertisi,^ot:originalLabel=Aegotheles_albertisi_albertisi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu1[&otu=otu1,^ot:ottId=705938,^ot:ottTaxonName=Aegotheles archboldi,^ot:originalLabel=Aegotheles_archboldi,^clo:ClementsTaxonName2019=Aegotheles archboldi,^clo:speciescode2019=aronig1])node7)node6)node5)node4,otu12[&otu=otu12,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Aegotheles_crinifrons,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node3,(otu14[&otu=otu14,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Aegotheles_tatei,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu13[&otu=otu13,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Aegotheles_insignis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node26)node2,(otu15[&otu=otu15,^ot:ottId=705942,^ot:ottTaxonName=Aegotheles novaezealandiae,^ot:originalLabel=Aegotheles_novaezealandiae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu16[&otu=otu16,^ot:ottId=705947,^ot:ottTaxonName=Aegotheles savesi,^ot:originalLabel=Aegotheles_savesi,^clo:ClementsTaxonName2019=Aegotheles savesi,^clo:speciescode2019=nconig1])node29)node1;
+END;
+

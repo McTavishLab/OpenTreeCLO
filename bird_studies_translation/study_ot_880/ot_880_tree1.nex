@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4 (ML topology)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=259082,^ot:ottTaxonName=Oreoscoptes montanus,^ot:originalLabel=Oreoscoptes_montanus,^clo:ClementsTaxonName2019=Oreoscoptes montanus,^clo:speciescode2019=sagthr],((otu7[&otu=otu7,^ot:ottId=259098,^ot:ottTaxonName=Toxostoma curvirostre,^ot:originalLabel=Toxostoma_curvirostre,^clo:ClementsTaxonName2019=Toxostoma curvirostre,^clo:speciescode2019=cubthr],(((otu10[&otu=otu10,^ot:ottId=1085998,^ot:ottTaxonName=Toxostoma longirostre,^ot:originalLabel=Toxostoma_longirostre,^clo:ClementsTaxonName2019=Toxostoma longirostre,^clo:speciescode2019=lobthr],otu11[&otu=otu11,^ot:ottId=293380,^ot:ottTaxonName=Toxostoma rufum,^ot:originalLabel=Toxostoma_rufum,^clo:ClementsTaxonName2019=Toxostoma rufum,^clo:speciescode2019=brnthr])node19,otu9[&otu=otu9,^ot:ottId=443496,^ot:ottTaxonName=Toxostoma guttatum,^ot:originalLabel=Toxostoma_guttatum,^clo:ClementsTaxonName2019=Toxostoma guttatum,^clo:speciescode2019=cozthr1])node17,otu8[&otu=otu8,^ot:ottId=1085997,^ot:ottTaxonName=Toxostoma ocellatum,^ot:originalLabel=Toxostoma_ocellatum,^clo:ClementsTaxonName2019=Toxostoma ocellatum,^clo:speciescode2019=ocethr1])node15)node13,((otu2[&otu=otu2,^ot:ottId=259086,^ot:ottTaxonName=Toxostoma bendirei,^ot:originalLabel=Toxostoma_bendirei,^clo:ClementsTaxonName2019=Toxostoma bendirei,^clo:speciescode2019=benthr],otu3[&otu=otu3,^ot:ottId=443479,^ot:ottTaxonName=Toxostoma cinereum,^ot:originalLabel=Toxostoma_cinereum,^clo:ClementsTaxonName2019=Toxostoma cinereum,^clo:speciescode2019=grathr1])node5,(otu4[&otu=otu4,^ot:ottId=1085996,^ot:ottTaxonName=Toxostoma redivivum,^ot:originalLabel=Toxostoma_redivivum,^clo:ClementsTaxonName2019=Toxostoma redivivum,^clo:speciescode2019=calthr],(otu5[&otu=otu5,^ot:ottId=1037285,^ot:ottTaxonName=Toxostoma crissale,^ot:originalLabel=Toxostoma_crissale,^clo:ClementsTaxonName2019=Toxostoma crissale,^clo:speciescode2019=crithr],otu6[&otu=otu6,^ot:ottId=410208,^ot:ottTaxonName=Toxostoma lecontei,^ot:originalLabel=Toxostoma_lecontei,^clo:ClementsTaxonName2019=Toxostoma lecontei,^clo:speciescode2019=lecthr])node10)node8)node4)node3)node1;
+END;
+

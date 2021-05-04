@@ -1,0 +1,81 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+Tl3311868	Larvivora akahige	japrob1	Erithacus_akahige	706259	Erithacus akahige
+Tl3311842	Luscinia luscinia	thrnig1	Luscinia_luscinia	113980	Luscinia luscinia
+Tl3311869	Luscinia svecica	blueth	Luscinia_svecica	274225	Luscinia svecica
+Tl3311849	Brachypteryx montana	whbsho12	Brachypteryx_montana	878305	Brachypteryx montana
+Tl3311823	Brachypteryx leucophris	lessho1	Brachypteryx_leucophrys	20498	Brachypteryx leucophrys
+Tl3311831	Monticola gularis	wtrthr1	Monticola_gularis	957842	Monticola gularis
+Tl3311838	Monticola rufiventris	cbrthr1	Monticola_rufiventris	957841	Monticola rufiventris
+Tl3311876	Monticola cinclorhyncha	bcrthr1	Monticola_cinclorhynchus	916113	Monticola cinclorhynchus
+Tl3311852	Monticola brevipes	strthr1	Monticola_brevipes	432007	Monticola brevipes
+Tl3311855	Monticola explorator	serthr1	Monticola_explorator	432006	Monticola explorator
+Tl3311837	Monticola imerina	litrot1	Monticola_imerina	1098178	Monticola imerinus
+Tl3311854	Monticola sharpei	forrot2	Monticola_sharpei	341214	Monticola sharpei
+Tl3311830	Monticola saxatilis	rtrthr1	Monticola_saxatilis	957844	Monticola saxatilis
+Tl3311859	Monticola solitarius	burthr	Monticola_solitarius	653933	Monticola solitarius
+Tl3311880	not_a_bird	not_a_bird	Cercomela_semirufus	None	None
+Tl3311810	Monticola angolensis	mirthr1	Monticola_angolensis	432001	Monticola angolensis
+Tl3311818	Monticola rupestris	carthr1	Monticola_rupestris	432005	Monticola rupestris
+Tl3311878	Saxicola gutturalis	timbus1	Saxicola_gutturalis	122863	Saxicola gutturalis
+Tl3311874	Saxicola caprata	piebus1	Saxicola_caprata	811035	Saxicola caprata
+Tl3311856	Saxicola insignis	whtbus1	Saxicola_insignis	173999	Saxicola insignis
+Tl3311836	not_a_bird	not_a_bird	Saxicola_torquatus	None	None
+Tl3311872	Saxicola maurus stejnegeri	stonec7	Saxicola_stejnegeri	3598837	Saxicola stejnegeri
+Tl3311812	Saxicola leucurus	whtsto2	Saxicola_leucurus	696973	Saxicola leucurus
+Tl3311815	Saxicola rubicola	stonec4	Saxicola_rubicola	825633	Saxicola rubicola
+Tl3311841	Saxicola dacotiae	caisto1	Saxicola_dacotiae	825647	Saxicola dacotiae
+Tl3311807	Saxicola maurus	sibsto1	Saxicola_maurus	546578	Saxicola maurus
+Tl3311811	Saxicola tectes	reusto1	Saxicola_tectes	811041	Saxicola tectes
+Tl3311822	Saxicola torquatus sibilla	stonec6	Saxicola_sibilla	3598836	Saxicola sibilla
+Tl3311866	Saxicola rubetra	whinch1	Saxicola_rubetra	170383	Saxicola rubetra
+Tl3311870	Saxicola jerdoni	jerbus1	Saxicola_jerdoni	173998	Saxicola jerdoni
+Tl3311865	Saxicola ferreus	grybus1	Saxicola_ferreus	760327	Saxicola ferreus
+Tl3311867	Emarginata tractrac	tracha1	Cercomela_tractrac	959974	Cercomela tractrac
+Tl3311879	Emarginata sinuata	siccha1	Emarginata_sinuata	959972	Cercomela sinuata
+Tl3311862	not_a_bird	not_a_bird	Emarginata_schlegelii	None	None
+Tl3311828	Campicoloides bifasciatus	busbus1	Campicoloides_bifasciatus	696975	Campicoloides bifasciatus
+Tl3311826	not_a_bird	not_a_bird	Pinarochroa_sordida	None	None
+Tl3311848	Myrmecocichla formicivora	soacha1	Myrmecocichla_formicivora	715024	Myrmecocichla formicivora
+Tl3311864	Myrmecocichla tholloni	conmoo1	Myrmecocichla_tholloni	256340	Myrmecocichla tholloni
+Tl3311829	Myrmecocichla aethiops	noacha1	Myrmecocichla_aethiops	153328	Myrmecocichla aethiops
+Tl3311804	Myrmecocichla nigra	soocha1	Myrmecocichla_nigra	936581	Myrmecocichla nigra
+Tl3311819	Myrmecocichla melaena	ruecha1	Myrmecocichla_melaena	912328	Myrmecocichla melaena
+Tl3311843	Myrmecocichla collaris	ruacha1	Myrmecocichla_collaris	87796	Myrmecocichla collaris
+Tl3311805	not_a_bird	not_a_bird	Myrmecocichla_arnoti	None	None
+Tl3311813	not_a_bird	not_a_bird	Oenanthe_moticola	None	None
+Tl3311827	Thamnolaea cinnamomeiventris	moccha1	Thamnolaea_cinnamomeiventris	936586	Thamnolaea cinnamomeiventris
+Tl3311860	Oenanthe phillipsi	somwhe1	Oenanthe_phillipsi	275114	Oenanthe phillipsi
+Tl3311853	not_a_bird	not_a_bird	Oenanthe_albifrons	None	None
+Tl3311821	Oenanthe moesta	rerwhe1	Oenanthe_moesta	936538	Oenanthe moesta
+Tl3311845	Oenanthe scotocerca	brtcha1	Cercomela_scotocerca	959973	Cercomela scotocerca
+Tl3311877	not_a_bird	not_a_bird	Oenanthe_dubia	None	None
+Tl3311858	Oenanthe familiaris	famcha1	Oenanthe_familiaris	415722	Cercomela familiaris
+Tl3311803	Oenanthe melanura	blacks1	Cercomela_melanura	434293	Cercomela melanura
+Tl3311850	Oenanthe lugentoides	mouwhe5	Oenanthe_lugentoides	3598218	Oenanthe lugentoides
+Tl3311881	Oenanthe lugubris	mouwhe4	Oenanthe_lugubris	410725	Oenanthe lugubris
+Tl3311882	Oenanthe albonigra	humwhe2	Oenanthe_albonigra	410709	Oenanthe albonigra
+Tl3311871	Oenanthe leucopyga	whtwhe1	Oenanthe_leucopyga	410714	Oenanthe leucopyga
+Tl3311824	Oenanthe leucura	blawhe1	Oenanthe_leucura	410713	Oenanthe leucura
+Tl3311846	Oenanthe finschii	finwhe1	Oenanthe_finschii	410726	Oenanthe finschii
+Tl3311857	Oenanthe xanthoprymna	retwhe3	Oenanthe_xanthoprymna	936543	Oenanthe xanthoprymna
+Tl3311817	Oenanthe chrysopygia	retwhe2	Oenanthe_chrysopygia	936546	Oenanthe chrysopygia
+Tl3311832	Oenanthe lugens	mouwhe2	Oenanthe_lugens	410719	Oenanthe lugens
+Tl3311840	not_a_bird	not_a_bird	Oenanthe_fusca	None	None
+Tl3311851	Oenanthe picata	varwhe1	Oenanthe_picata	936539	Oenanthe picata
+Tl3311839	Oenanthe bottae	rebwhe1	Oenanthe_bottae	936545	Oenanthe bottae
+Tl3311834	Oenanthe isabellina	isawhe1	Oenanthe_isabellina	33124	Oenanthe isabellina
+Tl3311816	Oenanthe heuglini	heuwhe1	Oenanthe_heuglini	936544	Oenanthe heuglini
+Tl3311820	Oenanthe pileata	capwhe1	Oenanthe_pileata	936542	Oenanthe pileata
+Tl3311809	Oenanthe oenanthe	norwhe	Oenanthe_oenanthe	1092950	Oenanthe oenanthe
+Tl3311873	Oenanthe deserti	deswhe1	Oenanthe_deserti	619182	Oenanthe deserti
+Tl3311814	Oenanthe hispanica	blewhe1	Oenanthe_hispanica	554159	Oenanthe hispanica
+Tl3311808	Oenanthe pleschanka	piewhe1	Oenanthe_pleschanka	936541	Oenanthe pleschanka
+Tl3311806	Oenanthe cypriaca	cypwhe1	Oenanthe_cypriaca	936540	Oenanthe cypriaca
+Tl3311825	Oenanthe monacha	hoowhe1	Oenanthe_monacha	410718	Oenanthe monacha
+Tl3311847	no_match	no_match	Alethe_poliocephala	812521	Alethe poliocephala
+Tl3311861	Erithacus rubecula	eurrob1	Erithacus_rubecula	507122	Erithacus rubecula
+Tl3311835	Monticola rufocinereus	lirthr1	Monticola_rufocinereus	957843	Monticola rufocinereus
+Tl3311844	Alethe castanea	ficale2	Alethe_castanea	812519	Alethe castanea
+Tl3311863	Sialia sialis	easblu	Sialia_sialis	775715	Sialia sialis
+Tl3311833	Turdus migratorius	amerob	Turdus_migratorius	96291	Turdus migratorius
+Tl3311875	Turdus merula	eurbla	Turdus_merula	568572	Turdus merula

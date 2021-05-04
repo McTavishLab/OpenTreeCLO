@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=486842,^ot:ottTaxonName=Cyanoloxia cyanoides,^ot:originalLabel=Cyanocompsa_cyanoides,^clo:ClementsTaxonName2019=Cyanoloxia cyanoides,^clo:speciescode2019=bubgro1],((otu2[&otu=otu2,^ot:ottId=119888,^ot:ottTaxonName=Passerina amoena,^ot:originalLabel=Passerina_amoena,^clo:ClementsTaxonName2019=Passerina amoena,^clo:speciescode2019=lazbun],otu3[&otu=otu3,^ot:ottId=939942,^ot:ottTaxonName=Passerina cyanea,^ot:originalLabel=Passerina_cyanea,^clo:ClementsTaxonName2019=Passerina cyanea,^clo:speciescode2019=indbun])node4,(otu5[&otu=otu5,^ot:ottId=724916,^ot:ottTaxonName=Passerina rositae,^ot:originalLabel=Passerina_rositae,^clo:ClementsTaxonName2019=Passerina rositae,^clo:speciescode2019=robbun1],otu4[&otu=otu4,^ot:ottId=486840,^ot:ottTaxonName=Passerina caerulea,^ot:originalLabel=Passerina_caerulea,^clo:ClementsTaxonName2019=Passerina caerulea,^clo:speciescode2019=blugrb1])node7)node3)node1;
+END;
+

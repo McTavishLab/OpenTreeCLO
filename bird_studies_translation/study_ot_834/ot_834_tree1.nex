@@ -1,0 +1,20 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+        otu8
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=537122,^ot:ottTaxonName=Progne tapera,^ot:originalLabel=Progne_tapera,^clo:ClementsTaxonName2019=Progne tapera,^clo:speciescode2019=brcmar1],(otu2[&otu=otu2,^ot:ottId=1063655,^ot:ottTaxonName=Progne modesta,^ot:originalLabel=Progne_modesta,^clo:ClementsTaxonName2019=Progne modesta,^clo:speciescode2019=galmar1],(otu3[&otu=otu3,^ot:ottId=621799,^ot:ottTaxonName=Progne subis,^ot:originalLabel=Progne_subis,^clo:ClementsTaxonName2019=Progne subis,^clo:speciescode2019=purmar],(((otu7[&otu=otu7,^ot:ottId=537121,^ot:ottTaxonName=Progne cryptoleuca,^ot:originalLabel=Progne_cryptoleuca,^clo:ClementsTaxonName2019=Progne cryptoleuca,^clo:speciescode2019=cubmar],otu8[&otu=otu8,^ot:ottId=1063654,^ot:ottTaxonName=Progne dominicensis,^ot:originalLabel=Progne_dominicensis,^clo:ClementsTaxonName2019=Progne dominicensis,^clo:speciescode2019=carmar1])node13,otu6[&otu=otu6,^ot:ottId=119535,^ot:ottTaxonName=Progne sinaloae,^ot:originalLabel=Progne_sinaloae,^clo:ClementsTaxonName2019=Progne sinaloae,^clo:speciescode2019=sinmar1])node11,(otu4[&otu=otu4,^ot:ottId=136021,^ot:ottTaxonName=Progne chalybea,^ot:originalLabel=Progne_chalybea,^clo:ClementsTaxonName2019=Progne chalybea,^clo:speciescode2019=gybmar],otu5[&otu=otu5,^ot:ottId=154004,^ot:ottTaxonName=Progne elegans,^ot:originalLabel=Progne_elegans,^clo:ClementsTaxonName2019=Progne elegans,^clo:speciescode2019=soumar])node8)node7)node5)node3)node1;
+END;
+

@@ -1,0 +1,46 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=34;
+    TAXLABELS
+        otu34
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE starBEAST_ND2 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Coalescent time units,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](otu1:0.534811[&otu=otu1,^ot:ottId=130921,^ot:ottTaxonName=Cyanocitta stelleri,^ot:originalLabel=Cyanocitta_stelleri_CO,^clo:ClementsTaxonName2019=Cyanocitta stelleri,^clo:speciescode2019=stejay],(((otu34:0.268503[&otu=otu34,^ot:ottId=674279,^ot:ottTaxonName=Vireolanius leucotis,^ot:originalLabel=Vireolanius_leucotis_BOL,^clo:ClementsTaxonName2019=Vireolanius leucotis,^clo:speciescode2019=scsvir1],otu33:0.268503[&otu=otu33,^ot:ottId=828068,^ot:ottTaxonName=Vireolanius melitophrys,^ot:originalLabel=Vireolanius_melitophrys_MEX,^clo:ClementsTaxonName2019=Vireolanius melitophrys,^clo:speciescode2019=cssvir1])node65:0.054874,(((otu11:0.043032[&otu=otu11,^ot:ottId=669572,^ot:ottTaxonName=Hylophilus ochraceiceps,^ot:originalLabel=Hylophilus_ochraceiceps_ECU,^clo:ClementsTaxonName2019=Tunchiornis ochraceiceps luteifrons,^clo:speciescode2019=tacgre5],otu10:0.043032[&otu=otu10,^ot:ottId=669572,^ot:ottTaxonName=Hylophilus ochraceiceps,^ot:originalLabel=Hylophilus_ochraceiceps_PAN,^clo:ClementsTaxonName2019=Tunchiornis ochraceiceps luteifrons,^clo:speciescode2019=tacgre5])node22:0.065206,otu12:0.108237[&otu=otu12,^ot:ottId=669572,^ot:ottTaxonName=Hylophilus ochraceiceps,^ot:originalLabel=Hylophilus_ochraceiceps_BRA,^clo:ClementsTaxonName2019=Tunchiornis ochraceiceps luteifrons,^clo:speciescode2019=tacgre5])node21:0.159171,((((otu18:0.110363[&otu=otu18,^ot:ottId=48940,^ot:ottTaxonName=Vireo bellii,^ot:originalLabel=Vireo_bellii_NV,^clo:ClementsTaxonName2019=Vireo bellii,^clo:speciescode2019=belvir],otu19:0.110363[&otu=otu19,^ot:ottId=3598055,^ot:ottTaxonName=Vireo brevipennis,^ot:originalLabel=Vireo_brevipennis_MEX,^clo:ClementsTaxonName2019=Vireo brevipennis,^clo:speciescode2019=slavir1])node38:0.029683,(otu20:0.034385[&otu=otu20,^ot:ottId=621714,^ot:ottTaxonName=Vireo griseus,^ot:originalLabel=Vireo_griseus_LA,^clo:ClementsTaxonName2019=Vireo griseus,^clo:speciescode2019=whevir],otu21:0.034385[&otu=otu21,^ot:ottId=3598046,^ot:ottTaxonName=Vireo pallens,^ot:originalLabel=Vireo_pallens_MEX,^clo:ClementsTaxonName2019=Vireo pallens,^clo:speciescode2019=manvir1])node41:0.105661)node37:0.058423,((otu13:0.071121[&otu=otu13,^ot:ottId=289080,^ot:ottTaxonName=Vireo flavifrons,^ot:originalLabel=Vireo_flavifrons_MI,^clo:ClementsTaxonName2019=Vireo flavifrons,^clo:speciescode2019=yetvir],(otu14:0.034511[&otu=otu14,^ot:ottId=696279,^ot:ottTaxonName=Vireo plumbeus,^ot:originalLabel=Vireo_plumbeus_CO,^clo:ClementsTaxonName2019=Vireo plumbeus,^clo:speciescode2019=plsvir],otu15:0.034511[&otu=otu15,^ot:ottId=454015,^ot:ottTaxonName=Vireo carmioli,^ot:originalLabel=Vireo_carmioli_PAN,^clo:ClementsTaxonName2019=Vireo carmioli,^clo:speciescode2019=yewvir1])node31:0.03661)node29:0.054926,(otu16:0.109408[&otu=otu16,^ot:ottId=48938,^ot:ottTaxonName=Vireo vicinior,^ot:originalLabel=Vireo_vicinior_NV,^clo:ClementsTaxonName2019=Vireo vicinior,^clo:speciescode2019=gryvir],otu17:0.109408[&otu=otu17,^ot:ottId=119885,^ot:ottTaxonName=Vireo huttoni,^ot:originalLabel=Vireo_huttoni_USA_OR,^clo:ClementsTaxonName2019=Vireo huttoni,^clo:speciescode2019=hutvir])node34:0.016639)node28:0.072422)node27:0.039554,((otu22:0.202526[&otu=otu22,^ot:ottId=3598047,^ot:ottTaxonName=Vireo hypochryseus,^ot:originalLabel=Vireo_hypochryseus_MEX,^clo:ClementsTaxonName2019=Vireo hypochryseus,^clo:speciescode2019=golvir1],(otu23:0.129617[&otu=otu23,^ot:ottId=227263,^ot:ottTaxonName=Hylophilus decurtatus,^ot:originalLabel=Hylophilus_decurtatus_HND,^clo:ClementsTaxonName2019=Pachysylvia decurtata,^clo:speciescode2019=lesgre1],otu24:0.129617[&otu=otu24,^ot:ottId=968228,^ot:ottTaxonName=Hylophilus hypoxanthus,^ot:originalLabel=Hylophilus_hypoxanthus_BRA,^clo:ClementsTaxonName2019=Pachysylvia hypoxantha,^clo:speciescode2019=ducgre1])node47:0.072909)node45:0.024547,((otu28:0.112344[&otu=otu28,^ot:ottId=227776,^ot:ottTaxonName=Hylophilus sclateri,^ot:originalLabel=Hylophilus_sclateri_GUY,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu32:0.083283[&otu=otu32,^ot:ottId=621708,^ot:ottTaxonName=Vireo philadelphicus,^ot:originalLabel=Vireo_philadelphicus_LA,^clo:ClementsTaxonName2019=Vireo philadelphicus,^clo:speciescode2019=phivir],(otu31:0.073985[&otu=otu31,^ot:ottId=621717,^ot:ottTaxonName=Vireo gilvus,^ot:originalLabel=Vireo_gilvus_BC,^clo:ClementsTaxonName2019=Vireo gilvus,^clo:speciescode2019=warvir],(otu30:0.024485[&otu=otu30,^ot:ottId=626303,^ot:ottTaxonName=Vireo leucophrys,^ot:originalLabel=Vireo_leucophrys_MEX,^clo:ClementsTaxonName2019=Vireo leucophrys,^clo:speciescode2019=brcvir1],otu29:0.024485[&otu=otu29,^ot:ottId=626303,^ot:ottTaxonName=Vireo leucophrys,^ot:originalLabel=Vireo_leucophrys_VEN,^clo:ClementsTaxonName2019=Vireo leucophrys,^clo:speciescode2019=brcvir1])node60:0.0495)node59:0.009298)node58:0.029062)node56:0.029004,(otu27:0.043597[&otu=otu27,^ot:ottId=604019,^ot:ottTaxonName=Vireo olivaceus,^ot:originalLabel=Vireo_olivaceus_NB,^clo:ClementsTaxonName2019=Vireo olivaceus,^clo:speciescode2019=reevir1],(otu25:0.034576[&otu=otu25,^ot:ottId=293381,^ot:ottTaxonName=Vireo flavoviridis,^ot:originalLabel=Vireo_flavoviridis_MEX,^clo:ClementsTaxonName2019=Vireo flavoviridis,^clo:speciescode2019=yegvir],otu26:0.034576[&otu=otu26,^ot:ottId=604019,^ot:ottTaxonName=Vireo olivaceus,^ot:originalLabel=Vireo_olivaceus_BRA,^clo:ClementsTaxonName2019=Vireo olivaceus,^clo:speciescode2019=reevir1])node52:0.009021)node51:0.097752)node50:0.085725)node44:0.010949)node26:0.029386)node20:0.055969)node19:0.016797,((otu9:0.074192[&otu=otu9,^ot:ottId=621721,^ot:ottTaxonName=Cyclarhis gujanensis,^ot:originalLabel=Cyclarhis_gujanensis_HND,^clo:ClementsTaxonName2019=Cyclarhis gujanensis,^clo:speciescode2019=rubpep1],(otu8:0.050279[&otu=otu8,^ot:ottId=3598044,^ot:ottTaxonName=Cyclarhis nigrirostris,^ot:originalLabel=Cyclarhis_nigrirostris_ECU,^clo:ClementsTaxonName2019=Cyclarhis nigrirostris,^clo:speciescode2019=blbpep1],otu7:0.050279[&otu=otu7,^ot:ottId=621721,^ot:ottTaxonName=Cyclarhis gujanensis,^ot:originalLabel=Cyclarhis_gujanensis_BRA,^clo:ClementsTaxonName2019=Cyclarhis gujanensis,^clo:speciescode2019=rubpep1])node15:0.023913)node14:0.229904,(otu6:0.172482[&otu=otu6,^ot:ottId=754852,^ot:ottTaxonName=Hylophilus poicilotis,^ot:originalLabel=Hylophilus_poicilotis_PRY,^clo:ClementsTaxonName2019=Hylophilus poicilotis,^clo:speciescode2019=rucgre1],(otu2:0.092228[&otu=otu2,^ot:ottId=750155,^ot:ottTaxonName=Hylophilus pectoralis,^ot:originalLabel=Hylophilus_pectoralis_GUY,^clo:ClementsTaxonName2019=Hylophilus pectoralis,^clo:speciescode2019=ashgre1],((otu3:0.061126[&otu=otu3,^ot:ottId=141913,^ot:ottTaxonName=Hylophilus thoracicus,^ot:originalLabel=Hylophilus_thoracicus_GUY,^clo:ClementsTaxonName2019=Hylophilus thoracicus,^clo:speciescode2019=lecgre2],otu4:0.061126[&otu=otu4,^ot:ottId=3598059,^ot:ottTaxonName=Hylophilus brunneiceps,^ot:originalLabel=Hylophilus_brunneiceps_BRA,^clo:ClementsTaxonName2019=Hylophilus brunneiceps,^clo:speciescode2019=brhgre1])node9:0.017832,otu5:0.078958[&otu=otu5,^ot:ottId=3598063,^ot:ottTaxonName=Hylophilus flavipes,^ot:originalLabel=Hylophilus_flavipes_PAN,^clo:ClementsTaxonName2019=Hylophilus flavipes,^clo:speciescode2019=scrgre1])node8:0.01327)node6:0.080254)node5:0.131614)node4:0.036078)node3:0.194637)node1;
+END;
+

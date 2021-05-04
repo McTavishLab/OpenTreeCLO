@@ -1,0 +1,18 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+        otu6
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2A = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=]((((otu1[&otu=otu1,^ot:ottId=3597248,^ot:ottTaxonName=Kieneria crissalis,^ot:originalLabel=Pipilo_crissalis_CA,^clo:ClementsTaxonName2019=Melozone crissalis,^clo:speciescode2019=caltow],otu2[&otu=otu2,^ot:ottId=3597248,^ot:ottTaxonName=Kieneria crissalis,^ot:originalLabel=Pipilo_crissalis_BA,^clo:ClementsTaxonName2019=Melozone crissalis,^clo:speciescode2019=caltow])node4,otu3[&otu=otu3,^ot:ottId=3597250,^ot:ottTaxonName=Kieneria aberti,^ot:originalLabel=Pipilo_aberti,^clo:ClementsTaxonName2019=Melozone aberti,^clo:speciescode2019=abetow])node3,(otu4[&otu=otu4,^ot:ottId=463029,^ot:ottTaxonName=Kieneria fusca,^ot:originalLabel=Pipilo_fuscus,^clo:ClementsTaxonName2019=Melozone fusca,^clo:speciescode2019=cantow],otu5[&otu=otu5,^ot:ottId=3597253,^ot:ottTaxonName=Kieneria albicollis,^ot:originalLabel=Pipilo_albicollis,^clo:ClementsTaxonName2019=Melozone albicollis,^clo:speciescode2019=whttow1])node8)node2,otu6[&otu=otu6,^ot:ottId=463020,^ot:ottTaxonName=Pipilo chlorurus,^ot:originalLabel=Pipilo_chlorurus,^clo:ClementsTaxonName2019=Pipilo chlorurus,^clo:speciescode2019=gnttow])node1;
+END;
+

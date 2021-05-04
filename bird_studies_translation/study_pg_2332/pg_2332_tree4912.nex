@@ -1,0 +1,58 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=46;
+    TAXLABELS
+        otu330959
+        otu330958
+        otu330953
+        otu330952
+        otu330951
+        otu330950
+        otu330957
+        otu330956
+        otu330955
+        otu330954
+        otu330939
+        otu330938
+        otu330931
+        otu330930
+        otu330933
+        otu330932
+        otu330935
+        otu330934
+        otu330937
+        otu330936
+        otu330964
+        otu330965
+        otu330948
+        otu330949
+        otu330944
+        otu330945
+        otu330946
+        otu330947
+        otu330940
+        otu330941
+        otu330942
+        otu330943
+        otu330966
+        otu330928
+        otu330929
+        otu330962
+        otu330963
+        otu330960
+        otu330961
+        otu330922
+        otu330923
+        otu330921
+        otu330926
+        otu330927
+        otu330924
+        otu330925
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=1041547,nearestTaxonMRCAName=Passeriformes,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu330921:0.165399[&otu=otu330921,^ot:ottId=819158,^ot:ottTaxonName=Zosterops pallidus,^ot:originalLabel=Zosterops_pallidus,^clo:ClementsTaxonName2019=Zosterops pallidus,^clo:speciescode2019=capwhe6],otu330923:0.245086[&otu=otu330923,^ot:ottId=574271,^ot:ottTaxonName=Turdoides bicolor,^ot:originalLabel=Turdoides_bicolor,^clo:ClementsTaxonName2019=Turdoides bicolor,^clo:speciescode2019=sopbab1])node852501:0.0285135,((((otu330966:0.003146[&otu=otu330966,^ot:ottId=726312,^ot:ottTaxonName=Sylvia atricapilla,^ot:originalLabel=Sylvia_atricapilla_3,^clo:ClementsTaxonName2019=Sylvia atricapilla,^clo:speciescode2019=blackc1],((otu330925:0.002177[&otu=otu330925,^ot:ottId=726312,^ot:ottTaxonName=Sylvia atricapilla,^ot:originalLabel=Sylvia_atricapilla_2,^clo:ClementsTaxonName2019=Sylvia atricapilla,^clo:speciescode2019=blackc1],otu330947:0.003526[&otu=otu330947,^ot:ottId=726312,^ot:ottTaxonName=Sylvia atricapilla,^ot:originalLabel=Sylvia_atricapilla_1,^clo:ClementsTaxonName2019=Sylvia atricapilla,^clo:speciescode2019=blackc1])node852521:0.021637,otu330950:0.000751[&otu=otu330950,^ot:ottId=726312,^ot:ottTaxonName=Sylvia atricapilla,^ot:originalLabel=Sylvia_atricapilla_4,^clo:ClementsTaxonName2019=Sylvia atricapilla,^clo:speciescode2019=blackc1])node852519:0.001573)node852517:0.113431,((otu330965:0.003207[&otu=otu330965,^ot:ottId=261410,^ot:ottTaxonName=Sylvia borin,^ot:originalLabel=Sylvia_borin_1,^clo:ClementsTaxonName2019=Sylvia borin,^clo:speciescode2019=garwar1],otu330948:0.028552[&otu=otu330948,^ot:ottId=261410,^ot:ottTaxonName=Sylvia borin,^ot:originalLabel=Sylvia_borin_2,^clo:ClementsTaxonName2019=Sylvia borin,^clo:speciescode2019=garwar1])node852514:0.136065,(otu330958:0.083937[&otu=otu330958,^ot:ottId=328260,^ot:ottTaxonName=Horizorhinus dohrni,^ot:originalLabel=Sylvia_dohrni,^clo:ClementsTaxonName2019=Sylvia dohrni,^clo:speciescode2019=dohthb1],otu330962:0.100568[&otu=otu330962,^ot:ottId=262619,^ot:ottTaxonName=Pseudoalcippe abyssinica,^ot:originalLabel=Sylvia_abyssinicus,^clo:ClementsTaxonName2019=Sylvia abyssinica,^clo:speciescode2019=afhbab1])node852511:0.039752)node852510:0.012104)node852509:0.038806,((((((otu330946:0.067736[&otu=otu330946,^ot:ottId=463174,^ot:ottTaxonName=Sylvia curruca,^ot:originalLabel=Sylvia_curruca_1,^clo:ClementsTaxonName2019=Sylvia curruca,^clo:speciescode2019=leswhi4],(otu330938:0.003301[&otu=otu330938,^ot:ottId=463174,^ot:ottTaxonName=Sylvia curruca,^ot:originalLabel=Sylvia_curruca_3,^clo:ClementsTaxonName2019=Sylvia curruca,^clo:speciescode2019=leswhi4],otu330942:0.001433[&otu=otu330942,^ot:ottId=463174,^ot:ottTaxonName=Sylvia curruca,^ot:originalLabel=Sylvia_curruca_2,^clo:ClementsTaxonName2019=Sylvia curruca,^clo:speciescode2019=leswhi4])node852548:0.046271)node852546:0.020168,((otu330922:0.029551[&otu=otu330922,^ot:ottId=862891,^ot:ottTaxonName=Sylvia buryi,^ot:originalLabel=Sylvia_buryi,^clo:ClementsTaxonName2019=Sylvia buryi,^clo:speciescode2019=yemwar1],otu330934:0.046039[&otu=otu330934,^ot:ottId=274530,^ot:ottTaxonName=Sylvia lugens,^ot:originalLabel=Sylvia_lugens,^clo:ClementsTaxonName2019=Sylvia lugens,^clo:speciescode2019=brnwar1])node852552:0.03099,(otu330964:0.008425[&otu=otu330964,^ot:ottId=274520,^ot:ottTaxonName=Sylvia crassirostris,^ot:originalLabel=Sylvia_crassirostris,^clo:ClementsTaxonName2019=Sylvia crassirostris,^clo:speciescode2019=eaowar2],otu330960:0.001806[&otu=otu330960,^ot:ottId=961451,^ot:ottTaxonName=Sylvia hortensis,^ot:originalLabel=Sylvia_hortensis,^clo:ClementsTaxonName2019=Sylvia hortensis,^clo:speciescode2019=weowar2])node852555:0.058613)node852551:0.014172)node852545:0.028533,(((otu330935:0.00166[&otu=otu330935,^ot:ottId=862901,^ot:ottTaxonName=Sylvia boehmi,^ot:originalLabel=Sylvia_boehmi_2,^clo:ClementsTaxonName2019=Sylvia boehmi,^clo:speciescode2019=banwar2],otu330953:0.006163[&otu=otu330953,^ot:ottId=862901,^ot:ottTaxonName=Sylvia boehmi,^ot:originalLabel=Sylvia_boehmi_1,^clo:ClementsTaxonName2019=Sylvia boehmi,^clo:speciescode2019=banwar2])node852539:0.086135,(otu330930:0.007839[&otu=otu330930,^ot:ottId=486279,^ot:ottTaxonName=Sylvia subcaeruleum,^ot:originalLabel=Sylvia_subcaeruleum_2,^clo:ClementsTaxonName2019=Sylvia subcoerulea,^clo:speciescode2019=ruvwar2],otu330939:0.010491[&otu=otu330939,^ot:ottId=486279,^ot:ottTaxonName=Sylvia subcaeruleum,^ot:originalLabel=Sylvia_subcaeruleum_1,^clo:ClementsTaxonName2019=Sylvia subcoerulea,^clo:speciescode2019=ruvwar2])node852542:0.101079)node852538:0.023939,(otu330954[&otu=otu330954,^ot:ottId=486285,^ot:ottTaxonName=Sylvia layardi,^ot:originalLabel=Sylvia_layardi_1,^clo:ClementsTaxonName2019=Sylvia layardi,^clo:speciescode2019=laywar2],otu330944:0.012358[&otu=otu330944,^ot:ottId=486285,^ot:ottTaxonName=Sylvia layardi,^ot:originalLabel=Sylvia_layardi_2,^clo:ClementsTaxonName2019=Sylvia layardi,^clo:speciescode2019=laywar2])node852535:0.084605)node852534:0.008348)node852533:0.012819,(otu330963:0.013551[&otu=otu330963,^ot:ottId=961457,^ot:ottTaxonName=Sylvia nisoria,^ot:originalLabel=Sylvia_nisoria_2,^clo:ClementsTaxonName2019=Sylvia nisoria,^clo:speciescode2019=barwar1],otu330924:0.002534[&otu=otu330924,^ot:ottId=961457,^ot:ottTaxonName=Sylvia nisoria,^ot:originalLabel=Sylvia_nisoria_1,^clo:ClementsTaxonName2019=Sylvia nisoria,^clo:speciescode2019=barwar1])node852530:0.069284)node852529:0.012973,(((otu330956:0.026122[&otu=otu330956,^ot:ottId=486277,^ot:ottTaxonName=Sylvia mystacea,^ot:originalLabel=Sylvia_mystacea,^clo:ClementsTaxonName2019=Sylvia mystacea,^clo:speciescode2019=menwar1],otu330928:0.034567[&otu=otu330928,^ot:ottId=486304,^ot:ottTaxonName=Sylvia melanothorax,^ot:originalLabel=Sylvia_melanothorax,^clo:ClementsTaxonName2019=Sylvia melanothorax,^clo:speciescode2019=cypwar1])node852561:0.002698,otu330949:0.019625[&otu=otu330949,^ot:ottId=961445,^ot:ottTaxonName=Sylvia deserticola,^ot:originalLabel=Sylvia_deserticola,^clo:ClementsTaxonName2019=Sylvia deserticola,^clo:speciescode2019=triwar1])node852559:0.031711,(((otu330952[&otu=otu330952,^ot:ottId=671213,^ot:ottTaxonName=Sylvia rueppelli,^ot:originalLabel=Sylvia_rueppelli_1,^clo:ClementsTaxonName2019=Sylvia ruppeli,^clo:speciescode2019=ruewar1],otu330931:0.001109[&otu=otu330931,^ot:ottId=671213,^ot:ottTaxonName=Sylvia rueppelli,^ot:originalLabel=Sylvia_rueppelli_2,^clo:ClementsTaxonName2019=Sylvia ruppeli,^clo:speciescode2019=ruewar1])node852566:0.058008,((otu330943:0.013961[&otu=otu330943,^ot:ottId=1093905,^ot:ottTaxonName=Sylvia melanocephala,^ot:originalLabel=Sylvia_melanocephala_1,^clo:ClementsTaxonName2019=Sylvia melanocephala,^clo:speciescode2019=sarwar1],otu330932:0.021715[&otu=otu330932,^ot:ottId=1093905,^ot:ottTaxonName=Sylvia melanocephala,^ot:originalLabel=Sylvia_melanocephala_2,^clo:ClementsTaxonName2019=Sylvia melanocephala,^clo:speciescode2019=sarwar1])node852573:0.040267,(otu330933:0.02766[&otu=otu330933,^ot:ottId=185242,^ot:ottTaxonName=Sylvia cantillans,^ot:originalLabel=Sylvia_cantillans_1,^clo:ClementsTaxonName2019=Sylvia cantillans,^clo:speciescode2019=subwar1],otu330927:0.028436[&otu=otu330927,^ot:ottId=185242,^ot:ottTaxonName=Sylvia cantillans,^ot:originalLabel=Sylvia_cantillans_2,^clo:ClementsTaxonName2019=Sylvia cantillans,^clo:speciescode2019=subwar1])node852570:0.012229)node852569:0.013338)node852565:0.009393,((otu330951:0.072947[&otu=otu330951,^ot:ottId=961447,^ot:ottTaxonName=Sylvia conspicillata,^ot:originalLabel=Sylvia_conspicillata,^clo:ClementsTaxonName2019=Sylvia conspicillata,^clo:speciescode2019=spewar2],((otu330936:0.02561[&otu=otu330936,^ot:ottId=486275,^ot:ottTaxonName=Sylvia undata,^ot:originalLabel=Sylvia_undata,^clo:ClementsTaxonName2019=Sylvia undata,^clo:speciescode2019=darwar1],otu330955:0.024763[&otu=otu330955,^ot:ottId=961442,^ot:ottTaxonName=Sylvia balearica,^ot:originalLabel=Sylvia_balearica,^clo:ClementsTaxonName2019=Sylvia balearica,^clo:speciescode2019=balwar1])node852581:0.013349,otu330957:0.040832[&otu=otu330957,^ot:ottId=435633,^ot:ottTaxonName=Sylvia sarda,^ot:originalLabel=Sylvia_sarda,^clo:ClementsTaxonName2019=Sylvia sarda,^clo:speciescode2019=marwar1])node852579:0.020756)node852577:0.008205,(((otu330926:0.005817[&otu=otu330926,^ot:ottId=862895,^ot:ottTaxonName=Sylvia communis,^ot:originalLabel=Sylvia_communis_3,^clo:ClementsTaxonName2019=Sylvia communis,^clo:speciescode2019=grewhi1],otu330941:0.001817[&otu=otu330941,^ot:ottId=862895,^ot:ottTaxonName=Sylvia communis,^ot:originalLabel=Sylvia_communis_2,^clo:ClementsTaxonName2019=Sylvia communis,^clo:speciescode2019=grewhi1])node852588:0.001206,otu330937:0.005631[&otu=otu330937,^ot:ottId=862895,^ot:ottTaxonName=Sylvia communis,^ot:originalLabel=Sylvia_communis_4,^clo:ClementsTaxonName2019=Sylvia communis,^clo:speciescode2019=grewhi1])node852586:0.00105,otu330959:0.001826[&otu=otu330959,^ot:ottId=862895,^ot:ottTaxonName=Sylvia communis,^ot:originalLabel=Sylvia_communis_1,^clo:ClementsTaxonName2019=Sylvia communis,^clo:speciescode2019=grewhi1])node852584:0.073692)node852576:0.006949)node852564:0.020292)node852558:0.018063)node852528:0.009238,(otu330940:0.003757[&otu=otu330940,^ot:ottId=433924,^ot:ottTaxonName=Sylvia nana,^ot:originalLabel=Sylvia_nana_2,^clo:ClementsTaxonName2019=Sylvia nana,^clo:speciescode2019=asdwar1],otu330961:0.008485[&otu=otu330961,^ot:ottId=433924,^ot:ottTaxonName=Sylvia nana,^ot:originalLabel=Sylvia_nana_1,^clo:ClementsTaxonName2019=Sylvia nana,^clo:speciescode2019=asdwar1])node852525:0.114343)node852524:0.048452)node852508:0.037332,(otu330929:0.14482[&otu=otu330929,^ot:ottId=552302,^ot:ottTaxonName=Paradoxornis nipalensis,^ot:originalLabel=Paradoxornis_nipalensis,^clo:ClementsTaxonName2019=Suthora nipalensis,^clo:speciescode2019=bltpar1],otu330945:0.124948[&otu=otu330945,^ot:ottId=3599833,^ot:ottTaxonName=Chamaea fasciata,^ot:originalLabel=Chamaea_fasciata,^clo:ClementsTaxonName2019=Chamaea fasciata,^clo:speciescode2019=wrenti])node852505:0.062381)node852504:0.0285135)node852500;
+END;
+

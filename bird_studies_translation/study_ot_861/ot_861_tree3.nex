@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu32
+        otu30
+        otu31
+        'Yellow-crowned Night Heron'
+        'Black-crowned Night Heron'
+        Whistling_Heron
+        Green_Heron
+        Snowy_Egret
+        Little_Blue_Heron
+        Great_Egret
+        Cattle_Egret
+        Great_Blue_Heron
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        'Rufescent Tiger-heron'
+        Glossy_Ibis
+        American_Bittern
+        Least_Bittern
+        Zigzag_Heron
+        'Boat-billed Heron'
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=DNA-DNA hybridization,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu30[&otu=otu30,^ot:ottId=154815,^ot:ottTaxonName=Cochlearius cochlearius,^ot:originalLabel=Cochlearius_cochlearius,^clo:ClementsTaxonName2019=Cochlearius cochlearius,^clo:speciescode2019=bobher1],((otu29[&otu=otu29,^ot:ottId=307214,^ot:ottTaxonName=Zebrilus undulatus,^ot:originalLabel=Zebrilus_undulatus,^clo:ClementsTaxonName2019=Zebrilus undulatus,^clo:speciescode2019=zigher1],(otu28[&otu=otu28,^ot:ottId=213188,^ot:ottTaxonName=Ixobrychus exilis,^ot:originalLabel=Ixobrychus_exilis,^clo:ClementsTaxonName2019=Ixobrychus exilis,^clo:speciescode2019=leabit],otu27[&otu=otu27,^ot:ottId=729491,^ot:ottTaxonName=Botaurus lentiginosus,^ot:originalLabel=Botaurus_lentiginosus,^clo:ClementsTaxonName2019=Botaurus lentiginosus,^clo:speciescode2019=amebit])node20)node19,(((otu21[&otu=otu21,^ot:ottId=126087,^ot:ottTaxonName=Egretta thula,^ot:originalLabel=Egretta_thula,^clo:ClementsTaxonName2019=Egretta thula,^clo:speciescode2019=snoegr],otu22[&otu=otu22,^ot:ottId=892214,^ot:ottTaxonName=Egretta caerulea,^ot:originalLabel=Egretta_caerulea,^clo:ClementsTaxonName2019=Egretta caerulea,^clo:speciescode2019=libher])node12,otu23[&otu=otu23,^ot:ottId=892218,^ot:ottTaxonName=Syrigma sibilatrix,^ot:originalLabel=Syrigma_sibilatrix,^clo:ClementsTaxonName2019=Syrigma sibilatrix,^clo:speciescode2019=whiher1])node11,otu25[&otu=otu25,^ot:ottId=244700,^ot:ottTaxonName=Nyctanassa violacea,^ot:originalLabel=Nyctanassa_violacea,^clo:ClementsTaxonName2019=Nyctanassa violacea pauper,^clo:speciescode2019=yecnih2],otu26[&otu=otu26,^ot:ottId=313126,^ot:ottTaxonName=Nycticorax nycticorax,^ot:originalLabel=Nycticorax_nycticorax,^clo:ClementsTaxonName2019=Nycticorax nycticorax,^clo:speciescode2019=bcnher],(otu19[&otu=otu19,^ot:ottId=625779,^ot:ottTaxonName=Ardea alba,^ot:originalLabel=Ardea_alba,^clo:ClementsTaxonName2019=Ardea alba,^clo:speciescode2019=greegr],otu20[&otu=otu20,^ot:ottId=729476,^ot:ottTaxonName=Bubulcus ibis,^ot:originalLabel=Bubulcus_ibis,^clo:ClementsTaxonName2019=Bubulcus ibis ibis,^clo:speciescode2019=categr1],otu18[&otu=otu18,^ot:ottId=744564,^ot:ottTaxonName=Ardea herodias,^ot:originalLabel=Ardea_herodias,^clo:ClementsTaxonName2019=Ardea herodias,^clo:speciescode2019=grbher3])node7,otu24[&otu=otu24,^ot:ottId=154822,^ot:ottTaxonName=Butorides virescens,^ot:originalLabel=Butorides_virescens,^clo:ClementsTaxonName2019=Butorides virescens,^clo:speciescode2019=grnher])node6)node5,otu31[&otu=otu31,^ot:ottId=740211,^ot:ottTaxonName=Tigrisoma lineatum,^ot:originalLabel=Tigrisoma_lineatum,^clo:ClementsTaxonName2019=Tigrisoma lineatum,^clo:speciescode2019=ruther1])node4,otu32[&otu=otu32,^ot:ottId=848593,^ot:ottTaxonName=Plegadis falcinellus,^ot:originalLabel=Plegadis_falcinellus,^clo:ClementsTaxonName2019=Plegadis falcinellus,^clo:speciescode2019=gloibi])node3;
+END;
+

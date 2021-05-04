@@ -1,0 +1,24 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+        otu12
+  ;
+END;
+
+BEGIN TREES;
+    TREE GARLI = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,nodeLabelDescription=,messages=]((((otu5:0.005811[&otu=otu5,^ot:ottId=178251,^ot:ottTaxonName=Nyctibius aethereus,^ot:originalLabel=Nyctibius_aethereus,^clo:ClementsTaxonName2019=Nyctibius aethereus,^clo:speciescode2019=lotpot1],((otu9:0.001814[&otu=otu9,^ot:ottId=228481,^ot:ottTaxonName=Nyctibius jamaicensis,^ot:originalLabel=Nyctibius_jamaicensis,^clo:ClementsTaxonName2019=Nyctibius jamaicensis,^clo:speciescode2019=norpot1],otu8:0.001247[&otu=otu8,^ot:ottId=178242,^ot:ottTaxonName=Nyctibius griseus,^ot:originalLabel=Nyctibius_griseus,^clo:ClementsTaxonName2019=Nyctibius griseus,^clo:speciescode2019=compot1])node158:0.003605,(otu11:0.004486[&otu=otu11,^ot:ottId=701553,^ot:ottTaxonName=Nyctibius maculosus,^ot:originalLabel=Nyctibius_maculosus,^clo:ClementsTaxonName2019=Nyctibius maculosus,^clo:speciescode2019=andpot1],otu10:0.003348[&otu=otu10,^ot:ottId=178241,^ot:ottTaxonName=Nyctibius leucopterus,^ot:originalLabel=Nyctibius_leucopterus,^clo:ClementsTaxonName2019=Nyctibius leucopterus,^clo:speciescode2019=whwpot1])node155:0.001604)node157:0.000762)node161:0.000381,otu7:0.00583[&otu=otu7,^ot:ottId=178249,^ot:ottTaxonName=Nyctibius grandis,^ot:originalLabel=Nyctibius_grandis,^clo:ClementsTaxonName2019=Nyctibius grandis,^clo:speciescode2019=grepot1])node163:0.002314,otu6:0.010514[&otu=otu6,^ot:ottId=178250,^ot:ottTaxonName=Nyctibius bracteatus,^ot:originalLabel=Nyctibius_bracteatus,^clo:ClementsTaxonName2019=Nyctibius bracteatus,^clo:speciescode2019=rufpot1])node165,((otu3:0.022916[&otu=otu3,^ot:ottId=798642,^ot:ottTaxonName=Eurostopodus mystacalis,^ot:originalLabel=Eurostopodus_mystacalis,^clo:ClementsTaxonName2019=Eurostopodus mystacalis,^clo:speciescode2019=whtnig3],(otu2:0.025274[&otu=otu2,^ot:ottId=624321,^ot:ottTaxonName=Batrachostomus septimus,^ot:originalLabel=Batrachostomus_septimus,^clo:ClementsTaxonName2019=Batrachostomus septimus,^clo:speciescode2019=phifro1],(otu4:0.024878[&otu=otu4,^ot:ottId=174365,^ot:ottTaxonName=Hemiprocne mystacea,^ot:originalLabel=Hemiprocne_mystacea,^clo:ClementsTaxonName2019=Hemiprocne mystacea,^clo:speciescode2019=moutre1],otu1:0.020693[&otu=otu1,^ot:ottId=540033,^ot:ottTaxonName=Aegotheles cristatus,^ot:originalLabel=Aegotheles_cristatus,^clo:ClementsTaxonName2019=Aegotheles cristatus,^clo:speciescode2019=auonig1])node172:0.002577)node170:0.000453)node168:0.000452,otu12:0.021718[&otu=otu12,^ot:ottId=701548,^ot:ottTaxonName=Steatornis caripensis,^ot:originalLabel=Steatornis_caripensis,^clo:ClementsTaxonName2019=Steatornis caripensis,^clo:speciescode2019=oilbir1])node167:0.010822)'tree8_ROOT';
+END;
+

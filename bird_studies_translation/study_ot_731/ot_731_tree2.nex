@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 (MCMCtree)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=]((((otu3:0.010942[&otu=otu3,^ot:ottId=799134,^ot:ottTaxonName=Branta bernicla hrota,^ot:originalLabel=Branta_bernicla_hrota,^clo:ClementsTaxonName2019=Branta bernicla hrota,^clo:speciescode2019=atlbra1],otu2:0.010942[&otu=otu2,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Branta_bernicla_bernicla,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node41:0.001994,otu1:0.012936[&otu=otu1,^ot:ottId=799107,^ot:ottTaxonName=Branta bernicla nigricans,^ot:originalLabel=Branta_bernicla_nigricans,^clo:ClementsTaxonName2019=Branta bernicla nigricans,^clo:speciescode2019=blkbra1])node40:0.054695,((((otu8:0.024944[&otu=otu8,^ot:ottId=972531,^ot:ottTaxonName=Branta hutchinsii,^ot:originalLabel=Branta_hutchinsii,^clo:ClementsTaxonName2019=Branta hutchinsii,^clo:speciescode2019=cacgoo1],otu7:0.024944[&otu=otu7,^ot:ottId=799124,^ot:ottTaxonName=Branta leucopsis,^ot:originalLabel=Branta_leucopsis,^clo:ClementsTaxonName2019=Branta leucopsis,^clo:speciescode2019=bargoo])node48:0.004056,otu6:0.029[&otu=otu6,^ot:ottId=714461,^ot:ottTaxonName=Branta canadensis,^ot:originalLabel=Branta_canadensis,^clo:ClementsTaxonName2019=Branta canadensis,^clo:speciescode2019=cangoo])node47:0.006236,otu5:0.035237[&otu=otu5,^ot:ottId=767835,^ot:ottTaxonName=Branta sandvicensis,^ot:originalLabel=Branta_sandvicensis,^clo:ClementsTaxonName2019=Branta sandvicensis,^clo:speciescode2019=hawgoo])node46:0.023137,otu4:0.058374[&otu=otu4,^ot:ottId=799106,^ot:ottTaxonName=Branta ruficollis,^ot:originalLabel=Branta_ruficollis,^clo:ClementsTaxonName2019=Branta ruficollis,^clo:speciescode2019=rebgoo1])node45:0.009257)node39:0.027976,(otu9:0.045398[&otu=otu9,^ot:ottId=190897,^ot:ottTaxonName=Anser indicus,^ot:originalLabel=Anser_indicus,^clo:ClementsTaxonName2019=Anser indicus,^clo:speciescode2019=bahgoo],((otu10:0.035217[&otu=otu10,^ot:ottId=166688,^ot:ottTaxonName=Anser canagica,^ot:originalLabel=Anser_canagicus,^clo:ClementsTaxonName2019=Anser canagicus,^clo:speciescode2019=empgoo],(otu12:0.020722[&otu=otu12,^ot:ottId=767830,^ot:ottTaxonName=Anser rossii,^ot:originalLabel=Anser_rossii,^clo:ClementsTaxonName2019=Anser rossii,^clo:speciescode2019=rosgoo],otu11:0.020722[&otu=otu11,^ot:ottId=190878,^ot:ottTaxonName=Anser caerulescens,^ot:originalLabel=Anser_caerulescens,^clo:ClementsTaxonName2019=Anser caerulescens,^clo:speciescode2019=snogoo])node70:0.014495)node69:0.004246,(otu13:0.034443[&otu=otu13,^ot:ottId=190887,^ot:ottTaxonName=Anser anser,^ot:originalLabel=Anser_anser,^clo:ClementsTaxonName2019=Anser anser,^clo:speciescode2019=gragoo],(((otu15:0.024945[&otu=otu15,^ot:ottId=430239,^ot:ottTaxonName=Anser albifrons,^ot:originalLabel=Anser_albifrons,^clo:ClementsTaxonName2019=Anser albifrons,^clo:speciescode2019=gwfgoo],otu16:0.024945[&otu=otu16,^ot:ottId=691333,^ot:ottTaxonName=Anser erythropus,^ot:originalLabel=Anser_erythropus,^clo:ClementsTaxonName2019=Anser erythropus,^clo:speciescode2019=lwfgoo])node59:0.003435,(otu17:0.024928[&otu=otu17,^ot:ottId=325140,^ot:ottTaxonName=Anser fabalis,^ot:originalLabel=Anser_fabalis,^clo:ClementsTaxonName2019=Anser fabalis,^clo:speciescode2019=taibeg1],(otu18:0.021811[&otu=otu18,^ot:ottId=970372,^ot:ottTaxonName=Anser brachyrhynchus,^ot:originalLabel=Anser_brachyrhynchus,^clo:ClementsTaxonName2019=Anser brachyrhynchus,^clo:speciescode2019=pifgoo],otu19:0.021811[&otu=otu19,^ot:ottId=3595909,^ot:ottTaxonName=Anser serrirostris,^ot:originalLabel=Anser_serrirostris,^clo:ClementsTaxonName2019=Anser serrirostris,^clo:speciescode2019=tunbeg1])node63:0.003116)node62:0.003452)node58:0.002512,otu14:0.030892[&otu=otu14,^ot:ottId=190892,^ot:ottTaxonName=Anser cygnoides,^ot:originalLabel=Anser_cygnoides,^clo:ClementsTaxonName2019=Anser cygnoides,^clo:speciescode2019=swagoo1])node57:0.00355)node56:0.005021)node55:0.005934)node54:0.050209)node38;
+END;
+

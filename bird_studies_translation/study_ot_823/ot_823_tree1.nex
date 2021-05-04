@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=291935,^ot:ottTaxonName=Pteridophora,^ot:originalLabel=Pteridophora,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2[&otu=otu2,^ot:ottId=187883,^ot:ottTaxonName=Lophorina superba,^ot:originalLabel=Lophorina_superba,^clo:ClementsTaxonName2019=Lophorina superba,^clo:speciescode2019=grsbop1],(otu3[&otu=otu3,^ot:ottId=291936,^ot:ottTaxonName=Parotia wahnesi,^ot:originalLabel=Parotia_wahnesi,^clo:ClementsTaxonName2019=Parotia wahnesi,^clo:speciescode2019=wahpar1],((otu6[&otu=otu6,^ot:ottId=291933,^ot:ottTaxonName=Parotia sefilata,^ot:originalLabel=Parotia_sefilata,^clo:ClementsTaxonName2019=Parotia sefilata,^clo:speciescode2019=wespar1],otu7[&otu=otu7,^ot:ottId=291931,^ot:ottTaxonName=Parotia carolae,^ot:originalLabel=Parotia_carolae,^clo:ClementsTaxonName2019=Parotia carolae,^clo:speciescode2019=carpar1])node10,(otu5[&otu=otu5,^ot:ottId=291934,^ot:ottTaxonName=Parotia helenae,^ot:originalLabel=Parotia_helenae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=762097,^ot:ottTaxonName=Parotia lawesii,^ot:originalLabel=Parotia_lawesii,^clo:ClementsTaxonName2019=Parotia lawesii,^clo:speciescode2019=lawpar1])node7)node6)node4)node1;
+END;
+

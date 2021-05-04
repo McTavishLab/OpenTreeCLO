@@ -1,0 +1,26 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 6 (total evidence)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=463020,^ot:ottTaxonName=Pipilo chlorurus,^ot:originalLabel=Pipilo_chlorurus,^clo:ClementsTaxonName2019=Pipilo chlorurus,^clo:speciescode2019=gnttow],(((otu6[&otu=otu6,^ot:ottId=989502,^ot:ottTaxonName=Junco hyemalis,^ot:originalLabel=Junco_hyemalis,^clo:ClementsTaxonName2019=Junco hyemalis,^clo:speciescode2019=daejun],(otu7[&otu=otu7,^ot:ottId=265551,^ot:ottTaxonName=Zonotrichia capensis,^ot:originalLabel=Zonotrichia_capensis,^clo:ClementsTaxonName2019=Zonotrichia capensis,^clo:speciescode2019=rucspa1],(otu8[&otu=otu8,^ot:ottId=265547,^ot:ottTaxonName=Zonotrichia albicollis,^ot:originalLabel=Zonotrichia_albicollis,^clo:ClementsTaxonName2019=Zonotrichia albicollis,^clo:speciescode2019=whtspa],(otu9[&otu=otu9,^ot:ottId=265552,^ot:ottTaxonName=Zonotrichia querula,^ot:originalLabel=Zonotrichia_querula,^clo:ClementsTaxonName2019=Zonotrichia querula,^clo:speciescode2019=harspa],(otu10[&otu=otu10,^ot:ottId=265553,^ot:ottTaxonName=Zonotrichia leucophrys,^ot:originalLabel=Zonotrichia_leucophrys,^clo:ClementsTaxonName2019=Zonotrichia leucophrys,^clo:speciescode2019=whcspa],otu11[&otu=otu11,^ot:ottId=265554,^ot:ottTaxonName=Zonotrichia atricapilla,^ot:originalLabel=Zonotrichia_atricapilla,^clo:ClementsTaxonName2019=Zonotrichia atricapilla,^clo:speciescode2019=gocspa])node18)node16)node14)node12)node10,((otu13[&otu=otu13,^ot:ottId=265545,^ot:ottTaxonName=Melospiza georgiana,^ot:originalLabel=Melospiza_georgiana,^clo:ClementsTaxonName2019=Melospiza georgiana,^clo:speciescode2019=swaspa],otu14[&otu=otu14,^ot:ottId=265550,^ot:ottTaxonName=Melospiza lincolnii,^ot:originalLabel=Melospiza_lincolnii,^clo:ClementsTaxonName2019=Melospiza lincolnii,^clo:speciescode2019=linspa])node23,otu12[&otu=otu12,^ot:ottId=265548,^ot:ottTaxonName=Melospiza melodia,^ot:originalLabel=Melospiza_melodia,^clo:ClementsTaxonName2019=Melospiza melodia,^clo:speciescode2019=sonspa])node21)node9,(otu2[&otu=otu2,^ot:ottId=789028,^ot:ottTaxonName=Passerella iliaca,^ot:originalLabel=Passerella_iliaca,^clo:ClementsTaxonName2019=Passerella iliaca,^clo:speciescode2019=foxspa],otu3[&otu=otu3,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Passerella_megarhyncha,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu4[&otu=otu4,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Passerella_unalaschensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu5[&otu=otu5,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Passerella_schistacea,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node4)node3)node1;
+END;
+

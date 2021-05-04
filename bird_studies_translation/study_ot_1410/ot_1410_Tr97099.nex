@@ -1,0 +1,48 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=36;
+    TAXLABELS
+        Tl2347067
+        Tl2347072
+        Tl2347037
+        Tl2347071
+        Tl2347069
+        Tl2347068
+        Tl2347049
+        Tl2347048
+        Tl2347047
+        Tl2347046
+        Tl2347045
+        Tl2347044
+        Tl2347043
+        Tl2347042
+        Tl2347041
+        Tl2347040
+        Tl2347061
+        Tl2347060
+        Tl2347063
+        Tl2347062
+        Tl2347065
+        Tl2347064
+        Tl2347050
+        Tl2347051
+        Tl2347052
+        Tl2347053
+        Tl2347054
+        Tl2347055
+        Tl2347056
+        Tl2347057
+        Tl2347058
+        Tl2347059
+        Tl2347070
+        Tl2347066
+        Tl2347038
+        Tl2347039
+  ;
+END;
+
+BEGIN TREES;
+    TREE Soma_PartFinder = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:changesCount,nodeLabelDescription=,messages=](((Tl2347052:0.04046427[&otu=Tl2347052,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Lyncornis_m_macrotis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl2347071:0.0448169[&otu=Tl2347071,^ot:ottId=847125,^ot:ottTaxonName=Eurostopodus argus,^ot:originalLabel=Eurostopodus_argus,^clo:ClementsTaxonName2019=Eurostopodus argus,^clo:speciescode2019=sponig1])Tn14199104:0.01150588,(((((((Tl2347056:0.00523846[&otu=Tl2347056,^ot:ottId=416426,^ot:ottTaxonName=Caprimulgus carolinensis,^ot:originalLabel=Antrostomus_carolinensis,^clo:ClementsTaxonName2019=Antrostomus carolinensis,^clo:speciescode2019=chwwid],Tl2347050:0.00854898[&otu=Tl2347050,^ot:ottId=742961,^ot:ottTaxonName=Antrostomus ridgwayi,^ot:originalLabel=Antrostomus_ridgwayi,^clo:ClementsTaxonName2019=Antrostomus ridgwayi,^clo:speciescode2019=bucnig])Tn14199136:0.0102246,Tl2347065:0.00921188[&otu=Tl2347065,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Antrostomus_nuttallii,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn14199157:0.00359998,(Tl2347063:0.01646343[&otu=Tl2347063,^ot:ottId=989090,^ot:ottTaxonName=Nyctiphrynus mcleodii,^ot:originalLabel=Nyctiphrynus_mcleodii,^clo:ClementsTaxonName2019=Nyctiphrynus mcleodii,^clo:speciescode2019=earpoo1],Tl2347037:0.0143928[&otu=Tl2347037,^ot:ottId=51273,^ot:ottTaxonName=Nyctiphrynus ocellatus,^ot:originalLabel=Nyctiphrynus_ocellatus,^clo:ClementsTaxonName2019=Nyctiphrynus ocellatus,^clo:speciescode2019=ocepoo1])Tn14199099:0.0140029)Tn14199100:0.00131431,Tl2347045:0.01519518[&otu=Tl2347045,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Antrostomus_v_vociferus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn14199117:0.00421292,Tl2347043:0.02185791[&otu=Tl2347043,^ot:ottId=847145,^ot:ottTaxonName=Siphonorhis brewsteri,^ot:originalLabel=Siphonorhis_brewsteri,^clo:ClementsTaxonName2019=Siphonorhis brewsteri,^clo:speciescode2019=leapau1])Tn14199122:0.00453941,((((Tl2347039:0.00606043[&otu=Tl2347039,^ot:ottId=604420,^ot:ottTaxonName=Caprimulgus manillensis,^ot:originalLabel=Caprimulgus_manillensis,^clo:ClementsTaxonName2019=Caprimulgus manillensis,^clo:speciescode2019=phinig1],(Tl2347040:0.02978916[&otu=Tl2347040,^ot:ottId=624319,^ot:ottTaxonName=Caprimulgus macrurus,^ot:originalLabel=Caprimulgus_macrurus,^clo:ClementsTaxonName2019=Caprimulgus macrurus,^clo:speciescode2019=latnig2],(Tl2347062:0.02032444[&otu=Tl2347062,^ot:ottId=6150909,^ot:ottTaxonName=Caprimulgus vexillarius,^ot:originalLabel=Caprimulgus_vexillarius,^clo:ClementsTaxonName2019=Caprimulgus vexillarius,^clo:speciescode2019=pewnig1],(Tl2347048:0.01663829[&otu=Tl2347048,^ot:ottId=178687,^ot:ottTaxonName=Caprimulgus europaeus,^ot:originalLabel=Caprimulgus_europaeus,^clo:ClementsTaxonName2019=Caprimulgus europaeus,^clo:speciescode2019=eurnig1],Tl2347057:0.0114489[&otu=Tl2347057,^ot:ottId=378509,^ot:ottTaxonName=Caprimulgus climacurus,^ot:originalLabel=Caprimulgus_climacurus,^clo:ClementsTaxonName2019=Caprimulgus climacurus,^clo:speciescode2019=lotnig1])Tn14199162:0.00329782)Tn14199111:0.00749817)Tn14199118:0.00542381)Tn14199149:0.00239848,Tl2347049:0.00667752[&otu=Tl2347049,^ot:ottId=624318,^ot:ottTaxonName=Caprimulgus affinis,^ot:originalLabel=Caprimulgus_affinis,^clo:ClementsTaxonName2019=Caprimulgus affinis,^clo:speciescode2019=savnig1])Tn14199132:0.02609644,(Tl2347053:0.03021997[&otu=Tl2347053,^ot:ottId=484902,^ot:ottTaxonName=Chordeiles acutipennis,^ot:originalLabel=Chordeiles_acutipennis,^clo:ClementsTaxonName2019=Chordeiles acutipennis,^clo:speciescode2019=lesnig],(Tl2347072:0.01030131[&otu=Tl2347072,^ot:ottId=322686,^ot:ottTaxonName=Chordeiles pusillus,^ot:originalLabel=Chordeiles_pusillus,^clo:ClementsTaxonName2019=Chordeiles pusillus,^clo:speciescode2019=leanig1],Tl2347055:0.01518336[&otu=Tl2347055,^ot:ottId=3597093,^ot:ottTaxonName=Chordeiles nacunda,^ot:originalLabel=Chordeiles_nacunda,^clo:ClementsTaxonName2019=Chordeiles nacunda,^clo:speciescode2019=nacnig1])Tn14199135:0.00700461)Tn14199106:0.0064125)Tn14199143:0.0041058,((Tl2347068:0.02600032[&otu=Tl2347068,^ot:ottId=322677,^ot:ottTaxonName=Setopagis whitelyi,^ot:originalLabel=Hydropsalis_whitelyi,^clo:ClementsTaxonName2019=Setopagis whitelyi,^clo:speciescode2019=rornig1],Tl2347067:0.0106153[&otu=Tl2347067,^ot:ottId=102378,^ot:ottTaxonName=Nyctipolus nigrescens,^ot:originalLabel=Hydropsalis_nigrescens,^clo:ClementsTaxonName2019=Nyctipolus nigrescens,^clo:speciescode2019=blanig1])Tn14199119:0.00375045,(((Tl2347060:0.01444178[&otu=Tl2347060,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hydropsalis_segmentata,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],Tl2347058:0.0182244[&otu=Tl2347058,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hydropsalis_rufiventris,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn14199112:0.00369613,(Tl2347066:0.0205721[&otu=Tl2347066,^ot:ottId=378496,^ot:ottTaxonName=Hydropsalis maculicaudus,^ot:originalLabel=Hydropsalis_maculicaudus,^clo:ClementsTaxonName2019=Hydropsalis maculicaudus,^clo:speciescode2019=sptnig1],Tl2347047:0.00384399[&otu=Tl2347047,^ot:ottId=624335,^ot:ottTaxonName=Hydropsalis climacocerca,^ot:originalLabel=Hydropsalis_climacocerca,^clo:ClementsTaxonName2019=Hydropsalis climacocerca,^clo:speciescode2019=latnig1])Tn14199131:0.00375595)Tn14199152:0.00123505,(((Tl2347044:0.00125695[&otu=Tl2347044,^ot:ottId=624334,^ot:ottTaxonName=Setopagis parvulus,^ot:originalLabel=Hydropsalis_parvulus2,^clo:ClementsTaxonName2019=Setopagis parvula,^clo:speciescode2019=litnig1],Tl2347038:0.00251308[&otu=Tl2347038,^ot:ottId=624334,^ot:ottTaxonName=Setopagis parvulus,^ot:originalLabel=Hydropsalis_parvulus1,^clo:ClementsTaxonName2019=Setopagis parvula,^clo:speciescode2019=litnig1])Tn14199127:0.01977861,Tl2347061:0.01143383[&otu=Tl2347061,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hydropsalis_albicollis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn14199164:0.0053671,(Tl2347046:0.01845819[&otu=Tl2347046,^ot:ottId=960269,^ot:ottTaxonName=Nyctidromus anthonyi,^ot:originalLabel=Hydropsalis_anthonyi,^clo:ClementsTaxonName2019=Nyctidromus anthonyi,^clo:speciescode2019=scrnig1],Tl2347042:0.03227574[&otu=Tl2347042,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Hydropsalis_leucopyga,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])Tn14199125:0.00072251,Tl2347069:0.00509437[&otu=Tl2347069,^ot:ottId=903612,^ot:ottTaxonName=Eleothreptus anomalus,^ot:originalLabel=Hydropsalis_anomalus,^clo:ClementsTaxonName2019=Eleothreptus anomalus,^clo:speciescode2019=siwnig1])Tn14199139:0.00247259)Tn14199097:0.00276852)Tn14199154:0.00432927)Tn14199115:0.00361512)Tn14199098:0.0044174,Tl2347064:0.04868776[&otu=Tl2347064,^ot:ottId=960274,^ot:ottTaxonName=Gactornis enarratus,^ot:originalLabel=Gactornis_enarratus,^clo:ClementsTaxonName2019=Gactornis enarratus,^clo:speciescode2019=colnig1])Tn14199105:0.01129574)Tn14199128,((Tl2347070:0.05608358[&otu=Tl2347070,^ot:ottId=178249,^ot:ottTaxonName=Nyctibius grandis,^ot:originalLabel=Nyctibius_grandis,^clo:ClementsTaxonName2019=Nyctibius grandis,^clo:speciescode2019=grepot1],Tl2347059:0.11538733[&otu=Tl2347059,^ot:ottId=331487,^ot:ottTaxonName=Euaegotheles insignis,^ot:originalLabel=Aegotheles_insignis,^clo:ClementsTaxonName2019=Aegotheles insignis,^clo:speciescode2019=feonig1])Tn14199110:0.00293602,(Tl2347054:0.08839473[&otu=Tl2347054,^ot:ottId=701548,^ot:ottTaxonName=Steatornis caripensis,^ot:originalLabel=Steatornis_caripensis,^clo:ClementsTaxonName2019=Steatornis caripensis,^clo:speciescode2019=oilbir1],(Tl2347051:0.03846524[&otu=Tl2347051,^ot:ottId=624321,^ot:ottTaxonName=Batrachostomus septimus,^ot:originalLabel=Batrachostomus_septimus,^clo:ClementsTaxonName2019=Batrachostomus septimus,^clo:speciescode2019=phifro1],Tl2347041:0.02882921[&otu=Tl2347041,^ot:ottId=313120,^ot:ottTaxonName=Podargus strigoides,^ot:originalLabel=Podargus_strigoides,^clo:ClementsTaxonName2019=Podargus strigoides,^clo:speciescode2019=tawfro1])Tn14199134:0.0427902)Tn14199129:0.0050807)Tn14199147:0.0323217)'Tr97099_ROOT';
+END;
+

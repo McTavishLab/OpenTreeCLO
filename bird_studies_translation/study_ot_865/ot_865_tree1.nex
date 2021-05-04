@@ -1,0 +1,15 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=3;
+    TAXLABELS
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Neighbor-joining ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=1041538,^ot:ottTaxonName=Fulica atra,^ot:originalLabel=Fulica_atra,^clo:ClementsTaxonName2019=Fulica atra,^clo:speciescode2019=eurcoo],(otu2[&otu=otu2,^ot:ottId=1041541,^ot:ottTaxonName=Gallinula chloropus,^ot:originalLabel=Gallinula_chloropus,^clo:ClementsTaxonName2019=Gallinula chloropus,^clo:speciescode2019=commoo3],otu3[&otu=otu3,^ot:ottId=385131,^ot:ottTaxonName=Gallinula nesiotis,^ot:originalLabel=Gallinula_nesiotis,^clo:ClementsTaxonName2019=Gallinula nesiotis,^clo:speciescode2019=trimoo2])node3)node1;
+END;
+

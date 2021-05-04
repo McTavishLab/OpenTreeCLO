@@ -1,0 +1,87 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=75;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu72
+        otu74
+        otu58
+        otu67
+        otu8
+        otu59
+        otu6
+        otu66
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu61
+        otu60
+        otu63
+        otu62
+        otu65
+        otu64
+        otu49
+        otu48
+        otu47
+        otu46
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu7
+        otu71
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu69
+        otu75
+        otu68
+        otu73
+        otu70
+        otu54
+        otu9
+        otu55
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu50
+        otu51
+        otu52
+        otu53
+        otu18
+        otu19
+        otu56
+        otu57
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Rocha et al., 2015 Maximum Likelihood' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((otu74:0.023187[&otu=otu74,^ot:ottId=584976,^ot:ottTaxonName=Xiphorhynchus lachrymosus,^ot:originalLabel=2_xlac,^clo:ClementsTaxonName2019=Xiphorhynchus lachrymosus,^clo:speciescode2019=blswoo1],otu73:0.020049[&otu=otu73,^ot:ottId=227511,^ot:ottTaxonName=Xiphorhynchus flavigaster,^ot:originalLabel=1_xfla,^clo:ClementsTaxonName2019=Xiphorhynchus flavigaster,^clo:speciescode2019=ivbwoo1])node146:0.01909,((((otu14:0.001171[&otu=otu14,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=62_PA5b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((otu16:0.002305[&otu=otu16,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=46_PA1aEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu17:0[&otu=otu17,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=45_PA1cEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu18:0[&otu=otu18,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=44_PA1bEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu19:0[&otu=otu19,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=43_PA1dEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu20:0.000836[&otu=otu20,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=64_PA7aVI,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node41:0)node39:0)node37:0)node35:0.001146,otu15:0.000576[&otu=otu15,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=63_PA6a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node33:0.000564)node31:0.002973,(((otu22:0[&otu=otu22,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=10_AM1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu23:0[&otu=otu23,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=74_AM7a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node47:0.00084,((otu28:0.000571[&otu=otu28,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=18_AC4a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((((otu32:0.000604[&otu=otu32,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=16_AC2b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((otu34:0[&otu=otu34,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=66_AC1b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu35:0.000955[&otu=otu35,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=26_AC11d,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu36:0[&otu=otu36,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=65_AM7c,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node73:5e-06)node71:1e-06,otu33:0[&otu=otu33,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=47_AM6a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node69:0.002609)node67:0,otu31:0[&otu=otu31,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=48_AM8a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node65:0.001142,(otu37:0[&otu=otu37,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=23_AC9a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu38:0[&otu=otu38,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=27_AC11a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(((otu40:0[&otu=otu40,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=21_AC3d,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu41:0.000577[&otu=otu41,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=24_AC10a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((otu43:1e-06[&otu=otu43,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=20_AC3b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((otu45:0[&otu=otu45,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=15_AC3e,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu46:0[&otu=otu46,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=69_AC8a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node93:0,otu44:0.001374[&otu=otu44,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=68_AC3c,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node91:0)node89:0.000568,otu42:0[&otu=otu42,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=14_AC1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node87:0)node85:0)node83:0.00057,(otu47:0[&otu=otu47,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=25_AC11c,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu48:0.000576[&otu=otu48,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=49_AM7b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],((otu51:0[&otu=otu51,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=13_AM4cGD,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu50:0[&otu=otu50,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=11_AM4aGD,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node102:0,otu49:0[&otu=otu49,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=12_AM4bGD,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node100:0.000571)node98:0)node96:0)node82:0,otu39:0.001147[&otu=otu39,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=73_AM6b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node80:0)node78:0)node76:0)node64:0,(otu30:0[&otu=otu30,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=70_AC11e,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu29:0[&otu=otu29,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=22_AC6c,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node61:0.002293)node60:0)node58:0,(((otu27:0.001376[&otu=otu27,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=67_AC5a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu26:0.000572[&otu=otu26,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=17_AC3a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node55:1e-06,otu25:0.00057[&otu=otu25,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=19_AC2a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node53:1.3e-05,otu24:0.001376[&otu=otu24,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=61_AM5a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node51:0.001133)node50:0)node46:0.001723,otu21:0.002312[&otu=otu21,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=52_AM3a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node44:0.001697)node30:0.008436,((otu1:0.000639[&otu=otu1,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=39_MA2a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu2:0.003703[&otu=otu2,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=38_PI1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu5:0[&otu=otu5,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=37_PI1b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu4:0.000572[&otu=otu4,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=50_PA4a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu3:0[&otu=otu3,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=40_MA1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node11:0)node10:0.000572)node8:0)node6:0.000549,((otu13:0.006045[&otu=otu13,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=33_PA10fEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu12:0[&otu=otu12,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=31_PA10aEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node27:0,((otu11:0[&otu=otu11,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=35_PA10bEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu10:0[&otu=otu10,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=34_PA10dEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node24:0.001728,((otu7:0[&otu=otu7,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=51_PA3b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu9:0[&otu=otu9,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=53_PA3a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu8:0.002284[&otu=otu8,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=32_PA10eEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node21:0)node19:0,otu6:0.001725[&otu=otu6,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=36_PA10cEY,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node17:0)node16:0.000573)node15:0.001174)node5:0.009993)node4:0.01822,((((otu68:0[&otu=otu68,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=4_xsu1,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1],otu69:0[&otu=otu69,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=5_xsu2,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1])node138:0,((otu72:0[&otu=otu72,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=9_Xsu6,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1],otu71:0[&otu=otu71,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=7_xsu4,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1])node143:0.003914,otu70:0.011467[&otu=otu70,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=8_xsu5,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1])node141:0.012627)node137:0.008839,otu67:0.00992[&otu=otu67,^ot:ottId=227513,^ot:ottTaxonName=Xiphorhynchus susurrans,^ot:originalLabel=6_xsu3,^clo:ClementsTaxonName2019=Xiphorhynchus susurrans,^clo:speciescode2019=cocwoo1])node135:0.014734,((((otu54:0[&otu=otu54,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=30_RR1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu55:0[&otu=otu55,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=29_RR1d,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu56:0.001368[&otu=otu56,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=71_RR1b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu57:0[&otu=otu57,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=72_RR2a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node115:0)node113:0)node111:0,otu53:0[&otu=otu53,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=28_RR1c,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node109:0.002777,otu52:0.00039[&otu=otu52,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=54_PA11a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node107:0.004718,((otu58:0.001729[&otu=otu58,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=41_BA1b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu59:0.000578[&otu=otu59,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=42_BA1a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node119:0.002304,(((((otu64:0[&otu=otu64,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=55_PA9b,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],(otu65:0.000572[&otu=otu65,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=57_AP1bPO,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1],otu66:0.001794[&otu=otu66,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=59_PA2aPO,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node132:0)node130:0,otu63:0.001362[&otu=otu63,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=75_AP1cPO,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node128:0,otu62:0[&otu=otu62,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=56_PA9a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node126:0.000572,otu61:0[&otu=otu61,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=60_PA8a,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node124:0,otu60:0.002395[&otu=otu60,^ot:ottId=1077433,^ot:ottTaxonName=Xiphorhynchus guttatus,^ot:originalLabel=58_AP1aPO,^clo:ClementsTaxonName2019=Xiphorhynchus guttatus,^clo:speciescode2019=butwoo1])node122:0.000592)node118:0.003238)node106:0.017198)node105:0.01404)node3:0.009131)node2:0.003912,otu75:0.074325[&otu=otu75,^ot:ottId=155234,^ot:ottTaxonName=Xiphorhynchus obsoletus,^ot:originalLabel=3_Xob,^clo:ClementsTaxonName2019=Xiphorhynchus obsoletus,^clo:speciescode2019=strwoo2])node1;
+END;
+

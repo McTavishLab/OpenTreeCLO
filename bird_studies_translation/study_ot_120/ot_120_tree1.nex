@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._5b = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=109893,nearestTaxonMRCAName=Cracidae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((((otu5[&otu=otu5,^ot:ottId=654721,^ot:ottTaxonName=Crax alberti,^ot:originalLabel=Crax_alberti,^clo:ClementsTaxonName2019=Crax alberti,^clo:speciescode2019=bubcur1],otu6[&otu=otu6,^ot:ottId=654723,^ot:ottTaxonName=Crax daubentoni,^ot:originalLabel=Crax_daubentoni,^clo:ClementsTaxonName2019=Crax daubentoni,^clo:speciescode2019=yekcur1])node13,otu7[&otu=otu7,^ot:ottId=132829,^ot:ottTaxonName=Crax rubra,^ot:originalLabel=Crax_rubra,^clo:ClementsTaxonName2019=Crax rubra,^clo:speciescode2019=grecur1])node12,(otu4[&otu=otu4,^ot:ottId=654700,^ot:ottTaxonName=Crax globulosa,^ot:originalLabel=Crax_globulosa,^clo:ClementsTaxonName2019=Crax globulosa,^clo:speciescode2019=watcur1],(otu3[&otu=otu3,^ot:ottId=488156,^ot:ottTaxonName=Crax blumenbachii,^ot:originalLabel=Crax_blumenbachii,^clo:ClementsTaxonName2019=Crax blumenbachii,^clo:speciescode2019=rebcur1],(otu2[&otu=otu2,^ot:ottId=654722,^ot:ottTaxonName=Crax alector,^ot:originalLabel=Crax_alector,^clo:ClementsTaxonName2019=Crax alector,^clo:speciescode2019=blacur1],otu1[&otu=otu1,^ot:ottId=654699,^ot:ottTaxonName=Crax fasciolata,^ot:originalLabel=Crax_fasciolata,^clo:ClementsTaxonName2019=Crax fasciolata,^clo:speciescode2019=bafcur1])node7)node6)node5)node4,(otu14[&otu=otu14,^ot:ottId=488148,^ot:ottTaxonName=Nothocrax urumutum,^ot:originalLabel=Nothocrax_urumutum,^clo:ClementsTaxonName2019=Nothocrax urumutum,^clo:speciescode2019=noccur1],(((otu10[&otu=otu10,^ot:ottId=786420,^ot:ottTaxonName=Mitu salvini,^ot:originalLabel=Mitu_salvini,^clo:ClementsTaxonName2019=Mitu salvini,^clo:speciescode2019=salcur1],(otu9[&otu=otu9,^ot:ottId=488151,^ot:ottTaxonName=Mitu tuberosum,^ot:originalLabel=Mitu_tuberosum,^clo:ClementsTaxonName2019=Mitu tuberosum,^clo:speciescode2019=rabcur2],otu8[&otu=otu8,^ot:ottId=786422,^ot:ottTaxonName=Pauxi unicornis,^ot:originalLabel=Pauxi_unicornis,^clo:ClementsTaxonName2019=Pauxi unicornis,^clo:speciescode2019=horcur3])node21)node20,(otu12[&otu=otu12,^ot:ottId=571014,^ot:ottTaxonName=Mitu tomentosum,^ot:originalLabel=Mitu_tomentosum,^clo:ClementsTaxonName2019=Mitu tomentosum,^clo:speciescode2019=crecur2],otu11[&otu=otu11,^ot:ottId=385229,^ot:ottTaxonName=Mitu mitu,^ot:originalLabel=Mitu_mitu,^clo:ClementsTaxonName2019=Mitu mitu,^clo:speciescode2019=alacur1])node25)node19,otu13[&otu=otu13,^ot:ottId=1014138,^ot:ottTaxonName=Pauxi pauxi,^ot:originalLabel=Pauxi_pauxi,^clo:ClementsTaxonName2019=Pauxi pauxi,^clo:speciescode2019=helcur1])node18)node17)node3,otu15[&otu=otu15,^ot:ottId=488158,^ot:ottTaxonName=Ortalis canicollis,^ot:originalLabel=Ortalis_canicollis,^clo:ClementsTaxonName2019=Ortalis canicollis,^clo:speciescode2019=chacha1])node2,(otu18[&otu=otu18,^ot:ottId=488154,^ot:ottTaxonName=Chamaepetes goudotii,^ot:originalLabel=Chamaepetes_goudotii,^clo:ClementsTaxonName2019=Chamaepetes goudotii,^clo:speciescode2019=siwgua1],(otu16[&otu=otu16,^ot:ottId=1014136,^ot:ottTaxonName=Penelope obscura,^ot:originalLabel=Penelope_obscura,^clo:ClementsTaxonName2019=Penelope obscura,^clo:speciescode2019=dulgua1],otu17[&otu=otu17,^ot:ottId=963344,^ot:ottTaxonName=Aburria aburri,^ot:originalLabel=Aburria_aburri,^clo:ClementsTaxonName2019=Aburria aburri,^clo:speciescode2019=watgua1])node32)node31)node1;
+END;
+

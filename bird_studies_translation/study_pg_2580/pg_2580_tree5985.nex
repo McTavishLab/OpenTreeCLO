@@ -1,0 +1,31 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+        otu379824
+        otu379825
+        otu379826
+        otu379827
+        otu379819
+        otu379818
+        otu379822
+        otu379823
+        otu379815
+        otu379814
+        otu379817
+        otu379816
+        otu379828
+        otu379829
+        otu379832
+        otu379830
+        otu379820
+        otu379831
+        otu379821
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2_ML = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu379828:0.2506392364133347[&otu=otu379828,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2],(((otu379821:0.023386926107338658[&otu=otu379821,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],otu379822:0.033631355070519196[&otu=otu379822,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2])node1016188:0.2722998300526564,(((otu379818:0.01184140735371114[&otu=otu379818,^ot:ottId=576651,^ot:ottTaxonName=Emeus crassus,^ot:originalLabel=Emeus_crassus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu379819:0.011730326089132959[&otu=otu379819,^ot:ottId=816665,^ot:ottTaxonName=Anomalopteryx didiformis,^ot:originalLabel=Anomalopteryx_didiformis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1016184:0.015196873669682148,otu379820:0.025160711764255158[&otu=otu379820,^ot:ottId=576657,^ot:ottTaxonName=Dinornis giganteus,^ot:originalLabel=Dinornis_giganteus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1016183:0.1650597898703845,((otu379816:0.28708519022335877[&otu=otu379816,^ot:ottId=402446,^ot:ottTaxonName=Nothoprocta perdicaria,^ot:originalLabel=Nothoprocta_perdicaria,^clo:ClementsTaxonName2019=Nothoprocta perdicaria,^clo:speciescode2019=chitin1],otu379817:0.32280265341617453[&otu=otu379817,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1])node1016180:0.014493950889052469,(otu379814:0.25670962226820115[&otu=otu379814,^ot:ottId=960236,^ot:ottTaxonName=Crypturellus soui,^ot:originalLabel=Crypturellus_soui,^clo:ClementsTaxonName2019=Crypturellus soui,^clo:speciescode2019=littin1],otu379815:0.18321684131976645[&otu=otu379815,^ot:ottId=306216,^ot:ottTaxonName=Tinamus guttatus,^ot:originalLabel=Tinamus_guttatus,^clo:ClementsTaxonName2019=Tinamus guttatus,^clo:speciescode2019=whttin1])node1016177:0.0739911318899024)node1016176:0.2521423791188379)node1016175:0.060018592087704756)node1016174:0.00859372209961479,((otu379826:0.07477358364094636[&otu=otu379826,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1],otu379827:0.06072219639694822[&otu=otu379827,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=Casuarius_casuarius,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1])node1016197:0.10114675607736075,(otu379825:0.024492374283022787[&otu=otu379825,^ot:ottId=241834,^ot:ottTaxonName=Apteryx australis,^ot:originalLabel=Apteryx_australis,^clo:ClementsTaxonName2019=Apteryx australis,^clo:speciescode2019=sobkiw1],(otu379823:0.01040077406241477[&otu=otu379823,^ot:ottId=241836,^ot:ottTaxonName=Apteryx haastii,^ot:originalLabel=Apteryx_haastii,^clo:ClementsTaxonName2019=Apteryx haastii,^clo:speciescode2019=grskiw1],otu379824:0.011254963855914537[&otu=otu379824,^ot:ottId=241844,^ot:ottTaxonName=Apteryx owenii,^ot:originalLabel=Apteryx_owenii,^clo:ClementsTaxonName2019=Apteryx owenii,^clo:speciescode2019=liskiw1])node1016193:0.02394022350803948)node1016192:0.13280120840071336)node1016191:0.009886437060690319)node1016173:0.04605996282582813)node1016172:0.378651794151,((otu379829:0.30886618999094534[&otu=otu379829,^ot:ottId=654722,^ot:ottTaxonName=Crax alector,^ot:originalLabel=Crax_alector,^clo:ClementsTaxonName2019=Crax alector,^clo:speciescode2019=blacur1],otu379830:0.44351947718641016[&otu=otu379830,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1016202:0.13960908580457637,otu379831:0.2450125213467325[&otu=otu379831,^ot:ottId=860132,^ot:ottTaxonName=Chauna torquata,^ot:originalLabel=Chauna_torquata,^clo:ClementsTaxonName2019=Chauna torquata,^clo:speciescode2019=souscr1])node1016201:0.16381506158694892,otu379832:0.8940900343519058[&otu=otu379832,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node1016171;
+END;
+

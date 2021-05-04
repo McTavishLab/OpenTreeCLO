@@ -1,0 +1,27 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._2 = [&unrootedTree=False,curatedType=Least squares ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((((otu5[&otu=otu5,^ot:ottId=1095260,^ot:ottTaxonName=Contopus sordidulus,^ot:originalLabel=Contopus_sordidulus,^clo:ClementsTaxonName2019=Contopus sordidulus,^clo:speciescode2019=wewpew],otu6[&otu=otu6,^ot:ottId=1095258,^ot:ottTaxonName=Contopus virens,^ot:originalLabel=Contopus_virens,^clo:ClementsTaxonName2019=Contopus virens,^clo:speciescode2019=eawpew])node12,otu7[&otu=otu7,^ot:ottId=1095262,^ot:ottTaxonName=Contopus cooperi,^ot:originalLabel=Contopus_borealis,^clo:ClementsTaxonName2019=Contopus cooperi,^clo:speciescode2019=olsfly])node11,((((otu8[&otu=otu8,^ot:ottId=1095256,^ot:ottTaxonName=Empidonax difficilis,^ot:originalLabel=Empidonax_difficilis,^clo:ClementsTaxonName2019=Empidonax difficilis,^clo:speciescode2019=pasfly],otu9[&otu=otu9,^ot:ottId=1095254,^ot:ottTaxonName=Empidonax flavescens,^ot:originalLabel=Empidonax_flavescens,^clo:ClementsTaxonName2019=Empidonax flavescens,^clo:speciescode2019=yelfly1])node19,(otu11[&otu=otu11,^ot:ottId=675000,^ot:ottTaxonName=Empidonax atriceps,^ot:originalLabel=Empidonax_atriceps,^clo:ClementsTaxonName2019=Empidonax atriceps,^clo:speciescode2019=blcfly1],otu10[&otu=otu10,^ot:ottId=146936,^ot:ottTaxonName=Empidonax hammondii,^ot:originalLabel=Empidonax_hammondii,^clo:ClementsTaxonName2019=Empidonax hammondii,^clo:speciescode2019=hamfly])node22)node18,otu12[&otu=otu12,^ot:ottId=119887,^ot:ottTaxonName=Empidonax oberholseri,^ot:originalLabel=Empidonax_oberholseri,^clo:ClementsTaxonName2019=Empidonax oberholseri,^clo:speciescode2019=dusfly])node17,(otu14[&otu=otu14,^ot:ottId=675006,^ot:ottTaxonName=Empidonax wrightii,^ot:originalLabel=Empidonax_wrightii,^clo:ClementsTaxonName2019=Empidonax wrightii,^clo:speciescode2019=gryfly],otu13[&otu=otu13,^ot:ottId=1095264,^ot:ottTaxonName=Empidonax flaviventris,^ot:originalLabel=Empidonax_flaviventris,^clo:ClementsTaxonName2019=Empidonax flaviventris,^clo:speciescode2019=yebfly])node26)node16)node10,(otu4[&otu=otu4,^ot:ottId=604018,^ot:ottTaxonName=Empidonax minimus,^ot:originalLabel=Empidonax_minimus,^clo:ClementsTaxonName2019=Empidonax minimus,^clo:speciescode2019=leafly],((otu1[&otu=otu1,^ot:ottId=203084,^ot:ottTaxonName=Empidonax alnorum,^ot:originalLabel=Empidonax_alnorum,^clo:ClementsTaxonName2019=Empidonax alnorum,^clo:speciescode2019=aldfly],otu2[&otu=otu2,^ot:ottId=67288,^ot:ottTaxonName=Empidonax traillii,^ot:originalLabel=Empidonax_traillii,^clo:ClementsTaxonName2019=Empidonax traillii,^clo:speciescode2019=wilfly])node5,otu3[&otu=otu3,^ot:ottId=675007,^ot:ottTaxonName=Empidonax virescens,^ot:originalLabel=Empidonax_virescens,^clo:ClementsTaxonName2019=Empidonax virescens,^clo:speciescode2019=acafly])node4)node3)node2,otu15[&otu=otu15,^ot:ottId=568712,^ot:ottTaxonName=Lathrotriccus euleri,^ot:originalLabel=Empidonax_euleri,^clo:ClementsTaxonName2019=Lathrotriccus euleri,^clo:speciescode2019=eulfly1])node1;
+END;
+

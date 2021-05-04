@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3 (NJ)' = [&unrootedTree=False,curatedType=Neighbor-joining ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((((otu6[&otu=otu6,^ot:ottId=1020134,^ot:ottTaxonName=Colaptes rupicola,^ot:originalLabel=Colaptes_rupicola_8204,^clo:ClementsTaxonName2019=Colaptes rupicola,^clo:speciescode2019=andfli1],(otu5[&otu=otu5,^ot:ottId=1020134,^ot:ottTaxonName=Colaptes rupicola,^ot:originalLabel=Colaptes_rupicola_Ed.,^clo:ClementsTaxonName2019=Colaptes rupicola,^clo:speciescode2019=andfli1],otu4[&otu=otu4,^ot:ottId=1020134,^ot:ottTaxonName=Colaptes rupicola,^ot:originalLabel=Colaptes_rupicola_3901,^clo:ClementsTaxonName2019=Colaptes rupicola,^clo:speciescode2019=andfli1])node11)node10,(otu3[&otu=otu3,^ot:ottId=733990,^ot:ottTaxonName=Colaptes auratus,^ot:originalLabel=Colaptes_auratus,^clo:ClementsTaxonName2019=Colaptes auratus,^clo:speciescode2019=norfli],(otu1[&otu=otu1,^ot:ottId=923815,^ot:ottTaxonName=Colaptes punctigula,^ot:originalLabel=Colaptes_punctigula,^clo:ClementsTaxonName2019=Colaptes punctigula,^clo:speciescode2019=spbwoo1],otu2[&otu=otu2,^ot:ottId=290740,^ot:ottTaxonName=Piculus rivolii,^ot:originalLabel=Piculus_rivolii,^clo:ClementsTaxonName2019=Colaptes rivolii,^clo:speciescode2019=crmwoo2])node6)node5)node4,(otu8[&otu=otu8,^ot:ottId=210496,^ot:ottTaxonName=Colaptes rubiginosus,^ot:originalLabel=Piculus_rubiginosus,^clo:ClementsTaxonName2019=Colaptes rubiginosus,^clo:speciescode2019=goowoo1],otu7[&otu=otu7,^ot:ottId=290736,^ot:ottTaxonName=Colaptes atricollis,^ot:originalLabel=Colaptes_atricollis,^clo:ClementsTaxonName2019=Colaptes atricollis,^clo:speciescode2019=blnwoo1])node15)node3,(otu9[&otu=otu9,^ot:ottId=290738,^ot:ottTaxonName=Dryocopus lineatus,^ot:originalLabel=Dryocopus_lineatus,^clo:ClementsTaxonName2019=Dryocopus lineatus,^clo:speciescode2019=linwoo1],otu10[&otu=otu10,^ot:ottId=733984,^ot:ottTaxonName=Dryocopus pileatus,^ot:originalLabel=Dryocopus_pileatus,^clo:ClementsTaxonName2019=Dryocopus pileatus,^clo:speciescode2019=pilwoo])node18)node2,((otu16[&otu=otu16,^ot:ottId=119082,^ot:ottTaxonName=Melanerpes carolinus,^ot:originalLabel=Melanerpes_carolinus,^clo:ClementsTaxonName2019=Melanerpes carolinus,^clo:speciescode2019=rebwoo],otu17[&otu=otu17,^ot:ottId=744570,^ot:ottTaxonName=Sphyrapicus varius,^ot:originalLabel=Sphyrapicus_varius,^clo:ClementsTaxonName2019=Sphyrapicus varius,^clo:speciescode2019=yebsap])node31,otu18[&otu=otu18,^ot:ottId=706428,^ot:ottTaxonName=Campephilus haematogaster,^ot:originalLabel=Campephilus_haematogaster,^clo:ClementsTaxonName2019=Campephilus haematogaster,^clo:speciescode2019=crbwoo1])node30,((((otu12[&otu=otu12,^ot:ottId=65431,^ot:ottTaxonName=Veniliornis callonotus,^ot:originalLabel=Veniliornis_callonotus_5178,^clo:ClementsTaxonName2019=Dryobates callonotus,^clo:speciescode2019=scbwoo3],otu11[&otu=otu11,^ot:ottId=65431,^ot:ottTaxonName=Veniliornis callonotus,^ot:originalLabel=Veniliornis_callonotus_5175,^clo:ClementsTaxonName2019=Dryobates callonotus,^clo:speciescode2019=scbwoo3])node24,otu13[&otu=otu13,^ot:ottId=65433,^ot:ottTaxonName=Veniliornis nigriceps,^ot:originalLabel=Veniliornis_nigriceps_8176,^clo:ClementsTaxonName2019=Dryobates nigriceps,^clo:speciescode2019=babwoo2])node23,otu14[&otu=otu14,^ot:ottId=65433,^ot:ottTaxonName=Veniliornis nigriceps,^ot:originalLabel=Veniliornis_nigriceps_1305,^clo:ClementsTaxonName2019=Dryobates nigriceps,^clo:speciescode2019=babwoo2])node22,otu15[&otu=otu15,^ot:ottId=733988,^ot:ottTaxonName=Picoides villosus,^ot:originalLabel=Picoides_villosus,^clo:ClementsTaxonName2019=Dryobates villosus,^clo:speciescode2019=haiwoo])node21)node1;
+END;
+

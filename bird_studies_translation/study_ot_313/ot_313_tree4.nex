@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        Platycercus_venustus_hillii
+        Platycercus_eximius_eximius
+        Platycercus_adscitus_adscitus
+        Platycercus_elegans_elegans
+        Platycercus_elegans_flaveolus
+        Platycercus_adscitus_palliceps
+        otu2
+        otu20
+        Platycercus_elegans_nigrescens
+        Platycercus_venustus_venustus
+        otu16
+        otu17
+        Platycercus_eximius_diemenensis
+        Platycercus_icterotis_icterotis
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4b - *BEAST species, nucDNA ' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](((((otu17:0.164333[&otu=otu17,^ot:ottId=771955,^ot:ottTaxonName=Platycercus adscitus,^ot:originalLabel=Platycercus_adscitus,^clo:ClementsTaxonName2019=Platycercus adscitus,^clo:speciescode2019=pahros1],otu18:0.164333[&otu=otu18,^ot:ottId=209187,^ot:ottTaxonName=Platycercus venustus,^ot:originalLabel=Platycercus_venustus,^clo:ClementsTaxonName2019=Platycercus venustus,^clo:speciescode2019=norros1])node70:0.499122,((otu2:0.116002[&otu=otu2,^ot:ottId=638633,^ot:ottTaxonName=Platycercus caledonicus,^ot:originalLabel=Platycercus_caledonicus,^clo:ClementsTaxonName2019=Platycercus caledonicus,^clo:speciescode2019=greros2],otu20:0.116002[&otu=otu20,^ot:ottId=224308,^ot:ottTaxonName=Platycercus elegans,^ot:originalLabel=Platycercus_elegans,^clo:ClementsTaxonName2019=Platycercus elegans,^clo:speciescode2019=criros2])node74:0.418705,otu16:0.534707[&otu=otu16,^ot:ottId=19460,^ot:ottTaxonName=Platycercus eximius,^ot:originalLabel=Platycercus_eximius,^clo:ClementsTaxonName2019=Platycercus eximius,^clo:speciescode2019=easros1])node73:0.128748)node69:0.096773,otu19:0.760228[&otu=otu19,^ot:ottId=512911,^ot:ottTaxonName=Platycercus icterotis,^ot:originalLabel=Platycercus_icterotis,^clo:ClementsTaxonName2019=Platycercus icterotis,^clo:speciescode2019=wesros1])node68:2.374594,otu12:3.134822[&otu=otu12,^ot:ottId=57350,^ot:ottTaxonName=Barnardius zonarius,^ot:originalLabel=Barnardius_zonarius,^clo:ClementsTaxonName2019=Barnardius zonarius,^clo:speciescode2019=polpar1])node67:0.991254,otu13:4.126076[&otu=otu13,^ot:ottId=14155,^ot:ottTaxonName=Psephotus varius,^ot:originalLabel=Psephotus_varius,^clo:ClementsTaxonName2019=Psephotus varius,^clo:speciescode2019=mulpar1])node66;
+END;
+

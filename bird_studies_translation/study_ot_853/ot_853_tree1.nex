@@ -1,0 +1,16 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=4;
+    TAXLABELS
+        otu4
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=534614,^ot:ottTaxonName=Pachycephala simplex,^ot:originalLabel=Pachycephala_simplex,^clo:ClementsTaxonName2019=Pachycephala simplex,^clo:speciescode2019=grywhi2],otu2[&otu=otu2,^ot:ottId=1013787,^ot:ottTaxonName=Pachycephala grisola,^ot:originalLabel=Pachycephala_grisola,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu3[&otu=otu3,^ot:ottId=896904,^ot:ottTaxonName=Pachycephala pectoralis,^ot:originalLabel=Pachycephala_pectoralis,^clo:ClementsTaxonName2019=Pachycephala pectoralis,^clo:speciescode2019=golwhi1],otu4[&otu=otu4,^ot:ottId=346148,^ot:ottTaxonName=Pachycephala melanura,^ot:originalLabel=Pachycephala_melanura,^clo:ClementsTaxonName2019=Pachycephala melanura,^clo:speciescode2019=bltwhi1])node4)node1;
+END;
+

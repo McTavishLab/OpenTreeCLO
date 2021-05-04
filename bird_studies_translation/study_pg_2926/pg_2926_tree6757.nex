@@ -1,0 +1,46 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=34;
+    TAXLABELS
+        otu433089
+        otu433088
+        otu433081
+        otu433080
+        otu433083
+        otu433082
+        otu433085
+        otu433084
+        otu433087
+        otu433086
+        otu433073
+        otu433074
+        otu433075
+        otu433076
+        otu433077
+        otu433070
+        otu433071
+        otu433058
+        otu433059
+        otu433057
+        otu433078
+        otu433079
+        otu433090
+        otu433066
+        otu433063
+        otu433062
+        otu433061
+        otu433060
+        otu433067
+        otu433072
+        otu433065
+        otu433064
+        otu433069
+        otu433068
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 1 Bayesian chronogram (mtDNA)' = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=Myr,branchLengthDescription=,tag={ingroup added;,rooted;},branchLengthMode=ot:time,messages=](((((otu433071:63.44956282942165[&otu=otu433071,^ot:ottId=1085740,^ot:ottTaxonName=Acanthisitta chloris,^ot:originalLabel=Acanthisitta_chloris,^clo:ClementsTaxonName2019=Acanthisitta chloris,^clo:speciescode2019=riflem1],otu433070:63.44956282942165[&otu=otu433070,^ot:ottId=708327,^ot:ottTaxonName=Taeniopygia guttata,^ot:originalLabel=Taeniopygia_guttata,^clo:ClementsTaxonName2019=Taeniopygia guttata,^clo:speciescode2019=zebfin2])node1176135:13.621717182131206,((otu433062:61.27407736841986[&otu=otu433062,^ot:ottId=821753,^ot:ottTaxonName=Arenaria interpres,^ot:originalLabel=Arenaria_interpres,^clo:ClementsTaxonName2019=Arenaria interpres,^clo:speciescode2019=rudtur],otu433063:61.27407736841986[&otu=otu433063,^ot:ottId=918965,^ot:ottTaxonName=Haematopus ater,^ot:originalLabel=Haematopus_ater,^clo:ClementsTaxonName2019=Haematopus ater,^clo:speciescode2019=blaoys1])node1176121:12.057373833484185,((otu433066:68.7879771498976[&otu=otu433066,^ot:ottId=1057044,^ot:ottTaxonName=Gavia stellata,^ot:originalLabel=Gavia_stellata,^clo:ClementsTaxonName2019=Gavia stellata,^clo:speciescode2019=retloo],(otu433067:66.84650616994243[&otu=otu433067,^ot:ottId=3595633,^ot:ottTaxonName=Aphrodroma brevirostris,^ot:originalLabel=Pterodroma_brevirostris,^clo:ClementsTaxonName2019=Aphrodroma brevirostris,^clo:speciescode2019=kerpet2],(otu433069:64.0162645146819[&otu=otu433069,^ot:ottId=363031,^ot:ottTaxonName=Ciconia ciconia,^ot:originalLabel=Ciconia_ciconia,^clo:ClementsTaxonName2019=Ciconia ciconia,^clo:speciescode2019=whisto1],otu433068:64.0162645146819[&otu=otu433068,^ot:ottId=494357,^ot:ottTaxonName=Pygoscelis adeliae,^ot:originalLabel=Pygoscelis_adeliae,^clo:ClementsTaxonName2019=Pygoscelis adeliae,^clo:speciescode2019=adepen1])node1176132:2.8302416552605507)node1176130:1.9414709799551702)node1176128:2.210797479280089,(otu433064:52.50345314709824[&otu=otu433064,^ot:ottId=609788,^ot:ottTaxonName=Apus apus,^ot:originalLabel=Apus_apus,^clo:ClementsTaxonName2019=Apus apus,^clo:speciescode2019=comswi],otu433065:52.50345314709824[&otu=otu433065,^ot:ottId=759410,^ot:ottTaxonName=Archilochus colubris,^ot:originalLabel=Archilochus_colubris,^clo:ClementsTaxonName2019=Archilochus colubris,^clo:speciescode2019=rthhum])node1176125:18.495321482079433)node1176124:2.332676572726342)node1176120:3.739828809648813)node1176119:11.852276935337756,((otu433058:57.49789869468811[&otu=otu433058,^ot:ottId=570956,^ot:ottTaxonName=Alectura lathami,^ot:originalLabel=Alectura_lathami,^clo:ClementsTaxonName2019=Alectura lathami,^clo:speciescode2019=ausbrt1],otu433057:57.49789869468811[&otu=otu433057,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1176111:15.466123756184857,(otu433061:62.69701551882164[&otu=otu433061,^ot:ottId=714464,^ot:ottTaxonName=Anseranas semipalmata,^ot:originalLabel=Anseranas_semipalmata,^clo:ClementsTaxonName2019=Anseranas semipalmata,^clo:speciescode2019=maggoo1],(otu433060:26.37121375968567[&otu=otu433060,^ot:ottId=765167,^ot:ottTaxonName=Anas platyrhynchos,^ot:originalLabel=Anas_platyrhynchos,^clo:ClementsTaxonName2019=Anas platyrhynchos,^clo:speciescode2019=mallar3],otu433059:26.37121375968567[&otu=otu433059,^ot:ottId=430239,^ot:ottTaxonName=Anser albifrons,^ot:originalLabel=Anser_albifrons,^clo:ClementsTaxonName2019=Anser albifrons,^clo:speciescode2019=gwfgoo])node1176115:36.32580175913596)node1176114:10.267006932051324)node1176110:15.959534496017653)node1176109:12.093024817983803,((((((otu433075:4.266748252373024[&otu=otu433075,^ot:ottId=402459,^ot:ottTaxonName=Casuarius bennetti,^ot:originalLabel=Casuarius_bennetti,^clo:ClementsTaxonName2019=Casuarius bennetti,^clo:speciescode2019=dwacas1],otu433076:4.266748252373024[&otu=otu433076,^ot:ottId=589152,^ot:ottTaxonName=Casuarius casuarius,^ot:originalLabel=Casuarius_casuarius,^clo:ClementsTaxonName2019=Casuarius casuarius,^clo:speciescode2019=soucas1])node1176147:22.52491745543269,otu433077:26.7916657078057[&otu=otu433077,^ot:ottId=829513,^ot:ottTaxonName=Dromaius novaehollandiae,^ot:originalLabel=Dromaius_novaehollandiae,^clo:ClementsTaxonName2019=Dromaius novaehollandiae,^clo:speciescode2019=emu1])node1176146:31.11447843124251,(((otu433082:2.9352013507905705[&otu=otu433082,^ot:ottId=241844,^ot:ottTaxonName=Apteryx owenii,^ot:originalLabel=Apteryx_owenii,^clo:ClementsTaxonName2019=Apteryx owenii,^clo:speciescode2019=liskiw1],otu433081:2.9352013507905705[&otu=otu433081,^ot:ottId=241836,^ot:ottTaxonName=Apteryx haastii,^ot:originalLabel=Apteryx_haastii,^clo:ClementsTaxonName2019=Apteryx haastii,^clo:speciescode2019=grskiw1])node1176157:5.62256743081562,otu433080:8.557768781606185[&otu=otu433080,^ot:ottId=748998,^ot:ottTaxonName=Apteryx australis mantelli,^ot:originalLabel=Apteryx_mantelli,^clo:ClementsTaxonName2019=Apteryx mantelli,^clo:speciescode2019=nibkiw1])node1176155:41.39349372147922,(otu433079:17.188410106646945[&otu=otu433079,^ot:ottId=84218,^ot:ottTaxonName=Mullerornis agilis,^ot:originalLabel=Mullerornis_agilis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu433078:17.188410106646945[&otu=otu433078,^ot:ottId=3600825,^ot:ottTaxonName=Aepyornis hildebrandti,^ot:originalLabel=Aepyornis_hildebrandti,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1176152:32.76285239643847)node1176151:7.954881635962806)node1176145:7.368741523669954,(((otu433086:3.395420811662016[&otu=otu433086,^ot:ottId=576651,^ot:ottTaxonName=Emeus crassus,^ot:originalLabel=Emeus_crassus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu433087:3.395420811662016[&otu=otu433087,^ot:ottId=816665,^ot:ottTaxonName=Anomalopteryx didiformis,^ot:originalLabel=Anomalopteryx_didiformis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1176167:4.295276112338559,otu433088:7.690696924000548[&otu=otu433088,^ot:ottId=576657,^ot:ottTaxonName=Dinornis giganteus,^ot:originalLabel=Dinornis_giganteus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1176166:50.315980341069526,(otu433083:41.86461249046177[&otu=otu433083,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1],(otu433084:32.120931285842595[&otu=otu433084,^ot:ottId=402466,^ot:ottTaxonName=Tinamus major,^ot:originalLabel=Tinamus_major,^clo:ClementsTaxonName2019=Tinamus major,^clo:speciescode2019=gretin1],otu433085:32.120931285842595[&otu=otu433085,^ot:ottId=758347,^ot:ottTaxonName=Crypturellus tataupa,^ot:originalLabel=Crypturellus_tataupa,^clo:ClementsTaxonName2019=Crypturellus tataupa,^clo:speciescode2019=tattin1])node1176163:9.74368120461915)node1176161:16.142064774608336)node1176160:7.268208397648095)node1176144:2.8291197186259467,(otu433073:8.582181715483351[&otu=otu433073,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2],otu433074:8.582181715483351[&otu=otu433074,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1])node1176141:59.52182366586076)node1176140:4.777280816684396,otu433072:72.88128619802853[&otu=otu433072,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node1176138:28.13529556684587)node1176108:143.50154691416435,(otu433090:72.00036789444346[&otu=otu433090,^ot:ottId=335590,^ot:ottTaxonName=Alligator mississippiensis,^ot:originalLabel=Alligator_mississippiensis,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],otu433089:72.00036789444346[&otu=otu433089,^ot:ottId=912130,^ot:ottTaxonName=Caiman crocodilus,^ot:originalLabel=Caiman_crocodilus,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1176171:172.5177607845951)node1176107;
+END;
+

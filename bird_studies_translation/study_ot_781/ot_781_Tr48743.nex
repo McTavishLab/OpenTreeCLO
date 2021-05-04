@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        Tl633549
+        Tl633548
+        Tl633529
+        Tl633528
+        Tl633527
+        Tl633526
+        Veniliornis_callonotus
+        Tl633524
+        Baillonius_bailloni
+        Veniliornis_nigriceps
+        Dryocopus_pileatus
+        Picoides_villosus
+        Colaptes_auratus
+        Tl633540
+        Tl633543
+        Tl633545
+        Tl633542
+        Piculus_rubiginosus
+        Campephilus_haematogaster
+        Tl633534
+        Tl633535
+        Colaptes_rupicola
+        Tl633537
+        Tl633530
+        Tl633531
+        Tl633532
+        Tl633533
+        Tl633554
+        Tl633555
+        Picumnus_aurifrons
+        Tl633553
+        Tl633550
+        Tl633551
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 6 (ML)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((((Tl633540:0.13168[&otu=Tl633540,^ot:ottId=1068258,^ot:ottTaxonName=Trachyphonus darnaudii,^ot:originalLabel=Trachyphonus_darnaudii,^clo:ClementsTaxonName2019=Trachyphonus darnaudii,^clo:speciescode2019=darbar1],((((Tl633531:0.051544[&otu=Tl633531,^ot:ottId=1068262,^ot:ottTaxonName=Ramphastos cuvieri,^ot:originalLabel=Ramphastos_tucanus_cuvieri,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl633529:0.066365[&otu=Tl633529,^ot:ottId=450962,^ot:ottTaxonName=Ramphastos culminatus,^ot:originalLabel=Ramphastos_vitellinus_culminatus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8173181:0.065026,(((Tl633528:0.054403[&otu=Tl633528,^ot:ottId=541992,^ot:ottTaxonName=Pteroglossus inscriptus,^ot:originalLabel=Pteroglossus_inscriptus,^clo:ClementsTaxonName2019=Pteroglossus inscriptus,^clo:speciescode2019=letara1],Tl633526:0.037051[&otu=Tl633526,^ot:ottId=291643,^ot:ottTaxonName=Pteroglossus castanotis,^ot:originalLabel=Pteroglossus_castanotis,^clo:ClementsTaxonName2019=Pteroglossus castanotis,^clo:speciescode2019=cheara1])Tn8173158:0.050194,(Tl633554:0.062033[&otu=Tl633554,^ot:ottId=1068267,^ot:ottTaxonName=Selenidera gouldii,^ot:originalLabel=Selenidera_gouldii,^clo:ClementsTaxonName2019=Selenidera gouldii,^clo:speciescode2019=goutou1],((Tl633555:0.027872[&otu=Tl633555,^ot:ottId=815703,^ot:ottTaxonName=Andigena hypoglauca,^ot:originalLabel=Andigena_hypoglauca,^clo:ClementsTaxonName2019=Andigena hypoglauca,^clo:speciescode2019=gybmot1],Tl633551:0.021233[&otu=Tl633551,^ot:ottId=848382,^ot:ottTaxonName=Andigena laminirostris,^ot:originalLabel=Andigena_laminirostris,^clo:ClementsTaxonName2019=Andigena laminirostris,^clo:speciescode2019=pbmtou1])Tn8173141:0.028718,Tl633527:0.055962[&otu=Tl633527,^ot:ottId=542001,^ot:ottTaxonName=Selenidera spectabilis,^ot:originalLabel=Selenidera_spectabilis,^clo:ClementsTaxonName2019=Selenidera spectabilis,^clo:speciescode2019=yeetou1])Tn8173178:0.008705)Tn8173179:0.020794)Tn8173182:0.009543,Tl633524:0.095369[&otu=Tl633524,^ot:ottId=764291,^ot:ottTaxonName=Aulacorhynchus derbianus,^ot:originalLabel=Aulacorhynchus_derbianus,^clo:ClementsTaxonName2019=Aulacorhynchus derbianus,^clo:speciescode2019=chttou3])Tn8173167:0.013934)Tn8173177:0.015611,((Tl633542:0.05599[&otu=Tl633542,^ot:ottId=541994,^ot:ottTaxonName=Eubucco richardsoni,^ot:originalLabel=Eubucco_richardsoni,^clo:ClementsTaxonName2019=Eubucco richardsoni,^clo:speciescode2019=letbar1],Tl633545:0.052998[&otu=Tl633545,^ot:ottId=541995,^ot:ottTaxonName=Eubucco bourcierii tucinkae,^ot:originalLabel=Eubucco_bourcierii_tucinkae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])Tn8173150:0.075571,(Tl633550:0.080579[&otu=Tl633550,^ot:ottId=1068254,^ot:ottTaxonName=Capito niger,^ot:originalLabel=Capito_niger,^clo:ClementsTaxonName2019=Capito niger,^clo:speciescode2019=blsbar1],(Tl633543:0[&otu=Tl633543,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi_2,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1],Tl633532:0[&otu=Tl633532,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi_1,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1])Tn8173159:0.092154)Tn8173155:0.087704)Tn8173161:0.022132)Tn8173174:0.014134,(Tl633537:0.069871[&otu=Tl633537,^ot:ottId=1068256,^ot:ottTaxonName=Semnornis ramphastinus,^ot:originalLabel=Semnornis_ramphastinus,^clo:ClementsTaxonName2019=Semnornis ramphastinus,^clo:speciescode2019=toubar1],Tl633535:0.043945[&otu=Tl633535,^ot:ottId=542000,^ot:ottTaxonName=Semnornis frantzii,^ot:originalLabel=Semnornis_frantzii,^clo:ClementsTaxonName2019=Semnornis frantzii,^clo:speciescode2019=prbbar1])Tn8173143:0.061298)Tn8173173:0.033843)Tn8173175:0.037139,(Tl633533:0.115686[&otu=Tl633533,^ot:ottId=291639,^ot:ottTaxonName=Pogoniulus bilineatus,^ot:originalLabel=Pogoniulus_bilineatus,^clo:ClementsTaxonName2019=Pogoniulus bilineatus,^clo:speciescode2019=yertin1],Tl633534:0.11388[&otu=Tl633534,^ot:ottId=291636,^ot:ottTaxonName=Lybius bidentatus,^ot:originalLabel=Lybius_bidentatus,^clo:ClementsTaxonName2019=Lybius bidentatus,^clo:speciescode2019=dotbar1])Tn8173156:0.033344)Tn8173171:0.008016,(Tl633530:0.063906[&otu=Tl633530,^ot:ottId=291637,^ot:ottTaxonName=Megalaima mystacophanos,^ot:originalLabel=Megalaima_mystacophanos,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],Tl633549:0.128041[&otu=Tl633549,^ot:ottId=291641,^ot:ottTaxonName=Psilopogon pyrolophus,^ot:originalLabel=Psilopogon_pyrolophus,^clo:ClementsTaxonName2019=Psilopogon pyrolophus,^clo:speciescode2019=fitbar1])Tn8173142:0.090047)Tn8173164:0.082032,(Tl633548:0.000637[&otu=Tl633548,^ot:ottId=744570,^ot:ottTaxonName=Sphyrapicus varius,^ot:originalLabel=Sphyrapicus_varius_1,^clo:ClementsTaxonName2019=Sphyrapicus varius,^clo:speciescode2019=yebsap],Tl633553:0.02573[&otu=Tl633553,^ot:ottId=744570,^ot:ottTaxonName=Sphyrapicus varius,^ot:originalLabel=Sphyrapicus_varius_2,^clo:ClementsTaxonName2019=Sphyrapicus varius,^clo:speciescode2019=yebsap])Tn8173183:0.082032)Tn8173154;
+END;
+

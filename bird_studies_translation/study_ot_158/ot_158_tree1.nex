@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=1020136,nearestTaxonMRCAName=Colaptes,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((otu11[&otu=otu11,^ot:ottId=733990,^ot:ottTaxonName=Colaptes auratus,^ot:originalLabel=Colaptes_auratus,^clo:ClementsTaxonName2019=Colaptes auratus,^clo:speciescode2019=norfli],(((otu10[&otu=otu10,^ot:ottId=1020134,^ot:ottTaxonName=Colaptes rupicola,^ot:originalLabel=Colaptes_rupicola,^clo:ClementsTaxonName2019=Colaptes rupicola,^clo:speciescode2019=andfli1],otu9[&otu=otu9,^ot:ottId=994333,^ot:ottTaxonName=Colaptes pitius,^ot:originalLabel=Colaptes_pitius,^clo:ClementsTaxonName2019=Colaptes pitius,^clo:speciescode2019=chifli1])node21,(otu7[&otu=otu7,^ot:ottId=3600177,^ot:ottTaxonName=Colaptes rivolii,^ot:originalLabel=Colaptes_rivolii,^clo:ClementsTaxonName2019=Colaptes rivolii,^clo:speciescode2019=crmwoo2],otu8[&otu=otu8,^ot:ottId=499950,^ot:ottTaxonName=Colaptes melanochloros,^ot:originalLabel=Colaptes_melanochloros,^clo:ClementsTaxonName2019=Colaptes melanochloros,^clo:speciescode2019=grbwoo3])node18)node17,((otu5[&otu=otu5,^ot:ottId=923815,^ot:ottTaxonName=Colaptes punctigula,^ot:originalLabel=Colaptes_punctigula,^clo:ClementsTaxonName2019=Colaptes punctigula,^clo:speciescode2019=spbwoo1],otu6[&otu=otu6,^ot:ottId=994349,^ot:ottTaxonName=Colaptes campestris,^ot:originalLabel=Colaptes_campestris,^clo:ClementsTaxonName2019=Colaptes campestris,^clo:speciescode2019=camfli1])node14,((otu4[&otu=otu4,^ot:ottId=3600178,^ot:ottTaxonName=Colaptes rubiginosus,^ot:originalLabel=Colaptes_rubiginosus_PERU,^clo:ClementsTaxonName2019=Colaptes rubiginosus,^clo:speciescode2019=goowoo1],otu3[&otu=otu3,^ot:ottId=290736,^ot:ottTaxonName=Colaptes atricollis,^ot:originalLabel=Colaptes_atricollis,^clo:ClementsTaxonName2019=Colaptes atricollis,^clo:speciescode2019=blnwoo1])node11,(otu1[&otu=otu1,^ot:ottId=3600178,^ot:ottTaxonName=Colaptes rubiginosus,^ot:originalLabel=Colaptes_rubiginosus_MEX,^clo:ClementsTaxonName2019=Colaptes rubiginosus,^clo:speciescode2019=goowoo1],otu2[&otu=otu2,^ot:ottId=3600179,^ot:ottTaxonName=Colaptes auricularis,^ot:originalLabel=Colaptes_auricularis,^clo:ClementsTaxonName2019=Colaptes auricularis,^clo:speciescode2019=grcwoo1])node8)node7)node6)node5)node4,otu12[&otu=otu12,^ot:ottId=838427,^ot:ottTaxonName=Colaptes fernandinae,^ot:originalLabel=Colaptes_fernandinae,^clo:ClementsTaxonName2019=Colaptes fernandinae,^clo:speciescode2019=ferfli1])node3,(otu15[&otu=otu15,^ot:ottId=149826,^ot:ottTaxonName=Piculus chrysochloros,^ot:originalLabel=Piculus_chrysochloros,^clo:ClementsTaxonName2019=Piculus chrysochloros,^clo:speciescode2019=gogwoo1],(otu14[&otu=otu14,^ot:ottId=876872,^ot:ottTaxonName=Piculus flavigula,^ot:originalLabel=Piculus_flavigula,^clo:ClementsTaxonName2019=Piculus flavigula,^clo:speciescode2019=yetwoo1],otu13[&otu=otu13,^ot:ottId=3600208,^ot:ottTaxonName=Piculus leucolalemus,^ot:originalLabel=Piculus_leucolalemus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node27)node26)node2,(otu16[&otu=otu16,^ot:ottId=724183,^ot:ottTaxonName=Celeus elegans,^ot:originalLabel=Celeus_elegans,^clo:ClementsTaxonName2019=Celeus elegans,^clo:speciescode2019=chewoo2],otu17[&otu=otu17,^ot:ottId=524497,^ot:ottTaxonName=Celeus flavus,^ot:originalLabel=Celeus_flavus,^clo:ClementsTaxonName2019=Celeus flavus,^clo:speciescode2019=crcwoo2])node31)node1;
+END;
+

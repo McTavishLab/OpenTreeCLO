@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 21_morphological_characters = [&unrootedTree=False,messages=,curatedType=Maximum parsimony ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](otu1[&otu=otu1,^ot:ottId=1057044,^ot:ottTaxonName=Gavia stellata,^ot:originalLabel=Gavia_stellata,^clo:ClementsTaxonName2019=Gavia stellata,^clo:speciescode2019=retloo],((otu2[&otu=otu2,^ot:ottId=1085739,^ot:ottTaxonName=Gavia arctica,^ot:originalLabel=Gavia_arctica,^clo:ClementsTaxonName2019=Gavia arctica,^clo:speciescode2019=arcloo],otu3[&otu=otu3,^ot:ottId=651474,^ot:ottTaxonName=Gavia pacifica,^ot:originalLabel=Gavia_pacifica,^clo:ClementsTaxonName2019=Gavia pacifica,^clo:speciescode2019=pacloo])node4,(otu5[&otu=otu5,^ot:ottId=1057518,^ot:ottTaxonName=Gavia immer,^ot:originalLabel=Gavia_immer,^clo:ClementsTaxonName2019=Gavia immer,^clo:speciescode2019=comloo],otu4[&otu=otu4,^ot:ottId=90560,^ot:ottTaxonName=Gavia adamsii,^ot:originalLabel=Gavia_adamsii,^clo:ClementsTaxonName2019=Gavia adamsii,^clo:speciescode2019=yebloo])node7)node3)node1;
+END;
+

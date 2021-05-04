@@ -1,0 +1,51 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Glaucidium peruanum	pepowl1	Glaucidium_peruanum	381775	Glaucidium peruanum
+otu2	Otus megalotis	phsowl1	Otus_megalotis	1086556	Otus megalotis
+otu20	Megascops cooperi	pasowl4	Megascops_cooperi	4131240	Megascops cooperi
+otu18	no_match	no_match	Megascops_asio_naevius	652699	Megascops asio naevius
+otu19	not_a_bird	not_a_bird	Megascops_kennicottii_yumanensis	None	None
+otu21	Megascops barbarus	besowl	Megascops_barbarus	4131239	Megascops barbarus
+otu23	Megascops sanctaecatarinae	lotsco1	Megascops_sanctaecatarinae2	5857169	Megascops sanctaecatarinae
+otu22	Megascops sanctaecatarinae	lotsco1	Megascops_sanctaecatarinae1	5857169	Megascops sanctaecatarinae
+otu37	not_a_bird	not_a_bird	Megascops_guatemalae_thompsoni	None	None
+otu38	not_a_bird	not_a_bird	Megascops_guatemalae_guatemalae	None	None
+otu32	not_a_bird	not_a_bird	Megascops_vermiculatus_napensis1	None	None
+otu33	not_a_bird	not_a_bird	Megascops_vermiculatus_napensis2	None	None
+otu34	not_a_bird	not_a_bird	Megascops_vermiculatus_roraimae1	None	None
+otu35	not_a_bird	not_a_bird	Megascops_vermiculatus_roraimae2	None	None
+otu36	not_a_bird	not_a_bird	Megascops_vermiculatus_vermiculatus	None	None
+otu30	Megascops roboratus	persco1	Megascops_roboratus	5857170	Megascops roboratus
+otu29	not_a_bird	not_a_bird	Megascops_watsonii_watsonii2	None	None
+otu27	not_a_bird	not_a_bird	Megascops_watsonii_watsonii1	None	None
+otu28	not_a_bird	not_a_bird	Megascops_watsonii_usta2	None	None
+otu26	not_a_bird	not_a_bird	Megascops_watsonii_usta1	None	None
+otu24	Megascops atricapilla	bkcsco1	Megascops_atricapilla1	4792	Megascops atricapilla
+otu25	Megascops atricapilla	bkcsco1	Megascops_atricapilla2	4792	Megascops atricapilla
+otu31	not_a_bird	not_a_bird	Megascops_sp._INC38770	None	None
+otu44	Megascops hoyi	mofsco1	Megascops_hoyi1	4806	Megascops hoyi
+otu45	Megascops hoyi	mofsco1	Megascops_hoyi2	4806	Megascops hoyi
+otu46	Megascops marshalli	clfsco1	Megascops_marshalli1	4131238	Megascops marshalli
+otu47	Megascops marshalli	clfsco1	Megascops_marshalli2	4131238	Megascops marshalli
+otu48	Megascops marshalli	clfsco1	Megascops_marshalli3	4131238	Megascops marshalli
+otu49	Megascops petersoni	cinsco1	Megascops_petersoni1	5857171	Megascops petersoni
+otu50	Megascops petersoni	cinsco1	Megascops_petersoni2	5857171	Megascops petersoni
+otu39	no_match	no_match	Megascops_colombianus	4131249	Megascops colombianus
+otu40	Megascops ingens	rufsco1	Megascops_ingens_Ecuador1	4131250	Megascops ingens
+otu41	Megascops ingens	rufsco1	Megascops_ingens_Ecuador2	4131250	Megascops ingens
+otu43	Megascops ingens	rufsco1	Megascops_ingens_Peru2	4131250	Megascops ingens
+otu42	Megascops ingens	rufsco1	Megascops_ingens_Peru1	4131250	Megascops ingens
+otu14	Megascops clarkii	bssowl	Megascops_clarkii1	1027748	Megascops clarkii
+otu15	Megascops clarkii	bssowl	Megascops_clarkii2	1027748	Megascops clarkii
+otu16	not_a_bird	not_a_bird	Megascops_trichopsis_trichopsis	None	None
+otu17	not_a_bird	not_a_bird	Megascops_trichopsis_mesoamericanus	None	None
+otu12	not_a_bird	not_a_bird	Megascops_choliba_duidae2	None	None
+otu11	not_a_bird	not_a_bird	Megascops_choliba_duidae1	None	None
+otu10	not_a_bird	not_a_bird	Megascops_choliba_choliba	None	None
+otu9	not_a_bird	not_a_bird	Megascops_choliba_suturutus	None	None
+otu13	Megascops koepckeae	koesco1	Megascops_koepckeae	851808	Megascops koepckeae
+otu7	not_a_bird	not_a_bird	Megascops_albogularis_remotus	None	None
+otu8	not_a_bird	not_a_bird	Megascops_albogularis_aequatorialis	None	None
+otu5	Psiloscops flammeolus	flaowl	Psiloscops_flammeolus	178676	Otus flammeolus
+otu6	not_a_bird	not_a_bird	Megascops_nudipes_nudipes	None	None
+otu3	Asio clamator	strowl1	Asio_clamator	1023137	Pseudoscops clamator
+otu4	not_a_bird	not_a_bird	Lophostrix_cristatus	None	None

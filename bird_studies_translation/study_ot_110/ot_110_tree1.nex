@@ -1,0 +1,30 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=](((((((otu5:0.171[&otu=otu5,^ot:ottId=931158,^ot:ottTaxonName=Oenanthe lugens halophila,^ot:originalLabel=Oenanthe_lugens_halophila,^clo:ClementsTaxonName2019=Oenanthe lugens halophila,^clo:speciescode2019=mouwhe6],(otu4:0.032[&otu=otu4,^ot:ottId=5266896,^ot:ottTaxonName=Oenanthe lugens warriae,^ot:originalLabel=Oenanthe_lugens_warriae,^clo:ClementsTaxonName2019=Oenanthe lugens warriae,^clo:speciescode2019=mouwhe7],otu3:0.032[&otu=otu3,^ot:ottId=931164,^ot:ottTaxonName=Oenanthe lugens lugens,^ot:originalLabel=Oenanthe_lugens_lugens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node11:0.139)node10:0.113,otu6:0.284[&otu=otu6,^ot:ottId=360884,^ot:ottTaxonName=Oenanthe persica,^ot:originalLabel=Oenanthe_persica,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node9:0.2,(otu1:0.113[&otu=otu1,^ot:ottId=936546,^ot:ottTaxonName=Oenanthe chrysopygia,^ot:originalLabel=Oenanthe_chrysopygia,^clo:ClementsTaxonName2019=Oenanthe chrysopygia,^clo:speciescode2019=retwhe2],otu2:0.113[&otu=otu2,^ot:ottId=936543,^ot:ottTaxonName=Oenanthe xanthoprymna,^ot:originalLabel=Oenanthe_xanthoprymna,^clo:ClementsTaxonName2019=Oenanthe xanthoprymna,^clo:speciescode2019=retwhe3])node6:0.371)node5:1.475,otu7:1.959[&otu=otu7,^ot:ottId=410726,^ot:ottTaxonName=Oenanthe finschii,^ot:originalLabel=Oenanthe_finschii,^clo:ClementsTaxonName2019=Oenanthe finschii,^clo:speciescode2019=finwhe1])node4:1.279,otu8:3.238[&otu=otu8,^ot:ottId=410709,^ot:ottTaxonName=Oenanthe albonigra,^ot:originalLabel=Oenanthe_albonigra,^clo:ClementsTaxonName2019=Oenanthe albonigra,^clo:speciescode2019=humwhe2])node3:1.408,(((((otu10:0.31[&otu=otu10,^ot:ottId=931169,^ot:ottTaxonName=Oenanthe schalowi,^ot:originalLabel=Oenanthe_lugubris_schalowi,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9:0.31[&otu=otu9,^ot:ottId=5266899,^ot:ottTaxonName=Oenanthe lugubris lugubris,^ot:originalLabel=Oenanthe_lugubris_lugubris,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node22:0.302,otu11:0.612[&otu=otu11,^ot:ottId=5266900,^ot:ottTaxonName=Oenanthe lugubris vauriei,^ot:originalLabel=Oenanthe_lugubris_vauriei,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node21:1.647,(otu13:0.151[&otu=otu13,^ot:ottId=5266898,^ot:ottTaxonName=Oenanthe lugentoides lugentoides,^ot:originalLabel=Oenanthe_lugentoides_lugentoides,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu12:0.151[&otu=otu12,^ot:ottId=5266897,^ot:ottTaxonName=Oenanthe lugentoides boscaweni,^ot:originalLabel=Oenanthe_lugentoides_boscaweni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node26:2.108)node20:1.383,otu14:3.642[&otu=otu14,^ot:ottId=410713,^ot:ottTaxonName=Oenanthe leucura,^ot:originalLabel=Oenanthe_leucura,^clo:ClementsTaxonName2019=Oenanthe leucura,^clo:speciescode2019=blawhe1])node19:0.469,(otu15:1.863[&otu=otu15,^ot:ottId=256338,^ot:ottTaxonName=Oenanthe leucopyga leucopyga,^ot:originalLabel=Oenanthe_leucopyga_leucopyga,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu16:1.863[&otu=otu16,^ot:ottId=256332,^ot:ottTaxonName=Oenanthe leucopyga ernesti,^ot:originalLabel=Oenanthe_leucopyga_ernesti,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node30:2.248)node18:0.535)node2:1.107,(otu18:4.314[&otu=otu18,^ot:ottId=936539,^ot:ottTaxonName=Oenanthe picata,^ot:originalLabel=Oenanthe_picata,^clo:ClementsTaxonName2019=Oenanthe picata,^clo:speciescode2019=varwhe1],otu17:4.314[&otu=otu17,^ot:ottId=434289,^ot:ottTaxonName=Cercomela fusca,^ot:originalLabel=Cercomela_fusca,^clo:ClementsTaxonName2019=Oenanthe fusca,^clo:speciescode2019=indcha1])node33:1.439)node1;
+END;
+

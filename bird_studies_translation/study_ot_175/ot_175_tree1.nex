@@ -1,0 +1,29 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=513100,nearestTaxonMRCAName=Stenostiridae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((((otu5[&otu=otu5,^ot:ottId=570978,^ot:ottTaxonName=Elminia longicauda,^ot:originalLabel=Elminia_longicauda_1,^clo:ClementsTaxonName2019=Elminia longicauda,^clo:speciescode2019=afbfly1],otu6[&otu=otu6,^ot:ottId=570978,^ot:ottTaxonName=Elminia longicauda,^ot:originalLabel=Elminia_longicauda_2,^clo:ClementsTaxonName2019=Elminia longicauda,^clo:speciescode2019=afbfly1],(otu4[&otu=otu4,^ot:ottId=949780,^ot:ottTaxonName=Elminia albicauda,^ot:originalLabel=Elminia_albicauda_4,^clo:ClementsTaxonName2019=Elminia albicauda,^clo:speciescode2019=wtbfly1],(otu1[&otu=otu1,^ot:ottId=949780,^ot:ottTaxonName=Elminia albicauda,^ot:originalLabel=Elminia_albicauda_1,^clo:ClementsTaxonName2019=Elminia albicauda,^clo:speciescode2019=wtbfly1],otu2[&otu=otu2,^ot:ottId=949780,^ot:ottTaxonName=Elminia albicauda,^ot:originalLabel=Elminia_albicauda_2,^clo:ClementsTaxonName2019=Elminia albicauda,^clo:speciescode2019=wtbfly1],otu3[&otu=otu3,^ot:ottId=949780,^ot:ottTaxonName=Elminia albicauda,^ot:originalLabel=Elminia_albicauda_3,^clo:ClementsTaxonName2019=Elminia albicauda,^clo:speciescode2019=wtbfly1])node8)node7)node6)node5,((otu13[&otu=otu13,^ot:ottId=542035,^ot:ottTaxonName=Elminia nigromitrata,^ot:originalLabel=Elminia_nigromitrata_2,^clo:ClementsTaxonName2019=Elminia nigromitrata,^clo:speciescode2019=ducfly1],otu12[&otu=otu12,^ot:ottId=542035,^ot:ottTaxonName=Elminia nigromitrata,^ot:originalLabel=Elminia_nigromitrata_1,^clo:ClementsTaxonName2019=Elminia nigromitrata,^clo:speciescode2019=ducfly1])node25,((otu11[&otu=otu11,^ot:ottId=949771,^ot:ottTaxonName=Elminia albiventris,^ot:originalLabel=Elminia_albiventris_2,^clo:ClementsTaxonName2019=Elminia albiventris,^clo:speciescode2019=wbcfly1],otu10[&otu=otu10,^ot:ottId=949771,^ot:ottTaxonName=Elminia albiventris,^ot:originalLabel=Elminia_albiventris_1,^clo:ClementsTaxonName2019=Elminia albiventris,^clo:speciescode2019=wbcfly1])node22,(otu9[&otu=otu9,^ot:ottId=1042774,^ot:ottTaxonName=Elminia albonotata,^ot:originalLabel=Elminia_albonotata_3,^clo:ClementsTaxonName2019=Elminia albonotata,^clo:speciescode2019=wtcfly1],(otu7[&otu=otu7,^ot:ottId=1042774,^ot:ottTaxonName=Elminia albonotata,^ot:originalLabel=Elminia_albonotata_1,^clo:ClementsTaxonName2019=Elminia albonotata,^clo:speciescode2019=wtcfly1],otu8[&otu=otu8,^ot:ottId=1042774,^ot:ottTaxonName=Elminia albonotata,^ot:originalLabel=Elminia_albonotata_2,^clo:ClementsTaxonName2019=Elminia albonotata,^clo:speciescode2019=wtcfly1])node18)node17)node16)node15)node4,(otu15[&otu=otu15,^ot:ottId=72478,^ot:ottTaxonName=Culicicapa ceylonensis,^ot:originalLabel=Culicicapa_ceylonensis,^clo:ClementsTaxonName2019=Culicicapa ceylonensis,^clo:speciescode2019=gyhcaf1],otu14[&otu=otu14,^ot:ottId=72472,^ot:ottTaxonName=Culicicapa helianthea,^ot:originalLabel=Culicicapa_helianthea,^clo:ClementsTaxonName2019=Culicicapa helianthea,^clo:speciescode2019=citcaf1])node28)node3,otu16[&otu=otu16,^ot:ottId=158197,^ot:ottTaxonName=Stenostira scita,^ot:originalLabel=Stenostira_scita,^clo:ClementsTaxonName2019=Stenostira scita,^clo:speciescode2019=faifly1])node2,otu17[&otu=otu17,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=outgroups,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1;
+END;
+

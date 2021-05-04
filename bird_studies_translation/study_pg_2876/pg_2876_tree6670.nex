@@ -1,0 +1,67 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=55;
+    TAXLABELS
+        otu427224
+        otu427225
+        otu427226
+        otu427227
+        otu427220
+        otu427221
+        otu427208
+        otu427209
+        otu427206
+        otu427207
+        otu427204
+        otu427205
+        otu427202
+        otu427203
+        otu427200
+        otu427201
+        otu427235
+        otu427243
+        otu427240
+        otu427241
+        otu427246
+        otu427247
+        otu427244
+        otu427245
+        otu427237
+        otu427248
+        otu427249
+        otu427236
+        otu427222
+        otu427238
+        otu427223
+        otu427234
+        otu427197
+        otu427239
+        otu427233
+        otu427232
+        otu427231
+        otu427230
+        otu427219
+        otu427218
+        otu427198
+        otu427199
+        otu427215
+        otu427214
+        otu427217
+        otu427216
+        otu427211
+        otu427210
+        otu427213
+        otu427212
+        otu427251
+        otu427250
+        otu427228
+        otu427242
+        otu427229
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3_MP_implied_weights = [&unrootedTree=False,curatedType=Maximum parsimony ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=](otu427251[&otu=otu427251,^ot:ottId=837568,^ot:ottTaxonName=Megapodius freycinet,^ot:originalLabel=Megapodius_freycinet,^clo:ClementsTaxonName2019=Megapodius freycinet,^clo:speciescode2019=dusscr2],((((((otu427237[&otu=otu427237,^ot:ottId=224379,^ot:ottTaxonName=Rhynchotus rufescens,^ot:originalLabel=Rhynchotus_rufescens,^clo:ClementsTaxonName2019=Rhynchotus rufescens,^clo:speciescode2019=rewtin1],otu427238[&otu=otu427238,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Rhynchotus_rufescens_pallescens,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1162399,otu427239[&otu=otu427239,^ot:ottId=3600787,^ot:ottTaxonName=Rhynchotus maculicollis,^ot:originalLabel=Rhynchotus_rufescens_macullicollis,^clo:ClementsTaxonName2019=Rhynchotus maculicollis,^clo:speciescode2019=huatin1])node1162398,(((((otu427223[&otu=otu427223,^ot:ottId=3600805,^ot:ottTaxonName=Nothoprocta pentlandii,^ot:originalLabel=Nothoprocta_pentlandii,^clo:ClementsTaxonName2019=Nothoprocta pentlandii,^clo:speciescode2019=andtin1],otu427224[&otu=otu427224,^ot:ottId=3600803,^ot:ottTaxonName=Nothoprocta taczanowskii,^ot:originalLabel=Nothoprocta_taczanowskii,^clo:ClementsTaxonName2019=Nothoprocta taczanowskii,^clo:speciescode2019=tactin1])node1162375,(otu427226[&otu=otu427226,^ot:ottId=402446,^ot:ottTaxonName=Nothoprocta perdicaria,^ot:originalLabel=Nothoprocta_perdicaria,^clo:ClementsTaxonName2019=Nothoprocta perdicaria,^clo:speciescode2019=chitin1],otu427225[&otu=otu427225,^ot:ottId=3600806,^ot:ottTaxonName=Nothoprocta curvirostris,^ot:originalLabel=Nothoprocta_curvirostris,^clo:ClementsTaxonName2019=Nothoprocta curvirostris,^clo:speciescode2019=cubtin1])node1162378)node1162374,(otu427228[&otu=otu427228,^ot:ottId=332613,^ot:ottTaxonName=Nothoprocta ornata,^ot:originalLabel=Nothoprocta_ornata,^clo:ClementsTaxonName2019=Nothoprocta ornata,^clo:speciescode2019=orntin1],otu427227[&otu=otu427227,^ot:ottId=3600804,^ot:ottTaxonName=Nothoprocta kalinowskii,^ot:originalLabel=Nothoprocta_kalinowskii,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1162381)node1162373,otu427229[&otu=otu427229,^ot:ottId=292464,^ot:ottTaxonName=Nothoprocta cinerascens,^ot:originalLabel=Nothoprocta_cinerascens,^clo:ClementsTaxonName2019=Nothoprocta cinerascens,^clo:speciescode2019=brutin1])node1162372,((((((otu427230[&otu=otu427230,^ot:ottId=892276,^ot:ottTaxonName=Nothura maculosa,^ot:originalLabel=Nothura_maculosa,^clo:ClementsTaxonName2019=Nothura maculosa,^clo:speciescode2019=sponot1],otu427231[&otu=otu427231,^ot:ottId=3600802,^ot:ottTaxonName=Nothura chacoensis,^ot:originalLabel=Nothura_chacoensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1162390,otu427232[&otu=otu427232,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Nothura_sp.,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1162389,otu427233[&otu=otu427233,^ot:ottId=892275,^ot:ottTaxonName=Nothura darwinii,^ot:originalLabel=Nothura_darwinii,^clo:ClementsTaxonName2019=Nothura darwinii,^clo:speciescode2019=darnot1])node1162388,otu427234[&otu=otu427234,^ot:ottId=3600800,^ot:ottTaxonName=Nothura minor,^ot:originalLabel=Nothura_minor,^clo:ClementsTaxonName2019=Nothura minor,^clo:speciescode2019=lesnot1])node1162387,otu427235[&otu=otu427235,^ot:ottId=3600801,^ot:ottTaxonName=Nothura boraquira,^ot:originalLabel=Nothura_boraquira,^clo:ClementsTaxonName2019=Nothura boraquira,^clo:speciescode2019=whbnot1])node1162386,otu427236[&otu=otu427236,^ot:ottId=3600811,^ot:ottTaxonName=Taoniscus nanus,^ot:originalLabel=Taoniscus_nanus,^clo:ClementsTaxonName2019=Taoniscus nanus,^clo:speciescode2019=dwatin1])node1162385)node1162371)node1162370,((otu427240[&otu=otu427240,^ot:ottId=599077,^ot:ottTaxonName=Tinamotis ingoufi,^ot:originalLabel=Tinamotis_ingoufi,^clo:ClementsTaxonName2019=Tinamotis ingoufi,^clo:speciescode2019=pattin1],otu427241[&otu=otu427241,^ot:ottId=599078,^ot:ottTaxonName=Tinamotis pentlandii,^ot:originalLabel=Tinamotis_pentlandii,^clo:ClementsTaxonName2019=Tinamotis pentlandii,^clo:speciescode2019=puntin1])node1162404,((otu427242[&otu=otu427242,^ot:ottId=292461,^ot:ottTaxonName=Eudromia elegans,^ot:originalLabel=Eudromia_elegans,^clo:ClementsTaxonName2019=Eudromia elegans,^clo:speciescode2019=elctin1],otu427243[&otu=otu427243,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Eudromia_elegans_albida,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node1162408,otu427244[&otu=otu427244,^ot:ottId=784522,^ot:ottTaxonName=Eudromia formosa,^ot:originalLabel=Eudromia_formosa,^clo:ClementsTaxonName2019=Eudromia formosa,^clo:speciescode2019=quctin1])node1162407)node1162403)node1162369,(((otu427219[&otu=otu427219,^ot:ottId=402466,^ot:ottTaxonName=Tinamus major,^ot:originalLabel=Tinamus_major,^clo:ClementsTaxonName2019=Tinamus major,^clo:speciescode2019=gretin1],otu427218[&otu=otu427218,^ot:ottId=306216,^ot:ottTaxonName=Tinamus guttatus,^ot:originalLabel=Tinamus_guttatus,^clo:ClementsTaxonName2019=Tinamus guttatus,^clo:speciescode2019=whttin1])node1162361,(otu427222[&otu=otu427222,^ot:ottId=3600786,^ot:ottTaxonName=Tinamus osgoodi,^ot:originalLabel=Tinamus_osgoodi,^clo:ClementsTaxonName2019=Tinamus osgoodi,^clo:speciescode2019=blatin1],(otu427221[&otu=otu427221,^ot:ottId=466704,^ot:ottTaxonName=Tinamus tao,^ot:originalLabel=Tinamus_tao,^clo:ClementsTaxonName2019=Tinamus tao,^clo:speciescode2019=grytin1],otu427220[&otu=otu427220,^ot:ottId=3600785,^ot:ottTaxonName=Tinamus solitarius,^ot:originalLabel=Tinamus_solitarius,^clo:ClementsTaxonName2019=Tinamus solitarius,^clo:speciescode2019=soltin1])node1162365)node1162364)node1162360,((((otu427214[&otu=otu427214,^ot:ottId=758347,^ot:ottTaxonName=Crypturellus tataupa,^ot:originalLabel=Crypturellus_tataupa,^clo:ClementsTaxonName2019=Crypturellus tataupa,^clo:speciescode2019=tattin1],otu427215[&otu=otu427215,^ot:ottId=379420,^ot:ottTaxonName=Crypturellus parvirostris,^ot:originalLabel=Crypturellus_parvirostris,^clo:ClementsTaxonName2019=Crypturellus parvirostris,^clo:speciescode2019=smbtin1])node1162355,otu427216[&otu=otu427216,^ot:ottId=983480,^ot:ottTaxonName=Crypturellus obsoletus,^ot:originalLabel=Crypturellus_obsoletus,^clo:ClementsTaxonName2019=Crypturellus obsoletus,^clo:speciescode2019=brotin1])node1162354,(((otu427211[&otu=otu427211,^ot:ottId=3600796,^ot:ottTaxonName=Crypturellus berlepschi,^ot:originalLabel=Crypturellus_berlepschi,^clo:ClementsTaxonName2019=Crypturellus berlepschi,^clo:speciescode2019=bertin1],otu427212[&otu=otu427212,^ot:ottId=647586,^ot:ottTaxonName=Crypturellus cinereus,^ot:originalLabel=Crypturellus_cinereus,^clo:ClementsTaxonName2019=Crypturellus cinereus,^clo:speciescode2019=cintin1])node1162350,otu427213[&otu=otu427213,^ot:ottId=3600793,^ot:ottTaxonName=Crypturellus ptaritepui,^ot:originalLabel=Crypturellus_ptaritepui,^clo:ClementsTaxonName2019=Crypturellus ptaritepui,^clo:speciescode2019=teptin1])node1162349,(((((otu427203[&otu=otu427203,^ot:ottId=3600790,^ot:ottTaxonName=Crypturellus duidae,^ot:originalLabel=Crypturellus_duidae,^clo:ClementsTaxonName2019=Crypturellus duidae,^clo:speciescode2019=gyltin1],((((otu427197[&otu=otu427197,^ot:ottId=647584,^ot:ottTaxonName=Crypturellus brevirostris,^ot:originalLabel=Crypturellus_brevirostris,^clo:ClementsTaxonName2019=Crypturellus brevirostris,^clo:speciescode2019=rustin1],otu427198[&otu=otu427198,^ot:ottId=3600798,^ot:ottTaxonName=Crypturellus bartletti,^ot:originalLabel=Crypturellus_bartletti,^clo:ClementsTaxonName2019=Crypturellus bartletti,^clo:speciescode2019=bartin2])node1162331,otu427199[&otu=otu427199,^ot:ottId=3600788,^ot:ottTaxonName=Crypturellus casiquiare,^ot:originalLabel=Crypturellus_casiquiare,^clo:ClementsTaxonName2019=Crypturellus casiquiare,^clo:speciescode2019=bartin1])node1162330,otu427201[&otu=otu427201,^ot:ottId=3600789,^ot:ottTaxonName=Crypturellus noctivagus,^ot:originalLabel=Crypturellus_noctivagus,^clo:ClementsTaxonName2019=Crypturellus noctivagus,^clo:speciescode2019=yeltin1],otu427200[&otu=otu427200,^ot:ottId=983483,^ot:ottTaxonName=Crypturellus variegatus,^ot:originalLabel=Crypturellus_variegatus,^clo:ClementsTaxonName2019=Crypturellus variegatus,^clo:speciescode2019=vartin1])node1162329,otu427202[&otu=otu427202,^ot:ottId=589927,^ot:ottTaxonName=Crypturellus erythropus,^ot:originalLabel=Crypturellus_erythropus,^clo:ClementsTaxonName2019=Crypturellus erythropus,^clo:speciescode2019=reltin1])node1162328)node1162327,otu427204[&otu=otu427204,^ot:ottId=3600795,^ot:ottTaxonName=Crypturellus atrocapillus,^ot:originalLabel=Crypturellus_atrocapillus,^clo:ClementsTaxonName2019=Crypturellus atrocapillus,^clo:speciescode2019=blctin1])node1162326,otu427205[&otu=otu427205,^ot:ottId=960236,^ot:ottTaxonName=Crypturellus soui,^ot:originalLabel=Crypturellus_soui,^clo:ClementsTaxonName2019=Crypturellus soui,^clo:speciescode2019=littin1])node1162325,(otu427209[&otu=otu427209,^ot:ottId=167137,^ot:ottTaxonName=Crypturellus strigulosus,^ot:originalLabel=Crypturellus_strigulosus,^clo:ClementsTaxonName2019=Crypturellus strigulosus,^clo:speciescode2019=bratin1],(otu427208[&otu=otu427208,^ot:ottId=870607,^ot:ottTaxonName=Crypturellus undulatus,^ot:originalLabel=Crypturellus_undulatus,^clo:ClementsTaxonName2019=Crypturellus undulatus,^clo:speciescode2019=undtin1],(otu427207[&otu=otu427207,^ot:ottId=3600791,^ot:ottTaxonName=Crypturellus cinnamomeus,^ot:originalLabel=Crypturellus_cinnamomeus,^clo:ClementsTaxonName2019=Crypturellus cinnamomeus,^clo:speciescode2019=thitin1],otu427206[&otu=otu427206,^ot:ottId=3600794,^ot:ottTaxonName=Crypturellus transfasciatus,^ot:originalLabel=Crypturellus_transfasciatus,^clo:ClementsTaxonName2019=Crypturellus transfasciatus,^clo:speciescode2019=pabtin1])node1162343)node1162342)node1162341)node1162324,otu427210[&otu=otu427210,^ot:ottId=3600799,^ot:ottTaxonName=Crypturellus boucardi,^ot:originalLabel=Crypturellus_boucardi,^clo:ClementsTaxonName2019=Crypturellus boucardi,^clo:speciescode2019=slbtin1])node1162323)node1162322)node1162321,otu427217[&otu=otu427217,^ot:ottId=3600797,^ot:ottTaxonName=Crypturellus kerriae,^ot:originalLabel=Crypturellus_kerriae,^clo:ClementsTaxonName2019=Crypturellus kerriae,^clo:speciescode2019=chotin1])node1162320)node1162319)node1162318,(((otu427248[&otu=otu427248,^ot:ottId=816655,^ot:ottTaxonName=Dinornis,^ot:originalLabel=Dinornis_sp.,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu427247[&otu=otu427247,^ot:ottId=402459,^ot:ottTaxonName=Casuarius bennetti,^ot:originalLabel=Casuarius_bennetti,^clo:ClementsTaxonName2019=Casuarius bennetti,^clo:speciescode2019=dwacas1])node1162417,(otu427250[&otu=otu427250,^ot:ottId=241834,^ot:ottTaxonName=Apteryx australis,^ot:originalLabel=Apteryx_australis,^clo:ClementsTaxonName2019=Apteryx australis,^clo:speciescode2019=sobkiw1],otu427249[&otu=otu427249,^ot:ottId=647692,^ot:ottTaxonName=Struthio camelus,^ot:originalLabel=Struthio_camelus,^clo:ClementsTaxonName2019=Struthio camelus,^clo:speciescode2019=ostric2])node1162420)node1162416,(otu427246[&otu=otu427246,^ot:ottId=857864,^ot:ottTaxonName=Rhea americana,^ot:originalLabel=Rhea_americana,^clo:ClementsTaxonName2019=Rhea americana,^clo:speciescode2019=grerhe1],otu427245[&otu=otu427245,^ot:ottId=857860,^ot:ottTaxonName=Pterocnemia pennata,^ot:originalLabel=Pterocnemia_pennata,^clo:ClementsTaxonName2019=Rhea pennata,^clo:speciescode2019=lesrhe2])node1162413)node1162412)node1162317)node1162316;
+END;
+

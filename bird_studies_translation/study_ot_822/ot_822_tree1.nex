@@ -1,0 +1,18 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+        otu6
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=113980,^ot:ottTaxonName=Luscinia luscinia,^ot:originalLabel=Luscinia_luscinia,^clo:ClementsTaxonName2019=Luscinia luscinia,^clo:speciescode2019=thrnig1],(otu2[&otu=otu2,^ot:ottId=170383,^ot:ottTaxonName=Saxicola rubetra,^ot:originalLabel=Saxicola_rubetra,^clo:ClementsTaxonName2019=Saxicola rubetra,^clo:speciescode2019=whinch1],(otu3[&otu=otu3,^ot:ottId=811035,^ot:ottTaxonName=Saxicola caprata,^ot:originalLabel=Saxicola_caprata,^clo:ClementsTaxonName2019=Saxicola caprata,^clo:speciescode2019=piebus1],(otu5[&otu=otu5,^ot:ottId=811041,^ot:ottTaxonName=Saxicola tectes,^ot:originalLabel=Saxicola_tectes,^clo:ClementsTaxonName2019=Saxicola tectes,^clo:speciescode2019=reusto1],otu6[&otu=otu6,^ot:ottId=825647,^ot:ottTaxonName=Saxicola dacotiae,^ot:originalLabel=Saxicola_dacotiae,^clo:ClementsTaxonName2019=Saxicola dacotiae,^clo:speciescode2019=caisto1],otu4[&otu=otu4,^ot:ottId=825641,^ot:ottTaxonName=Saxicola torquata,^ot:originalLabel=Saxicola_torquata,^clo:ClementsTaxonName2019=Saxicola torquatus,^clo:speciescode2019=afrsto1])node7)node5)node3)node1;
+END;
+

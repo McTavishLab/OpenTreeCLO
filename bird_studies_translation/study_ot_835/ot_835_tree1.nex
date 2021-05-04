@@ -1,0 +1,39 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](otu1[&otu=otu1,^ot:ottId=839181,^ot:ottTaxonName=Megaceryle alcyon,^ot:originalLabel=Megaceryle_alcyon,^clo:ClementsTaxonName2019=Megaceryle alcyon,^clo:speciescode2019=belkin1],otu2[&otu=otu2,^ot:ottId=1039522,^ot:ottTaxonName=Chloroceryle americana,^ot:originalLabel=Chloroceryle_americana,^clo:ClementsTaxonName2019=Chloroceryle americana,^clo:speciescode2019=grnkin],otu3[&otu=otu3,^ot:ottId=589619,^ot:ottTaxonName=Pelargopsis capensis,^ot:originalLabel=Pelargopsis_capensis,^clo:ClementsTaxonName2019=Pelargopsis capensis,^clo:speciescode2019=stbkin1],otu4[&otu=otu4,^ot:ottId=551379,^ot:ottTaxonName=Halcyon malimbica,^ot:originalLabel=Halcyon_malimbica,^clo:ClementsTaxonName2019=Halcyon malimbica,^clo:speciescode2019=blbkin4],(((otu27[&otu=otu27,^ot:ottId=1061846,^ot:ottTaxonName=Ceyx lecontei,^ot:originalLabel=Ceyx_lecontei,^clo:ClementsTaxonName2019=Ispidina lecontei,^clo:speciescode2019=dwakin1],otu26[&otu=otu26,^ot:ottId=1097691,^ot:ottTaxonName=Ceyx pictus,^ot:originalLabel=Ispidina_picta,^clo:ClementsTaxonName2019=Ispidina picta,^clo:speciescode2019=afpkin1])node48,(otu22[&otu=otu22,^ot:ottId=1061838,^ot:ottTaxonName=Ceyx madagascariensis,^ot:originalLabel=Ceyx_madagascariensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],((otu24[&otu=otu24,^ot:ottId=26086,^ot:ottTaxonName=Alcedo vintsioides,^ot:originalLabel=Alcedo_vintsioides,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25[&otu=otu25,^ot:ottId=651469,^ot:ottTaxonName=Alcedo cristata,^ot:originalLabel=Alcedo_cristata,^clo:ClementsTaxonName2019=Corythornis cristatus,^clo:speciescode2019=malkin1])node45,otu23[&otu=otu23,^ot:ottId=26087,^ot:ottTaxonName=Alcedo leucogaster,^ot:originalLabel=Alcedo_leucogaster,^clo:ClementsTaxonName2019=Corythornis leucogaster,^clo:speciescode2019=whbkin1])node43)node41)node40,(((((otu15[&otu=otu15,^ot:ottId=838174,^ot:ottTaxonName=Alcedo websteri,^ot:originalLabel=Alcedo_websteri,^clo:ClementsTaxonName2019=Ceyx websteri,^clo:speciescode2019=biskin1],otu14[&otu=otu14,^ot:ottId=1061841,^ot:ottTaxonName=Alcedo azurea,^ot:originalLabel=Alcedo_azurea,^clo:ClementsTaxonName2019=Ceyx azureus,^clo:speciescode2019=azukin1])node26,otu13[&otu=otu13,^ot:ottId=838167,^ot:ottTaxonName=Alcedo pusilla,^ot:originalLabel=Alcedo_pusilla,^clo:ClementsTaxonName2019=Ceyx pusillus,^clo:speciescode2019=litkin1])node24,(otu16[&otu=otu16,^ot:ottId=931027,^ot:ottTaxonName=Ceyx melanurus,^ot:originalLabel=Ceyx_melanurus,^clo:ClementsTaxonName2019=Ceyx melanurus,^clo:speciescode2019=phikin1],((otu19[&otu=otu19,^ot:ottId=931007,^ot:ottTaxonName=Ceyx lepidus,^ot:originalLabel=Ceyx_lepidus,^clo:ClementsTaxonName2019=Ceyx lepidus,^clo:speciescode2019=vardwk4],(otu20[&otu=otu20,^ot:ottId=838166,^ot:ottTaxonName=Alcedo argentata,^ot:originalLabel=Alcedo_argentata,^clo:ClementsTaxonName2019=Ceyx argentatus,^clo:speciescode2019=silkin1],otu21[&otu=otu21,^ot:ottId=838161,^ot:ottTaxonName=Alcedo cyanopectus,^ot:originalLabel=Alcedo_cyanopecta,^clo:ClementsTaxonName2019=Ceyx cyanopectus,^clo:speciescode2019=inbkin2])node37)node35,(otu17[&otu=otu17,^ot:ottId=215691,^ot:ottTaxonName=Ceyx erithaca,^ot:originalLabel=Ceyx_erithacus,^clo:ClementsTaxonName2019=Ceyx erithaca,^clo:speciescode2019=bkbkin1],otu18[&otu=otu18,^ot:ottId=313663,^ot:ottTaxonName=Ceyx rufidorsa,^ot:originalLabel=Ceyx_rufidorsa,^clo:ClementsTaxonName2019=Ceyx rufidorsa,^clo:speciescode2019=rubkin1])node32)node31)node29)node23,otu12[&otu=otu12,^ot:ottId=313662,^ot:ottTaxonName=Ceyx fallax,^ot:originalLabel=Ceyx_fallax,^clo:ClementsTaxonName2019=Ceyx fallax,^clo:speciescode2019=sulkin1])node21,(otu5[&otu=otu5,^ot:ottId=838173,^ot:ottTaxonName=Alcedo euryzona,^ot:originalLabel=Alcedo_euryzona,^clo:ClementsTaxonName2019=Alcedo euryzona,^clo:speciescode2019=blbkin2],(((otu10[&otu=otu10,^ot:ottId=624772,^ot:ottTaxonName=Alcedo coerulescens,^ot:originalLabel=Alcedo_coerulescens,^clo:ClementsTaxonName2019=Alcedo coerulescens,^clo:speciescode2019=smbkin1],otu11[&otu=otu11,^ot:ottId=549519,^ot:ottTaxonName=Alcedo atthis,^ot:originalLabel=Alcedo_atthis,^clo:ClementsTaxonName2019=Alcedo atthis,^clo:speciescode2019=comkin1])node18,(otu9[&otu=otu9,^ot:ottId=838175,^ot:ottTaxonName=Alcedo semitorquata,^ot:originalLabel=Alcedo_semitorquata,^clo:ClementsTaxonName2019=Alcedo semitorquata,^clo:speciescode2019=hackin1],otu8[&otu=otu8,^ot:ottId=26078,^ot:ottTaxonName=Alcedo quadribrachys,^ot:originalLabel=Alcedo_quadribrachys,^clo:ClementsTaxonName2019=Alcedo quadribrachys,^clo:speciescode2019=shbkin1])node15)node14,(otu7[&otu=otu7,^ot:ottId=838172,^ot:ottTaxonName=Alcedo hercules,^ot:originalLabel=Alcedo_hercules,^clo:ClementsTaxonName2019=Alcedo hercules,^clo:speciescode2019=blykin1],otu6[&otu=otu6,^ot:ottId=838168,^ot:ottTaxonName=Alcedo meninting,^ot:originalLabel=Alcedo_meninting,^clo:ClementsTaxonName2019=Alcedo meninting,^clo:speciescode2019=blekin1])node11)node10)node8)node7)node6)node1;
+END;
+

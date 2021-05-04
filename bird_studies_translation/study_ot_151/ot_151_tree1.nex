@@ -1,0 +1,40 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=815707,nearestTaxonMRCAName=Capito (genus in family Ramphastidae),outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((otu25[&otu=otu25,^ot:ottId=712006,^ot:ottTaxonName=Capito wallacei,^ot:originalLabel=Capito_wallacei_B27757,^clo:ClementsTaxonName2019=Capito wallacei,^clo:speciescode2019=scbbar2],(((otu21[&otu=otu21,^ot:ottId=1068254,^ot:ottTaxonName=Capito niger,^ot:originalLabel=Capito_niger_B10393,^clo:ClementsTaxonName2019=Capito niger,^clo:speciescode2019=blsbar1],otu20[&otu=otu20,^ot:ottId=1068254,^ot:ottTaxonName=Capito niger,^ot:originalLabel=Capito_niger_B09373,^clo:ClementsTaxonName2019=Capito niger,^clo:speciescode2019=blsbar1])node40,((otu18[&otu=otu18,^ot:ottId=965757,^ot:ottTaxonName=Capito brunneipectus,^ot:originalLabel=Capito_brunneipectus_B25499,^clo:ClementsTaxonName2019=Capito brunneipectus,^clo:speciescode2019=brcbar1],otu19[&otu=otu19,^ot:ottId=965757,^ot:ottTaxonName=Capito brunneipectus,^ot:originalLabel=Capito_brunneipectus_B35612,^clo:ClementsTaxonName2019=Capito brunneipectus,^clo:speciescode2019=brcbar1])node37,((otu17[&otu=otu17,^ot:ottId=977877,^ot:ottTaxonName=Capito auratus insperatus,^ot:originalLabel=Capito_auratus_insperatus_B11206,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu16[&otu=otu16,^ot:ottId=977876,^ot:ottTaxonName=Capito auratus orosae,^ot:originalLabel=Capito_auratus_orosae_B35719,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu12[&otu=otu12,^ot:ottId=977876,^ot:ottTaxonName=Capito auratus orosae,^ot:originalLabel=Capito_auratus_orosae_B25503,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu13[&otu=otu13,^ot:ottId=977867,^ot:ottTaxonName=Capito auratus auratus,^ot:originalLabel=Capito_auratus_auratus_B4805,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node30,otu14[&otu=otu14,^ot:ottId=977868,^ot:ottTaxonName=Capito auratus amazonicus,^ot:originalLabel=Capito_auratus_amazonicus_M49882,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node29,otu15[&otu=otu15,^ot:ottId=977877,^ot:ottTaxonName=Capito auratus insperatus,^ot:originalLabel=Capito_auratus_insperatus_B6798,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node28)node27)node26,((((otu2[&otu=otu2,^ot:ottId=977875,^ot:ottTaxonName=Capito auratus aurantiicinctus,^ot:originalLabel=Capito_auratus_aurantiicinctus_M49289,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu3[&otu=otu3,^ot:ottId=977865,^ot:ottTaxonName=Capito auratus transilens,^ot:originalLabel=Capito_auratus_transilens_B7567,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu1[&otu=otu1,^ot:ottId=977875,^ot:ottTaxonName=Capito auratus aurantiicinctus,^ot:originalLabel=Capito_auratus_aurantiicinctus_M45737,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=977865,^ot:ottTaxonName=Capito auratus transilens,^ot:originalLabel=Capito_auratus_transilens_B25572,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=977865,^ot:ottTaxonName=Capito auratus transilens,^ot:originalLabel=Capito_auratus_transilens_B7549,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node11,(otu8[&otu=otu8,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Capito_auratus_auratus/punctatus_intergrade_B4430,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird],(otu6[&otu=otu6,^ot:ottId=977874,^ot:ottTaxonName=Capito auratus punctatus,^ot:originalLabel=Capito_auratus_punctatus_B27403,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu7[&otu=otu7,^ot:ottId=None,^ot:ottTaxonName=None,^ot:originalLabel=Capito_auratus_auratus/punctatus_intergrade_B4448,^clo:ClementsTaxonName2019=not_a_bird,^clo:speciescode2019=not_a_bird])node18)node17)node10,otu9[&otu=otu9,^ot:ottId=977874,^ot:ottTaxonName=Capito auratus punctatus,^ot:originalLabel=Capito_auratus_punctatus_B27553,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node9,(otu10[&otu=otu10,^ot:ottId=977867,^ot:ottTaxonName=Capito auratus auratus,^ot:originalLabel=Capito_auratus_auratus_B6947,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu11[&otu=otu11,^ot:ottId=977867,^ot:ottTaxonName=Capito auratus auratus,^ot:originalLabel=Capito_auratus_auratus_B6969,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node23)node8)node7)node6)node5,(otu24[&otu=otu24,^ot:ottId=712005,^ot:ottTaxonName=Capito squamatus,^ot:originalLabel=Capito_squamatus_B7738,^clo:ClementsTaxonName2019=Capito squamatus,^clo:speciescode2019=orfbar1],(otu23[&otu=otu23,^ot:ottId=370836,^ot:ottTaxonName=Capito maculicoronatus rubrilateralis,^ot:originalLabel=Capito_maculicoronatus_rubrilateralis_B2178,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu22[&otu=otu22,^ot:ottId=977869,^ot:ottTaxonName=Capito maculicoronatus maculicoronatus,^ot:originalLabel=Capito_maculicoronatus_maculicoronatus_B28524,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node44)node43)node4)node3,(otu26[&otu=otu26,^ot:ottId=712004,^ot:ottTaxonName=Capito quinticolor,^ot:originalLabel=Capito_quinticolor_B29985,^clo:ClementsTaxonName2019=Capito quinticolor,^clo:speciescode2019=ficbar1],otu27[&otu=otu27,^ot:ottId=815708,^ot:ottTaxonName=Capito dayi,^ot:originalLabel=Capito_dayi_B18305,^clo:ClementsTaxonName2019=Capito dayi,^clo:speciescode2019=blgbar1])node49)node2,otu28[&otu=otu28,^ot:ottId=712007,^ot:ottTaxonName=Capito aurovirens,^ot:originalLabel=Capito_aurovirens_B7344,^clo:ClementsTaxonName2019=Capito aurovirens,^clo:speciescode2019=sccbar1])node1;
+END;
+

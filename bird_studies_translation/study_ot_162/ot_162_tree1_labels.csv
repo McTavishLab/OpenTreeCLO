@@ -1,0 +1,32 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu4	Prioniturus discurus whiteheadi	bucrat1	Prioniturus_discurus_whiteheadi_FMNH344943	70127	Prioniturus discurus whiteheadi
+otu7	Prioniturus discurus whiteheadi	bucrat1	Prioniturus_discurus_whiteheadi_ZMUC22.12.1955.130	70127	Prioniturus discurus whiteheadi
+otu5	Prioniturus discurus whiteheadi	bucrat1	Prioniturus_discurus_whiteheadi_KU14237	70127	Prioniturus discurus whiteheadi
+otu6	Prioniturus discurus whiteheadi	bucrat1	Prioniturus_discurus_whiteheadi_BMNH1897.5.13.502	70127	Prioniturus discurus whiteheadi
+otu11	Prioniturus discurus discurus	bucrat2	Prioniturus_discurus_discurus_ZMUC136356	70125	Prioniturus discurus discurus
+otu10	Prioniturus discurus discurus	bucrat2	Prioniturus_discurus_discurus_ZMUC136355	70125	Prioniturus discurus discurus
+otu9	Prioniturus discurus discurus	bucrat2	Prioniturus_discurus_discurus_ZMUC136357	70125	Prioniturus discurus discurus
+otu8	Prioniturus discurus discurus	bucrat2	Prioniturus_discurus_discurus_ZMUC136358	70125	Prioniturus discurus discurus
+otu12	Prioniturus luconensis	grrtai1	Prioniturus_luconensis_NMBE1056247	771954	Prioniturus luconensis
+otu13	Prioniturus flavicans	yebrat1	Prioniturus_flavicans_AMNH620995	591214	Prioniturus flavicans
+otu3	Prioniturus verticalis	bwrtai1	Prioniturus_verticalis_ZMUC26.6.1976.28	18323	Prioniturus verticalis
+otu1	Prioniturus verticalis	bwrtai1	Prioniturus_verticalis_AMNH620985	18323	Prioniturus verticalis
+otu2	Prioniturus verticalis	bwrtai1	Prioniturus_verticalis_ZMUC26.6.1976.27	18323	Prioniturus verticalis
+otu14	Prioniturus waterstradti	mirtai1	Prioniturus_waterstradti_FMNH357417	18325	Prioniturus waterstradti
+otu15	Prioniturus waterstradti	mirtai1	Prioniturus_waterstradti_ZMUC1.10.1953.1295	18325	Prioniturus waterstradti
+otu16	Prioniturus waterstradti	mirtai1	Prioniturus_waterstradti_ZMUC1.10.1953.1297	18325	Prioniturus waterstradti
+otu17	Prioniturus waterstradti	mirtai1	Prioniturus_waterstradti_KU19120	18325	Prioniturus waterstradti
+otu18	Prioniturus mindorensis	minrat1	Prioniturus_discurus_mindorensis_AMNH620956	591223	Prioniturus mindorensis
+otu19	Prioniturus mindorensis	minrat1	Prioniturus_discurus_mindorensis_ZMUC22.12.1955.128	591223	Prioniturus mindorensis
+otu20	Prioniturus platenae	bhrtai1	Prioniturus_platenae_BMNH1911.11.16.112	1015530	Prioniturus platenae
+otu21	Prioniturus montanus	luzrat1	Prioniturus_montanus_FMNH454964	681045	Prioniturus montanus
+otu25	no_match	no_match	Prioniturus_platurus_platurus_BMNH1926.12.3.1	18318	Prioniturus platurus platurus
+otu24	no_match	no_match	Prioniturus_platurus_platurus_AMNH621028	18318	Prioniturus platurus platurus
+otu23	no_match	no_match	Prioniturus_platurus_talautensis_AMNH621000	18320	Prioniturus platurus talautensis
+otu22	no_match	no_match	Prioniturus_platurus_talautensis_ZMUC146427	18320	Prioniturus platurus talautensis
+otu26	Prioniturus mada	burtai1	Prioniturus_mada_AMNH621031	591212	Prioniturus mada
+otu31	Eclectus roratus	eclpar	Eclectus_roratus	375776	Eclectus roratus
+otu30	Geoffroyus heteroclitus	sinpar1	Geoffroyus_heteroclitus	717631	Geoffroyus heteroclitus
+otu29	Psittinus cyanurus	blrpar1	Psittinus_cyanurus	528631	Psittinus cyanurus
+otu28	Tanygnathus megalorynchos	grbpar1	Tanygnathus_megalorhynchus	7116	Tanygnathus megalorynchos
+otu27	Psittacula columboides	malpar1	Psittacula_columboides	864236	Psittacula columboides

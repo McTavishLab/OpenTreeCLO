@@ -1,0 +1,39 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu113	Clamator jacobinus	piecuc1	Clamator_jacobinus_pica	933122	Clamator jacobinus
+otu114	Clamator jacobinus	piecuc1	Clamator_jacobinus_serratus	933122	Clamator jacobinus
+otu115	Clamator levaillantii	levcuc1	Clamator_levaillantii	3596359	Clamator levaillantii
+otu116	Clamator glandarius	grscuc1	Clamator_glandarius	494374	Clamator glandarius
+otu117	Clamator coromandus	chwcuc1	Clamator_coromandus	3596358	Clamator coromandus
+otu109	Piaya melanogaster	blbcuc1	Piaya_melanogaster	267863	Piaya melanogaster
+otu108	Piaya cayana	squcuc1	Piaya_cayana	891422	Piaya cayana
+otu107	Coccyzus melacoryphus	dabcuc1	Coccyzus_melacoryphus	787069	Coccyzus melacoryphus
+otu103	Coccyzus ferrugineus	coccuc1	Coccyzus_ferrugineus	3596298	Coccyzus ferrugineus
+otu104	Coccyzus minor	mancuc	Coccyzus_minor	229931	Coccyzus minor
+otu105	Coccyzus euleri	pebcuc1	Coccyzus_euleri	3596302	Coccyzus euleri
+otu106	Coccyzus americanus	yebcuc	Coccyzus_americanus	891425	Coccyzus americanus
+otu102	Coccyzus erythropthalmus	bkbcuc	Coccyzus_erythropthalmus	891417	Coccyzus erythropthalmus
+otu101	Coccyzus lansbergi	gyccuc	Coccyzus_lansbergi	3596300	Coccyzus lansbergi
+otu95	Coccyzus merlini	grelic1	Coccyzus_merlini	3596295	Coccyzus merlini
+otu96	Coccyzus longirostris	hislic1	Coccyzus_longirostris	3596296	Coccyzus longirostris
+otu97	no_match	no_match	Coccyzus_vieilloti	75792	Saurothera vielloti
+otu98	Coccyzus vetula	jamlic1	Coccyzus_vetula	3596305	Coccyzus vetula
+otu99	Coccyzus pluvialis	chbcuc4	Coccyzus_pluvialis	3596303	Coccyzus pluvialis
+otu100	Coccyzus rufigularis	babcuc4	Coccyzus_rufigularis	3596304	Coccyzus rufigularis
+otu112	Coccycua minuta	litcuc2	Coccycua_minuta	125907	Coccycua minuta
+otu111	not_a_bird	not_a_bird	Coccycua_pumila	4130270	Coccycua pumila
+otu110	not_a_bird	not_a_bird	Coccycua_cinerea	4130271	Coccycua cinerea
+otu119	Dasylophus superciliosus	recmal1	Dasylophus_superciliosus	550051	Dasylophus superciliosus
+otu118	Dasylophus cumingi	scfmal1	Dasylophus_cumingi	3603295	Dasylophus cumingi
+otu120	not_a_bird	not_a_bird	Rhamphococcyx_calyorhynchus	4130281	Rhamphococcyx calyorhynchus
+otu127	Phaenicophaeus curvirostris	chbmal2	Phaenicophaeus_curvirostris	1041420	Phaenicophaeus curvirostris
+otu125	Phaenicophaeus pyrrhocephalus	refmal1	Phaenicophaeus_pyrrhocephalus	3604141	Phaenicophaeus pyrrhocephalus
+otu124	Phaenicophaeus viridirostris	blfmal1	Phaenicophaeus_viridirostris	3605883	Phaenicophaeus viridirostris
+otu121	not_a_bird	not_a_bird	Phaenicophaeus_tristis_tristis	None	None
+otu122	not_a_bird	not_a_bird	Phaenicophaeus_tristis_longicaudatus	None	None
+otu123	Phaenicophaeus diardi	blbmal1	Phaenicophaeus_diardi	3602884	Rhopodytes diardi
+otu126	Phaenicophaeus sumatranus	chbmal1	Phaenicophaeus_sumatranus	3605882	Rhopodytes sumatranus
+otu128	Zanclostomus javanicus	rebmal2	Zanclostomus_javanicus_1	3604196	Zanclostomus javanicus
+otu129	Zanclostomus javanicus	rebmal2	Zanclostomus_javanicus_2	3604196	Zanclostomus javanicus
+otu130	Taccocua leschenaultii	sirmal1	Taccocua_leschenaultii	3601874	Taccocua leschenaultii
+otu132	Ceuthmochares australis	yellow6	Ceuthmochares_australis	3603292	Ceuthmochares australis
+otu131	Ceuthmochares aereus	yellow5	Ceuthmochares_aereus	3602243	Ceuthmochares aereus

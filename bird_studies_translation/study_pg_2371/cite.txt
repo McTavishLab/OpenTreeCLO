@@ -1,0 +1,3 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2371
+Corl, Ammon, Hans Ellegren. 2013. Sampling strategies for species trees: The effects on phylogenetic inference of the number of genes, number of individuals, and whether loci are mitochondrial, sex-linked, or autosomal. Molecular Phylogenetics and Evolution 67 (2): 358-366
+http://dx.doi.org/10.1016/j.ympev.2013.02.002

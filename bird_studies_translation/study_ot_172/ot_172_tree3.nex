@@ -1,0 +1,55 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        Certhia_familiaris_daurica
+        Certhia_himalayana_himalayana
+        Certhia_hodgsoni_hodgsoni
+        Certhia_familiaris_bianchii
+        Certhia_hodgsoni_khamensis
+        Certhia_hodgsoni_mandellii
+        Certhia_brachydactyla_mauritanica
+        Certhia_americana
+        Certhia_brachydactyla
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        Pyrrhula_nipalensis
+        Pyrrhula_aurantiaca
+        Pyrrhula_erythrocephala
+        Pyrrhula_leucogenis_steerei
+        Pyrrhula_leucogenis_leucogenis
+        Pyrrhula_murina
+        Pyrrhula_pyrrhula_griseiventris
+        Pyrrhula_erythaca_owstoni
+        Pyrrhula_erythaca_erythaca
+        Certhia_tianquanensis
+        Pinicola_enucleator
+        Pyrrhula_pyrrhula_iberiae
+        Pyrrhula_pyrrhula_pyrrhula
+        Certhia_himalayana_yunnanensis
+        Certhia_discolor
+        Certhia_manipurensis
+        Certhia_nipalensis
+        Pyrrhula_pyrrhula_pileata
+        Pyrrhula_pyrrhula_cineracea
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 4c (Aegithalos+Psaltriparus+Leptopoecile)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=,messages=]((otu42[&otu=otu42,^ot:ottId=1044590,^ot:ottTaxonName=Leptopoecile sophiae,^ot:originalLabel=Leptopoecile_sophiae,^clo:ClementsTaxonName2019=Leptopoecile sophiae,^clo:speciescode2019=wbtwar1],otu43[&otu=otu43,^ot:ottId=931419,^ot:ottTaxonName=Leptopoecile elegans,^ot:originalLabel=Leptopoecile_elegans,^clo:ClementsTaxonName2019=Leptopoecile elegans,^clo:speciescode2019=crtwar1])node81,(((((otu29[&otu=otu29,^ot:ottId=538174,^ot:ottTaxonName=Aegithalos concinnus concinnus,^ot:originalLabel=Aegithalos_concinnus_concinnus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu30[&otu=otu30,^ot:ottId=538176,^ot:ottTaxonName=Aegithalos concinnus manipurensis,^ot:originalLabel=Aegithalos_concinnus_manipurensis,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node60,otu31[&otu=otu31,^ot:ottId=684391,^ot:ottTaxonName=Aegithalos concinnus iredalei,^ot:originalLabel=Aegithalos_concinnus_iredalei,^clo:ClementsTaxonName2019=Aegithalos concinnus iredalei,^clo:speciescode2019=bkttit3])node59,otu32[&otu=otu32,^ot:ottId=538164,^ot:ottTaxonName=Aegithalos leucogenys,^ot:originalLabel=Aegithalos_leucogenys,^clo:ClementsTaxonName2019=Aegithalos leucogenys,^clo:speciescode2019=whctit1])node58,((otu38[&otu=otu38,^ot:ottId=467867,^ot:ottTaxonName=Aegithalos caudatus,^ot:originalLabel=Aegithalos_caudatus,^clo:ClementsTaxonName2019=Aegithalos caudatus,^clo:speciescode2019=lottit1],otu39[&otu=otu39,^ot:ottId=905410,^ot:ottTaxonName=Aegithalos glaucogularis,^ot:originalLabel=Aegithalos_glaucogularis,^clo:ClementsTaxonName2019=Aegithalos glaucogularis,^clo:speciescode2019=lottit5])node75,(otu37[&otu=otu37,^ot:ottId=1014281,^ot:ottTaxonName=Aegithalos niveogularis,^ot:originalLabel=Aegithalos_niveogularis,^clo:ClementsTaxonName2019=Aegithalos niveogularis,^clo:speciescode2019=whttit1],(otu36[&otu=otu36,^ot:ottId=538178,^ot:ottTaxonName=Aegithalos iouschistos iouschistos,^ot:originalLabel=Aegithalos_iouschistos_iouschistos,^clo:ClementsTaxonName2019=Aegithalos iouschistos iouschistos,^clo:speciescode2019=bkbtit5],((otu33[&otu=otu33,^ot:ottId=538180,^ot:ottTaxonName=Aegithalos bonvaloti,^ot:originalLabel=Aegithalos_iouschistos_bonvaloti,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu34[&otu=otu34,^ot:ottId=538171,^ot:ottTaxonName=Aegithalos fuliginosus,^ot:originalLabel=Aegithalos_fuliginosus,^clo:ClementsTaxonName2019=Aegithalos fuliginosus,^clo:speciescode2019=sootit1])node69,otu35[&otu=otu35,^ot:ottId=538160,^ot:ottTaxonName=Aegithalos sharpei,^ot:originalLabel=Aegithalos_iouschistos_sharpei,^clo:ClementsTaxonName2019=Aegithalos iouschistos sharpei,^clo:speciescode2019=bkbtit6])node68)node67)node66)node65)node57,(otu40[&otu=otu40,^ot:ottId=1014277,^ot:ottTaxonName=Psaltriparus minimus minimus,^ot:originalLabel=Psaltriparus_minimus_minimus,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu41[&otu=otu41,^ot:ottId=1014284,^ot:ottTaxonName=Psaltriparus minimus plumbeus,^ot:originalLabel=Psaltriparus_minimus_plumbeus,^clo:ClementsTaxonName2019=Psaltriparus minimus plumbeus,^clo:speciescode2019=bushti2])node78)node56)node55;
+END;
+

@@ -1,0 +1,71 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu80	Porzana carolina	sora	Porzana_carolina	885182	Porzana carolina
+otu82	Porzana fluminea	auscra1	Porzana_fluminea	3599940	Porzana fluminea
+otu86	Porzana porzana	spocra1	Porzana_porzana	795161	Porzana porzana
+otu36	Porphyriops melanops	spfgal1	Gallinula_melanops	7150	Gallinula melanops
+otu37	Tribonyx mortierii	tanhen1	Gallinula_mortierii	3599916	Gallinula mortierii
+otu40	Tribonyx ventralis	btnhen1	Gallinula_ventralis	3599913	Gallinula ventralis
+otu23	Fulica americana	y00475	Fulica_americana	570965	Fulica americana
+otu28	Fulica cristata	rekcoo1	Fulica_cristata	521836	Fulica cristata
+otu25	Fulica armillata	regcoo1	Fulica_armillata	943093	Fulica armillata
+otu31	no_match	no_match	Fulica_rufrifrons	1041535	Fulica
+otu22	Fulica alai	hawcoo	Fulica_alai	181051	Fulica alai
+otu24	Fulica ardesiaca	slccoo1	Fulica_ardesiaca	943088	Fulica ardesiaca
+otu30	Fulica leucoptera	whwcoo1	Fulica_leucoptera	664905	Fulica leucoptera
+otu26	Fulica atra	eurcoo	Fulica_atra	1041538	Fulica atra
+otu34	Gallinula chloropus	commoo3	Gallinula_chloropus	1041541	Gallinula chloropus
+otu39	Gallinula tenebrosa	dusmoo1	Gallinula_tenebrosa	1012285	Gallinula tenebrosa
+otu33	no_match	no_match	Gallinula_angulata	3599914	Gallinula angulata
+otu4	Amaurornis moluccana	rutbuh1	Amaurornis_moluccana	3599919	Amaurornis moluccana
+otu5	Amaurornis phoenicurus	whbwat1	Amaurornis_phoenicurus	318444	Amaurornis phoenicurus
+otu32	Gallicrex cinerea	waterc1	Gallicrex_cinerea	943596	Gallicrex cinerea
+otu17	Coturnicops noveboracensis	yelrai	Coturnicops_noveboracensis	242758	Coturnicops noveboracensis
+otu63	Laterallus melanophaius	ruscra1	Laterallus_melanophaius	440613	Laterallus melanophaius
+otu60	Laterallus exilis	grbcra1	Laterallus_exilis	105691	Laterallus exilis
+otu61	Anurolimnas fasciatus	blbcra1	Laterallus_fasciatus	3599936	Anurolimnas fasciatus
+otu13	Atlantisia rogersi	inirai1	Atlantisia_rogersi	3599985	Atlantisia rogersi
+otu62	Laterallus jamaicensis	blkrai	Laterallus_jamaicensis	425438	Laterallus jamaicensis
+otu59	Laterallus albigularis	whtcra1	Laterallus_albigularis	1044555	Laterallus albigularis
+otu64	Anurolimnas viridis	ruccra1	Laterallus_viridis	595231	Anurolimnas viridis
+otu92	Rallina fasciata	relcra1	Rallina_fasciata	3599899	Rallina fasciata
+otu93	Rallina tricolor	rencra1	Rallina_tricolor	3599902	Rallina tricolor
+otu83	no_match	no_match	Porzana_fusca	817721	Porzana fusca
+otu85	no_match	no_match	Porzana_paykullii	56833	Porzana paykullii
+otu84	Zapornia parva	litcra1	Porzana_parva	3599944	Porzana parva
+otu87	Zapornia pusilla pusilla	baicra3	Porzana_pusilla	32330	Porzana pusilla
+otu89	Zapornia tabuensis	spocra2	Porzana_tabuensis	32328	Porzana tabuensis
+otu3	no_match	no_match	Amaurornis_flavirostra	3599921	Amaurornis flavirostra
+otu76	Porphyrio hochstetteri	takahe3	Porphyrio_hochstetteri	73578	Porphyrio hochstetteri
+otu78	Porphyrio porphyrio	purswa1	Porphyrio_porphyrio	148209	Porphyrio porphyrio
+otu75	Porphyrio alleni	allgal1	Porphyrio_alleni	3599935	Porphyrio alleni
+otu77	Porphyrio martinica	purgal2	Porphyrio_martinica	381387	Porphyrio martinica
+otu8	Aramides cajaneus	gycwor1	Aramides_cajanea	906602	Aramides cajanea
+otu11	Aramides ypecaha	giwrai1	Aramides_ypecaha	228505	Aramides ypecaha
+otu7	Aramides axillaris	rnwrai1	Aramides_axillaris	101222	Aramides axillaris
+otu9	Aramides mangle	liwrai1	Aramides_mangle	3599924	Aramides mangle
+otu72	Pardirallus maculatus	sporai	Pardirallus_maculatus	1024692	Pardirallus maculatus
+otu79	Mustelirallus albicollis	astcra1	Porzana_albicollis	304308	Porzana albicollis
+otu73	Pardirallus nigricans	blarai1	Pardirallus_nigricans	3599904	Pardirallus nigricans
+otu74	Pardirallus sanguinolentus	plurai1	Pardirallus_sanguinolentus	490362	Pardirallus sanguinolentus
+otu70	Mustelirallus erythrops	pabcra	Neocrex_erythrops	3599983	Neocrex erythrops
+otu18	Crex crex	corcra	Crex_crex	897460	Crex crex
+otu20	Dryolimnas cuvieri	whtrai1	Dryolimnas_cuvieri	3600005	Dryolimnas cuvieri
+otu51	Lewinia striata	slbrai1	Gallirallus_striatus	374301	Gallirallus striatus
+otu65	Lewinia mirifica	luzrai1	Lewinia_mirifica	3599970	Lewinia mirifica
+otu66	Lewinia muelleri	auirai1	Lewinia_muelleri	3599969	Lewinia muelleri
+otu67	Lewinia pectoralis	lewrai1	Lewinia_pectoralis	978545	Lewinia pectoralis
+otu41	Gallirallus australis	weka1	Gallirallus_australis	1041544	Gallirallus australis
+otu38	no_match	no_match	Gallinula_philippensis	1041540	Gallinula
+otu71	Gallirallus woodfordi	woorai1	Nesoclopeus_woodfordi	872389	Nesoclopeus woodfordi
+otu48	Gallirallus owstoni	guarai1	Gallirallus_owstoni	32337	Gallirallus owstoni
+otu52	Gallirallus sylvestris	lohrai1	Gallirallus_sylvestris	331984	Gallirallus sylvestris
+otu21	Gallirallus castaneoventris	cherai1	Eulabeornis_castaneoventris	70700	Eulabeornis castaneoventris
+otu94	Rallus aquaticus	watrai1	Rallus_aquaticus	32323	Rallus aquaticus
+otu98	Rallus limicola	virrai	Rallus_limicola	502780	Rallus limicola
+otu95	Rallus caerulescens	afrrai1	Rallus_caerulescens	3599952	Rallus caerulescens
+otu96	Rallus elegans	kinrai4	Rallus_elegans	809015	Rallus elegans
+otu99	Rallus longirostris	manrai1	Rallus_longirostris	440610	Rallus longirostris
+otu100	Sarothrura rufa	recflu1	Sarothrura_rufa	591541	Sarothrura rufa
+otu57	Heliornis fulica	sungre1	Heliornis_fulica	440618	Heliornis fulica
+otu90	Psophia crepitans	gywtru1	Psophia_crepitans	915643	Psophia crepitans
+otu12	Aramus guarauna	limpki	Aramus_guarauna	1095362	Aramus guarauna

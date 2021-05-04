@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=851006,nearestTaxonMRCAName=Brotogeris,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}]((((otu7[&otu=otu7,^ot:ottId=847705,^ot:ottTaxonName=Brotogeris cyanoptera,^ot:originalLabel=Brotogeris_cyanoptera,^clo:ClementsTaxonName2019=Brotogeris cyanoptera,^clo:speciescode2019=cowpar1],otu8[&otu=otu8,^ot:ottId=183230,^ot:ottTaxonName=Brotogeris chrysoptera,^ot:originalLabel=Brotogeris_chrysoptera,^clo:ClementsTaxonName2019=Brotogeris chrysoptera,^clo:speciescode2019=gowpar2])node14,(otu6[&otu=otu6,^ot:ottId=851024,^ot:ottTaxonName=Brotogeris pyrrhopterus,^ot:originalLabel=Brotogeris_pyrrhopterus,^clo:ClementsTaxonName2019=Brotogeris pyrrhoptera,^clo:speciescode2019=gycpar1],otu5[&otu=otu5,^ot:ottId=717634,^ot:ottTaxonName=Brotogeris jugularis,^ot:originalLabel=Brotogeris_jugularis,^clo:ClementsTaxonName2019=Brotogeris jugularis,^clo:speciescode2019=orcpar])node11)node10,(otu4[&otu=otu4,^ot:ottId=847706,^ot:ottTaxonName=Brotogeris tirica,^ot:originalLabel=Brotogeris_tirica,^clo:ClementsTaxonName2019=Brotogeris tirica,^clo:speciescode2019=plapar1],((otu1[&otu=otu1,^ot:ottId=789650,^ot:ottTaxonName=Brotogeris versicolurus,^ot:originalLabel=Brotogeris_versicolurus,^clo:ClementsTaxonName2019=Brotogeris versicolurus,^clo:speciescode2019=whwpar],otu2[&otu=otu2,^ot:ottId=648764,^ot:ottTaxonName=Brotogeris chiriri,^ot:originalLabel=Brotogeris_chiriri,^clo:ClementsTaxonName2019=Brotogeris chiriri,^clo:speciescode2019=yecpar])node5,otu3[&otu=otu3,^ot:ottId=372340,^ot:ottTaxonName=Brotogeris sanctithomae,^ot:originalLabel=Brotogeris_sanctithomae,^clo:ClementsTaxonName2019=Brotogeris sanctithomae,^clo:speciescode2019=tuipar1])node4)node3)node2,otu9[&otu=otu9,^ot:ottId=276609,^ot:ottTaxonName=Myiopsitta monachus,^ot:originalLabel=Myiopsitta_monachus,^clo:ClementsTaxonName2019=Myiopsitta monachus,^clo:speciescode2019=monpar])node1;
+END;
+

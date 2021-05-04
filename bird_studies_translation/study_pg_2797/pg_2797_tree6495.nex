@@ -1,0 +1,45 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+        otu414445
+        otu414444
+        Vidua_macroura
+        otu414447
+        otu414422
+        otu414423
+        otu414442
+        Micrastur_semitorquatus
+        otu414440
+        otu414441
+        otu414428
+        otu414424
+        otu414448
+        otu414425
+        otu414426
+        otu414427
+        otu414453
+        otu414429
+        otu414452
+        otu414449
+        otu414454
+        otu414451
+        Trogon_personata
+        otu414439
+        otu414438
+        otu414437
+        otu414436
+        otu414435
+        otu414434
+        otu414433
+        otu414432
+        otu414431
+        otu414430
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Bayesian consensus. 29 taxa, 416 loci.' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu414434:0.010253000000000002[&otu=otu414434,^ot:ottId=329083,^ot:ottTaxonName=Treron vernans,^ot:originalLabel=Treron_vernans,^clo:ClementsTaxonName2019=Treron vernans,^clo:speciescode2019=pinpig3],(((otu414436:0.006057999999999997[&otu=otu414436,^ot:ottId=1057518,^ot:ottTaxonName=Gavia immer,^ot:originalLabel=Gavia_immer,^clo:ClementsTaxonName2019=Gavia immer,^clo:speciescode2019=comloo],((otu414438:0.00544[&otu=otu414438,^ot:ottId=656591,^ot:ottTaxonName=Oceanites oceanicus,^ot:originalLabel=Oceanites_oceanicus,^clo:ClementsTaxonName2019=Oceanites oceanicus,^clo:speciescode2019=wispet],otu414437:0.006154[&otu=otu414437,^ot:ottId=613299,^ot:ottTaxonName=Eudyptula minor,^ot:originalLabel=Eudyptula_minor,^clo:ClementsTaxonName2019=Eudyptula minor,^clo:speciescode2019=litpen1])node1121768:0.0001910000000000002,((otu414441:0.003414999999999998[&otu=otu414441,^ot:ottId=464697,^ot:ottTaxonName=Balaeniceps rex,^ot:originalLabel=Balaeniceps_rex,^clo:ClementsTaxonName2019=Balaeniceps rex,^clo:speciescode2019=shoebi1],otu414440:0.004160999999999998[&otu=otu414440,^ot:ottId=464704,^ot:ottTaxonName=Scopus umbretta,^ot:originalLabel=Scopus_umbretta,^clo:ClementsTaxonName2019=Scopus umbretta,^clo:speciescode2019=hamerk1])node1121773:0.001465000000000001,otu414439:0.007137000000000001[&otu=otu414439,^ot:ottId=969841,^ot:ottTaxonName=Phalacrocorax carbo,^ot:originalLabel=Phalacrocorax_carbo,^clo:ClementsTaxonName2019=Phalacrocorax carbo,^clo:speciescode2019=grecor])node1121771:0.00036399999999999974)node1121767:0.00020399999999999932)node1121765:0.00020999999999999838,((otu414424:0.004744000000000002[&otu=otu414424,^ot:ottId=214792,^ot:ottTaxonName=Phegornis mitchellii,^ot:originalLabel=Phegornis_mitchelli,^clo:ClementsTaxonName2019=Phegornis mitchellii,^clo:speciescode2019=diaplo1],otu414425:0.010424[&otu=otu414425,^ot:ottId=928360,^ot:ottTaxonName=Opisthocomus hoazin,^ot:originalLabel=Opisthocomus_hoazin,^clo:ClementsTaxonName2019=Opisthocomus hoazin,^clo:speciescode2019=hoatzi1])node1121777:0.0002680000000000009,(((otu414448:0.004393000000000001[&otu=otu414448,^ot:ottId=9106,^ot:ottTaxonName=Cathartes aura,^ot:originalLabel=Cathartes_aura,^clo:ClementsTaxonName2019=Cathartes aura,^clo:speciescode2019=turvul],otu414447:0.0064100000000000025[&otu=otu414447,^ot:ottId=767826,^ot:ottTaxonName=Gampsonyx swainsonii,^ot:originalLabel=Gampsonyx_swainsonii,^clo:ClementsTaxonName2019=Gampsonyx swainsonii,^clo:speciescode2019=peakit1])node1121785:0.00027699999999999947,((otu414442:0.014329000000000001[&otu=otu414442,^ot:ottId=1094061,^ot:ottTaxonName=Urocolius indicus,^ot:originalLabel=Urocolius_indicus,^clo:ClementsTaxonName2019=Urocolius indicus,^clo:speciescode2019=refmou1],(otu414452:0.029857[&otu=otu414452,^ot:ottId=49610,^ot:ottTaxonName=Rhinopomastus cyanomelas,^ot:originalLabel=Rhinopomastus_cyanomelas,^clo:ClementsTaxonName2019=Rhinopomastus cyanomelas,^clo:speciescode2019=cosbil1],(otu414451:0.011548[&otu=otu414451,^ot:ottId=989081,^ot:ottTaxonName=Momotus momota,^ot:originalLabel=Momotus_momota,^clo:ClementsTaxonName2019=Momotus momota,^clo:speciescode2019=bucmot4],(otu414453:0.011136999999999998[&otu=otu414453,^ot:ottId=3604196,^ot:ottTaxonName=Zanclostomus javanicus,^ot:originalLabel=Zanclostomus_javanicus,^clo:ClementsTaxonName2019=Zanclostomus javanicus,^clo:speciescode2019=rebmal2],otu414454:0.012618[&otu=otu414454,^ot:ottId=1019972,^ot:ottTaxonName=Megalaima virens,^ot:originalLabel=Megalaima_virens,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node1121796:0.00875)node1121794:0.0006910000000000006)node1121792:0.000732)node1121790:0.00019199999999999773,otu414449:0.006888999999999999[&otu=otu414449,^ot:ottId=1065606,^ot:ottTaxonName=Tyto alba,^ot:originalLabel=Tyto_alba,^clo:ClementsTaxonName2019=Tyto alba,^clo:speciescode2019=brnowl])node1121788:0.00014100000000000223)node1121784:0.00010699999999999946,(otu414445:0.016714[&otu=otu414445,^ot:ottId=232061,^ot:ottTaxonName=Hydrornis guajana,^ot:originalLabel=Pitta_guajana,^clo:ClementsTaxonName2019=Hydrornis guajanus,^clo:speciescode2019=banpit2],otu414444:0.012711999999999998[&otu=otu414444,^ot:ottId=753626,^ot:ottTaxonName=Psittacula alexandri,^ot:originalLabel=Psittacula_alexandri,^clo:ClementsTaxonName2019=Psittacula alexandri,^clo:speciescode2019=rebpar4])node1121781:0.0009520000000000015)node1121780:0.0003270000000000009)node1121776:6.599999999999662e-05)node1121764:7.300000000000362e-05,((((otu414429:0.009397999999999997[&otu=otu414429,^ot:ottId=86680,^ot:ottTaxonName=Eurypyga helias,^ot:originalLabel=Eurypyga_helias,^clo:ClementsTaxonName2019=Eurypyga helias,^clo:speciescode2019=sunbit1],otu414428:0.0072429999999999994[&otu=otu414428,^ot:ottId=509057,^ot:ottTaxonName=Phaethon rubricauda,^ot:originalLabel=Phaethon_rubicauda,^clo:ClementsTaxonName2019=Phaethon rubricauda,^clo:speciescode2019=rettro])node1121761:0.0003180000000000058,(otu414433:0.005420000000000001[&otu=otu414433,^ot:ottId=726164,^ot:ottTaxonName=Podiceps auritus,^ot:originalLabel=Podiceps_auritus,^clo:ClementsTaxonName2019=Podiceps auritus,^clo:speciescode2019=horgre],otu414432:0.0030729999999999993[&otu=otu414432,^ot:ottId=960220,^ot:ottTaxonName=Phoenicopterus chilensis,^ot:originalLabel=Phoenicopterus_chilensis,^clo:ClementsTaxonName2019=Phoenicopterus chilensis,^clo:speciescode2019=chifla1])node1121758:0.0014870000000000022)node1121757:7.999999999999674e-05,otu414435:0.011520000000000002[&otu=otu414435,^ot:ottId=837657,^ot:ottTaxonName=Pterocles exustus,^ot:originalLabel=Pterocles_exustus,^clo:ClementsTaxonName2019=Pterocles exustus,^clo:speciescode2019=chbsan])node1121755:7.499999999999868e-05,((otu414423:0.006397[&otu=otu414423,^ot:ottId=915643,^ot:ottTaxonName=Psophia crepitans,^ot:originalLabel=Psophia_crepitans,^clo:ClementsTaxonName2019=Psophia crepitans,^clo:speciescode2019=gywtru1],(otu414431:0.007714999999999996[&otu=otu414431,^ot:ottId=487306,^ot:ottTaxonName=Tauraco erythrolophus,^ot:originalLabel=Tauraco_erythrolophus,^clo:ClementsTaxonName2019=Tauraco erythrolophus,^clo:speciescode2019=rectur1],(otu414427:0.013604000000000002[&otu=otu414427,^ot:ottId=804120,^ot:ottTaxonName=Colibri coruscans,^ot:originalLabel=Colibri_coruscans,^clo:ClementsTaxonName2019=Colibri coruscans,^clo:speciescode2019=spvear1],otu414426:0.008956000000000002[&otu=otu414426,^ot:ottId=178249,^ot:ottTaxonName=Nyctibius grandis,^ot:originalLabel=Nyctibius_grandis,^clo:ClementsTaxonName2019=Nyctibius grandis,^clo:speciescode2019=grepot1])node1121752:0.000678999999999999)node1121750:0.0001349999999999997)node1121748:0.00010399999999999993,otu414430:0.010809[&otu=otu414430,^ot:ottId=521837,^ot:ottTaxonName=Ardeotis kori,^ot:originalLabel=Ardeotis_kori,^clo:ClementsTaxonName2019=Ardeotis kori,^clo:speciescode2019=korbus1])node1121746:0.00013500000000000317)node1121745:8.299999999999974e-05)node1121744:0.0005180000000000011)node1121742:0.0090685,otu414422:0.018137[&otu=otu414422,^ot:ottId=153563,^ot:ottTaxonName=Gallus gallus,^ot:originalLabel=Gallus_gallus,^clo:ClementsTaxonName2019=Gallus gallus,^clo:speciescode2019=redjun])node1121740;
+END;
+

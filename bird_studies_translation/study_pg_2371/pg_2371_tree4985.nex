@@ -1,0 +1,84 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=72;
+    TAXLABELS
+        Calidris_mauri_921_2
+        Calidris_mauri_923_2
+        Philomachus_pugnax_204_2
+        Calidris_fuscicollis_11725_2
+        Calidris_minutilla_11750_1
+        otu334790
+        Phalaropus_lobatus_11727_2
+        Philomachus_pugnax_121_2
+        Calidris_minutilla_11776_1
+        Calidris_mauri_921_1
+        Calidris_melanotos_14946_2
+        otu334796
+        otu334806
+        otu334829
+        Calidris_melanotos_14946_1
+        Calidris_fuscicollis_11450_2
+        Philomachus_pugnax_124_1
+        Calidris_fuscicollis_11450_1
+        Phalaropus_lobatus_14868_1
+        Calidris_minutilla_14959_1
+        Calidris_fuscicollis_11725_1
+        Phalaropus_lobatus_14895_1
+        Calidris_melanotos_11496_2
+        Phalaropus_lobatus_11727_1
+        Calidris_minutilla_11750_2
+        Calidris_melanotos_11497_1
+        Calidris_fuscicollis_11451_1
+        Calidris_melanotos_14949_2
+        Calidris_fuscicollis_11721_1
+        Calidris_fuscicollis_11451_2
+        Calidris_melanotos_11498_1
+        Calidris_melanotos_14949_1
+        Philomachus_pugnax_171_1
+        Calidris_minutilla_11785_1
+        Philomachus_pugnax_204_1
+        Calidris_minutilla_11777_2
+        Calidris_mauri_913_1
+        Phalaropus_lobatus_11736_1
+        Calidris_minutilla_14959_2
+        Calidris_fuscicollis_11723_1
+        Phalaropus_lobatus_14895_2
+        Calidris_melanotos_11497_2
+        otu334789
+        Philomachus_pugnax_123_1
+        Calidris_mauri_905_2
+        otu334783
+        Calidris_mauri_929_1
+        Calidris_minutilla_11776_2
+        Calidris_mauri_916_2
+        Phalaropus_lobatus_14868_2
+        Phalaropus_lobatus_11664_1
+        Phalaropus_lobatus_11664_2
+        Philomachus_pugnax_120_2
+        Calidris_minutilla_11777_1
+        Calidris_fuscicollis_11449_2
+        Calidris_melanotos_11555_2
+        Calidris_fuscicollis_11723_2
+        Calidris_minutilla_11785_2
+        Calidris_mauri_913_2
+        Calidris_mauri_923_1
+        Philomachus_pugnax_171_2
+        Philomachus_pugnax_121_1
+        Calidris_fuscicollis_11721_2
+        Calidris_melanotos_11498_2
+        Calidris_mauri_929_2
+        Phalaropus_lobatus_11480_2
+        Calidris_mauri_916_1
+        Calidris_melanotos_11555_1
+        Phalaropus_lobatus_11736_2
+        Calidris_minutilla_11534_2
+        Philomachus_pugnax_124_2
+        Philomachus_pugnax_123_2
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 1 *BEAST' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:time,messages=]((((otu334796:8.163316566173679[&otu=otu334796,^ot:ottId=234673,^ot:ottTaxonName=Calidris fuscicollis,^ot:originalLabel=Calidris_fuscicollis_11449_1,^clo:ClementsTaxonName2019=Calidris fuscicollis,^clo:speciescode2019=whrsan],otu334783:8.163316566173679[&otu=otu334783,^ot:ottId=654822,^ot:ottTaxonName=Calidris minutilla,^ot:originalLabel=Calidris_minutilla_11534_1,^clo:ClementsTaxonName2019=Calidris minutilla,^clo:speciescode2019=leasan])node862203:2.1159432439193484,(otu334789:7.635261077330816[&otu=otu334789,^ot:ottId=234671,^ot:ottTaxonName=Calidris mauri,^ot:originalLabel=Calidris_mauri_905_1,^clo:ClementsTaxonName2019=Calidris mauri,^clo:speciescode2019=wessan],otu334806:7.635261077330816[&otu=otu334806,^ot:ottId=57825,^ot:ottTaxonName=Calidris melanotos,^ot:originalLabel=Calidris_melanotos_11496_1,^clo:ClementsTaxonName2019=Calidris melanotos,^clo:speciescode2019=pecsan])node862206:2.6439987327622063)node862202:9.855191388285663,otu334829:20.134451198378695[&otu=otu334829,^ot:ottId=1090732,^ot:ottTaxonName=Philomachus pugnax,^ot:originalLabel=Philomachus_pugnax_120_1,^clo:ClementsTaxonName2019=Calidris pugnax,^clo:speciescode2019=ruff])node862201:11.235717177273997,otu334790:31.370168375652696[&otu=otu334790,^ot:ottId=57821,^ot:ottTaxonName=Phalaropus lobatus,^ot:originalLabel=Phalaropus_lobatus_11480_1,^clo:ClementsTaxonName2019=Phalaropus lobatus,^clo:speciescode2019=renpha])node862200;
+END;
+

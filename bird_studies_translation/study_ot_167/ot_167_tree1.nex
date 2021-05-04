@@ -1,0 +1,35 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3 = [&unrootedTree=False,messages=,curatedType=Maximum likelihood ,nearestTaxonMRCAOttId=416103,nearestTaxonMRCAName=Pyrrhura,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu20[&otu=otu20,^ot:ottId=467016,^ot:ottTaxonName=Pyrrhura melanura,^ot:originalLabel=Pyrrhura_melanura_1,^clo:ClementsTaxonName2019=Pyrrhura melanura,^clo:speciescode2019=matpar2],otu21[&otu=otu21,^ot:ottId=442815,^ot:ottTaxonName=Pyrrhura albipectus,^ot:originalLabel=Pyrrhura_albipectus,^clo:ClementsTaxonName2019=Pyrrhura albipectus,^clo:speciescode2019=whnpar1])node41,otu22[&otu=otu22,^ot:ottId=467016,^ot:ottTaxonName=Pyrrhura melanura,^ot:originalLabel=Pyrrhura_melanura_2,^clo:ClementsTaxonName2019=Pyrrhura melanura,^clo:speciescode2019=matpar2])node40,(otu19[&otu=otu19,^ot:ottId=744927,^ot:ottTaxonName=Pyrrhura rupicola,^ot:originalLabel=Pyrrhura_rupicola,^clo:ClementsTaxonName2019=Pyrrhura rupicola,^clo:speciescode2019=blcpar1],((((otu12[&otu=otu12,^ot:ottId=442813,^ot:ottTaxonName=Pyrrhura lepida,^ot:originalLabel=Pyrrhura_lepida,^clo:ClementsTaxonName2019=Pyrrhura lepida,^clo:speciescode2019=peapar1],otu13[&otu=otu13,^ot:ottId=442814,^ot:ottTaxonName=Pyrrhura perlata,^ot:originalLabel=Pyrrhura_perlata,^clo:ClementsTaxonName2019=Pyrrhura perlata,^clo:speciescode2019=crbpar1])node29,otu14[&otu=otu14,^ot:ottId=442816,^ot:ottTaxonName=Pyrrhura molinae,^ot:originalLabel=Pyrrhura_molinae,^clo:ClementsTaxonName2019=Pyrrhura molinae,^clo:speciescode2019=gncpar])node28,otu15[&otu=otu15,^ot:ottId=33330,^ot:ottTaxonName=Pyrrhura frontalis,^ot:originalLabel=Pyrrhura_frontalis,^clo:ClementsTaxonName2019=Pyrrhura frontalis,^clo:speciescode2019=mabpar])node27,((otu16[&otu=otu16,^ot:ottId=229282,^ot:ottTaxonName=Pyrrhura rhodocephala,^ot:originalLabel=Pyrrhura_rhodocephala,^clo:ClementsTaxonName2019=Pyrrhura rhodocephala,^clo:speciescode2019=rohpar1],otu17[&otu=otu17,^ot:ottId=442830,^ot:ottTaxonName=Pyrrhura hoffmanni,^ot:originalLabel=Pyrrhura_hoffmanni,^clo:ClementsTaxonName2019=Pyrrhura hoffmanni,^clo:speciescode2019=suwpar1])node35,otu18[&otu=otu18,^ot:ottId=466987,^ot:ottTaxonName=Pyrrhura orcesi,^ot:originalLabel=Pyrrhura_orcesi,^clo:ClementsTaxonName2019=Pyrrhura orcesi,^clo:speciescode2019=elopar1])node34)node26)node25)node24,(otu11[&otu=otu11,^ot:ottId=744928,^ot:ottTaxonName=Pyrrhura cruentata,^ot:originalLabel=Pyrrhura_cruentata,^clo:ClementsTaxonName2019=Pyrrhura cruentata,^clo:speciescode2019=bltpar2],((otu10[&otu=otu10,^ot:ottId=968781,^ot:ottTaxonName=Pyrrhura peruviana,^ot:originalLabel=Pyrrhura_peruviana,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu9[&otu=otu9,^ot:ottId=968780,^ot:ottTaxonName=Pyrrhura roseifrons,^ot:originalLabel=Pyrrhura_roseifrons,^clo:ClementsTaxonName2019=Pyrrhura roseifrons,^clo:speciescode2019=rofpar3])node20,(((otu7[&otu=otu7,^ot:ottId=968775,^ot:ottTaxonName=Pyrrhura eisenmanni,^ot:originalLabel=Pyrrhura_eisenmanni,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu6[&otu=otu6,^ot:ottId=968807,^ot:ottTaxonName=Pyrrhura emma,^ot:originalLabel=Pyrrhura_emma,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5[&otu=otu5,^ot:ottId=993108,^ot:ottTaxonName=Pyrrhura picta,^ot:originalLabel=Pyrrhura_picta,^clo:ClementsTaxonName2019=Pyrrhura picta,^clo:speciescode2019=paipar1])node15)node14,otu8[&otu=otu8,^ot:ottId=316865,^ot:ottTaxonName=Pyrrhura pfrimeri,^ot:originalLabel=Pyrrhura_pfrimeri,^clo:ClementsTaxonName2019=Pyrrhura pfrimeri,^clo:speciescode2019=pfrpar1])node13,((otu3[&otu=otu3,^ot:ottId=968773,^ot:ottTaxonName=Pyrrhura snethlageae,^ot:originalLabel=Pyrrhura_snethlageae,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu4[&otu=otu4,^ot:ottId=968774,^ot:ottTaxonName=Pyrrhura amazonum,^ot:originalLabel=Pyrrhura_amazonum,^clo:ClementsTaxonName2019=Pyrrhura amazonum,^clo:speciescode2019=sanpar2])node10,(otu2[&otu=otu2,^ot:ottId=442820,^ot:ottTaxonName=Pyrrhura griseipectus,^ot:originalLabel=Pyrrhura_griseipectus,^clo:ClementsTaxonName2019=Pyrrhura griseipectus,^clo:speciescode2019=gybpar1],otu1[&otu=otu1,^ot:ottId=442821,^ot:ottTaxonName=Pyrrhura leucotis,^ot:originalLabel=Pyrrhura_leucotis,^clo:ClementsTaxonName2019=Pyrrhura leucotis,^clo:speciescode2019=mafpar3])node7)node6)node5)node4)node3)node2,otu23[&otu=otu23,^ot:ottId=789645,^ot:ottTaxonName=Anodorhynchus leari,^ot:originalLabel=Anodorhynchus_leari,^clo:ClementsTaxonName2019=Anodorhynchus leari,^clo:speciescode2019=indmac1])node1;
+END;
+

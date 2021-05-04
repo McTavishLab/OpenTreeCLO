@@ -1,0 +1,21 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3A = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=](((((otu6[&otu=otu6,^ot:ottId=463029,^ot:ottTaxonName=Kieneria fusca,^ot:originalLabel=Pipilo_fuscus,^clo:ClementsTaxonName2019=Melozone fusca,^clo:speciescode2019=cantow],otu7[&otu=otu7,^ot:ottId=3597253,^ot:ottTaxonName=Kieneria albicollis,^ot:originalLabel=Pipilo_albicollis,^clo:ClementsTaxonName2019=Melozone albicollis,^clo:speciescode2019=whttow1])node13,(otu4[&otu=otu4,^ot:ottId=3597250,^ot:ottTaxonName=Kieneria aberti,^ot:originalLabel=Pipilo_aberti,^clo:ClementsTaxonName2019=Melozone aberti,^clo:speciescode2019=abetow],otu5[&otu=otu5,^ot:ottId=3597248,^ot:ottTaxonName=Kieneria crissalis,^ot:originalLabel=Pipilo_crissalis,^clo:ClementsTaxonName2019=Melozone crissalis,^clo:speciescode2019=caltow])node10)node9,((otu1[&otu=otu1,^ot:ottId=97318,^ot:ottTaxonName=Pipilo maculatus,^ot:originalLabel=Pipilo_maculatus,^clo:ClementsTaxonName2019=Pipilo maculatus,^clo:speciescode2019=spotow],otu2[&otu=otu2,^ot:ottId=97319,^ot:ottTaxonName=Pipilo ocai,^ot:originalLabel=Pipilo_ocai,^clo:ClementsTaxonName2019=Pipilo ocai,^clo:speciescode2019=coltow1])node5,otu3[&otu=otu3,^ot:ottId=463020,^ot:ottTaxonName=Pipilo chlorurus,^ot:originalLabel=Pipilo_chlorurus,^clo:ClementsTaxonName2019=Pipilo chlorurus,^clo:speciescode2019=gnttow])node4)node3,otu8[&otu=otu8,^ot:ottId=97315,^ot:ottTaxonName=Melozone kieneri,^ot:originalLabel=Melozone_kieneri,^clo:ClementsTaxonName2019=Melozone kieneri,^clo:speciescode2019=rcgspa1])node2,otu9[&otu=otu9,^ot:ottId=97317,^ot:ottTaxonName=Arremonops rufivirgatus,^ot:originalLabel=Arremonops_rufivirgatus,^clo:ClementsTaxonName2019=Arremonops rufivirgatus,^clo:speciescode2019=olispa])node1;
+END;
+

@@ -1,0 +1,25 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+        otu8
+        Pionus_senilis
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        Amazona_xanthops
+        Graydidascalus_brachyurus
+        Amazona_autumnalis
+        Amazona_tucumana
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (transversions only)' = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](otu1[&otu=otu1,^ot:ottId=938416,^ot:ottTaxonName=Columba livia,^ot:originalLabel=Columba_livia,^clo:ClementsTaxonName2019=Columba livia,^clo:speciescode2019=rocpig],((otu7[&otu=otu7,^ot:ottId=619331,^ot:ottTaxonName=Cacatua goffiniana,^ot:originalLabel=Cacatua_goffini,^clo:ClementsTaxonName2019=Cacatua goffiniana,^clo:speciescode2019=tancoc1],otu8[&otu=otu8,^ot:ottId=630645,^ot:ottTaxonName=Nymphicus hollandicus,^ot:originalLabel=Nymphicus_hollandicus,^clo:ClementsTaxonName2019=Nymphicus hollandicus,^clo:speciescode2019=cockat])node13,(otu2[&otu=otu2,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger],(otu3[&otu=otu3,^ot:ottId=165617,^ot:ottTaxonName=Amazona ochrocephala,^ot:originalLabel=Amazona_ochrocephala,^clo:ClementsTaxonName2019=Amazona ochrocephala,^clo:speciescode2019=ywcpar],(otu4[&otu=otu4,^ot:ottId=393109,^ot:ottTaxonName=Purpureicephalus spurius,^ot:originalLabel=Purpureicephalus_spurius,^clo:ClementsTaxonName2019=Purpureicephalus spurius,^clo:speciescode2019=recpar1],(otu5[&otu=otu5,^ot:ottId=246406,^ot:ottTaxonName=Poicephalus senegalus,^ot:originalLabel=Poicephalus_senegalus,^clo:ClementsTaxonName2019=Poicephalus senegalus,^clo:speciescode2019=senpar],otu6[&otu=otu6,^ot:ottId=285641,^ot:ottTaxonName=Psittacus erithacus,^ot:originalLabel=Psittacus_erithacus,^clo:ClementsTaxonName2019=Psittacus erithacus,^clo:speciescode2019=grepar])node10)node8)node6)node4)node3)node1;
+END;
+

@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+        otu30
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={ML tree},branchLengthMode=ot:substitutionCount,messages=](otu13:0.133728[&otu=otu13,^ot:ottId=684046,^ot:ottTaxonName=Numida meleagris,^ot:originalLabel=Numida_meleagris,^clo:ClementsTaxonName2019=Numida meleagris,^clo:speciescode2019=helgui],(((((((otu4:0.027073[&otu=otu4,^ot:ottId=3596012,^ot:ottTaxonName=Philortyx fasciatus,^ot:originalLabel=Philortyx_fasciatus,^clo:ClementsTaxonName2019=Philortyx fasciatus,^clo:speciescode2019=banqua1],(((otu29:0.008221[&otu=otu29,^ot:ottId=3596004,^ot:ottTaxonName=Colinus nigrogularis,^ot:originalLabel=Colinus_nigrogularis,^clo:ClementsTaxonName2019=Colinus nigrogularis,^clo:speciescode2019=bltbob1],otu28:0.006[&otu=otu28,^ot:ottId=204709,^ot:ottTaxonName=Colinus virginianus,^ot:originalLabel=Colinus_virginianus,^clo:ClementsTaxonName2019=Colinus virginianus,^clo:speciescode2019=norbob])node55:0.014179,otu27:0.014921[&otu=otu27,^ot:ottId=520556,^ot:ottTaxonName=Colinus cristatus,^ot:originalLabel=Colinus_cristatus,^clo:ClementsTaxonName2019=Colinus cristatus,^clo:speciescode2019=crebob1])node53:0.01499,((otu1:0.005356[&otu=otu1,^ot:ottId=340887,^ot:ottTaxonName=Callipepla gambelii,^ot:originalLabel=Callipepla_gambelii,^clo:ClementsTaxonName2019=Callipepla gambelii,^clo:speciescode2019=gamqua],otu30:0.005871[&otu=otu30,^ot:ottId=340882,^ot:ottTaxonName=Callipepla californica,^ot:originalLabel=Callipepla_californica,^clo:ClementsTaxonName2019=Callipepla californica,^clo:speciescode2019=calqua])node1:0.01133,(otu2:0.019659[&otu=otu2,^ot:ottId=728092,^ot:ottTaxonName=Callipepla squamata,^ot:originalLabel=Callipepla_squamata,^clo:ClementsTaxonName2019=Callipepla squamata,^clo:speciescode2019=scaqua],otu3:0.02523[&otu=otu3,^ot:ottId=340885,^ot:ottTaxonName=Callipepla douglasii,^ot:originalLabel=Callipepla_douglasii,^clo:ClementsTaxonName2019=Callipepla douglasii,^clo:speciescode2019=elequa])node4:0.004624)node3:0.01085)node7:0.007256)node8:0.019175,(otu25:0.008923[&otu=otu25,^ot:ottId=3596009,^ot:ottTaxonName=Dendrortyx macroura,^ot:originalLabel=Dendrortyx_macroura,^clo:ClementsTaxonName2019=Dendrortyx macroura,^clo:speciescode2019=ltwpar1],otu26:0.011619[&otu=otu26,^ot:ottId=3596011,^ot:ottTaxonName=Dendrortyx barbatus,^ot:originalLabel=Dendrortyx_barbatus,^clo:ClementsTaxonName2019=Dendrortyx barbatus,^clo:speciescode2019=bewpar1])node50:0.049519)node10:0.015503,otu5:0.071523[&otu=otu5,^ot:ottId=676779,^ot:ottTaxonName=Oreortyx pictus,^ot:originalLabel=Oreortyx_pictus,^clo:ClementsTaxonName2019=Oreortyx pictus,^clo:speciescode2019=mouqua])node11:0.035335,((otu15:0.057203[&otu=otu15,^ot:ottId=3596014,^ot:ottTaxonName=Dactylortyx thoracicus,^ot:originalLabel=Dactylortyx_thoracicus,^clo:ClementsTaxonName2019=Dactylortyx thoracicus,^clo:speciescode2019=sinqua1],((((otu16:0.028048[&otu=otu16,^ot:ottId=3596001,^ot:ottTaxonName=Odontophorus erythrops,^ot:originalLabel=Odontophorus_erythrops,^clo:ClementsTaxonName2019=Odontophorus erythrops,^clo:speciescode2019=rfwqua1],otu17:0.016121[&otu=otu17,^ot:ottId=329467,^ot:ottTaxonName=Odontophorus capueira,^ot:originalLabel=Odontophorus_capueira,^clo:ClementsTaxonName2019=Odontophorus capueira,^clo:speciescode2019=swwqua1])node37:0.004716,otu18:0.013948[&otu=otu18,^ot:ottId=3595999,^ot:ottTaxonName=Odontophorus stellatus,^ot:originalLabel=Odontophorus_stellatus,^clo:ClementsTaxonName2019=Odontophorus stellatus,^clo:speciescode2019=stwqua1])node36:0.001542,otu19:0.01671[&otu=otu19,^ot:ottId=329457,^ot:ottTaxonName=Odontophorus gujanensis,^ot:originalLabel=Odontophorus_gujanensis,^clo:ClementsTaxonName2019=Odontophorus gujanensis,^clo:speciescode2019=mawqua1])node35:0.009933,((otu23:0.025813[&otu=otu23,^ot:ottId=3595992,^ot:ottTaxonName=Odontophorus guttatus,^ot:originalLabel=Odontophorus_guttatus,^clo:ClementsTaxonName2019=Odontophorus guttatus,^clo:speciescode2019=spwqua1],otu22:0.022294[&otu=otu22,^ot:ottId=3595991,^ot:ottTaxonName=Odontophorus balliviani,^ot:originalLabel=Odontophorus_balliviani,^clo:ClementsTaxonName2019=Odontophorus balliviani,^clo:speciescode2019=sfwqua1])node46:0.007812,(otu21:0.009445[&otu=otu21,^ot:ottId=594190,^ot:ottTaxonName=Odontophorus leucolaemus,^ot:originalLabel=Odontophorus_leucolaemus,^clo:ClementsTaxonName2019=Odontophorus leucolaemus,^clo:speciescode2019=bbwqua1],otu20:0.015132[&otu=otu20,^ot:ottId=329460,^ot:ottTaxonName=Odontophorus speciosus,^ot:originalLabel=Odontophorus_speciosus1,^clo:ClementsTaxonName2019=Odontophorus speciosus,^clo:speciescode2019=rbwqua1])node43:0.017536)node42:0.002802)node34:0.030547)node32:0.008051,otu24:0.090336[&otu=otu24,^ot:ottId=204716,^ot:ottTaxonName=Cyrtonyx montezumae,^ot:originalLabel=Cyrtonyx_montezumae,^clo:ClementsTaxonName2019=Cyrtonyx montezumae,^clo:speciescode2019=monqua])node31:0.015009)node13:0.01554,otu14:0.094114[&otu=otu14,^ot:ottId=3596005,^ot:ottTaxonName=Rhynchortyx cinctus,^ot:originalLabel=Rhynchortyx_cinctus,^clo:ClementsTaxonName2019=Rhynchortyx cinctus,^clo:speciescode2019=tafqua1])node14:0.139015,otu6:0.105425[&otu=otu6,^ot:ottId=867023,^ot:ottTaxonName=Ptilopachus petrosus,^ot:originalLabel=Ptilopachus_petrosus,^clo:ClementsTaxonName2019=Ptilopachus petrosus,^clo:speciescode2019=stopar1])node15:0.025255,(((((otu10:0.080169[&otu=otu10,^ot:ottId=446482,^ot:ottTaxonName=Meleagris gallopavo,^ot:originalLabel=Meleagris_gallopavo,^clo:ClementsTaxonName2019=Meleagris gallopavo,^clo:speciescode2019=wiltur],otu9:0.062855[&otu=otu9,^ot:ottId=572162,^ot:ottTaxonName=Pucrasia macrolopha,^ot:originalLabel=Pucrasia_macrolopha,^clo:ClementsTaxonName2019=Pucrasia macrolopha,^clo:speciescode2019=kokphe1])node24:0.00855,otu8:0.077803[&otu=otu8,^ot:ottId=102719,^ot:ottTaxonName=Phasianus colchicus,^ot:originalLabel=Phasianus_colchicus,^clo:ClementsTaxonName2019=Phasianus colchicus,^clo:speciescode2019=rinphe])node22:0.004858,otu7:0.062071[&otu=otu7,^ot:ottId=51356,^ot:ottTaxonName=Tragopan temminckii,^ot:originalLabel=Tragopan_temminckii,^clo:ClementsTaxonName2019=Tragopan temminckii,^clo:speciescode2019=temtra1])node20:0.041243,otu11:0.160232[&otu=otu11,^ot:ottId=1098760,^ot:ottTaxonName=Coturnix coturnix,^ot:originalLabel=Coturnix_coturnix,^clo:ClementsTaxonName2019=Coturnix coturnix,^clo:speciescode2019=comqua1])node19:0.022433,otu12:0.186818[&otu=otu12,^ot:ottId=352755,^ot:ottTaxonName=Rollulus rouloul,^ot:originalLabel=Rollulus_rouloul,^clo:ClementsTaxonName2019=Rollulus rouloul,^clo:speciescode2019=crepar1])node18:0.039701)node17)'tree1_ROOT';
+END;
+

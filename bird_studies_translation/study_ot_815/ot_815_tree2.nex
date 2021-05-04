@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._1 = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](otu1[&otu=otu1,^ot:ottId=168421,^ot:ottTaxonName=Malurus leucopterus,^ot:originalLabel=Malurus_leucopterus,^clo:ClementsTaxonName2019=Malurus leucopterus,^clo:speciescode2019=whwfai1],otu2[&otu=otu2,^ot:ottId=376608,^ot:ottTaxonName=Xanthotis flaviventer,^ot:originalLabel=Xanthotis_flaviventer,^clo:ClementsTaxonName2019=Xanthotis flaviventer,^clo:speciescode2019=tabhon1],(((otu5[&otu=otu5,^ot:ottId=107065,^ot:ottTaxonName=Sericulus chrysocephalus,^ot:originalLabel=Sericulus_chrysocephalus,^clo:ClementsTaxonName2019=Sericulus chrysocephalus,^clo:speciescode2019=regbow1],(otu7[&otu=otu7,^ot:ottId=446287,^ot:ottTaxonName=Sericulus bakeri,^ot:originalLabel=Sericulus_bakeri,^clo:ClementsTaxonName2019=Sericulus bakeri,^clo:speciescode2019=fimbow1],otu6[&otu=otu6,^ot:ottId=446286,^ot:ottTaxonName=Sericulus aureus,^ot:originalLabel=Sericulus_aureus,^clo:ClementsTaxonName2019=Sericulus aureus,^clo:speciescode2019=flabow3])node22)node20,otu4[&otu=otu4,^ot:ottId=187409,^ot:ottTaxonName=Ptilonorhynchus violaceus,^ot:originalLabel=Ptilonorhynchus_violaceus,^clo:ClementsTaxonName2019=Ptilonorhynchus violaceus,^clo:speciescode2019=satbow1])node18,otu3[&otu=otu3,^ot:ottId=776465,^ot:ottTaxonName=Scenopoeetes dentirostris,^ot:originalLabel=Ailuroedus_dentirostris,^clo:ClementsTaxonName2019=Scenopoeetes dentirostris,^clo:speciescode2019=tobcat2])node16)node13;
+END;
+

@@ -1,0 +1,54 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=42;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig_3._MCC_tree = [&unrootedTree=False,curatedType=Maximum likelihood ,nodeLabelTimeUnit=,reasonsToExcludeFromSynthesis={},outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=]((otu41:6.765995[&otu=otu41,^ot:ottId=27872,^ot:ottTaxonName=Vireo modestus,^ot:originalLabel=FMNH_331132,^clo:ClementsTaxonName2019=Vireo modestus,^clo:speciescode2019=jamvir1],((((((((otu12:0.047156[&otu=otu12,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C5466,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu13:0.047156[&otu=otu13,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=A17777,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node112:0.048131,(otu14:0.035468[&otu=otu14,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=08N21510,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu15:0.035468[&otu=otu15,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=06N30370,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node115:0.059819)node111:0.03388,(otu11:0.034156[&otu=otu11,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=S2916,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu10:0.034156[&otu=otu10,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C164,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node108:0.095011)node107:0.029383,otu9:0.15855[&otu=otu9,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C154,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node105:0.050833,((otu17:0.109995[&otu=otu17,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C60106,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(((otu21:0.033336[&otu=otu21,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=L30896,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu20:0.033336[&otu=otu20,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=xK89925,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node127:0.038442,(otu19:0.050172[&otu=otu19,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=x06N30377,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu18:0.050172[&otu=otu18,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C478,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node124:0.021606)node123:0.01648,otu22:0.088258[&otu=otu22,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=M178222,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node122:0.021737)node120:0.028133,otu16:0.138128[&otu=otu16,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C577,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node118:0.071255)node104:0.067207,(otu23:0.065649[&otu=otu23,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=xL47300,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu24:0.03285[&otu=otu24,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=xL64548,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu25:0.03285[&otu=otu25,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=S2912,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node133:0.0328)node131:0.210941)node103:0.160715,(((otu4:0.172309[&otu=otu4,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=L51626,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu3:0.043523[&otu=otu3,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C147,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu2:0.043523[&otu=otu2,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C5448,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node92:0.128786)node91:0.068945,(otu8:0.112915[&otu=otu8,^ot:ottId=5925685,^ot:ottTaxonName=Vireo bellii bellii,^ot:originalLabel=C105,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],(otu7:0.069136[&otu=otu7,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=B13821,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2],(otu6:0.038154[&otu=otu6,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=06N13115,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match],otu5:0.038154[&otu=otu5,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=L47301,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node98:0.030982)node97:0.043779)node96:0.12834)node90:0.064468,otu1:0.305722[&otu=otu1,^ot:ottId=5925686,^ot:ottTaxonName=Vireo bellii medius,^ot:originalLabel=L43284,^clo:ClementsTaxonName2019=no_match,^clo:speciescode2019=no_match])node88:0.131583)node87:1.075885,((otu39:0.032889[&otu=otu39,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S51813,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3],otu40:0.032889[&otu=otu40,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=S2884,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2])node162:0.193095,((otu37:0.029805[&otu=otu37,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2866,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3],otu38:0.029805[&otu=otu38,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2879,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3])node159:0.14111,((otu26:0.111179[&otu=otu26,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=S2881,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2],((otu31:0.034207[&otu=otu31,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=B82612,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2],otu30:0.034207[&otu=otu30,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2867,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3])node147:0.048885,(otu29:0.069496[&otu=otu29,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=S2909,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2],(otu28:0.050979[&otu=otu28,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2870,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3],otu27:0.050979[&otu=otu27,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=S2903,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2])node143:0.018516)node142:0.013596)node141:0.028087)node139:0.03574,((otu35:0.054696[&otu=otu35,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=05N7314,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2],otu36:0.054696[&otu=otu36,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2895,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3])node156:0.043629,((otu32:0.052562[&otu=otu32,^ot:ottId=5925687,^ot:ottTaxonName=Vireo bellii pusillus,^ot:originalLabel=S2919,^clo:ClementsTaxonName2019=Vireo bellii pusillus,^clo:speciescode2019=belvir3],otu33:0.052562[&otu=otu33,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=B82503,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2])node152:0.038757,otu34:0.091319[&otu=otu34,^ot:ottId=5925684,^ot:ottTaxonName=Vireo bellii arizonae,^ot:originalLabel=S2892,^clo:ClementsTaxonName2019=Vireo bellii arizonae,^clo:speciescode2019=belvir2])node151:0.007006)node150:0.048594)node138:0.023995)node137:0.055069)node136:1.287207)node86:5.252805)node85:1.931701,otu42:8.697696[&otu=otu42,^ot:ottId=3598057,^ot:ottTaxonName=Vireo osburni,^ot:originalLabel=FMHN_331134,^clo:ClementsTaxonName2019=Vireo osburni,^clo:speciescode2019=blmvir1])node84;
+END;
+

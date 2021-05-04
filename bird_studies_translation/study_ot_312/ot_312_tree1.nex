@@ -1,0 +1,57 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=45;
+    TAXLABELS
+        otu38
+        otu39
+        otu36
+        otu37
+        otu34
+        otu35
+        otu32
+        otu33
+        otu30
+        otu31
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu45
+        otu44
+        otu43
+        otu42
+        otu41
+        otu40
+        otu29
+        otu28
+        otu25
+        otu24
+        otu27
+        otu26
+        otu21
+        otu20
+        otu23
+        otu22
+        otu14
+        otu15
+        otu16
+        otu17
+        otu10
+        otu11
+        otu12
+        otu13
+        otu18
+        otu19
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 3a (BEAST)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,branchLengthTimeUnit=Myr,nodeLabelMode=ot:posteriorSupport,branchLengthDescription=,tag={},branchLengthMode=ot:time,nodeLabelDescription=,messages=](otu1:26.842859[&otu=otu1,^ot:ottId=817586,^ot:ottTaxonName=Calyptorhynchus funereus,^ot:originalLabel=Calyptorhynchus_funereus,^clo:ClementsTaxonName2019=Calyptorhynchus funereus,^clo:speciescode2019=ytbcoc1],(otu2:22.958045[&otu=otu2,^ot:ottId=174401,^ot:ottTaxonName=Agapornis roseicollis,^ot:originalLabel=Agapornis_roseicollis,^clo:ClementsTaxonName2019=Agapornis roseicollis,^clo:speciescode2019=peflov],(otu3:13.594754[&otu=otu3,^ot:ottId=995021,^ot:ottTaxonName=Psittaculirostris edwardsii,^ot:originalLabel=Psittaculirostris_edwardsii,^clo:ClementsTaxonName2019=Psittaculirostris edwardsii,^clo:speciescode2019=edfpar1],((otu5:9.759952[&otu=otu5,^ot:ottId=799909,^ot:ottTaxonName=Oreopsittacus arfaki,^ot:originalLabel=Oreopsittacus_arfaki,^clo:ClementsTaxonName2019=Oreopsittacus arfaki,^clo:speciescode2019=plflor1],((otu6:6.183947[&otu=otu6,^ot:ottId=749199,^ot:ottTaxonName=Charmosyna placentis,^ot:originalLabel=Charmosyna_placentis,^clo:ClementsTaxonName2019=Charmosyna placentis,^clo:speciescode2019=reflor1],((otu9:4.593615[&otu=otu9,^ot:ottId=58941,^ot:ottTaxonName=Charmosyna pulchella,^ot:originalLabel=Charmosyna_pulchella,^clo:ClementsTaxonName2019=Charmosyna pulchella,^clo:speciescode2019=failor1],(((otu13:1.339521[&otu=otu13,^ot:ottId=724141,^ot:ottTaxonName=Vini peruviana,^ot:originalLabel=Vini_peruviana,^clo:ClementsTaxonName2019=Vini peruviana,^clo:speciescode2019=blulor1],otu12:1.339521[&otu=otu12,^ot:ottId=749201,^ot:ottTaxonName=Vini australis,^ot:originalLabel=Vini_australis,^clo:ClementsTaxonName2019=Vini australis,^clo:speciescode2019=blclor2])node24:0.420441,otu11:1.759962[&otu=otu11,^ot:ottId=771947,^ot:ottTaxonName=Phigys solitarius,^ot:originalLabel=Phigys_solitarius,^clo:ClementsTaxonName2019=Phigys solitarius,^clo:speciescode2019=collor1])node22:1.078696,otu10:2.838658[&otu=otu10,^ot:ottId=3600308,^ot:ottTaxonName=Charmosyna meeki,^ot:originalLabel=Charmosyna_meeki,^clo:ClementsTaxonName2019=Charmosyna meeki,^clo:speciescode2019=meelor1])node20:1.754957)node18:0.523761,(otu8:3.701048[&otu=otu8,^ot:ottId=375780,^ot:ottTaxonName=Charmosyna papou,^ot:originalLabel=Charmosyna_papou,^clo:ClementsTaxonName2019=Charmosyna papou,^clo:speciescode2019=paplor1],otu7:3.701048[&otu=otu7,^ot:ottId=3600307,^ot:ottTaxonName=Charmosyna multistriata,^ot:originalLabel=Charmosyna_multistriata,^clo:ClementsTaxonName2019=Charmosyna multistriata,^clo:speciescode2019=strlor1])node15:1.416328)node14:1.066571)node12:1.932271,(((((otu18:2.169628[&otu=otu18,^ot:ottId=312140,^ot:ottTaxonName=Lorius garrulus,^ot:originalLabel=Lorius_garrulus,^clo:ClementsTaxonName2019=Lorius garrulus,^clo:speciescode2019=chalor1],otu19:2.169628[&otu=otu19,^ot:ottId=3600319,^ot:ottTaxonName=Lorius domicella,^ot:originalLabel=Lorius_domicella,^clo:ClementsTaxonName2019=Lorius domicella,^clo:speciescode2019=punlor1])node37:0.662149,((otu20:1.808885[&otu=otu20,^ot:ottId=76698,^ot:ottTaxonName=Lorius hypoinochrous,^ot:originalLabel=Lorius_hypoinochrous,^clo:ClementsTaxonName2019=Lorius hypoinochrous,^clo:speciescode2019=publor1],otu21:1.808885[&otu=otu21,^ot:ottId=417932,^ot:ottTaxonName=Lorius lory,^ot:originalLabel=Lorius_lory,^clo:ClementsTaxonName2019=Lorius lory,^clo:speciescode2019=blclor1])node41:0.826272,(otu23:1.764888[&otu=otu23,^ot:ottId=771942,^ot:ottTaxonName=Lorius albidinucha,^ot:originalLabel=Lorius_albidinucha,^clo:ClementsTaxonName2019=Lorius albidinucha,^clo:speciescode2019=whnlor2],otu22:1.764888[&otu=otu22,^ot:ottId=3600318,^ot:ottTaxonName=Lorius chlorocercus,^ot:originalLabel=Lorius_chlorocercus,^clo:ClementsTaxonName2019=Lorius chlorocercus,^clo:speciescode2019=yeblor1])node44:0.870269)node40:0.196619)node36:1.661026,(otu24:4.21699[&otu=otu24,^ot:ottId=3600339,^ot:ottTaxonName=Psitteuteles versicolor,^ot:originalLabel=Psitteuteles_versicolor,^clo:ClementsTaxonName2019=Psitteuteles versicolor,^clo:speciescode2019=varlor1],(otu25:3.853465[&otu=otu25,^ot:ottId=799913,^ot:ottTaxonName=Psitteuteles goldiei,^ot:originalLabel=Psitteuteles_goldiei,^clo:ClementsTaxonName2019=Psitteuteles goldiei,^clo:speciescode2019=gollor1],((((((((otu35:0.630135[&otu=otu35,^ot:ottId=3600337,^ot:ottTaxonName=Eos semilarvata,^ot:originalLabel=Eos_semilarvata,^clo:ClementsTaxonName2019=Eos semilarvata,^clo:speciescode2019=blelor1],otu36:0.630135[&otu=otu36,^ot:ottId=893364,^ot:ottTaxonName=Eos histrio,^ot:originalLabel=Eos_histrio,^clo:ClementsTaxonName2019=Eos histrio,^clo:speciescode2019=rablor1])node71:0.196207,(otu37:0.763047[&otu=otu37,^ot:ottId=417926,^ot:ottTaxonName=Eos squamata,^ot:originalLabel=Eos_squamata,^clo:ClementsTaxonName2019=Eos squamata,^clo:speciescode2019=vinlor1],otu38:0.763047[&otu=otu38,^ot:ottId=417928,^ot:ottTaxonName=Eos bornea,^ot:originalLabel=Eos_bornea,^clo:ClementsTaxonName2019=Eos bornea,^clo:speciescode2019=redlor1])node74:0.063295)node70:0.144132,otu34:0.970474[&otu=otu34,^ot:ottId=547240,^ot:ottTaxonName=Eos cyanogenia,^ot:originalLabel=Eos_cyanogenia,^clo:ClementsTaxonName2019=Eos cyanogenia,^clo:speciescode2019=blwlor1])node68:0.262348,otu33:1.232822[&otu=otu33,^ot:ottId=799912,^ot:ottTaxonName=Eos reticulata,^ot:originalLabel=Eos_reticulata,^clo:ClementsTaxonName2019=Eos reticulata,^clo:speciescode2019=blslor1])node66:0.598858,otu32:1.83168[&otu=otu32,^ot:ottId=3600338,^ot:ottTaxonName=Psitteuteles iris,^ot:originalLabel=Psitteuteles_iris,^clo:ClementsTaxonName2019=Psitteuteles iris,^clo:speciescode2019=irilor1])node64:0.242733,((otu42:1.037033[&otu=otu42,^ot:ottId=293722,^ot:ottTaxonName=Trichoglossus chlorolepidotus,^ot:originalLabel=Trichoglossus_chlorolepidotus,^clo:ClementsTaxonName2019=Trichoglossus chlorolepidotus,^clo:speciescode2019=scblor1],(otu43:0.678401[&otu=otu43,^ot:ottId=3600301,^ot:ottTaxonName=Trichoglossus rubritorquis,^ot:originalLabel=Trichoglossus_rubritorquis,^clo:ClementsTaxonName2019=Trichoglossus rubritorquis,^clo:speciescode2019=railor7],(otu45:0.523626[&otu=otu45,^ot:ottId=225737,^ot:ottTaxonName=Trichoglossus haematodus,^ot:originalLabel=Trichoglossus_haematodus,^clo:ClementsTaxonName2019=Trichoglossus haematodus,^clo:speciescode2019=railor4],otu44:0.523626[&otu=otu44,^ot:ottId=943740,^ot:ottTaxonName=Trichoglossus euteles,^ot:originalLabel=Trichoglossus_euteles,^clo:ClementsTaxonName2019=Trichoglossus euteles,^clo:speciescode2019=olhlor1])node87:0.154776)node85:0.358632)node83:0.783934,(otu39:1.603875[&otu=otu39,^ot:ottId=7113,^ot:ottTaxonName=Trichoglossus johnstoniae,^ot:originalLabel=Trichoglossus_johnstoniae,^clo:ClementsTaxonName2019=Trichoglossus johnstoniae,^clo:speciescode2019=minlor1],(otu41:1.19776[&otu=otu41,^ot:ottId=3600300,^ot:ottTaxonName=Trichoglossus flavoviridis,^ot:originalLabel=Trichoglossus_flavoviridis,^clo:ClementsTaxonName2019=Trichoglossus flavoviridis,^clo:speciescode2019=yaglor1],otu40:1.19776[&otu=otu40,^ot:ottId=276607,^ot:ottTaxonName=Trichoglossus ornatus,^ot:originalLabel=Trichoglossus_ornatus,^clo:ClementsTaxonName2019=Trichoglossus ornatus,^clo:speciescode2019=ornlor1])node80:0.406116)node78:0.217092)node77:0.253446)node63:0.129751,otu31:2.204164[&otu=otu31,^ot:ottId=225747,^ot:ottTaxonName=Glossopsitta concinna,^ot:originalLabel=Glossopsitta_concinna,^clo:ClementsTaxonName2019=Glossopsitta concinna,^clo:speciescode2019=muslor1])node61:1.382015,((otu28:1.776321[&otu=otu28,^ot:ottId=417923,^ot:ottTaxonName=Chalcopsitta duivenbodei,^ot:originalLabel=Chalcopsitta_duivenbodei,^clo:ClementsTaxonName2019=Chalcopsitta duivenbodei,^clo:speciescode2019=brolor1],(otu29:1.184907[&otu=otu29,^ot:ottId=417918,^ot:ottTaxonName=Chalcopsitta atra,^ot:originalLabel=Chalcopsitta_atra,^clo:ClementsTaxonName2019=Chalcopsitta atra,^clo:speciescode2019=blalor1],otu30:1.184907[&otu=otu30,^ot:ottId=417920,^ot:ottTaxonName=Chalcopsitta scintillata,^ot:originalLabel=Chalcopsitta_scintillata,^clo:ClementsTaxonName2019=Chalcopsitta scintillata,^clo:speciescode2019=yeslor1])node58:0.591414)node56:1.592201,(otu27:2.831392[&otu=otu27,^ot:ottId=276605,^ot:ottTaxonName=Chalcopsitta cardinalis,^ot:originalLabel=Chalcopsitta_cardinalis,^clo:ClementsTaxonName2019=Chalcopsitta cardinalis,^clo:speciescode2019=carlor1],otu26:2.831392[&otu=otu26,^ot:ottId=396440,^ot:ottTaxonName=Pseudeos fuscata,^ot:originalLabel=Pseudeos_fuscata,^clo:ClementsTaxonName2019=Pseudeos fuscata,^clo:speciescode2019=duslor1])node53:0.53713)node52:0.217657)node51:0.267287)node49:0.363525)node47:0.275812)node35:0.229737,(otu16:3.665789[&otu=otu16,^ot:ottId=717638,^ot:ottTaxonName=Glossopsitta porphyrocephala,^ot:originalLabel=Glossopsitta_porphyrocephala,^clo:ClementsTaxonName2019=Glossopsitta porphyrocephala,^clo:speciescode2019=puclor1],otu17:3.665789[&otu=otu17,^ot:ottId=224907,^ot:ottTaxonName=Glossopsitta pusilla,^ot:originalLabel=Glossopsitta_pusilla,^clo:ClementsTaxonName2019=Glossopsitta pusilla,^clo:speciescode2019=litlor1])node32:1.05675)node31:1.171706,(otu15:3.475347[&otu=otu15,^ot:ottId=771941,^ot:ottTaxonName=Neopsittacus musschenbroekii,^ot:originalLabel=Neopsittacus_musschenbroekii,^clo:ClementsTaxonName2019=Neopsittacus musschenbroekii,^clo:speciescode2019=yeblor2],otu14:3.475347[&otu=otu14,^ot:ottId=276614,^ot:ottTaxonName=Neopsittacus pullicauda,^ot:originalLabel=Neopsittacus_pullicauda,^clo:ClementsTaxonName2019=Neopsittacus pullicauda,^clo:speciescode2019=orblor1])node28:2.418898)node27:2.221974)node11:1.643734)node9:2.864235,otu4:12.624187[&otu=otu4,^ot:ottId=734818,^ot:ottTaxonName=Melopsittacus undulatus,^ot:originalLabel=Melopsittacus_undulatus,^clo:ClementsTaxonName2019=Melopsittacus undulatus,^clo:speciescode2019=budger])node7:0.970567)node5:9.363291)node3:3.884814)node1;
+END;
+

@@ -1,0 +1,71 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu72004	not_a_bird	not_a_bird	Kipferlia_bialata_NY0166	536769	Kipferlia bialata
+otu71993	not_a_bird	not_a_bird	Carpediemonas_membranifera_QB	260292	Carpediemonas membranifera
+otu71987	not_a_bird	not_a_bird	Carpediemonas_membranifera_BICM	260292	Carpediemonas membranifera
+otu71962	not_a_bird	not_a_bird	Dictyostelium_discoideum	160850	Dictyostelium discoideum
+otu71944	not_a_bird	not_a_bird	Entamoeba_histolytica	120250	Entamoeba histolytica
+otu71991	not_a_bird	not_a_bird	Mastigamoeba_balamuthi	202902	Mastigamoeba balamuthi
+otu72007	not_a_bird	not_a_bird	Monosiga_brevicollis	281703	Monosiga brevicollis
+otu71959	not_a_bird	not_a_bird	Caenorhabditis_elegans	395048	Caenorhabditis elegans
+otu71943	not_a_bird	not_a_bird	Bombyx_mori	440274	Bombyx mori
+otu71965	not_a_bird	not_a_bird	Drosophila_melanogaster	505714	Drosophila melanogaster
+otu71990	not_a_bird	not_a_bird	Anopheles_gambiae	793191	Anopheles gambiae
+otu71996	Gallus gallus	redjun	Gallus_gallus	153563	Gallus gallus
+otu71946	not_a_bird	not_a_bird	Rattus_norvegicus	271555	Rattus norvegicus
+otu71983	not_a_bird	not_a_bird	Mus_musculus	542509	Mus musculus
+otu71955	not_a_bird	not_a_bird	Homo_sapiens	770315	Homo sapiens
+otu71971	not_a_bird	not_a_bird	Danio_rerio	1005914	Danio rerio
+otu71941	not_a_bird	not_a_bird	Candida_albicans	1034966	Candida albicans
+otu71967	not_a_bird	not_a_bird	Saccharomyces_cerevisiae	908549	Saccharomyces cerevisiae
+otu71947	not_a_bird	not_a_bird	Schizosaccharomyces_pombe	990004	Schizosaccharomyces pombe
+otu71984	not_a_bird	not_a_bird	Ajellomyces_capsulatus	124563	Ajellomyces capsulatus
+otu71980	not_a_bird	not_a_bird	Neurospora_crassa	572462	Neurospora crassa
+otu71979	not_a_bird	not_a_bird	Thalassiosira_pseudonana	753596	Thalassiosira pseudonana
+otu71942	not_a_bird	not_a_bird	Phytophthora_sojae	740156	Phytophthora sojae
+otu71968	not_a_bird	not_a_bird	Paramecium_tetraurelia	568130	Paramecium tetraurelia
+otu71961	not_a_bird	not_a_bird	Tetrahymena_thermophila	180195	Tetrahymena thermophila
+otu71976	not_a_bird	not_a_bird	Stylonychia_lemnae	650734	Stylonychia lemnae
+otu71940	not_a_bird	not_a_bird	Eimeria_tenella	775246	Eimeria tenella
+otu71988	not_a_bird	not_a_bird	Toxoplasma_gondii	252145	Toxoplasma gondii
+otu71957	not_a_bird	not_a_bird	Amphidinium_carterae	746949	Amphidinium carterae
+otu71956	not_a_bird	not_a_bird	Plasmodium_falciparum	201128	Plasmodium falciparum
+otu71964	not_a_bird	not_a_bird	Cyanophora_paradoxa	878960	Cyanophora paradoxa
+otu71952	not_a_bird	not_a_bird	Porphyra_purpurea	726206	Porphyra purpurea
+otu72000	not_a_bird	not_a_bird	Guillardia_theta	5247740	Guillardia theta
+otu71989	not_a_bird	not_a_bird	Chlamydomonas_reinhardtii	33153	Chlamydomonas reinhardtii
+otu71973	not_a_bird	not_a_bird	Arabidopsis_thaliana	309263	Arabidopsis thaliana
+otu71948	not_a_bird	not_a_bird	Oryza_sativa	709894	Oryza sativa
+otu71977	not_a_bird	not_a_bird	Triticum_aestivum	31926	Triticum aestivum
+otu71999	not_a_bird	not_a_bird	Malawimonas_jakobiformis	935423	Malawimonas jakobiformis
+otu71998	not_a_bird	not_a_bird	Reclinomonas_americana	429200	Reclinomonas americana
+otu71994	not_a_bird	not_a_bird	Naegleria_gruberi	641873	Naegleria gruberi
+otu72005	not_a_bird	not_a_bird	Andalucia_incarcerata	813154	Andalucia incarcerata
+otu71978	not_a_bird	not_a_bird	Andalucia_godoyi	83127	Andalucia godoyi
+otu71986	not_a_bird	not_a_bird	Euglena_gracilis	1073327	Euglena gracilis
+otu71945	not_a_bird	not_a_bird	Rhynchopus_sp	699273	Rhynchopus
+otu71992	not_a_bird	not_a_bird	Rhynchomonas_nasuta	1034266	Rhynchomonas nasuta
+otu71949	not_a_bird	not_a_bird	Trypanosoma_cruzi	779555	Trypanosoma cruzi
+otu71972	not_a_bird	not_a_bird	Trypanosoma_brucei	494245	Trypanosoma brucei
+otu71997	not_a_bird	not_a_bird	Leishmania_major	766613	Leishmania major
+otu71970	not_a_bird	not_a_bird	Trimastix_marina	4739019	Trimastix marina
+otu71966	not_a_bird	not_a_bird	Trimastix_pyriformis	4739021	Trimastix pyriformis
+otu72003	not_a_bird	not_a_bird	Hicanonectes_teleskopos_SB	431515	Hicanonectes teleskopos
+otu71963	not_a_bird	not_a_bird	Ergobibamus_cyprinoides_CL	1090286	Ergobibamus cyprinoides
+otu71960	not_a_bird	not_a_bird	Carpediemonas_sp._NC	1063329	Carpediemonas sp. NC
+otu71995	not_a_bird	not_a_bird	Carpediemonas_sp._NY0171	1063328	Carpediemonas sp. NY0171
+otu71951	not_a_bird	not_a_bird	Carpediemonas_sp._PCE	1063327	Carpediemonas sp. PCE
+otu71974	not_a_bird	not_a_bird	Chilomastix_caulleryi	1090290	Chilomastix caulleryi
+otu71981	not_a_bird	not_a_bird	Retortamonas_sp_VALE	75500	Retortamonas sp. Vale
+otu71958	not_a_bird	not_a_bird	Spironucleus_vortens	272689	Spironucleus vortens
+otu71939	not_a_bird	not_a_bird	Spironucleus_salmonicida	960893	Spironucleus salmonicida
+otu71938	not_a_bird	not_a_bird	Spironucleus_barkhanus	614625	Spironucleus barkhanus
+otu71950	not_a_bird	not_a_bird	Trepomonas_sp_PCI	330280	Trepomonas sp. PC1
+otu71954	not_a_bird	not_a_bird	Enteromonadidae_sp._PYX_isolate_PSEUD	None	None
+otu71953	not_a_bird	not_a_bird	Hexamita_inflata	202782	Hexamita inflata
+otu72002	not_a_bird	not_a_bird	Trimitus_sp_TRION	840252	Trimitus sp. TRION
+otu71985	not_a_bird	not_a_bird	Enteromonas_hominis_ENTEROII	545029	Enteromonas hominis
+otu71975	not_a_bird	not_a_bird	Enteromonas_sp_GECA2	23963	Enteromonas sp. GECA2
+otu71982	not_a_bird	not_a_bird	Giardia_intestinalis	694358	Giardia intestinalis
+otu71969	not_a_bird	not_a_bird	Dysnectes_brevis_NY0165	239684	Dysnectes brevis
+otu72001	not_a_bird	not_a_bird	Kipferlia_bialata_ppp15C	536769	Kipferlia bialata
+otu72006	not_a_bird	not_a_bird	Kipferlia_bialata_NY0173	536769	Kipferlia bialata

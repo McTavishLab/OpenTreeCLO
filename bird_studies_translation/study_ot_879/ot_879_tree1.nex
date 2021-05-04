@@ -1,0 +1,19 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._4a = [&unrootedTree=False,curatedType=Maximum parsimony ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=ot:bootstrapValues,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,nodeLabelDescription=,messages=](otu7[&otu=otu7,^ot:ottId=989502,^ot:ottTaxonName=Junco hyemalis,^ot:originalLabel=Junco_hyemalis,^clo:ClementsTaxonName2019=Junco hyemalis,^clo:speciescode2019=daejun],((otu5[&otu=otu5,^ot:ottId=989506,^ot:ottTaxonName=Spizella pallida,^ot:originalLabel=Spizella_pallida,^clo:ClementsTaxonName2019=Spizella pallida,^clo:speciescode2019=clcspa],((otu1[&otu=otu1,^ot:ottId=989508,^ot:ottTaxonName=Spizella pusilla,^ot:originalLabel=Spizella_pusilla,^clo:ClementsTaxonName2019=Spizella pusilla,^clo:speciescode2019=fiespa],otu2[&otu=otu2,^ot:ottId=463036,^ot:ottTaxonName=Spizella atrogularis,^ot:originalLabel=Spizella_atrogularis,^clo:ClementsTaxonName2019=Spizella atrogularis,^clo:speciescode2019=bkcspa])node5,(otu3[&otu=otu3,^ot:ottId=463034,^ot:ottTaxonName=Spizella breweri,^ot:originalLabel=Spizella_breweri,^clo:ClementsTaxonName2019=Spizella breweri,^clo:speciescode2019=brespa],otu4[&otu=otu4,^ot:ottId=989504,^ot:ottTaxonName=Spizella passerina,^ot:originalLabel=Spizella_passerina,^clo:ClementsTaxonName2019=Spizella passerina,^clo:speciescode2019=chispa])node8)node4)node3,otu6[&otu=otu6,^ot:ottId=463026,^ot:ottTaxonName=Spizella arborea,^ot:originalLabel=Spizella_arborea,^clo:ClementsTaxonName2019=Spizelloides arborea,^clo:speciescode2019=amtspa])node2)node1;
+END;
+

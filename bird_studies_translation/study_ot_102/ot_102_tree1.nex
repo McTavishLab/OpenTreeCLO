@@ -1,0 +1,23 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+        otu8
+        otu9
+        otu6
+        otu7
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+        otu10
+        otu11
+  ;
+END;
+
+BEGIN TREES;
+    TREE Fig._3_topology = [&unrootedTree=False,messages=,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={}](((((otu5[&otu=otu5,^ot:ottId=874353,^ot:ottTaxonName=Pheucticus aureoventris,^ot:originalLabel=Pheucticus_aureoventris_I,^clo:ClementsTaxonName2019=Pheucticus aureoventris,^clo:speciescode2019=blbgro2],otu6[&otu=otu6,^ot:ottId=3597153,^ot:ottTaxonName=Pheucticus chrysogaster,^ot:originalLabel=Pheucticus_chrysogaster,^clo:ClementsTaxonName2019=Pheucticus chrysogaster,^clo:speciescode2019=gobgro1])node12,otu7[&otu=otu7,^ot:ottId=874353,^ot:ottTaxonName=Pheucticus aureoventris,^ot:originalLabel=Pheucticus_aureoventris_II,^clo:ClementsTaxonName2019=Pheucticus aureoventris,^clo:speciescode2019=blbgro2])node11,(otu10[&otu=otu10,^ot:ottId=3597154,^ot:ottTaxonName=Pheucticus chrysopeplus,^ot:originalLabel=Pheucticus_chrysopeplus_I,^clo:ClementsTaxonName2019=Pheucticus chrysopeplus,^clo:speciescode2019=yelgro],(otu9[&otu=otu9,^ot:ottId=3597154,^ot:ottTaxonName=Pheucticus chrysopeplus,^ot:originalLabel=Pheucticus_chrysopeplus_II,^clo:ClementsTaxonName2019=Pheucticus chrysopeplus,^clo:speciescode2019=yelgro],otu8[&otu=otu8,^ot:ottId=501889,^ot:ottTaxonName=Pheucticus tibialis,^ot:originalLabel=Pheucticus_tibialis,^clo:ClementsTaxonName2019=Pheucticus tibialis,^clo:speciescode2019=bltgro1])node17)node16)node10,(otu4[&otu=otu4,^ot:ottId=370813,^ot:ottTaxonName=Pheucticus ludovicianus,^ot:originalLabel=Pheucticus_ludovicianus,^clo:ClementsTaxonName2019=Pheucticus ludovicianus,^clo:speciescode2019=robgro],((otu1[&otu=otu1,^ot:ottId=425436,^ot:ottTaxonName=Pheucticus melanocephalus,^ot:originalLabel=Pheucticus_melanocephalus_II,^clo:ClementsTaxonName2019=Pheucticus melanocephalus,^clo:speciescode2019=bkhgro],otu2[&otu=otu2,^ot:ottId=425436,^ot:ottTaxonName=Pheucticus melanocephalus,^ot:originalLabel=Pheucticus_melanocephalusIII,^clo:ClementsTaxonName2019=Pheucticus melanocephalus,^clo:speciescode2019=bkhgro])node5,otu3[&otu=otu3,^ot:ottId=425436,^ot:ottTaxonName=Pheucticus melanocephalus,^ot:originalLabel=Pheucticus_melanocephalus_I,^clo:ClementsTaxonName2019=Pheucticus melanocephalus,^clo:speciescode2019=bkhgro])node4)node3)node2,otu11[&otu=otu11,^ot:ottId=283670,^ot:ottTaxonName=Saltator coerulescens,^ot:originalLabel=Saltator_coerulescens,^clo:ClementsTaxonName2019=Saltator coerulescens,^clo:speciescode2019=grasal1])node1;
+END;
+

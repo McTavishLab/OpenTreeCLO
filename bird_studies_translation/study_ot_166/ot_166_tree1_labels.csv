@@ -1,0 +1,34 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu6	not_a_bird	not_a_bird	Hapalopsittaca_melanotis_melanotis	None	None
+otu7	no_match	no_match	Hapalopsittaca_melanotis_peruviana	1064714	Hapalopsittaca melanotis peruviana
+otu5	Hapalopsittaca fuertesi	inwpar1	Hapalopsittaca_fuertesi	642316	Hapalopsittaca fuertesi
+otu4	Hapalopsittaca pyrrhops	refpar2	Hapalopsittaca_pyrrhops	1064717	Hapalopsittaca pyrrhops
+otu3	no_match	no_match	Hapalopsittaca_amazonina_theresae	642310	Hapalopsittaca amazonina theresae
+otu2	no_match	no_match	Hapalopsittaca_amazonina_velezi	642313	Hapalopsittaca amazonina velezi
+otu1	not_a_bird	not_a_bird	Hapalopsittaca_amazonina_amazonina	None	None
+otu10	Pyrilia haematotis	brhpar1	Pyrilia_haematotis	238155	Pionopsitta haematotis
+otu8	Pyrilia pyrilia	sahpar1	Pyrilia_pyrilia	3600349	Pionopsitta pyrilia
+otu9	Pyrilia caica	caipar2	Pyrilia_caica	238149	Pionopsitta caica
+otu28	Pionus tumultuosus	spfpar1	Pionus_tumultuosus	757510	Pionus tumultuosus
+otu29	Pionus senilis	whcpar	Pionus_seniloides	1028838	Pionus senilis
+otu22	no_match	no_match	Pionus_cyanescens	706784	Pionus cyanescens
+otu23	Pionus chalcopterus	brwpar1	Pionus_chalcopterus	165630	Pionus chalcopterus
+otu24	Pionus senilis	whcpar	Pionus_senilis	1028838	Pionus senilis
+otu27	no_match	no_match	Pionus_rubrigularis	183244	Pionus menstruus rubrigularis
+otu25	no_match	no_match	Pionus_menstruus	875952	Pionus menstruus menstruus
+otu26	Pionus menstruus reichenowi	buhpar2	Pionus_reichenowi	706765	Pionus menstruus reichenowi
+otu21	Pionus fuscus	duspar1	Pionus_fuscus	250897	Pionus fuscus
+otu20	no_match	no_match	Pionus_lacerus	183241	Pionus maximiliani lacerus
+otu19	no_match	no_match	Pionus_siy	183252	Pionus maximiliani siy
+otu17	not_a_bird	not_a_bird	Pionus_maximiliani	None	None
+otu18	no_match	no_match	Pionus_melanoblepharus	183250	Pionus maximiliani melanoblepharus
+otu15	no_match	no_match	Pionus_mindoensis	706785	Pionus sordidus mindoensis
+otu16	no_match	no_match	Pionus_corallinus	183248	Pionus sordidus corallinus
+otu11	no_match	no_match	Pionus_ponsi	706763	Pionus sordidus ponsi
+otu12	not_a_bird	not_a_bird	Pionus_sordidus	None	None
+otu13	not_a_bird	not_a_bird	Pionus_antelius	None	None
+otu14	no_match	no_match	Pionus_saturatus	757507	Pionus sordidus saturatus
+otu30	no_match	no_match	Amazona_farinosa	135928	Amazona
+otu32	Graydidascalus brachyurus	shtpar2	Graydidascalus_brachyurus	400211	Graydidascalus brachyurus
+otu31	Alipiopsitta xanthops	yefpar5	Alipiopsitta_xanthops	3600448	Alipiopsitta xanthops
+otu33	Triclaria malachitacea	blbpar4	Triclaria_malachitacea	250892	Triclaria malachitacea

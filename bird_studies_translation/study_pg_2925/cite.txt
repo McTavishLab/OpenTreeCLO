@@ -1,0 +1,3 @@
+https://tree.opentreeoflife.org/curator/study/view/pg_2925
+Grant, J.R., and L.A. Katz. 2014. Building a phylogenomic pipeline for the eukaryotic tree of life? Addressing deep phylogenies with genome-scale data. PLOS Currents Tree of Life, April 2(1).
+http://dx.doi.org/10.1371/currents.tol.c24b6054aebf3602748ac042ccc8f2e9

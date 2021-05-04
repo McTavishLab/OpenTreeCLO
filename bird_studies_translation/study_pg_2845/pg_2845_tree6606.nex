@@ -1,0 +1,36 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+        otu423488
+        otu423466
+        otu423467
+        otu423465
+        otu423484
+        otu423485
+        otu423486
+        otu423469
+        otu423480
+        otu423481
+        otu423482
+        otu423483
+        otu423468
+        otu423487
+        otu423471
+        otu423470
+        otu423473
+        otu423472
+        otu423475
+        otu423474
+        otu423477
+        otu423476
+        otu423479
+        otu423478
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Fig. 2 (topology)' = [&unrootedTree=False,curatedType=Bayesian inference ,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},messages=]((((otu423468[&otu=otu423468,^ot:ottId=82247,^ot:ottTaxonName=Sitta carolinensis,^ot:originalLabel=Sitta_carolinensis,^clo:ClementsTaxonName2019=Sitta carolinensis,^clo:speciescode2019=whbnut],otu423469[&otu=otu423469,^ot:ottId=3599053,^ot:ottTaxonName=Sitta magna,^ot:originalLabel=Sitta_magna,^clo:ClementsTaxonName2019=Sitta magna,^clo:speciescode2019=gianut1])node1153063,((((otu423480[&otu=otu423480,^ot:ottId=377450,^ot:ottTaxonName=Sitta pusilla,^ot:originalLabel=Sitta_pusilla,^clo:ClementsTaxonName2019=Sitta pusilla,^clo:speciescode2019=bnhnut],otu423481[&otu=otu423481,^ot:ottId=82240,^ot:ottTaxonName=Sitta pygmaea,^ot:originalLabel=Sitta_pygmaea,^clo:ClementsTaxonName2019=Sitta pygmaea,^clo:speciescode2019=pygnut])node1153087,(otu423487[&otu=otu423487,^ot:ottId=3599045,^ot:ottTaxonName=Sitta yunnanensis,^ot:originalLabel=Sitta_yunnanensis,^clo:ClementsTaxonName2019=Sitta yunnanensis,^clo:speciescode2019=yunnut1],(((otu423484[&otu=otu423484,^ot:ottId=82233,^ot:ottTaxonName=Sitta whiteheadi,^ot:originalLabel=Sitta_whiteheadi,^clo:ClementsTaxonName2019=Sitta whiteheadi,^clo:speciescode2019=cornut1],otu423485[&otu=otu423485,^ot:ottId=82239,^ot:ottTaxonName=Sitta villosa,^ot:originalLabel=Sitta_villosa,^clo:ClementsTaxonName2019=Sitta villosa,^clo:speciescode2019=snbnut1])node1153096,otu423486[&otu=otu423486,^ot:ottId=603923,^ot:ottTaxonName=Sitta canadensis,^ot:originalLabel=Sitta_canadensis,^clo:ClementsTaxonName2019=Sitta canadensis,^clo:speciescode2019=rebnut])node1153095,(otu423483[&otu=otu423483,^ot:ottId=82237,^ot:ottTaxonName=Sitta krueperi,^ot:originalLabel=Sitta_krueperi,^clo:ClementsTaxonName2019=Sitta krueperi,^clo:speciescode2019=krunut1],otu423482[&otu=otu423482,^ot:ottId=82236,^ot:ottTaxonName=Sitta ledanti,^ot:originalLabel=Sitta_ledanti,^clo:ClementsTaxonName2019=Sitta ledanti,^clo:speciescode2019=algnut1])node1153092)node1153091)node1153090)node1153086,(otu423479[&otu=otu423479,^ot:ottId=3599044,^ot:ottTaxonName=Sitta azurea,^ot:originalLabel=Sitta_azurea,^clo:ClementsTaxonName2019=Sitta azurea,^clo:speciescode2019=blunut1],(otu423478[&otu=otu423478,^ot:ottId=3599050,^ot:ottTaxonName=Sitta oenochlamys,^ot:originalLabel=Sitta_oenochlamys,^clo:ClementsTaxonName2019=Sitta oenochlamys,^clo:speciescode2019=subnut1],otu423477[&otu=otu423477,^ot:ottId=82249,^ot:ottTaxonName=Sitta frontalis,^ot:originalLabel=Sitta_frontalis,^clo:ClementsTaxonName2019=Sitta frontalis,^clo:speciescode2019=vefnut1])node1153082)node1153081)node1153080,(((otu423471[&otu=otu423471,^ot:ottId=1076198,^ot:ottTaxonName=Sitta neumayer,^ot:originalLabel=Sitta_neumayer,^clo:ClementsTaxonName2019=Sitta neumayer,^clo:speciescode2019=rocnut1],otu423470[&otu=otu423470,^ot:ottId=1076201,^ot:ottTaxonName=Sitta tephronota,^ot:originalLabel=Sitta_tephronota,^clo:ClementsTaxonName2019=Sitta tephronota,^clo:speciescode2019=pernut1])node1153069,(otu423475[&otu=otu423475,^ot:ottId=82248,^ot:ottTaxonName=Sitta himalayensis,^ot:originalLabel=Sitta_himalayensis,^clo:ClementsTaxonName2019=Sitta himalayensis,^clo:speciescode2019=whtnut1],((otu423472[&otu=otu423472,^ot:ottId=3599051,^ot:ottTaxonName=Sitta cashmirensis,^ot:originalLabel=Sitta_cashmirensis,^clo:ClementsTaxonName2019=Sitta cashmirensis,^clo:speciescode2019=kasnut1],otu423473[&otu=otu423473,^ot:ottId=3599047,^ot:ottTaxonName=Sitta nagaensis,^ot:originalLabel=Sitta_nagaensis,^clo:ClementsTaxonName2019=Sitta nagaensis,^clo:speciescode2019=chvnut1])node1153074,otu423474[&otu=otu423474,^ot:ottId=82242,^ot:ottTaxonName=Sitta europaea,^ot:originalLabel=Sitta_europaea,^clo:ClementsTaxonName2019=Sitta europaea,^clo:speciescode2019=eurnut2])node1153073)node1153072)node1153068,otu423476[&otu=otu423476,^ot:ottId=3599052,^ot:ottTaxonName=Sitta formosa,^ot:originalLabel=Sitta_formosa,^clo:ClementsTaxonName2019=Sitta formosa,^clo:speciescode2019=beanut1])node1153067)node1153066)node1153062,otu423488[&otu=otu423488,^ot:ottId=3599041,^ot:ottTaxonName=Sitta przewalskii,^ot:originalLabel=Sitta_przewalskii,^clo:ClementsTaxonName2019=Sitta przewalskii,^clo:speciescode2019=prznut1])node1153061,(otu423467[&otu=otu423467,^ot:ottId=565813,^ot:ottTaxonName=Sturnus vulgaris,^ot:originalLabel=Sturnus_vulgaris,^clo:ClementsTaxonName2019=Sturnus vulgaris,^clo:speciescode2019=eursta],(otu423466[&otu=otu423466,^ot:ottId=293378,^ot:ottTaxonName=Troglodytes aedon,^ot:originalLabel=Troglodytes_aedon,^clo:ClementsTaxonName2019=Troglodytes aedon,^clo:speciescode2019=houwre],otu423465[&otu=otu423465,^ot:ottId=1007196,^ot:ottTaxonName=Certhia familiaris,^ot:originalLabel=Certhia_familiaris,^clo:ClementsTaxonName2019=Certhia familiaris,^clo:speciescode2019=eurtre1])node1153057)node1153056)node1153055;
+END;
+

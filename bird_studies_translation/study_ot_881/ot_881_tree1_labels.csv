@@ -1,0 +1,15 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu1	Pipilo chlorurus	gnttow	Pipilo_chlorurus	463020	Pipilo chlorurus
+otu6	Junco hyemalis	daejun	Junco_hyemalis	989502	Junco hyemalis
+otu7	Zonotrichia capensis	rucspa1	Zonotrichia_capensis	265551	Zonotrichia capensis
+otu8	Zonotrichia albicollis	whtspa	Zonotrichia_albicollis	265547	Zonotrichia albicollis
+otu9	Zonotrichia querula	harspa	Zonotrichia_querula	265552	Zonotrichia querula
+otu10	Zonotrichia leucophrys	whcspa	Zonotrichia_leucophrys	265553	Zonotrichia leucophrys
+otu11	Zonotrichia atricapilla	gocspa	Zonotrichia_atricapilla	265554	Zonotrichia atricapilla
+otu13	Melospiza georgiana	swaspa	Melospiza_georgiana	265545	Melospiza georgiana
+otu14	Melospiza lincolnii	linspa	Melospiza_lincolnii	265550	Melospiza lincolnii
+otu12	Melospiza melodia	sonspa	Melospiza_melodia	265548	Melospiza melodia
+otu2	Passerella iliaca	foxspa	Passerella_iliaca	789028	Passerella iliaca
+otu3	not_a_bird	not_a_bird	Passerella_megarhyncha	None	None
+otu4	not_a_bird	not_a_bird	Passerella_unalaschensis	None	None
+otu5	not_a_bird	not_a_bird	Passerella_schistacea	None	None

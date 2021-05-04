@@ -1,0 +1,17 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+        otu4
+        otu5
+        otu2
+        otu3
+        otu1
+  ;
+END;
+
+BEGIN TREES;
+    TREE 'Untitled (tree1)' = [&unrootedTree=False,curatedType=Bayesian inference ,nodeLabelTimeUnit=,outGroupEdge=,nodeLabelMode=,branchLengthDescription=,tag={},branchLengthMode=ot:undefined,messages=]((otu1[&otu=otu1,^ot:ottId=641524,^ot:ottTaxonName=Aphelocoma californica,^ot:originalLabel=Aphelocoma_californica,^clo:ClementsTaxonName2019=Aphelocoma californica,^clo:speciescode2019=cowscj1],otu2[&otu=otu2,^ot:ottId=440878,^ot:ottTaxonName=Aphelocoma insularis,^ot:originalLabel=Aphelocoma_insularis,^clo:ClementsTaxonName2019=Aphelocoma insularis,^clo:speciescode2019=issjay])node2,(otu3[&otu=otu3,^ot:ottId=175629,^ot:ottTaxonName=Aphelocoma coerulescens,^ot:originalLabel=Aphelocoma_coerulescens,^clo:ClementsTaxonName2019=Aphelocoma coerulescens,^clo:speciescode2019=flsjay],(otu5[&otu=otu5,^ot:ottId=1060692,^ot:ottTaxonName=Aphelocoma unicolor,^ot:originalLabel=Aphelocoma_unicolor,^clo:ClementsTaxonName2019=Aphelocoma unicolor,^clo:speciescode2019=unijay1],otu4[&otu=otu4,^ot:ottId=447984,^ot:ottTaxonName=Aphelocoma ultramarina,^ot:originalLabel=Aphelocoma_ultramarina,^clo:ClementsTaxonName2019=Aphelocoma ultramarina,^clo:speciescode2019=mexjay3])node7)node5)node1;
+END;
+

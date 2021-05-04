@@ -1,0 +1,52 @@
+otu_id	^clo:ClementsTaxonName2019	^clo:speciescode2019	^ot:originalLabel	^ot:ottId	^ot:ottTaxonName
+otu32	not_a_bird	not_a_bird	P._plumbea_atricapilla	None	None
+otu39	Polioptila plumbea	trogna1	P._plumbea_plumbea	227269	Polioptila plumbea
+otu38	not_a_bird	not_a_bird	P._plumbea_parvirostris	None	None
+otu22	not_a_bird	not_a_bird	P._dumicola_saturata	None	None
+otu21	Polioptila dumicola	masgna1	P._dumicola_dumicola	885158	Polioptila dumicola
+otu20	not_a_bird	not_a_bird	P._dumicola_berlepschi	None	None
+otu26	Polioptila lembeyei	cubgna1	P._lembeyei	3599113	Polioptila lembeyei
+otu37	not_a_bird	not_a_bird	P._plumbea_maior	None	None
+otu41	not_a_bird	not_a_bird	P._plumbea_superciliaris	None	None
+otu34	not_a_bird	not_a_bird	P._plumbea_brodkorbi	None	None
+otu35	not_a_bird	not_a_bird	P._plumbea_cinericia	None	None
+otu33	not_a_bird	not_a_bird	P._plumbea_bilineata	None	None
+otu7	not_a_bird	not_a_bird	P._albiloris_albiventris	None	None
+otu36	not_a_bird	not_a_bird	P._plumbea_innotata	None	None
+otu40	not_a_bird	not_a_bird	P._plumbea_plumbiceps	None	None
+otu6	Polioptila albiloris	whlgna2	P._albiloris_albiloris	443265	Polioptila albiloris
+otu8	not_a_bird	not_a_bird	P._albiloris_vanrossemi	None	None
+otu31	not_a_bird	not_a_bird	P._nigriceps_restricta	None	None
+otu30	Polioptila nigriceps	bkcgna	P._nigriceps_nigriceps	1019726	Polioptila nigriceps
+otu27	not_a_bird	not_a_bird	P._melanura_curtata	None	None
+otu29	Polioptila melanura	bktgna	P._melanura_melanura	443273	Polioptila melanura
+otu28	not_a_bird	not_a_bird	P._melanura_lucida	None	None
+otu17	not_a_bird	not_a_bird	P._californica_margaritae	None	None
+otu16	Polioptila californica	calgna	P._californica_californica	443272	Polioptila californica
+otu18	not_a_bird	not_a_bird	P._californica_pontilis	None	None
+otu10	Polioptila caerulea	buggna	P._caerulea_caerulea	443266	Polioptila caerulea
+otu14	not_a_bird	not_a_bird	P._caerulea_nelsoni	None	None
+otu11	not_a_bird	not_a_bird	P._caerulea_cozumelae	None	None
+otu12	not_a_bird	not_a_bird	P._caerulea_deppei	None	None
+otu13	not_a_bird	not_a_bird	P._caerulea_mexicana	None	None
+otu15	not_a_bird	not_a_bird	P._caerulea_obscura	None	None
+otu9	not_a_bird	not_a_bird	P._caerulea_amoenissima	None	None
+otu25	Polioptila paraensis	guigna4	P._guianensis_paraensis	3599116	Polioptila paraensis
+otu23	not_a_bird	not_a_bird	P._guianensis_attenboroughi	None	None
+otu19	Polioptila clementsi	iqugna1	P._clementsi	3599115	Polioptila clementsi
+otu42	Polioptila schistaceigula	sltgna1	P._schistaceigula	3599111	Polioptila schistaceigula
+otu24	Polioptila guianensis	guigna3	P._guianensis_guianensis	246	Polioptila guianensis
+otu2	not_a_bird	not_a_bird	M._cinereiventris_peruvianus	None	None
+otu1	Microbates cinereiventris	tafgna1	M._cinereiventris_cinereiventris	976082	Microbates cinereiventris
+otu3	not_a_bird	not_a_bird	M._cinereiventris_semitorquatus	None	None
+otu5	not_a_bird	not_a_bird	M._collaris_perlatus	None	None
+otu4	Microbates collaris	colgna1	M._collaris_collaris	1088732	Microbates collaris
+otu48	not_a_bird	not_a_bird	R._melanurus_obscurus	None	None
+otu50	not_a_bird	not_a_bird	R._melanurus_sticturus	None	None
+otu43	not_a_bird	not_a_bird	R._melanurus_albiventris	None	None
+otu47	Ramphocaenus melanurus	lobgna5	R._melanurus_melanurus	227268	Ramphocaenus melanurus
+otu46	not_a_bird	not_a_bird	R._melanurus_badius	None	None
+otu44	not_a_bird	not_a_bird	R._melanurus_amazonum	None	None
+otu51	not_a_bird	not_a_bird	R._melanurus_trinitatis	None	None
+otu45	not_a_bird	not_a_bird	R._melanurus_ardeleo	None	None
+otu49	not_a_bird	not_a_bird	R._melanurus_rufiventris	None	None

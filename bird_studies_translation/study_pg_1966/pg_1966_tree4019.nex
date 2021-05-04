@@ -1,0 +1,38 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+        otu295858
+        otu295859
+        otu295856
+        otu295857
+        otu295872
+        otu295873
+        otu295870
+        otu295871
+        otu295876
+        otu295877
+        otu295874
+        otu295875
+        otu295878
+        otu295879
+        otu295861
+        otu295860
+        otu295863
+        otu295862
+        otu295865
+        otu295864
+        otu295867
+        otu295866
+        otu295869
+        otu295868
+        otu295881
+        otu295880
+  ;
+END;
+
+BEGIN TREES;
+    TREE BEST_species_tree = [&unrootedTree=False,curatedType=Bayesian inference ,nearestTaxonMRCAOttId=901832,nearestTaxonMRCAName=Maluridae,outGroupEdge=,branchLengthTimeUnit=,branchLengthDescription=,tag={},branchLengthMode=ot:substitutionCount,messages=](((((otu295870:0.014723[&otu=otu295870,^ot:ottId=84219,^ot:ottTaxonName=Amytornis merrotsyi,^ot:originalLabel=Amytornis_merrotsyi_1a,^clo:ClementsTaxonName2019=Amytornis merrotsyi,^clo:speciescode2019=shtgra1],(otu295873:0.012471[&otu=otu295873,^ot:ottId=839535,^ot:ottTaxonName=Amytornis textilis,^ot:originalLabel=Amytornis_textilis_1a,^clo:ClementsTaxonName2019=Amytornis textilis,^clo:speciescode2019=thbgra1],(((otu295871:0.002717[&otu=otu295871,^ot:ottId=839514,^ot:ottTaxonName=Amytornis ballarae,^ot:originalLabel=Amytornis_ballarae_1a,^clo:ClementsTaxonName2019=Amytornis ballarae,^clo:speciescode2019=kalgra1],otu295865:0.002717[&otu=otu295865,^ot:ottId=839538,^ot:ottTaxonName=Amytornis purnelli,^ot:originalLabel=Amytornis_purnelli_1a,^clo:ClementsTaxonName2019=Amytornis purnelli,^clo:speciescode2019=dusgra1])node749891:0.003306,otu295869:0.006023[&otu=otu295869,^ot:ottId=839529,^ot:ottTaxonName=Amytornis goyderi,^ot:originalLabel=Amytornis_goyderi_1a,^clo:ClementsTaxonName2019=Amytornis goyderi,^clo:speciescode2019=eyrgra1])node749890:0.001117,otu295859:0.007141[&otu=otu295859,^ot:ottId=466541,^ot:ottTaxonName=Amytornis housei,^ot:originalLabel=Amytornis_housei_1a,^clo:ClementsTaxonName2019=Amytornis housei,^clo:speciescode2019=blagra1])node749889:0.00533)node749888:0.002252)node749887:0.002441,(otu295880:0.003429[&otu=otu295880,^ot:ottId=883987,^ot:ottTaxonName=Amytornis dorotheae,^ot:originalLabel=Amytornis_dorotheae_2a,^clo:ClementsTaxonName2019=Amytornis dorotheae,^clo:speciescode2019=cargra2],otu295876:0.003429[&otu=otu295876,^ot:ottId=952646,^ot:ottTaxonName=Amytornis striatus,^ot:originalLabel=Amytornis_striatus_1a,^clo:ClementsTaxonName2019=Amytornis striatus,^clo:speciescode2019=strgra2])node749898:0.013735)node749886:0.001497,otu295881:0.018662[&otu=otu295881,^ot:ottId=839532,^ot:ottTaxonName=Amytornis barbatus,^ot:originalLabel=Amytornis_barbatus_3a,^clo:ClementsTaxonName2019=Amytornis barbatus,^clo:speciescode2019=grygra1])node749885:0.028153,((otu295857:0.006965[&otu=otu295857,^ot:ottId=793906,^ot:ottTaxonName=Stipiturus malachurus,^ot:originalLabel=Stipiturus_malachurus_1a,^clo:ClementsTaxonName2019=Stipiturus malachurus,^clo:speciescode2019=souemu1],(otu295867:0.002318[&otu=otu295867,^ot:ottId=287283,^ot:ottTaxonName=Stipiturus ruficeps,^ot:originalLabel=Stipiturus_ruficeps_1a,^clo:ClementsTaxonName2019=Stipiturus ruficeps,^clo:speciescode2019=rucemu1],otu295861:0.002318[&otu=otu295861,^ot:ottId=952648,^ot:ottTaxonName=Stipiturus mallee,^ot:originalLabel=Stipiturus_mallee_1a,^clo:ClementsTaxonName2019=Stipiturus mallee,^clo:speciescode2019=malemu1])node749930:0.004647)node749928:0.025988,((((((otu295872:0.003222[&otu=otu295872,^ot:ottId=45229,^ot:ottTaxonName=Malurus pulcherrimus,^ot:originalLabel=Malurus_pulcherrimus_1a,^clo:ClementsTaxonName2019=Malurus pulcherrimus,^clo:speciescode2019=blbfai1],otu295877:0.003222[&otu=otu295877,^ot:ottId=827140,^ot:ottTaxonName=Malurus elegans,^ot:originalLabel=Malurus_elegans_1a,^clo:ClementsTaxonName2019=Malurus elegans,^clo:speciescode2019=rewfai1])node749911:0.001923,(otu295878:0.003904[&otu=otu295878,^ot:ottId=138665,^ot:ottTaxonName=Malurus lamberti,^ot:originalLabel=Malurus_lamberti_1a,^clo:ClementsTaxonName2019=Malurus lamberti,^clo:speciescode2019=varfai5],otu295874:0.003904[&otu=otu295874,^ot:ottId=325204,^ot:ottTaxonName=Malurus amabilis,^ot:originalLabel=Malurus_amabilis_1a,^clo:ClementsTaxonName2019=Malurus amabilis,^clo:speciescode2019=lovfai1])node749908:0.001241)node749907:0.013459,((otu295864:0.00272[&otu=otu295864,^ot:ottId=511916,^ot:ottTaxonName=Malurus splendens,^ot:originalLabel=Malurus_splendens_1a,^clo:ClementsTaxonName2019=Malurus splendens,^clo:speciescode2019=splfai1],otu295856:0.00272[&otu=otu295856,^ot:ottId=901827,^ot:ottTaxonName=Malurus cyaneus,^ot:originalLabel=Malurus_cyaneus_2a,^clo:ClementsTaxonName2019=Malurus cyaneus,^clo:speciescode2019=supfai1])node749915:0.013419,(otu295862:0.00963[&otu=otu295862,^ot:ottId=168421,^ot:ottTaxonName=Malurus leucopterus,^ot:originalLabel=Malurus_leucopterus_1a,^clo:ClementsTaxonName2019=Malurus leucopterus,^clo:speciescode2019=whwfai1],(otu295863:0.003387[&otu=otu295863,^ot:ottId=959440,^ot:ottTaxonName=Malurus melanocephalus,^ot:originalLabel=Malurus_melanocephalus_1a,^clo:ClementsTaxonName2019=Malurus melanocephalus,^clo:speciescode2019=rebfai1],otu295860:0.003387[&otu=otu295860,^ot:ottId=699812,^ot:ottTaxonName=Malurus alboscapulatus,^ot:originalLabel=Malurus_alboscapulatus_1a,^clo:ClementsTaxonName2019=Malurus alboscapulatus,^clo:speciescode2019=whsfai1])node749919:0.006243)node749918:0.006509)node749914:0.002465)node749906:0.001124,otu295858:0.019728[&otu=otu295858,^ot:ottId=436422,^ot:ottTaxonName=Malurus coronatus,^ot:originalLabel=Malurus_coronatus_1a,^clo:ClementsTaxonName2019=Malurus coronatus,^clo:speciescode2019=pucfai2])node749905:0.002962,otu295866:0.02269[&otu=otu295866,^ot:ottId=422748,^ot:ottTaxonName=Malurus cyanocephalus,^ot:originalLabel=Malurus_cyanocephalus_1a,^clo:ClementsTaxonName2019=Malurus cyanocephalus,^clo:speciescode2019=empfai1])node749904:0.006382,(otu295868:0.002834[&otu=otu295868,^ot:ottId=804494,^ot:ottTaxonName=Malurus grayi,^ot:originalLabel=Malurus_grayi_1a,^clo:ClementsTaxonName2019=Chenorhamphus grayi,^clo:speciescode2019=brbfai1],otu295879:0.002834[&otu=otu295879,^ot:ottId=827149,^ot:ottTaxonName=Clytomyias insignis,^ot:originalLabel=Clytomias_insignis_1a,^clo:ClementsTaxonName2019=Clytomyias insignis,^clo:speciescode2019=orcfai1])node749925:0.026237)node749903:0.003881)node749902:0.013862)node749884:0.01628,otu295875:0.063094[&otu=otu295875,^ot:ottId=32484,^ot:ottTaxonName=Gerygone olivacea,^ot:originalLabel=Gerygone_olivacea_1a,^clo:ClementsTaxonName2019=Gerygone olivacea,^clo:speciescode2019=whtger1])node749882;
+END;
+
