@@ -1,6 +1,7 @@
 import dendropy
 import copy
 import csv
+from opentree import OT
 from chronosynth import chronogram
 from opentree import OT, annotations, taxonomy_helpers
 
@@ -35,6 +36,8 @@ new_in_2021 ={}
 infi_2021 = open("../taxonomy_info/eBird_Taxonomy_v2021.csv", encoding='utf-8-sig')
 tax_header = infi_2021.readline().strip().split(',')
 
+output_header = header.remove('parent_ottid')
+output_header = header.remove('uniqname')
 
 outfi = open("../taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv", "w")
 outfi.write('\t'.join(header))
@@ -47,14 +50,23 @@ with open("../taxonomy_info/eBird_Taxonomy_v2021.csv", newline='') as csvfile:
         if taxon_info_2021['SCI_NAME'] in tax_2019:
             combo_2021 = tax_2019[taxon_info_2021['SCI_NAME']]
             combo_2021['TAXON_ORDER'] = taxon_info_2021['TAXON_ORDER']
+            ##Assert ottid on 3.3
         else:
             new_in_2021[taxon_info_2021['SCI_NAME']]=taxon_info_2021
             combo_2021 = taxon_info_2021
+            res = OT.tnrs_match(names = [taxon_info_2021['SCI_NAME']], context_name="Birds")
+            if len(res.response_dict['results'][0]['matches']) == 1:
+                combo_2021['ott_id'] = str(res.response_dict['results'][0]['matches'][0]['taxon']['ott_id'])
+                combo_2021['tax_sources'] = ','.join(res.response_dict['results'][0]['matches'][0]['taxon']['tax_sources'])
+                combo_2021['flags'] = ','.join(res.response_dict['results'][0]['matches'][0]['taxon']['flags'])
+                combo_2021['rank'] = ','.join(res.response_dict['results'][0]['matches'][0]['taxon']['rank'])
+                if res.response_dict['results'][0]['matches'][0]['is_synonym']==False:
+                    combo_2021['match_type'] = 'canonical_match'
+                elif res.response_dict['results'][0]['matches'][0]['is_synonym']==True:
+                    combo_2021['match_type'] = 'synonym_match'
         outfi.write('\t'.join([combo_2021.get(col, '-') for col in header])+'\n')
 
-
-
-
+outfi.close()
 
 doubles = open("double_match_spp.tsv",'w')
 doubles.write('\t'.join(header))
