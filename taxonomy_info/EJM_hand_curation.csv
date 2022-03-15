@@ -32,61 +32,63 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 13341	species	whbfie9	Tapajos Fire-eye	Pyriglena similis	Passeriformes	Thamnophilidae (Typical Antbirds)			6520368	New amendment	-	-	-	-
 795	species	varcha3	Chestnut-headed Chachalaca	Ortalis ruficeps	Galliformes	Cracidae (Guans, Chachalacas, and Curassows)			6520369	New amendment				
 13812	species	blatap2	Utcubamba Tapaculo	Scytalopus intermedius	Passeriformes	Rhinocryptidae (Tapaculos)			6520370	New amendment				
-13910	species	soalea1	South American Leaftosser	Sclerurus obscurior	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			723333					
+13910	species	soalea1	South American Leaftosser	Sclerurus obscurior	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			6520371	New amendment				
 14944	species	necspi3	Chinchipe Spinetail	Synallaxis chinchipensis	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			6520372	New amendment				
 15574	species	mccfly3	Sierra de Lema Flycatcher	Mionectes roraimae	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6520373	New amendment				
 17289	species	alomyz1	Alor Myzomela	Myzomela prawiradilagae	Passeriformes	Meliphagidae (Honeyeaters)			6520374	New amendment				
 17304	species	talmyz1	Taliabu Myzomela	Myzomela wahe	Passeriformes	Meliphagidae (Honeyeaters)			6520376	New amendment				
-18589	species	litshr5	Variable Shrikethrush	Colluricincla fortis	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-18595	species	litshr6	Waigeo Shrikethrush	Colluricincla affinis	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-18596	species	litshr1	Mamberamo Shrikethrush	Colluricincla obscura	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-18600	species	litshr3	Sepik-Ramu Shrikethrush	Colluricincla tappenbecki	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-18613	species	litshr4	Tagula Shrikethrush	Colluricincla discolor	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-18614	species	litshr2	Rufous Shrikethrush	Colluricincla rufogaster	Passeriformes	Pachycephalidae (Whistlers and Allies)								
-19542	species	pelfan1	Peleng Fantail	Rhipidura habibiei	Passeriformes	Rhipiduridae (Fantails)								
-20867	species	satber1	Satin Berrypecker	Melanocharis citreola	Passeriformes	Melanocharitidae (Berrypeckers and Longbills)								
-21868	species	tstlar1	Turkestan Short-toed Lark	Alaudala heinei	Passeriformes	Alaudidae (Larks)								
-22415	species	delpri1	Delicate Prinia	Prinia lepida	Passeriformes	Cisticolidae (Cisticolas and Allies)								
-22552	species	kilcis1	Kilombero Cisticola	Cisticola bakerorum	Passeriformes	Cisticolidae (Cisticolas and Allies)								
-22620	species	whtcis1	White-tailed Cisticola	Cisticola anderseni	Passeriformes	Cisticolidae (Cisticolas and Allies)								
-22977	species	cbbwar4	Seram Bush Warbler	Locustella musculus	Passeriformes	Locustellidae (Grassbirds and Allies)								
-22978	species	talgrw1	Taliabu Bush Warbler	Locustella portenta	Passeriformes	Locustellidae (Grassbirds and Allies)								
-22979	species	cbbwar3	Buru Bush Warbler	Locustella disturbans	Passeriformes	Locustellidae (Grassbirds and Allies)								
-23107	species	hirwar2	Highland Rush Warbler	Bradypterus centralis	Passeriformes	Locustellidae (Grassbirds and Allies)								
-23783	species	gycbul2	Gray-cheeked Bulbul	Alophoixus tephrogenys	Passeriformes	Pycnonotidae (Bulbuls)								
-23786	species	ochbul3	Penan Bulbul	Alophoixus ruficrissus	Passeriformes	Pycnonotidae (Bulbuls)								
-24178	species	isllew10	Biak Leaf Warbler	Phylloscopus misoriensis	Passeriformes	Phylloscopidae (Leaf Warblers)								
-24474	species	subwar6	Western Subalpine Warbler	Curruca iberiae	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)								
-24788	species	afywhe3	Green White-eye	Zosterops stuhlmanni	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)								
-24844	species	lebwhe2	Wakatobi White-eye	Zosterops flavissimus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)								
-24967	species	soiwhe3	Dark-eyed White-eye	Zosterops tetiparius	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)								
-25173	species	lasbab1	Large Scimitar-Babbler	Erythrogenys hypoleucos	Passeriformes	Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies)								
-25185	species	spbscb1	Spot-breasted Scimitar-Babbler	Erythrogenys mcclellandi	Passeriformes	Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies)								
-25437	species	mowbab1	Mountain Wren-Babbler	Gypsophila crassa	Passeriformes	Pellorneidae (Ground Babblers and Allies)								
-25447	species	limwrb4	Annam Limestone Babbler	Gypsophila annamensis	Passeriformes	Pellorneidae (Ground Babblers and Allies)								
-25448	species	limwrb2	Rufous Limestone Babbler	Gypsophila calcicola	Passeriformes	Pellorneidae (Ground Babblers and Allies)								
-25451	species	rbwbab1	Rusty-breasted Wren-Babbler	Gypsophila rufipectus	Passeriformes	Pellorneidae (Ground Babblers and Allies)								
-25875	species	yetlau1	Yellow-throated Laughingthrush	Pterorhinus galbanus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25876	species	buclau1	Blue-crowned Laughingthrush	Pterorhinus courtoisi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25879	species	chclau3	Chestnut-capped Laughingthrush	Pterorhinus mitratus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25887	species	chblau1	Chestnut-backed Laughingthrush	Pterorhinus nuchalis	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25920	species	giabab1	Giant Babax	Pterorhinus waddelli	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25924	species	tibbab1	Tibetan Babax	Pterorhinus koslowi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25931	species	ruclau2	Rufous-crowned Laughingthrush	Pterorhinus ruficeps	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25932	species	gyslau	Gray-sided Laughingthrush	Pterorhinus caerulatus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-25938	species	buflau1	Buffy Laughingthrush	Pterorhinus berthemyi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)								
-26046	species	bnhnut2	Bahama Nuthatch	Sitta insularis	Passeriformes	Sittidae (Nuthatches)								
-26393	species	sedwre1	Sedge Wren	Cistothorus stellaris	Passeriformes	Troglodytidae (Wrens)								
-28111	species	hibfly4	Dayak Blue Flycatcher	Cyornis montanus	Passeriformes	Muscicapidae (Old World Flycatchers)								
-28947	species	speflo1	Spectacled Flowerpecker	Dicaeum dayakorum	Passeriformes	Dicaeidae (Flowerpeckers)								
-30037	species	sthmun2	Streak-headed Munia	Mayrimunia tristissima	Passeriformes	Estrildidae (Waxbills and Allies)								
-30042	species	sthmun3	White-spotted Munia	Mayrimunia leucosticta	Passeriformes	Estrildidae (Waxbills and Allies)								
-30241	species	lavwax	Lavender Waxbill	Glaucestrilda caerulescens	Passeriformes	Estrildidae (Waxbills and Allies)								
-30961	species	screup3	West Mexican Euphonia	Euphonia godmani	Passeriformes	Fringillidae (Finches, Euphonias, and Allies)								
-31193	species	gyhbul5	Taiwan Bullfinch	Pyrrhula owstoni	Passeriformes	Fringillidae (Finches, Euphonias, and Allies)								
-31820	species	stcspa2	Yungas Sparrow	Rhynchospiza dabbenei	Passeriformes	Passerellidae (New World Sparrows)								
-33103	species	rucwar4	Chestnut-capped Warbler	Basileuterus delattrii	Passeriformes	Parulidae (New World Warblers)								
-34271	species	btsfin1	Band-tailed Sierra Finch	Rhopospina alaudina	Passeriformes	Thraupidae (Tanagers and Allies)								
-34278	species	casfin1	Carbonated Sierra Finch	Rhopospina carbonaria	Passeriformes	Thraupidae (Tanagers and Allies)								
-34548	species	purbul3	St. Kitts Bullfinch	Melopyrrha grandis	Passeriformes	Thraupidae (Tanagers and Allies)								
-1466	species	crearg3	Malayan Crested Argus	Rheinardia nigrescens	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			6520374	New amendment				
+18589	species	litshr5	Variable Shrikethrush	Colluricincla fortis	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520377	New amendment				
+18595	species	litshr6	Waigeo Shrikethrush	Colluricincla affinis	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520378	New amendment				
+18596	species	litshr1	Mamberamo Shrikethrush	Colluricincla obscura	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520379	New amendment				
+18600	species	litshr3	Sepik-Ramu Shrikethrush	Colluricincla tappenbecki	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520380	New amendment				
+18613	species	litshr4	Tagula Shrikethrush	Colluricincla discolor	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520381	New amendment				
+18614	species	litshr2	Rufous Shrikethrush	Colluricincla rufogaster	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520382	New amendment				
+19542	species	pelfan1	Peleng Fantail	Rhipidura habibiei	Passeriformes	Rhipiduridae (Fantails)			6520383	New amendment				
+20867	species	satber1	Satin Berrypecker	Melanocharis citreola	Passeriformes	Melanocharitidae (Berrypeckers and Longbills)			6520384	New amendment				
+21868	species	tstlar1	Turkestan Short-toed Lark	Alaudala heinei	Passeriformes	Alaudidae (Larks)			6520385	New amendment				
+4090	species	malpas1	Malagasy Palm-Swift	Cypsiurus gracilis	Caprimulgiformes	Apodidae (Swifts)			6520386	New amendment				
+22415	species	delpri1	Delicate Prinia	Prinia lepida	Passeriformes	Cisticolidae (Cisticolas and Allies)			6520387	New amendment				
+22552	species	kilcis1	Kilombero Cisticola	Cisticola bakerorum	Passeriformes	Cisticolidae (Cisticolas and Allies)			6520388	New amendment				
+22620	species	whtcis1	White-tailed Cisticola	Cisticola anderseni	Passeriformes	Cisticolidae (Cisticolas and Allies)			6520389	New amendment				
+22977	species	cbbwar4	Seram Bush Warbler	Locustella musculus	Passeriformes	Locustellidae (Grassbirds and Allies)			6520390	New amendment				
+22978	species	talgrw1	Taliabu Bush Warbler	Locustella portenta	Passeriformes	Locustellidae (Grassbirds and Allies)			6520391	New amendment				
+22979	species	cbbwar3	Buru Bush Warbler	Locustella disturbans	Passeriformes	Locustellidae (Grassbirds and Allies)			6520392	New amendment				
+23107	species	hirwar2	Highland Rush Warbler	Bradypterus centralis	Passeriformes	Locustellidae (Grassbirds and Allies)			6520393	New amendment				
+23783	species	gycbul2	Gray-cheeked Bulbul	Alophoixus tephrogenys	Passeriformes	Pycnonotidae (Bulbuls)			6520394	New amendment				
+23786	species	ochbul3	Penan Bulbul	Alophoixus ruficrissus	Passeriformes	Pycnonotidae (Bulbuls)			6520395	New amendment				
+24178	species	isllew10	Biak Leaf Warbler	Phylloscopus misoriensis	Passeriformes	Phylloscopidae (Leaf Warblers)			6520396	New amendment				
+4824	species	gybsab5	Diamantina Sabrewing	Campylopterus diamantinensis	Caprimulgiformes	Trochilidae (Hummingbirds)			6520397	New amendment				
+24474	species	subwar6	Western Subalpine Warbler	Curruca iberiae	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			6520398	New amendment				
+24788	species	afywhe3	Green White-eye	Zosterops stuhlmanni	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			6520399	New amendment				
+24844	species	lebwhe2	Wakatobi White-eye	Zosterops flavissimus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			6520400	New amendment				
+24967	species	soiwhe3	Dark-eyed White-eye	Zosterops tetiparius	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			6520401	New amendment				
+25173	species	lasbab1	Large Scimitar-Babbler	Erythrogenys hypoleucos	Passeriformes	Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies)			6520402	New amendment				
+25185	species	spbscb1	Spot-breasted Scimitar-Babbler	Erythrogenys mcclellandi	Passeriformes	Timaliidae (Tree-Babblers, Scimitar-Babblers, and Allies)			6520403	New amendment				
+25437	species	mowbab1	Mountain Wren-Babbler	Gypsophila crassa	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	New genus				
+25447	species	limwrb4	Annam Limestone Babbler	Gypsophila annamensis	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	New genus				
+25448	species	limwrb2	Rufous Limestone Babbler	Gypsophila calcicola	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	New genus				
+25451	species	rbwbab1	Rusty-breasted Wren-Babbler	Gypsophila rufipectus	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	New genus				
+25875	species	yetlau1	Yellow-throated Laughingthrush	Pterorhinus galbanus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520405	New amendment				
+25876	species	buclau1	Blue-crowned Laughingthrush	Pterorhinus courtoisi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520406	New amendment				
+25879	species	chclau3	Chestnut-capped Laughingthrush	Pterorhinus mitratus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520407	New amendment				
+25887	species	chblau1	Chestnut-backed Laughingthrush	Pterorhinus nuchalis	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520408	New amendment				
+25920	species	giabab1	Giant Babax	Pterorhinus waddelli	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520409	New amendment				
+25924	species	tibbab1	Tibetan Babax	Pterorhinus koslowi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520410	New amendment				
+25931	species	ruclau2	Rufous-crowned Laughingthrush	Pterorhinus ruficeps	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520411	New amendment				
+25932	species	gyslau	Gray-sided Laughingthrush	Pterorhinus caerulatus	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520412	New amendment				
+25938	species	buflau1	Buffy Laughingthrush	Pterorhinus berthemyi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520413	New amendment				
+26046	species	bnhnut2	Bahama Nuthatch	Sitta insularis	Passeriformes	Sittidae (Nuthatches)			6520414	New amendment				
+26393	species	sedwre1	Sedge Wren	Cistothorus stellaris	Passeriformes	Troglodytidae (Wrens)			6520415	New amendment				
+28111	species	hibfly4	Dayak Blue Flycatcher	Cyornis montanus	Passeriformes	Muscicapidae (Old World Flycatchers)			6520416	New amendment				
+28947	species	speflo1	Spectacled Flowerpecker	Dicaeum dayakorum	Passeriformes	Dicaeidae (Flowerpeckers)			6520417	New amendment				
+30037	species	sthmun2	Streak-headed Munia	Mayrimunia tristissima	Passeriformes	Estrildidae (Waxbills and Allies)			6520425	New genus				
+30042	species	sthmun3	White-spotted Munia	Mayrimunia leucosticta	Passeriformes	Estrildidae (Waxbills and Allies)			6520425	New genus				
+30241	species	lavwax	Lavender Waxbill	Glaucestrilda caerulescens	Passeriformes	Estrildidae (Waxbills and Allies)			6520426	New genus				
+30961	species	screup3	West Mexican Euphonia	Euphonia godmani	Passeriformes	Fringillidae (Finches, Euphonias, and Allies)			6520418	New amendment				
+31193	species	gyhbul5	Taiwan Bullfinch	Pyrrhula owstoni	Passeriformes	Fringillidae (Finches, Euphonias, and Allies)			6520419	New amendment				
+31820	species	stcspa2	Yungas Sparrow	Rhynchospiza dabbenei	Passeriformes	Passerellidae (New World Sparrows)			6520427	New amendment				
+33103	species	rucwar4	Chestnut-capped Warbler	Basileuterus delattrii	Passeriformes	Parulidae (New World Warblers)			6520428	New genus				
+34271	species	btsfin1	Band-tailed Sierra Finch	Rhopospina alaudina	Passeriformes	Thraupidae (Tanagers and Allies)			6520428	New genus				
+34278	species	casfin1	Carbonated Sierra Finch	Rhopospina carbonaria	Passeriformes	Thraupidae (Tanagers and Allies)			6520374	New amendment				
+34548	species	purbul3	St. Kitts Bullfinch	Melopyrrha grandis	Passeriformes	Thraupidae (Tanagers and Allies)			6520422	New amendment				
+1466	species	crearg3	Malayan Crested Argus	Rheinardia nigrescens	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			6520375	New amendment				
