@@ -15,6 +15,7 @@ https://tree.opentreeoflife.org/taxonomy/browse?id=5560024
 Want to add Taenioptynx sylvaticus
     But genus (e.g. Taenioptynx) needs to propogate before spp can be mapped, I think.
 
+Do I need a taxonomy re-build before I can add spp to those genera?
 
 Other spp that need genera:
 
@@ -31,4 +32,4 @@ Other spp that need genera:
 
 Added but should remove:
 
-6520370 is same taxon as 723333
+6520370 is same taxon as 723333.
