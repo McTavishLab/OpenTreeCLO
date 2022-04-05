@@ -1,3 +1,5 @@
+import sys
+import os
 import dendropy
 import copy
 from chronosynth import chronogram
@@ -5,7 +7,10 @@ from opentree import OT, annotations, taxonomy_helpers
 from helpers import crosswalk_to_dict
 
 
-custom_synth_dir = sys.argv[1] 
+
+custom_synth_dir = os.path.abspath(sys.argv[1])
+taxonomy_crosswalk = sys.argv[2] 
+
 # "/home/ejmctavish/projects/otapi/OpenTreeCLO/custom_synth_runs/snacktavish_aves_81461_tmpvu7e5t2x"
 
 #$ curl -X POST https://ot38.opentreeoflife.org/v3/tree_of_life/build_tree -d '{"input_collection":"snacktavish/woodpeckers", "root_id": "ott1020138"}'
@@ -17,7 +22,7 @@ custom_synth_dir = sys.argv[1]
 
 #!tar -xzvf aves_all_plus_tax.tar.gz
 
-name_map = crosswalk_to_dict("../taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv")
+name_map = crosswalk_to_dict(taxonomy_crosswalk)
 ## function to get back walk from ott o clo
 
 
@@ -49,6 +54,7 @@ leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 #now dates
 maps = chronogram.map_conflict_nodes_tree(current)
 
+
 dates = chronogram.build_synth_node_source_ages()
 
 
@@ -79,4 +85,9 @@ annotations.write_itol_relabel(name_map, filename="{}/ottlabel.txt".format(custo
 
 
 annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir))
-annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir))
+annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support")
+
+
+jetz_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_809@tree2")
+annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(jetz_annotations, filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
