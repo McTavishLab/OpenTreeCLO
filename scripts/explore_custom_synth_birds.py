@@ -52,10 +52,11 @@ leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 
 
 #now dates
-maps = chronogram.map_conflict_nodes_tree(current)
 
-
-dates = chronogram.build_synth_node_source_ages()
+custom_str = chronogram.conflict_tree_str(current)
+custom_dates = chronogram.build_synth_node_source_ages(compare_to = custom_str,
+                                                       fresh = True,
+                                                       sources = ['ot_2013@tree8'])
 
 
 root_node = OT.synth_mrca(node_ids=leaves_B).response_dict['mrca']['node_id']
@@ -64,8 +65,8 @@ root_node = OT.synth_mrca(node_ids=leaves_B).response_dict['mrca']['node_id']
 max_age_est = 130
 #https://academic.oup.com/sysbio/article/63/3/442/1649269
 
-chronogram.date_tree(maps['tree'],
-                     dates,
+chronogram.date_tree(current,
+                     custom_dates,
                      root_node,
                      max_age_est,
                      method='bladj',
