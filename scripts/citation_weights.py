@@ -45,7 +45,7 @@ for node in node_support_annotation:
 
 study_cite_file = open("citation_node_counts.tsv", "w")
 for study_id in study_node_count:
-    cites = OT.get_citations([study_id])
+    cites = OT.get_citations([study_id]).replace('\n','\t')
     study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
 
 study_cite_file.close()
