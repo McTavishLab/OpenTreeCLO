@@ -7,7 +7,7 @@ from opentree import OT, annotations, taxonomy_helpers
 from helpers import crosswalk_to_dict
 
 
-
+OT.api_endpoint = "development"
 custom_synth_dir = os.path.abspath(sys.argv[1])
 taxonomy_crosswalk = sys.argv[2] 
 
@@ -55,8 +55,7 @@ leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 
 custom_str = chronogram.conflict_tree_str(current)
 custom_dates = chronogram.build_synth_node_source_ages(compare_to = custom_str,
-                                                       fresh = True,
-                                                       sources = ['ot_2013@tree8'])
+                                                       fresh = True)
 
 
 root_node = OT.synth_mrca(node_ids=leaves_B).response_dict['mrca']['node_id']
