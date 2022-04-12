@@ -1,5 +1,6 @@
 import sys
 import os
+import json
 import dendropy
 import copy
 from chronosynth import chronogram
@@ -46,9 +47,11 @@ leaves_A = [tip.taxon.label for tip in current.leaf_node_iter()]
 taxa_retain = [key for key in name_map]
 
 current.retain_taxa_with_labels(taxa_retain)
+leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
+
+'''
 current.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema = "newick")
 
-leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 
 
 #now dates
@@ -77,6 +80,7 @@ chronogram.date_tree(current,
 
 
 
+'''
 
 node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
@@ -91,3 +95,101 @@ annotations.write_itol_support(node_annotations, filename="{}/support.txt".forma
 jetz_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_809@tree2")
 annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
 annotations.write_itol_support(jetz_annotations, filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+clem_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_2019@tree7")
+annotations.write_itol_conflict(clem_annotations, filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(clem_annotations, filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+
+
+## Pruning could happen here 
+
+
+annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
+
+study_weights = {}
+
+uncontested_taxa = []
+node_support_annotation = {}
+all_nodes = []
+why_no_annot = []
+for node in current:
+    label = None
+    if not node.is_leaf():
+        label = node.label
+        all_nodes.append(label)
+        assert label
+        if label == 'ott81461':
+            pass
+        else:
+            if label not in annot['nodes']:
+                why_no_annot.append(label)
+            elif 'supported_by' in annot['nodes'][label].keys():
+                strict_support = annot['nodes'][label]['supported_by']
+                node_support_annotation[label] = strict_support
+            else:
+                assert label.startswith('ott')
+                uncontested_taxa.append(label)
+
+
+
+
+node_phylo_count = {}
+study_node_count = {}
+for node in node_support_annotation:
+    for source in node_support_annotation[node]:
+        study_id = source.split('@')[0]
+        if study_id in study_node_count:
+            study_node_count[study_id]+=1
+        else:
+            study_node_count[study_id] = 1
+
+
+study_cite_file = open("citation_node_counts.tsv", "w")
+for study_id in study_node_count:
+    cites = OT.get_citations([study_id]).replace('\n','\t')
+    study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
+
+study_cite_file.close()
+
+
+clem_conf = 0
+clem_supp = 0
+jetz_conf = 0
+jetz_supp = 0
+all_conf = 0
+phylo_supp = 0
+only_clem_supp = 0
+
+for node in node_annotations:
+    if jetz_annotations[node].get('support') >= 1:
+        jetz_supp += 1
+    if jetz_annotations[node].get('conflict') >= 1:
+        jetz_conf += 1
+    if clem_annotations[node].get('support') >= 1:
+        clem_supp += 1
+    if clem_annotations[node].get('conflict') >= 1:
+        clem_conf += 1
+
+
+for node in node_support_annotation:
+    supp = node_support_annotation.get(node, {})
+    if len(set(node_support_annotation[node].keys()).difference(set(['ot_2019@tree7']))) >=1:
+        phylo_supp += 1
+    if set(node_support_annotation[node].keys()) == (set(['ot_2019@tree7'])):
+        only_clem_supp += 1
+
+#    if node_annotations[node].get('conflict') >= 1:
+#        all_conf += 1
+
+
+summary_statement = """This tree contains {l} leaves and {i} internal nodes.\n
+                        Of those nodes, {asl} are strictly supported \n
+                        by at least 1 input phylogeny. The rest ({tsl}) \n
+                        are placed by taxonomy.""".format(l=len(leaves_B),
+                                                                i=len(all_nodes),
+                                                                asl=phylo_supp,
+                                                                tsl=len(all_nodes)-phylo_supp)
+
+
+print(summary_statement)
