@@ -4,11 +4,12 @@ import json
 import dendropy
 import copy
 from chronosynth import chronogram
+import opentree
 from opentree import OT, annotations, taxonomy_helpers
 from helpers import crosswalk_to_dict
 
+chronogram.set_dev()
 
-OT.api_endpoint = "development"
 custom_synth_dir = os.path.abspath(sys.argv[1])
 taxonomy_crosswalk = sys.argv[2] 
 
@@ -49,17 +50,32 @@ taxa_retain = [key for key in name_map]
 current.retain_taxa_with_labels(taxa_retain)
 leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 
-'''
+
 current.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema = "newick")
 
 
 
 #now dates
 
-custom_str = chronogram.conflict_tree_str(current)
-custom_dates = chronogram.build_synth_node_source_ages(compare_to = custom_str,
-                                                       fresh = True)
+all_chronograms = chronogram.find_trees(search_property="ot:branchLengthMode", value="ot:time")
+all_birds = chronogram.find_trees(search_property="ot:ottId", value="81461")
+bird_chrono = set(all_chronograms).intersection(set(all_birds))
 
+custom_str = chronogram.conflict_tree_str(current)
+
+custom_dates = chronogram.combine_ages_from_sources(list(bird_chrono),
+                                                    json_out = "{}/dates/node_ages.json".format(custom_synth_dir),
+                                                    compare_to = custom_str)
+
+matched_date_studies = set()
+for node in custom_dates['node_ages']:
+    for source in custom_dates['node_ages'][node]:
+        matched_date_studies.add(source['source_id'].split('@')[0])
+
+dates_cite_file = open("{}/dates/dates_citations.txt".format(custom_synth_dir), "w")
+cites = OT.get_citations(matched_date_studies)
+dates_cite_file.write(cites)
+dates_cite_file.close()
 
 root_node = OT.synth_mrca(node_ids=leaves_B).response_dict['mrca']['node_id']
 
@@ -80,7 +96,7 @@ chronogram.date_tree(current,
 
 
 
-'''
+
 
 node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
@@ -102,7 +118,6 @@ annotations.write_itol_support(clem_annotations, filename="{}/clem_support.txt".
 
 
 
-## Pruning could happen here 
 
 
 annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
@@ -136,14 +151,22 @@ for node in current:
 
 node_phylo_count = {}
 study_node_count = {}
+tree_node_count = {}
 for node in node_support_annotation:
     for source in node_support_annotation[node]:
         study_id = source.split('@')[0]
         if study_id in study_node_count:
-            study_node_count[study_id]+=1
+            study_node_count[study_id] += 1
         else:
             study_node_count[study_id] = 1
+        if source in tree_node_count:
+            tree_node_count[source] += 1
+        else:
+            tree_node_count[source] = 1
 
+
+
+print("{lt} trees from {ls} published studies contributed information to this tree".format(lt=len(tree_node_count), ls=len(study_node_count)))
 
 study_cite_file = open("citation_node_counts.tsv", "w")
 for study_id in study_node_count:
@@ -151,6 +174,7 @@ for study_id in study_node_count:
     study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
 
 study_cite_file.close()
+
 
 
 clem_conf = 0
@@ -161,6 +185,8 @@ all_conf = 0
 phylo_supp = 0
 only_clem_supp = 0
 
+tax_conf_nodes = []
+
 for node in node_annotations:
     if jetz_annotations[node].get('support') >= 1:
         jetz_supp += 1
@@ -170,6 +196,14 @@ for node in node_annotations:
         clem_supp += 1
     if clem_annotations[node].get('conflict') >= 1:
         clem_conf += 1
+        tax_conf_nodes.append(node)
+
+
+study_conflict_w_tax = {}
+for node in tax_conf_nodes:
+    anno = annot['nodes'][node]
+
+    
 
 
 for node in node_support_annotation:
@@ -182,14 +216,27 @@ for node in node_support_annotation:
 #    if node_annotations[node].get('conflict') >= 1:
 #        all_conf += 1
 
+CLO_spp_num = 10824
 
-summary_statement = """This tree contains {l} leaves and {i} internal nodes.\n
-                        Of those nodes, {asl} are strictly supported \n
-                        by at least 1 input phylogeny. The rest ({tsl}) \n
+summary_statement1 = """This tree contains {l} leaves and {i} internal nodes.
+                        Of those nodes, {asl} are strictly supported 
+                        by at least 1 input phylogeny. The rest ({tsl}) 
                         are placed by taxonomy.""".format(l=len(leaves_B),
                                                                 i=len(all_nodes),
                                                                 asl=phylo_supp,
                                                                 tsl=len(all_nodes)-phylo_supp)
+
+print("""This comprises {per:.2} of the {cls} species 
+                        in the 2021 clements taxonomy""".format(per = len(leaves_B)/CLO_spp_num,
+                                                               cls=CLO_spp_num))
+
+print("""of the {cc} nodes in the tree disagree with current CLO taxonomy""".format(cc=clem_conf))
+                                                                    
+
+
+print("""date information for {ld} nodes in the tree
+         was summarized from {lds} published studies""".format(ld=len(custom_dates['node_ages']),
+                                                                lds=len(matched_date_studies)))
 
 
 print(summary_statement)
