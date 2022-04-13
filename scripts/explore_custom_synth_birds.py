@@ -8,7 +8,7 @@ import opentree
 from opentree import OT, annotations, taxonomy_helpers
 from helpers import crosswalk_to_dict
 
-chronogram.set_dev()
+#chronogram.set_dev()
 
 custom_synth_dir = os.path.abspath(sys.argv[1])
 taxonomy_crosswalk = sys.argv[2] 
@@ -218,7 +218,7 @@ for node in node_support_annotation:
 
 CLO_spp_num = 10824
 
-summary_statement1 = """This tree contains {l} leaves and {i} internal nodes.
+summary_statement = """This tree contains {l} leaves and {i} internal nodes.
                         Of those nodes, {asl} are strictly supported 
                         by at least 1 input phylogeny. The rest ({tsl}) 
                         are placed by taxonomy.""".format(l=len(leaves_B),
