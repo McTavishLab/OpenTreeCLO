@@ -63,6 +63,13 @@ bird_chrono = set(all_chronograms).intersection(set(all_birds))
 
 custom_str = chronogram.conflict_tree_str(current)
 
+#selected_bird_chrono = ['ot_2018@tree8', 'ot_2013@tree8']
+
+dates_dir = "{}/dates".format(custom_synth_dir)
+if not os.path.exists(dates_dir):
+    os.mkdir(dates_dir)
+
+
 custom_dates = chronogram.combine_ages_from_sources(list(bird_chrono),
                                                     json_out = "{}/dates/node_ages.json".format(custom_synth_dir),
                                                     compare_to = custom_str)
@@ -199,11 +206,72 @@ for node in node_annotations:
         tax_conf_nodes.append(node)
 
 
-study_conflict_w_tax = {}
-for node in tax_conf_nodes:
-    anno = annot['nodes'][node]
+no_phylo_info = []
+for tip in leaves_B:
+    if tip in annot['nodes'].keys():
+        if 'terminal' in annot['nodes'][tip].keys():
+            if list(annot['nodes'][tip]['terminal'].keys()) == ['ot_2019@tree7']:
+                no_phylo_info.append(tip)
+        elif 'supported_by' in annot['nodes'][tip].keys():
+            if list(annot['nodes'][tip]['supported_by'].keys()) == ['ot_2019@tree7']:
+                no_phylo_info.append(tip)
+        else:
+            print(tip)
+            print(annot['nodes'][tip])
+    else:
+        no_phylo_info.append(tip)
 
-    
+print("{} tips are placed without phylogenetic information".format(len(no_phylo_info)))
+
+no_phylo_fi = open("tips_without_phylo.txt", 'w')
+for tip in no_phylo_info:
+    no_phylo_fi.write(name_map[tip]+'\n')
+
+no_phylo_fi.close()
+
+
+rev_name_map = {value:key for key, value in name_map.items()}
+higher_level_tax_tree = dendropy.Tree.get(path="taxonomy_info/ebirdTaxonomy2021HigherLevels.tre", schema="newick")
+
+for taxon in higher_level_tax_tree.taxon_namespace:
+    if taxon.label in rev_name_map:
+        taxon.label = rev_name_map[taxon.label]
+
+labelled_str = chronogram.conflict_tree_str(higher_level_tax_tree)
+
+
+
+def make_node_url(source, node):
+    study, tree = source.split('@')
+    return "https://tree.opentreeoflife.org/curator/study/view/{}?tab=home&tree={}&node={}".format(study, tree, node)
+
+
+tax_conf = OT.conflict_str(labelled_str, compare_to=custom_str).response_dict
+
+tax_conf_file = open("higher_level_tax_conflicts.txt", 'w')
+higher_level_tax_conf = {}
+for node in higher_level_tax_tree:
+    if node.label == 'Aves':
+        pass
+    elif node.label:
+        supp = tax_conf.get(node.label,{'status':'absent'})
+        if supp['status'] == 'conflicts_with':
+            higher_level_tax_conf[node.label] = {'witness':supp['witness']}
+            tax_conf_file.write("\n{} is broken\n".format(node.label))
+            for wit_node in supp['witness']:
+                print(wit_node)
+                tax_conf_file.write("Node {} supported by:\n".format(wit_node))           
+                for source, node in annot['nodes'][wit_node].get('supported_by',{}).items():
+                    tax_conf_file.write(make_node_url(source,node)+'\n')
+                if 'supported_by' not in annot['nodes'][wit_node].keys():
+                    tax_conf_file.write("Node {} partial path of :\n".format(wit_node))            
+                    for source, node in annot['nodes'][wit_node].get('partial_path_of',{}).items():
+                        tax_conf_file.write(make_node_url(source,node)+'\n')
+        if supp['status']=='absent':
+            tax_conf_file.write("{} is MIA\n".format(node.label))
+
+tax_conf_file.close()
+
 
 
 for node in node_support_annotation:

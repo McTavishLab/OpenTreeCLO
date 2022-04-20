@@ -16315,7 +16315,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 33695	species	ygbtan1	Yellow-green Tanager	Bangsia flavovirens	Passeriformes	Thraupidae (Tanagers and Allies)			3597310	Chlorospingus flavovirens	species	ncbi:1874781,gbif:2488733,irmng:10994144		-
 33696	species	orttan1	Orange-throated Tanager	Wetmorethraupis sterrhopteron	Passeriformes	Thraupidae (Tanagers and Allies)			946075	Wetmorethraupis sterrhopteron	species	ncbi:548522,gbif:2488271,irmng:11441966		canonical_match
 33697	species	homtan1	Hooded Mountain-Tanager	Buthraupis montana	Passeriformes	Thraupidae (Tanagers and Allies)			767689	Buthraupis montana	species	ncbi:62159,gbif:2488303,irmng:10597770		canonical_match
-33703	species	blctan2	Blue-capped Tanager	Sporathraupis cyanocephala	Passeriformes	Thraupidae (Tanagers and Allies)			7662399	Sporathraupis cyanocephala	species	gbif:8965072		-
+33703	species	blctan2	Blue-capped Tanager	Sporathraupis cyanocephala	Passeriformes	Thraupidae (Tanagers and Allies)			433922	Thraupis cyanocephala	species	ncbi:175016,gbif:2488634, irmng:10591505		hand_match_ejm
 33712	species	mamtan1	Masked Mountain Tanager	Tephrophilus wetmorei	Passeriformes	Thraupidae (Tanagers and Allies)			895349	Buthraupis wetmorei	species	ncbi:548505,gbif:2488297,irmng:11125322		-
 33713	species	grgtan1	Grass-green Tanager	Chlorornis riefferii	Passeriformes	Thraupidae (Tanagers and Allies)			937492	Chlorornis riefferii	species	ncbi:62169,gbif:5230635,irmng:11406463		canonical_match
 33719	species	bcmtan1	Black-chested Mountain-Tanager	Cnemathraupis eximia	Passeriformes	Thraupidae (Tanagers and Allies)			895346	Buthraupis eximia	species	ncbi:548503,gbif:2488298,irmng:10212373		hand_match_eliot
