@@ -63,14 +63,14 @@ bird_chrono = set(all_chronograms).intersection(set(all_birds))
 
 custom_str = chronogram.conflict_tree_str(current)
 
-#selected_bird_chrono = ['ot_2018@tree8', 'ot_2013@tree8']
+selected_bird_chrono = ['ot_2018@tree8', 'ot_2013@tree8']
 
 dates_dir = "{}/dates".format(custom_synth_dir)
 if not os.path.exists(dates_dir):
     os.mkdir(dates_dir)
 
 
-custom_dates = chronogram.combine_ages_from_sources(list(bird_chrono),
+custom_dates = chronogram.combine_ages_from_sources(selected_bird_chrono,#list(bird_chrono)
                                                     json_out = "{}/dates/node_ages.json".format(custom_synth_dir),
                                                     compare_to = custom_str)
 
@@ -103,7 +103,12 @@ chronogram.date_tree(current,
 
 
 
+dated_CLO_labels = dendropy.Tree.get_from_path('{}/dated.tre'.format(custom_synth_dir), schema = "newick")
+for tax in dated_CLO_labels.taxon_namespace:
+    tax.label = name_map[tax.label]
 
+
+dated_CLO_labels.write(path="{}/clements_labels_Apr25.tre".format(custom_synth_dir), schema="newick")
 
 node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
@@ -173,7 +178,6 @@ for node in node_support_annotation:
 
 
 
-print("{lt} trees from {ls} published studies contributed information to this tree".format(lt=len(tree_node_count), ls=len(study_node_count)))
 
 study_cite_file = open("citation_node_counts.tsv", "w")
 for study_id in study_node_count:
@@ -221,7 +225,6 @@ for tip in leaves_B:
     else:
         no_phylo_info.append(tip)
 
-print("{} tips are placed without phylogenetic information".format(len(no_phylo_info)))
 
 no_phylo_fi = open("tips_without_phylo.txt", 'w')
 for tip in no_phylo_info:
@@ -248,7 +251,7 @@ def make_node_url(source, node):
 
 tax_conf = OT.conflict_str(labelled_str, compare_to=custom_str).response_dict
 
-tax_conf_file = open("higher_level_tax_conflicts.txt", 'w')
+tax_conf_file = open("{}/higher_level_tax_conflicts.txt".format(custom_synth_dir), 'w')
 higher_level_tax_conf = {}
 for node in higher_level_tax_tree:
     if node.label == 'Aves':
@@ -259,7 +262,6 @@ for node in higher_level_tax_tree:
             higher_level_tax_conf[node.label] = {'witness':supp['witness']}
             tax_conf_file.write("\n{} is broken\n".format(node.label))
             for wit_node in supp['witness']:
-                print(wit_node)
                 tax_conf_file.write("Node {} supported by:\n".format(wit_node))           
                 for source, node in annot['nodes'][wit_node].get('supported_by',{}).items():
                     tax_conf_file.write(make_node_url(source,node)+'\n')
@@ -285,6 +287,7 @@ for node in node_support_annotation:
 #        all_conf += 1
 
 CLO_spp_num = 10824
+print("{lt} trees from {ls} published studies contributed information to this tree".format(lt=len(tree_node_count), ls=len(study_node_count)))
 
 summary_statement = """This tree contains {l} leaves and {i} internal nodes.
                         Of those nodes, {asl} are strictly supported 
@@ -293,12 +296,13 @@ summary_statement = """This tree contains {l} leaves and {i} internal nodes.
                                                                 i=len(all_nodes),
                                                                 asl=phylo_supp,
                                                                 tsl=len(all_nodes)-phylo_supp)
+print(summary_statement)
 
 print("""This comprises {per:.2} of the {cls} species 
                         in the 2021 clements taxonomy""".format(per = len(leaves_B)/CLO_spp_num,
                                                                cls=CLO_spp_num))
 
-print("""of the {cc} nodes in the tree disagree with current CLO taxonomy""".format(cc=clem_conf))
+print("""{cc} nodes in the tree disagree with current CLO taxonomy""".format(cc=clem_conf))
                                                                     
 
 
@@ -307,4 +311,3 @@ print("""date information for {ld} nodes in the tree
                                                                 lds=len(matched_date_studies)))
 
 
-print(summary_statement)

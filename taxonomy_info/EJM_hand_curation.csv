@@ -93,3 +93,4 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 34548	species	purbul3	St. Kitts Bullfinch	Melopyrrha grandis	Passeriformes	Thraupidae (Tanagers and Allies)			6520422	New amendment				
 1466	species	crearg3	Malayan Crested Argus	Rheinardia nigrescens	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			6520375	New amendment				
 33703	species	blctan2	Blue-capped Tanager	Sporathraupis cyanocephala	Passeriformes	Thraupidae (Tanagers and Allies)			433922	Thraupis cyanocephala	species	ncbi:175016,gbif:2488634, irmng:10591505		hand_match_ejm
+25954	species	goldcr1	Goldcrest	Regulus regulus	Passeriformes	Regulidae (Kinglets)			4131625	Regulus regulus regulus	subspecies	ncbi:214359	incertae_sedis_inherited	hand_match_ejm
