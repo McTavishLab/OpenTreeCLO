@@ -664,7 +664,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 1083	spuh	quail1	new world quail sp.	Odontophoridae sp.	Galliformes	Odontophoridae (New World Quail)			-	-	-	-	-	unmatched
 1084	species	udzpar1	Udzungwa Partridge	Xenoperdix udzungwensis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			54195	Xenoperdix udzungwensis	species	ncbi:338142,gbif:2474120,irmng:10218112		canonical_match
 1085	issf	udzpar3	Udzungwa Partridge (Udzungwa)	Xenoperdix udzungwensis udzungwensis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)		udzpar1	-	-	-	-	-	unmatched
-1085	issf	udzpar3	Udzungwa Partridge (Udzungwa)	Xenoperdix udzungwensis udzungwensis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)		udzpar1	54193	Xenoperdix obscurata	species	ncbi:338143		unmatched
+1086	issf	udzpar2	Udzungwa Partridge (Rubeho)	Xenoperdix udzungwensis obscuratus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)		udzpar1	54193	Xenoperdix obscurata	species	ncbi:338143		unmatched
 1087	species	ferpar2	Ferruginous Partridge	Caloperdix oculeus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			136466	Caloperdix oculeus	species	ncbi:466541,gbif:2474107,irmng:10940275		canonical_match
 1091	species	crepar1	Crested Partridge	Rollulus rouloul	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			352755	Rollulus rouloul	species	ncbi:30405,gbif:2474113,irmng:11095299		canonical_match
 1092	species	blapar2	Black Partridge	Melanoperdix niger	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			3596095	Melanoperdix niger	species	ncbi:1756206,gbif:2473465,irmng:10229607		canonical_match
@@ -2205,7 +2205,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 4344	species	shccoq	Short-crested Coquette	Lophornis brachylophus	Caprimulgiformes	Trochilidae (Hummingbirds)			3600497	Lophornis brachylophus	species	gbif:2477012,irmng:10217356		canonical_match
 4345	species	ruccoq1	Rufous-crested Coquette	Lophornis delattrei	Caprimulgiformes	Trochilidae (Hummingbirds)			767071	Lophornis delattrei	species	ncbi:304657,gbif:2477005,irmng:10464772		canonical_match
 4348	species	spacoq1	Spangled Coquette	Lophornis stictolophus	Caprimulgiformes	Trochilidae (Hummingbirds)			3600498	Lophornis stictolophus	species	gbif:2477010,irmng:10592779		canonical_match
-4348	species	spacoq1	Spangled Coquette	Lophornis stictolophus	Caprimulgiformes	Trochilidae (Hummingbirds)			7658846	Lophornis verreauxi	species	gbif:9081205		canonical_match
+4349	species	fescoq2	Butterfly Coquette	Lophornis verreauxii	Caprimulgiformes	Trochilidae (Hummingbirds)			7658846	Lophornis verreauxi	species	gbif:9081205		canonical_match
 4352	species	fescoq1	Festive Coquette	Lophornis chalybeus	Caprimulgiformes	Trochilidae (Hummingbirds)			1058621	Lophornis chalybeus	species	ncbi:689227,gbif:2477001,irmng:11253412		canonical_match
 4353	species	peacoq1	Peacock Coquette	Lophornis pavoninus	Caprimulgiformes	Trochilidae (Hummingbirds)			520729	Lophornis pavoninus	species	ncbi:472833,gbif:2477014,irmng:11255585		canonical_match
 4356	species	blccoq1	Black-crested Coquette	Lophornis helenae	Caprimulgiformes	Trochilidae (Hummingbirds)			3600496	Lophornis helenae	species	gbif:2477009,irmng:10597199		canonical_match
@@ -8642,9 +8642,9 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 16451	species	whrmon2	White-rumped Monjita	Xolmis velatus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			886242	Xolmis velatus	species	ncbi:478619,gbif:2482736,irmng:11112016		canonical_match
 16452	species	whimon1	White Monjita	Xolmis irupero	Passeriformes	Tyrannidae (Tyrant Flycatchers)			541981	Xolmis irupero	species	ncbi:495231,gbif:2482747,irmng:10222425		canonical_match
 16455	species	grymon1	Gray Monjita	Nengetus cinereus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			599074	Xolmis cinereus	species	ncbi:555365,gbif:2482741,irmng:11439750		-
-16455	species	grymon1	Gray Monjita	Nengetus cinereus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			599071	Xolmis coronatus	species	ncbi:555366,gbif:2482745,irmng:10880820		-
-16455	species	grymon1	Gray Monjita	Nengetus cinereus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			5560059	Xolmis salinarum	species	irmng:10593433	hidden	-
-16455	species	grymon1	Gray Monjita	Nengetus cinereus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			599072	Xolmis rubetra	species	ncbi:555367,gbif:2482732,irmng:11004186		-
+16458	species	bkcmon1	Black-crowned Monjita	Neoxolmis coronatus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			599071	Xolmis coronatus	species	ncbi:555366,gbif:2482745,irmng:10880820		-
+16459	species	salmon1	Salinas Monjita	Neoxolmis salinarum	Passeriformes	Tyrannidae (Tyrant Flycatchers)			5560059	Xolmis salinarum	species	irmng:10593433	hidden	-
+16460	species	rubmon1	Rusty-backed Monjita	Neoxolmis rubetra	Passeriformes	Tyrannidae (Tyrant Flycatchers)			599072	Xolmis rubetra	species	ncbi:555367,gbif:2482732,irmng:11004186		-
 16461	species	chvtyr2	Chocolate-vented Tyrant	Neoxolmis rufiventris	Passeriformes	Tyrannidae (Tyrant Flycatchers)			541979	Neoxolmis rufiventris	species	ncbi:495233,gbif:2483147,irmng:10210996		canonical_match
 16462	species	bkbsht1	Black-billed Shrike-Tyrant	Agriornis montanus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			1036002	Agriornis montanus	species	ncbi:123640,gbif:2483480,irmng:10210419		canonical_match
 16468	species	wtstyr1	White-tailed Shrike-Tyrant	Agriornis albicauda	Passeriformes	Tyrannidae (Tyrant Flycatchers)			3599206	Agriornis albicauda	species	ncbi:2338451,gbif:7341519		canonical_match
@@ -11737,7 +11737,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 23782	species	gytbul1	Gray-throated Bulbul	Alophoixus frater	Passeriformes	Pycnonotidae (Bulbuls)			304547	Alophoixus frater	species	ncbi:690592,gbif:6094308		canonical_match
 23783	species	gycbul2	Gray-cheeked Bulbul	Alophoixus tephrogenys	Passeriformes	Pycnonotidae (Bulbuls)			-	-	-	-	-	-
 23786	species	ochbul3	Penan Bulbul	Alophoixus ruficrissus	Passeriformes	Pycnonotidae (Bulbuls)			-	-	-	-	-	-
-23790	species	gycbul1	Gray-cheeked Bulbul	Alophoixus bres	Passeriformes	Pycnonotidae (Bulbuls)			122201	Alophoixus bres	species	ncbi:182882,gbif:2486198,irmng:10899061		canonical_match
+23790	species	gycbul3	Brown-cheeked Bulbul	Alophoixus bres	Passeriformes	Pycnonotidae (Bulbuls)			122201	Alophoixus bres	species	ncbi:182882,gbif:2486198,irmng:10899061		canonical_match
 23793	species	whtbul1	White-throated Bulbul	Alophoixus flaveolus	Passeriformes	Pycnonotidae (Bulbuls)			204772	Alophoixus flaveolus	species	ncbi:182884,gbif:2486197,irmng:10210430		canonical_match
 23796	species	ochbul1	Ochraceous Bulbul	Alophoixus ochraceus	Passeriformes	Pycnonotidae (Bulbuls)			122177	Alophoixus ochraceus	species	ncbi:182886,gbif:9165051,gbif:2486195,irmng:10210449		canonical_match
 23803	species	putbul1	Puff-throated Bulbul	Alophoixus pallidus	Passeriformes	Pycnonotidae (Bulbuls)			931324	Alophoixus pallidus	species	ncbi:182879,gbif:2486192,irmng:11407430		canonical_match
@@ -11938,7 +11938,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 24162	issf	isllew5	Island Leaf Warbler (Kai)	Phylloscopus poliocephalus avicola	Passeriformes	Phylloscopidae (Leaf Warblers)		islwar1	-	-	-	-	-	-
 24163	issf	isllew2	Island Leaf Warbler (New Guinea)	Phylloscopus poliocephalus [poliocephalus Group]	Passeriformes	Phylloscopidae (Leaf Warblers)		islwar1	-	-	-	-	-	-
 24170	issf	isllew1	Island Leaf Warbler (South Pacific)	Phylloscopus poliocephalus [matthiae Group]	Passeriformes	Phylloscopidae (Leaf Warblers)		islwar1	-	-	-	-	-	-
-24177	species	islwar1	Island Leaf Warbler	Phylloscopus maforensis	Passeriformes	Phylloscopidae (Leaf Warblers)			7068632	Seicercus maforensis	species	ncbi:2163029,gbif:8971767		synonym_match
+24177	species	isllew9	Numfor Leaf Warbler	Phylloscopus maforensis	Passeriformes	Phylloscopidae (Leaf Warblers)			7068632	Seicercus maforensis	species	ncbi:2163029,gbif:8971767		synonym_match
 24178	species	isllew10	Biak Leaf Warbler	Phylloscopus misoriensis	Passeriformes	Phylloscopidae (Leaf Warblers)			-	-	-	-	-	-
 24179	species	kullew1	Kolombangara Leaf Warbler	Phylloscopus amoenus	Passeriformes	Phylloscopidae (Leaf Warblers)			71802	Phylloscopus amoenus	species	ncbi:322142,gbif:2493050,irmng:10919153		canonical_match
 24180	spuh	phyllo1	Phylloscopus sp.	Phylloscopus sp.	Passeriformes	Phylloscopidae (Leaf Warblers)			-	-	-	-	-	unmatched
@@ -12271,7 +12271,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 24933	slash	y00817	Silvereye/Layard's White-eye	Zosterops lateralis/explorator	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			-	-	-	-	-	-
 24934	species	bhweye1	Black-headed White-eye	Zosterops hypoxanthus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			3598281	Zosterops hypoxanthus	species	ncbi:2485327,gbif:2489403,irmng:11165407		canonical_match
 24938	species	biweye1	Biak White-eye	Zosterops mysorensis	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			3598269	Zosterops mysorensis	species	gbif:2489382,irmng:11246707		canonical_match
-24938	species	biweye1	Biak White-eye	Zosterops mysorensis	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			758759	Zosterops rendovae	species	ncbi:589903,irmng:10219886		canonical_match
+24939	species	gytwhe1	Gray-throated White-eye	Zosterops rendovae	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			758759	Zosterops rendovae	species	ncbi:589903,irmng:10219886		canonical_match
 24940	issf	gytwhe2	Gray-throated White-eye (Bougainville)	Zosterops rendovae hamlini	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)		gytwhe1	-	-	-	-	-	-
 24941	issf	gytwhe3	Gray-throated White-eye (Gray-throated)	Zosterops rendovae rendovae/oblitus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)		gytwhe1	-	-	-	-	-	-
 24944	species	yapwhe1	Yap White-eye	Zosterops oleagineus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			83053	Zosterops oleagineus	species	ncbi:135990,gbif:2489397,irmng:10199250,irmng:11369562		canonical_match
@@ -12814,7 +12814,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 26388	slash	winwre	Pacific/Winter Wren	Troglodytes pacificus/hiemalis	Passeriformes	Troglodytidae (Wrens)			-	-	-	-	-	unmatched
 26389	species	timwre1	Timberline Wren	Thryorchilus browni	Passeriformes	Troglodytidae (Wrens)			402973	Thryorchilus browni	species	ncbi:109456,gbif:2493838,irmng:10221362		canonical_match
 26393	species	sedwre1	Sedge Wren	Cistothorus stellaris	Passeriformes	Troglodytidae (Wrens)			-	-	-	-	-	-
-26394	species	sedwre	Sedge Wren	Cistothorus platensis	Passeriformes	Troglodytidae (Wrens)			932500	Cistothorus platensis	species	ncbi:241534,gbif:2493890,irmng:11247066		canonical_match
+26394	species	sedwre	Grass Wren	Cistothorus platensis	Passeriformes	Troglodytidae (Wrens)			932500	Cistothorus platensis	species	ncbi:241534,gbif:2493890,irmng:11247066		canonical_match
 26395	issf	sedwre2	Sedge Wren (Grass)	Cistothorus platensis [elegans Group]	Passeriformes	Troglodytidae (Wrens)		sedwre	-	-	-	-	-	unmatched
 26404	issf	sedwre6	Sedge Wren (Venezuelan)	Cistothorus platensis alticola	Passeriformes	Troglodytidae (Wrens)		sedwre	-	-	-	-	-	unmatched
 26405	issf	sedwre7	Sedge Wren (Paramo)	Cistothorus platensis aequatorialis	Passeriformes	Troglodytidae (Wrens)		sedwre	-	-	-	-	-	unmatched
@@ -13622,7 +13622,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 28101	slash	bltfly2	Blue-throated/Chinese Blue Flycatcher	Cyornis rubeculoides/glaucicomans	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-	-	unmatched
 28102	species	larblf1	Large Blue Flycatcher	Cyornis magnirostris	Passeriformes	Muscicapidae (Old World Flycatchers)			3598194	Cyornis magnirostris	species	ncbi:1463941,gbif:5788895		canonical_match
 28103	species	hibfly1	Hill Blue Flycatcher	Cyornis whitei	Passeriformes	Muscicapidae (Old World Flycatchers)			7660848	Cyornis whitei	species	gbif:9018625		-
-28108	species	hibfly1	Hill Blue Flycatcher	Cyornis banyumas	Passeriformes	Muscicapidae (Old World Flycatchers)			288692	Cyornis banyumas	species	ncbi:127913,gbif:2492430,irmng:11086518		canonical_match
+28108	species	hibfly3	Javan Blue Flycatcher	Cyornis banyumas	Passeriformes	Muscicapidae (Old World Flycatchers)			288692	Cyornis banyumas	species	ncbi:127913,gbif:2492430,irmng:11086518		canonical_match
 28111	species	hibfly4	Dayak Blue Flycatcher	Cyornis montanus	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-	-	-
 28112	slash	y01092	Large/Hill Blue Flycatcher	Cyornis magnirostris/whitei	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-	-	-
 28113	form	merjuf1	Meratus Jungle-Flycatcher (undescribed form)	Cyornis [undescribed Meratus form]	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-	-	unmatched
