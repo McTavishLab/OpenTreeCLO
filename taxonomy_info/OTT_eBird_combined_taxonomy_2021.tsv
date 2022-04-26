@@ -12049,7 +12049,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 24452	species	eaowar2	Eastern Orphean Warbler	Curruca crassirostris	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			274520	Sylvia crassirostris	species	ncbi:216226,gbif:7342065		-
 24456	slash	y00816	Western/Eastern Orphean Warbler	Curruca hortensis/crassirostris	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			-	-	-	-	-	-
 24457	species	afdwar1	African Desert Warbler	Curruca deserti	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			3598069	Sylvia deserti	species	gbif:6093943		-
-24457	species	afdwar1	African Desert Warbler	Curruca deserti	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			7068651	Curruca nana	species	ncbi:1977148		-
+24458	species	asdwar1	Asian Desert Warbler	Curruca nana	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			7068651	Curruca nana	species	ncbi:1977148		-
 24459	species	triwar1	Tristram's Warbler	Curruca deserticola	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			961445	Sylvia deserticola	species	ncbi:216228,gbif:2492951,irmng:11161124		-
 24462	species	menwar1	Menetries's Warbler	Curruca mystacea	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)			486277	Sylvia mystacea	species	ncbi:216217,gbif:2492954,irmng:11011393		-
 24463	issf	menwar2	Menetries's Warbler (mystacea)	Curruca mystacea mystacea	Passeriformes	Sylviidae (Sylviid Warblers, Parrotbills, and Allies)		menwar1	-	-	-	-	-	-
