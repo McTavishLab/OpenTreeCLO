@@ -108,7 +108,7 @@ for tax in dated_CLO_labels.taxon_namespace:
     tax.label = name_map[tax.label]
 
 
-dated_CLO_labels.write(path="{}/clements_labels_Apr25.tre".format(custom_synth_dir), schema="newick")
+dated_CLO_labels.write(path="{}/clements_labels.tre".format(custom_synth_dir), schema="newick")
 
 node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
@@ -220,21 +220,46 @@ for tip in leaves_B:
             if list(annot['nodes'][tip]['supported_by'].keys()) == ['ot_2019@tree7']:
                 no_phylo_info.append(tip)
         else:
-            print(tip)
-            print(annot['nodes'][tip])
+            #print(tip)
+            #print(annot['nodes'][tip])
+            pass
     else:
         no_phylo_info.append(tip)
 
 
-no_phylo_fi = open("tips_without_phylo.txt", 'w')
+no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
 for tip in no_phylo_info:
     no_phylo_fi.write(name_map[tip]+'\n')
 
 no_phylo_fi.close()
 
+phylo_tips_only = copy.deepcopy(current)
+phylo_tips_only.prune_taxa_with_labels(no_phylo_info)
+
+
+
+chronogram.date_tree(phylo_tips_only,
+                     custom_dates,
+                     root_node,
+                     max_age_est,
+                     method='bladj',
+                     output_dir="{}/dates_phylo_only".format(custom_synth_dir),
+                     summary='{}/phylo_only_dated.tre'.format(custom_synth_dir),
+                     phylo_only=False,
+                     reps=5,
+                     grid=len(leaves_B))
+
+
+dated_phylo_CLO_labels = dendropy.Tree.get_from_path('{}/phylo_only_dated.tre'.format(custom_synth_dir), schema = "newick")
+for tax in dated_phylo_CLO_labels.taxon_namespace:
+    tax.label = name_map[tax.label]
+
+
+dated_phylo_CLO_labels.write(path="{}/phylo_only_clements_labels.tre".format(custom_synth_dir), schema="newick")
+
 
 rev_name_map = {value:key for key, value in name_map.items()}
-higher_level_tax_tree = dendropy.Tree.get(path="taxonomy_info/ebirdTaxonomy2021HigherLevels.tre", schema="newick")
+higher_level_tax_tree = dendropy.Tree.get(path="../taxonomy_info/ebirdTaxonomy2021HigherLevels.tre", schema="newick")
 
 for taxon in higher_level_tax_tree.taxon_namespace:
     if taxon.label in rev_name_map:

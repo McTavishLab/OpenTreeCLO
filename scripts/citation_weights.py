@@ -1,12 +1,14 @@
 ## Get citation weights
 
 import json
+import os
+import sys
 import dendropy
 from opentree import OT
 
 
 
-custom_synth_dir = "custom_synth_runs/snacktavish_aves_81461_tmpvu7e5t2x"
+custom_synth_dir = os.path.abspath(sys.argv[1])
 custom_tree = dendropy.Tree.get_from_path("{}/labelled_supertree/labelled_supertree.tre".format(custom_synth_dir), schema="newick")
 
 
@@ -43,7 +45,7 @@ for node in node_support_annotation:
             study_node_count[study_id] = 1
 
 
-study_cite_file = open("citation_node_counts.tsv", "w")
+study_cite_file = open("{}/citation_node_counts.tsv".format(custom_synth_dir), "w")
 for study_id in study_node_count:
     cites = OT.get_citations([study_id]).replace('\n','\t')
     study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
