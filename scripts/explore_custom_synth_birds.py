@@ -33,6 +33,7 @@ current = dendropy.Tree.get_from_path("{}/labelled_supertree/labelled_supertree.
                                        schema = "newick")
 
 leaves_start = [tip.taxon.label for tip in current.leaf_node_iter()]
+sys.stdout.write("Total numebr of tips in synth tree is {}\n".format(len(leaves_start)))
 
 collapsed_tax = []
 for node in current:
@@ -42,7 +43,16 @@ for node in current:
             node.clear_child_nodes()
             node.taxon = current.taxon_namespace.new_taxon(label=node.label)
 
+
 leaves_A = [tip.taxon.label for tip in current.leaf_node_iter()]
+assert 'ott3598459' in leaves_A
+
+
+sys.stdout.write("Total number of tips in synth tree after collapsing subspecies is {}\n".format(len(leaves_A)))
+
+leaves_post_collapse = [tip.taxon.label for tip in current.leaf_node_iter()]
+
+assert 'ott3598459' in leaves_post_collapse
 
 
 taxa_retain = [key for key in name_map]
@@ -50,8 +60,56 @@ taxa_retain = [key for key in name_map]
 current.retain_taxa_with_labels(taxa_retain)
 leaves_B = [tip.taxon.label for tip in current.leaf_node_iter()]
 
+assert 'ott3598459' in leaves_B
+
+sys.stdout.write("Total number of tips in synth tree after pruning to taxa in Clements is {}\n".format(len(leaves_B)))
+
 
 current.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema = "newick")
+
+
+
+annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
+
+
+assert 'ott3598459' in leaves_B
+
+
+no_phylo_info = []
+for tip in leaves_B:
+    if tip in annot['nodes'].keys():
+        if 'terminal' in annot['nodes'][tip].keys():
+            if list(annot['nodes'][tip]['terminal'].keys()) == ['ot_2019@tree7']:
+                no_phylo_info.append(tip)
+        elif 'supported_by' in annot['nodes'][tip].keys():
+            if list(annot['nodes'][tip]['supported_by'].keys()) == ['ot_2019@tree7']:
+                no_phylo_info.append(tip)
+        else:
+            #print(tip)
+            #print(annot['nodes'][tip])
+            pass
+    else:
+        no_phylo_info.append(tip)
+
+
+print(annot['nodes']['ott3598459'])
+assert 'ott3598459' in no_phylo_info
+
+no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
+for tip in no_phylo_info:
+    no_phylo_fi.write(name_map[tip]+'\n')
+
+no_phylo_fi.close()
+
+
+sys.stdout.write("{} tips have no phylogenetic information informing their placement.\n".format(len(no_phylo_info)))
+phylo_tips_only = copy.deepcopy(current)
+
+print("pruning to phylo only tree")
+
+phylo_tips_only.prune_taxa_with_labels(no_phylo_info)
+
+
 
 
 
@@ -84,11 +142,14 @@ cites = OT.get_citations(matched_date_studies)
 dates_cite_file.write(cites)
 dates_cite_file.close()
 
+print("checking mrca")
 root_node = OT.synth_mrca(node_ids=leaves_B).response_dict['mrca']['node_id']
 
 
 max_age_est = 130
 #https://academic.oup.com/sysbio/article/63/3/442/1649269
+
+print("dating whole tree")
 
 chronogram.date_tree(current,
                      custom_dates,
@@ -110,29 +171,60 @@ for tax in dated_CLO_labels.taxon_namespace:
 
 dated_CLO_labels.write(path="{}/clements_labels.tre".format(custom_synth_dir), schema="newick")
 
-node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
 
-annotations.write_itol_relabel(name_map, filename="{}/ottlabel.txt".format(custom_synth_dir))
+study_weights = {}
+
+uncontested_taxa = []
+node_support_annotation = {}
+all_nodes = []
+why_no_annot = []
+for node in current:
+    label = None
+    if not node.is_leaf():
+        label = node.label
+        all_nodes.append(label)
+        assert label
+        if label == 'ott81461':
+            pass
+        else:
+            if label not in annot['nodes']:
+                why_no_annot.append(label)
+            elif 'supported_by' in annot['nodes'][label].keys():
+                strict_support = annot['nodes'][label]['supported_by']
+                node_support_annotation[label] = strict_support
+            else:
+                assert label.startswith('ott')
+                uncontested_taxa.append(label)
 
 
-annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir))
-annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support")
 
 
-jetz_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_809@tree2")
-annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
-annotations.write_itol_support(jetz_annotations, filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+node_phylo_count = {}
+study_node_count = {}
+tree_node_count = {}
+for node in node_support_annotation:
+    for source in node_support_annotation[node]:
+        study_id = source.split('@')[0]
+        if study_id in study_node_count:
+            study_node_count[study_id] += 1
+        else:
+            study_node_count[study_id] = 1
+        if source in tree_node_count:
+            tree_node_count[source] += 1
+        else:
+            tree_node_count[source] = 1
 
-clem_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_2019@tree7")
-annotations.write_itol_conflict(clem_annotations, filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
-annotations.write_itol_support(clem_annotations, filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
 
 
 
+study_cite_file = open("citation_node_counts.tsv", "w")
+for study_id in study_node_count:
+    cites = OT.get_citations([study_id]).replace('\n','\t')
+    study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
 
+study_cite_file.close()
 
-annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
 
 study_weights = {}
 
@@ -210,33 +302,49 @@ for node in node_annotations:
         tax_conf_nodes.append(node)
 
 
-no_phylo_info = []
-for tip in leaves_B:
-    if tip in annot['nodes'].keys():
-        if 'terminal' in annot['nodes'][tip].keys():
-            if list(annot['nodes'][tip]['terminal'].keys()) == ['ot_2019@tree7']:
-                no_phylo_info.append(tip)
-        elif 'supported_by' in annot['nodes'][tip].keys():
-            if list(annot['nodes'][tip]['supported_by'].keys()) == ['ot_2019@tree7']:
-                no_phylo_info.append(tip)
-        else:
-            #print(tip)
-            #print(annot['nodes'][tip])
-            pass
-    else:
-        no_phylo_info.append(tip)
+clem_conf = 0
+clem_supp = 0
+jetz_conf = 0
+jetz_supp = 0
+all_conf = 0
+phylo_supp = 0
+only_clem_supp = 0
+
+tax_conf_nodes = []
+
+for node in node_annotations:
+    if jetz_annotations[node].get('support') >= 1:
+        jetz_supp += 1
+    if jetz_annotations[node].get('conflict') >= 1:
+        jetz_conf += 1
+    if clem_annotations[node].get('support') >= 1:
+        clem_supp += 1
+    if clem_annotations[node].get('conflict') >= 1:
+        clem_conf += 1
+        tax_conf_nodes.append(node)
+
+node_annotations = annotations.generate_custom_synth_node_annotation(current, custom_synth_dir)
 
 
-no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
-for tip in no_phylo_info:
-    no_phylo_fi.write(name_map[tip]+'\n')
-
-no_phylo_fi.close()
-
-phylo_tips_only = copy.deepcopy(current)
-phylo_tips_only.prune_taxa_with_labels(no_phylo_info)
+annotations.write_itol_relabel(name_map, filename="{}/ottlabel.txt".format(custom_synth_dir))
 
 
+annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir))
+annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support")
+
+
+jetz_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_809@tree2")
+annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(jetz_annotations, filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+clem_annotations = annotations.generate_custom_synth_source_traversal(current, custom_synth_dir, "ot_2019@tree7")
+annotations.write_itol_conflict(clem_annotations, filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(clem_annotations, filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+
+
+
+print("dating phylo only tree")
 
 chronogram.date_tree(phylo_tips_only,
                      custom_dates,
@@ -259,6 +367,17 @@ dated_phylo_CLO_labels.write(path="{}/phylo_only_clements_labels.tre".format(cus
 
 
 rev_name_map = {value:key for key, value in name_map.items()}
+
+studies_per_tip = open("{}/studies_per_tip.txt".format(custom_synth_dir), 'w')
+for tip in dated_phylo_CLO_labels.leaf_node_iter():
+    studies_per_tip.write(tip.taxon.label + ":")
+    studies_per_tip.write(", ".join(annot['nodes'][rev_name_map[tip.taxon.label]].get('supported_by', ' ')))
+    studies_per_tip.write(", ".join(annot['nodes'][rev_name_map[tip.taxon.label]].get('terminal', ' ')))
+    studies_per_tip.write('\n')
+
+studies_per_tip.close()
+
+
 higher_level_tax_tree = dendropy.Tree.get(path="../taxonomy_info/ebirdTaxonomy2021HigherLevels.tre", schema="newick")
 
 for taxon in higher_level_tax_tree.taxon_namespace:
