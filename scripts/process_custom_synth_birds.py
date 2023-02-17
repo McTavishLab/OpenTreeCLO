@@ -123,7 +123,7 @@ phylo_tips_only.prune_taxa_with_labels(no_phylo_info)
 phylo_tips = [tip.taxon.label for tip in phylo_tips_only.leaf_node_iter()]
 sys.stdout.write("Total number of tips in synth tree after pruning to taxa in phylogenies is {}\n".format(len(phylo_tips)))
 
-custom_synth.write_to_path(dest="{}/phylo_only.tre".format(custom_synth_dir), schema = "newick")
+phylo_tips_only.write_to_path(dest="{}/phylo_only.tre".format(custom_synth_dir), schema = "newick")
 
 #--------------------------Write Annotations -------------------
 
@@ -212,8 +212,8 @@ for node in node_annotations:
 annotations.write_itol_relabel(clements_name_map, filename="{}/ottlabel.txt".format(custom_synth_dir))
 
 
-annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir))
-annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support")
+annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir), max_conflict=15)
+annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support", max_support = 25)
 
 
 annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
@@ -284,7 +284,7 @@ if os.path.exists(select_dates_file):
     select_dates = json.load(open(select_dates_file))
 else:
     select_dates = chronogram.combine_ages_from_sources(selected_bird_chrono,#list(bird_chrono)
-                                                        json_out = selected_bird_chrono,
+                                                        json_out = select_dates_file,
                                                         compare_to = custom_str)
 
 

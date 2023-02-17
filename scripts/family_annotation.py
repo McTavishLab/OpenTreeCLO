@@ -28,22 +28,52 @@ for ott in fam_name_map:
 
 tips = set([leaf.taxon.label for leaf in custom_synth.leaf_node_iter()])
 
+non_mono_fams = []
 
-family_annotation
+small_fams = []
+
 for family in families:
     fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
     mrca = custom_synth.mrca(taxon_labels=fam_tips_in_this_tree)
     tips_from_mrca = [leaf.taxon.label for leaf in mrca.leaf_iter()]
     intruders = set(tips_from_mrca).difference(set(fam_tips_in_this_tree))
-    if len(intruders) >= 1:
-        pass
+    chars = '0123456789ABCDEF'
+    color = '#'+''.join(random.sample(chars,6))
+    label = None
+    label = mrca.label
+    if not label:
+        label = mrca.taxon.label
+    if label:
+        if len(intruders) >= 1:
+            non_mono_fams.append(family)
+        else:
+            if len(fam_tips_in_this_tree) >= 50:
+                 print("{n},{n},#ffffff,{c},#000000,solid,0,{f},#000000,4,bold".format(n=label, c=color, f=family))
     else:
-        chars = '0123456789ABCDEF'
-        color = '#'+''.join(random.sample(chars,6))
-        label = None
-        label = mrca.label
-        if not label:
-            label = mrca.taxon.label
-        if label:
-            print("{n},{n},#ffffff,{c},#000000,solid,2,{f},#000000,1,normal".format(n=label, c=color, f=family))
-    
+        small_fams.append(family)
+
+non_mono_fams.sort()
+
+i = 0
+for family in non_mono_fams:
+    i += 1
+    fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
+    for tip in fam_tips_in_this_tree:
+        print("{t} {i} #{f}".format(t=tip, i=i*100, f=family))
+
+
+i = 0
+for family in non_mono_fams:
+    i += 1
+    fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
+    if len(fam_tips_in_this_tree) < 20:
+        for tip in fam_tips_in_this_tree:
+            print("{t} {i} #{f}".format(t=tip, i=i, f=family))
+
+
+i = 0
+for family in small_fams:
+    i += 1
+    fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
+    for tip in fam_tips_in_this_tree:
+        print("{t} {i} #{f}".format(t=tip, i=i, f=family))
