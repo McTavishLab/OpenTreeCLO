@@ -10004,7 +10004,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19620	species	manfan1	Mangrove Fantail	Rhipidura phasiana	Passeriformes	Rhipiduridae (Fantails)			121367	Rhipidura phasiana	species	ncbi:667192,gbif:5231741,irmng:10216099		canonical_match
 19621	species	nezfan1	New Zealand Fantail	Rhipidura fuliginosa	Passeriformes	Rhipiduridae (Fantails)			346153	Rhipidura fuliginosa	species	ncbi:381039,gbif:5231730,irmng:10214632		canonical_match
 19626	spuh	fantai1	fantail sp.	Rhipidura sp.	Passeriformes	Rhipiduridae (Fantails)			-	-	-	-	-	unmatched
-19627	species	wstdro1	Western Square-tailed Drongo	Dicrurus occidentalis	Passeriformes	Rhipiduridae (Fantails)			6520280	Dicrurus occidentalis	-	additions-6520264-6520323:6520280	-	new_taxon_amendment
+19627	species	wstdro1	Western Square-tailed Drongo	Dicrurus occidentalis	Passeriformes	Dicruridae (Drongos)			6520280	Dicrurus occidentalis	-	additions-6520264-6520323:6520280	-	new_taxon_amendment
 19628	species	shadro1	Sharpe's Drongo	Dicrurus sharpei	Passeriformes	Dicruridae (Drongos)	Drongos		7068322	Dicrurus ludwigii sharpei	subspecies	ncbi:2358209	infraspecific	synonym_match
 19629	species	cstdro1	Common Square-tailed Drongo	Dicrurus ludwigii	Passeriformes	Dicruridae (Drongos)			207205	Dicrurus ludwigii	species	ncbi:450163,gbif:2493983,irmng:10218200		canonical_match
 19634	spuh	sqtdro1	square-tailed drongo sp.	Dicrurus occidentalis/sharpei/ludwigii	Passeriformes	Dicruridae (Drongos)			-	-	-	-	-	-
