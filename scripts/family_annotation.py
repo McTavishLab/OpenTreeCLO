@@ -1,16 +1,18 @@
 import dendropy
 import sys
+import os
+import copy
 import json
 import random
-from opentree import OT
+from opentree import OT, annotations
 from helpers import crosswalk_to_dict
 
 def make_node_url(source, node):
     study, tree = source.split('@')
     return "https://tree.opentreeoflife.org/curator/study/view/{}?tab=home&tree={}&node={}".format(study, tree, node)
 
-
-input_tree_file = sys.argv[1] 
+custom_synth_dir = sys.argv[1] 
+input_tree_file = sys.argv[2] 
 custom_synth = dendropy.Tree.get(path=input_tree_file, schema="newick")
 name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv")
 
@@ -28,14 +30,74 @@ for ott in fam_name_map:
 
 tips = set([leaf.taxon.label for leaf in custom_synth.leaf_node_iter()])
 
+
+mono_fams = {}
 non_mono_fams = []
 
 small_fams = []
 
+if not os.path.exists("{}/family_trees".format(custom_synth_dir)):
+    os.mkdir("{}/family_trees".format(custom_synth_dir))
+
+annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
+
+
+# Walk through the nodes, and summaraize annotations
+uncontested_taxa = []
+node_support_annotation = {}
+all_nodes = []
+
+for node in custom_synth:
+    label = None
+    if not node.is_leaf():
+        label = node.label
+        all_nodes.append(label)
+        assert label
+        if label == 'ott81461':
+            pass
+        else:
+            if label in annot['nodes'] and 'supported_by' in annot['nodes'][label].keys():
+                    strict_support = annot['nodes'][label]['supported_by']
+                    node_support_annotation[label] = strict_support
+            else:
+                assert label.startswith('ott')
+                uncontested_taxa.append(label)
+
+
+
 for family in families:
     fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
+    fam_tree = copy.deepcopy(custom_synth)
     mrca = custom_synth.mrca(taxon_labels=fam_tips_in_this_tree)
     tips_from_mrca = [leaf.taxon.label for leaf in mrca.leaf_iter()]
+    fam_tree.retain_taxa_with_labels(tips_from_mrca)
+    fam_tree.write(path ="{}/family_trees/{}.tre".format(custom_synth_dir, family), schema = "newick")
+    fam_sources = set()
+    study_node_count = {}
+    tree_node_count = {}
+    for node in fam_tree:
+        label = node.label
+        if label == 'ott81461':
+            pass
+        if label in node_support_annotation:
+            for source in node_support_annotation[label]:
+                study_id = source.split('@')[0]
+                if study_id not in study_node_count:
+                    study_node_count[study_id] = 1
+                else:
+                    study_node_count[study_id] += 1
+                if source not in tree_node_count:
+                    tree_node_count[source] = 1
+                else:
+                        tree_node_count[source] += 1
+    study_cite_file = open("{}/family_trees/{}_citation_node_counts.tsv".format(custom_synth_dir, family), "w")
+    for study_id in study_node_count:
+        if study_id == 'ot_2019':
+            pass
+        else:
+            cites = OT.get_citations([study_id]).replace('\n','\t')
+            study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
+    study_cite_file.close()
     intruders = set(tips_from_mrca).difference(set(fam_tips_in_this_tree))
     chars = '0123456789ABCDEF'
     color = '#'+''.join(random.sample(chars,6))
@@ -48,9 +110,12 @@ for family in families:
             non_mono_fams.append(family)
         else:
             if len(fam_tips_in_this_tree) >= 50:
-                 print("{n},{n},#ffffff,{c},#000000,solid,0,{f},#000000,4,bold".format(n=label, c=color, f=family))
+                mono_fams[label]=family
     else:
         small_fams.append(family)
+
+
+annotations.write_itol_clades(mono_fams, filename="{}/mono_fams_50.txt".format(custom_synth_dir))
 
 non_mono_fams.sort()
 

@@ -90,14 +90,15 @@ custom_synth.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema
 annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
 
 ## Assess support for each tip. 
+## ot_2019 is the ebird taxonomy which we use to enforce monophyly.
 no_phylo_info = []
 for tip in leaves_B:
     if tip in annot['nodes'].keys():
         if 'terminal' in annot['nodes'][tip].keys():
-            if list(annot['nodes'][tip]['terminal'].keys()) == ['ot_2019@tree7']:
+            if set([source.split('@')[0] for source in annot['nodes'][tip]['terminal'].keys()]) == set(['ot_2019']):
                 no_phylo_info.append(tip)
         elif 'supported_by' in annot['nodes'][tip].keys():
-            if list(annot['nodes'][tip]['supported_by'].keys()) == ['ot_2019@tree7']:
+            if set([source.split('@')[0] for source in annot['nodes'][tip]['supported_by'].keys()]) == set(['ot_2019']):
                 no_phylo_info.append(tip)
         else:
             #print(tip)
@@ -148,6 +149,20 @@ for node in custom_synth:
                 assert label.startswith('ott')
                 uncontested_taxa.append(label)
 
+for leaf in custom_synth.leaf_node_iter():
+    ott_id =  leaf.taxon.label
+    if not node_support_annotation.get(ott_id):
+        node_support_annotation[ott_id] = {}
+    if ott_id in no_phylo_info:
+        node_support_annotation[ott_id] = {'studies': [], 'strict_support': 0, 'support': 0, 'conflict': 0}
+    else:
+        sources = [source for source in  annot['nodes'][ott_id].get('terminal',[])] + [source for source in  annot['nodes'][ott_id].get('supported_by',[])]
+        node_support_annotation[ott_id]['studies']= [source.split('@')[0] for source in  sources]
+        non_tax_studies = [source for source in sources if 'ot_2019' not in source]
+        node_support_annotation[ott_id]['strict_support']=len(non_tax_studies)
+        node_support_annotation[ott_id]['support']=len(non_tax_studies)
+
+
 
 # Walk through the annotations, 
 # and assess how many nodes each study or tree is contributing to
@@ -190,7 +205,7 @@ only_clem_supp = 0
 
 tax_conf_nodes = []
 
-node_annotations = annotations.generate_custom_synth_node_annotation(custom_synth, custom_synth_dir)
+node_annotations = annotations.generate_custom_synth_node_annotation(custom_synth, custom_synth_dir, exclude_sources = "ot_2019@tree7")
 jetz_annotations = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_809@tree2")
 clem_annotations = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_2019@tree7")
 
@@ -212,15 +227,20 @@ for node in node_annotations:
 annotations.write_itol_relabel(clements_name_map, filename="{}/ottlabel.txt".format(custom_synth_dir))
 
 
-annotations.write_itol_conflict(node_annotations, filename="{}/conflict.txt".format(custom_synth_dir), max_conflict=15)
-annotations.write_itol_support(node_annotations, filename="{}/support.txt".format(custom_synth_dir), param="support", max_support = 25)
+annotations.write_itol_conflict(node_annotations, title="Conflict15", filename="{}/conflict_15.txt".format(custom_synth_dir), max_conflict=15)
+annotations.write_itol_support(node_annotations, title="Support25", filename="{}/support_25.txt".format(custom_synth_dir), param="support", max_support = 25)
 
 
-annotations.write_itol_conflict(jetz_annotations, filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
-annotations.write_itol_support(jetz_annotations, filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+annotations.write_itol_conflict(node_annotations, title="Conflict3", filename="{}/conflict_3.txt".format(custom_synth_dir), max_conflict=3)
+annotations.write_itol_support(node_annotations, title="Support10", filename="{}/support_10.txt".format(custom_synth_dir), param="support", max_support = 10)
 
-annotations.write_itol_conflict(clem_annotations, filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
-annotations.write_itol_support(clem_annotations, filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+
+annotations.write_itol_conflict(jetz_annotations, title="ConflictJetz", filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(jetz_annotations,  title="SupportJetz", filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+
+annotations.write_itol_conflict(clem_annotations,  title="ConflictClements", filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
+annotations.write_itol_support(clem_annotations, title="SupportClements", filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
 
 
 
@@ -236,9 +256,9 @@ studies_per_tip.close()
 
 for node in node_support_annotation:
     supp = node_support_annotation.get(node, {})
-    if len(set(node_support_annotation[node].keys()).difference(set(['ot_2019@tree7']))) >=1:
+    if len(set([source.split('@')[0] for source in node_support_annotation[node].keys()]).difference(set(['ot_2019']))) >=1:
         phylo_supp += 1
-    if set(node_support_annotation[node].keys()) == (set(['ot_2019@tree7'])):
+    if set([source.split('@')[0] for source in node_support_annotation[node].keys()]) == set(['ot_2019']):
         only_clem_supp += 1
 
 
@@ -306,7 +326,7 @@ treesfile, sources = chronogram.date_tree(phylo_tips_only,
                                           root_node,
                                           max_age_est,
                                           method='bladj',
-                                          output_dir="{}/dates_select_phylo_only".format(custom_synth_dir),
+                                          output_dir="{}/dates/dates_select_phylo_only".format(custom_synth_dir),
                                           phylo_only=False,
                                           reps=1,
                                           select = "mean")
@@ -314,12 +334,12 @@ treesfile, sources = chronogram.date_tree(phylo_tips_only,
 
 dated_phylo= dendropy.Tree.get_from_path(treesfile, schema = "newick")
 
-dated_phylo.write(path="{}/phylo_only_select_dates_mean_ott_labels.tre".format(custom_synth_dir), schema="newick")
+dated_phylo.write(path="{}/dates/phylo_only_select_dates_mean_ott_labels.tre".format(custom_synth_dir), schema="newick")
 
 for tax in dated_phylo.taxon_namespace:
     tax.label = clements_name_map[tax.label]
 
-dated_phylo.write(path="{}/phylo_only_select_dates_mean_clements_labels.tre".format(custom_synth_dir), schema="newick")
+dated_phylo.write(path="{}/dates/phylo_only_select_dates_mean_clements_labels.tre".format(custom_synth_dir), schema="newick")
 
 print("""date information for {ld} nodes in the tree
          was summarized from {lds} published studies""".format(ld=len(select_dates['node_ages']),
