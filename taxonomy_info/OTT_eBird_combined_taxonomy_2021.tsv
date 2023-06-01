@@ -513,7 +513,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 1702	species	harfra3	Hartlaub's Francolin	Pternistis hartlaubi	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			681139	Francolinus hartlaubi	species	ncbi:57758,gbif:5227932,irmng:11411480		synonym_match
 1703	species	camfra2	Cameroon Francolin	Pternistis camerunensis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			1080970	Francolinus camerunensis	species	ncbi:389016,gbif:5227870,irmng:10585053		synonym_match
 1704	species	hanfra2	Handsome Francolin	Pternistis nobilis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			1080967	Francolinus nobilis	species	ncbi:389017,gbif:5227901,irmng:11305812		synonym_match
-1705	species	chnfra1	Chestnut-naped Francolin	Pternistis castaneicollis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			1080982	Francolinus castaneicollis	species	ncbi:389019,gbif:5227902,irmng:10195615	PARENT OF SIBLING	synonym_match
+1705	species	chnfra1	Chestnut-naped Francolin	Pternistis castaneicollis	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			6520451	Francolinus castaneicollis castaneicollis	species	ncbi:389019,gbif:5227902,irmng:10195615	PARENT OF SIBLING	synonym_match
 1706	species	chnfra3	Black-fronted Francolin	Pternistis atrifrons	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			5861116	Francolinus castaneicollis atrifrons	subspecies	ncbi:1543398	infraspecific	synonym_match
 1707	species	ercfra	Erckel's Francolin	Pternistis erckelii	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			676799	Francolinus erckelii	species	ncbi:9022,gbif:5227872,irmng:10935644		synonym_match
 1708	species	djifra1	Djibouti Francolin	Pternistis ochropectus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			894196	Francolinus ochropectus	species	ncbi:389020,gbif:5227871,irmng:11131706		synonym_match
@@ -1393,7 +1393,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 4170	species	koeher1	Koepcke's Hermit	Phaethornis koepckeae	Caprimulgiformes	Trochilidae (Hummingbirds)			716199	Phaethornis koepckeae	species	ncbi:304670,gbif:2476620,irmng:10418819		canonical_match
 4171	species	nebher1	Needle-billed Hermit	Phaethornis philippii	Caprimulgiformes	Trochilidae (Hummingbirds)			975182	Phaethornis philippii	species	ncbi:472906,gbif:2476598,irmng:11375184		canonical_match
 4172	species	stbher1	Straight-billed Hermit	Phaethornis bourcieri	Caprimulgiformes	Trochilidae (Hummingbirds)			975188	Phaethornis bourcieri	species	ncbi:472903,gbif:2476576,irmng:11434753		canonical_match
-4175	species	lobher	Long-billed Hermit	Phaethornis longirostris	Caprimulgiformes	Trochilidae (Hummingbirds)			975184	Phaethornis longirostris	species	ncbi:472904,gbif:2476621,irmng:10954597	PARENT OF SIBLING	canonical_match
+4175	species	lobher	Long-billed Hermit	Phaethornis longirostris	Caprimulgiformes	Trochilidae (Hummingbirds)			6520462	Phaethornis longirostris longirostris	species	ncbi:472904,gbif:2476621,irmng:10954597	PARENT OF SIBLING	canonical_match
 4181	species	mexher1	Mexican Hermit	Phaethornis mexicanus	Caprimulgiformes	Trochilidae (Hummingbirds)			84790	Phaethornis longirostris mexicanus	subspecies	ncbi:501318,gbif:8053769	infraspecific	synonym_match
 4184	species	lother1	Long-tailed Hermit	Phaethornis superciliosus	Caprimulgiformes	Trochilidae (Hummingbirds)			174367	Phaethornis superciliosus	species	ncbi:46513,gbif:2476573,irmng:10216976		canonical_match
 4188	species	grbher1	Great-billed Hermit	Phaethornis malaris	Caprimulgiformes	Trochilidae (Hummingbirds)			716200	Phaethornis malaris	species	ncbi:304671,gbif:2476612,irmng:11266760		canonical_match
@@ -1813,7 +1813,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 5316	species	dowcra1	Dot-winged Crake	Porzana spiloptera	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			817102	Porzana spiloptera	species	ncbi:1109096,gbif:2474620,irmng:11333573		canonical_match
 5317	species	lesmoo1	Lesser Moorhen	Paragallinula angulata	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			7659948	Paragallinula angulata	species	gbif:9120951		canonical_match
 5318	species	sacmoo1	Makira Moorhen	Gallinula silvestris	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			3599915	Gallinula silvestris	species	gbif:5228212,irmng:10762211		canonical_match
-5319	species	trimoo2	Tristan Moorhen	Gallinula nesiotis	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			385131	Gallinula nesiotis	species	ncbi:471234,gbif:5228224,irmng:10211817,irmng:10762374	PARENT OF SIBLING	canonical_match
+5319	species	trimoo2	Tristan Moorhen	Gallinula nesiotis	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			6520452	Gallinula nesiotis nesiotis	species	ncbi:471234,gbif:5228224,irmng:10211817,irmng:10762374	PARENT OF SIBLING	sub_spp_fix_ejm
 5320	species	trimoo3	Gough Moorhen	Gallinula comeri	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			385129	Gallinula nesiotis comeri	subspecies	ncbi:471235	infraspecific	synonym_match
 5321	species	commoo3	Eurasian Moorhen	Gallinula chloropus	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			1041541	Gallinula chloropus	species	ncbi:9123,worms:159009,gbif:5228199,irmng:10837685		canonical_match
 5327	species	comgal1	Common Gallinule	Gallinula galeata	Gruiformes	Rallidae (Rails, Gallinules, and Coots)			181047	Gallinula galeata	species	ncbi:1003838		canonical_match
@@ -1931,7 +1931,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 5616	species	grtkne1	Great Thick-knee	Esacus recurvirostris	Charadriiformes	Burhinidae (Thick-knees)			3597012	Esacus recurvirostris	species	gbif:2482089,irmng:10857007		canonical_match
 5617	species	beathk1	Beach Thick-knee	Esacus magnirostris	Charadriiformes	Burhinidae (Thick-knees)			5342861	Esacus magnirostris	species	worms:366831,gbif:2482091,irmng:10522409,irmng:11194606		canonical_match
 5618	species	egyplo1	Egyptian Plover	Pluvianus aegyptius	Charadriiformes	Pluvianidae (Egyptian Plover)			242771	Pluvianus aegyptius	species	ncbi:302531,gbif:2480762,irmng:11035033		canonical_match
-5619	species	bkwsti	Black-winged Stilt	Himantopus himantopus	Charadriiformes	Recurvirostridae (Stilts and Avocets)			364171	Himantopus himantopus	species	ncbi:225398,worms:212609,gbif:5229126,irmng:10838090	PARENT OF SIBLING	canonical_match
+5619	species	bkwsti	Black-winged Stilt	Himantopus himantopus	Charadriiformes	Recurvirostridae (Stilts and Avocets)			6520455	Himantopus himantopus himantopus	species	ncbi:225398,worms:212609,gbif:5229126,irmng:10838090	PARENT OF SIBLING	canonical_match
 5620	species	piesti1	Pied Stilt	Himantopus leucocephalus	Charadriiformes	Recurvirostridae (Stilts and Avocets)			293656	Himantopus himantopus leucocephalus	subspecies	ncbi:507594,gbif:5229124,irmng:10217551	infraspecific	synonym_match
 5623	species	blasti1	Black Stilt	Himantopus novaezelandiae	Charadriiformes	Recurvirostridae (Stilts and Avocets)			543952	Himantopus novaezelandiae	species	ncbi:508667,gbif:5229125,irmng:10601810		canonical_match
 5626	species	bknsti	Black-necked Stilt	Himantopus mexicanus	Charadriiformes	Recurvirostridae (Stilts and Avocets)			427701	Himantopus mexicanus	species	ncbi:227231,worms:159131,gbif:5229128,irmng:11085812		canonical_match
@@ -1945,7 +1945,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 5645	species	pieoys1	Pied Oystercatcher	Haematopus longirostris	Charadriiformes	Haematopodidae (Oystercatchers)			3597032	Haematopus longirostris	species	worms:366772,gbif:2480261,irmng:11119845		canonical_match
 5646	species	soioys1	South Island Oystercatcher	Haematopus finschi	Charadriiformes	Haematopodidae (Oystercatchers)			601746	Haematopus finschi	species	ncbi:2497799,irmng:10593594		canonical_match
 5647	species	chaoys1	Chatham Oystercatcher	Haematopus chathamensis	Charadriiformes	Haematopodidae (Oystercatchers)			80080	Haematopus unicolor chathamensis	subspecies	ncbi:458154,worms:366771,gbif:4352374,irmng:11201957	infraspecific	synonym_match
-5648	species	varoys1	Variable Oystercatcher	Haematopus unicolor	Charadriiformes	Haematopodidae (Oystercatchers)			80079	Haematopus unicolor	species	ncbi:458153,worms:366770,gbif:2480266,irmng:10591155	PARENT OF SIBLING	canonical_match
+5648	species	varoys1	Variable Oystercatcher	Haematopus unicolor	Charadriiformes	Haematopodidae (Oystercatchers)			6520454	Haematopus unicolor unicolor	species	ncbi:458153,worms:366770,gbif:2480266,irmng:10591155	PARENT OF SIBLING	sub_spp_fix_ejm
 5650	species	soooys1	Sooty Oystercatcher	Haematopus fuliginosus	Charadriiformes	Haematopodidae (Oystercatchers)			3597035	Haematopus fuliginosus	species	worms:366773,gbif:2480271,irmng:10459432		canonical_match
 5653	species	ameoys	American Oystercatcher	Haematopus palliatus	Charadriiformes	Haematopodidae (Oystercatchers)			1092987	Haematopus palliatus	species	ncbi:279960,worms:159128,gbif:2480273,irmng:10197098		canonical_match
 5656	species	afroys1	African Oystercatcher	Haematopus moquini	Charadriiformes	Haematopodidae (Oystercatchers)			3597034	Haematopus moquini	species	worms:212720,gbif:2480263,irmng:10840591		canonical_match
@@ -2026,7 +2026,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 5816	species	whbsee2	White-bellied Seedsnipe	Attagis malouinus	Charadriiformes	Thinocoridae (Seedsnipes)			417274	Attagis malouinus	species	ncbi:555229,worms:225907,gbif:2480957,irmng:10839695		canonical_match
 5817	species	gybsee1	Gray-breasted Seedsnipe	Thinocorus orbignyianus	Charadriiformes	Thinocoridae (Seedsnipes)			628490	Thinocorus orbignyianus	species	ncbi:161742,gbif:2480960,irmng:11209915		canonical_match
 5820	species	leasee1	Least Seedsnipe	Thinocorus rumicivorus	Charadriiformes	Thinocoridae (Seedsnipes)			481916	Thinocorus rumicivorus	species	ncbi:391620,worms:225768,gbif:2480961,irmng:10943926		canonical_match
-5825	species	grpsni1	Greater Painted-Snipe	Rostratula benghalensis	Charadriiformes	Rostratulidae (Painted-Snipes)			5276	Rostratula benghalensis	species	ncbi:118793,gbif:2482029,irmng:10459431		canonical_match
+5825	species	grpsni1	Greater Painted-Snipe	Rostratula benghalensis	Charadriiformes	Rostratulidae (Painted-Snipes)			6520466	Rostratula benghalensis benghalensis	species	ncbi:118793,gbif:2482029,irmng:10459431		sub_spp_fix_ejm
 5826	species	auspas1	Australian Painted-Snipe	Rostratula australis	Charadriiformes	Rostratulidae (Painted-Snipes)			311533	Rostratula benghalensis australis	subspecies	ncbi:467065,gbif:4849640,irmng:11160866	infraspecific	synonym_match
 5827	species	soapas1	South American Painted-Snipe	Nycticryphes semicollaris	Charadriiformes	Rostratulidae (Painted-Snipes)			953621	Nycticryphes semicollaris	species	ncbi:227226,gbif:2482027,irmng:10197097,irmng:10949675		canonical_match
 5828	species	lesjac1	Lesser Jacana	Microparra capensis	Charadriiformes	Jacanidae (Jacanas)			5272	Microparra capensis	species	ncbi:118790,gbif:2481842,irmng:10459430		canonical_match
@@ -2379,7 +2379,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 6768	species	snopet1	Snow Petrel	Pagodroma nivea	Procellariiformes	Procellariidae (Shearwaters and Petrels)			944660	Pagodroma nivea	species	ncbi:52126,worms:225772,gbif:2481600,irmng:10837184		canonical_match
 6771	species	kerpet2	Kerguelen Petrel	Aphrodroma brevirostris	Procellariiformes	Procellariidae (Shearwaters and Petrels)			85271	Aphrodroma brevirostris	species	ncbi:37064,worms:344020,gbif:2481439,irmng:11131393,irmng:10200371,irmng:11823785,irmng:10294359	sibling_higher	canonical_match
 6772	species	lshpet1	Large St. Helena Petrel	Pterodroma rupinarum	Procellariiformes	Procellariidae (Shearwaters and Petrels)			3595617	Pterodroma rupinarum	species	ncbi:1453604,gbif:5788463		canonical_match
-6773	species	grwpet3	Great-winged Petrel	Pterodroma macroptera	Procellariiformes	Procellariidae (Shearwaters and Petrels)			271032	Pterodroma macroptera	species	ncbi:53675,worms:212644,gbif:2481481,irmng:10833943		canonical_match
+6773	species	grwpet3	Great-winged Petrel	Pterodroma macroptera	Procellariiformes	Procellariidae (Shearwaters and Petrels)			6520463	Pterodroma macroptera macroptera	species	ncbi:53675,worms:212644,gbif:2481481,irmng:10833943		sub_spp_fix_ejm
 6774	species	grwpet2	Gray-faced Petrel	Pterodroma gouldi	Procellariiformes	Procellariidae (Shearwaters and Petrels)			581903	Pterodroma macroptera gouldi	subspecies	ncbi:557578,gbif:8124488	infraspecific	synonym_match
 6776	species	kerpet	Kermadec Petrel	Pterodroma neglecta	Procellariiformes	Procellariidae (Shearwaters and Petrels)			271044	Pterodroma neglecta	species	ncbi:53679,worms:343978,gbif:2481488,irmng:11160863		canonical_match
 6779	species	magpet1	Magenta Petrel	Pterodroma magentae	Procellariiformes	Procellariidae (Shearwaters and Petrels)			271029	Pterodroma magentae	species	ncbi:53676,worms:225975,gbif:2481476,irmng:10218021		canonical_match
@@ -2974,7 +2974,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 8330	species	eursco3	Cyprus Scops-Owl	Otus cyprius	Strigiformes	Strigidae (Owls)			5925791	Otus scops cyprius	subspecies	ncbi:1720961	infraspecific	-
 8332	species	pesowl2	Pemba Scops-Owl	Otus pembaensis	Strigiformes	Strigidae (Owls)			277288	Otus pembaensis	species	ncbi:543871,gbif:5232281,irmng:10541455		canonical_match
 8333	species	stsowl1	Sao Tome Scops-Owl	Otus hartlaubi	Strigiformes	Strigidae (Owls)			3595727	Otus hartlaubi	species	gbif:5232244,irmng:11226045		canonical_match
-8335	species	afsowl1	African Scops-Owl	Otus senegalensis	Strigiformes	Strigidae (Owls)			277291	Otus senegalensis	species	ncbi:543872,gbif:5232311,irmng:11320386	PARENT OF SIBLING	canonical_match
+8335	species	afsowl1	African Scops-Owl	Otus senegalensis	Strigiformes	Strigidae (Owls)			6520460	Otus senegalensis senegalensis	species	ncbi:543872,gbif:5232311,irmng:11320386	PARENT OF SIBLING	sub_spp_fix_ejm
 8339	species	pasowl3	Pallid Scops-Owl	Otus brucei	Strigiformes	Strigidae (Owls)			445330	Otus brucei	species	ncbi:126814,gbif:2497755,irmng:11118465		canonical_match
 8345	species	misowl1	Mindanao Scops-Owl	Otus mirus	Strigiformes	Strigidae (Owls)			1086562	Otus mirus	species	ncbi:56277,gbif:5232285,irmng:11227047		canonical_match
 8346	species	lusowl1	Luzon Scops-Owl	Otus longicornis	Strigiformes	Strigidae (Owls)			1086559	Otus longicornis	species	ncbi:56272,gbif:5232242,irmng:10212913		canonical_match
@@ -3445,7 +3445,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 9862	species	eubeat1	European Bee-eater	Merops apiaster	Coraciiformes	Meropidae (Bee-eaters)			755107	Merops apiaster	species	ncbi:265611,worms:426232,gbif:2475443,irmng:10218706		canonical_match
 9863	species	chbeat1	Chestnut-headed Bee-eater	Merops leschenaulti	Coraciiformes	Meropidae (Bee-eaters)			372778	Merops leschenaulti	species	ncbi:457338,gbif:2475392,irmng:10218707		canonical_match
 9867	species	robeat1	Rosy Bee-eater	Merops malimbicus	Coraciiformes	Meropidae (Bee-eaters)			1050190	Merops malimbicus	species	ncbi:457342,gbif:2475444,irmng:10766481		canonical_match
-9868	species	ncbeat1	Northern Carmine Bee-eater	Merops nubicus	Coraciiformes	Meropidae (Bee-eaters)			989087	Merops nubicus	species	ncbi:57421,worms:212737,gbif:2475396,irmng:11009788	PARENT OF SIBLING	canonical_match
+9868	species	ncbeat1	Northern Carmine Bee-eater	Merops nubicus	Coraciiformes	Meropidae (Bee-eaters)			6520458	Merops nubicus nubicus	species	ncbi:57421,worms:212737,gbif:2475396,irmng:11009788		sub_spp_fix_ejm
 9869	species	scbeat1	Southern Carmine Bee-eater	Merops nubicoides	Coraciiformes	Meropidae (Bee-eaters)			5560130	Merops nubicus nubicoides	subspecies	ncbi:457343,irmng:11305410	infraspecific	synonym_match
 9871	species	eurrol1	European Roller	Coracias garrulus	Coraciiformes	Coraciidae (Rollers)			372551	Coracias garrulus	species	ncbi:188338,worms:212743,gbif:2475365,irmng:11253903		canonical_match
 9874	species	abyrol2	Abyssinian Roller	Coracias abyssinicus	Coraciiformes	Coraciidae (Rollers)			704139	Coracias abyssinicus	species	ncbi:325342,gbif:2475373,irmng:10212652		canonical_match
@@ -4271,7 +4271,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 12416	species	mexpar1	Mexican Parrotlet	Forpus cyanopygius	Psittaciformes	Psittacidae (New World and African Parrots)			569219	Forpus cyanopygius	species	ncbi:1265754,gbif:2479068,gbif:8959887,irmng:11034480		canonical_match
 12419	species	buwpar1	Turquoise-winged Parrotlet	Forpus spengeli	Psittaciformes	Psittacidae (New World and African Parrots)			495023	Forpus xanthopterygius spengeli	subspecies	ncbi:1265814	infraspecific	-
 12420	species	buwpar2	Riparian Parrotlet	Forpus crassirostris	Psittaciformes	Psittacidae (New World and African Parrots)			267640	Forpus crassirostris	species	ncbi:345188		-
-12421	species	blwpar4	Blue-winged Parrotlet	Forpus xanthopterygius	Psittaciformes	Psittacidae (New World and African Parrots)			267637	Forpus xanthopterygius	species	ncbi:345187,gbif:2479075,irmng:10586307		canonical_match
+12421	species	blwpar4	Blue-winged Parrotlet	Forpus xanthopterygius	Psittaciformes	Psittacidae (New World and African Parrots)			6520450	Forpus xanthopterygius xanthopterygius	species	ncbi:345187,gbif:2479075,irmng:10586307		sub_spp_fix_ejm
 12422	species	grrpar1	Green-rumped Parrotlet	Forpus passerinus	Psittaciformes	Psittacidae (New World and African Parrots)			301843	Forpus passerinus	species	ncbi:69957,gbif:2479081,irmng:10586306		canonical_match
 12428	species	spepar1	Spectacled Parrotlet	Forpus conspicillatus	Psittaciformes	Psittacidae (New World and African Parrots)			1047127	Forpus conspicillatus	species	ncbi:1265750,gbif:2479071,irmng:10457978		canonical_match
 12432	species	pacpar2	Pacific Parrotlet	Forpus coelestis	Psittaciformes	Psittacidae (New World and African Parrots)			630221	Forpus coelestis	species	ncbi:309844,gbif:2479087,irmng:11119312		canonical_match
@@ -4634,7 +4634,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 13445	species	goeant1	Goeldi's Antbird	Akletos goeldii	Passeriformes	Thamnophilidae (Typical Antbirds)			515431	Myrmeciza goeldii	species	ncbi:468503,gbif:2490164,irmng:11220122		hand_match_eliot
 13446	species	sooant1	Sooty Antbird	Hafferia fortis	Passeriformes	Thamnophilidae (Typical Antbirds)			656615	Myrmeciza fortis	species	ncbi:288075,gbif:2490159,irmng:11069857		hand_match_eliot
 13449	species	zelant1	Zeledon's Antbird	Hafferia zeledoni	Passeriformes	Thamnophilidae (Typical Antbirds)			201580	Myrmeciza immaculata zeledoni	subspecies	ncbi:722553	infraspecific	hand_match_eliot
-13452	species	immant1	Blue-lored Antbird	Hafferia immaculata	Passeriformes	Thamnophilidae (Typical Antbirds)			515434	Myrmeciza immaculata	species	ncbi:468504,gbif:2490153,irmng:11213919		hand_match_eliot
+13452	species	immant1	Blue-lored Antbird	Hafferia immaculata	Passeriformes	Thamnophilidae (Typical Antbirds)			6520459	Myrmeciza immaculata immaculata	species	ncbi:468504,gbif:2490153,irmng:11213919		sub_spp_fix_ejm
 13455	species	yapant1	Yapacana Antbird	Aprositornis disjuncta	Passeriformes	Thamnophilidae (Typical Antbirds)			3598965	Myrmeciza disjuncta	species	gbif:2490158,irmng:10908781		hand_match_eliot
 13456	species	bltant2	Black-throated Antbird	Myrmophylax atrothorax	Passeriformes	Thamnophilidae (Typical Antbirds)			515433	Myrmeciza atrothorax	species	ncbi:468505,gbif:2490157,irmng:10991771		synonym_match
 13462	species	gybant1	Gray-bellied Antbird	Ammonastes pelzelni	Passeriformes	Thamnophilidae (Typical Antbirds)			818306	Myrmeciza pelzelni	species	ncbi:468499,gbif:2490162,irmng:10214938		hand_match_eliot
@@ -4722,7 +4722,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 13679	species	rufant2	Rufous-faced Antpitta	Grallaria erythrotis	Passeriformes	Grallariidae (Antpittas)			3599003	Grallaria erythrotis	species	ncbi:1753973,gbif:2490527,irmng:11282127		canonical_match
 13681	species	spbant1	Speckle-breasted Antpitta	Cryptopezus nattereri	Passeriformes	Grallariidae (Antpittas)			160393	Hylopezus nattereri	species	ncbi:1162372,gbif:2490559,irmng:10456983		-
 13682	species	stcant2	Streak-chested Antpitta	Hylopezus perspicillatus	Passeriformes	Grallariidae (Antpittas)			3599024	Hylopezus perspicillatus	species	ncbi:2571212,gbif:2490558,irmng:11306853		canonical_match
-13688	species	spoant6	Spotted Antpitta	Hylopezus macularius	Passeriformes	Grallariidae (Antpittas)			227756	Hylopezus macularius	species	ncbi:1118567,gbif:2490562,irmng:10910442		canonical_match
+13688	species	spoant6	Spotted Antpitta	Hylopezus macularius	Passeriformes	Grallariidae (Antpittas)			6520456	Hylopezus macularius macularius	species	ncbi:1118567,gbif:2490562,irmng:10910442		sub_spp_fix_ejm
 13691	species	spoant5	Snethlage's Antpitta	Hylopezus paraensis	Passeriformes	Grallariidae (Antpittas)			514444	Hylopezus macularius paraensis	subspecies	ncbi:1162370,gbif:7905537	infraspecific	synonym_match
 13692	species	alfant1	Alta Floresta Antpitta	Hylopezus whittakeri	Passeriformes	Grallariidae (Antpittas)			160385	Hylopezus whittakeri	species	ncbi:1162373,gbif:7707380		canonical_match
 13693	species	masant1	Masked Antpitta	Hylopezus auricularis	Passeriformes	Grallariidae (Antpittas)			450584	Hylopezus auricularis	species	ncbi:1162371,gbif:5788707		canonical_match
@@ -6169,13 +6169,13 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 18283	species	titber1	Tit Berrypecker	Oreocharis arfaki	Passeriformes	Paramythiidae (Tit Berrypecker and Crested Berrypecker)	Tit Berrypecker and Crested Berrypecker		875031	Oreocharis arfaki	species	ncbi:979223,irmng:10211550		canonical_match
 18284	species	creber1	Crested Berrypecker	Paramythia montium	Passeriformes	Paramythiidae (Tit Berrypecker and Crested Berrypecker)			1066395	Paramythia montium	species	ncbi:254574,gbif:2482637,irmng:11160353		canonical_match
 18291	species	bhsbab1	Black-headed Shrike-Babbler	Pteruthius rufiventer	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)	Shrike-Babblers and Erpornis		31188	Pteruthius rufiventer	species	ncbi:201362,gbif:2492992,irmng:11164901		canonical_match
-18292	species	wbsbab2	Pied Shrike-Babbler	Pteruthius flaviscapis	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			245037	Pteruthius flaviscapis	species	ncbi:449334,gbif:2492996,irmng:10596461		canonical_match
+18292	species	wbsbab2	Pied Shrike-Babbler	Pteruthius flaviscapis	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			6520465	Pteruthius flaviscapis flaviscapis	species	ncbi:449334,gbif:2492996,irmng:10596461		sub_spp_fix_ejm
 18293	species	himshb1	Himalayan Shrike-Babbler	Pteruthius ripleyi	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			3598512	Pteruthius ripleyi	species	gbif:6100767		canonical_match
 18294	species	blyshb1	Blyth's Shrike-Babbler	Pteruthius aeralatus	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			360218	Pteruthius flaviscapis aeralatus	subspecies	ncbi:449338,gbif:7341431	infraspecific	synonym_match
 18302	species	dalshb1	Dalat Shrike-Babbler	Pteruthius annamensis	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			231807	Pteruthius flaviscapis annamensis	subspecies	ncbi:449339,gbif:5844708	infraspecific	synonym_match
 18303	species	grsbab1	Green Shrike-Babbler	Pteruthius xanthochlorus	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			31190	Pteruthius xanthochlorus	species	ncbi:201363,gbif:2492995,irmng:10211041		canonical_match
 18310	species	besbab1	Black-eared Shrike-Babbler	Pteruthius melanotis	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			41271	Pteruthius melanotis	species	ncbi:357074,gbif:2492994,irmng:10652831		canonical_match
-18313	species	cfsbab1	Trilling Shrike-Babbler	Pteruthius aenobarbus	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			245036	Pteruthius aenobarbus	species	ncbi:449335,gbif:2492993,irmng:10218289		canonical_match
+18313	species	cfsbab1	Trilling Shrike-Babbler	Pteruthius aenobarbus	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			6520464	Pteruthius aenobarbus aenobarbus	species	ncbi:449335,gbif:2492993,irmng:10218289		canonical_match
 18314	species	clishb1	Clicking Shrike-Babbler	Pteruthius intermedius	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			245033	Pteruthius aenobarbus intermedius	subspecies	ncbi:449337,gbif:7341414	infraspecific	synonym_match
 18318	species	whbyuh1	White-bellied Erpornis	Erpornis zantholeuca	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)			602539	Erpornis zantholeuca	species	ncbi:1112836,gbif:7341397		canonical_match
 18327	species	rubpep1	Rufous-browed Peppershrike	Cyclarhis gujanensis	Passeriformes	Vireonidae (Vireos, Shrike-Babblers, and Erpornis)	Vireos		621721	Cyclarhis gujanensis	species	ncbi:34943,gbif:2487404,irmng:10217875		canonical_match
@@ -6540,7 +6540,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19621	species	nezfan1	New Zealand Fantail	Rhipidura fuliginosa	Passeriformes	Rhipiduridae (Fantails)			346153	Rhipidura fuliginosa	species	ncbi:381039,gbif:5231730,irmng:10214632		canonical_match
 19627	species	wstdro1	Western Square-tailed Drongo	Dicrurus occidentalis	Passeriformes	Dicruridae (Drongos)			6520280	Dicrurus occidentalis	-	additions-6520264-6520323:6520280	-	new_taxon_amendment
 19628	species	shadro1	Sharpe's Drongo	Dicrurus sharpei	Passeriformes	Dicruridae (Drongos)	Drongos		7068322	Dicrurus ludwigii sharpei	subspecies	ncbi:2358209	infraspecific	synonym_match
-19629	species	cstdro1	Common Square-tailed Drongo	Dicrurus ludwigii	Passeriformes	Dicruridae (Drongos)			207205	Dicrurus ludwigii	species	ncbi:450163,gbif:2493983,irmng:10218200		canonical_match
+19629	species	cstdro1	Common Square-tailed Drongo	Dicrurus ludwigii	Passeriformes	Dicruridae (Drongos)			6520447	Dicrurus ludwigii ludwigii	species	ncbi:450163,gbif:2493983,irmng:10218200		sub_spp_fix_ejm
 19635	species	shidro1	Shining Drongo	Dicrurus atripennis	Passeriformes	Dicruridae (Drongos)			489681	Dicrurus atripennis	species	ncbi:450164,gbif:2493973,irmng:11305158		canonical_match
 19636	species	fotdro5	Fork-tailed Drongo	Dicrurus adsimilis	Passeriformes	Dicruridae (Drongos)			263357	Dicrurus adsimilis	species	ncbi:175003,gbif:2493963,irmng:10212049		canonical_match
 19642	species	fotdro4	Glossy-backed Drongo	Dicrurus divaricatus	Passeriformes	Dicruridae (Drongos)			7068321	Dicrurus adsimilis divaricatus	subspecies	ncbi:2358208	infraspecific	synonym_match
@@ -7111,7 +7111,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 21845	species	blalar1	Black Lark	Melanocorypha yeltoniensis	Passeriformes	Alaudidae (Larks)			3597558	Melanocorypha yeltoniensis	species	ncbi:1365163,gbif:2490614,irmng:10211568		canonical_match
 21846	species	monlar1	Mongolian Lark	Melanocorypha mongolica	Passeriformes	Alaudidae (Larks)			518141	Melanocorypha mongolica	species	ncbi:670347,gbif:2490610,irmng:11253123		canonical_match
 21847	species	duplar1	Dupont's Lark	Chersophilus duponti	Passeriformes	Alaudidae (Larks)			876889	Chersophilus duponti	species	ncbi:452474,gbif:2490674,irmng:10214519		canonical_match
-21850	species	dunlar2	Dunn's Lark	Eremalauda dunni	Passeriformes	Alaudidae (Larks)			3597547	Eremalauda dunni	species	ncbi:1364983,gbif:2490663,irmng:10764854		canonical_match
+21850	species	dunlar2	Dunn's Lark	Eremalauda dunni	Passeriformes	Alaudidae (Larks)			6520448	Eremalauda dunni dunni	species	ncbi:1364983,gbif:2490663,irmng:10764854		sub_spp_fix_ejm
 21851	species	dunlar4	Arabian Lark	Eremalauda eremodites	Passeriformes	Alaudidae (Larks)			5223380	Eremalauda dunni eremodites	subspecies	ncbi:1365599	infraspecific	-
 21853	species	sstlar1	Somali Short-toed Lark	Alaudala somalica	Passeriformes	Alaudidae (Larks)			3597510	Calandrella somalica	species	worms:567859,irmng:10833612,irmng:10211509		hand_match_eliot
 21859	species	lstlar2	Asian Short-toed Lark	Alaudala cheleensis	Passeriformes	Alaudidae (Larks)			947048	Alaudala cheleensis	species	ncbi:670337,irmng:11438420		canonical_match
@@ -8218,7 +8218,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 25693	species	buglio1	Bugun Liocichla	Liocichla bugunorum	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			3598503	Liocichla bugunorum	species	ncbi:1464013,gbif:5789018		canonical_match
 25694	species	gyflio1	Gray-faced Liocichla	Liocichla omeiensis	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			300223	Liocichla omeiensis	species	ncbi:520210,gbif:2493329,irmng:11196374		canonical_match
 25695	species	stelio1	Steere's Liocichla	Liocichla steerii	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			451633	Liocichla steerii	species	ncbi:201339,gbif:2493327,irmng:11360913		canonical_match
-25696	species	reflio2	Red-faced Liocichla	Liocichla phoenicea	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			451636	Liocichla phoenicea	species	ncbi:201338,gbif:2493328,irmng:10592772		canonical_match
+25696	species	reflio2	Red-faced Liocichla	Liocichla phoenicea	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			6520457	Liocichla phoenicea phoenicea	species	ncbi:201338,gbif:2493328,irmng:10592772		sub_spp_fix_ejm
 25699	species	reflio3	Scarlet-faced Liocichla	Liocichla ripponi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			3598502	Liocichla phoenicea ripponi	subspecies	ncbi:2183873,gbif:6101116	infraspecific	synonym_match
 25702	species	lagbab2	Large Gray Babbler	Argya malcolmi	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			3598530	Argya malcolmi	species	ncbi:1343492,gbif:2493314,gbif:9936400,irmng:11165150		-
 25703	species	ashlau1	Ashy-headed Laughingthrush	Argya cinereifrons	Passeriformes	Leiothrichidae (Laughingthrushes and Allies)			3598492	Garrulax cinereifrons	species	ncbi:2183762,gbif:2493484,irmng:10211306		-
@@ -9001,7 +9001,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 28505	species	cobrob1	Collared Bush-Robin	Tarsiger johnstoniae	Passeriformes	Muscicapidae (Old World Flycatchers)			604918	Luscinia johnstoniae	species	ncbi:869931,gbif:2492511,irmng:11345516		synonym_match
 28508	species	korfly1	Yellow-rumped Flycatcher	Ficedula zanthopygia	Passeriformes	Muscicapidae (Old World Flycatchers)			547548	Ficedula zanthopygia	species	ncbi:369970,gbif:5231276,irmng:10211583	sibling_higher	canonical_match
 28509	species	narfly1	Green-backed Flycatcher	Ficedula elisae	Passeriformes	Muscicapidae (Old World Flycatchers)			3598138	Ficedula elisae	species	ncbi:1507540,gbif:6100857	sibling_higher	canonical_match
-28510	species	narfly	Narcissus Flycatcher	Ficedula narcissina	Passeriformes	Muscicapidae (Old World Flycatchers)			131996	Ficedula narcissina	species	ncbi:36293,gbif:5231288,irmng:10722525	sibling_higher	canonical_match
+28510	species	narfly	Narcissus Flycatcher	Ficedula narcissina	Passeriformes	Muscicapidae (Old World Flycatchers)			6520449	Ficedula narcissina narcissina	species	ncbi:36293,gbif:5231288,irmng:10722525	sibling_higher	sub_spp_fix_ejm
 28511	species	narfly3	Ryuku Flycatcher	Ficedula owstoni	Passeriformes	Muscicapidae (Old World Flycatchers)			5859958	Ficedula narcissina owstoni	subspecies	ncbi:1507552	infraspecific	-
 28514	species	mugfly	Mugimaki Flycatcher	Ficedula mugimaki	Passeriformes	Muscicapidae (Old World Flycatchers)			67150	Ficedula mugimaki	species	ncbi:369969,gbif:5231268,irmng:10208857	sibling_higher	canonical_match
 28515	species	slbfly1	Slaty-backed Flycatcher	Ficedula erithacus	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-		
@@ -10446,7 +10446,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 33495	species	reccar	Red-crested Cardinal	Paroaria coronata	Passeriformes	Thraupidae (Tanagers and Allies)			301064	Paroaria coronata	species	ncbi:181102,gbif:2492081,irmng:10856592		canonical_match
 33496	species	reccar2	Red-cowled Cardinal	Paroaria dominicana	Passeriformes	Thraupidae (Tanagers and Allies)			80421	Paroaria dominicana	species	ncbi:116994,gbif:2492086,irmng:11071700		canonical_match
 33497	species	reccar3	Masked Cardinal	Paroaria nigrogenis	Passeriformes	Thraupidae (Tanagers and Allies)			812421	Paroaria gularis nigrogenis	subspecies	ncbi:665136,gbif:5845551	infraspecific	synonym_match
-33498	species	reccar4	Red-capped Cardinal	Paroaria gularis	Passeriformes	Thraupidae (Tanagers and Allies)			320949	Paroaria gularis	species	ncbi:548512,gbif:2492082,irmng:10216074		canonical_match
+33498	species	reccar4	Red-capped Cardinal	Paroaria gularis	Passeriformes	Thraupidae (Tanagers and Allies)			6520461	Paroaria gularis gularis	species	ncbi:548512,gbif:2492082,irmng:10216074		sub_spp_fix_ejm
 33503	species	crfcar1	Crimson-fronted Cardinal	Paroaria baeri	Passeriformes	Thraupidae (Tanagers and Allies)			718834	Paroaria baeri	species	ncbi:665137,gbif:2492090,irmng:11167818		canonical_match
 33508	species	yebcar	Yellow-billed Cardinal	Paroaria capitata	Passeriformes	Thraupidae (Tanagers and Allies)			396694	Paroaria capitata	species	ncbi:460210,gbif:2492087,irmng:11164620		canonical_match
 33511	species	blftan1	Black-faced Tanager	Schistochlamys melanopis	Passeriformes	Thraupidae (Tanagers and Allies)			415519	Schistochlamys melanopis	species	ncbi:62242,gbif:2488064,irmng:10216211		canonical_match
@@ -10799,7 +10799,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 34612	species	lagfin1	Large Ground-Finch	Geospiza magnirostris	Passeriformes	Thraupidae (Tanagers and Allies)			589955	Geospiza magnirostris	species	ncbi:48885,gbif:5231036,irmng:11336090		canonical_match
 34613	species	shbgrf1	Vampire Ground-Finch	Geospiza septentrionalis	Passeriformes	Thraupidae (Tanagers and Allies)			5859950	Geospiza difficilis septentrionalis	subspecies	ncbi:1560196	infraspecific	synonym_match
 34614	species	shbgrf2	Genovesa Ground-Finch	Geospiza acutirostris	Passeriformes	Thraupidae (Tanagers and Allies)			5991469	Geospiza acutirostris	species	additions-5991469-5991470:5991469		canonical_match
-34615	species	shbgrf3	Sharp-beaked Ground-Finch	Geospiza difficilis	Passeriformes	Thraupidae (Tanagers and Allies)			419376	Geospiza difficilis	species	ncbi:87173,gbif:5231021,irmng:11124768		canonical_match
+34615	species	shbgrf3	Sharp-beaked Ground-Finch	Geospiza difficilis	Passeriformes	Thraupidae (Tanagers and Allies)			6520453	Geospiza difficilis difficilis	species	ncbi:87173,gbif:5231021,irmng:11124768		sub_spp_fix_ejm
 34616	species	cocfin3	Common Cactus-Finch	Geospiza scandens	Passeriformes	Thraupidae (Tanagers and Allies)			589959	Geospiza scandens	species	ncbi:48886,gbif:5231031,irmng:10213796		canonical_match
 34621	species	megfin1	Medium Ground-Finch	Geospiza fortis	Passeriformes	Thraupidae (Tanagers and Allies)			589951	Geospiza fortis	species	ncbi:48883,gbif:5231030,irmng:10213795		canonical_match
 34622	species	larcaf2	Española Ground-Finch	Geospiza conirostris	Passeriformes	Thraupidae (Tanagers and Allies)			589953	Geospiza conirostris	species	ncbi:48882,gbif:5231026,irmng:10792909		canonical_match
