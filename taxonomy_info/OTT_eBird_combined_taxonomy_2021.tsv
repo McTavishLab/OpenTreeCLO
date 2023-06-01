@@ -457,7 +457,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 1511	species	mopphe1	Mountain Peacock-Pheasant	Polyplectron inopinatum	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			658122	Polyplectron inopinatum	species	ncbi:142659,gbif:2474074,irmng:11222985		canonical_match
 1512	species	btpphe1	Bronze-tailed Peacock-Pheasant	Polyplectron chalcurum	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			110936	Polyplectron chalcurum	species	ncbi:142657,gbif:2474084,irmng:10722590		canonical_match
 1516	species	mobpar1	Mountain Bamboo-Partridge	Bambusicola fytchii	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			867027	Bambusicola fytchii	species	ncbi:388974,gbif:5227943,irmng:10582817		canonical_match
-1519	species	chbpar3	Chinese Bamboo-Partridge	Bambusicola thoracicus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			521334	Bambusicola thoracicus	species	ncbi:9083,gbif:5227939,irmng:11010351	PARENT OF SIBLING	canonical_match
+1519	species	chbpar3	Chinese Bamboo-Partridge	Bambusicola thoracicus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			6520471	Bambusicola thoracicus thoracicus	species	ncbi:9083,gbif:5227939,irmng:11010351	PARENT OF SIBLING	sub_spp_fix_ejm
 1520	species	taibap1	Taiwan Bamboo-Partridge	Bambusicola sonorivox	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			5861117	Bambusicola thoracicus sonorivox	subspecies	ncbi:1549772,gbif:7529528	infraspecific	synonym_match
 1521	species	grejun1	Green Junglefowl	Gallus varius	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			153572	Gallus varius	species	ncbi:9034,gbif:5227768,irmng:10594625		canonical_match
 1522	species	redjun	Red Junglefowl	Gallus gallus	Galliformes	Phasianidae (Pheasants, Grouse, and Allies)			153563	Gallus gallus	species	ncbi:9031,gbif:9326020,irmng:11181863		canonical_match
@@ -3797,7 +3797,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 11017	species	javfla1	Javan Flameback	Chrysocolaptes strictus	Piciformes	Picidae (Woodpeckers)			5859741	Chrysocolaptes lucidus strictus	subspecies	ncbi:1517781,gbif:7467150	infraspecific	synonym_match
 11020	species	luzfla1	Luzon Flameback	Chrysocolaptes haematribon	Piciformes	Picidae (Woodpeckers)			5560014	Chrysocolaptes lucidus haematribon	subspecies	ncbi:1517780,gbif:8370569	infraspecific	synonym_match
 11021	species	yeffla1	Yellow-faced Flameback	Chrysocolaptes xanthocephalus	Piciformes	Picidae (Woodpeckers)			5859742	Chrysocolaptes lucidus xanthocephalus	subspecies	ncbi:1517782,gbif:7974590	infraspecific	synonym_match
-11022	species	busfla1	Buff-spotted Flameback	Chrysocolaptes lucidus	Piciformes	Picidae (Woodpeckers)			724186	Chrysocolaptes lucidus	species	ncbi:315365,gbif:2478040,irmng:11267452	PARENT OF SIBLING	canonical_match
+11022	species	busfla1	Buff-spotted Flameback	Chrysocolaptes lucidus	Piciformes	Picidae (Woodpeckers)			6520474	Chrysocolaptes lucidus lucidus	species	ncbi:315365,gbif:2478040,irmng:11267452	PARENT OF SIBLING	sub_spp_fix_ejm
 11026	species	rehfla1	Red-headed Flameback	Chrysocolaptes erythrocephalus	Piciformes	Picidae (Woodpeckers)			6154937	Chrysocolaptes erythrocephalus	species	gbif:8363406		canonical_match
 11027	species	crbfla1	Crimson-backed Flameback	Chrysocolaptes stricklandi	Piciformes	Picidae (Woodpeckers)			3600180	Chrysocolaptes stricklandi	species	gbif:6085468		canonical_match
 11028	species	whnwoo1	White-naped Woodpecker	Chrysocolaptes festivus	Piciformes	Picidae (Woodpeckers)			3600181	Chrysocolaptes festivus	species	gbif:2478037,irmng:10205115		canonical_match
@@ -5036,7 +5036,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 14798	species	bltthi1	Black-throated Thistletail	Asthenes harterti	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			3598376	Asthenes harterti	species	gbif:6088468		canonical_match
 14799	species	punthi1	Puna Thistletail	Asthenes helleri	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			551162	Schizoeaca helleri	species	ncbi:589983,gbif:2485100,gbif:6088460,irmng:10766216		synonym_match
 14800	species	vilthi3	Ayacucho Thistletail	Asthenes ayacuchensis	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			5925688	Asthenes vilcabambae ayacuchensis	subspecies	ncbi:1859929,gbif:8923796	infraspecific	synonym_match
-14801	species	vilthi2	Vilcabamba Thistletail	Asthenes vilcabambae	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			835367	Asthenes vilcabambae	species	ncbi:1859928,gbif:2485094,gbif:7340807,irmng:11013460		canonical_match
+14801	species	vilthi2	Vilcabamba Thistletail	Asthenes vilcabambae	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			6520470	Asthenes vilcabambae vilcabambae	species	ncbi:1859928,gbif:2485094,gbif:7340807,irmng:11013460		sub_spp_fix_ejm
 14802	species	cancan1	Canyon Canastero	Asthenes pudibunda	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			838820	Asthenes pudibunda	species	ncbi:644976,gbif:5230097,irmng:10891833		canonical_match
 14806	species	rufcan1	Rusty-fronted Canastero	Asthenes ottonis	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			838819	Asthenes ottonis	species	ncbi:644975,gbif:5230111,irmng:10911083		canonical_match
 14807	species	maqcan1	Maquis Canastero	Asthenes heterura	Passeriformes	Furnariidae (Ovenbirds and Woodcreepers)			3598379	Asthenes heterura	species	gbif:5230110,irmng:10592536		canonical_match
@@ -5488,10 +5488,10 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 16129	species	mistyr1	Mishana Tyrannulet	Zimmerius villarejoi	Passeriformes	Tyrannidae (Tyrant Flycatchers)			3599173	Zimmerius villarejoi	species	ncbi:1285391,gbif:2483942		canonical_match
 16130	species	chityr1	Chico's Tyrannulet	Zimmerius chicomendesi	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6154659	Zimmerius chicomendesi	species	gbif:8119633		canonical_match
 16131	species	guityr1	Guianan Tyrannulet	Zimmerius acer	Passeriformes	Tyrannidae (Tyrant Flycatchers)			362213	Zimmerius acer	species	ncbi:502664		canonical_match
-16132	species	paltyr2	Guatemalan Tyrannulet	Zimmerius vilissimus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			937184	Zimmerius vilissimus	species	ncbi:456438,gbif:2483943,irmng:11161384		canonical_match
+16132	species	paltyr2	Guatemalan Tyrannulet	Zimmerius vilissimus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6520468	Zimmerius vilissimus vilissimus	species	ncbi:456438,gbif:2483943,irmng:11161384		sub_spp_fix_ejm
 16133	species	paltyr3	Mistletoe Tyrannulet	Zimmerius parvus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			5560431	Zimmerius vilissimus parvus	subspecies	ncbi:1285388	infraspecific	synonym_match
 16135	species	chotyr1	Choco Tyrannulet	Zimmerius albigularis	Passeriformes	Tyrannidae (Tyrant Flycatchers)			362196	Zimmerius albigularis	species	ncbi:502663,gbif:5789111		canonical_match
-16136	species	paltyr4	Spectacled Tyrannulet	Zimmerius improbus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			5560067	Zimmerius improbus	species	ncbi:1285389,irmng:10219280		canonical_match
+16136	species	paltyr4	Spectacled Tyrannulet	Zimmerius improbus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6520467	Zimmerius improbus improbus	species	ncbi:1285389,irmng:10219280		sub_spp_fix_ejm
 16139	species	goftyr1	Golden-faced Tyrannulet	Zimmerius chrysops	Passeriformes	Tyrannidae (Tyrant Flycatchers)			813130	Zimmerius chrysops	species	ncbi:495159,gbif:2483936,irmng:11279442		canonical_match
 16144	species	pertyr1	Peruvian Tyrannulet	Zimmerius viridiflavus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			362201	Zimmerius viridiflavus	species	ncbi:502662,gbif:2483935,irmng:11238465		canonical_match
 16148	species	boltyr1	Bolivian Tyrannulet	Zimmerius bolivianus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			362207	Zimmerius bolivianus	species	ncbi:502660,gbif:2483954,irmng:11165160		canonical_match
@@ -6052,7 +6052,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 17820	species	spqthr1	Spotted Quail-thrush	Cinclosoma punctatum	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)	Quail-thrushes and Jewel-babblers		1061823	Cinclosoma punctatum	species	ncbi:626376,gbif:2495063,irmng:11107345		canonical_match
 17824	species	chequt1	Chestnut Quail-thrush	Cinclosoma castanotum	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			879898	Cinclosoma castanotum	species	ncbi:1110500,gbif:7341076,irmng:10299103		canonical_match
 17825	species	copqut1	Copperback Quail-thrush	Cinclosoma clarum	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			5859898	Cinclosoma clarum	species	ncbi:1641793,gbif:7778275		canonical_match
-17828	species	cbqthr1	Chestnut-breasted Quail-thrush	Cinclosoma castaneothorax	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			294608	Cinclosoma castaneothorax	species	ncbi:1110496,gbif:2495064,irmng:11227657		canonical_match
+17828	species	cbqthr1	Chestnut-breasted Quail-thrush	Cinclosoma castaneothorax	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			6520475	Cinclosoma castaneothorax castaneothorax	species	ncbi:1110496,gbif:2495064,irmng:11227657		sub_spp_fix_ejm
 17829	species	chbqut1	Western Quail-thrush	Cinclosoma marginatum	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			294604	Cinclosoma castaneothorax marginatum	subspecies	ncbi:1110497,gbif:8189560	infraspecific	synonym_match
 17830	species	ciqthr1	Cinnamon Quail-thrush	Cinclosoma cinnamomeum	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			294601	Cinclosoma cinnamomeum	species	ncbi:1110498,gbif:2495065,irmng:11341623		canonical_match
 17831	species	nulqut1	Nullarbor Quail-thrush	Cinclosoma alisteri	Passeriformes	Cinclosomatidae (Quail-thrushes and Jewel-babblers)			294599	Cinclosoma alisteri	species	ncbi:1110499,gbif:7370597		canonical_match
@@ -6456,7 +6456,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19339	species	trobou1	Tropical Boubou	Laniarius major	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515116	Laniarius major	species	ncbi:488399,gbif:5845151		canonical_match
 19344	species	zanbou1	Zanzibar Boubou	Laniarius sublacteus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			974525	Laniarius ferrugineus sublacteus	subspecies	ncbi:488403,gbif:5845139	infraspecific	synonym_match
 19345	species	gabbou1	Gabon Boubou	Laniarius bicolor	Passeriformes	Malaconotidae (Bushshrikes and Allies)			1041521	Laniarius bicolor	species	ncbi:488389,gbif:2484864,irmng:11255617		canonical_match
-19350	species	soubou1	Southern Boubou	Laniarius ferrugineus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			92681	Laniarius ferrugineus	species	ncbi:125280,gbif:2484860,irmng:10938813		canonical_match
+19350	species	soubou1	Southern Boubou	Laniarius ferrugineus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			6520477	Laniarius ferrugineus	species	ncbi:125280,gbif:2484860,irmng:10938813		sub_spp_fix_ejm
 19357	species	comgon1	Yellow-crowned Gonolek	Laniarius barbarus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			617805	Laniarius barbarus	species	ncbi:9196,gbif:2484877,irmng:11125584		canonical_match
 19360	species	blhgon1	Black-headed Gonolek	Laniarius erythrogaster	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515124	Laniarius erythrogaster	species	ncbi:488390,gbif:2484871,irmng:11368830		canonical_match
 19361	species	crbgon1	Crimson-breasted Gonolek	Laniarius atrococcineus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515125	Laniarius atrococcineus	species	ncbi:488391,gbif:2484863,irmng:10215209		canonical_match
@@ -6465,7 +6465,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19364	species	slcbou1	Slate-colored Boubou	Laniarius funebris	Passeriformes	Malaconotidae (Bushshrikes and Allies)			252034	Laniarius funebris	species	ncbi:272832,gbif:2484861,irmng:11266769		canonical_match
 19367	species	soobou1	Lowland Sooty Boubou	Laniarius leucorhynchus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515129	Laniarius leucorhynchus	species	ncbi:488394,gbif:2484865,irmng:10217047		canonical_match
 19368	species	wisbou1	Willard's Sooty Boubou	Laniarius willardi	Passeriformes	Malaconotidae (Bushshrikes and Allies)			744298	Laniarius willardi	species	ncbi:874383,gbif:5845141		canonical_match
-19369	species	mosbou1	Western Boubou	Laniarius poensis	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515130	Laniarius poensis	species	ncbi:488395,gbif:2484874,irmng:10217049		canonical_match
+19369	species	mosbou1	Western Boubou	Laniarius poensis	Passeriformes	Malaconotidae (Bushshrikes and Allies)			6520478	Laniarius poensis poensis	species	ncbi:488395,gbif:2484874,irmng:10217049		sub_spp_fix_ejm
 19372	species	mosbou4	Albertine Boubou	Laniarius holomelas	Passeriformes	Malaconotidae (Bushshrikes and Allies)			490466	Laniarius poensis holomelas	subspecies	ncbi:488635	infraspecific	synonym_match
 19373	species	fuebou1	Fülleborn's Boubou	Laniarius fuelleborni	Passeriformes	Malaconotidae (Bushshrikes and Allies)			515126	Laniarius fuelleborni	species	ncbi:488396,gbif:2484872,irmng:10923379		canonical_match
 19377	species	ropbus1	Rosy-patched Bushshrike	Rhodophoneus cruentus	Passeriformes	Malaconotidae (Bushshrikes and Allies)			1035476	Rhodophoneus cruentus	species	ncbi:272902,gbif:6100952,irmng:10761935		canonical_match
@@ -6542,7 +6542,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19628	species	shadro1	Sharpe's Drongo	Dicrurus sharpei	Passeriformes	Dicruridae (Drongos)	Drongos		7068322	Dicrurus ludwigii sharpei	subspecies	ncbi:2358209	infraspecific	synonym_match
 19629	species	cstdro1	Common Square-tailed Drongo	Dicrurus ludwigii	Passeriformes	Dicruridae (Drongos)			6520447	Dicrurus ludwigii ludwigii	species	ncbi:450163,gbif:2493983,irmng:10218200		sub_spp_fix_ejm
 19635	species	shidro1	Shining Drongo	Dicrurus atripennis	Passeriformes	Dicruridae (Drongos)			489681	Dicrurus atripennis	species	ncbi:450164,gbif:2493973,irmng:11305158		canonical_match
-19636	species	fotdro5	Fork-tailed Drongo	Dicrurus adsimilis	Passeriformes	Dicruridae (Drongos)			263357	Dicrurus adsimilis	species	ncbi:175003,gbif:2493963,irmng:10212049		canonical_match
+19636	species	fotdro5	Fork-tailed Drongo	Dicrurus adsimilis	Passeriformes	Dicruridae (Drongos)			6520476	Dicrurus adsimilis adsimilis	species	ncbi:175003,gbif:2493963,irmng:10212049		sub_spp_fix_ejm
 19642	species	fotdro4	Glossy-backed Drongo	Dicrurus divaricatus	Passeriformes	Dicruridae (Drongos)			7068321	Dicrurus adsimilis divaricatus	subspecies	ncbi:2358208	infraspecific	synonym_match
 19646	species	vemdro5	Fanti Drongo	Dicrurus atactus	Passeriformes	Dicruridae (Drongos)			6520279	Dicrurus atactus	-	additions-6520264-6520323:6520279	-	new_taxon_amendment
 19647	species	vemdro6	Velvet-mantled Drongo	Dicrurus modestus	Passeriformes	Dicruridae (Drongos)			753449	Dicrurus modestus	species	ncbi:450165,gbif:2493976,irmng:10218468		canonical_match
@@ -6631,7 +6631,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 19991	species	rvpfly1	Rufous-vented Paradise-Flycatcher	Terpsiphone rufocinerea	Passeriformes	Monarchidae (Monarch Flycatchers)			950262	Terpsiphone rufocinerea	species	ncbi:1002898,gbif:2486683,irmng:11347419		canonical_match
 19992	species	batpaf1	Bates's Paradise-Flycatcher	Terpsiphone batesi	Passeriformes	Monarchidae (Monarch Flycatchers)			374078	Terpsiphone batesi	species	ncbi:1002883,gbif:7340403		canonical_match
 19995	species	afpfly1	African Paradise-Flycatcher	Terpsiphone viridis	Passeriformes	Monarchidae (Monarch Flycatchers)			767075	Terpsiphone viridis	species	ncbi:98152,worms:221045,gbif:2486688,irmng:10596473		canonical_match
-20008	species	elepai	Hawaii Elepaio	Chasiempis sandwichensis	Passeriformes	Monarchidae (Monarch Flycatchers)			893771	Chasiempis sandwichensis	species	ncbi:291285,gbif:2486699,irmng:11054970		canonical_match
+20008	species	elepai	Hawaii Elepaio	Chasiempis sandwichensis	Passeriformes	Monarchidae (Monarch Flycatchers)			6520473	Chasiempis sandwichensis sandwichensis	species	ncbi:291285,gbif:2486699,irmng:11054970		sub_spp_fix_ejm
 20012	species	elepai5	Kauai Elepaio	Chasiempis sclateri	Passeriformes	Monarchidae (Monarch Flycatchers)			319312	Chasiempis sclateri	species	ncbi:1576535,gbif:6086253		canonical_match
 20013	species	elepai4	Oahu Elepaio	Chasiempis ibidis	Passeriformes	Monarchidae (Monarch Flycatchers)			319311	Chasiempis sandwichensis ibidis	subspecies	ncbi:291292,gbif:6086250	infraspecific	synonym_match
 20014	species	tahmon2	Tahiti Monarch	Pomarea nigra	Passeriformes	Monarchidae (Monarch Flycatchers)			103137	Pomarea nigra	species	ncbi:237978,gbif:5230449,irmng:10658537		canonical_match
@@ -7954,7 +7954,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 24778	species	mauwhe1	Mauritius White-eye	Zosterops chloronothos	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			215254	Zosterops chloronothos	species	ncbi:1071970,gbif:2489380,irmng:10219585		canonical_match
 24779	species	maswhe2	Reunion Gray White-eye	Zosterops borbonicus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			66405	Zosterops borbonicus	species	ncbi:364589,gbif:2489364,irmng:10424505		canonical_match
 24780	species	maswhe3	Mauritius Gray White-eye	Zosterops mauritianus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			215258	Zosterops mauritianus	species	ncbi:1071971,gbif:6100774		canonical_match
-24781	species	wbweye1	Abyssinian White-eye	Zosterops abyssinicus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			335475	Zosterops abyssinicus	species	ncbi:364576,gbif:9565230,irmng:10219582		canonical_match
+24781	species	wbweye1	Abyssinian White-eye	Zosterops abyssinicus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			6520469	Zosterops abyssinicus abyssinicus	species	ncbi:364576,gbif:9565230,irmng:10219582		sub_spp_fix_ejm
 24785	species	abywhe1	Socotra White-eye	Zosterops socotranus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			940098	Zosterops abyssinicus socotranus	subspecies	ncbi:364604	infraspecific	-
 24786	species	camspe1	Cameroon Speirops	Zosterops melanocephalus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			265348	Speirops melanocephalus	species	ncbi:589855,gbif:6092110,irmng:10219878		synonym_match
 24787	species	afywhe1	Forest White-eye	Zosterops stenocricotus	Passeriformes	Zosteropidae (White-eyes, Yuhinas, and Allies)			101615	Zosterops senegalensis stenocricotus	subspecies	ncbi:570460,gbif:8874753	infraspecific	-
@@ -8674,7 +8674,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 27345	species	runthr1	Russet Nightingale-Thrush	Catharus occidentalis	Passeriformes	Turdidae (Thrushes and Allies)			252688	Catharus occidentalis	species	ncbi:172409,gbif:2490803,irmng:10217633		canonical_match
 27350	species	rcnthr1	Ruddy-capped Nightingale-Thrush	Catharus frantzii	Passeriformes	Turdidae (Thrushes and Allies)			939695	Catharus frantzii	species	ncbi:172405,gbif:2490819,irmng:11399932		canonical_match
 27359	species	bhnthr1	Black-headed Nightingale-Thrush	Catharus mexicanus	Passeriformes	Turdidae (Thrushes and Allies)			252687	Catharus mexicanus	species	ncbi:172408,gbif:2490820,irmng:10217632		canonical_match
-27363	species	spnthr1	Spotted Nightingale-Thrush	Catharus dryas	Passeriformes	Turdidae (Thrushes and Allies)			252695	Catharus dryas	species	ncbi:172404,gbif:2490808,irmng:10217343		canonical_match
+27363	species	spnthr1	Spotted Nightingale-Thrush	Catharus dryas	Passeriformes	Turdidae (Thrushes and Allies)			6520472	Catharus dryas dryas	species	ncbi:172404,gbif:2490808,irmng:10217343		sub_spp_fix_ejm
 27366	species	sponit2	Speckled Nightingale-Thrush	Catharus maculatus	Passeriformes	Turdidae (Thrushes and Allies)			7068690	Catharus dryas maculatus	subspecies	ncbi:1945526	infraspecific	-
 27369	species	veery	Veery	Catharus fuscescens	Passeriformes	Turdidae (Thrushes and Allies)			545761	Catharus fuscescens	species	ncbi:159581,gbif:2490804,irmng:10594374		canonical_match
 27374	species	gycthr	Gray-cheeked Thrush	Catharus minimus	Passeriformes	Turdidae (Thrushes and Allies)			920831	Catharus minimus	species	ncbi:159579,gbif:2490826,irmng:10198972		canonical_match
