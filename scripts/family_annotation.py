@@ -33,6 +33,7 @@ tips = set([leaf.taxon.label for leaf in custom_synth.leaf_node_iter()])
 
 mono_fams = {}
 non_mono_fams = []
+all_fams = {}
 
 small_fams = []
 
@@ -106,22 +107,31 @@ for family in families:
     if not label:
         label = mrca.taxon.label
     if label:
+        all_fams[label] = family
         if len(intruders) >= 1:
             non_mono_fams.append(family)
         else:
-            if len(fam_tips_in_this_tree) >= 50:
+            if len(fam_tips_in_this_tree) >= 10:
                 mono_fams[label]=family
     else:
         small_fams.append(family)
 
 
-annotations.write_itol_clades(mono_fams, filename="{}/mono_fams_50.txt".format(custom_synth_dir))
+annotations.write_itol_clades(mono_fams, filename="{}/mono_fams_10.txt".format(custom_synth_dir))
+
+
+annotations.write_itol_clades(all_fams, filename="{}/all_fams.txt".format(custom_synth_dir))
+
+non_mon = open("{}/non_mono_fams.txt".format(custom_synth_dir), 'w')
+
 
 non_mono_fams.sort()
+
 
 i = 0
 for family in non_mono_fams:
     i += 1
+    non_mon.write(family + '\n')
     fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
     for tip in fam_tips_in_this_tree:
         print("{t} {i} #{f}".format(t=tip, i=i*100, f=family))

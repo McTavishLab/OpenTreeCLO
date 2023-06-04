@@ -68,12 +68,19 @@ leaves_start = [tip.taxon.label for tip in custom_synth.leaf_node_iter()]
 sys.stdout.write("Total number of tips in synth tree is {}\n".format(len(leaves_start)))
 
 
-## Custom synth includes subspecies, we collapse those to species.
 collapse_to_taxa_of_interest(custom_synth, taxa_in_clements)
 
 leaves_A = [tip.taxon.label for tip in custom_synth.leaf_node_iter()]
 assert 'ott3598459' in leaves_A
 sys.stdout.write("Total number of tips in synth tree after collapsing subspecies is {}\n".format(len(leaves_A)))
+
+lost_in_subspp_collapse = []
+for tip in taxa_in_clements:
+    if tip in leaves_start and tip not in leaves_A:
+        lost_in_subspp_collapse.append(tip)
+
+
+
 
 
 ## Prune the tree to only taxa that have Clements names
@@ -227,8 +234,8 @@ for node in node_annotations:
 annotations.write_itol_relabel(clements_name_map, filename="{}/ottlabel.txt".format(custom_synth_dir))
 
 
-annotations.write_itol_conflict(node_annotations, title="Conflict15", filename="{}/conflict_15.txt".format(custom_synth_dir), max_conflict=15)
-annotations.write_itol_support(node_annotations, title="Support25", filename="{}/support_25.txt".format(custom_synth_dir), param="support", max_support = 25)
+annotations.write_itol_conflict(node_annotations, title="Conflict15", filename="{}/conflict_12.txt".format(custom_synth_dir), max_conflict=12)
+annotations.write_itol_support(node_annotations, title="Support25", filename="{}/support_20.txt".format(custom_synth_dir), param="support", max_support = 20)
 
 
 annotations.write_itol_conflict(node_annotations, title="Conflict3", filename="{}/conflict_3.txt".format(custom_synth_dir), max_conflict=3)
