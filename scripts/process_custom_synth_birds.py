@@ -55,6 +55,7 @@ sys.stdout.write("Reading and pruning synth tree\n")
 
 ## Generates a dictionary to get Clements names from OTT_ids
 clements_name_map = crosswalk_to_dict(taxonomy_crosswalk)
+ott_name_map = crosswalk_to_dict(taxonomy_crosswalk, alt_name='name')
 taxa_in_clements = [key for key in clements_name_map] 
 
 
@@ -81,8 +82,6 @@ for tip in taxa_in_clements:
 
 
 
-
-
 ## Prune the tree to only taxa that have Clements names
 custom_synth.retain_taxa_with_labels(taxa_in_clements)
 leaves_B = [tip.taxon.label for tip in custom_synth.leaf_node_iter()]
@@ -96,27 +95,44 @@ custom_synth.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema
 
 annot = json.load(open("{}/annotated_supertree/annotations.json".format(custom_synth_dir)))
 
+
+mapped_to_subspp = {}
+##Some are type sub spp, where ther is phylo info for the spp.
+for tip in ott_name_map:
+    if len(ott_name_map[tip].split())==3:
+        if tip == "ott6520478":
+            mapped_to_subspp[tip] = 'ott515130'
+        else:
+           parent = OT.taxon_info(tip, include_lineage=True).response_dict['lineage'][0]['ott_id']
+           mapped_to_subspp[tip] = "ott" + str(parent)
+        
+
 ## Assess support for each tip. 
 ## ot_2019 is the ebird taxonomy which we use to enforce monophyly.
 no_phylo_info = []
 for tip in leaves_B:
+    otip = tip
+    if tip in mapped_to_subspp:
+        tip = mapped_to_subspp[tip]
     if tip in annot['nodes'].keys():
         if 'terminal' in annot['nodes'][tip].keys():
             if set([source.split('@')[0] for source in annot['nodes'][tip]['terminal'].keys()]) == set(['ot_2019']):
-                no_phylo_info.append(tip)
+                no_phylo_info.append(otip)
         elif 'supported_by' in annot['nodes'][tip].keys():
             if set([source.split('@')[0] for source in annot['nodes'][tip]['supported_by'].keys()]) == set(['ot_2019']):
-                no_phylo_info.append(tip)
+                no_phylo_info.append(otip)
         else:
             #print(tip)
             #print(annot['nodes'][tip])
             pass
     else:
-        no_phylo_info.append(tip)
+        no_phylo_info.append(otip)
+
+
 
 no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
 for tip in no_phylo_info:
-    no_phylo_fi.write(clements_name_map[tip]+'\n')
+    no_phylo_fi.write(clements_name_map[tip]+','+'\n')
 
 no_phylo_fi.close()
 
@@ -289,6 +305,12 @@ print("""This comprises {per:.2} of the {cls} species
 
 print("""{cc} nodes in the tree disagree with current CLO taxonomy""".format(cc=clem_conf))
                                                                     
+
+
+
+##Jetz stats
+
+
 
 
 #---------------------------- Dating ---------------------------
