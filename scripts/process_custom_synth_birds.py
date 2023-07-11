@@ -179,6 +179,8 @@ for leaf in custom_synth.leaf_node_iter():
     if ott_id in no_phylo_info:
         node_support_annotation[ott_id] = {'studies': [], 'strict_support': 0, 'support': 0, 'conflict': 0}
     else:
+        if ott_id in mapped_to_subspp:
+            ott_id = mapped_to_subspp[ott_id]
         sources = [source for source in  annot['nodes'][ott_id].get('terminal',[])] + [source for source in  annot['nodes'][ott_id].get('supported_by',[])]
         node_support_annotation[ott_id]['studies']= [source.split('@')[0] for source in  sources]
         non_tax_studies = [source for source in sources if 'ot_2019' not in source]
