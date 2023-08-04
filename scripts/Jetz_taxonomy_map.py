@@ -68,7 +68,6 @@ for tip in jetz_leaves:
     if tip.startswith("ott*"):
         print(tip.strip('ott'))
         jetz_not_in_ebird.append(tip)
-    if
     elif tip not in clements_name_map:
         ott_name = OT.taxon_info(tip).response_dict['name']
         print(ott_name, tip)

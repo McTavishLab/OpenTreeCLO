@@ -112,8 +112,6 @@ for tip in ott_name_map:
 no_phylo_info = []
 for tip in leaves_B:
     otip = tip
-    if tip in mapped_to_subspp:
-        tip = mapped_to_subspp[tip]
     if tip in annot['nodes'].keys():
         if 'terminal' in annot['nodes'][tip].keys():
             if set([source.split('@')[0] for source in annot['nodes'][tip]['terminal'].keys()]) == set(['ot_2019']):
@@ -128,7 +126,17 @@ for tip in leaves_B:
     else:
         no_phylo_info.append(otip)
 
-
+for tip in no_phylo_info:
+    if tip in mapped_to_subspp:
+        spp_tip = mapped_to_subspp[tip]
+        if spp_tip in annot['nodes'].keys():
+        if 'terminal' in annot['nodes'][tip].keys():
+            if not set([source.split('@')[0] for source in annot['nodes'][tip]['terminal'].keys()]) == set(['ot_2019']):
+                no_phylo_info.remove(tip)
+                print("{} parent spp in trees")
+        elif 'supported_by' in annot['nodes'][tip].keys():
+            if not set([source.split('@')[0] for source in annot['nodes'][tip]['supported_by'].keys()]) == set(['ot_2019']):
+                no_phylo_info.remove(tip)
 
 no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
 for tip in no_phylo_info:
@@ -274,6 +282,8 @@ for tip in custom_synth.leaf_node_iter():
     studies_per_tip.write(clements_name_map[tip.taxon.label] + ":")
     studies_per_tip.write(", ".join(annot['nodes'].get(tip.taxon.label, {}).get('supported_by', ' ')))
     studies_per_tip.write(", ".join(annot['nodes'].get(tip.taxon.label, {}).get('terminal', ' ')))
+    if tip.taxon.label in mapped_to_subspp:
+        spp_tip = mapped_to_subspp[tip]
     studies_per_tip.write('\n')
 
 studies_per_tip.close()
