@@ -3077,7 +3077,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 8648	species	cheowl1	Chestnut Owlet	Glaucidium castaneum	Strigiformes	Strigidae (Owls)			5560040	Glaucidium castaneum	species	irmng:10420040	hidden	canonical_match
 8651	species	albowl1	Albertine Owlet	Glaucidium albertinum	Strigiformes	Strigidae (Owls)			727810	Glaucidium albertinum	species	ncbi:1002783,irmng:10938567		canonical_match
 8653	species	colowl1	Collared Owlet	Taenioptynx brodiei	Strigiformes	Strigidae (Owls)			3595686	Glaucidium brodiei	species	ncbi:1463977,gbif:5232113,irmng:11116833		-
-8656	species	colowl3	Sunda Owlet	Taenioptynx sylvaticus	Strigiformes	Strigidae (Owls)			6520364	Taenioptynx sylvaticus	-	additions-6520364-6520364	-	new_taxon_amendment
+8656	species	colowl3	Sunda Owlet	Taenioptynx sylvaticus	Strigiformes	Strigidae (Owls)			6520499	Taenioptynx sylvaticus	species	additions-6520492-6520499.json	-	new_taxon_amendment
 8659	species	elfowl	Elf Owl	Micrathene whitneyi	Strigiformes	Strigidae (Owls)			254541	Micrathene whitneyi	species	ncbi:57441,gbif:2497430,irmng:10197143		canonical_match
 8664	species	lowowl1	Long-whiskered Owlet	Xenoglaux loweryi	Strigiformes	Strigidae (Owls)			3595776	Xenoglaux loweryi	species	ncbi:2653992,gbif:2497649,irmng:10217499		canonical_match
 8665	species	spoowl1	Spotted Owlet	Athene brama	Strigiformes	Strigidae (Owls)			98069	Athene brama	species	ncbi:126786,gbif:2497280,irmng:11426126	sibling_higher	canonical_match
@@ -5345,7 +5345,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 15661	species	heptyr1	Helmeted Pygmy-Tyrant	Lophotriccus galeatus	Passeriformes	Tyrannidae (Tyrant Flycatchers)			105303	Lophotriccus galeatus	species	ncbi:649794,gbif:2483401,irmng:10211312		canonical_match
 15663	species	peptyr1	Pale-eyed Pygmy-Tyrant	Atalotriccus pilaris	Passeriformes	Tyrannidae (Tyrant Flycatchers)			703028	Atalotriccus pilaris	species	ncbi:360210,gbif:2483807,irmng:10537711,irmng:10593592		canonical_match
 15668	species	norben1	Northern Bentbill	Oncostoma cinereigulare	Passeriformes	Tyrannidae (Tyrant Flycatchers)			179646	Oncostoma cinereigulare	species	ncbi:360222,gbif:5229773,irmng:11267302		canonical_match
-15669	species	souben1	Southern Bentbill	Oncostoma olivaceum	Passeriformes	Tyrannidae (Tyrant Flycatchers)			-	-	-	-	Poecilotriccus calopterus	
+15669	species	souben1	Southern Bentbill	Oncostoma olivaceum	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6520490	Oncostoma olivaceum	species	additions-6520490-6520490		new_taxon_amendment
 15670	species	snttyr1	Snethlage's Tody-Tyrant	Hemitriccus minor	Passeriformes	Tyrannidae (Tyrant Flycatchers)			128717	Hemitriccus minor	species	ncbi:360203,gbif:2483015,irmng:10935592		canonical_match
 15675	species	yuttyr1	Yungas Tody-Tyrant	Hemitriccus spodiops	Passeriformes	Tyrannidae (Tyrant Flycatchers)			3599218	Hemitriccus spodiops	species	gbif:2483022,irmng:10217550		canonical_match
 15676	species	acrtot1	Acre Tody-Tyrant	Hemitriccus cohnhafti	Passeriformes	Tyrannidae (Tyrant Flycatchers)			6154543	Hemitriccus cohnhafti	species	gbif:8332308		canonical_match
@@ -6241,7 +6241,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 18595	species	litshr6	Waigeo Shrikethrush	Colluricincla affinis	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520378	Colluricincla affinis	-	additions-6520377-6520382	-	new_taxon_amendment
 18596	species	litshr1	Mamberamo Shrikethrush	Colluricincla obscura	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520379	Colluricincla obscura	-	additions-6520377-6520382	-	new_taxon_amendment
 18600	species	litshr3	Sepik-Ramu Shrikethrush	Colluricincla tappenbecki	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520380	Colluricincla tappenbecki	-	additions-6520377-6520382	-	new_taxon_amendment
-18604	species	rufsht1	Little Shrikethrush	Colluricincla megarhyncha	Passeriformes	Pachycephalidae (Whistlers and Allies)								deleted_ejm
+18604	species	rufsht1	Little Shrikethrush	Colluricincla megarhyncha	Passeriformes	Pachycephalidae (Whistlers and Allies)			749724	Colluricincla megarhyncha	species	ncbi:156160, gbif:2482354, irmng:11337445		canonical_match
 18613	species	litshr4	Tagula Shrikethrush	Colluricincla discolor	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520381	Colluricincla discolor	-	additions-6520377-6520382	-	new_taxon_amendment
 18614	species	litshr2	Rufous Shrikethrush	Colluricincla rufogaster	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520382	Colluricincla rufogaster	-	additions-6520377-6520382	-	new_taxon_amendment
 18624	species	blapit1	Black Pitohui	Melanorectes nigrescens	Passeriformes	Pachycephalidae (Whistlers and Allies)			663338	Melanorectes nigrescens	species	ncbi:461230,gbif:7668489,irmng:11009528		canonical_match
@@ -6285,7 +6285,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 18765	species	grbwhi1	Green-backed Whistler	Pachycephala albiventris	Passeriformes	Pachycephalidae (Whistlers and Allies)			717315	Pachycephala albiventris	species	ncbi:449360,gbif:5959187,irmng:10803295		canonical_match
 18766	species	whvwhi1	White-vented Whistler	Pachycephala homeyeri	Passeriformes	Pachycephalidae (Whistlers and Allies)			4947730	Pachycephala homeyeri	species	ncbi:449361,gbif:5959170,irmng:10458978		canonical_match
 18770	species	islwhi2	Island Whistler	Pachycephala phaionota	Passeriformes	Pachycephalidae (Whistlers and Allies)			717316	Pachycephala phaionota	species	ncbi:449362,gbif:6093608,irmng:10211011		canonical_match
-18771	species	biawhi1	Biak Whistler	Pachycephala melanorhyncha	Passeriformes	Pachycephalidae (Whistlers and Allies)								
+18771	species	biawhi1	Biak Whistler	Pachycephala melanorhyncha	Passeriformes	Pachycephalidae (Whistlers and Allies)			6520489	Pachycephala melanorhyncha	species	additions-6520489-6520489		new_taxon_amendment
 18772	species	ruswhi1	Rusty Whistler	Pachycephala hyperythra	Passeriformes	Pachycephalidae (Whistlers and Allies)			717317	Pachycephala hyperythra	species	ncbi:449363,gbif:5959193,irmng:10891376		canonical_match
 18777	species	grywhi2	Gray Whistler	Pachycephala simplex	Passeriformes	Pachycephalidae (Whistlers and Allies)			534614	Pachycephala simplex	species	ncbi:449370,gbif:5959192,irmng:10211014		canonical_match
 18788	species	walwhi1	Wallacean Whistler	Pachycephala arctitorquis	Passeriformes	Pachycephalidae (Whistlers and Allies)			665637	Pachycephala arctitorquis	species	ncbi:449380,gbif:5959176,irmng:11095555		canonical_match
@@ -8142,10 +8142,10 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 25419	species	abbbab1	Abbott's Babbler	Malacocincla abbotti	Passeriformes	Pellorneidae (Ground Babblers and Allies)			1078789	Malacocincla abbotti	species	ncbi:201341,gbif:2493399,irmng:10717745		-
 25428	species	horbab2	Horsfield's Babbler	Malacocincla sepiaria	Passeriformes	Pellorneidae (Ground Babblers and Allies)			405545	Malacocincla sepiaria	species	ncbi:1070449,gbif:9045294,gbif:7341134		-
 25436	species	blbbab1	Black-browed Babbler	Malacocincla perspicillata	Passeriformes	Pellorneidae (Ground Babblers and Allies)			3598505	Malacocincla perspicillata	species	gbif:2493402,irmng:10216622		-
-25437	species	mowbab1	Mountain Wren-Babbler	Gypsophila crassa	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	Gypsophila crassa	-	additions-6520423-6520428	-	new_taxon_amendment
+25437	species	mowbab1	Mountain Wren-Babbler	Gypsophila crassa	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520423	Gypsophila crassa	species	additions-6520492-6520499	-	new_taxon_amendment
 25438	species	stwbab1	Streaked Wren-Babbler	Gypsophila brevicaudata	Passeriformes	Pellorneidae (Ground Babblers and Allies)			502093	Turdinus brevicaudatus	species	ncbi:1743391,gbif:5231401,irmng:10214540		-
-25447	species	limwrb4	Annam Limestone Babbler	Gypsophila annamensis	Passeriformes	Pellorneidae (Ground Babblers and Allies)			-	-	-	-	-	-
-25448	species	limwrb2	Rufous Limestone Babbler	Gypsophila calcicola	Passeriformes	Pellorneidae (Ground Babblers and Allies)			-	-	-	-	-	-
+25447	species	limwrb4	Annam Limestone Babbler	Gypsophila annamensis	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520497	Gypsophila annamensis	species	additions-6520492-6520499	-	new_taxon_amendment
+25448	species	limwrb2	Rufous Limestone Babbler	Gypsophila calcicola	Passeriformes	Pellorneidae (Ground Babblers and Allies)			6520496	Gypsophila calcicola	species	additions-6520492-6520499	-	new_taxon_amendment
 25449	species	limwrb3	Variable Limestone Babbler	Gypsophila crispifrons	Passeriformes	Pellorneidae (Ground Babblers and Allies)			1073087	Napothera crispifrons	species	ncbi:1149651,gbif:5231404,irmng:10214542		-
 25451	species	rbwbab1	Rusty-breasted Wren-Babbler	Gypsophila rufipectus	Passeriformes	Pellorneidae (Ground Babblers and Allies)			4947674	Napothera rufipectus	species	gbif:5231402, irmng:10215257	-	hand_match_eliot
 25452	species	stwbab2	Striated Wren-Babbler	Ptilocichla mindanensis	Passeriformes	Pellorneidae (Ground Babblers and Allies)			446186	Ptilocichla mindanensis	species	ncbi:1149664,gbif:2492898,irmng:10914827		canonical_match
@@ -9004,7 +9004,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 28510	species	narfly	Narcissus Flycatcher	Ficedula narcissina	Passeriformes	Muscicapidae (Old World Flycatchers)			6520449	Ficedula narcissina narcissina	species	ncbi:36293,gbif:5231288,irmng:10722525	sibling_higher	sub_spp_fix_ejm
 28511	species	narfly3	Ryuku Flycatcher	Ficedula owstoni	Passeriformes	Muscicapidae (Old World Flycatchers)			5859958	Ficedula narcissina owstoni	subspecies	ncbi:1507552	infraspecific	-
 28514	species	mugfly	Mugimaki Flycatcher	Ficedula mugimaki	Passeriformes	Muscicapidae (Old World Flycatchers)			67150	Ficedula mugimaki	species	ncbi:369969,gbif:5231268,irmng:10208857	sibling_higher	canonical_match
-28515	species	slbfly1	Slaty-backed Flycatcher	Ficedula erithacus	Passeriformes	Muscicapidae (Old World Flycatchers)			-	-	-	-		
+28515	species	slbfly1	Slaty-backed Flycatcher	Ficedula erithacus	Passeriformes	Muscicapidae (Old World Flycatchers)			6520492	Ficedula erithacus	species	additions-6520492-6520499		new_taxon_amendment
 28516	species	barfly1	Black-and-orange Flycatcher	Ficedula nigrorufa	Passeriformes	Muscicapidae (Old World Flycatchers)			909204	Ficedula nigrorufa	species	ncbi:393723,gbif:5231280,irmng:10891365	sibling_higher	canonical_match
 28517	species	slbfly2	Slaty-blue Flycatcher	Ficedula tricolor	Passeriformes	Muscicapidae (Old World Flycatchers)			1058850	Ficedula tricolor	species	ncbi:393721,gbif:5231270,irmng:10717744	sibling_higher	canonical_match
 28522	species	snbfly1	Snowy-browed Flycatcher	Ficedula hyperythra	Passeriformes	Muscicapidae (Old World Flycatchers)			859509	Ficedula hyperythra	species	ncbi:393709,irmng:10211578	sibling_higher	canonical_match
@@ -9487,7 +9487,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 30034	species	indsil	Indian Silverbill	Euodice malabarica	Passeriformes	Estrildidae (Waxbills and Allies)			596766	Lonchura malabarica	species	ncbi:247812,gbif:5789082,irmng:10719548	sibling_higher	synonym_match
 30035	species	javspa	Java Sparrow	Padda oryzivora	Passeriformes	Estrildidae (Waxbills and Allies)			453058	Padda oryzivora	species	ncbi:267976,gbif:4845776,irmng:10297352,irmng:10195556		-
 30036	species	timspa4	Timor Sparrow	Padda fuscata	Passeriformes	Estrildidae (Waxbills and Allies)			3597499	Lonchura fuscata	species	gbif:6095082,irmng:10215775	sibling_higher	-
-30037	species	sthmun2	Streak-headed Munia	Mayrimunia tristissima	Passeriformes	Estrildidae (Waxbills and Allies)			6520425	Mayrimunia tristissima	-	additions-6520423-6520428	-	new_taxon_amendment
+30037	species	sthmun2	Streak-headed Munia	Mayrimunia tristissima	Passeriformes	Estrildidae (Waxbills and Allies)			6520494	Mayrimunia tristissima	species	additions-6520492-6520499	-	new_taxon_amendment
 30042	species	sthmun3	White-spotted Munia	Mayrimunia leucosticta	Passeriformes	Estrildidae (Waxbills and Allies)			3597697	Lonchura leucosticta	species	ncbi:2029068, gbif:2493609, irmng:11267426	-	hand_match_eliot
 30045	species	nutman	Scaly-breasted Munia	Lonchura punctulata	Passeriformes	Estrildidae (Waxbills and Allies)			865474	Lonchura punctulata	species	ncbi:414892,gbif:2493598,irmng:10978675	sibling_higher	canonical_match
 30059	species	bltmun1	Black-throated Munia	Lonchura kelaarti	Passeriformes	Estrildidae (Waxbills and Allies)			389883	Lonchura kelaarti	species	ncbi:522428,gbif:2493608,irmng:10211826	sibling_higher	canonical_match
@@ -9550,7 +9550,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 30234	species	gyholi1	Gray-headed Oliveback	Delacourella capistrata	Passeriformes	Estrildidae (Waxbills and Allies)			966123	Nesocharis capistrata	species	ncbi:522434,gbif:5231427,irmng:10762201		-
 30235	species	blcwax1	Black-faced Waxbill	Brunhilda erythronotos	Passeriformes	Estrildidae (Waxbills and Allies)			102055	Estrilda erythronotos	species	ncbi:247544,gbif:2493651,irmng:10215520	sibling_higher	-
 30238	species	rerwax1	Black-cheeked Waxbill	Brunhilda charmosyna	Passeriformes	Estrildidae (Waxbills and Allies)			3597714	Estrilda charmosyna	species	gbif:2493663,irmng:10880724	sibling_higher	-
-30241	species	lavwax	Lavender Waxbill	Glaucestrilda caerulescens	Passeriformes	Estrildidae (Waxbills and Allies)			6520426	Glaucestrilda caerulescens	-	additions-6520423-6520428	-	new_taxon_amendment
+30241	species	lavwax	Lavender Waxbill	Glaucestrilda caerulescens	Passeriformes	Estrildidae (Waxbills and Allies)			6520493	Glaucestrilda caerulescens	species	additions-6520492-6520499	-	new_taxon_amendment
 30242	species	bltwax1	Black-tailed Waxbill	Glaucestrilda perreini	Passeriformes	Estrildidae (Waxbills and Allies)			969510	Estrilda perreini	species	ncbi:247716,gbif:2493666,irmng:10920990	sibling_higher	-
 30245	species	cinwax1	Cinderella Waxbill	Glaucestrilda thomensis	Passeriformes	Estrildidae (Waxbills and Allies)			3597711	Estrilda thomensis	species	gbif:2493668,irmng:10592746	sibling_higher	-
 30246	species	blcwax2	Black-crowned Waxbill	Estrilda nonnula	Passeriformes	Estrildidae (Waxbills and Allies)			969501	Estrilda nonnula	species	ncbi:247713,gbif:2493665,irmng:11105776	sibling_higher	canonical_match
@@ -10682,7 +10682,7 @@ TAXON_ORDER	CATEGORY	SPECIES_CODE	PRIMARY_COM_NAME	SCI_NAME	ORDER1	FAMILY	SPECIE
 34263	species	liifin1	Little Inca-Finch	Incaspiza watkinsi	Passeriformes	Thraupidae (Tanagers and Allies)			3599503	Incaspiza watkinsi	species	gbif:2491996,irmng:11110193		canonical_match
 34265	species	mosfin1	Mourning Sierra-Finch	Rhopospina fruticeti	Passeriformes	Thraupidae (Tanagers and Allies)			497207	Phrygilus fruticeti	species	ncbi:555326,gbif:5231068,irmng:11368424		hand_match_eliot
 34270	species	blufin1	Blue Finch	Rhopospina caerulescens	Passeriformes	Thraupidae (Tanagers and Allies)			545032	Porphyrospiza caerulescens	species	ncbi:460185,gbif:2491830,irmng:10217676		-
-34271	species	btsfin1	Band-tailed Sierra Finch	Rhopospina alaudina	Passeriformes	Thraupidae (Tanagers and Allies)			6520428	Rhopospina alaudina	-	additions-6520423-6520428	-	new_taxon_amendment
+34271	species	btsfin1	Band-tailed Sierra Finch	Rhopospina alaudina	Passeriformes	Thraupidae (Tanagers and Allies)			6520491	Rhopospina alaudina	species	additions-6520491-6520491	-	new_taxon_amendment
 34278	species	casfin1	Carbonated Sierra Finch	Rhopospina carbonaria	Passeriformes	Thraupidae (Tanagers and Allies)			497209	Phrygilus carbonarius	species	ncbi:555325,gbif:5231072,irmng:10214220	-	hand_match_eliot
 34280	species	blhhem1	Black-headed Hemispingus	Pseudospingus verticalis	Passeriformes	Thraupidae (Tanagers and Allies)			558078	Hemispingus verticalis	species	ncbi:85540,gbif:2488413,irmng:11167823		hand_match_eliot
 34281	species	drahem1	Drab Hemispingus	Pseudospingus xanthophthalmus	Passeriformes	Thraupidae (Tanagers and Allies)			578351	Hemispingus xanthophthalmus	species	ncbi:166073,gbif:2488395,irmng:10765379		hand_match_eliot
