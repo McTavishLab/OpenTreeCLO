@@ -5,13 +5,31 @@ from helpers import crosswalk_to_dict
 from opentree import OT
 
 taxonomy_crosswalk = "/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv"
-jetz_taxonomy = "/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/Jetz-2012-master_taxonomy.csv"
+
+jetz_map = open('/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/Jetz_to_OpenTree.csv').readlines()
+jetz_ids = []
+for lin in jetz_map:
+     lii = lin.split(',')
+     jetz_ids.append(lii[2])
 
 
 ## Generates a dictionary to get Clements names from OTT_ids
 clements_name_map = crosswalk_to_dict(taxonomy_crosswalk)
 ott_name_map = crosswalk_to_dict(taxonomy_crosswalk, alt_name='name')
 taxa_in_clements = [key for key in clements_name_map] 
+
+jetz_in_clem = []
+for ids in jetz_ids:
+     if "ott" + ids in clements_name_map:
+         jetz_in_clem.append(clements_name_map["ott"+ids])
+
+no_phylo=open('/home/ejmctavish/projects/otapi/OpenTreeCLO/custom_synth_runs/aves_0.1/tips_without_phylo.txt').readlines()
+
+no_phylo_names = set([nam.split(',')[0].strip() for nam in no_phylo])
+phylo_jetz_count = 0
+for name in jetz_in_clem:
+    if name not in no_phylo_names:
+        phylo_jetz_count += 1
 
 
 output = OT.get_tree("ot_809", "tree1", tree_format="newick", label_format="ot:ottId")
