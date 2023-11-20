@@ -2,13 +2,13 @@
 import sys
 import os
 import json
+import csv
 import dendropy
 import copy
 import subprocess
 from chronosynth import chronogram
 import opentree
 from opentree import OT, annotations, taxonomy_helpers
-from helpers import crosswalk_to_dict
 
 """
 Takes custom synth output and prunes to taxa in Clements taxonony, 
@@ -46,6 +46,35 @@ def collapse_to_taxa_of_interest(tree, taxa_of_interest):
                 node.taxon = tree.taxon_namespace.new_taxon(label=node.label)
 
 
+
+def crosswalk_to_dict(taxon_crosswalk_file,
+                      ott_id_key="ott_id",
+                      alt_name='SCI_NAME',
+                      tax_filter='species', 
+                      delimiter=","):
+    name_map = {}
+    no_maps = []
+    double_maps = {}
+    with open(taxon_crosswalk_file, newline='') as csvfile:
+        taxreader = csv.reader(csvfile, delimiter=delimiter)
+        i=0
+        for lii in taxreader:
+            i+=1
+            if i ==1:
+                header = lii
+                ott_id_index = header.index(ott_id_key)
+                alt_name_index = header.index(alt_name)
+            else:
+                ott_id = 'ott'+lii[ott_id_index]
+                if ott_id in name_map:
+                    if ott_id in double_maps:
+                        double_maps[ott_id].append(dict(zip(header, lii)))
+                    else:
+                        double_maps[ott_id ]=[dict(zip(header, lii))]
+                name_map[ott_id] = lii[alt_name_index]
+    return name_map
+
+
 custom_synth_dir = os.path.abspath(sys.argv[1])
 taxonomy_crosswalk = sys.argv[2] 
 
@@ -64,7 +93,7 @@ custom_synth = dendropy.Tree.get_from_path("{}/labelled_supertree/labelled_super
                                             schema = "newick")
 
 
-## Count the leaves in the starting tree
+## Count the leaves in the starting treecus
 leaves_start = [tip.taxon.label for tip in custom_synth.leaf_node_iter()]
 sys.stdout.write("Total number of tips in synth tree is {}\n".format(len(leaves_start)))
 
@@ -126,17 +155,19 @@ for tip in leaves_B:
     else:
         no_phylo_info.append(otip)
 
+phylo_par_subspp = set()
 for tip in no_phylo_info:
     if tip in mapped_to_subspp:
         spp_tip = mapped_to_subspp[tip]
         if spp_tip in annot['nodes'].keys():
-        if 'terminal' in annot['nodes'][tip].keys():
-            if not set([source.split('@')[0] for source in annot['nodes'][tip]['terminal'].keys()]) == set(['ot_2019']):
-                no_phylo_info.remove(tip)
-                print("{} parent spp in trees")
-        elif 'supported_by' in annot['nodes'][tip].keys():
-            if not set([source.split('@')[0] for source in annot['nodes'][tip]['supported_by'].keys()]) == set(['ot_2019']):
-                no_phylo_info.remove(tip)
+            if 'terminal' in annot['nodes'][spp_tip].keys():
+                if not set([source.split('@')[0] for source in annot['nodes'][spp_tip]['terminal'].keys()]) == set(['ot_2019']):
+                    no_phylo_info.remove(tip)
+                    print("{} parent spp in trees".format(tip))
+            elif 'supported_by' in annot['nodes'][spp_tip].keys():
+                if not set([source.split('@')[0] for source in annot['nodes'][spp_tip]['supported_by'].keys()]) == set(['ot_2019']):
+                    no_phylo_info.remove(tip)
+            phylo_par_subspp.add(tip)
 
 no_phylo_fi = open("{}/tips_without_phylo.txt".format(custom_synth_dir), 'w')
 for tip in no_phylo_info:
@@ -182,13 +213,17 @@ for node in custom_synth:
 
 for leaf in custom_synth.leaf_node_iter():
     ott_id =  leaf.taxon.label
+    if ott_id in phylo_par_subspp:
+        spp_ott_id = mapped_to_subspp[ott_id]
+        if spp_ott_id in annot['nodes']:
+            ott_id = spp_ott_id
+        else:
+            print("{s} is a bad species!".format(s=spp_ott_id))
     if not node_support_annotation.get(ott_id):
-        node_support_annotation[ott_id] = {}
+        node_support_annotation[ott_id] = {'studies': []}
     if ott_id in no_phylo_info:
         node_support_annotation[ott_id] = {'studies': [], 'strict_support': 0, 'support': 0, 'conflict': 0}
     else:
-        if ott_id in mapped_to_subspp:
-            ott_id = mapped_to_subspp[ott_id]
         sources = [source for source in  annot['nodes'][ott_id].get('terminal',[])] + [source for source in  annot['nodes'][ott_id].get('supported_by',[])]
         node_support_annotation[ott_id]['studies']= [source.split('@')[0] for source in  sources]
         non_tax_studies = [source for source in sources if 'ot_2019' not in source]
@@ -282,8 +317,6 @@ for tip in custom_synth.leaf_node_iter():
     studies_per_tip.write(clements_name_map[tip.taxon.label] + ":")
     studies_per_tip.write(", ".join(annot['nodes'].get(tip.taxon.label, {}).get('supported_by', ' ')))
     studies_per_tip.write(", ".join(annot['nodes'].get(tip.taxon.label, {}).get('terminal', ' ')))
-    if tip.taxon.label in mapped_to_subspp:
-        spp_tip = mapped_to_subspp[tip]
     studies_per_tip.write('\n')
 
 studies_per_tip.close()
@@ -346,7 +379,7 @@ if os.path.exists(select_dates_file):
 else:
     select_dates = chronogram.combine_ages_from_sources(selected_bird_chrono,#list(bird_chrono)
                                                         json_out = select_dates_file,
-                                                        compare_to = custom_str)
+                                                        compare_to = custom_str)#
 
 
 dates_cite_file = open("{}/dates/select_dates_citations.txt".format(custom_synth_dir), "w")
