@@ -9,6 +9,8 @@ import subprocess
 from chronosynth import chronogram
 import opentree
 from opentree import OT, annotations, taxonomy_helpers
+from helpers import crosswalk_to_dict
+
 
 """
 Takes custom synth output and prunes to taxa in Clements taxonony, 
@@ -47,32 +49,6 @@ def collapse_to_taxa_of_interest(tree, taxa_of_interest):
 
 
 
-def crosswalk_to_dict(taxon_crosswalk_file,
-                      ott_id_key="ott_id",
-                      alt_name='SCI_NAME',
-                      tax_filter='species', 
-                      delimiter=","):
-    name_map = {}
-    no_maps = []
-    double_maps = {}
-    with open(taxon_crosswalk_file, newline='') as csvfile:
-        taxreader = csv.reader(csvfile, delimiter=delimiter)
-        i=0
-        for lii in taxreader:
-            i+=1
-            if i ==1:
-                header = lii
-                ott_id_index = header.index(ott_id_key)
-                alt_name_index = header.index(alt_name)
-            else:
-                ott_id = 'ott'+lii[ott_id_index]
-                if ott_id in name_map:
-                    if ott_id in double_maps:
-                        double_maps[ott_id].append(dict(zip(header, lii)))
-                    else:
-                        double_maps[ott_id ]=[dict(zip(header, lii))]
-                name_map[ott_id] = lii[alt_name_index]
-    return name_map
 
 
 custom_synth_dir = os.path.abspath(sys.argv[1])
@@ -110,11 +86,18 @@ for tip in taxa_in_clements:
         lost_in_subspp_collapse.append(tip)
 
 
+prune_due_to_problems = ['ott5857186']
+
+for leaf in prune_due_to_problems:
+    if leaf in taxa_in_clements:
+        taxa_in_clements.remove(leaf)
+        print("removed {} due to problems.\n".format(leaf))
 
 ## Prune the tree to only taxa that have Clements names
 custom_synth.retain_taxa_with_labels(taxa_in_clements)
 leaves_B = [tip.taxon.label for tip in custom_synth.leaf_node_iter()]
 assert 'ott3598459' in leaves_B
+
 
 sys.stdout.write("Total number of tips in synth tree after pruning to taxa in Clements is {}\n".format(len(leaves_B)))
 custom_synth.write_to_path(dest="{}/pruned.tre".format(custom_synth_dir), schema = "newick")
@@ -176,6 +159,7 @@ for tip in no_phylo_info:
 no_phylo_fi.close()
 
 sys.stdout.write("{} tips have no phylogenetic information informing their placement.\n".format(len(no_phylo_info)))
+
 
 phylo_tips_only = copy.deepcopy(custom_synth)
 

@@ -1,6 +1,7 @@
 import dendropy
 import sys
 import os
+import csv
 import copy
 import json
 import random
@@ -11,12 +12,16 @@ def make_node_url(source, node):
     study, tree = source.split('@')
     return "https://tree.opentreeoflife.org/curator/study/view/{}?tab=home&tree={}&node={}".format(study, tree, node)
 
+
+
+
+
 custom_synth_dir = sys.argv[1] 
 input_tree_file = sys.argv[2] 
 custom_synth = dendropy.Tree.get(path=input_tree_file, schema="newick")
-name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv")
+name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_crosswalk_2021.csv")
 
-fam_name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv", alt_name="FAMILY")
+fam_name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_crosswalk_2021.csv", alt_name="FAMILY")
 ## function to get back walk from ott o clo
 
 for name in fam_name_map:
@@ -65,7 +70,6 @@ for node in custom_synth:
                 uncontested_taxa.append(label)
 
 
-
 for family in families:
     fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
     fam_tree = copy.deepcopy(custom_synth)
@@ -100,6 +104,8 @@ for family in families:
             study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
     study_cite_file.close()
     intruders = set(tips_from_mrca).difference(set(fam_tips_in_this_tree))
+    print("fam {} intruders".format(family))
+    print(",".join(intruders))
     chars = '0123456789ABCDEF'
     color = '#'+''.join(random.sample(chars,6))
     label = None
