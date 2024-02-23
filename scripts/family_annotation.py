@@ -18,10 +18,12 @@ def make_node_url(source, node):
 
 custom_synth_dir = sys.argv[1] 
 input_tree_file = sys.argv[2] 
-custom_synth = dendropy.Tree.get(path=input_tree_file, schema="newick")
-name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_crosswalk_2021.csv")
+taxonomy_crosswalk = sys.argv[3] 
 
-fam_name_map = crosswalk_to_dict("/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_crosswalk_2021.csv", alt_name="FAMILY")
+custom_synth = dendropy.Tree.get(path=input_tree_file, schema="newick")
+name_map = crosswalk_to_dict(taxonomy_crosswalk)
+
+fam_name_map = crosswalk_to_dict(taxonomy_crosswalk, alt_name="FAMILY")
 ## function to get back walk from ott o clo
 
 for name in fam_name_map:
