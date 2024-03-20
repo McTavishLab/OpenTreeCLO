@@ -4,7 +4,7 @@ from helpers import crosswalk_to_dict
 
 from opentree import OT
 
-taxonomy_crosswalk = "/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_eBird_combined_taxonomy_2021.tsv"
+taxonomy_crosswalk = "/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/OTT_crosswalk_2021.csv"
 
 jetz_map = open('/home/ejmctavish/projects/otapi/OpenTreeCLO/taxonomy_info/Jetz_to_OpenTree.csv').readlines()
 jetz_ids = []
@@ -23,7 +23,7 @@ for ids in jetz_ids:
      if "ott" + ids in clements_name_map:
          jetz_in_clem.append(clements_name_map["ott"+ids])
 
-no_phylo=open('/home/ejmctavish/projects/otapi/OpenTreeCLO/custom_synth_runs/aves_0.1/tips_without_phylo.txt').readlines()
+no_phylo=open('/home/ejmctavish/projects/otapi/OpenTreeCLO/custom_synth_runs/aves_1.0_2021/tips_without_phylo.txt').readlines()
 
 no_phylo_names = set([nam.split(',')[0].strip() for nam in no_phylo])
 phylo_jetz_count = 0
@@ -82,7 +82,7 @@ for tip in ott_name_map:
         
 
 jetz_not_in_ebird = []
-for tip in jetz_leaves:
+for tip in jetz_leaves_full:
     if tip.startswith("ott*"):
         print(tip.strip('ott'))
         jetz_not_in_ebird.append(tip)

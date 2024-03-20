@@ -24,16 +24,24 @@ custom_synth = dendropy.Tree.get(path=input_tree_file, schema="newick")
 name_map = crosswalk_to_dict(taxonomy_crosswalk)
 
 fam_name_map = crosswalk_to_dict(taxonomy_crosswalk, alt_name="FAMILY")
+order_name_map = crosswalk_to_dict(taxonomy_crosswalk, alt_name="ORDER1")
+
 ## function to get back walk from ott o clo
 
 for name in fam_name_map:
     fam_name_map[name] = fam_name_map[name].split()[0]
 
 families = set(fam_name_map.values())
+orders = set(order_name_map.values())
 
 families_according_to_CLO = {fam:[] for fam in families}
+orders_according_to_CLO = {order:[] for order in orders}
+
+## list ott tips in each family per CLO taxonomy
 for ott in fam_name_map:
     families_according_to_CLO[fam_name_map[ott]].append(ott)
+    orders_according_to_CLO[order_name_map[ott]].append(ott)
+
 
 tips = set([leaf.taxon.label for leaf in custom_synth.leaf_node_iter()])
 
@@ -59,17 +67,19 @@ for node in custom_synth:
     label = None
     if not node.is_leaf():
         label = node.label
+        if not label:
+            label = node.taxon.label
         all_nodes.append(label)
-        assert label
         if label == 'ott81461':
             pass
         else:
             if label in annot['nodes'] and 'supported_by' in annot['nodes'][label].keys():
-                    strict_support = annot['nodes'][label]['supported_by']
-                    node_support_annotation[label] = strict_support
+                strict_support = annot['nodes'][label]['supported_by']
+                node_support_annotation[label] = strict_support
             else:
-                assert label.startswith('ott')
+                assert label.startswith('ott') or label == "NA"
                 uncontested_taxa.append(label)
+
 
 
 for family in families:
@@ -97,14 +107,14 @@ for family in families:
                     tree_node_count[source] = 1
                 else:
                         tree_node_count[source] += 1
-    study_cite_file = open("{}/family_trees/{}_citation_node_counts.tsv".format(custom_synth_dir, family), "w")
-    for study_id in study_node_count:
-        if study_id == 'ot_2019':
-            pass
-        else:
-            cites = OT.get_citations([study_id]).replace('\n','\t')
-            study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
-    study_cite_file.close()
+#    study_cite_file = open("{}/family_trees/{}_citation_node_counts.tsv".format(custom_synth_dir, family), "w")
+#    for study_id in study_node_count:
+#        if study_id == 'ot_2019':
+#            pass
+#        else:
+#            cites = OT.get_citations([study_id]).replace('\n','\t')
+#            study_cite_file.write("{}\t{}\t{}\n".format(study_id, study_node_count[study_id], cites))
+#    study_cite_file.close()
     intruders = set(tips_from_mrca).difference(set(fam_tips_in_this_tree))
     print("fam {} intruders".format(family))
     print(",".join(intruders))
@@ -160,3 +170,17 @@ for family in small_fams:
     fam_tips_in_this_tree = tips.intersection(set(families_according_to_CLO[family]))
     for tip in fam_tips_in_this_tree:
         print("{t} {i} #{f}".format(t=tip, i=i, f=family))
+
+
+
+all_orders = {}
+
+for order in orders:
+    order_tips_in_this_tree = tips.intersection(set(orders_according_to_CLO[order]))
+    mrca = custom_synth.mrca(taxon_labels=order_tips_in_this_tree)
+    label = mrca.label
+    if not label:
+        label = mrca.taxon.label
+    all_orders[label] = order
+
+annotations.write_itol_clades(all_orders, filename="{}/all_orders.txt".format(custom_synth_dir))
