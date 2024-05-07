@@ -259,7 +259,8 @@ tax_conf_nodes = []
 
 node_annotations = annotations.generate_custom_synth_node_annotation(custom_synth, custom_synth_dir, exclude_sources = "ot_2019@tree7")
 jetz_annotations = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_809@tree2")
-clem_annotations = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_2019@tree7")
+#clem_annotations_2021 = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_2019@tree7")
+#clem_annotations_2023 = annotations.generate_custom_synth_source_traversal(custom_synth, custom_synth_dir, "ot_2019@tree33")
 
 
 
@@ -268,11 +269,11 @@ for node in node_annotations:
         jetz_supp += 1
     if jetz_annotations[node].get('conflict') >= 1:
         jetz_conf += 1
-    if clem_annotations[node].get('support') >= 1:
-        clem_supp += 1
-    if clem_annotations[node].get('conflict') >= 1:
-        clem_conf += 1
-        tax_conf_nodes.append(node)
+#    if clem_annotations[node].get('support') >= 1:
+#        clem_supp += 1
+ #   if clem_annotations[node].get('conflict') >= 1:
+ #       clem_conf += 1
+ #       tax_conf_nodes.append(node)
 
 
 # Label the ott_id tips to clements labels
@@ -291,8 +292,8 @@ annotations.write_itol_support(node_annotations, title="Support10", filename="{}
 annotations.write_itol_conflict(jetz_annotations, title="ConflictJetz", filename="{}/jetz_conflict.txt".format(custom_synth_dir), max_conflict=1)
 annotations.write_itol_support(jetz_annotations,  title="SupportJetz", filename="{}/jetz_support.txt".format(custom_synth_dir), param="support", max_support = 1)
 
-annotations.write_itol_conflict(clem_annotations,  title="ConflictClements", filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
-annotations.write_itol_support(clem_annotations, title="SupportClements", filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
+#annotations.write_itol_conflict(clem_annotations,  title="ConflictClements", filename="{}/clem_conflict.txt".format(custom_synth_dir), max_conflict=1)
+#annotations.write_itol_support(clem_annotations, title="SupportClements", filename="{}/clem_support.txt".format(custom_synth_dir), param="support", max_support = 1)
 
 
 
