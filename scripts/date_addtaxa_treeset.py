@@ -111,7 +111,7 @@ for tree in custom_synth:
     dated_phylo = dendropy.Tree.get_from_path(treesfile, schema = "newick")
     dated_phylo.write(path="{}/dated_mean_all_dates_ott_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
     for tax in dated_phylo.taxon_namespace:
-        tax.label = clements_name_map[tax.label]
+        tax.label = clements_name_map.get(tax.label, tax.label)
     dated_phylo.write(path="{}/dated_mean_all_dates_clements_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
 
 
@@ -134,26 +134,26 @@ dates_cite_file.close()
 
 # #--------------------------------------------------------------------------------------------------
 
-# print("""date information for {ld} nodes in the tree
-#          was summarized from {lds} published studies""".format(ld=node_date_count,
-#                                                                 lds=len(matched_date_studies)))
+print("""date information for {ld} nodes in the tree
+          was summarized from {lds} published studies""".format(ld=node_date_count,
+                                                                 lds=len(matched_date_studies)))
 
-# for tree in custom_synth:
-#     tree_iter+=1
-#     ##relabel
+for tree in custom_synth:
+    tree_iter+=1
+    ##relabel
     
-#     leaves = [tip.taxon.label for tip in tree.leaf_node_iter()]
-#     root_node = "ott81461"
-#     max_age_est = 130
-#     print("dating full tree, all dates, mean")
-#     for i in range(10):
-#         treesfile, sources = chronogram.date_tree(tree,
-#                                           all_dates,
-#                                           root_node,
-#                                           max_age_est,
-#                                           method='bladj',
-#                                           output_dir="{}/dates_all_rand_sample{}_{}_{}".format(dates_dir, filename, tree_iter, i),
-#                                           select = "random",
-#                                           reps = 5
-#                                           )
+    leaves = [tip.taxon.label for tip in tree.leaf_node_iter()]
+    root_node = "ott81461"
+    max_age_est = 130
+    print("dating full tree, all dates, rand")
+    for i in range(10):
+        treesfile, sources = chronogram.date_tree(tree,
+                                          all_dates,
+                                          root_node,
+                                          max_age_est,
+                                          method='bladj',
+                                          output_dir="{}/dates_all_rand_sample{}_{}_{}".format(dates_dir, filename, tree_iter, i),
+                                          select = "random",
+                                          reps = 5
+                                          )
 
