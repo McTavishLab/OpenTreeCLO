@@ -28,7 +28,7 @@ custom_synth = dendropy.TreeList.get(path=input_trees_file, schema = 'newick')
 ## Estimate dates
 
 
-#now dates
+#label as ott_ids where possible
 for tax in custom_synth.taxon_namespace:
     tax.label = ott_id_map.get(tax.label, tax.label)
 
@@ -71,48 +71,48 @@ else:
 
 tree_iter = 0
 
-# for tree in custom_synth:
-#     internal_label_map_new ={}
-#     tree_iter+=1
-#     ##relabel
-#     leaves = [tip.taxon.label for tip in tree.leaf_node_iter()]
-#     root_node = "ott81461"
-#     tree.seed_node.label = root_node
-# #     node_iter = 0
-# #     for node in tree:
-# #         if node.is_leaf() == False:
-# #             node_iter += 1
-# #             if node.taxon:
-# #                 node_label = node.taxon.label
-# #             else:
-# #                 node_label = node.label
-# #             if node_label == "NA" or None:
-# #                 phylo_tips = base_tree_leaves.intersection(set(tip.taxon.label for tip in node.leaf_iter()))
-# #                 if len(phylo_tips) < 2:
-# #                     node.label = "node{}".format(node_iter)
-# #                 else:
-# #                     mrca = base_tree.mrca(taxon_labels=phylo_tips)
-# #                     node.label = mrca.label
-# #             assert base_tree_leaves.intersection(set(tip.taxon.label for tip in node.leaf_iter())) == internal_label_map.get(node.label, set())
+for tree in custom_synth:
+    internal_label_map_new ={}
+    tree_iter+=1
+    ##relabel
+    leaves = [tip.taxon.label for tip in tree.leaf_node_iter()]
+    root_node = "ott81461"
+    tree.seed_node.label = root_node
+#     node_iter = 0
+#     for node in tree:
+#         if node.is_leaf() == False:
+#             node_iter += 1
+#             if node.taxon:
+#                 node_label = node.taxon.label
+#             else:
+#                 node_label = node.label
+#             if node_label == "NA" or None:
+#                 phylo_tips = base_tree_leaves.intersection(set(tip.taxon.label for tip in node.leaf_iter()))
+#                 if len(phylo_tips) < 2:
+#                     node.label = "node{}".format(node_iter)
+#                 else:
+#                     mrca = base_tree.mrca(taxon_labels=phylo_tips)
+#                     node.label = mrca.label
+#             assert base_tree_leaves.intersection(set(tip.taxon.label for tip in node.leaf_iter())) == internal_label_map.get(node.label, set())
 
-# #             internal_label_map_new[node.label] = set(tip.taxon.label for tip in node.leaf_iter())
-# #     assert set(internal_label_map.keys()).issubset(set(internal_label_map_new.keys()))
-#     max_age_est = 130
-#     print("dating full tree, all dates, mean")
-#     treesfile, sources = chronogram.date_tree(tree,
-#                                                 all_dates,
-#                                                 root_node,
-#                                                 max_age_est,
-#                                                 method='bladj',
-#                                                 output_dir="{}/dates_all_mean_{}_{}".format(dates_dir, filename, tree_iter),
-#                                                 select = "mean",
-#                                                 reps = 1
-#                                                 )
-#     dated_phylo = dendropy.Tree.get_from_path(treesfile, schema = "newick")
-#     dated_phylo.write(path="{}/dated_mean_all_dates_ott_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
-#     for tax in dated_phylo.taxon_namespace:
-#         tax.label = clements_name_map.get(tax.label, tax.label)
-#     dated_phylo.write(path="{}/dated_mean_all_dates_clements_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
+#             internal_label_map_new[node.label] = set(tip.taxon.label for tip in node.leaf_iter())
+#     assert set(internal_label_map.keys()).issubset(set(internal_label_map_new.keys()))
+    max_age_est = 130
+    print("dating full tree, all dates, mean")
+    treesfile, sources = chronogram.date_tree(tree,
+                                                all_dates,
+                                                root_node,
+                                                max_age_est,
+                                                method='bladj',
+                                                output_dir="{}/dates_all_mean_{}_{}".format(dates_dir, filename, tree_iter),
+                                                select = "mean",
+                                                reps = 1
+                                                )
+    dated_phylo = dendropy.Tree.get_from_path(treesfile, schema = "newick")
+    dated_phylo.write(path="{}/dated_mean_all_dates_ott_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
+    for tax in dated_phylo.taxon_namespace:
+        tax.label = clements_name_map.get(tax.label, tax.label)
+    dated_phylo.write(path="{}/dated_mean_all_dates_clements_labels_{}_tree{}.tre".format(dates_dir, filename, tree_iter), schema="newick")
 
 
 #--------------------Generating citations -------------------------------------
